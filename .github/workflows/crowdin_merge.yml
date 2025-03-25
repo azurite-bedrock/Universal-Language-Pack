@@ -1,0 +1,75 @@
+name: Auto Merge Crowdin Pull Requests
+on:
+    workflow_dispatch:
+    pull_request:
+        types:
+            - opened
+
+permissions:
+    contents: write
+    pull-requests: read
+
+jobs:
+    merge:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Check if PR is from Crowdin
+              id: check-crowdin-pr
+              run: |
+                  PR_TITLE="${{ github.event.pull_request.title }}"
+                  PR_BODY="${{ github.event.pull_request.body }}"
+                  PR_AUTHOR="${{ github.event.pull_request.user.login }}"
+                  REPO_OWNER="${{ github.repository_owner }}"
+                  GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}"
+                  PR_NUMBER="${{ github.event.pull_request.number }}"
+                  REPO="${{ github.repository }}"
+
+                  # Check if the title contains "Crowdin Updates"
+                  if [[ "$PR_TITLE" != *"Crowdin Updates"* ]]; then
+                      echo "PR title does not contain 'Crowdin Updates'. Exiting..."
+                      exit 0
+                  fi
+
+                  # Fetch PR author's permissions
+                  PERMISSION=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                      "https://api.github.com/repos/${{ github.repository }}/collaborators/$PR_AUTHOR/permission" | jq -r '.permission')
+
+                  # Check if the PR author has admin permissions
+                  if [[ "$PERMISSION" != "admin" ]]; then
+                      echo "PR author does not have admin permissions. Exiting..."
+                      exit 0
+                  fi
+
+                  # Fetch PR data to extract labels (corrected endpoint)
+                  RESPONSE=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                  "https://api.github.com/repos/$REPO/pulls/$PR_NUMBER")
+
+                  # Ensure the response contains labels
+                  LABELS=$(echo "$RESPONSE" | jq -r '.labels[].name' 2>/dev/null || echo "")
+
+                  # Check if both required labels are present
+                  if [[ "$LABELS" != *"crowdin"* ]] || [[ "$LABELS" != *"i18n"* ]]; then
+                      echo "PR does not have both 'crowdin' and 'i18n' labels. Exiting..."
+                      exit 0
+                  fi
+
+                  # Add more checks as needed
+                  # Example: Check for specific files, changes, or other criteria
+
+                  # The above checks have passed so this is a Crowdin PR
+                  # otherwise the job would have exited
+                  # Set an environment variable to indicate this
+                  echo "IS_CROWDIN_PR=true" >> $GITHUB_ENV
+
+            - name: Merge Crowdin PR
+              if: env.IS_CROWDIN_PR == 'true'
+              run: |
+                  # Replace with your GitHub token and repository information
+                  GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+
+                  # Merge the pull request
+                  curl -X PUT -H "Authorization: token $GITHUB_TOKEN" \
+                    -d '{
+                      "merge_method": "merge"
+                    }' "$GITHUB_API_URL/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/merge"

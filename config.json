@@ -1,0 +1,83 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Bedrock-OSS/regolith-schemas/main/config/v1.4.json",
+    "author": "theaddonn",
+    "name": "Universal-Language-Pack",
+    "packs": {
+        "behaviorPack": "./packs/BP",
+        "resourcePack": "./packs/RP"
+    },
+    "regolith": {
+        "dataPath": "./packs/data",
+        "filterDefinitions": {
+            "json_normalizer": {
+                "url": "github.com/akashic-records-of-the-abyss/rusted-filters",
+                "version": "1.0.0"
+            },
+            "marathon": {
+                "url": "github.com/azurite-bedrock/regolith-filters",
+                "version": "cc18d2a113dba7e0088b653d96b8424fa60a7bb1"
+            },
+            "packer": {
+                "url": "github.com/MCDevKit/regolith-library",
+                "version": "1.0.3"
+            }
+        },
+        "formatVersion": "1.4.0",
+        "profiles": {
+            "base": {
+                "export": {
+                    "readOnly": false,
+                    "target": "development"
+                },
+                "filters": [
+                    {
+                        "filter": "json_normalizer"
+                    },
+                    {
+                        "filter": "marathon"
+                    }
+                ]
+            },
+            "default": {
+                "export": {
+                    "build": "standard",
+                    "readOnly": false,
+                    "target": "development"
+                },
+                "filters": [
+                    {
+                        "profile": "base"
+                    }
+                ]
+            },
+            "pack": {
+                "export": {
+                    "readOnly": false,
+                    "target": "none"
+                },
+                "filters": [
+                    {
+                        "profile": "release"
+                    },
+                    {
+                        "filter": "packer",
+                        "settings": {
+                            "output": "Universal-Language-Pack.mcpack"
+                        }
+                    }
+                ]
+            },
+            "release": {
+                "export": {
+                    "readOnly": false,
+                    "target": "development"
+                },
+                "filters": [
+                    {
+                        "profile": "base"
+                    }
+                ]
+            }
+        }
+    }
+}
