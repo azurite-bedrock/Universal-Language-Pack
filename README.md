@@ -31,8 +31,8 @@ Here’s a cleaner, clearer rewrite of your **Setup Guide**, with better formatt
 To build and run the Universal Language Pack, follow these steps:
 
 1. **Install Dependencies**
-   - [Regolith](https://github.com/Bedrock-OSS/regolith) – a build tool for Minecraft Bedrock packs.
-   - [Deno](https://deno.com/) – a runtime used by Regolith.
+   - [Regolith](https://github.com/Bedrock-OSS/regolith) – a build tool for Minecraft Bedrock packs/addons.
+   - [Deno](https://deno.com/) – a runtime used by some Regolith filters.
 
 2. **Clone the Repository**
    ```bash
