@@ -25,8 +25,6 @@ Join our Crowdin project to help refine current translations and contribute new 
 2. **Help Translate:** Join us on Crowdin to contribute translations.
 3. **Join the Community:** Come hang out or ask questions on [Discord](https://discord.gg/rPNcYYNN6p).
 
-Here’s a cleaner, clearer rewrite of your **Setup Guide**, with better formatting, consistent tone, and added context where needed:
-
 ## Setup Guide
 To build and run the Universal Language Pack, follow these steps:
 
