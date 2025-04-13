@@ -1,5 +1,133 @@
 [
     {
+        "identifier": "accessibility.chat.tts.says",
+        "source_string": "%s says %s",
+        "translation": "%s ਕਹਿੱਦੀ ਹੈ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.sendChatMessage",
+        "source_string": "Send",
+        "translation": "ਭੇਜੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.textboxTitle",
+        "source_string": "Chat",
+        "translation": "ਚੈਟ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.two",
+        "source_string": "%s or %s",
+        "translation": "%s ਜਾਂ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.first",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.inner",
+        "source_string": ", %s",
+        "translation": ", %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.last",
+        "source_string": ", or %s",
+        "translation": ", ਜਾਂ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "ਤਸਵੀਰ",
+        "context": "TTS spoken word for image types",
+        "labels": "unassigned, lang",
+        "max_length": 15
+    },
+    {
+        "identifier": "accessibility.button.exit",
+        "source_string": "Exit",
+        "translation": "ਨਿਕਾਸ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.store.offerDescription.share",
+        "source_string": "Share",
+        "translation": "ਸਾਂਝਾ ਕਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.new",
+        "source_string": "New",
+        "translation": "ਨਵਾਂ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.worldTemplates.help",
+        "source_string": "Help",
+        "translation": "ਮਦਦ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.keyboard.arrow",
+        "source_string": "arrow",
+        "translation": "ਤੀਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.name",
+        "source_string": "Name: %s (%s)",
+        "translation": "ਨਾਮ %s (%s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut",
+        "source_string": "Sign Out",
+        "translation": "ਸਾਇਨ-ਆਊਟ ਕਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.manage",
+        "source_string": "Manage Account",
+        "translation": "ਖਾਤਾ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.diamonds",
         "source_string": "DIAMONDS!",
         "translation": "ਹੀਰੇ!",
@@ -128,6 +256,14 @@
         "max_length": null
     },
     {
+        "identifier": "action.interact.sit",
+        "source_string": "Sit",
+        "translation": "ਬੈਠਣਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "action.interact.talk",
         "source_string": "Talk",
         "translation": "ਗੱਲ ਕਰੋ",
@@ -200,6 +336,94 @@
         "max_length": null
     },
     {
+        "identifier": "apple.iCloudSignInRequired.title",
+        "source_string": "Sign In",
+        "translation": "ਸਾਈਨ ਇਨ ਕਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.plus.0",
+        "source_string": "+%d %s",
+        "translation": "+%d %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.plus.1",
+        "source_string": "+%d%% %s",
+        "translation": "+%d%% %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.plus.2",
+        "source_string": "+%d%% %s",
+        "translation": "+%d%% %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.take.0",
+        "source_string": "-%d %s",
+        "translation": "-%d %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.take.1",
+        "source_string": "-%d%% %s",
+        "translation": "-%d%% %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.take.2",
+        "source_string": "-%d%% %s",
+        "translation": "-%d%% %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.help",
+        "source_string": "Help",
+        "translation": "ਮਦਦ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.toast.refreshFailed.title",
+        "source_string": "Account",
+        "translation": "ਖਾਤਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.color",
+        "source_string": "Color",
+        "translation": "ਰੰਗ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.lineSpacingNumber",
+        "source_string": "x%s",
+        "translation": "x%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "color.black",
         "source_string": "Black",
         "translation": "ਕਾਲ਼ਾ",
@@ -232,6 +456,14 @@
         "max_length": null
     },
     {
+        "identifier": "color.green",
+        "source_string": "Green",
+        "translation": "ਹਰਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "color.red",
         "source_string": "Red",
         "translation": "ਲਾਲ਼",
@@ -256,10 +488,42 @@
         "max_length": null
     },
     {
+        "identifier": "commandBlock.shortName",
+        "source_string": "@",
+        "translation": "@",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.autocomplete.a",
         "source_string": "all players",
         "translation": "ਸਾਰੇ ਖਿਡਾਰੀ",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.list.tags",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.get.success",
+        "source_string": "%1$d",
+        "translation": "%1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.entry",
+        "source_string": "- %2$s: %1$d (%3$s)",
+        "translation": "- %2$s %1$d %3$s)",
+        "context": "1: Player Name ##2: Score Value ##3: Team Display Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -280,9 +544,153 @@
         "max_length": null
     },
     {
+        "identifier": "container.enchant.clue",
+        "source_string": "%s . . . ?",
+        "translation": "%s . . . ?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "controller.buttonTip.clearQuickSelect",
         "source_string": "Clear Quick Select",
         "translation": null,
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.edit",
+        "source_string": "Edit",
+        "translation": "ਸੋਧ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.new",
+        "source_string": "New",
+        "translation": "ਨਵਾਂ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.recipes.showAll",
+        "source_string": "Show All",
+        "translation": "ਸਭ ਦਿਖਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.enterSearch",
+        "source_string": "Search",
+        "translation": "ਖੋਜੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.take",
+        "source_string": "Take",
+        "translation": "ਲਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.activeBindingNameFormat",
+        "source_string": "> %s <",
+        "translation": "> %s <",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "course.edu.objective.bulletedString",
+        "source_string": "- %s",
+        "translation": "- %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "course.edu.progress.new",
+        "source_string": "New",
+        "translation": "ਨਵਾਂ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "course.edu.titleWithOrderPrefix.formatted",
+        "source_string": "%d: %s",
+        "translation": "%d %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorld.customize.custom.useVillages",
+        "source_string": "Villages",
+        "translation": "ਪਿੰਡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldUpsell.button.world",
+        "source_string": "New World",
+        "translation": "ਨਵਾਂ ਦੁਨੀਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.deleteWorld",
+        "source_string": "Delete World",
+        "translation": "ਦੁਨੀਆ ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.header.general.project",
+        "source_string": "Project",
+        "translation": "ਪ੍ਰੋਜੈਕਟ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.playerSleepPercentageFormat",
+        "source_string": "%s%%",
+        "translation": "%s%%",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareDialogShareButton",
+        "source_string": "Share",
+        "translation": "ਸਾਂਝਾ ਕਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareDialogCopyButton",
+        "source_string": "Copy",
+        "translation": "ਕਾਪੀ ਕਰੋ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -307,6 +715,14 @@
         "identifier": "realmsCreateScreen.playSolo",
         "source_string": "Play Solo",
         "translation": "ਇੱਕਲਿਆਂ ਖੇਡੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.confirmReset",
+        "source_string": "Delete & Reset?",
+        "translation": "ਮਿਟਾਓ & ਰੀਸੈੱਤ?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -738,7 +1154,7 @@
     {
         "identifier": "death.fell.accident.vines",
         "source_string": "%1$s fell off some vines",
-        "translation": "%1$s ਵੇਲਾਂ ਤੋਂ ਡਿੱਗ ਪਿਆ",
+        "translation": "%1$s ਵੇਲਾਂ ਤੋਂ ਥੱਲੇ ਡਿੱਗ ਪਿਆ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -752,9 +1168,57 @@
         "max_length": null
     },
     {
+        "identifier": "deathScreen.deleteWorld",
+        "source_string": "Delete world",
+        "translation": "ਦੁਨੀਆ ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.about",
+        "source_string": "ABOUT",
+        "translation": "ਬਾਰੇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.delete",
+        "source_string": "DELETE",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.delete",
+        "source_string": "DELETE",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.delete_confirm",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "effect.duration.infinite",
         "source_string": "∞",
         "translation": "∞",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.badOmen",
+        "source_string": "Bad Omen",
+        "translation": "ਅਪਸਗਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -779,6 +1243,14 @@
         "identifier": "enchantment.crossbowPiercing",
         "source_string": "Piercing",
         "translation": "ਵਿੰਨਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.heavy_weapon.density",
+        "source_string": "Density",
+        "translation": "ਸੰਘਣਾਪਣ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1168,6 +1640,30 @@
         "max_length": null
     },
     {
+        "identifier": "feed.delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.deleteWorldLong",
+        "source_string": "Delete World",
+        "translation": "ਦੁਨੀਆ ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hostOption.weather",
         "source_string": "Weather",
         "translation": "ਮੌਸਮ",
@@ -1180,6 +1676,158 @@
         "source_string": "Rain",
         "translation": "ਮੀਂਹ",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.furnace",
+        "source_string": "Furnace",
+        "translation": "ਭੱਠੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.categories.multiplayer",
+        "source_string": "Multiplayer",
+        "translation": "ਬਹੁਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.delete",
+        "source_string": "DELETE",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.multiplayer",
+        "source_string": "Multiplayer",
+        "translation": "ਬਹੁਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.profile",
+        "source_string": "Profile",
+        "translation": "ਪ੍ਰੋਫਾਇਲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.singleplayer",
+        "source_string": "Singleplayer",
+        "translation": "ਇਕਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.group.feedback",
+        "source_string": "Feedback",
+        "translation": "ਸੁਝਾਅ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.group.multiplayer",
+        "source_string": "Multiplayer",
+        "translation": "ਬਹੁਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.language",
+        "source_string": "Language",
+        "translation": "ਭਾਸ਼ਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "playercount.single_player",
+        "source_string": "Single Player",
+        "translation": "ਇਕਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "playercount.multiplayer",
+        "source_string": "Multiplayer",
+        "translation": "ਬਹੁਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bed.name",
+        "source_string": "Bed",
+        "translation": "ਖੱਤ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.multiplayer.title",
+        "source_string": "MULTIPLAYER",
+        "translation": "ਬਹੁਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.zooming",
+        "source_string": "Zooming",
+        "translation": "ਜ਼ੂਮ ਕਰਨਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bush.name",
+        "source_string": "Bush",
+        "translation": "ਝਾੜ",
+        "context": "A small, dense, plant",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.brown_egg.name",
+        "source_string": "Brown Egg",
+        "translation": "ਭੂਰਾ ਆਂਡਾ",
+        "context": "A brown chicken egg which hatches a warm climate variant of a chicken",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.blue_egg.name",
+        "source_string": "Blue Egg",
+        "translation": "ਨੀਲਾ ਆਂਡਾ",
+        "context": "A blue chicken egg which hatches a cold climate variant of a chicken",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.short_dry_grass.name",
+        "source_string": "Short Dry Grass",
+        "translation": "ਨਿੱਕੀ ਸੁੱਕੀ ਘਾਹ",
+        "context": "A patch of short dried grass on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tall_dry_grass.name",
+        "source_string": "Tall Dry Grass",
+        "translation": "ਲੰਮੀ ਸੁੱਕੀ ਘਾਹ",
+        "context": "A patch of tall dried grass on the ground",
         "labels": "unassigned, lang",
         "max_length": null
     }

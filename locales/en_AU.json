@@ -1,1 +1,618 @@
-[]
+[
+    {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "Universal Language Pack",
+        "context": "Name of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.description",
+        "source_string": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by theaddonn",
+        "translation": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by theaddonn",
+        "context": "Description of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "language.name",
+        "source_string": "Name (Location)",
+        "translation": "Name (Location)",
+        "context": "Name of the to be translated language",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.disableTTS",
+        "source_string": "Text To Speech disabled",
+        "translation": "Text To Speech disabled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.enableTTS",
+        "source_string": "Text To Speech enabled",
+        "translation": "Text To Speech enabled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.hideChat",
+        "source_string": "Hide chat",
+        "translation": "Hide chat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.keyboard",
+        "source_string": "Keyboard",
+        "translation": "Keyboard",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.muteChatToggle",
+        "source_string": "Mute All",
+        "translation": "Mute All",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.sendChatMessage",
+        "source_string": "Send",
+        "translation": "Send",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.textboxTitle",
+        "source_string": "Chat",
+        "translation": "Chat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.game.playerView",
+        "source_string": "Player view",
+        "translation": "Player view",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.loading.done",
+        "source_string": "Done",
+        "translation": "Done",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.saving.done",
+        "source_string": "Done",
+        "translation": "Done",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.start",
+        "source_string": "Download begun",
+        "translation": "Download begun",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.canceled",
+        "source_string": "Download canceled",
+        "translation": "Download cancelled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.complete",
+        "source_string": "Download complete",
+        "translation": "Download complete",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.start",
+        "source_string": "Import begun",
+        "translation": "Import begun",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.canceled",
+        "source_string": "Import canceled",
+        "translation": "Import cancelled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.complete",
+        "source_string": "Import complete",
+        "translation": "Import complete",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.tts.title",
+        "source_string": "Button",
+        "translation": "Button",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.checkbox.tts.title",
+        "source_string": "Checkbox",
+        "translation": "Checkbox",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.dropdown.tts.title",
+        "source_string": "Dropdown",
+        "translation": "Dropdown",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "Image",
+        "context": "TTS spoken word for image types",
+        "labels": "unassigned, lang",
+        "max_length": 15
+    },
+    {
+        "identifier": "accessibility.slider.tts.title",
+        "source_string": "Slider",
+        "translation": "Slider",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.tab.tts.title",
+        "source_string": "Tab",
+        "translation": "Tab",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.textbox.tts.title",
+        "source_string": "Textbox",
+        "translation": "Textbox",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.toggle.tts.title",
+        "source_string": "Toggle",
+        "translation": "Toggle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.scrollbar.tts.title",
+        "source_string": "Scroll Bar",
+        "translation": "Scroll Bar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.navigateLeft",
+        "source_string": "Left Arrow",
+        "translation": "Left Arrow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.navigateRight",
+        "source_string": "Right Arrow",
+        "translation": "Right Arrow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.close",
+        "source_string": "close",
+        "translation": "close",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.back",
+        "source_string": "back",
+        "translation": "back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.exit",
+        "source_string": "Exit",
+        "translation": "Exit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.legacyWorldsDelete",
+        "source_string": "Delete Legacy World",
+        "translation": "Delete Legacy World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.uploadWorld",
+        "source_string": "Upload World",
+        "translation": "Upload World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.permissions",
+        "source_string": "Permissions",
+        "translation": "Permissions",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.profile",
+        "source_string": "Choose Profile",
+        "translation": "Choose Profile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.achievements",
+        "source_string": "Achievements Screen",
+        "translation": "Achievements Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chat",
+        "source_string": "Chat Screen",
+        "translation": "Chat Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chatSettings",
+        "source_string": "Chat Settings Screen",
+        "translation": "Chat Settings Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.createNew",
+        "source_string": "Create New Screen",
+        "translation": "Create New Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.createWorld",
+        "source_string": "Create World Settings Screen",
+        "translation": "Create World Settings Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editCharacter",
+        "source_string": "Character Creator",
+        "translation": "Character Creator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editWorldSettings",
+        "source_string": "Edit World Settings Screen",
+        "translation": "Edit World Settings Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.error",
+        "source_string": "Error Screen",
+        "translation": "Error Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.encyclopedia",
+        "source_string": "Encyclopedia Screen",
+        "translation": "Encyclopedia Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.howToPlay",
+        "source_string": "How To Play Screen",
+        "translation": "How To Play Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.inviteToGame",
+        "source_string": "Invite To Game Screen",
+        "translation": "Invite To Game Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.library",
+        "source_string": "Library Screen",
+        "translation": "Library Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.myTemplates",
+        "source_string": "My Templates Screen",
+        "translation": "My Templates Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.myWorlds",
+        "source_string": "My Worlds Screen",
+        "translation": "My Worlds Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.myServers",
+        "source_string": "My Servers Screen",
+        "translation": "My Servers Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.patchNotes",
+        "source_string": "Patch Notes Screen",
+        "translation": "Patch Notes Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.pause",
+        "source_string": "Game menu",
+        "translation": "Game menu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.permissions",
+        "source_string": "Permissions Screen",
+        "translation": "Permissions Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.play",
+        "source_string": "Play Screen",
+        "translation": "Play Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.profile",
+        "source_string": "Profile Screen",
+        "translation": "Profile Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.realmInviteLinkSettings",
+        "source_string": "Realm Invite Link Settings Screen",
+        "translation": "Realm Invite Link Settings Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.realmSettings",
+        "source_string": "Realm Settings Screen",
+        "translation": "Realm Settings Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.settings",
+        "source_string": "Game Settings Screen",
+        "translation": "Game Settings Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.skinPicker",
+        "source_string": "Choose Skin Screen",
+        "translation": "Choose Skin Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.start",
+        "source_string": "Main Menu",
+        "translation": "Main Menu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.vrAlignment",
+        "source_string": "VR Alignment Screen ",
+        "translation": "VR Alignment Screen ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.emoteWheel",
+        "source_string": "Emotes Screen",
+        "translation": "Emotes Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.addExternalServer",
+        "source_string": "Add External Server Screen",
+        "translation": "Add External Server Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editExternalServer",
+        "source_string": "Edit External Server Screen",
+        "translation": "Edit External Server Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.search.sort_menu.A_to_Z.tts.title",
+        "source_string": "'A' to 'Z'",
+        "translation": "'A' to 'Z'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.search.sort_menu.Z_to_A.tts.title",
+        "source_string": "'Z' to 'A'",
+        "translation": "'Z' to 'A'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.settings.reset",
+        "source_string": "reset",
+        "translation": "reset",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.settings.chooseSeed",
+        "source_string": "Choose Seed",
+        "translation": "Choose Seed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.feedback",
+        "source_string": "Submit Feedback Link to Website",
+        "translation": "Submit Feedback Link to Website",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.new",
+        "source_string": "New",
+        "translation": "New",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.skinPicker",
+        "source_string": "Choose Skin",
+        "translation": "Choose Skin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.store.tag",
+        "source_string": "Tag",
+        "translation": "Tag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.textbox.editing",
+        "source_string": "Editing",
+        "translation": "Editing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.period",
+        "source_string": "Period",
+        "translation": "Period",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.period.url",
+        "source_string": "Dot",
+        "translation": "Dot",
+        "context": "Pronunciation for a period inside of a URL, as in \"www dot microsoft dot com\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    }
+]
