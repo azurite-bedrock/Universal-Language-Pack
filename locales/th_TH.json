@@ -1,1 +1,626 @@
-[]
+[
+    {
+        "identifier": "language.name",
+        "source_string": "Name (Location)",
+        "translation": "ชื่อ",
+        "context": "Name of the to be translated language",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.disableTTS",
+        "source_string": "Text To Speech disabled",
+        "translation": "ปิดอ่านข้อความเป็นเสียง",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.enableTTS",
+        "source_string": "Text To Speech enabled",
+        "translation": "เปิดอ่านข้อความเป็นเสียง",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.back",
+        "source_string": "Press the %s to go back",
+        "translation": "กด %s เพื่อย้อนกลับ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.exitChat",
+        "source_string": "Press the %s to exit chat",
+        "translation": "กด %s เพื่อออกจากแชท",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.sendMessage",
+        "source_string": "Press the %s to send message",
+        "translation": "กด %s เพื่อส่งข้อความ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.says",
+        "source_string": "%s says %s",
+        "translation": "%s พูดว่า %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.hideChat",
+        "source_string": "Hide chat",
+        "translation": "ซ่อนแชท",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.keyboard",
+        "source_string": "Keyboard",
+        "translation": "แป้นพิมพ์",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.muteChatToggle",
+        "source_string": "Mute All",
+        "translation": "ปิดเสียงทั้งหมด",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.sendChatMessage",
+        "source_string": "Send",
+        "translation": "ส่ง",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.textboxTitle",
+        "source_string": "Chat",
+        "translation": "แชท",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.game.playerView",
+        "source_string": "Player view",
+        "translation": "มุมมองผู้เล่น",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.loading.done",
+        "source_string": "Done",
+        "translation": "เสร็จแล้ว",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.saving.done",
+        "source_string": "Done",
+        "translation": "เสร็จสิ้น",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.start",
+        "source_string": "Download begun",
+        "translation": "การดาวน์โหลดได้เริ่มขึ้นแล้ว",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.Progress",
+        "source_string": "Downloading %s percent",
+        "translation": "กำลังโหลด%sเปอร์เซ็นต์",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.canceled",
+        "source_string": "Download canceled",
+        "translation": "ยกเลิกการดาวน์โหลด",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.complete",
+        "source_string": "Download complete",
+        "translation": "เสร็จสิ้นการดาวน์โหลด",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.start",
+        "source_string": "Import begun",
+        "translation": "เริ่มการนำเข้า",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.Progress",
+        "source_string": "Importing %s percent",
+        "translation": "กำลังนำเข้า%sเปอร์เซ็นต์",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.canceled",
+        "source_string": "Import canceled",
+        "translation": "ยกเลิกการนำเข้า",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.complete",
+        "source_string": "Import complete",
+        "translation": "นำข้อมูลเข้าเรียบร้อยแล้ว",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.signin.xbl",
+        "source_string": "Signing into X box live",
+        "translation": "กำลังเชื่อมต่อกับ X box live",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.howtoopen",
+        "source_string": "Press %s to open chat",
+        "translation": "กด%sเพื่อเปิดโอเพนแชท",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.howtoemote",
+        "source_string": "Press or Hold %s to Emote",
+        "translation": "กด%sหรือกดค้างเพื่อแสดงอารมณ์",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.key.mouseButton",
+        "source_string": "Mouse Button %s",
+        "translation": "ปุ่มเมาส์ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.key.gamepad",
+        "source_string": "Controller %s",
+        "translation": "ตัวควบคุม %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.two",
+        "source_string": "%s or %s",
+        "translation": "%s หรือ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.first",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.inner",
+        "source_string": ", %s",
+        "translation": ", %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.last",
+        "source_string": ", or %s",
+        "translation": ", หรือ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.tts.title",
+        "source_string": "Button",
+        "translation": "ปุ่ม",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.checkbox.tts.title",
+        "source_string": "Checkbox",
+        "translation": "ช่องทำเครื่องหมาย",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.checkbox.tts.status",
+        "source_string": "status %s",
+        "translation": "สถานะ%s",
+        "context": "Status will be checked or unchecked",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.dropdown.tts.title",
+        "source_string": "Dropdown",
+        "translation": "หล่นลง",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "รูปภาพ",
+        "context": "TTS spoken word for image types",
+        "labels": "unassigned, lang",
+        "max_length": 15
+    },
+    {
+        "identifier": "accessibility.screen.tts.title",
+        "source_string": "%s Screen",
+        "translation": "%s",
+        "context": "%s will be replaced with the title of the screen (Example: Library Screen)",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.slider.tts.title",
+        "source_string": "Slider",
+        "translation": "แถบเลื่อน",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.tab.tts.title",
+        "source_string": "Tab",
+        "translation": "แท็บ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.textbox.tts.title",
+        "source_string": "Textbox",
+        "translation": "กล่องข้อความ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.toggle.tts.title",
+        "source_string": "Toggle",
+        "translation": "สลับ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.scrollbar.tts.title",
+        "source_string": "Scroll Bar",
+        "translation": "แถบเลื่อนจอภาพ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.navigateLeft",
+        "source_string": "Left Arrow",
+        "translation": "ลูกศรซ้าย",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.navigateRight",
+        "source_string": "Right Arrow",
+        "translation": "ลูกศรขวา",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.close",
+        "source_string": "close",
+        "translation": "ปิด",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.back",
+        "source_string": "back",
+        "translation": "ย้อนกลับ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.exit",
+        "source_string": "Exit",
+        "translation": "ออกจากระบบ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editRealm",
+        "source_string": "Edit Realm",
+        "translation": "แก้ไขเรียม",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editServer",
+        "source_string": "Edit Server",
+        "translation": "แก้ไขเซิร์ฟเวอร์",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.importWorld",
+        "source_string": "Import World",
+        "translation": "นำเข้าโลก",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.leaveRealm",
+        "source_string": "Leave Realm",
+        "translation": "ออกจากเรียม",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.noNewPosts",
+        "source_string": "No new posts",
+        "translation": "ไม่มีข่าวสารใหม่",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.singleNewPost",
+        "source_string": "1 new post",
+        "translation": "1 โพสต์ใหม่",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.multipleNewPosts",
+        "source_string": "%s new posts",
+        "translation": "%s โพสต์ใหม่",
+        "context": "%s will be a number",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabLeft",
+        "source_string": "Press the %s to tab left",
+        "translation": "กด%sเพื่อไปเเท็บซ้าย",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabRight",
+        "source_string": "Press the %s to tab right",
+        "translation": "กด%sเพื่อไปเเท็บขวา",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.legacyWorldsDelete",
+        "source_string": "Delete Legacy World",
+        "translation": "ลบโลกในตำนาน",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.uploadWorld",
+        "source_string": "Upload World",
+        "translation": "อัปโหลด world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.permissions",
+        "source_string": "Permissions",
+        "translation": "สิทธิ์การใช้งาน",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.profile",
+        "source_string": "Choose Profile",
+        "translation": "เลือกโปรไฟล์",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.buttonHelper",
+        "source_string": "%s : %s",
+        "translation": "%s:%s",
+        "context": "Used for on-screen gamepad helpers (eg. \"Y Button : Change User\")",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.achievements",
+        "source_string": "Achievements Screen",
+        "translation": "หน้าจอแสดงความสำเร็จ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chat",
+        "source_string": "Chat Screen",
+        "translation": "หน้าจอแสดงบทสนทนา",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chatSettings",
+        "source_string": "Chat Settings Screen",
+        "translation": "การตั้งค่าหน้าจอแสดงบทสนทนา",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.createNew",
+        "source_string": "Create New Screen",
+        "translation": "สร้างบทสนทนาใหม่",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.error",
+        "source_string": "Error Screen",
+        "translation": "ผิดพลาด",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.howToPlay",
+        "source_string": "How To Play Screen",
+        "translation": "วิธีการเล่น",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.inviteToGame",
+        "source_string": "Invite To Game Screen",
+        "translation": "การเชิญเข้าเกม",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.start",
+        "source_string": "Main Menu",
+        "translation": "หน้าหลัก",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.search.sort_menu.A_to_Z.tts.title",
+        "source_string": "'A' to 'Z'",
+        "translation": "'ก' ถึง 'ฮ'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.search.sort_menu.Z_to_A.tts.title",
+        "source_string": "'Z' to 'A'",
+        "translation": "'ฮ' ถึง 'ก'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.store.tag",
+        "source_string": "Tag",
+        "translation": "แท็ก",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.textbox.editing",
+        "source_string": "Editing",
+        "translation": "กำลังแก้ไข",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.period",
+        "source_string": "Period",
+        "translation": "ระยะเวลา",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.period.url",
+        "source_string": "Dot",
+        "translation": "จุด",
+        "context": "Pronunciation for a period inside of a URL, as in \"www dot microsoft dot com\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.comma",
+        "source_string": "Comma",
+        "translation": ",",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.colon",
+        "source_string": "Colon",
+        "translation": "โคลอน",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    }
+]
