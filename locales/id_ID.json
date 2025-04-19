@@ -1,8 +1,32 @@
 [
     {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "Paket Bahasa Universal",
+        "context": "Name of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.description",
+        "source_string": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by theaddonn",
+        "translation": "Paket Sumber yang menambahkan bahasa-bahasa yang tidak ada di edisi Bedrock. Dikembangkan oleh theaddonn",
+        "context": "Description of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "language.name",
+        "source_string": "Name (Location)",
+        "translation": "Bahasa Indonesia (Indonesia)",
+        "context": "Name of the to be translated language",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.disableTTS",
         "source_string": "Text To Speech disabled",
-        "translation": "Teks untuk Ucapan dinonaktifkan",
+        "translation": "Teks ke Ucapan dinonaktifkan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10,7 +34,7 @@
     {
         "identifier": "accessibility.enableTTS",
         "source_string": "Text To Speech enabled",
-        "translation": "Teks untuk Ucapan diaktifkan",
+        "translation": "Teks ke Ucapan diaktifkan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58,7 +82,7 @@
     {
         "identifier": "accessibility.chat.tts.keyboard",
         "source_string": "Keyboard",
-        "translation": "Keyboard",
+        "translation": "Kibor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -194,7 +218,7 @@
     {
         "identifier": "accessibility.chat.howtoemote",
         "source_string": "Press or Hold %s to Emote",
-        "translation": "Tekan atau Tahan %s untuk melakukan Emosi",
+        "translation": "Tekan atau Tahan %s untuk melakukan Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -202,7 +226,7 @@
     {
         "identifier": "accessibility.key.mouseButton",
         "source_string": "Mouse Button %s",
-        "translation": "Tombol Mouse %s",
+        "translation": "Tombol Tetikus %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -210,7 +234,7 @@
     {
         "identifier": "accessibility.key.gamepad",
         "source_string": "Controller %s",
-        "translation": "Pengontrol %s",
+        "translation": "Pengendali %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -762,7 +786,7 @@
     {
         "identifier": "accessibility.screenName.howToPlay",
         "source_string": "How To Play Screen",
-        "translation": "Layar Cara Main",
+        "translation": "Layar Cara Bermain",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -930,7 +954,7 @@
     {
         "identifier": "accessibility.screenName.emoteWheel",
         "source_string": "Emotes Screen",
-        "translation": "Layar Emosi",
+        "translation": "Layar Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1626,7 +1650,7 @@
     {
         "identifier": "accessibility.emotes.hovered",
         "source_string": "%s, emote button %d, %d of %d",
-        "translation": "%s, tombol emosi %d, %d dari %d",
+        "translation": "%s, tombol gestur %d, %d dari %d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1634,7 +1658,7 @@
     {
         "identifier": "accessibility.emotes.assigned",
         "source_string": "The %s emote assigned",
-        "translation": "Emosi %s ditetapkan",
+        "translation": "Gestur %s ditetapkan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1650,7 +1674,7 @@
     {
         "identifier": "accessibility.emotes.playSuccess",
         "source_string": "Play emote",
-        "translation": "Mainkan emosi",
+        "translation": "Mainkan gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1658,7 +1682,7 @@
     {
         "identifier": "accessibility.emotes.playFailed",
         "source_string": "No emote assigned to this button, press %s the Change Emotes button",
-        "translation": "Tidak ada emosi yang ditetapkan ke tombol ini, tekan %s tombol Ubah Emosi",
+        "translation": "Tidak ada gestur yang ditetapkan ke tombol ini, tekan %s tombol Ubah Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1682,7 +1706,7 @@
     {
         "identifier": "accessibility.emotes.instruction.keyboard",
         "source_string": "Press right or left to cycle through emote buttons. Press the down arrow to access the Change Emotes button.",
-        "translation": "Tekan kanan atau kiri untuk beralih pada tombol emosi. Tekan panah bawah untuk mengakses tombol Ubah Emosi.",
+        "translation": "Tekan kanan atau kiri untuk beralih pada tombol gestur. Tekan panah bawah untuk mengakses tombol Ubah Gestur.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1842,7 +1866,7 @@
     {
         "identifier": "achievement.blaze_rod.desc",
         "source_string": "Relieve a Blaze of its rod",
-        "translation": "Padamkan Kobaran Api batangnya",
+        "translation": "Padamkan Kemamang batangnya",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2922,7 +2946,7 @@
     {
         "identifier": "action.interact.wakevillager",
         "source_string": "Wake Villager",
-        "translation": "Bangunkan Orang Desa",
+        "translation": "Bangunkan Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3066,7 +3090,7 @@
     {
         "identifier": "advMode.command.charLimitExceeded",
         "source_string": "Command Input exceeds 500 characters. It is not possible to open the keyboard input on this device type.",
-        "translation": "Input perintah melebihi 500 karakter. Input keyboard tidak bisa dibuka pada perangkat jenis ini.",
+        "translation": "Input perintah melebihi 500 karakter. Input kibor tidak bisa dibuka pada perangkat jenis ini.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3266,7 +3290,7 @@
     {
         "identifier": "attribute.name.zombie.spawnReinforcements",
         "source_string": "Zombie Reinforcements",
-        "translation": "Bala Bantuan Zombie",
+        "translation": "Bala Bantuan Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4122,7 +4146,7 @@
     {
         "identifier": "chat.settings.tts",
         "source_string": "Text To Speech For Chat",
-        "translation": "Teks untuk Ucapan dalam Obrolan",
+        "translation": "Teks ke Ucapan untuk Obrolan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14850,7 +14874,7 @@
     {
         "identifier": "createWorldScreen.experimentalVillagerTradesRebalance",
         "source_string": "Villager Trade Rebalancing",
-        "translation": "Penyeimbangan Ulang Perdagangan Orang Desa",
+        "translation": "Penyeimbangan Ulang Perdagangan Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14858,7 +14882,7 @@
     {
         "identifier": "createWorldScreen.experimentalVillagerTradesRebalanceDescription",
         "source_string": "Contains updated trades for villagers for the purpose of rebalancing",
-        "translation": "Berisikan perdagangan yang diperbarui untuk orang desa demi penyeimbangan ulang",
+        "translation": "Berisikan perdagangan yang diperbarui untuk penduduk demi penyeimbangan ulang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20682,7 +20706,7 @@
     {
         "identifier": "demo.help.movement",
         "source_string": "Use %1$s, %2$s, %3$s, %4$s and the mouse to move around",
-        "translation": "Gunakan %1$s, %2$s, %3$s, %4$s dan mouse untuk bergerak",
+        "translation": "Gunakan %1$s, %2$s, %3$s, %4$s dan tetikus untuk bergerak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20690,7 +20714,7 @@
     {
         "identifier": "demo.help.movementMouse",
         "source_string": "Look around using the mouse",
-        "translation": "Lihat sekitar menggunakan mouse",
+        "translation": "Lihat sekitar menggunakan tetikus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22650,7 +22674,7 @@
     {
         "identifier": "entity.blaze.name",
         "source_string": "Blaze",
-        "translation": "Kobaran Api",
+        "translation": "Kemamang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22666,7 +22690,7 @@
     {
         "identifier": "entity.bogged.name",
         "source_string": "Bogged",
-        "translation": "Bogged",
+        "translation": "Bengkarak Rawa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22674,7 +22698,7 @@
     {
         "identifier": "entity.breeze.name",
         "source_string": "Breeze",
-        "translation": "Breeze",
+        "translation": "Pawana",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22778,7 +22802,7 @@
     {
         "identifier": "entity.drowned.name",
         "source_string": "Drowned",
-        "translation": "Drowned",
+        "translation": "Zombi Air",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22794,7 +22818,7 @@
     {
         "identifier": "entity.elder_guardian.name",
         "source_string": "Elder Guardian",
-        "translation": "Elder Guardian",
+        "translation": "Tetua Penjaga",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22842,7 +22866,7 @@
     {
         "identifier": "entity.evocation_illager.name",
         "source_string": "Evoker",
-        "translation": "Evoker",
+        "translation": "Pawang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22850,7 +22874,7 @@
     {
         "identifier": "entity.evocation_fang.name",
         "source_string": "Evoker Fang",
-        "translation": "Taring Evoker",
+        "translation": "Taring Pawang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22962,7 +22986,7 @@
     {
         "identifier": "entity.glow_squid.name",
         "source_string": "Glow Squid",
-        "translation": "Cumi-Cumi Berkilau",
+        "translation": "Cumi-Cumi Sinar",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22970,7 +22994,7 @@
     {
         "identifier": "entity.piglin_brute.name",
         "source_string": "Piglin Brute",
-        "translation": "Berandal Piglin",
+        "translation": "Piglin Ganas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22978,7 +23002,7 @@
     {
         "identifier": "entity.guardian.name",
         "source_string": "Guardian",
-        "translation": "Guardian",
+        "translation": "Penjaga",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23002,7 +23026,7 @@
     {
         "identifier": "entity.husk.name",
         "source_string": "Husk",
-        "translation": "Husk",
+        "translation": "Zombi Kering",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23058,7 +23082,7 @@
     {
         "identifier": "entity.llama.name",
         "source_string": "Llama",
-        "translation": "Llama",
+        "translation": "Lama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23066,7 +23090,7 @@
     {
         "identifier": "entity.trader_llama.name",
         "source_string": "Trader Llama",
-        "translation": "Llama Pedagang",
+        "translation": "Lama Pedagang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23074,7 +23098,7 @@
     {
         "identifier": "entity.llama_spit.name",
         "source_string": "Llama Spit",
-        "translation": "Liur Llama",
+        "translation": "Liur Lama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23162,7 +23186,7 @@
     {
         "identifier": "entity.ocelot.name",
         "source_string": "Ocelot",
-        "translation": "Ocelot",
+        "translation": "Oselot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23178,7 +23202,7 @@
     {
         "identifier": "entity.parrot.name",
         "source_string": "Parrot",
-        "translation": "Kakatua",
+        "translation": "Bayan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23186,7 +23210,7 @@
     {
         "identifier": "entity.phantom.name",
         "source_string": "Phantom",
-        "translation": "Hantu",
+        "translation": "Angan-Angan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23266,7 +23290,7 @@
     {
         "identifier": "entity.skeleton.name",
         "source_string": "Skeleton",
-        "translation": "Kerangka",
+        "translation": "Bengkarak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23274,7 +23298,7 @@
     {
         "identifier": "entity.skeleton_horse.name",
         "source_string": "Skeleton Horse",
-        "translation": "Kuda Tengkorak",
+        "translation": "Kuda Bengkarak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23282,7 +23306,7 @@
     {
         "identifier": "entity.stray.name",
         "source_string": "Stray",
-        "translation": "Stray",
+        "translation": "Bengkarak Salju",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23290,7 +23314,7 @@
     {
         "identifier": "entity.slime.name",
         "source_string": "Slime",
-        "translation": "Slime",
+        "translation": "Geladir",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23306,7 +23330,7 @@
     {
         "identifier": "entity.sniffer.name",
         "source_string": "Sniffer",
-        "translation": "Sniffer",
+        "translation": "Pengendus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23386,7 +23410,7 @@
     {
         "identifier": "entity.turtle.name",
         "source_string": "Turtle",
-        "translation": "Kura-kura",
+        "translation": "Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23402,7 +23426,7 @@
     {
         "identifier": "entity.vex.name",
         "source_string": "Vex",
-        "translation": "Vex",
+        "translation": "Tuyul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23410,7 +23434,7 @@
     {
         "identifier": "entity.villager.name",
         "source_string": "Villager",
-        "translation": "Orang Desa",
+        "translation": "Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23522,7 +23546,7 @@
     {
         "identifier": "entity.villager.unskilled",
         "source_string": "Unskilled Villager",
-        "translation": "Orang Desa Tak Terdidik",
+        "translation": "Penduduk Tak Terdidik",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23530,7 +23554,7 @@
     {
         "identifier": "entity.villager_v2.name",
         "source_string": "Villager",
-        "translation": "Orang Desa",
+        "translation": "Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23538,7 +23562,7 @@
     {
         "identifier": "entity.vindicator.name",
         "source_string": "Vindicator",
-        "translation": "Vindicator",
+        "translation": "Pembela",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23634,7 +23658,7 @@
     {
         "identifier": "entity.zombie.name",
         "source_string": "Zombie",
-        "translation": "Zombie",
+        "translation": "Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23642,7 +23666,7 @@
     {
         "identifier": "entity.zombie_horse.name",
         "source_string": "Zombie Horse",
-        "translation": "Kuda Zombie",
+        "translation": "Kuda Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23650,7 +23674,7 @@
     {
         "identifier": "entity.zombie_pigman.name",
         "source_string": "Zombified Piglin",
-        "translation": "Piglin Zombie",
+        "translation": "Zombi Piglin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23658,7 +23682,7 @@
     {
         "identifier": "entity.zombie_villager.name",
         "source_string": "Zombie Villager",
-        "translation": "Zombie Orang Desa",
+        "translation": "Zombi Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23666,7 +23690,7 @@
     {
         "identifier": "entity.zombie_villager_v2.name",
         "source_string": "Zombie Villager",
-        "translation": "Zombie Orang Desa",
+        "translation": "Zombi Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24498,7 +24522,7 @@
     {
         "identifier": "gameTip.cameraMovement.mouse",
         "source_string": "Look around~LINEBREAK~Use your mouse to turn",
-        "translation": "Lihat sekeliling~LINEBREAK~Pakai mouse untuk berputar",
+        "translation": "Lihat sekeliling~LINEBREAK~Pakai tetikus untuk berputar",
         "context": "{StrContains=~LINEBREAK~}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -26242,7 +26266,7 @@
     {
         "identifier": "howtoplay.armor.text.2",
         "source_string": "Armor can be crafted from Leather, Iron, Gold, or Diamond. Chainmail Armor can be obtained through villager trading and loot from zombies and skeletons.",
-        "translation": "Baju zirah bisa dibuat dari Kulit, Besi, Emas, atau Berlian. Baju Zirah Rantai bisa didapatkan dari berdagang dengan orang desa dan rampasan dari zombie dan kerangka.",
+        "translation": "Baju zirah bisa dibuat dari Kulit, Besi, Emas, atau Berlian. Baju Zirah Rantai bisa didapatkan dari berdagang dengan penduduk dan rampasan dari zombi dan bengkarak.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28186,7 +28210,7 @@
     {
         "identifier": "howtoplay.difficulty.text.5",
         "source_string": "Hostile mobs will do more damage, zombies will break through doors, and if your hunger level drops to zero, your health will drop and you could die.",
-        "translation": "Mob jahat akan menimbulkan kerusakan lebih besar, zombie akan mendobrak pintu, dan jika tingkat lapar mencapai nol, kesehatan akan menurun dan kamu bisa mati.",
+        "translation": "Mob jahat akan menimbulkan kerusakan lebih besar, zombi akan mendobrak pintu, dan jika tingkat lapar mencapai nol, kesehatan akan menurun dan kamu bisa mati.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28418,7 +28442,7 @@
     {
         "identifier": "howtoplay.elytra.text.5",
         "source_string": "Your Elytra will slowly lose durability while flying, and if they break mid-flight you'll fall. You can repair them by combining them with Phantom Membrane at an Anvil.",
-        "translation": "Elytra-mu akan kehilangan daya tahan saat terbang seiring waktu dan jika rusak di tengah penerbangan, kamu akan jatuh. Kamu dapat memperbaikinya dengan menggabungkannya dengan Membran Hantu di Paron.",
+        "translation": "Elytra-mu akan kehilangan daya tahan saat terbang seiring waktu dan jika rusak di tengah penerbangan, kamu akan jatuh. Kamu dapat memperbaikinya dengan menggabungkannya dengan Membran Angan-Angan di Paron.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28922,7 +28946,7 @@
     {
         "identifier": "howtoplay.food.text.2.keyboard",
         "source_string": "To eat a food, select it in your hotbar, then click and hold the right mouse button. Keep the §ehunger bar§f:shank: full to regain health when you take damage.",
-        "translation": "Untuk makan, pilih di panel pilihan, lalu klik dan tahan tombol mouse kanan. Pertahankan §ebar kelaparan§f:shank: tetap penuh untuk memulihkan kesehatan ketika mengalami kerusakan.",
+        "translation": "Untuk makan, pilih di panel pilihan, lalu klik dan tahan tombol tetikus kanan. Pertahankan §ebar kelaparan§f:shank: tetap penuh untuk memulihkan kesehatan ketika mengalami kerusakan.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29810,7 +29834,7 @@
     {
         "identifier": "howtoplay.mounts.text.6",
         "source_string": "Saddles can be bought from villagers, found inside Chests hidden in the world, or acquired by fishing. While riding a horse, open your inventory and put a saddle in the horse's saddle slot.",
-        "translation": "Pelana bisa dibeli dari orang desa, ditemukan di dalam Peti yang tersembunyi di seluruh dunia, atau diperoleh dengan memancing. Sewaktu menunggangi kuda, buka persediaan dan tempatkan pelana di slot pelana kuda.",
+        "translation": "Pelana bisa dibeli dari penduduk, ditemukan di dalam Peti yang tersembunyi di seluruh dunia, atau diperoleh dengan memancing. Sewaktu menunggangi kuda, buka persediaan dan tempatkan pelana di slot pelana kuda.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29850,7 +29874,7 @@
     {
         "identifier": "howtoplay.mounts.text.9",
         "source_string": "Llamas are another ridable mob which can be tamed and used to transport large shipments of items. ",
-        "translation": "Llamas adalah mob lainnya yang bisa ditunggangi yang bisa dijinakkan dan digunakan untuk mengangkut pengiriman item berjumlah besar. ",
+        "translation": "Lama adalah mob lainnya yang bisa ditunggangi yang bisa dijinakkan dan digunakan untuk mengangkut pengiriman item berjumlah besar. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29858,7 +29882,7 @@
     {
         "identifier": "howtoplay.mounts.text.10",
         "source_string": "Llamas can be tamed the same as horses. However, even when tamed, the player can't control their movements when riding them. ",
-        "translation": "Llamas bisa dijinakkan sama seperti kuda. Tapi meskipun sudah dijinakkan, pemain tidak bisa mengendalikan gerakan mereka ketika menungganginya. ",
+        "translation": "Lama bisa dijinakkan sama seperti kuda. Tapi meskipun sudah dijinakkan, pemain tidak bisa mengendalikan gerakan mereka ketika menungganginya. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29866,7 +29890,7 @@
     {
         "identifier": "howtoplay.mounts.text.11",
         "source_string": "A lead can be attached to one, and when this happens, surrounding llamas (both tamed and un-tamed) will follow, making a caravan. ",
-        "translation": "Tali bisa dipasang ke salah satunya dan llama di sekelilingnya (yang jinak dan tidak jinak) akan mengikuti sehingga membentuk karavan. ",
+        "translation": "Tali bisa dipasang ke salah satunya dan Lama di sekelilingnya (yang jinak dan tidak jinak) akan mengikuti sehingga membentuk karavan. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29874,7 +29898,7 @@
     {
         "identifier": "howtoplay.mounts.text.12",
         "source_string": "Llamas can be equipped with chests, giving it 3-15 slots of inventory space depending on the strength of the Llama. They can also be equipped with carpets. Each carpet color yields a different pattern.",
-        "translation": "Llamas bisa dilengkapi dengan peti sehingga memberinya 3-15 slot ruang persediaan tergantung pada tenaga Llama. Llama juga bisa dilengkapi dengan karpet. Setiap warna karpet menghasilkan pola yang berbeda.",
+        "translation": "Lama bisa dilengkapi dengan peti sehingga memberinya 3-15 slot ruang persediaan tergantung pada tenaga Lama. Lama juga bisa dilengkapi dengan karpet. Setiap warna karpet menghasilkan pola yang berbeda.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29962,7 +29986,7 @@
     {
         "identifier": "howtoplay.movingAround.text.2.keyboard",
         "source_string": "Look around with the mouse.",
-        "translation": "Lihat sekeliling dengan mouse.",
+        "translation": "Lihat sekeliling dengan tetikus.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30210,7 +30234,7 @@
     {
         "identifier": "howtoplay.selectingItems.text.2.keyboard",
         "source_string": "To hold an item in your hand, scroll the mouse wheel to select the item. You can also use a number key: 1 is the first hotbar slot and 9 is the last. ",
-        "translation": "Untuk memegang item di tangan, gulirkan roda mouse untuk memilih item. Kamu juga dapat menggunakan tombol nomor: 1 adalah slot panel pilihan pertama dan 9 adalah slot terakhir. ",
+        "translation": "Untuk memegang item di tangan, gulirkan roda tetikus untuk memilih item. Kamu juga dapat menggunakan tombol nomor: 1 adalah slot panel pilihan pertama dan 9 adalah slot terakhir. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30554,7 +30578,7 @@
     {
         "identifier": "howtoplay.nightfall.new.text.2",
         "source_string": "At night, the Overworld is home to zombies, spiders, skeletons, and other dangerous creatures we call §ehostile mobs§f.",
-        "translation": "Pada malam hari, Overworld adalah rumah bagi zombie, laba-laba, kerangka, dan makhluk berbahaya lain yang kami sebut §emob jahat§f.",
+        "translation": "Pada malam hari, Overworld adalah rumah bagi zombi, laba-laba, bengkarak, dan makhluk berbahaya lain yang kami sebut §emob jahat§f.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30642,7 +30666,7 @@
     {
         "identifier": "howtoplay.pets.text.2",
         "source_string": "Wolves are a neutral mob that hunt in the colder climates. They will attack Rabbits, Skeletons, and Sheep but run away from Llamas. They won't attack you unless you provoke them. You can tame them by giving them Bones.",
-        "translation": "Serigala adalah mob netral yang berburu di iklim yang lebih dingin. Mereka akan menyerang Kelinci, Tengkorak, dan Domba namun menghindari Llama. Mereka tidak akan menyerangmu kecuali kamu membuatnya marah. Kamu bisa menjinakkannya dengan memberikan Tulang.",
+        "translation": "Serigala adalah mob netral yang berburu di iklim yang lebih dingin. Mereka akan menyerang Kelinci, Tengkorak, dan Domba namun menghindari Lama. Mereka tidak akan menyerangmu kecuali kamu membuatnya marah. Kamu bisa menjinakkannya dengan memberikan Tulang.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30658,7 +30682,7 @@
     {
         "identifier": "howtoplay.pets.text.3",
         "source_string": "Cats are a neutral mob that can be found in villages. They will attack Rabbits and Baby Turtles. They will also keep Phantoms and Creepers away. They will try to run from you so taming them can be tough. They like fish so give them Raw Cod or Salmon to tame them.",
-        "translation": "Kucing adalah mob netral yang bisa ditemukan di desa. Mereka akan menyerang Kelinci dan Anak Penyu. Mereka juga akan mengusir Hantu dan Creeper. Mereka akan mencoba lari darimu, jadi akan sulit menjinakkannya. Mereka suka ikan, jadi berikan Ikan Kod atau Salmon Mentah untuk menjinakkannya.",
+        "translation": "Kucing adalah mob netral yang bisa ditemukan di desa. Mereka akan menyerang Kelinci dan Anak Penyu. Mereka juga akan mengusir Angan-Angan dan Creeper. Mereka akan mencoba lari darimu, jadi akan sulit menjinakkannya. Mereka suka ikan, jadi berikan Ikan Kod atau Salmon Mentah untuk menjinakkannya.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30714,7 +30738,7 @@
     {
         "identifier": "howtoplay.raids.text.3",
         "source_string": "Villagers will most likely be very grateful that you have saved them from the raiders. Be sure to check back with them, you might get a good deal.",
-        "translation": "Orang desa kemungkinan besar akan berterima kasih karena kamu telah menyelamatkan mereka dari penyerbu. Pastikan untuk mengunjungi mereka lagi, mungkin kamu akan mendapatkan imbalan menarik.",
+        "translation": "Penduduk kemungkinan besar akan berterima kasih karena kamu telah menyelamatkan mereka dari penyerbu. Pastikan untuk mengunjungi mereka lagi, mungkin kamu akan mendapatkan imbalan menarik.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30770,7 +30794,7 @@
     {
         "identifier": "howtoplay.ranching.text.4",
         "source_string": "Cows, mooshrooms, and sheep all eat Wheat. Pigs can eat Carrots or Beetroot. Chickens love Seeds of any kinds. Rabbits will eat Carrots, Golden Carrots, or Dandelions. Ocelots enjoy Raw Cod or Salmon. Wolves like to eat any kind of meat.",
-        "translation": "Sapi, mooshroom, dan domba semua makan Gandum. Babi bisa makan Wortel atau Ubi Bit Merah. Ayam suka berbagai jenis Benih. Kelinci akan makan Wortel, Wortel Emas, Dandelion. Ocelot suka makan Ikan Kod atau Salmon Mentah. Serigala suka makan semua jenis daging.",
+        "translation": "Sapi, mooshroom, dan domba semua makan Gandum. Babi bisa makan Wortel atau Ubi Bit Merah. Ayam suka berbagai jenis Benih. Kelinci akan makan Wortel, Wortel Emas, Dandelion. Oselot suka makan Ikan Kod atau Salmon Mentah. Serigala suka makan semua jenis daging.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31610,7 +31634,7 @@
     {
         "identifier": "howtoplay.trading",
         "source_string": "Villager Trading",
-        "translation": "Berdagang dengan Orang Desa",
+        "translation": "Berdagang dengan Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31618,7 +31642,7 @@
     {
         "identifier": "howtoplay.trading.text.1",
         "source_string": "Trading can be done in villages. Each villager has a profession; they can be Farmers, Butchers, Blacksmiths, Cartographers, Librarians, or Priests. Some professions will trade for items that other professions cannot. Explore and trade with many villagers to find all the trades. ",
-        "translation": "Berdagang bisa dilakukan di desa. Setiap orang desa memiliki profesi; mereka bisa jadi Petani, Tukang Daging, Pandai Besi, Kartografer, Pustakawan, atau Pendeta. Beberapa profesi menjual item yang tidak dijual oleh profesi lainnya. Jelajahi dan berdaganglah dengan banyak orang desa untuk menemukan semua barang yang diperjualbelikan. ",
+        "translation": "Berdagang bisa dilakukan di desa. Setiap penduduk memiliki profesi; mereka bisa jadi Petani, Tukang Daging, Pandai Besi, Kartografer, Pustakawan, atau Pendeta. Beberapa profesi menjual item yang tidak dijual oleh profesi lainnya. Jelajahi dan berdaganglah dengan banyak penduduk untuk menemukan semua barang yang diperjualbelikan. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31634,7 +31658,7 @@
     {
         "identifier": "howtoplay.trading.text.2",
         "source_string": "You can find out what a villager is offering as trade by interacting with them. A villager may adjust the price of a trade whenever a player trades with it. A villager may run out of stock, temporarily disabling the trade if it is used too frequently. Trades usually involve buying or selling items for emeralds. ",
-        "translation": "Kamu bisa mencari tahu apa saja yang ditawarkan oleh orang desa dengan mengajak mereka berinteraksi. Orang desa dapat menyesuaikan harga barangnya setiap kali pemain memperdagangkannya. Orang desa bisa kehabisan persediaan, dan menonaktifkan perdagangan untuk sementara jika terlalu sering digunakan. Perdagangan biasanya melibatkan jual beli item untuk mendapatkan zamrud. ",
+        "translation": "Kamu bisa mencari tahu apa saja yang ditawarkan oleh penduduk dengan mengajak mereka berinteraksi. Penduduk dapat menyesuaikan harga barangnya setiap kali pemain memperdagangkannya. Penduduk bisa kehabisan persediaan, dan menonaktifkan perdagangan untuk sementara jika terlalu sering digunakan. Perdagangan biasanya melibatkan jual beli item untuk mendapatkan zamrud. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31642,7 +31666,7 @@
     {
         "identifier": "howtoplay.trading.text.3",
         "source_string": "As you trade with villagers, they will get better at their profession and start to offer better and more valuable trades.",
-        "translation": "Saat kamu berdagang dengan orang desa, mereka akan menjadi lebih baik dalam profesinya dan mulai menawarkan berbagai dagangan yang lebih baik dan bernilai lebih tinggi.",
+        "translation": "Saat kamu berdagang dengan penduduk, mereka akan menjadi lebih baik dalam profesinya dan mulai menawarkan berbagai dagangan yang lebih baik dan bernilai lebih tinggi.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31650,7 +31674,7 @@
     {
         "identifier": "howtoplay.trading.text.4",
         "source_string": "Take care of your villagers, they need to rest, work, and eat to thrive.",
-        "translation": "Perhatikan kebutuhan orang desa, mereka perlu istirahat, bekerja, dan makan agar bisa berkembang.",
+        "translation": "Perhatikan kebutuhan penduduk, mereka perlu istirahat, bekerja, dan makan agar bisa berkembang.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38338,7 +38362,7 @@
     {
         "identifier": "item.blaze_powder.name",
         "source_string": "Blaze Powder",
-        "translation": "Serbuk Kobaran Api",
+        "translation": "Serbuk Kemamang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38346,7 +38370,7 @@
     {
         "identifier": "item.blaze_rod.name",
         "source_string": "Blaze Rod",
-        "translation": "Tongkat Kobaran Api",
+        "translation": "Tongkat Kemamang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38418,7 +38442,7 @@
     {
         "identifier": "item.breeze_rod.name",
         "source_string": "Breeze Rod",
-        "translation": "Tongkat Breeze",
+        "translation": "Tongkat Pawana",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38986,7 +39010,7 @@
     {
         "identifier": "item.tropicalSchoolParrotfish.name",
         "source_string": "Parrotfish",
-        "translation": "Ikan Kakatua",
+        "translation": "Ikan Bayan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40722,7 +40746,7 @@
     {
         "identifier": "item.spawn_egg.entity.agent.name",
         "source_string": "Agent Spawn Egg",
-        "translation": "Telur Kemunculan Agent",
+        "translation": "Telur Pijah Agen",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40730,7 +40754,7 @@
     {
         "identifier": "item.spawn_egg.entity.armadillo.name",
         "source_string": "Armadillo Spawn Egg",
-        "translation": "Telur Kemunculan Armadilo",
+        "translation": "Telur Pijah Armadilo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40738,7 +40762,7 @@
     {
         "identifier": "item.spawn_egg.entity.axolotl.name",
         "source_string": "Axolotl Spawn Egg",
-        "translation": "Telur Kemunculan Axolotl",
+        "translation": "Telur Pijah Axolotl",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40746,7 +40770,7 @@
     {
         "identifier": "item.spawn_egg.entity.bee.name",
         "source_string": "Bee Spawn Egg",
-        "translation": "Telur Kemunculan Lebah",
+        "translation": "Telur Pijah Lebah",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40754,7 +40778,7 @@
     {
         "identifier": "item.spawn_egg.entity.bogged.name",
         "source_string": "Bogged Spawn Egg",
-        "translation": "Telur Kemunculan Bogged",
+        "translation": "Telur Pijah Bengkarak Rawa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40762,7 +40786,7 @@
     {
         "identifier": "item.spawn_egg.entity.breeze.name",
         "source_string": "Breeze Spawn Egg",
-        "translation": "Telur Munculkan Breeze",
+        "translation": "Telur Pijah Pawana",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40770,7 +40794,7 @@
     {
         "identifier": "item.spawn_egg.entity.hoglin.name",
         "source_string": "Hoglin Spawn Egg",
-        "translation": "Telur Kemunculan Hoglin",
+        "translation": "Telur Pijah Hoglin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40778,7 +40802,7 @@
     {
         "identifier": "item.spawn_egg.entity.cat.name",
         "source_string": "Cat Spawn Egg",
-        "translation": "Telur Kemunculan Kucing",
+        "translation": "Telur Pijah Kucing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40786,7 +40810,7 @@
     {
         "identifier": "item.spawn_egg.entity.chicken.name",
         "source_string": "Chicken Spawn Egg",
-        "translation": "Telur Kemunculan Ayam",
+        "translation": "Telur Pijah Ayam",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40794,7 +40818,7 @@
     {
         "identifier": "item.spawn_egg.entity.cow.name",
         "source_string": "Cow Spawn Egg",
-        "translation": "Telur Kemunculan Sapi",
+        "translation": "Telur Pijah Sapi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40802,7 +40826,7 @@
     {
         "identifier": "item.spawn_egg.entity.cod.name",
         "source_string": "Cod Spawn Egg",
-        "translation": "Telur Kemunculan Kod",
+        "translation": "Telur Pijah Kod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40810,7 +40834,7 @@
     {
         "identifier": "item.spawn_egg.entity.creaking.name",
         "source_string": "Creaking Spawn Egg",
-        "translation": "Telur Kemunculan Keriut",
+        "translation": "Telur Pijah Keriut",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40818,7 +40842,7 @@
     {
         "identifier": "item.spawn_egg.entity.ender_dragon.name",
         "source_string": "Ender Dragon Spawn Egg",
-        "translation": "Telur Kemunculan Naga Ender",
+        "translation": "Telur Pijah Naga Ender",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40826,7 +40850,7 @@
     {
         "identifier": "item.spawn_egg.entity.goat.name",
         "source_string": "Goat Spawn Egg",
-        "translation": "Telur Kemunculan Kambing",
+        "translation": "Telur Pijah Kambing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40834,7 +40858,7 @@
     {
         "identifier": "item.spawn_egg.entity.pufferfish.name",
         "source_string": "Pufferfish Spawn Egg",
-        "translation": "Telur Kemunculan Ikan Buntal",
+        "translation": "Telur Pijah Ikan Buntal",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40842,7 +40866,7 @@
     {
         "identifier": "item.spawn_egg.entity.salmon.name",
         "source_string": "Salmon Spawn Egg",
-        "translation": "Telur Kemunculan Salmon",
+        "translation": "Telur Pijah Salmon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40850,7 +40874,7 @@
     {
         "identifier": "item.spawn_egg.entity.tropicalfish.name",
         "source_string": "Tropical Fish Spawn Egg",
-        "translation": "Telur Kemunculan Ikan Tropis",
+        "translation": "Telur Pijah Ikan Tropis",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40858,7 +40882,7 @@
     {
         "identifier": "item.spawn_egg.entity.pig.name",
         "source_string": "Pig Spawn Egg",
-        "translation": "Telur Kemunculan Babi",
+        "translation": "Telur Pijah Babi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40866,7 +40890,7 @@
     {
         "identifier": "item.spawn_egg.entity.sheep.name",
         "source_string": "Sheep Spawn Egg",
-        "translation": "Telur Kemunculan Domba",
+        "translation": "Telur Pijah Domba",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40874,7 +40898,7 @@
     {
         "identifier": "item.spawn_egg.entity.npc.name",
         "source_string": "NPC Spawn Egg",
-        "translation": "Telur Kemunculan NPC",
+        "translation": "Telur Pijah NPC",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40882,7 +40906,7 @@
     {
         "identifier": "item.spawn_egg.entity.npc.failed",
         "source_string": "You need Creative + Operator to spawn an NPC",
-        "translation": "Kamu membutuhkan Creative + Operator untuk memunculkan NPC",
+        "translation": "Anda perlu mode Kreatif + Operator untuk memunculkan NPC",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40890,7 +40914,7 @@
     {
         "identifier": "item.spawn_egg.entity.wolf.name",
         "source_string": "Wolf Spawn Egg",
-        "translation": "Telur Kemunculan Serigala",
+        "translation": "Telur Pijah Serigala",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40898,7 +40922,7 @@
     {
         "identifier": "item.spawn_egg.entity.villager.name",
         "source_string": "Villager Spawn Egg",
-        "translation": "Telur Kemunculan Orang Desa",
+        "translation": "Telur Pijah Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40906,7 +40930,7 @@
     {
         "identifier": "item.spawn_egg.entity.villager_v2.name",
         "source_string": "Villager Spawn Egg",
-        "translation": "Telur Kemunculan Orang Desa",
+        "translation": "Telur Pijah Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40914,7 +40938,7 @@
     {
         "identifier": "item.spawn_egg.entity.vindicator.name",
         "source_string": "Vindicator Spawn Egg",
-        "translation": "Telur Kemunculan Vindicator",
+        "translation": "Telur Pijah Pembela",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40922,7 +40946,7 @@
     {
         "identifier": "item.spawn_egg.entity.mooshroom.name",
         "source_string": "Mooshroom Spawn Egg",
-        "translation": "Telur Kemunculan Mooshroom",
+        "translation": "Telur Pijah Mooshroom",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40930,7 +40954,7 @@
     {
         "identifier": "item.spawn_egg.entity.squid.name",
         "source_string": "Squid Spawn Egg",
-        "translation": "Telur Kemunculan Cumi-Cumi",
+        "translation": "Telur Pijah Cumi-Cumi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40938,7 +40962,7 @@
     {
         "identifier": "item.spawn_egg.entity.glow_squid.name",
         "source_string": "Glow Squid Spawn Egg",
-        "translation": "Telur Kemunculan Cumi-Cumi Berkilau",
+        "translation": "Telur Pijah Cumi-Cumi Sinar",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40946,7 +40970,7 @@
     {
         "identifier": "item.spawn_egg.entity.rabbit.name",
         "source_string": "Rabbit Spawn Egg",
-        "translation": "Telur Kemunculan Kelinci",
+        "translation": "Telur Pijah Kelinci",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40954,7 +40978,7 @@
     {
         "identifier": "item.spawn_egg.entity.bat.name",
         "source_string": "Bat Spawn Egg",
-        "translation": "Telur Kemunculan Kelelawar",
+        "translation": "Telur Pijah Kelelawar",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40962,7 +40986,7 @@
     {
         "identifier": "item.spawn_egg.entity.ravager.name",
         "source_string": "Ravager Spawn Egg",
-        "translation": "Telur Kemunculan Pembinasa",
+        "translation": "Telur Pijah Pembinasa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40970,7 +40994,7 @@
     {
         "identifier": "item.spawn_egg.entity.iron_golem.name",
         "source_string": "Iron Golem Spawn Egg",
-        "translation": "Telur Kemunculan Golem Besi",
+        "translation": "Telur Pijah Golem Besi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40978,7 +41002,7 @@
     {
         "identifier": "item.spawn_egg.entity.snow_golem.name",
         "source_string": "Snow Golem Spawn Egg",
-        "translation": "Telur Kemunculan Golem Salju",
+        "translation": "Telur Pijah Golem Salju",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40986,7 +41010,7 @@
     {
         "identifier": "item.spawn_egg.entity.ocelot.name",
         "source_string": "Ocelot Spawn Egg",
-        "translation": "Telur Kemunculan Ocelot",
+        "translation": "Telur Pijah Oselot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40994,7 +41018,7 @@
     {
         "identifier": "item.spawn_egg.entity.parrot.name",
         "source_string": "Parrot Spawn Egg",
-        "translation": "Telur Kemunculan Kakatua",
+        "translation": "Telur Pijah Bayan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41002,7 +41026,7 @@
     {
         "identifier": "item.spawn_egg.entity.horse.name",
         "source_string": "Horse Spawn Egg",
-        "translation": "Telur Kemunculan Kuda",
+        "translation": "Telur Pijah Kuda",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41010,7 +41034,7 @@
     {
         "identifier": "item.spawn_egg.entity.llama.name",
         "source_string": "Llama Spawn Egg",
-        "translation": "Telur Kemunculan Llama",
+        "translation": "Telur Pijah Lama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41018,7 +41042,7 @@
     {
         "identifier": "item.spawn_egg.entity.trader_llama.name",
         "source_string": "Trader Llama Spawn Egg",
-        "translation": "Telur Kemunculan Llama Pedagang",
+        "translation": "Telur Pijah Lama Pedagang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41026,7 +41050,7 @@
     {
         "identifier": "item.spawn_egg.entity.polar_bear.name",
         "source_string": "Polar Bear Spawn Egg",
-        "translation": "Telur Kemunculan Beruang Kutub",
+        "translation": "Telur Pijah Beruang Kutub",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41034,7 +41058,7 @@
     {
         "identifier": "item.spawn_egg.entity.donkey.name",
         "source_string": "Donkey Spawn Egg",
-        "translation": "Telur Kemunculan Keledai",
+        "translation": "Telur Pijah Keledai",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41042,7 +41066,7 @@
     {
         "identifier": "item.spawn_egg.entity.mule.name",
         "source_string": "Mule Spawn Egg",
-        "translation": "Telur Kemunculan Bagal",
+        "translation": "Telur Pijah Bagal",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41050,7 +41074,7 @@
     {
         "identifier": "item.spawn_egg.entity.skeleton_horse.name",
         "source_string": "Skeleton Horse Spawn Egg",
-        "translation": "Telur Kemunculan Kuda Tengkorak",
+        "translation": "Telur Pijah Kuda Bengkarak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41058,7 +41082,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_horse.name",
         "source_string": "Zombie Horse Spawn Egg",
-        "translation": "Telur Kemunculan Kuda Zombie",
+        "translation": "Telur Pijah Kuda Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41066,7 +41090,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie.name",
         "source_string": "Zombie Spawn Egg",
-        "translation": "Telur Kemunculan Zombie",
+        "translation": "Telur Pijah Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41074,7 +41098,7 @@
     {
         "identifier": "item.spawn_egg.entity.drowned.name",
         "source_string": "Drowned Spawn Egg",
-        "translation": "Telur Kemunculan Drowned",
+        "translation": "Telur Pijah Zombi Air",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41082,7 +41106,7 @@
     {
         "identifier": "item.spawn_egg.entity.creeper.name",
         "source_string": "Creeper Spawn Egg",
-        "translation": "Telur Kemunculan Creeper",
+        "translation": "Telur Pijah Creeper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41090,7 +41114,7 @@
     {
         "identifier": "item.spawn_egg.entity.skeleton.name",
         "source_string": "Skeleton Spawn Egg",
-        "translation": "Telur Kemunculan Kerangka",
+        "translation": "Telur Pijah Bengkarak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41098,7 +41122,7 @@
     {
         "identifier": "item.spawn_egg.entity.spider.name",
         "source_string": "Spider Spawn Egg",
-        "translation": "Telur Kemunculan Laba-Laba",
+        "translation": "Telur Pijah Laba-Laba",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41106,7 +41130,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_pigman.name",
         "source_string": "Zombified Piglin Spawn Egg",
-        "translation": "Telur Kemunculan Piglin Zombie",
+        "translation": "Telur Pijah Zombi Piglin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41114,7 +41138,7 @@
     {
         "identifier": "item.spawn_egg.entity.strider.name",
         "source_string": "Strider Spawn Egg",
-        "translation": "Telur Kemunculan Penjelajah",
+        "translation": "Telur Pijah Pengarung",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41122,7 +41146,7 @@
     {
         "identifier": "item.spawn_egg.entity.slime.name",
         "source_string": "Slime Spawn Egg",
-        "translation": "Telur Kemunculan Slime",
+        "translation": "Telur Pijah Geladir",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41130,7 +41154,7 @@
     {
         "identifier": "item.spawn_egg.entity.enderman.name",
         "source_string": "Enderman Spawn Egg",
-        "translation": "Telur Kemunculan Enderman",
+        "translation": "Telur Pijah Enderman",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41138,7 +41162,7 @@
     {
         "identifier": "item.spawn_egg.entity.silverfish.name",
         "source_string": "Silverfish Spawn Egg",
-        "translation": "Telur Kemunculan Gegat",
+        "translation": "Telur Pijah Gegat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41146,7 +41170,7 @@
     {
         "identifier": "item.spawn_egg.entity.cave_spider.name",
         "source_string": "Cave Spider Spawn Egg",
-        "translation": "Telur Kemunculan Laba-Laba Gua",
+        "translation": "Telur Pijah Laba-Laba Gua",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41154,7 +41178,7 @@
     {
         "identifier": "item.spawn_egg.entity.ghast.name",
         "source_string": "Ghast Spawn Egg",
-        "translation": "Telur Kemunculan Ghast",
+        "translation": "Telur Pijah Ghast",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41162,7 +41186,7 @@
     {
         "identifier": "item.spawn_egg.entity.magma_cube.name",
         "source_string": "Magma Cube Spawn Egg",
-        "translation": "Telur Kemunculan Kubus Magma",
+        "translation": "Telur Pijah Kubus Magma",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41170,7 +41194,7 @@
     {
         "identifier": "item.spawn_egg.entity.blaze.name",
         "source_string": "Blaze Spawn Egg",
-        "translation": "Telur Kemunculan Kobaran Api",
+        "translation": "Telur Pijah Kemamang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41178,7 +41202,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_villager.name",
         "source_string": "Zombie Villager Spawn Egg",
-        "translation": "Telur Kemunculan Orang Desa Zombie",
+        "translation": "Telur Pijah Penduduk Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41186,7 +41210,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_villager_v2.name",
         "source_string": "Zombie Villager Spawn Egg",
-        "translation": "Telur Kemunculan Orang Desa Zombie",
+        "translation": "Telur Pijah Penduduk Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41194,7 +41218,7 @@
     {
         "identifier": "item.spawn_egg.entity.witch.name",
         "source_string": "Witch Spawn Egg",
-        "translation": "Telur Kemunculan Penyihir",
+        "translation": "Telur Pijah Penyihir",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41202,7 +41226,7 @@
     {
         "identifier": "item.spawn_egg.entity.stray.name",
         "source_string": "Stray Spawn Egg",
-        "translation": "Telur Kemunculan Stray",
+        "translation": "Telur Pijah Bengkarak Salju",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41210,7 +41234,7 @@
     {
         "identifier": "item.spawn_egg.entity.husk.name",
         "source_string": "Husk Spawn Egg",
-        "translation": "Telur Kemunculan Husk",
+        "translation": "Telur Pijah Zombi Kering",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41218,7 +41242,7 @@
     {
         "identifier": "item.spawn_egg.entity.wither_skeleton.name",
         "source_string": "Wither Skeleton Spawn Egg",
-        "translation": "Telur Kemunculan Wither Kerangka",
+        "translation": "Telur Pijah Bengkarak Wither",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41226,7 +41250,7 @@
     {
         "identifier": "item.spawn_egg.entity.guardian.name",
         "source_string": "Guardian Spawn Egg",
-        "translation": "Telur Kemunculan Guardian",
+        "translation": "Telur Pijah Penjaga",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41234,7 +41258,7 @@
     {
         "identifier": "item.spawn_egg.entity.elder_guardian.name",
         "source_string": "Elder Guardian Spawn Egg",
-        "translation": "Telur Kemunculan Elder Guardian",
+        "translation": "Telur Pijah Tetua Penjaga",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41242,7 +41266,7 @@
     {
         "identifier": "item.spawn_egg.entity.shulker.name",
         "source_string": "Shulker Spawn Egg",
-        "translation": "Telur Kemunculan Shulker",
+        "translation": "Telur Pijah Shulker",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41250,7 +41274,7 @@
     {
         "identifier": "item.spawn_egg.entity.endermite.name",
         "source_string": "Endermite Spawn Egg",
-        "translation": "Telur Kemunculan Endermite",
+        "translation": "Telur Pijah Endermite",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41258,7 +41282,7 @@
     {
         "identifier": "item.spawn_egg.entity.evocation_illager.name",
         "source_string": "Evoker Spawn Egg",
-        "translation": "Telur Kemunculan Evoker",
+        "translation": "Telur Pijah Pawang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41266,7 +41290,7 @@
     {
         "identifier": "item.spawn_egg.entity.vex.name",
         "source_string": "Vex Spawn Egg",
-        "translation": "Telur Kemunculan Vex",
+        "translation": "Telur Pijah Tuyul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41274,7 +41298,7 @@
     {
         "identifier": "item.spawn_egg.entity.turtle.name",
         "source_string": "Turtle Spawn Egg",
-        "translation": "Telur Kemunculan Kura-kura",
+        "translation": "Telur Pijah Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41282,7 +41306,7 @@
     {
         "identifier": "item.spawn_egg.entity.dolphin.name",
         "source_string": "Dolphin Spawn Egg",
-        "translation": "Telur Kemunculan Lumba-Lumba",
+        "translation": "Telur Pijah Lumba-Lumba",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41290,7 +41314,7 @@
     {
         "identifier": "item.spawn_egg.entity.phantom.name",
         "source_string": "Phantom Spawn Egg",
-        "translation": "Telur Kemunculan Hantu",
+        "translation": "Telur Pijah Angan-Angan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41298,7 +41322,7 @@
     {
         "identifier": "item.spawn_egg.entity.panda.name",
         "source_string": "Panda Spawn Egg",
-        "translation": "Telur Kemunculan Panda",
+        "translation": "Telur Pijah Panda",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41306,7 +41330,7 @@
     {
         "identifier": "item.spawn_egg.entity.pillager.name",
         "source_string": "Pillager Spawn Egg",
-        "translation": "Telur Kemunculan Penjarah",
+        "translation": "Telur Pijah Penjarah",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41314,7 +41338,7 @@
     {
         "identifier": "item.spawn_egg.entity.piglin_brute.name",
         "source_string": "Piglin Brute Spawn Egg",
-        "translation": "Telur Kemunculan Berandal Piglin",
+        "translation": "Telur Pijah Piglin Ganas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41322,7 +41346,7 @@
     {
         "identifier": "item.spawn_egg.entity.piglin.name",
         "source_string": "Piglin Spawn Egg",
-        "translation": "Telur Kemunculan Piglin",
+        "translation": "Telur Pijah Piglin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41330,7 +41354,7 @@
     {
         "identifier": "item.spawn_egg.entity.fox.name",
         "source_string": "Fox Spawn Egg",
-        "translation": "Telur Kemunculan Rubah",
+        "translation": "Telur Pijah Rubah",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41338,7 +41362,7 @@
     {
         "identifier": "item.spawn_egg.entity.unknown.name",
         "source_string": "Spawn Egg",
-        "translation": "Telur Kemunculan",
+        "translation": "Telur Pijah",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41346,7 +41370,7 @@
     {
         "identifier": "item.spawn_egg.entity.wandering_trader.name",
         "source_string": "Wandering Trader Spawn Egg",
-        "translation": "Telur Kemunculan Pedagang Keliling",
+        "translation": "Telur Pijah Pedagang Keliling",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41354,7 +41378,7 @@
     {
         "identifier": "item.spawn_egg.entity.wither.name",
         "source_string": "Wither Spawn Egg",
-        "translation": "Telur Kemunculan Wither",
+        "translation": "Telur Pijah Wither",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41362,7 +41386,7 @@
     {
         "identifier": "item.spawn_egg.entity.zoglin.name",
         "source_string": "Zoglin Spawn Egg",
-        "translation": "Telur Kemunculan Zoglin",
+        "translation": "Telur Pijah Zoglin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41370,7 +41394,7 @@
     {
         "identifier": "item.spawn_egg.entity.sniffer.name",
         "source_string": "Sniffer Spawn Egg",
-        "translation": "Telur Munculkan Sniffer",
+        "translation": "Telur Pijah Pengendus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42018,7 +42042,7 @@
     {
         "identifier": "item.skull.zombie.name",
         "source_string": "Zombie Head",
-        "translation": "Kepala Zombie",
+        "translation": "Kepala Zombi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42250,7 +42274,7 @@
     {
         "identifier": "item.turtle_helmet.name",
         "source_string": "Turtle Shell",
-        "translation": "Tempurung Kura-kura",
+        "translation": "Tempurung Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42258,7 +42282,7 @@
     {
         "identifier": "item.turtle_shell_piece.name",
         "source_string": "Turtle Scute",
-        "translation": "Skat Kura-kura",
+        "translation": "Skat Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42266,7 +42290,7 @@
     {
         "identifier": "item.phantom_membrane.name",
         "source_string": "Phantom Membrane",
-        "translation": "Membran Hantu",
+        "translation": "Membran Angan-Angan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -43890,7 +43914,7 @@
     {
         "identifier": "joincode.icon_text.18",
         "source_string": "Llama",
-        "translation": "Llama",
+        "translation": "Lama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44346,7 +44370,7 @@
     {
         "identifier": "key.script_toggle",
         "source_string": "Toggle Mouse Mode",
-        "translation": "Alihkan Mode Mouse",
+        "translation": "Alihkan Mode Tetikus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50002,7 +50026,7 @@
     {
         "identifier": "options.enableChatTextToSpeech",
         "source_string": "Text To Speech For Chat",
-        "translation": "Teks ke Tuturan untuk Obrolan",
+        "translation": "Teks ke Ucapan untuk Obrolan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50010,7 +50034,7 @@
     {
         "identifier": "options.enableAutoPlatformTextToSpeech",
         "source_string": "Text To Speech with Device Settings",
-        "translation": "Teks ke Tuturan dengan Pengaturan Perangkat",
+        "translation": "Teks ke Ucapan dengan Pengaturan Perangkat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50018,7 +50042,7 @@
     {
         "identifier": "options.enableUITextToSpeech",
         "source_string": "Text To Speech For UI",
-        "translation": "Teks ke Tuturan untuk UI",
+        "translation": "Teks ke Ucapan untuk UI",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50266,7 +50290,7 @@
     {
         "identifier": "options.fullKeyboardGameplay",
         "source_string": "Full Keyboard Gameplay",
-        "translation": "Pola Main Keyboard Lengkap",
+        "translation": "Pola Main Kibor Lengkap",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50274,7 +50298,7 @@
     {
         "identifier": "options.fullKeyboardLayout",
         "source_string": "Full Keyboard Layout",
-        "translation": "Tata Letak Keyboard",
+        "translation": "Tata Letak Kibor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -51050,7 +51074,7 @@
     {
         "identifier": "options.showKeyboardPrompts",
         "source_string": "Show Keyboard and Mouse Prompts",
-        "translation": "Perlihatkan Petunjuk Keyboard dan Mouse",
+        "translation": "Perlihatkan Petunjuk Kibor dan Tetikus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -51250,7 +51274,7 @@
     {
         "identifier": "options.invertMouse",
         "source_string": "Invert Mouse",
-        "translation": "Balikkan Mouse",
+        "translation": "Balikkan Tetikus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -51298,7 +51322,7 @@
     {
         "identifier": "options.keyboardLayout",
         "source_string": "Keyboard Layout",
-        "translation": "Tata Letak Keyboard",
+        "translation": "Tata Letak Kibor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -51306,7 +51330,7 @@
     {
         "identifier": "options.keyboardAndMouse",
         "source_string": "Keyboard & Mouse",
-        "translation": "Keyboard & Mouse",
+        "translation": "Kibor & Tetikus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -51314,7 +51338,7 @@
     {
         "identifier": "options.keyboardAndMouseSettings",
         "source_string": "Keyboard and Mouse Settings",
-        "translation": "Pengaturan Keyboard dan Mouse",
+        "translation": "Pengaturan Kibor dan Tetikus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -53842,7 +53866,7 @@
     {
         "identifier": "options.editor.modeDescription.message",
         "source_string": "Editor Mode adds powerful tools for editing worlds. Intended for experienced creators on devices with a Mouse & Keyboard.",
-        "translation": "Mode Editor menambahkan berbagai alat canggih untuk mengedit dunia. Ditujukan bagi kreator berpengalaman yang menggunakan perangkat dengan Mouse & Keyboard.",
+        "translation": "Mode Editor menambahkan berbagai alat canggih untuk mengedit dunia. Ditujukan bagi kreator berpengalaman yang menggunakan perangkat dengan Tetikus & Kibor.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55042,7 +55066,7 @@
     {
         "identifier": "hudScreen.tooltip.emote",
         "source_string": "Emote",
-        "translation": "Emosi",
+        "translation": "Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57082,7 +57106,7 @@
     {
         "identifier": "potion.turtleMaster.name",
         "source_string": "Potion of the Turtle Master",
-        "translation": "Ramuan Master Kura-kura",
+        "translation": "Ramuan Master Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57090,7 +57114,7 @@
     {
         "identifier": "potion.turtleMaster.splash.name",
         "source_string": "Splash Potion of the Turtle Master",
-        "translation": "Percikan Ramuan Master Kura-Kura",
+        "translation": "Percikan Ramuan Master Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57098,7 +57122,7 @@
     {
         "identifier": "potion.turtleMaster.linger.name",
         "source_string": "Lingering Potion of the Turtle Master",
-        "translation": "Ramuan Bertahan Master Kura-Kura",
+        "translation": "Ramuan Bertahan Master Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59890,7 +59914,7 @@
     {
         "identifier": "item.spawn_egg.entity.warden.name",
         "source_string": "Warden Spawn Egg",
-        "translation": "Telur Kemunculan Warden",
+        "translation": "Telur Pijah Penunggu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59898,7 +59922,7 @@
     {
         "identifier": "entity.warden.name",
         "source_string": "Warden",
-        "translation": "Warden",
+        "translation": "Penunggu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59906,7 +59930,7 @@
     {
         "identifier": "entity.allay.name",
         "source_string": "Allay",
-        "translation": "Allay",
+        "translation": "Andaru",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59914,7 +59938,7 @@
     {
         "identifier": "item.spawn_egg.entity.allay.name",
         "source_string": "Allay Spawn Egg",
-        "translation": "Telur Kemunculan Allay",
+        "translation": "Telur Pijah Andaru",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59922,7 +59946,7 @@
     {
         "identifier": "action.interact.allay",
         "source_string": "Give item to Allay",
-        "translation": "Berikan item ke Allay",
+        "translation": "Berikan item ke Andaru",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59938,7 +59962,7 @@
     {
         "identifier": "item.spawn_egg.entity.frog.name",
         "source_string": "Frog Spawn Egg",
-        "translation": "Telur Kemunculan Katak",
+        "translation": "Telur Pijah Katak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59946,7 +59970,7 @@
     {
         "identifier": "item.spawn_egg.entity.tadpole.name",
         "source_string": "Tadpole Spawn Egg",
-        "translation": "Telur Kemunculan Berudu",
+        "translation": "Telur Pijah Berudu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61106,7 +61130,7 @@
     {
         "identifier": "item.spawn_egg.entity.camel.name",
         "source_string": "Camel Spawn Egg",
-        "translation": "Telur Munculkan Unta",
+        "translation": "Telur Pijah Unta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63810,7 +63834,7 @@
     {
         "identifier": "soundCategory.texttospeech",
         "source_string": "Text to Speech",
-        "translation": "Teks ke Tuturan",
+        "translation": "Teks ke Ucapan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -64290,7 +64314,7 @@
     {
         "identifier": "stat.talkedToVillager",
         "source_string": "Talked to Villagers",
-        "translation": "Berbicara dengan Orang Desa",
+        "translation": "Berbicara dengan Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -64306,7 +64330,7 @@
     {
         "identifier": "stat.tradedWithVillager",
         "source_string": "Traded with Villagers",
-        "translation": "Ditukar dengan Orang Desa",
+        "translation": "Ditukar dengan Penduduk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73370,7 +73394,7 @@
     {
         "identifier": "tile.slime.name",
         "source_string": "Slime Block",
-        "translation": "Blok Slime",
+        "translation": "Blok Geladir",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -74450,7 +74474,7 @@
     {
         "identifier": "tile.turtle_egg.name",
         "source_string": "Turtle Egg",
-        "translation": "Telur Kura-kura",
+        "translation": "Telur Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76378,7 +76402,7 @@
     {
         "identifier": "tile.sniffer_egg.name",
         "source_string": "Sniffer Egg",
-        "translation": "Telur Sniffer",
+        "translation": "Telur Pengendus",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -77602,7 +77626,7 @@
     {
         "identifier": "tipped_arrow.effect.turtleMaster",
         "source_string": "Arrow of the Turtle Master",
-        "translation": "Panah Master Kura-kura",
+        "translation": "Panah Master Penyu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -81546,7 +81570,7 @@
     {
         "identifier": "tips.edu.8",
         "source_string": "To code in Minecraft, press \"C\" on your keyboard or touch the Agent icon at the top of your screen.",
-        "translation": "Untuk membuat kode di Minecraft, tekan \"C\" di keyboard atau sentuh ikon Agent di bagian atas layar.",
+        "translation": "Untuk membuat kode di Minecraft, tekan \"C\" di kibor atau sentuh ikon Agent di bagian atas layar.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -81618,7 +81642,7 @@
     {
         "identifier": "tips.edu.17",
         "source_string": "Show hints for commonly-used keyboard and mouse controls by pressing \"H\" on your keyboard.",
-        "translation": "Tampilkan petunjuk untuk kontrol keyboard dan mouse yang umum digunakan dengan menekan \"H\" pada keyboard.",
+        "translation": "Tampilkan petunjuk untuk kontrol kibor dan tetikus yang umum digunakan dengan menekan \"H\" pada kibor.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -81666,7 +81690,7 @@
     {
         "identifier": "tips.edu.23",
         "source_string": "Press \"I\" on your keyboard or touch the Immersive Reader icon to read or translate in-game text.",
-        "translation": "Tekan \"I\" di keyboard atau sentuh ikon Pembaca Imersif untuk membaca atau menerjemahkan teks dalam permainan.",
+        "translation": "Tekan \"I\" di kibor atau sentuh ikon Pembaca Imersif untuk membaca atau menerjemahkan teks dalam permainan.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82002,7 +82026,7 @@
     {
         "identifier": "midgameTips.23",
         "source_string": "Pigs that are struck by lightning become zombified piglins.",
-        "translation": "Babi yang disambar petir menjadi piglin zombie.",
+        "translation": "Babi yang disambar petir menjadi zombi piglin.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82018,7 +82042,7 @@
     {
         "identifier": "midgameTips.25",
         "source_string": "Sometimes iron golems give flowers to the villager children!",
-        "translation": "Terkadang golem besi memberikan bunga kepada anak-anak orang desa!",
+        "translation": "Terkadang golem besi memberikan bunga kepada anak-anak penduduk!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82026,7 +82050,7 @@
     {
         "identifier": "midgameTips.26",
         "source_string": "Ocelots show creepers who's boss!",
-        "translation": "Ocelot menunjukkan siapa yang berkuasa di depan para creeper!",
+        "translation": "Oselot menunjukkan siapa yang berkuasa di depan para creeper!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82098,7 +82122,7 @@
     {
         "identifier": "midgameTips.35",
         "source_string": "Use hay bales to breed Llamas!",
-        "translation": "Gunakan gulungan jerami untuk mengembangbiakkan Llama!",
+        "translation": "Gunakan gulungan jerami untuk mengembangbiakkan Lama!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82114,7 +82138,7 @@
     {
         "identifier": "midgameTips.37",
         "source_string": "Trade with villagers to obtain food, tools, and even explorer maps!",
-        "translation": "Berdagang dengan orang desa untuk mendapatkan makanan, alat, bahkan peta penjelajah!",
+        "translation": "Berdagang dengan penduduk untuk mendapatkan makanan, alat, bahkan peta penjelajah!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82154,7 +82178,7 @@
     {
         "identifier": "midgameTips.42",
         "source_string": "Tridents are dropped by the Drowned, and can be held or thrown.",
-        "translation": "Trisula dijatuhkan oleh Drowned, dan bisa dipegang atau dilempar.",
+        "translation": "Trisula dijatuhkan oleh Zombi Air, dan bisa dipegang atau dilempar.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82170,7 +82194,7 @@
     {
         "identifier": "midgameTips.44",
         "source_string": "Taming a skeleton horse doesn't require a saddle.",
-        "translation": "Menjinakkan kuda tengkorak tidak perlu pelana.",
+        "translation": "Menjinakkan kuda bengkarak tidak perlu pelana.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82178,7 +82202,7 @@
     {
         "identifier": "midgameTips.45",
         "source_string": "Phantoms are dangerous mobs that appear during the night. Make sure to sleep regularly!",
-        "translation": "Hantu adalah mob berbahaya yang muncul di malam hari. Pastikan kamu tidur teratur!",
+        "translation": "Angan-Angan adalah mob berbahaya yang muncul di malam hari. Pastikan kamu tidur teratur!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82186,7 +82210,7 @@
     {
         "identifier": "midgameTips.46",
         "source_string": "Zombies turn into drowned if they sink underwater.",
-        "translation": "Zombie berubah menjadi Drowned jika tenggelam di bawah air.",
+        "translation": "Zombi berubah menjadi Zombi Air jika tenggelam di bawah air.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82266,7 +82290,7 @@
     {
         "identifier": "midgameTips.56",
         "source_string": "The Allay loves to collect items! If you give it a certain item it will try to collect more of it.",
-        "translation": "Allay suka mengumpulkan item! Jika kamu memberinya item tertentu, dia akan mencoba mengumpulkan lebih banyak.",
+        "translation": "Andaru suka mengumpulkan item! Jika kamu memberinya item tertentu, dia akan mencoba mengumpulkan lebih banyak.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82298,7 +82322,7 @@
     {
         "identifier": "midgameTips.60",
         "source_string": "Allays love music and therefore interact with noteblocks!",
-        "translation": "Allay menyukai musik dan karenanya berinteraksi dengan blok not!",
+        "translation": "Andaru menyukai musik dan karenanya berinteraksi dengan blok not!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82378,7 +82402,7 @@
     {
         "identifier": "lategameTips.1",
         "source_string": "Zombified piglins won't attack you - unless you make them angry.",
-        "translation": "Piglin zombie tidak akan menyerangmu - kecuali jika kamu membuat mereka marah.",
+        "translation": "Zombi Piglin tidak akan menyerangmu - kecuali jika kamu membuat mereka marah.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82450,7 +82474,7 @@
     {
         "identifier": "lategameTips.10",
         "source_string": "A Spider Jockey is the rare appearance of a spider being ridden by a skeleton!",
-        "translation": "Joki Laba-Laba adalah kemunculan langka laba-laba yang dikendarai kerangka!",
+        "translation": "Joki Laba-Laba adalah kemunculan langka laba-laba yang dikendarai bengkarak!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82466,7 +82490,7 @@
     {
         "identifier": "lategameTips.12",
         "source_string": "Use phantom membranes to repair your elytra.",
-        "translation": "Gunakan membran hantu untuk memperbaiki sayap elytra.",
+        "translation": "Gunakan membran angan-angan untuk memperbaiki sayap elytra.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82490,7 +82514,7 @@
     {
         "identifier": "lategameTips.15",
         "source_string": "Monsters that are killed by skeletons arrows have a chance of dropping music discs.",
-        "translation": "Monster yang dibunuh oleh panah kerangka memiliki peluang menjatuhkan disk musik.",
+        "translation": "Monster yang dibunuh oleh panah bengkarak memiliki peluang menjatuhkan disk musik.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82666,7 +82690,7 @@
     {
         "identifier": "tips.creative.2",
         "source_string": "Summon mobs in an instant with spawn eggs.",
-        "translation": "Panggil mob dalam sekejap dengan telur kemunculan.",
+        "translation": "Panggil makhluk dalam sekejap dengan telur pijah.",
         "context": "Players can use an item called Sawn Egg to summon animals and monsters.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -82722,7 +82746,7 @@
     {
         "identifier": "tips.creative.9",
         "source_string": "You can't die, but villagers can. Use that information... wisely.",
-        "translation": "Kamu tidak bisa mati, tetapi orang desa bisa. Gunakan informasi itu... dengan bijak.",
+        "translation": "Kamu tidak bisa mati, tetapi penduduk bisa. Gunakan informasi itu... dengan bijak.",
         "context": "This means you can do things that will get villagers killed. Like attracting monsters to the village.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -82730,7 +82754,7 @@
     {
         "identifier": "tips.creative.10",
         "source_string": "Villagers are great at building villages. Think you can do better?",
-        "translation": "Orang desa hebat dalam membangun desa. Menurutmu kamu bisa melakukannya lebih baik?",
+        "translation": "Penduduk hebat dalam membangun desa. Menurutmu kamu bisa melakukannya lebih baik?",
         "context": "This is a prompt to encourage players to build things.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -82802,7 +82826,7 @@
     {
         "identifier": "tips.creative.19",
         "source_string": "A warden a day keeps the… well, everything away. ",
-        "translation": "Sebuah warden sehari menjaga… ya, segalanya tetap menjauh. ",
+        "translation": "Sebuah penunggu sehari menjaga… ya, segalanya tetap menjauh. ",
         "context": "The Warden is a scary monster that live in underground cities.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -82826,7 +82850,7 @@
     {
         "identifier": "tips.creative.22",
         "source_string": "Phantoms can't hurt you, but you can still shoo them off by using a bed. Just...not literally. You sleep in it.",
-        "translation": "Hantu tidak bisa menyakitimu, tetapi kamu masih bisa mengusir mereka dengan menggunakan tempat tidur. Hanya saja...tidak secara harfiah. Kamu perlu tidur di atasnya.",
+        "translation": "Angan-Angan tidak bisa menyakitimu, tetapi kamu masih bisa mengusir mereka dengan menggunakan tempat tidur. Hanya saja...tidak secara harfiah. Kamu perlu tidur di atasnya.",
         "context": "Phantoms are flying mobs(monsters) that spawn when you havn't slept for a few days. They won't hurt you in Creative Mode. To get rid of them you sleep in a bed.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -83866,7 +83890,7 @@
     {
         "identifier": "key.emote",
         "source_string": "Emote",
-        "translation": "Emosi",
+        "translation": "Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -84210,7 +84234,7 @@
     {
         "identifier": "dr.header.animation",
         "source_string": "Emotes",
-        "translation": "Emosi",
+        "translation": "Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -84290,7 +84314,7 @@
     {
         "identifier": "dr.accessibility.header.animation",
         "source_string": "Emotes Tab 3 of 4",
-        "translation": "Tab Emosi 3 dari 4",
+        "translation": "Tab Gestur 3 dari 4",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -84626,7 +84650,7 @@
     {
         "identifier": "dr.categories.animation",
         "source_string": "Emotes",
-        "translation": "Emosi",
+        "translation": "Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -84634,7 +84658,7 @@
     {
         "identifier": "dr.categories.emotes",
         "source_string": "Emotes",
-        "translation": "Emosi",
+        "translation": "Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -85074,7 +85098,7 @@
     {
         "identifier": "dr.emotes.slot",
         "source_string": "Emote %d",
-        "translation": "Emosi %d",
+        "translation": "Gestur %d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -85922,7 +85946,7 @@
     {
         "identifier": "emotes.change_emotes",
         "source_string": "Change Emotes",
-        "translation": "Ubah Emosi",
+        "translation": "Ubah Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -85938,7 +85962,7 @@
     {
         "identifier": "emotes.header_text",
         "source_string": "Emotes",
-        "translation": "Emosi",
+        "translation": "Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -85946,7 +85970,7 @@
     {
         "identifier": "emotes.emotes_instructions_general",
         "source_string": "Use hot Key or Mouse to activate Emote",
-        "translation": "Gunakan Tombol pintas atau Mouse untuk mengaktifkan Emosi",
+        "translation": "Gunakan Tombol pintas atau Tetikus untuk mengaktifkan Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -85962,7 +85986,7 @@
     {
         "identifier": "emotes.instructions_gamepad",
         "source_string": "To quickly play your emotes in game, you can always press and hold %s for a quick menu",
-        "translation": "Untuk dengan cepat menggunakan emosimu dalam permainan, kamu bisa menekan dan menahan %s untuk membuka menu cepat",
+        "translation": "Untuk dengan cepat menggunakan gesturmu dalam permainan, kamu bisa menekan dan menahan %s untuk membuka menu cepat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -85970,7 +85994,7 @@
     {
         "identifier": "emotes.instructions_keyboard",
         "source_string": "Use Hotkey or Mouse to activate Emote",
-        "translation": "Gunakan Tombol Pintas atau Mouse untuk mengaktifkan Emosi",
+        "translation": "Gunakan Tombol Pintas atau Tetikus untuk mengaktifkan Gestur",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
