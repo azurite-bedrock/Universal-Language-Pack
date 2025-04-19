@@ -1834,7 +1834,7 @@
     {
         "identifier": "achievement.acquireIron.desc",
         "source_string": "Smelt an iron ingot",
-        "translation": "Tumunaw ng isang linggote na bakal",
+        "translation": "Tumunaw ng isang baretang bakal",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2866,7 +2866,7 @@
     {
         "identifier": "action.interact.leash",
         "source_string": "Leash",
-        "translation": "Taliin",
+        "translation": "Talian",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5960,6 +5960,14 @@
         "max_length": null
     },
     {
+        "identifier": "entity.leash_knot.name",
+        "source_string": "Leash Knot",
+        "translation": "Buhol ng Tali",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "entity.hopper_minecart.name",
         "source_string": "Minecart with Hopper",
         "translation": "Karitelang may Imbudo",
@@ -6058,7 +6066,7 @@
     {
         "identifier": "item.golden_apple.name",
         "source_string": "Golden Apple",
-        "translation": "Gintong Mansanas",
+        "translation": "Ginintuang Mansanas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6066,7 +6074,7 @@
     {
         "identifier": "item.appleEnchanted.name",
         "source_string": "Enchanted Golden Apple",
-        "translation": "Minahikang Gintong Mansanas",
+        "translation": "Minahikang Ginintuang Mansanas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11970,7 +11978,7 @@
     {
         "identifier": "item.bucketLava.name",
         "source_string": "Lava Bucket",
-        "translation": "Balde ng Kumukulong Putik",
+        "translation": "Balde ng Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12634,7 +12642,7 @@
     {
         "identifier": "item.golden_carrot.name",
         "source_string": "Golden Carrot",
-        "translation": "Gintong Karot",
+        "translation": "Ginintuang Karot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13202,7 +13210,7 @@
     {
         "identifier": "item.experience_bottle.name",
         "source_string": "Bottle o' Enchanting",
-        "translation": "Botelya ng Pagmamahika",
+        "translation": "Bote ng Pagmamahika",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13216,6 +13224,70 @@
         "max_length": null
     },
     {
+        "identifier": "item.feather.name",
+        "source_string": "Feather",
+        "translation": "Balahibo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fermented_spider_eye.name",
+        "source_string": "Fermented Spider Eye",
+        "translation": "Binurong Mata ng Gagamba",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireball.name",
+        "source_string": "Fire Charge",
+        "translation": "Karga ng Apoy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworks.flight",
+        "source_string": "Flight Duration:",
+        "translation": "Tagal ng Lipad:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworks.name",
+        "source_string": "Firework Rocket",
+        "translation": "Kuwitis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.black",
+        "source_string": "Black",
+        "translation": "Itim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.blue",
+        "source_string": "Blue",
+        "translation": "Asul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.brown",
+        "source_string": "Brown",
+        "translation": "Kayumanggi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.fireworksCharge.customColor",
         "source_string": "Custom",
         "translation": "Custom",
@@ -13224,9 +13296,601 @@
         "max_length": null
     },
     {
+        "identifier": "item.fireworksCharge.cyan",
+        "source_string": "Cyan",
+        "translation": "Akwa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.fadeTo",
+        "source_string": "Fade to",
+        "translation": "Kumukupas ang kulay sa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.flicker",
+        "source_string": "Twinkle",
+        "translation": "Ningning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.gray",
+        "source_string": "Gray",
+        "translation": "Abo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.green",
+        "source_string": "Green",
+        "translation": "Berde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.lightBlue",
+        "source_string": "Light Blue",
+        "translation": "Kulay-langit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.lime",
+        "source_string": "Lime",
+        "translation": "Dayap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.magenta",
+        "source_string": "Magenta",
+        "translation": "Madyenta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.name",
+        "source_string": "Firework Star",
+        "translation": "Bituin ng Kuwitis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.orange",
+        "source_string": "Orange",
+        "translation": "Kahel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.pink",
+        "source_string": "Pink",
+        "translation": "Rosas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.purple",
+        "source_string": "Purple",
+        "translation": "Lila",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.red",
+        "source_string": "Red",
+        "translation": "Pula",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.silver",
+        "source_string": "Light Gray",
+        "translation": "Pilak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.trail",
+        "source_string": "Trail",
+        "translation": "Bakas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.type",
+        "source_string": "Unknown Shape",
+        "translation": "Hindi Kilalang Hugis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.type.0",
+        "source_string": "Small Ball",
+        "translation": "Maliit na Bola",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.type.1",
+        "source_string": "Large Ball",
+        "translation": "Malaking Bola",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.type.2",
+        "source_string": "Star-shaped",
+        "translation": "Hugis-bituin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.type.3",
+        "source_string": "Creeper-shaped",
+        "translation": "Hugis-creeper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.type.4",
+        "source_string": "Burst",
+        "translation": "Pagsambulat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.white",
+        "source_string": "White",
+        "translation": "Puti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.yellow",
+        "source_string": "Yellow",
+        "translation": "Dilaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.clownfish.name",
+        "source_string": "Tropical Fish",
+        "translation": "Isdang Pantropiko",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.cooked_fish.name",
+        "source_string": "Cooked Cod",
+        "translation": "Lutong Bakalaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fish.name",
+        "source_string": "Raw Cod",
+        "translation": "Hilaw na Bakalaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.photo.name",
+        "source_string": "Photo",
+        "translation": "Litrato",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pufferfish.name",
+        "source_string": "Pufferfish",
+        "translation": "Boteteng-laot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.cooked_salmon.name",
+        "source_string": "Cooked Salmon",
+        "translation": "Lutong Salmon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.salmon.name",
+        "source_string": "Raw Salmon",
+        "translation": "Hilaw na Salmon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fishing_rod.name",
+        "source_string": "Fishing Rod",
+        "translation": "Pamingwit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flint.name",
+        "source_string": "Flint",
+        "translation": "Batong Pingkian",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flint_and_steel.name",
+        "source_string": "Flint and Steel",
+        "translation": "Panindi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flower_pot.name",
+        "source_string": "Flower Pot",
+        "translation": "Pasong Pambulaklak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.frame.name",
+        "source_string": "Item Frame",
+        "translation": "Kuwadro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.ghast_tear.name",
+        "source_string": "Ghast Tear",
+        "translation": "Luha ng Ghast",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.glass_bottle.name",
+        "source_string": "Glass Bottle",
+        "translation": "Boteng Salamin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.gold_nugget.name",
+        "source_string": "Gold Nugget",
+        "translation": "Tiho ng Ginto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_nugget.name",
+        "source_string": "Iron Nugget",
+        "translation": "Tiho ng Bakal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_axe.name",
+        "source_string": "Diamond Axe",
+        "translation": "Palasol na Dyamante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_axe.name",
+        "source_string": "Golden Axe",
+        "translation": "Palasol na Ginto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_axe.name",
+        "source_string": "Iron Axe",
+        "translation": "Palasol na Bakal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_axe.name",
+        "source_string": "Stone Axe",
+        "translation": "Palasol na Bato",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_axe.name",
+        "source_string": "Wooden Axe",
+        "translation": "Palasol na Kahoy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.chainmail_helmet.name",
         "source_string": "Chainmail Helmet",
         "translation": "Kupyang Tanikala",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.leather_helmet.name",
+        "source_string": "Leather Cap",
+        "translation": "Kapang Katad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_helmet.name",
+        "source_string": "Diamond Helmet",
+        "translation": "Kupyang Dyamante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_helmet.name",
+        "source_string": "Golden Helmet",
+        "translation": "Kupyang Ginto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_helmet.name",
+        "source_string": "Iron Helmet",
+        "translation": "Kupyang Bakal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_hoe.name",
+        "source_string": "Diamond Hoe",
+        "translation": "Asarol na Dyamante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_hoe.name",
+        "source_string": "Golden Hoe",
+        "translation": "Asarol na Ginto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_hoe.name",
+        "source_string": "Iron Hoe",
+        "translation": "Asarol na Bakal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_hoe.name",
+        "source_string": "Stone Hoe",
+        "translation": "Asarol na Bato",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_hoe.name",
+        "source_string": "Wooden Hoe",
+        "translation": "Asarol na Kahoy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.honey_bottle.name",
+        "source_string": "Honey Bottle",
+        "translation": "Bote ng Pulot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.honeycomb.name",
+        "source_string": "Honeycomb",
+        "translation": "Pulut-pukyutan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.horsearmordiamond.name",
+        "source_string": "Diamond Horse Armor",
+        "translation": "Dyamanteng Armadura ng Kabayo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.horsearmorgold.name",
+        "source_string": "Gold Horse Armor",
+        "translation": "Gintong Armadura ng Kabayo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.horsearmoriron.name",
+        "source_string": "Iron Horse Armor",
+        "translation": "Bakal na Armadura ng Kabayo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.horsearmorleather.name",
+        "source_string": "Leather Horse Armor",
+        "translation": "Katad na Armadura ng Kabayo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.gold_ingot.name",
+        "source_string": "Gold Ingot",
+        "translation": "Ginto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_ingot.name",
+        "source_string": "Iron Ingot",
+        "translation": "Bakal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_ingot.name",
+        "source_string": "Netherite Ingot",
+        "translation": "Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_scrap.name",
+        "source_string": "Netherite Scrap",
+        "translation": "Pira-pirasong Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_sword.name",
+        "source_string": "Netherite Sword",
+        "translation": "Espadang Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_pickaxe.name",
+        "source_string": "Netherite Pickaxe",
+        "translation": "Pikong Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_axe.name",
+        "source_string": "Netherite Axe",
+        "translation": "Palasol na Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_shovel.name",
+        "source_string": "Netherite Shovel",
+        "translation": "Palang Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_hoe.name",
+        "source_string": "Netherite Hoe",
+        "translation": "Asarol na Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_boots.name",
+        "source_string": "Netherite Boots",
+        "translation": "Botang Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_leggings.name",
+        "source_string": "Netherite Leggings",
+        "translation": "Pulinasang Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_chestplate.name",
+        "source_string": "Netherite Chestplate",
+        "translation": "Baluting Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_helmet.name",
+        "source_string": "Netherite Helmet",
+        "translation": "Kupyang Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.lead.name",
+        "source_string": "Lead",
+        "translation": "Tali",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.leather.name",
+        "source_string": "Leather",
+        "translation": "Katad",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13248,6 +13912,214 @@
         "max_length": null
     },
     {
+        "identifier": "item.leather_leggings.name",
+        "source_string": "Leather Pants",
+        "translation": "Pantalong Katad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_leggings.name",
+        "source_string": "Diamond Leggings",
+        "translation": "Pulinasang Dyamante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_leggings.name",
+        "source_string": "Golden Leggings",
+        "translation": "Pulinasang Ginto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_leggings.name",
+        "source_string": "Iron Leggings",
+        "translation": "Pulinasang Bakal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.nautilus_shell.name",
+        "source_string": "Nautilus Shell",
+        "translation": "Sigay ng Lagan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.heart_of_the_sea.name",
+        "source_string": "Heart of the Sea",
+        "translation": "Puso ng Karagatan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.mace.name",
+        "source_string": "Mace",
+        "translation": "Maso",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.magma_cream.name",
+        "source_string": "Magma Cream",
+        "translation": "Kremang Magma",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.name",
+        "source_string": "Map",
+        "translation": "Mapa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.mansion.name",
+        "source_string": "Woodland Explorer Map",
+        "translation": "Mapa ng Mansyong Kakahuyan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.monument.name",
+        "source_string": "Ocean Explorer Map",
+        "translation": "Mapa ng Karagatang Monumento",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.treasure.name",
+        "source_string": "Treasure Map",
+        "translation": "Mapa ng Kayamanan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.buried_treasure.name",
+        "source_string": "Treasure Map",
+        "translation": "Mapa ng Kayamanan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.village_snowy.name",
+        "source_string": "Snowy Village Map",
+        "translation": "Mapa ng Nayong Maniyebe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.village_taiga.name",
+        "source_string": "Taiga Village Map",
+        "translation": "Mapa ng Nayong Taiga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.village_plains.name",
+        "source_string": "Plains Village Map",
+        "translation": "Mapa ng Nayong Kapatagan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.village_savanna.name",
+        "source_string": "Savanna Village Map",
+        "translation": "Mapa ng Nayong Sabana",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.village_desert.name",
+        "source_string": "Desert Village Map",
+        "translation": "Mapa ng Nayong Disyerto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.jungle_temple.name",
+        "source_string": "Jungle Explorer Map",
+        "translation": "Mapa ng Nayong Gubat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.swamp_hut.name",
+        "source_string": "Swamp Explorer Map",
+        "translation": "Mapa ng Nayong Latian",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.trial_chambers.name",
+        "source_string": "Trial Explorer Map",
+        "translation": "Mapa ng Kamara ng Pagsubok",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.melon.name",
+        "source_string": "Melon Slice",
+        "translation": "Hiwa ng Melon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.milk.name",
+        "source_string": "Milk Bucket",
+        "translation": "Balde ng Gatas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecart.name",
+        "source_string": "Minecart",
+        "translation": "Karitela",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.chest_minecart.name",
+        "source_string": "Minecart with Chest",
+        "translation": "Karitelang may Baul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.command_block_minecart.name",
+        "source_string": "Minecart with Command Block",
+        "translation": "Karitelang may Bloke ng Utos",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.oxidized_copper_door.name",
         "source_string": "Oxidized Copper Door",
         "translation": "Naoksidisang Tansong Pinto",
@@ -13259,6 +14131,62 @@
         "identifier": "item.torchflower_seeds.name",
         "source_string": "Torchflower Seeds",
         "translation": "Punla ng Sulumbulak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_pickaxe.name",
+        "source_string": "Diamond Pickaxe",
+        "translation": "Pikong Dyamante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_pickaxe.name",
+        "source_string": "Golden Pickaxe",
+        "translation": "Pikong Ginto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_pickaxe.name",
+        "source_string": "Iron Pickaxe",
+        "translation": "Pikong Bakal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_pickaxe.name",
+        "source_string": "Stone Pickaxe",
+        "translation": "Batong Piko",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_pickaxe.name",
+        "source_string": "Wooden Pickaxe",
+        "translation": "Pikong Kahoy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_shovel.name",
+        "source_string": "Diamond Shovel",
+        "translation": "Palang Dyamante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_sword.name",
+        "source_string": "Diamond Sword",
+        "translation": "Espadang Dyamante",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13650,7 +14578,7 @@
     {
         "identifier": "itemGroup.name.rawFood",
         "source_string": "Raw Food",
-        "translation": "Mga Pagkaing Hilaw",
+        "translation": "Mga Hilaw na Pagkain",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13658,7 +14586,7 @@
     {
         "identifier": "itemGroup.name.cookedFood",
         "source_string": "Cooked Food",
-        "translation": "Mga Pagkaing Luto",
+        "translation": "Mga Lutong Pagkain",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14048,6 +14976,110 @@
         "max_length": null
     },
     {
+        "identifier": "joincode.icon_text.1",
+        "source_string": "Book and Quill",
+        "translation": "Libro't Pluma",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.2",
+        "source_string": "Balloon",
+        "translation": "Lobo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.3",
+        "source_string": "Rail",
+        "translation": "Riles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.9",
+        "source_string": "Pickaxe",
+        "translation": "Piko",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.10",
+        "source_string": "Water Bucket",
+        "translation": "Balde ng Tubig",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.11",
+        "source_string": "Steve",
+        "translation": "Steve",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.12",
+        "source_string": "Apple",
+        "translation": "Mansanas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.13",
+        "source_string": "Carrot",
+        "translation": "Karot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.14",
+        "source_string": "Panda",
+        "translation": "Panda",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.15",
+        "source_string": "Sign",
+        "translation": "Karatula",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.16",
+        "source_string": "Potion",
+        "translation": "Posyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.17",
+        "source_string": "Map",
+        "translation": "Mapa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.18",
+        "source_string": "Llama",
+        "translation": "Llama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.chat.color",
         "source_string": "Colors",
         "translation": "Kulay",
@@ -14355,6 +15387,14 @@
         "identifier": "container.smithing_table.material_slot_tooltip_netherite",
         "source_string": "Add Netherite Ingot",
         "translation": "Maglagay ng Netherayt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.smithing_template.netherite_upgrade.ingredients",
+        "source_string": "Netherite Ingot",
+        "translation": "Netherayt",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17506,7 +18546,7 @@
     {
         "identifier": "tile.flowing_lava.name",
         "source_string": "Lava",
-        "translation": "Kumukulong Putik",
+        "translation": "Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17514,7 +18554,7 @@
     {
         "identifier": "tile.lava.name",
         "source_string": "Lava",
-        "translation": "Kumukulong Putik",
+        "translation": "Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17618,7 +18658,7 @@
     {
         "identifier": "tile.lightning_rod.name",
         "source_string": "Lightning Rod",
-        "translation": "Tungkod na Pangkidlat",
+        "translation": "Tungkod-pangkidlat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -18466,7 +19506,7 @@
     {
         "identifier": "tile.snow.name",
         "source_string": "Snow Block",
-        "translation": "Bloke ng Nyebe",
+        "translation": "Bloke ng Niyebe",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -19722,7 +20762,7 @@
     {
         "identifier": "tile.snow_layer.name",
         "source_string": "Snow",
-        "translation": "Nyebe",
+        "translation": "Niyebe",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -19818,7 +20858,7 @@
     {
         "identifier": "tile.twisting_vines.name",
         "source_string": "Twisting Vines",
-        "translation": "Baging na Palupot",
+        "translation": "Baging na Pilipit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21170,7 +22210,7 @@
     {
         "identifier": "tile.powder_snow.name",
         "source_string": "Powder Snow",
-        "translation": "Nyebeng Pulbos",
+        "translation": "Niyebeng Pulbos",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
