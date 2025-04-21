@@ -408,9 +408,49 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.button.filter.appliedCount",
+        "source_string": " %s Applied",
+        "translation": " %s გამოყენებულია",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.button.sort",
         "source_string": "Sort",
         "translation": "სორტირება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.survival.layout",
+        "source_string": "Inventory view",
+        "translation": "ინვენტარის ნახვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.recipebook.layout",
+        "source_string": "Recipe book and inventory view",
+        "translation": "რეცეპტთა ცნობარის და ინვენტარის ნახვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.creative.layout",
+        "source_string": "Recipe book view",
+        "translation": "რეცეპტთა ცნობარის ნახვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.dropdown.listItem",
+        "source_string": "List item",
+        "translation": "სიის ელემენტი",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -427,6 +467,38 @@
         "identifier": "accessibility.minecoins",
         "source_string": "Minecoins",
         "translation": "Minecoin-ები",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.fullprice",
+        "source_string": "Full Price %s Minecoins",
+        "translation": "სრული საფასური: %s Minecoin-ი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.price",
+        "source_string": "Discounted Price %s Minecoins",
+        "translation": "ფასდაკლებული: %s Minecoin-ი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.percent",
+        "source_string": "%s percent discount",
+        "translation": "ფასდაკლება: %s%",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.sectionName",
+        "source_string": "Section %s: ",
+        "translation": "სექცია %s: ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -512,10 +584,130 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.play.editWorld",
+        "source_string": "Edit World",
+        "translation": "სამყაროს შეცვლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editRealm",
+        "source_string": "Edit Realm",
+        "translation": "Realm-ის შეცვლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editServer",
+        "source_string": "Edit Server",
+        "translation": "სერვერის შეცვლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.importWorld",
+        "source_string": "Import World",
+        "translation": "სამყაროს იმპორტირება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.leaveRealm",
+        "source_string": "Leave Realm",
+        "translation": "Realm-იდან გამოსვლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.noNewPosts",
+        "source_string": "No new posts",
+        "translation": "არ არის ახალი პოსტები",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.singleNewPost",
+        "source_string": "1 new post",
+        "translation": "ერთი ახალი პოსტი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.multipleNewPosts",
+        "source_string": "%s new posts",
+        "translation": "%s ახალი პოსტი",
+        "context": "%s will be a number",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabLeft",
+        "source_string": "Press the %s to tab left",
+        "translation": "დააჭირეთ %s-ს მარცხნიდან დაშორებისთვის",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabRight",
+        "source_string": "Press the %s to tab right",
+        "translation": "დააჭირეთ %s-ს მარჯვნიდან დაშორებისთვის",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.legacyWorldsDelete",
+        "source_string": "Delete Legacy World",
+        "translation": "მოძველებული სამყაროს წაშლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.uploadWorld",
+        "source_string": "Upload World",
+        "translation": "სამყაროს განახლება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.permissions",
+        "source_string": "Permissions",
+        "translation": "ნებართვები",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.profile",
+        "source_string": "Choose Profile",
+        "translation": "ანგარიშის არჩევა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.start.buttonHelper",
         "source_string": "%s : %s",
         "translation": "%s : %s",
         "context": "Used for on-screen gamepad helpers (eg. \"Y Button : Change User\")",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.achievements",
+        "source_string": "Achievements Screen",
+        "translation": "მიღწევების ეკრანი",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -530,7 +722,71 @@
     {
         "identifier": "accessibility.screenName.chatSettings",
         "source_string": "Chat Settings Screen",
-        "translation": "ჩატის ოფციები",
+        "translation": "ჩატის პარამეტრები",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.createNew",
+        "source_string": "Create New Screen",
+        "translation": "სამყაროს შექმნის ეკრანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.createWorld",
+        "source_string": "Create World Settings Screen",
+        "translation": "სამყაროს შექმნის პარამეტრების ეკრანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editCharacter",
+        "source_string": "Character Creator",
+        "translation": "პერსონაჟის რედაქტორი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editWorldSettings",
+        "source_string": "Edit World Settings Screen",
+        "translation": "სამყაროს თვისებების პარამეტრების ეკრანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.error",
+        "source_string": "Error Screen",
+        "translation": "შეცდომის ეკრანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.encyclopedia",
+        "source_string": "Encyclopedia Screen",
+        "translation": "ეკრანი „ენციკლოპედია“",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.howToPlay",
+        "source_string": "How To Play Screen",
+        "translation": "ეკრანი „თამაშის სწავლა“",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.inviteToGame",
+        "source_string": "Invite To Game Screen",
+        "translation": "თამაშში მოწვევის ეკრანი",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -642,7 +898,7 @@
     {
         "identifier": "accessibility.screenName.realmInviteLinkSettings",
         "source_string": "Realm Invite Link Settings Screen",
-        "translation": "Realm-ის მოწვევების ოფციების ეკრანი",
+        "translation": "Realm-ის მოწვევების პარამეტრების ეკრანი",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -650,7 +906,7 @@
     {
         "identifier": "accessibility.screenName.realmSettings",
         "source_string": "Realm Settings Screen",
-        "translation": "Realm-ის ოფციების ეკრანი",
+        "translation": "Realm-ის პარამეტრების ეკრანი",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -658,7 +914,7 @@
     {
         "identifier": "accessibility.screenName.settings",
         "source_string": "Game Settings Screen",
-        "translation": "თამაშის ოფციების ეკრანი",
+        "translation": "თამაშის პარამეტრების ეკრანი",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -682,7 +938,7 @@
     {
         "identifier": "accessibility.screenName.vrAlignment",
         "source_string": "VR Alignment Screen ",
-        "translation": "VR-სათვალეების ოფციების ეკრანი ",
+        "translation": "VR-სათვალეების პარამეტრების ეკრანი ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -936,6 +1192,302 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.text.backwardSlash",
+        "source_string": "Back Slash",
+        "translation": "უკან დახრილი ხაზი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.exclamationPoint",
+        "source_string": "Exclamation Point",
+        "translation": "ძახილის ნიშანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.atSign",
+        "source_string": "At",
+        "translation": "ზე",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.hashTag",
+        "source_string": "Hash Tag",
+        "translation": "ჰეშტეგი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.dollarSign",
+        "source_string": "Dollar",
+        "translation": "დოლარი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.percent",
+        "source_string": "Percent",
+        "translation": "პროცენტი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.caret",
+        "source_string": "Caret",
+        "translation": "კურსორი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.ampersand",
+        "source_string": "And",
+        "translation": "და",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.asterisk",
+        "source_string": "Asterisk",
+        "translation": "ვარსკვლავი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.leftParenthesis",
+        "source_string": "Left Parenthesis",
+        "translation": "მარცხენა ფრჩხილი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.rightParenthesis",
+        "source_string": "Right Parenthesis",
+        "translation": "მარჯვენა ფრჩხილი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.hyphen",
+        "source_string": "Hyphen",
+        "translation": "დეფისი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.underScore",
+        "source_string": "Under Score",
+        "translation": "ხაზგასმა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.plus",
+        "source_string": "Plus",
+        "translation": "პლუსი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.equals",
+        "source_string": "Equals",
+        "translation": "ტოლია",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.unsupported",
+        "source_string": "Unknown Character",
+        "translation": "უცნობი სიმბოლო",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.PLN",
+        "source_string": "Polish Zloty:Groszy:.",
+        "translation": "Polish Zloty:Groszy:.",
+        "context": "{Locked}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.CurrencyExceptions",
+        "source_string": "PLN",
+        "translation": "PLN",
+        "context": "{Locked}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.toast",
+        "source_string": "Notification",
+        "translation": "შეტყობინება",
+        "context": "This is the name of the popup that appears when a player gets a notification for a game invite or achievement unlocked",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gametip",
+        "source_string": "Tip",
+        "translation": "რჩევა",
+        "context": "This is the name of the popup that appears when a player is shown a game tip",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.worldTemplates.help",
+        "source_string": "Help",
+        "translation": "დახმარება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.title",
+        "source_string": "Turn Off Screen Reader?",
+        "translation": "გამოირთოს ეკრანის დიქტორი?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.line1",
+        "source_string": "Welcome to Minecraft!",
+        "translation": "მოგესალმებით Minecraft-ში!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.default",
+        "source_string": "On your device, screen reader support is enabled by default.",
+        "translation": "თქვენ მოწყობილობაზე ეკრანის დიქტორი სტანდარტულად ჩართულია.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.platform",
+        "source_string": "We've detected that your system has a screen reader enabled and have automatically enabled Minecraft's screen reader.",
+        "translation": "ჩვენ შევიტყვეთ, რომ თქვენ მოწყობილობას ეკრანის დიქტორი ჩართული აქვს, ამიტომაც Minecraft-შიც ავტომატურად ჩავრთეთ.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.left_button_text",
+        "source_string": "Turn Off",
+        "translation": "გათიშვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.right_button_text",
+        "source_string": "Leave On",
+        "translation": "არ გაითიშოს",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.joinRealm",
+        "source_string": "Join Realm Screen",
+        "translation": "Realm-ში შესვლის ეკრანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.controllerLayoutScreen.buttonRemapped",
+        "source_string": "%s is now bound to %s",
+        "translation": "%s ახლა მიბმულია %s-ზე",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.controllerLayoutScreen.buttonBoundTo",
+        "source_string": "%s button: %s",
+        "translation": "ღილაკი %s: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.controllerLayoutScreen.buttonRemapping",
+        "source_string": "Select input to bind for %s",
+        "translation": "აირჩიეთ %s-ზე გადასაბმელი ღილაკი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.down",
+        "source_string": "Button A",
+        "translation": "ღილაკი A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.right",
+        "source_string": "Button B",
+        "translation": "ღილაკი B",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.left",
+        "source_string": "Button X",
+        "translation": "ღილაკი X",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.up",
+        "source_string": "Button Y",
+        "translation": "ღილაკი Y",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.button.systemLeft",
+        "source_string": "View Button",
+        "translation": "ღილაკი View",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.button.systemRight",
+        "source_string": "Menu Button",
+        "translation": "ღილაკი Menu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.gamepad.trigger.right",
         "source_string": "Right Trigger",
         "translation": "მარჩვენა ტრიგერი",
@@ -964,6 +1516,54 @@
         "source_string": "Left Bumper",
         "translation": "მარცხენა ბამპერი",
         "context": "Used for both Xbox and controller on Windows",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.hyperLink.uri",
+        "source_string": "https://aka.ms/mcedu-login",
+        "translation": "https://aka.ms/mcedu-login",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.alternativeFuel",
+        "source_string": "Alternative Fuel",
+        "translation": "ალტერნატიული საწვავი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.acquireIron",
+        "source_string": "Acquire Hardware",
+        "translation": "დაჰკარ, სანამ რკინა ცხელია",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.acquireIron.desc",
+        "source_string": "Smelt an iron ingot",
+        "translation": "გამოადნეთ რკინის ზოდი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.blaze_rod",
+        "source_string": "Into Fire",
+        "translation": "ცეცხლისაკენ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.bookcase",
+        "source_string": "Librarian",
+        "translation": "ბიბლიოთეკარი",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -1011,6 +1611,638 @@
         "identifier": "achievement.buildSword.desc",
         "source_string": "Use planks and sticks to make a sword",
         "translation": "გამოიყენეთ ფიცრები და ჯოხები ხმლის შესაქმნელად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.diamonds",
+        "source_string": "DIAMONDS!",
+        "translation": "ალმასები!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.openInventory.desc",
+        "source_string": "Press '%1$s' to open your inventory.",
+        "translation": "დააჭირეთ %1$s-ს ინვენტარის გასახსნელად.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.unknown",
+        "source_string": "???",
+        "translation": "???",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.uninitScore",
+        "source_string": "--",
+        "translation": "--",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.strider",
+        "source_string": "Tap sneak to dismount",
+        "translation": "დასაქვეითებლად „ცოცვას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.donkey",
+        "source_string": "Tap sneak to dismount",
+        "translation": "დასაქვეითებლად „ცოცვას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.mule",
+        "source_string": "Tap sneak to dismount",
+        "translation": "დასაქვეითებლად „ცოცვას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.llama",
+        "source_string": "Tap sneak to dismount",
+        "translation": "დასაქვეითებლად „ცოცვას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.trader_llama",
+        "source_string": "Tap sneak to dismount",
+        "translation": "დასაქვეითებლად „ცოცვას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.skeleton_horse",
+        "source_string": "Tap sneak to dismount",
+        "translation": "დასაქვეითებლად „ცოცვას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.minecart",
+        "source_string": "Tap dismount to exit the minecart",
+        "translation": "დააჭირეთ „გადმოსვლას“ ურიკიდან გადმოსასვლელად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.pig",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.horse",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.strider",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.donkey",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.mule",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.llama",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.trader_llama",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.skeleton_horse",
+        "source_string": "Tap dismount to dismount",
+        "translation": "დასაქვეითებლად „გადმოსვლას“ დააჭირეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.boat",
+        "source_string": "Press :_input_key.jump: to exit the boat",
+        "translation": "დააჭირეთ :_input_key.jump:-ს ნავიდან ამოსასვლელად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.minecart",
+        "source_string": "Press :_input_key.jump: to exit the minecart",
+        "translation": "დააჭირეთ :_input_key.jump:-ს ურიკიდან გადმოსასვლელად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.pig",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.horse",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.strider",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.donkey",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.mule",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.llama",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.trader_llama",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.skeleton_horse",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "დააჭირეთ :_input_key.sneak:-ს დასაქვეითებლად",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.edit",
+        "source_string": "Edit",
+        "translation": "შეცვლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.exit.boat",
+        "source_string": "Leave Boat",
+        "translation": "ნავიდან ამოსვლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.feed",
+        "source_string": "Feed",
+        "translation": "ჭმევა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.fishing",
+        "source_string": "Fish",
+        "translation": "თევზაობა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.milk",
+        "source_string": "Milk",
+        "translation": "წველა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.mooshear",
+        "source_string": "Shear",
+        "translation": "გაკრეჭვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.repair",
+        "source_string": "Repair",
+        "translation": "შეკეთება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.boat",
+        "source_string": "Board",
+        "translation": "ჩაჯდომა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.minecart",
+        "source_string": "Ride",
+        "translation": "აჭვრომა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.horse",
+        "source_string": "Ride",
+        "translation": "ამხედრება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.strider",
+        "source_string": "Ride",
+        "translation": "ამხედრება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.shear",
+        "source_string": "Shear",
+        "translation": "გაკრეჭვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.sit",
+        "source_string": "Sit",
+        "translation": "დაჯდომა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.stand",
+        "source_string": "Stand",
+        "translation": "ადგომა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.talk",
+        "source_string": "Talk",
+        "translation": "ლაპარაკი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.tame",
+        "source_string": "Tame",
+        "translation": "მოთვინიერება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.dye",
+        "source_string": "Dye",
+        "translation": "შეღებვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.opencontainer",
+        "source_string": "Open",
+        "translation": "გახსნა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.createMap",
+        "source_string": "Create Map",
+        "translation": "რუკის შექმნა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.takepicture",
+        "source_string": "Take Picture",
+        "translation": "სურათის გადაღება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.saddle",
+        "source_string": "Saddle",
+        "translation": "უნაგირი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.mount",
+        "source_string": "Mount",
+        "translation": "ამხედრება",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:attack_damage",
+        "source_string": "Attack Damage",
+        "translation": "ზიანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.maxHealth",
+        "source_string": "Max Health",
+        "translation": "მაქსიმალური ჯანმრთელობა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.attackDamage",
+        "source_string": "Attack Damage",
+        "translation": "ზიანი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:movement",
+        "source_string": "Speed",
+        "translation": "სიჩქარე",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.horse.jumpStrength",
+        "source_string": "Horse Jump Strength",
+        "translation": "ცხენის ახტომის ძალა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribution.goBack",
+        "source_string": "Go Back",
+        "translation": "უკან",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.body.default",
+        "source_string": "Starting the demo experience...",
+        "translation": "საცდელი ვერსიის ჩართვა...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.body.error",
+        "source_string": "We're sorry, but this lesson is not currently available.",
+        "translation": "სამწუხაროდ ეს გაკვეთილი მიუწვდომელია.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.title",
+        "source_string": "Loading the Demo",
+        "translation": "საცდელი ვერსიის ჩატვირთვა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.title.error",
+        "source_string": "Lesson Not Available",
+        "translation": "გაკვეთილი მიუწვდომელია",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.pleaseSignIn",
+        "source_string": "Sign in with your school or organizational account to use Minecraft Education.",
+        "translation": "თქვენი სკოლის ან ორგანიზაციის ანგარიშით შემოდით, რომ ითამაშოთ Minecraft Education-ი.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.loggingin",
+        "source_string": "Signing in...",
+        "translation": "ავტორიზაცია...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signIn",
+        "source_string": "Sign in",
+        "translation": "ავტორიზაცია",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signIn.tryAgain",
+        "source_string": "Try again",
+        "translation": "ხელახლა სცადეთ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signingInTo",
+        "source_string": "Signing into %s",
+        "translation": "%s-ში ავტორიზაცია",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.unableToConnect",
+        "source_string": "Unable to Connect",
+        "translation": "დაკავშირება შეუძლებელია",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.unauthenticated",
+        "source_string": "This account is not eligible to use Minecraft Education.",
+        "translation": "ამ ანგარიშს არ აქვს Minecraft Education-თან წვდომა.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.location",
+        "source_string": "For more information:",
+        "translation": "მეტი ინფორმაციისთვის:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.tryagain",
+        "source_string": "Sign in with a different account",
+        "translation": "სხვა ანგარიშით შედით",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.welcome",
+        "source_string": "Welcome, %s!",
+        "translation": "მოგესალმებით, %s!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.exitingGame",
+        "source_string": "Goodbye, come back soon.",
+        "translation": "ნახვამდის.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialMessageTitle",
+        "source_string": "Free Trial",
+        "translation": "უფასო საცდელი პერიოდი",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialEndedTitle",
+        "source_string": "Trial Ended",
+        "translation": "საცდელი პერიოდი დამთავრდა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.clickToPurchase",
+        "source_string": "How to purchase",
+        "translation": "როგორ შევიძინო",
+        "context": "Translations should be 20 characters or less",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.buyMinecraft",
+        "source_string": "Go to the App Store",
+        "translation": "App Store-ში გადასვლა",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.title",
+        "source_string": "You've been logged out",
+        "translation": "თქვენ სისტემიდან გამოხვედით",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.body",
+        "source_string": "Another device has logged in using your account.",
+        "translation": "თქვენი ანგარიში სხვა მოწყობილობიდან გამოიყენება.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.help",
+        "source_string": "Help",
+        "translation": "დახმარება",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
