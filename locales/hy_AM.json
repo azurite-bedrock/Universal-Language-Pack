@@ -1,1 +1,362 @@
-[]
+[
+    {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "Համընդհանուր լեզվական փաթեթ",
+        "context": "Name of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.description",
+        "source_string": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by theaddonn",
+        "translation": "Ռեսուրսների փաթեթ, որը ավելացնում է Bedrock Edition-ում բացակայող որոշ լեզուներ։ Ստեղծվել է theaddonn-ի կողմից",
+        "context": "Description of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "language.name",
+        "source_string": "Name (Location)",
+        "translation": "Հայերեն (Հայաստան)",
+        "context": "Name of the to be translated language",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.enableTTS",
+        "source_string": "Text To Speech enabled",
+        "translation": "Տեքստի փոխակերպումը խոսքի միացվել է",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.back",
+        "source_string": "Press the %s to go back",
+        "translation": "Սեղմեք %s վերադառնալու համար",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.exitChat",
+        "source_string": "Press the %s to exit chat",
+        "translation": "Սեղմեք %s չաթից ելնելու համար",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.sendMessage",
+        "source_string": "Press the %s to send message",
+        "translation": "Սեղմեք %s հաղորդագրություն ուղարկելու համար",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.says",
+        "source_string": "%s says %s",
+        "translation": "%s ասում է %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.hideChat",
+        "source_string": "Hide chat",
+        "translation": "Թաքցնել չաթը",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.keyboard",
+        "source_string": "Keyboard",
+        "translation": "Ստեղնաշար",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.muteChatToggle",
+        "source_string": "Mute All",
+        "translation": "Լռեցնել բոլորին",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.sendChatMessage",
+        "source_string": "Send",
+        "translation": "Ուղարկել",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.textboxTitle",
+        "source_string": "Chat",
+        "translation": "Չաթ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.game.playerView",
+        "source_string": "Player view",
+        "translation": "Խաղացողի տեսակետ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.saving.done",
+        "source_string": "Done",
+        "translation": "Ավարտված է",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.start",
+        "source_string": "Download begun",
+        "translation": "Ներբեռնումը սկսվեց",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.Progress",
+        "source_string": "Downloading %s percent",
+        "translation": "Ներբեռնված է %s տոկոսը",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.canceled",
+        "source_string": "Download canceled",
+        "translation": "Ներբեռնումը դադարեցվեց",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.complete",
+        "source_string": "Download complete",
+        "translation": "Ներբեռնումն ավարտված է",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.howtoemote",
+        "source_string": "Press or Hold %s to Emote",
+        "translation": "Սեղմեք կամ սեղմեք և պահեք %s էմոցիա ցուցաբերելու համար",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.key.mouseButton",
+        "source_string": "Mouse Button %s",
+        "translation": "Մկնիկի %s կոճակ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.armadillo.name",
+        "source_string": "Armadillo",
+        "translation": "Զրահակիր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.arrow.name",
+        "source_string": "Arrow",
+        "translation": "Նետ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bat.name",
+        "source_string": "Bat",
+        "translation": "Չղջիկ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bee.name",
+        "source_string": "Bee",
+        "translation": "Մեղու",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.boat.name",
+        "source_string": "Boat",
+        "translation": "Նավակ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cat.name",
+        "source_string": "Cat",
+        "translation": "Կատու",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.chicken.name",
+        "source_string": "Chicken",
+        "translation": "Հավ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cow.name",
+        "source_string": "Cow",
+        "translation": "Կով",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.creeper.name",
+        "source_string": "Creeper",
+        "translation": "Քրիփեր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.dolphin.name",
+        "source_string": "Dolphin",
+        "translation": "Դելֆին",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.goat.name",
+        "source_string": "Goat",
+        "translation": "Այծ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.panda.name",
+        "source_string": "Panda",
+        "translation": "Պանդա",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.donkey.name",
+        "source_string": "Donkey",
+        "translation": "Էշ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.egg.name",
+        "source_string": "Egg",
+        "translation": "Ձու",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.fox.name",
+        "source_string": "Fox",
+        "translation": "Աղվես",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.salmon.name",
+        "source_string": "Salmon",
+        "translation": "Սաղմոն",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.header.1",
+        "source_string": "Sword",
+        "translation": "Թուր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_sword.name",
+        "source_string": "Netherite Sword",
+        "translation": "Նեզերիթե Թուր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_sword.name",
+        "source_string": "Diamond Sword",
+        "translation": "Ադամանդե Թուր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_sword.name",
+        "source_string": "Golden Sword",
+        "translation": "Ոսկե Թուր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_sword.name",
+        "source_string": "Iron Sword",
+        "translation": "Երկաթե Թուր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_sword.name",
+        "source_string": "Stone Sword",
+        "translation": "Քարե Թուր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_sword.name",
+        "source_string": "Wooden Sword",
+        "translation": "Փայտե Թուր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sword",
+        "source_string": "Swords",
+        "translation": "Թրեր",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    }
+]
