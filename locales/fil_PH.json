@@ -2,7 +2,7 @@
     {
         "identifier": "pack.name",
         "source_string": "Universal Language Pack",
-        "translation": "Wikang Unibersal",
+        "translation": "Unibersal na Pack sa Wika",
         "context": "Name of the Add-On",
         "labels": "unassigned, metadata",
         "max_length": null
@@ -5875,6 +5875,70 @@
         "identifier": "commands.bossbar.get.players.one",
         "source_string": "Custom bossbar [%1$s] has 1 player currently online: %2$s",
         "translation": "Ang custom bossbar na [%1$s] ay may 1 na manlalarong online sa kasalukuyan: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.get.value",
+        "source_string": "Custom bossbar [%1$s] has a value of %2$d",
+        "translation": "Ang custom bossbar na [%1$s] ay may value na %2$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.get.visible.true",
+        "source_string": "Custom bossbar [%1$s] is currently shown",
+        "translation": "Ang custom hotbar na [%1$s] ay ipinakita na sa kasalukuyan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.get.visible.false",
+        "source_string": "Custom bossbar [%1$s] is currently hidden",
+        "translation": "Ang custom hotbar na [%1$s] ay itinago na sa kasalukuyan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.list",
+        "source_string": "There are %1$s custom bossbars active: %2$s",
+        "translation": "May mga %1$s na aktibong custom hotbars: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.list.none",
+        "source_string": "There are no custom bossbars active",
+        "translation": "Walang aktibong custom bossbars",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.list.one",
+        "source_string": "There is 1 custom bossbar active: %1$s",
+        "translation": "May 1 na aktibong custom bossbars: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.notFound",
+        "source_string": "No bossbar exists with the ID '%1$s'",
+        "translation": "Walang bossbar na umiiral na may ID na '%1$s'",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.remove",
+        "source_string": "Removed custom bossbar [%1$s]",
+        "translation": "Natanggal na ang custom bossbar na [%1$s]",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14408,6 +14472,526 @@
         "max_length": null
     },
     {
+        "identifier": "item.spawn_egg.entity.rabbit.name",
+        "source_string": "Rabbit Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Kuneho",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.bat.name",
+        "source_string": "Bat Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Paniki",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.ravager.name",
+        "source_string": "Ravager Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Maninira",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.iron_golem.name",
+        "source_string": "Iron Golem Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Bakal na Golem",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.snow_golem.name",
+        "source_string": "Snow Golem Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Nyebeng Golem",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.ocelot.name",
+        "source_string": "Ocelot Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Oselot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.parrot.name",
+        "source_string": "Parrot Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Loro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.horse.name",
+        "source_string": "Horse Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Kabayo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.llama.name",
+        "source_string": "Llama Spawn Egg",
+        "translation": "Panlikhaang Itog ng Lyama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.trader_llama.name",
+        "source_string": "Trader Llama Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Lyama ng Negosyante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.polar_bear.name",
+        "source_string": "Polar Bear Spawn Egg",
+        "translation": "Panlikaang Itlog ng Osong Puti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.donkey.name",
+        "source_string": "Donkey Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Asno",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.mule.name",
+        "source_string": "Mule Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Mula",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.skeleton_horse.name",
+        "source_string": "Skeleton Horse Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Kabayong Kalansay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.zombie_horse.name",
+        "source_string": "Zombie Horse Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Kabayong Zombie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.zombie.name",
+        "source_string": "Zombie Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Zombie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.drowned.name",
+        "source_string": "Drowned Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Nalunod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.creeper.name",
+        "source_string": "Creeper Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Creeper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.skeleton.name",
+        "source_string": "Skeleton Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Kalansay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.spider.name",
+        "source_string": "Spider Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Gagamba",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.zombie_pigman.name",
+        "source_string": "Zombified Piglin Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Pigling Zombie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.strider.name",
+        "source_string": "Strider Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Strider",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.slime.name",
+        "source_string": "Slime Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Slime",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.enderman.name",
+        "source_string": "Enderman Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Enderman",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.silverfish.name",
+        "source_string": "Silverfish Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Isdang-pilak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.cave_spider.name",
+        "source_string": "Cave Spider Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Gagambang Kuweba",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.ghast.name",
+        "source_string": "Ghast Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Ghast",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.magma_cube.name",
+        "source_string": "Magma Cube Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Magma Cube",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.blaze.name",
+        "source_string": "Blaze Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Breeze",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.zombie_villager.name",
+        "source_string": "Zombie Villager Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Taganayong Zombie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.zombie_villager_v2.name",
+        "source_string": "Zombie Villager Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Taganayong Zombie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.witch.name",
+        "source_string": "Witch Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Mangkukulam",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.stray.name",
+        "source_string": "Stray Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Ligaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.husk.name",
+        "source_string": "Husk Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Upak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.wither_skeleton.name",
+        "source_string": "Wither Skeleton Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Kalansay na Wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.guardian.name",
+        "source_string": "Guardian Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Tagapangalaga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.elder_guardian.name",
+        "source_string": "Elder Guardian Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Matandang Tagapangalaga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.shulker.name",
+        "source_string": "Shulker Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Shulker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.endermite.name",
+        "source_string": "Endermite Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Endermite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.evocation_illager.name",
+        "source_string": "Evoker Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Tagapukaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.vex.name",
+        "source_string": "Vex Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Yamot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.turtle.name",
+        "source_string": "Turtle Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Pagong",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.dolphin.name",
+        "source_string": "Dolphin Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Dolpin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.phantom.name",
+        "source_string": "Phantom Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Bibit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.panda.name",
+        "source_string": "Panda Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Panda",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.pillager.name",
+        "source_string": "Pillager Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Mandarambong",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.piglin_brute.name",
+        "source_string": "Piglin Brute Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Armadong Piglin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.piglin.name",
+        "source_string": "Piglin Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Piglin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.fox.name",
+        "source_string": "Fox Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Soro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.unknown.name",
+        "source_string": "Spawn Egg",
+        "translation": "Panlikhaang Itlog",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.wandering_trader.name",
+        "source_string": "Wandering Trader Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Gumagalang Negosyante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.wither.name",
+        "source_string": "Wither Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.zoglin.name",
+        "source_string": "Zoglin Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Zoglin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.sniffer.name",
+        "source_string": "Sniffer Spawn Egg",
+        "translation": "Panlikhaang Itlog ng Sniffer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.trident.name",
+        "source_string": "Trident",
+        "translation": "Salapang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.mushroom_stew.name",
+        "source_string": "Mushroom Stew",
+        "translation": "Nilagang Kabuti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.muttonCooked.name",
+        "source_string": "Cooked Mutton",
+        "translation": "Luto na Karne-tupa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.muttonRaw.name",
+        "source_string": "Raw Mutton",
+        "translation": "Hilaw na Karneng-tupa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.name_tag.name",
+        "source_string": "Name Tag",
+        "translation": "Panandang Pangalan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherbrick.name",
+        "source_string": "Nether Brick",
+        "translation": "Laryong Taga-nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.quartz.name",
+        "source_string": "Nether Quartz",
+        "translation": "Kwarts na Taga-nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.nether_wart.name",
+        "source_string": "Nether Wart",
+        "translation": "Butig ng Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherStar.name",
+        "source_string": "Nether Star",
+        "translation": "Bituin ng Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.painting.name",
+        "source_string": "Painting",
+        "translation": "Larawan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.paper.name",
+        "source_string": "Paper",
+        "translation": "Papel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.diamond_pickaxe.name",
         "source_string": "Diamond Pickaxe",
         "translation": "Pikong Dyamante",
@@ -14443,6 +15027,134 @@
         "identifier": "item.wooden_pickaxe.name",
         "source_string": "Wooden Pickaxe",
         "translation": "Pikong Kahoy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.porkchop_cooked.name",
+        "source_string": "Cooked Porkchop",
+        "translation": "Luto na Karneng-baboy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.porkchop.name",
+        "source_string": "Raw Porkchop",
+        "translation": "Hila na Karneng-baboy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.portfolio.name",
+        "source_string": "Portfolio",
+        "translation": "Portpolyo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.potato.name",
+        "source_string": "Potato",
+        "translation": "Patatas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.baked_potato.name",
+        "source_string": "Baked Potato",
+        "translation": "Luto na Patatas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.poisonous_potato.name",
+        "source_string": "Poisonous Potato",
+        "translation": "Nakakalasong Patatas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.prismarine_crystals.name",
+        "source_string": "Prismarine Crystals",
+        "translation": "Kristal ng Prismarin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.prismarine_shard.name",
+        "source_string": "Prismarine Shard",
+        "translation": "Piraso ng Prismarin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pumpkin_pie.name",
+        "source_string": "Pumpkin Pie",
+        "translation": "Kalabasang Pastel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.cooked_rabbit.name",
+        "source_string": "Cooked Rabbit",
+        "translation": "Luto na Kuneho",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.rabbit_foot.name",
+        "source_string": "Rabbit's Foot",
+        "translation": "Paa ng Kuneho",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.rabbit_hide.name",
+        "source_string": "Rabbit Hide",
+        "translation": "Katad ng Kuneho",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.rabbit.name",
+        "source_string": "Raw Rabbit",
+        "translation": "Hilaw na Kuneho",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.rabbit_stew.name",
+        "source_string": "Rabbit Stew",
+        "translation": "Nilagang Kuneho",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.record_11.desc",
+        "source_string": "C418 - 11",
+        "translation": "C418 - 11",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.record_13.desc",
+        "source_string": "C418 - 13",
+        "translation": "C418 - 13",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15354,7 +16066,7 @@
     {
         "identifier": "joincode.icon_text.18",
         "source_string": "Llama",
-        "translation": "Llama",
+        "translation": "Lyama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -19122,7 +19834,7 @@
     {
         "identifier": "tile.nether_brick.name",
         "source_string": "Nether Bricks",
-        "translation": "Laryong Taga-nether",
+        "translation": "Bloke ng Laryong Taga-nether",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
