@@ -1,4 +1,4 @@
-# Minecraft: Universal Language Pack
+# Universal Language Pack
 
 <div style="display: flex; align-items: center;">
   <a href="https://crowdin.com/project/universal-language-pack">
@@ -10,7 +10,7 @@
   </a>
 </div>
 
-Minecraft: Universal Language Pack is a Bedrock Resource Pack that expands language support by including numerous missing languages.
+Universal Language Pack is a Bedrock Resource Pack that expands language support by including numerous missing languages.
 Join our Crowdin project to help refine current translations and contribute new ones!
 
 ## Features
