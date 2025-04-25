@@ -10,7 +10,7 @@
   </a>
 </div>
 
-Minecraft: Universal Language Pack is a Bedrock Add-On that expands language support by including numerous missing languages.
+Minecraft: Universal Language Pack is a Bedrock Resource Pack that expands language support by including numerous missing languages.
 Join our Crowdin project to help refine current translations and contribute new ones!
 
 ## Features
