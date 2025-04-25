@@ -1,8 +1,7 @@
 const LOCALES_PATH = '../../../../locales/';
-const LANG_KEY = 'language.name';
+const LANG_NAME_KEY = 'language.name';
 
 const langFiles: Deno.DirEntry[] = Array.from(Deno.readDirSync(LOCALES_PATH));
-
 const langNames: [string, string][] = [['en_US', 'English (United States)']];
 
 for (const langFile of langFiles) {
@@ -11,14 +10,14 @@ for (const langFile of langFiles) {
     const langData: {
         identifier: string;
         source_string: string;
-        translation: string;
-        context: null;
+        translation: string | null;
+        context: string | null;
         labels: string;
-        max_length: null;
+        max_length: number | null;
     }[] = JSON.parse(Deno.readTextFileSync(`${LOCALES_PATH}${langFile.name}`));
 
     const displayName =
-        langData.find((entry) => entry.identifier === LANG_KEY)?.translation || langName;
+        langData.find((entry) => entry.identifier === LANG_NAME_KEY)?.translation || langName;
 
     if (langName !== 'en_US') {
         langNames.push([langName, displayName]);
