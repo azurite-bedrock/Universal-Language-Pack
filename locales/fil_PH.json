@@ -5944,9 +5944,25 @@
         "max_length": null
     },
     {
+        "identifier": "commands.clone.tooManyBlocks",
+        "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
+        "translation": "Masyadong madaming blocks sa piniling sukat (%1$d > %2$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.closechat.description",
+        "source_string": "Closes the chat window of the local player if it is open.",
+        "translation": "Isasara ang chat window ng local player kapag nakabukas.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.dialogue.npcNotFound",
         "source_string": "Failed to find an NPC.",
-        "translation": "Nabigo sa paghanap ng NPC.",
+        "translation": "Hindi makahanap ng NPC.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5960,9 +5976,153 @@
         "max_length": null
     },
     {
+        "identifier": "commands.enchant.description",
+        "source_string": "Adds an enchantment to a player's selected item.",
+        "translation": "Nagdadagdag ng mahika sa napiling aytem ng manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.item.invalid",
+        "source_string": "Invalid command syntax: no such %s exists with that data value",
+        "translation": "Imbalidong command sintaksis: walang nag-eexist na %s na may ganyang data value",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.item.notFound",
+        "source_string": "There is no such item with name %1$d",
+        "translation": "Walang ganyang aytem na may pangalang %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidData",
+        "source_string": "\"data\" has an invalid input, must be an integer.",
+        "translation": "Ang \"data\" ay may imbalidong input, intidyer dapat ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidQuantity",
+        "source_string": "\"quantity\" has an invalid input, must be an integer or range of integers.",
+        "translation": "Ang \"quantity\" ay may imbalidong input, intidyer dapat o range ng mga intidyer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidSlot",
+        "source_string": "\"slot\" has an invalid input, must be an integer or range of integers.",
+        "translation": "Ang \"slot\" ay may imbalidong input, intidyer dapat o range ng mga intidyer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.noItem",
+        "source_string": "\"item\" missing, required for \"hasitem\" filter.",
+        "translation": "Nawawala ang \"item\", kinakailangan para sa \"hasitem\" na filter.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.slotNoLocation",
+        "source_string": "Specifying a \"slot\" is invalid if a \"location\" is not given.",
+        "translation": "Pagtutukoy ng \"slot\" ay magiging imbalido kung ang \"location\" ay hindi nabigyan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.description",
+        "source_string": "Lists all tags associated with the given item.",
+        "translation": "Naglilista ng mga tag na nauugnay sa binigay na aytem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.single",
+        "source_string": "There is %d tag on the item %s:",
+        "translation": "May %d tag sa aytem na %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.multiple",
+        "source_string": "There are %d tags on the item %s:",
+        "translation": "May %d mga tag sa aytem na %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.tagsfromitem.success.list.tags",
         "source_string": "%s",
         "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.fail.notagsfound",
+        "source_string": "No tags found on the item: %s.",
+        "translation": "Walang tags ang nahanap sa aytem: %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.description",
+        "source_string": "Replaces items in inventories.",
+        "translation": "Nagpapalit ng mga aytem sa mga imbentaryo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.failed",
+        "source_string": "Could not replace %s slot %d with %d * %s",
+        "translation": "Hindi mapalit ang %s slot %d sa %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.keepFailed",
+        "source_string": "There is already an item occupying %s slot %d.",
+        "translation": "Mayroon nang aytem na nag-ooccupy sa %s slot %d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.noContainer",
+        "source_string": "Block at %s is not a container",
+        "translation": "Bloke sa %s ay hindi isang container",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.badSlotNumber",
+        "source_string": "Could not replace slot %d, must be a value between %d and %d.",
+        "translation": "Hindi mapalitan ang %d na slot, dapat ang value ay nasa pagitan ng %d at %d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success",
+        "source_string": "Replaced %s slot %d with %d * %s",
+        "translation": "Napalitan na ang %s slot %d sa %d * %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6067,6 +6227,38 @@
         "identifier": "howtoplay.blocks.text.7",
         "source_string": "§eTerracotta§f - This is found naturally in Badlands biomes or can be crafted and dyed from Clay that is found underwater. Terracotta can be made into Glazed Terracotta by smelting it in a Furnace.",
         "translation": "§eTerakota§f - Ito ay matatagpuan sa mga biomes na Mesa o puwedeng ilikha at kulayan galing sa Luwad na matatagpuan sa ilalim ng tubig. Puwede gawing Pinakintab na Terakota ang Terakota sa pamamagitan ng pagluluto nito sa Pugon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.keyboard",
+        "source_string": "To hold an item in your hand, scroll the mouse wheel to select the item. You can also use a number key: 1 is the first hotbar slot and 9 is the last. ",
+        "translation": "Para makahawak ng aytem sa kamay, i-iskrol ang mouse wheel para makapili ng aytem. Puwede mo ring gamitin ang number key: 1 ay ang pang-unang hotbar slot at ang 9 naman ay ang panghuli. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.gamepad",
+        "source_string": "To hold an item in your hand, use :_input_key.cycleItemLeft: and :_input_key.cycleItemRight: to select the item.",
+        "translation": "Para makahawak ng aytem sa kamay, gamitin ang :_input_key.cycleItemLeft: at :_input_key.cycleItemRight: naman para makapili ng aytem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.rift",
+        "source_string": "To hold an item in your hand, use :rift_left_trigger: and :rift_left_grab: to select the item.",
+        "translation": "Para makahawak ng aytem sa kamay, gamitin ang :rift_left_trigger: at :rift_left_grab: naman para makapili ng aytem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.windowsmr",
+        "source_string": "To hold an item in your hand, use :windowsmr_left_touchpad_horizontal: to select the item.",
+        "translation": "Para makahawak ng aytem sa kamay, gamitin ang :windowsmr_left_touchpad_horizontal: para makapili ng aytem.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7506,7 +7698,7 @@
     {
         "identifier": "item.banner.flow.black",
         "source_string": "Black Flow",
-        "translation": "Paagos na Itim",
+        "translation": "Agos na Itim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7514,7 +7706,7 @@
     {
         "identifier": "item.banner.flow.blue",
         "source_string": "Blue Flow",
-        "translation": "Paagos na Asul",
+        "translation": "Agos na Asul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7522,7 +7714,7 @@
     {
         "identifier": "item.banner.flow.brown",
         "source_string": "Brown Flow",
-        "translation": "Paagos na Kayumanggi",
+        "translation": "Agos na Kayumanggi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7530,7 +7722,7 @@
     {
         "identifier": "item.banner.flow.cyan",
         "source_string": "Cyan Flow",
-        "translation": "Paagos na Akwa",
+        "translation": "Agos na Akwa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7538,7 +7730,7 @@
     {
         "identifier": "item.banner.flow.gray",
         "source_string": "Gray Flow",
-        "translation": "Paagos na Abo",
+        "translation": "Agos na Abo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7546,7 +7738,7 @@
     {
         "identifier": "item.banner.flow.green",
         "source_string": "Green Flow",
-        "translation": "Paagos na Berde",
+        "translation": "Agos na Berde",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7554,7 +7746,7 @@
     {
         "identifier": "item.banner.flow.lightBlue",
         "source_string": "Light Blue Flow",
-        "translation": "Paagos na Kulay-langit",
+        "translation": "Agos na Kulay-langit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7562,7 +7754,7 @@
     {
         "identifier": "item.banner.flow.lime",
         "source_string": "Lime Flow",
-        "translation": "Paagos na Dayap",
+        "translation": "Agos na Dayap",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7570,7 +7762,7 @@
     {
         "identifier": "item.banner.flow.magenta",
         "source_string": "Magenta Flow",
-        "translation": "Paagos na Madyenta",
+        "translation": "Agos na Madyenta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7578,7 +7770,7 @@
     {
         "identifier": "item.banner.flow.orange",
         "source_string": "Orange Flow",
-        "translation": "Paagos na Kahel",
+        "translation": "Agos na Kahel",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7586,7 +7778,7 @@
     {
         "identifier": "item.banner.flow.pink",
         "source_string": "Pink Flow",
-        "translation": "Paagos na Rosas",
+        "translation": "Agos na Rosas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7594,7 +7786,7 @@
     {
         "identifier": "item.banner.flow.purple",
         "source_string": "Purple Flow",
-        "translation": "Paagos na Lila",
+        "translation": "Agos na Lila",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7602,7 +7794,7 @@
     {
         "identifier": "item.banner.flow.red",
         "source_string": "Red Flow",
-        "translation": "Paagos na Pula",
+        "translation": "Agos na Pula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7610,7 +7802,7 @@
     {
         "identifier": "item.banner.flow.silver",
         "source_string": "Light Gray Flow",
-        "translation": "Paagos na Pilak",
+        "translation": "Agos na Pilak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7618,7 +7810,7 @@
     {
         "identifier": "item.banner.flow.white",
         "source_string": "White Flow",
-        "translation": "Paagos na Puti",
+        "translation": "Agos na Puti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7626,7 +7818,7 @@
     {
         "identifier": "item.banner.flow.yellow",
         "source_string": "Yellow Flow",
-        "translation": "Paagos na Dilaw",
+        "translation": "Agos na Dilaw",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8162,7 +8354,7 @@
     {
         "identifier": "item.banner.guster.black",
         "source_string": "Black Guster",
-        "translation": "Pasimoyng Itim",
+        "translation": "Simoy na Itim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8170,7 +8362,7 @@
     {
         "identifier": "item.banner.guster.blue",
         "source_string": "Blue Guster",
-        "translation": "Pasimoyng Asul",
+        "translation": "Simoy na Asul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8178,7 +8370,7 @@
     {
         "identifier": "item.banner.guster.brown",
         "source_string": "Brown Guster",
-        "translation": "Pasimoyng Kayumanggi",
+        "translation": "Simoy na Kayumanggi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8186,7 +8378,7 @@
     {
         "identifier": "item.banner.guster.cyan",
         "source_string": "Cyan Guster",
-        "translation": "Pasimoyng Akwa",
+        "translation": "Simoy na Akwa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8194,7 +8386,7 @@
     {
         "identifier": "item.banner.guster.gray",
         "source_string": "Gray Guster",
-        "translation": "Pasimoyng Abo",
+        "translation": "Simoy na Abo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8202,7 +8394,7 @@
     {
         "identifier": "item.banner.guster.green",
         "source_string": "Green Guster",
-        "translation": "Pasimoyng Berde",
+        "translation": "Simoy na Berde",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8210,7 +8402,7 @@
     {
         "identifier": "item.banner.guster.lightBlue",
         "source_string": "Light Blue Guster",
-        "translation": "Pasimoyng Kulay-langit",
+        "translation": "Simoy na Kulay-langit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8218,7 +8410,7 @@
     {
         "identifier": "item.banner.guster.lime",
         "source_string": "Lime Guster",
-        "translation": "Pasimoyng Dayap",
+        "translation": "Simoy na Dayap",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8226,7 +8418,7 @@
     {
         "identifier": "item.banner.guster.magenta",
         "source_string": "Magenta Guster",
-        "translation": "Pasimoyng Madyenta",
+        "translation": "Simoy na Madyenta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8234,7 +8426,7 @@
     {
         "identifier": "item.banner.guster.orange",
         "source_string": "Orange Guster",
-        "translation": "Pasimoyng Kahel",
+        "translation": "Simoy na Kahel",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8242,7 +8434,7 @@
     {
         "identifier": "item.banner.guster.pink",
         "source_string": "Pink Guster",
-        "translation": "Pasimoyng Rosas",
+        "translation": "Simoy na Rosas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8250,7 +8442,7 @@
     {
         "identifier": "item.banner.guster.purple",
         "source_string": "Purple Guster",
-        "translation": "Pasimoyng Lila",
+        "translation": "Simoy na Lila",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8258,7 +8450,7 @@
     {
         "identifier": "item.banner.guster.red",
         "source_string": "Red Guster",
-        "translation": "Pasimoyng Pula",
+        "translation": "Simoy na Pula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8266,7 +8458,7 @@
     {
         "identifier": "item.banner.guster.silver",
         "source_string": "Light Gray Guster",
-        "translation": "Pasimoy Pilak",
+        "translation": "Simoy Pilak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8274,7 +8466,7 @@
     {
         "identifier": "item.banner.guster.white",
         "source_string": "White Guster",
-        "translation": "Pasimoyng Puti",
+        "translation": "Simoy na Puti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8282,7 +8474,7 @@
     {
         "identifier": "item.banner.guster.yellow",
         "source_string": "Yellow Guster",
-        "translation": "Pasimoyng Dilaw",
+        "translation": "Simoy na Dilaw",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15840,6 +16032,46 @@
         "max_length": null
     },
     {
+        "identifier": "item.creeper_banner_pattern.name",
+        "source_string": "Creeper Charge Banner Pattern",
+        "translation": "Dibuho ng Bandilang Pa-creeper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flow_banner_pattern.name",
+        "source_string": "Flow Banner Pattern",
+        "translation": "Dibuho ng Bandilang Agos",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flower_banner_pattern.name",
+        "source_string": "Flower Charge Banner Pattern",
+        "translation": "Dibuho ng Bandilang Pabulaklak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.globe_banner_pattern.name",
+        "source_string": "Globe Banner Pattern",
+        "translation": "Dibuho ng Bandilang Pa-globo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.guster_banner_pattern.name",
+        "source_string": "Guster Banner Pattern",
+        "translation": "Dibuho ng Bandilang Simoy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.banner_pattern.bricks",
         "source_string": "Field Masoned",
         "translation": "Palaryo",
@@ -15858,7 +16090,7 @@
     {
         "identifier": "item.banner_pattern.flow",
         "source_string": "Flow",
-        "translation": "Paagos",
+        "translation": "Agos",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15882,7 +16114,7 @@
     {
         "identifier": "item.banner_pattern.guster",
         "source_string": "Guster",
-        "translation": "Pasimoy",
+        "translation": "Simoy",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
