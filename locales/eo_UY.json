@@ -824,6 +824,22 @@
         "max_length": null
     },
     {
+        "identifier": "accounts.signOutConfirmation",
+        "source_string": "Do you want to sign out and switch accounts?",
+        "translation": "Ĉu vi volas elsaluti kaj ŝanĝi kontojn?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.switchConfirmation",
+        "source_string": "Do you want to switch accounts? Your current account will stay signed in.",
+        "translation": "Ĉu vi volas ŝanĝi kontojn? Via nuna konto restos ensalutita.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accounts.signOut",
         "source_string": "Sign Out",
         "translation": "Elsaluti",
@@ -840,9 +856,25 @@
         "max_length": null
     },
     {
+        "identifier": "accounts.manage",
+        "source_string": "Manage Account",
+        "translation": "Mastrumi konton",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accounts.signOut.fail.title",
         "source_string": "Sign-out failed",
         "translation": "Ne eblis elsaluti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.body.line1",
+        "source_string": "We were unable to sign you out at this time. Please try again later. This will not prevent you from signing in with another account.",
+        "translation": "Ni ne povis elsalutigi vin nun. Bonvolu reprovi poste. Ĉi tio ne malebligos, ke vi ensalutos per alia konto.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2056,6 +2088,14 @@
         "max_length": null
     },
     {
+        "identifier": "eula.acceptButton",
+        "source_string": "Accept",
+        "translation": "Akcepti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "book.byAuthor",
         "source_string": "by",
         "translation": "de",
@@ -2282,7 +2322,7 @@
     {
         "identifier": "chat.realmsFilterDisabled",
         "source_string": "This Realm has chat filtering turned off.",
-        "translation": "La filtrado de babiloj malaktiviĝis en ĉi tiu Realm.",
+        "translation": "La filtrado de babiloj malaktivas en ĉi tiu Realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2522,7 +2562,7 @@
     {
         "identifier": "chat.coordinateTypePosition",
         "source_string": "My Position",
-        "translation": "Bloka pozicio",
+        "translation": "Mia pozicio",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2611,6 +2651,14 @@
         "identifier": "chooseRealmScreen.realmsbuttontext",
         "source_string": "Add a 2 player Realm",
         "translation": "Aldoni Realms'n de 2 ludantoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "customTemplatesScreen.header",
+        "source_string": "Imported Templates",
+        "translation": "Importitaj ŝablonoj",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
