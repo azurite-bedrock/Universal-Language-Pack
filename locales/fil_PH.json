@@ -6098,7 +6098,7 @@
     {
         "identifier": "commands.replaceitem.failed",
         "source_string": "Could not replace %s slot %d with %d * %s",
-        "translation": "Hindi mapalit ang %s slot %d sa %d * %s",
+        "translation": "Hindi mapalit ang %s slot %d kasama ang %d * %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6130,7 +6130,31 @@
     {
         "identifier": "commands.replaceitem.success",
         "source_string": "Replaced %s slot %d with %d * %s",
-        "translation": "Napalitan na ang %s slot %d sa %d * %s",
+        "translation": "Napalitan na ang %s slot %d kasama ang %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success.entity",
+        "source_string": "Replaced %s slot %d of %s with %d * %s",
+        "translation": "Napalitan na ang %s slot %d ng %s kasama ang %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Hindi matagumpay ang pag-parse ng data tag: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslot.description",
+        "source_string": "Sets a fixed slot to a specified item.",
+        "translation": "Nagse-set ng isang fixed slot sa natukoy na aytem.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6192,6 +6216,38 @@
         "max_length": null
     },
     {
+        "identifier": "enchantment.arrowDamage",
+        "source_string": "Power",
+        "translation": "Kapangyarihan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowFire",
+        "source_string": "Flame",
+        "translation": "Liyab",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowInfinite",
+        "source_string": "Infinity",
+        "translation": "Impinidad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowKnockback",
+        "source_string": "Punch",
+        "translation": "Suntok",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "entity.breeze_wind_charge_projectile.name",
         "source_string": "Wind Charge",
         "translation": "Karga ng Hangin",
@@ -6235,6 +6291,14 @@
         "identifier": "howtoplay.blocks.text.7",
         "source_string": "§eTerracotta§f - This is found naturally in Badlands biomes or can be crafted and dyed from Clay that is found underwater. Terracotta can be made into Glazed Terracotta by smelting it in a Furnace.",
         "translation": "§eTerakota§f - Ito ay matatagpuan sa mga biomes na Mesa o puwedeng ilikha at kulayan galing sa Luwad na matatagpuan sa ilalim ng tubig. Puwede gawing Pinakintab na Terakota ang Terakota sa pamamagitan ng pagluluto nito sa Pugon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.2",
+        "source_string": "The creative mode interface allows any item in the game to be moved into the player's inventory without the need for mining or crafting the item. The items in the player's inventory will not be removed when they are placed or used in the world, and this allows the player to focus on building rather than resource gathering.",
+        "translation": "Ang interface ng creative mode ay nagbibigay ng akses sa mga anumang aytem sa laro nang hindi na nangangailan ng pagkuha nito sa pamamagitan ng pagmimina o paggawa. Sa creative mode, ang mga aytem sa manlalaro ay hindi matatanggal kapag ito ay nailagay o nagamit sa mundo, at nagbibigay ito ng kakayahan sa manlalaro na magpokus sa pagtatayo ng kaniyang mga nais na likhain kaysa sa pagkuha ng mga ito.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16248,6 +16312,22 @@
         "max_length": null
     },
     {
+        "identifier": "item.resin_brick.name",
+        "source_string": "Resin Brick",
+        "translation": "Laryong Resina",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.name",
+        "source_string": "Shield",
+        "translation": "Panangga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.bundle.empty",
         "source_string": "Empty",
         "translation": "Walang laman",
@@ -23298,7 +23378,7 @@
     {
         "identifier": "tile.resin_bricks.name",
         "source_string": "Resin Bricks",
-        "translation": "Laryong Resina",
+        "translation": "Bloke ng Laryong Resina",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
