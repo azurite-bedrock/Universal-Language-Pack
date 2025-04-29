@@ -6304,6 +6304,22 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.inventory.text.2.gamepad",
+        "source_string": "Want to move something between your §ehotbar§f and your inventory? Use the cursor to select an item and press :_gamepad_face_button_down:. Then, move your cursor to an empty item slot and press again to drop the item.",
+        "translation": "Gusto mo bang maglipat ng aytem sa iyong §ehotbar§f o sa iyong imbentaryo? Gamitin ang cursor para makapili ng aytem at piliin ang :_gamepad_face_button_down:. Pagkatapos, i-move mo ang iyong cursor sa walang lamang item slot at pindutin ulit para matapon ang aytem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.2.vr",
+        "source_string": "Want to move something between your §ehotbar§f and your inventory? Use the cursor to select an item and press :_input_key.use:. Then, move your cursor to an empty item slot and press again to drop the item.",
+        "translation": "Gusto mo bang maglipat ng aytem sa iyong §ehotbar§f o sa iyong imbentaryo? Gamitin ang cursor para makapili ng aytem at pindutinang :_input_key.use:. Pagkatapos, i-move mo ang iyong cursor sa walang lamang item slot at pindutin ulit para matapon ang aytem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.selectingItems.text.2.keyboard",
         "source_string": "To hold an item in your hand, scroll the mouse wheel to select the item. You can also use a number key: 1 is the first hotbar slot and 9 is the last. ",
         "translation": "Para makahawak ng aytem sa kamay, i-iskrol ang mouse wheel para makapili ng aytem. Puwede mo ring gamitin ang number key: 1 ay ang pang-unang hotbar slot at ang 9 naman ay ang panghuli. ",
@@ -12210,7 +12226,7 @@
     {
         "identifier": "item.boat.big_oak.name",
         "source_string": "Dark Oak Boat",
-        "translation": "Robleng Madilim na Bangka",
+        "translation": "Madilim na Robleng Bangka",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13234,7 +13250,7 @@
     {
         "identifier": "item.dark_oak_door.name",
         "source_string": "Dark Oak Door",
-        "translation": "Robleng Madilim na Pinto",
+        "translation": "Madilim na Robleng Pinto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15762,7 +15778,7 @@
     {
         "identifier": "item.darkoak_sign.name",
         "source_string": "Dark Oak Sign",
-        "translation": "Robleng Madilim na Karatula",
+        "translation": "Madilim na Robleng Karatula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16282,7 +16298,7 @@
     {
         "identifier": "item.pale_oak_door.name",
         "source_string": "Pale Oak Door",
-        "translation": "Robleng Maputlang Pinto",
+        "translation": "Maputlang Robleng Pinto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16290,7 +16306,15 @@
     {
         "identifier": "item.pale_oak_hanging_sign.name",
         "source_string": "Pale Oak Hanging Sign",
-        "translation": "Robleng Maputlang Nakasabit na Karatula",
+        "translation": "Maputlang Robleng Nakasabit na Karatula",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pale_oak_sign.name",
+        "source_string": "Pale Oak Sign",
+        "translation": "Maputlang Robleng Karatula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16312,9 +16336,33 @@
         "max_length": null
     },
     {
+        "identifier": "item.boat.pale_oak.name",
+        "source_string": "Pale Oak Boat",
+        "translation": "Maputlang Robleng Bangka",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.chest_boat.pale_oak.name",
+        "source_string": "Pale Oak Boat with Chest",
+        "translation": "Maputlang Robleng Bangka na may Baul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.resin_brick.name",
         "source_string": "Resin Brick",
         "translation": "Laryong Resina",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.worldbuilder.block.failed",
+        "source_string": "You need Creative + Operator to place this block",
+        "translation": "Kailangan mo ng akses sa Creative + Operator access para malagay o magamit ang blokeng ito",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16328,9 +16376,289 @@
         "max_length": null
     },
     {
+        "identifier": "item.shield.white.name",
+        "source_string": "White Shield",
+        "translation": "Pananggang Puti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.lime.name",
+        "source_string": "Lime Shield",
+        "translation": "Pananggang Dayap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.yellow.name",
+        "source_string": "Yellow Shield",
+        "translation": "Pananggang Dilaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.silver.name",
+        "source_string": "Light Gray Shield",
+        "translation": "Pananggang Pilak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.pink.name",
+        "source_string": "Pink Shield",
+        "translation": "Pananggang Rosas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.purple.name",
+        "source_string": "Purple Shield",
+        "translation": "Pananggang Lila",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.red.name",
+        "source_string": "Red Shield",
+        "translation": "Pananggang Pula",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.orange.name",
+        "source_string": "Orange Shield",
+        "translation": "Pananggang Kahel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.lightBlue.name",
+        "source_string": "Light Blue Shield",
+        "translation": "Pananggang Kulay-langit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.magenta.name",
+        "source_string": "Magenta Shield",
+        "translation": "Pananggang Madyenta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.gray.name",
+        "source_string": "Gray Shield",
+        "translation": "Pananggang Abo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.green.name",
+        "source_string": "Green Shield",
+        "translation": "Pananggang Berde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.cyan.name",
+        "source_string": "Cyan Shield",
+        "translation": "Pananggang Akwa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.brown.name",
+        "source_string": "Brown Shield",
+        "translation": "Pananggang Kayumanggi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.black.name",
+        "source_string": "Black Shield",
+        "translation": "Pananggang Itim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.blue.name",
+        "source_string": "Blue Shield",
+        "translation": "Pananggang Asul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle",
+        "source_string": "Bundle",
+        "translation": "Sako",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.black_bundle",
+        "source_string": "Black Bundle",
+        "translation": "Sakong Itim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.white_bundle",
+        "source_string": "White Bundle",
+        "translation": "Sakong Puti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.red_bundle",
+        "source_string": "Red Bundle",
+        "translation": "Sakong Pula",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.orange_bundle",
+        "source_string": "Orange Bundle",
+        "translation": "Sakong Kahel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.yellow_bundle",
+        "source_string": "Yellow Bundle",
+        "translation": "Sakong Dilaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.green_bundle",
+        "source_string": "Green Bundle",
+        "translation": "Sakong Berde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.lime_bundle",
+        "source_string": "Lime Bundle",
+        "translation": "Sakong Dayap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.brown_bundle",
+        "source_string": "Brown Bundle",
+        "translation": "Sakong Kayumanggi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.light_gray_bundle",
+        "source_string": "Light Gray Bundle",
+        "translation": "Sakong Pilak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.bundle.empty",
         "source_string": "Empty",
         "translation": "Walang laman",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.goat_horn.name",
+        "source_string": "Goat Horn",
+        "translation": "Sungay ng Kambing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.0",
+        "source_string": "Ponder",
+        "translation": "Muni-muni",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.1",
+        "source_string": "Sing",
+        "translation": "Awit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.2",
+        "source_string": "Seek",
+        "translation": "Hanap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.3",
+        "source_string": "Feel",
+        "translation": "Damdam",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.4",
+        "source_string": "Admire",
+        "translation": "Hanga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.5",
+        "source_string": "Call",
+        "translation": "Tawag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.6",
+        "source_string": "Yearn",
+        "translation": "Sabik",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.7",
+        "source_string": "Dream",
+        "translation": "Pangarap",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -18418,7 +18746,7 @@
     {
         "identifier": "tile.dark_oak_button.name",
         "source_string": "Dark Oak Button",
-        "translation": "Robleng Madilim na Pindutan",
+        "translation": "Madilim na Robleng Pindutan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20026,7 +20354,7 @@
     {
         "identifier": "tile.darkOakFence.name",
         "source_string": "Dark Oak Fence",
-        "translation": "Robleng Madilim na Bakod",
+        "translation": "Madilim na Robleng Bakod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20034,7 +20362,7 @@
     {
         "identifier": "tile.dark_oak_fence_gate.name",
         "source_string": "Dark Oak Fence Gate",
-        "translation": "Robleng Madilim na Tarangkahan",
+        "translation": "Madilim na Robleng Tarangkahan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20610,7 +20938,7 @@
     {
         "identifier": "tile.leaves.big_oak.name",
         "source_string": "Dark Oak Leaves",
-        "translation": "Dahon ng Robleng Madilim",
+        "translation": "Dahon ng Madilim na Roble",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20618,7 +20946,7 @@
     {
         "identifier": "tile.leaves2.big_oak.name",
         "source_string": "Dark Oak Leaves",
-        "translation": "Dahon ng Robleng Madilim",
+        "translation": "Dahon ng Madilim na Roble",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20722,7 +21050,7 @@
     {
         "identifier": "tile.log.big_oak.name",
         "source_string": "Dark Oak Log",
-        "translation": "Robleng Madilim na Troso",
+        "translation": "Madilim na Robleng Troso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21154,7 +21482,7 @@
     {
         "identifier": "tile.dark_oak_pressure_plate.name",
         "source_string": "Dark Oak Pressure Plate",
-        "translation": "Robleng Madilim na Apakan",
+        "translation": "Madilim na Robleng Apakan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21434,7 +21762,7 @@
     {
         "identifier": "tile.sapling.big_oak.name",
         "source_string": "Dark Oak Sapling",
-        "translation": "Halamang Robleng Madilim",
+        "translation": "Halamang Madilim na Roble",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21522,7 +21850,7 @@
     {
         "identifier": "tile.darkoak_standing_sign.name",
         "source_string": "Dark Oak Sign",
-        "translation": "Robleng Madilim na Karatula",
+        "translation": "Madilim na Robleng Karatula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21674,7 +22002,7 @@
     {
         "identifier": "tile.dark_oak_stairs.name",
         "source_string": "Dark Oak Stairs",
-        "translation": "Robleng Madilim na Hagdanan",
+        "translation": "Madilim na Robleng Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22834,7 +23162,7 @@
     {
         "identifier": "tile.dark_oak_trapdoor.name",
         "source_string": "Dark Oak Trapdoor",
-        "translation": "Robleng Madilim na Pintong Maliit",
+        "translation": "Madilim na Robleng Pintong Maliit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22970,7 +23298,7 @@
     {
         "identifier": "tile.planks.big_oak.name",
         "source_string": "Dark Oak Planks",
-        "translation": "Robleng Madilim na Tabla",
+        "translation": "Madilim na Robleng Tabla",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23026,7 +23354,7 @@
     {
         "identifier": "tile.wooden_slab.big_oak.name",
         "source_string": "Dark Oak Slab",
-        "translation": "Robleng Madilim na Laha",
+        "translation": "Madilim na Robleng Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23226,7 +23554,7 @@
     {
         "identifier": "tile.pale_oak_button.name",
         "source_string": "Pale Oak Button",
-        "translation": "Robleng Maputlang Pindutan",
+        "translation": "Maputlang Robleng Pindutan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23234,7 +23562,7 @@
     {
         "identifier": "tile.pale_oak_double_slab.name",
         "source_string": "Pale Oak Double Slab",
-        "translation": "Robleng Maputlang Lahang Doble",
+        "translation": "Maputlang Robleng Lahang Doble",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23242,7 +23570,7 @@
     {
         "identifier": "tile.pale_oak_fence.name",
         "source_string": "Pale Oak Fence",
-        "translation": "Robleng Maputlang Bakod",
+        "translation": "Maputlang Robleng Bakod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23250,7 +23578,7 @@
     {
         "identifier": "tile.pale_oak_fence_gate.name",
         "source_string": "Pale Oak Fence Gate",
-        "translation": "Robleng Maputlang Tarangkahan",
+        "translation": "Maputlang Robleng Tarangkahan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23258,7 +23586,7 @@
     {
         "identifier": "tile.pale_oak_log.name",
         "source_string": "Pale Oak Log",
-        "translation": "Robleng Maputlang Troso",
+        "translation": "Maputlang Robleng Troso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23266,7 +23594,7 @@
     {
         "identifier": "tile.pale_oak_planks.name",
         "source_string": "Pale Oak Planks",
-        "translation": "Robleng Maputlang Tabla",
+        "translation": "Maputlang Robleng Tabla",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23274,7 +23602,7 @@
     {
         "identifier": "tile.pale_oak_pressure_plate.name",
         "source_string": "Pale Oak Pressure Plate",
-        "translation": "Robleng Maputlang Apakan",
+        "translation": "Maputlang Robleng Apakan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23282,7 +23610,7 @@
     {
         "identifier": "tile.pale_oak_slab.name",
         "source_string": "Pale Oak Slab",
-        "translation": "Robleng Maputlang Laha",
+        "translation": "Maputlang Robleng Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23290,7 +23618,7 @@
     {
         "identifier": "tile.pale_oak_stairs.name",
         "source_string": "Pale Oak Stairs",
-        "translation": "Robleng Maputlang Hagdanan",
+        "translation": "Maputlang Robleng Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23298,7 +23626,7 @@
     {
         "identifier": "tile.pale_oak_trapdoor.name",
         "source_string": "Pale Oak Trapdoor",
-        "translation": "Robleng Maputlang Pintong Maliit",
+        "translation": "Maputlang Robleng Pintong Maliit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23306,7 +23634,7 @@
     {
         "identifier": "tile.pale_oak_wood.name",
         "source_string": "Pale Oak Wood",
-        "translation": "Robleng Maputlang Kahoy",
+        "translation": "Maputlang Robleng Kahoy",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23314,7 +23642,7 @@
     {
         "identifier": "tile.stripped_pale_oak_log.name",
         "source_string": "Stripped Pale Oak Log",
-        "translation": "Binalatang Robleng Maputlang Troso",
+        "translation": "Binalatang Maputlang Robleng Troso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23322,7 +23650,7 @@
     {
         "identifier": "tile.stripped_pale_oak_wood.name",
         "source_string": "Stripped Pale Oak Wood",
-        "translation": "Binalatang Robleng Maputlang Kahoy",
+        "translation": "Binalatang Maputlang Robleng Kahoy",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23962,7 +24290,7 @@
     {
         "identifier": "tile.stripped_dark_oak_log.name",
         "source_string": "Stripped Dark Oak Log",
-        "translation": "Binalatang Robleng Madilim na Troso",
+        "translation": "Binalatang Madilim na Robleng Troso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24146,7 +24474,7 @@
     {
         "identifier": "tile.wood.dark_oak.name",
         "source_string": "Dark Oak Wood",
-        "translation": "Robleng Madilim na Kahoy",
+        "translation": "Madilim na Robleng Kahoy",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24194,7 +24522,7 @@
     {
         "identifier": "tile.wood.stripped.dark_oak.name",
         "source_string": "Stripped Dark Oak Wood",
-        "translation": "Binalatang Robleng Madilim na Kahoy",
+        "translation": "Binalatang Madilim na Robleng Kahoy",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
