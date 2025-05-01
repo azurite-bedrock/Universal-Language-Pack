@@ -1192,6 +1192,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.popup.title",
+        "source_string": "Turn Off Screen Reader?",
+        "translation": "Lay Off Shirm Reader?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.popup.message.line1",
         "source_string": "Welcome to Minecraft!",
         "translation": "Welcome to Minecraft!",
@@ -1304,6 +1312,22 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.gamepad.stick.left",
+        "source_string": "Left Stick",
+        "translation": "Left Stick",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.stick.right",
+        "source_string": "Right Stick",
+        "translation": "Right Stick",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.gamepad.trigger.right",
         "source_string": "Right Trigger",
         "translation": "Right Trigger",
@@ -1348,6 +1372,46 @@
         "source_string": "Right square bracket key",
         "translation": "Right fouredged hook key",
         "context": "right square bracket means ']' on the english keyboard",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.assigned",
+        "source_string": "The %s emote assigned",
+        "translation": "The %s bearing stinted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.unassigned",
+        "source_string": "Unassigned",
+        "translation": "Unstinted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.changeEmotesInstruction.button",
+        "source_string": "the %s to access",
+        "translation": "the %s to reach",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.keyboard.arrow",
+        "source_string": "arrow",
+        "translation": "flone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.name",
+        "source_string": "Name: %s (%s)",
+        "translation": "Name: %s (%s)",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -2160,9 +2224,273 @@
         "max_length": null
     },
     {
+        "identifier": "craftingScreen.tab.items",
+        "source_string": "Items",
+        "translation": "Things",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge2",
+        "source_string": "/achievement take achievement.understandCommands @p",
+        "translation": "/achievement take achievement.understandCommands @p",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemcount.success",
+        "source_string": "Agent getitemcount successful",
+        "translation": "Forwright getitemcount speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemcount.failed",
+        "source_string": "Agent failed to getitemcount",
+        "translation": "Forwright could not getitemcount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemspace.success",
+        "source_string": "Agent getitemspace successful",
+        "translation": "Forwright getitemspace speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemspace.failed",
+        "source_string": "Agent failed to getitemspace",
+        "translation": "Forwright could not getitemspace",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemdetail.success",
+        "source_string": "Agent getitemdetail successful",
+        "translation": "Forwright getitemdetail speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemdetail.failed",
+        "source_string": "Agent failed to getitemdetail",
+        "translation": "Forwright could not getitemdetail",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.setitem.success",
+        "source_string": "Agent set item successful",
+        "translation": "Forwright set thing speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.setitem.failed",
+        "source_string": "Agent failed to set item",
+        "translation": "Forwright could not set item",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clear.description",
+        "source_string": "Clears items from player inventory.",
+        "translation": "Empties things from player inholding.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clear.failure.no.items",
+        "source_string": "Could not clear the inventory of %1$s, no items to remove",
+        "translation": "Could not empty the inholding of %1$s, no things to fornim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clear.success",
+        "source_string": "Cleared the inventory of %1$s, removing %2$d items",
+        "translation": "Emptied the inholding of %1$s, fornimming %2$d things",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.noItem",
+        "source_string": "The target doesn't hold an item: %1$s",
+        "translation": "The mark doesn't hold a thing: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.description",
+        "source_string": "Gives an item to a player.",
+        "translation": "Yeaves a thing to a player.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.item.notFound",
+        "source_string": "There is no such item with name %1$d",
+        "translation": "There is no such thing with name %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.list.items",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.list.tags",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.noContainer",
+        "source_string": "Block at %s is not a container",
+        "translation": "Clot at %s is not a inholder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.single.empty",
+        "source_string": "%s has no tags",
+        "translation": "%s has no tokens",
+        "context": "1: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.creative",
+        "source_string": "Item Selection",
+        "translation": "Thing Choosing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.hopper",
+        "source_string": "Item Hopper",
+        "translation": "Thing Hopper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.addItem",
+        "source_string": "Add Item",
+        "translation": "Eke Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.addItemStack",
+        "source_string": "Add Item Stack",
+        "translation": "Eke Thing Heap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.renameItem",
+        "source_string": "Rename Item",
+        "translation": "Edname Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.select.item",
+        "source_string": "Select Item",
+        "translation": "Choose Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.takeItem",
+        "source_string": "Take Item",
+        "translation": "Nim Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "crafting.badCombination",
+        "source_string": "No valid output for that item",
+        "translation": "No right output for that thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.viewSubscriptionsButton",
         "source_string": "View Subscriptions",
         "translation": "See Underwritings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.arrow.item",
+        "source_string": "%1$s was shot by %2$s using %3$s",
+        "translation": "%1$s was shot by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.fireball.item",
+        "source_string": "%1$s was fireballed by %2$s using %3$s",
+        "translation": "%1$s was fireballed by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.indirectMagic.item",
+        "source_string": "%1$s was killed by %2$s using %3$s",
+        "translation": "%1$s was killed by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems",
+        "source_string": "Selecting items",
+        "translation": "Choosing things",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.title",
+        "source_string": "How to Play: Selecting items",
+        "translation": "How to Play: Choosing things",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2259,6 +2587,14 @@
         "identifier": "lategameTips.8",
         "source_string": "The Enderman language is actually English in reverse.",
         "translation": "The Enderman tongue is English thwirely in truth.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.collect_achievement_item",
+        "source_string": "Collect",
+        "translation": "Gather",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
