@@ -280,6 +280,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.checkbox.tts.status",
+        "source_string": "status %s",
+        "translation": "standing %s",
+        "context": "Status will be checked or unchecked",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.dropdown.tts.title",
         "source_string": "Dropdown",
         "translation": "Dropdown",
@@ -1040,6 +1048,22 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.text.rightBracket",
+        "source_string": "Right Bracket",
+        "translation": "Right Fouredged Hook",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.leftBracket",
+        "source_string": "Left Bracket",
+        "translation": "Left Fouredged Hook",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.text.verticalBar",
         "source_string": "Vertical Bar",
         "translation": "Upright Band",
@@ -1411,6 +1435,46 @@
         "identifier": "accounts.name",
         "source_string": "Name: %s (%s)",
         "translation": "Name: %s (%s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.switch",
+        "source_string": "Switch Accounts",
+        "translation": "Switch Reckonings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.manage",
+        "source_string": "Manage Account",
+        "translation": "Handle Reckoning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.body.line2",
+        "source_string": "Error code: %s",
+        "translation": "Dwale dern: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.hyperLink.text",
+        "source_string": "Learn more",
+        "translation": "Learn more",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.hyperLink.uri",
+        "source_string": "https://aka.ms/mcedu-login",
+        "translation": "https://aka.ms/mcedu-login",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2008,6 +2072,278 @@
         "max_length": null
     },
     {
+        "identifier": "action.interact.creeper",
+        "source_string": "Ignite",
+        "translation": "Fire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.edit",
+        "source_string": "Edit",
+        "translation": "Bework",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.exit.boat",
+        "source_string": "Leave Boat",
+        "translation": "Leave Boat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.feed",
+        "source_string": "Feed",
+        "translation": "Feed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.fishing",
+        "source_string": "Fish",
+        "translation": "Fish",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.milk",
+        "source_string": "Milk",
+        "translation": "Milk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.mooshear",
+        "source_string": "Shear",
+        "translation": "Shear",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.moostew",
+        "source_string": "Milk Stew",
+        "translation": "Milk Broth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.repair",
+        "source_string": "Repair",
+        "translation": "Fettle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.boat",
+        "source_string": "Board",
+        "translation": "Board",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.minecart",
+        "source_string": "Ride",
+        "translation": "Ride",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.horse",
+        "source_string": "Ride",
+        "translation": "Ride",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.strider",
+        "source_string": "Ride",
+        "translation": "Ride",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.shear",
+        "source_string": "Shear",
+        "translation": "Shear",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.sit",
+        "source_string": "Sit",
+        "translation": "Sit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.stand",
+        "source_string": "Stand",
+        "translation": "Stand",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.talk",
+        "source_string": "Talk",
+        "translation": "Talk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.tame",
+        "source_string": "Tame",
+        "translation": "Tame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.dye",
+        "source_string": "Dye",
+        "translation": "Dye",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.cure",
+        "source_string": "Cure",
+        "translation": "Heal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.opencontainer",
+        "source_string": "Open",
+        "translation": "Open",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.createMap",
+        "source_string": "Create Map",
+        "translation": "Make Draught",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.takepicture",
+        "source_string": "Take Picture",
+        "translation": "Nim Meting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.saddle",
+        "source_string": "Saddle",
+        "translation": "Saddle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.mount",
+        "source_string": "Mount",
+        "translation": "Mount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.boost",
+        "source_string": "Boost",
+        "translation": "Bolster",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.write",
+        "source_string": "Write",
+        "translation": "Write",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.leash",
+        "source_string": "Leash",
+        "translation": "Lead",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.unleash",
+        "source_string": "Unleash",
+        "translation": "Unlead",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.name",
+        "source_string": "Name",
+        "translation": "Name",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.attachchest",
+        "source_string": "Attach Chest",
+        "translation": "Link Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.equiphorsearmor",
+        "source_string": "Equip Horse Armor",
+        "translation": "Bedight Horse Hirsting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.equipcarpet",
+        "source_string": "Equip Carpet",
+        "translation": "Bedight Stepcloth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.trade",
+        "source_string": "Trade",
+        "translation": "Wrixle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "action.interact.armorstand.pose",
         "source_string": "Pose",
         "translation": "Wend Bearing",
@@ -2120,6 +2456,14 @@
         "max_length": null
     },
     {
+        "identifier": "advMode.notEnabled",
+        "source_string": "Command blocks are not enabled on this server",
+        "translation": "Hest clots are not laid on on this outreckoner",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "advMode.previousOutput",
         "source_string": "Previous Output",
         "translation": "Former Output",
@@ -2155,6 +2499,22 @@
         "identifier": "advMode.setCommand.success",
         "source_string": "Command set: %s",
         "translation": "Hest set: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "advMode.command.charLimitExceeded",
+        "source_string": "Command Input exceeds 500 characters. It is not possible to open the keyboard input on this device type.",
+        "translation": "Hest Input goes over 500 staves. It is not mighty to open the keyboard input on this sare kind.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "apple.iCloudDisabled.title",
+        "source_string": "Don't Lose Your Worlds!",
+        "translation": "Don't Lose Your Worlds!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2219,6 +2579,126 @@
         "identifier": "attribute.modifier.take.2",
         "source_string": "-%d%% %s",
         "translation": "-%d%% %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:attack_damage",
+        "source_string": "Attack Damage",
+        "translation": "Strike Harm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:follow_range",
+        "source_string": "Mob Follow Range",
+        "translation": "Wight Follow Breadth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:knockback_resistance",
+        "source_string": "Knockback Resistance",
+        "translation": "Knockback Withstanding",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.maxHealth",
+        "source_string": "Max Health",
+        "translation": "Greatest Health",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.attackDamage",
+        "source_string": "Attack Damage",
+        "translation": "Strike Harm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.knockbackResistance",
+        "source_string": "Knockback Resistance",
+        "translation": "Knockback Withstanding",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:movement",
+        "source_string": "Speed",
+        "translation": "Speed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.horse.jumpStrength",
+        "source_string": "Horse Jump Strength",
+        "translation": "Horse Leap Strength",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.zombie.spawnReinforcements",
+        "source_string": "Zombie Reinforcements",
+        "translation": "Undead Lich Edstrengthenings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribution.goBack",
+        "source_string": "Go Back",
+        "translation": "Go Back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signIn.tryAgain",
+        "source_string": "Try again",
+        "translation": "Fand ayen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.unableToConnect",
+        "source_string": "Unable to Connect",
+        "translation": "Could Not Bind",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.location",
+        "source_string": "For more information:",
+        "translation": "For more abreasting:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.welcome",
+        "source_string": "Welcome, %s!",
+        "translation": "Welcome, %s!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.exitingGame",
+        "source_string": "Goodbye, come back soon.",
+        "translation": "Goodbye, come back soon.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
