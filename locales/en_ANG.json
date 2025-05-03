@@ -1232,6 +1232,38 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.popup.message.default",
+        "source_string": "On your device, screen reader support is enabled by default.",
+        "translation": "On your sare, shirm reader upholding is on by stock.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.platform",
+        "source_string": "We've detected that your system has a screen reader enabled and have automatically enabled Minecraft's screen reader.",
+        "translation": "We've found that your layout has a shirm reader on and have selfshrithingly laid on Minecraft's shirm reader.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.touch",
+        "source_string": "Touch and drag to find controls on the screen, and double tap controls to select. To scroll on a screen, double tap and hold while swiping up or down.",
+        "translation": "Rine and draw to find steers on the shirm, and rine steers twice to choose. To shrithe on a shirm, rine twice and hold while swiping up or down.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.xbl",
+        "source_string": "We've detected that your account has \"Let games read to me\" enabled and have automatically enabled Minecraft's screen reader.",
+        "translation": "We've found that your reckoning has \"Let games read to me\" on and have selfshrithingly laid on Minecraft's shirm reader.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.popup.message.line3",
         "source_string": "Would you like to turn this off?",
         "translation": "Would you like to lay this off?",
@@ -1440,6 +1472,38 @@
         "max_length": null
     },
     {
+        "identifier": "accounts.signedInAs",
+        "source_string": "Signed in as",
+        "translation": "Gone in as",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOutConfirmation",
+        "source_string": "Do you want to sign out and switch accounts?",
+        "translation": "Do you wish to go out and wend reckonings?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.switchConfirmation",
+        "source_string": "Do you want to switch accounts? Your current account will stay signed in.",
+        "translation": "Do you wish to wend reckonings? Your anward reckoning will stay gone in.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut",
+        "source_string": "Sign Out",
+        "translation": "Go Out",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accounts.switch",
         "source_string": "Switch Accounts",
         "translation": "Switch Reckonings",
@@ -1451,6 +1515,14 @@
         "identifier": "accounts.manage",
         "source_string": "Manage Account",
         "translation": "Handle Reckoning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.title",
+        "source_string": "Sign-out failed",
+        "translation": "Go-out trucked",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2808,6 +2880,30 @@
         "max_length": null
     },
     {
+        "identifier": "commands.clear.testing",
+        "source_string": "%1$s has %2$d items that match the criteria",
+        "translation": "%1$s has %2$d things that match the yardstick",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.cantEnchant",
+        "source_string": "The selected enchantment can't be added to the target item: %1$s",
+        "translation": "The chosen galder can't be eked to the marked thing: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.description",
+        "source_string": "Adds an enchantment to a player's selected item.",
+        "translation": "Ekes a galder to a player's chosen thing.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.enchant.noItem",
         "source_string": "The target doesn't hold an item: %1$s",
         "translation": "The mark doesn't hold a thing: %1$s",
@@ -2824,9 +2920,81 @@
         "max_length": null
     },
     {
+        "identifier": "commands.give.item.invalid",
+        "source_string": "Invalid command syntax: no such %s exists with that data value",
+        "translation": "Unright hest dighting: no such %s bestands with that lore worth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.give.item.notFound",
         "source_string": "There is no such item with name %1$d",
         "translation": "There is no such thing with name %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidData",
+        "source_string": "\"data\" has an invalid input, must be an integer.",
+        "translation": "\"data\" has an unright input, must be a wholerime.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidQuantity",
+        "source_string": "\"quantity\" has an invalid input, must be an integer or range of integers.",
+        "translation": "\"quantity\" has an unright input, must be a wholerime or breadth of wholerimes.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidSlot",
+        "source_string": "\"slot\" has an invalid input, must be an integer or range of integers.",
+        "translation": "\"slot\" has an unright input, must be a wholerime or breadth of wholerimes.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.noItem",
+        "source_string": "\"item\" missing, required for \"hasitem\" filter.",
+        "translation": "\"item\" missing, needed for \"hasitem\" sieve.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.slotNoLocation",
+        "source_string": "Specifying a \"slot\" is invalid if a \"location\" is not given.",
+        "translation": "Narrowing a \"slot\" is unright if a \"location\" is not yeaven.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.description",
+        "source_string": "Lists all items with the given tag.",
+        "translation": "Lists all things with the yeaven token.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.single",
+        "source_string": "There is %d item with the tag %s:",
+        "translation": "There is %d thing with the token %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.multiple",
+        "source_string": "There are %d items with the tag %s:",
+        "translation": "There are %d things with the token %s:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2840,9 +3008,97 @@
         "max_length": null
     },
     {
+        "identifier": "commands.itemswithtag.fail.noitemsfound",
+        "source_string": "No items contain the tag %s.",
+        "translation": "No things hold the token %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.success",
+        "source_string": "%1$s items were dropped.",
+        "translation": "%1$s things were dropped.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess",
+        "source_string": "Replaced %s %d of %s with %d item(s) over %d slot(s)",
+        "translation": "Swapped out %s %d of %s with %d thing(s) over %d groovestead(s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess.block",
+        "source_string": "Replaced %s slot %d with %d item(s) over %d slot(s)",
+        "translation": "Swapped out %s groovestead %d with %d thing(s) over %d groovestead(s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.description",
+        "source_string": "Lists all tags associated with the given item.",
+        "translation": "Lists all tokens thofted with the yeaven thing.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.single",
+        "source_string": "There is %d tag on the item %s:",
+        "translation": "There is %d token on the thing %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.multiple",
+        "source_string": "There are %d tags on the item %s:",
+        "translation": "There are %d tokens on the thing %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.tagsfromitem.success.list.tags",
         "source_string": "%s",
         "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.fail.notagsfound",
+        "source_string": "No tags found on the item: %s.",
+        "translation": "No tokens found on the thing: %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.description",
+        "source_string": "Replaces items in inventories.",
+        "translation": "Swaps out things in inholdings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.failed",
+        "source_string": "Could not replace %s slot %d with %d * %s",
+        "translation": "Could not swap out %s groovestead %d with %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.keepFailed",
+        "source_string": "There is already an item occupying %s slot %d.",
+        "translation": "There is already a thing asitting %s groovestead %d.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2856,10 +3112,74 @@
         "max_length": null
     },
     {
+        "identifier": "commands.replaceitem.badSlotNumber",
+        "source_string": "Could not replace slot %d, must be a value between %d and %d.",
+        "translation": "Could not swap out groovestead %d, must be a worth between %d and %d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success",
+        "source_string": "Replaced %s slot %d with %d * %s",
+        "translation": "Swapped out %s groovestead %d with %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success.entity",
+        "source_string": "Replaced %s slot %d of %s with %d * %s",
+        "translation": "Swapped out %s groovestead %d of %s with %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Lore token understanding trucked: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.add.success.single",
+        "source_string": "Added tag '%1$s' to %2$s",
+        "translation": "Eked token '%1$s' to %2$s",
+        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.tag.list.single.empty",
         "source_string": "%s has no tags",
         "translation": "%s has no tokens",
         "context": "1: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.single.success",
+        "source_string": "%1$s has %2$d tags: %3$s",
+        "translation": "%1$s has %2$d tokens: %3$s",
+        "context": "1: Entity/Player/Item name   ##2: Number of tags   ##3: Comma separated list of tags",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.remove.success.single",
+        "source_string": "Removed tag '%1$s' from %2$s",
+        "translation": "Fornimmed token '%1$s' from %2$s",
+        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.description",
+        "source_string": "Counts entities (players, mobs, items, etc.) matching specified conditions.",
+        "translation": "Rimes ansens (players, wights, things, asf.) matching narrowed hoads.",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -2960,6 +3280,142 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.maceSmash.player.item",
+        "source_string": "%1$s was smashed by %2$s with %3$s",
+        "translation": "%1$s was smashed by %2$s with %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.mob.item",
+        "source_string": "%1$s was slain by %2$s using %3$s",
+        "translation": "%1$s was slain by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.player.item",
+        "source_string": "%1$s was slain by %2$s using %3$s",
+        "translation": "%1$s was slain by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.thrown.item",
+        "source_string": "%1$s was pummeled by %2$s using %3$s",
+        "translation": "%1$s was pummeled by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.fell.assist.item",
+        "source_string": "%1$s was doomed to fall by %2$s using %3$s",
+        "translation": "%1$s was doomed to fall by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.fell.finish.item",
+        "source_string": "%1$s fell too far and was finished by %2$s using %3$s",
+        "translation": "%1$s fell too far and was ended by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.item.name",
+        "source_string": "Item",
+        "translation": "Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.deleted",
+        "source_string": "Deleted item",
+        "translation": "Adwashed Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.no_reported_item_content",
+        "source_string": "No items have been reported",
+        "translation": "No things have been bewritten",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.reportToastMessage",
+        "source_string": "Item reported",
+        "translation": "Thing bewritten",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.deathAndRespawn.text.2",
+        "source_string": "You have unlimited lives, but you drop all items in your inventory when you die. If you're quick enough, you can pick your items back up right where you dropped them.",
+        "translation": "You have endless lives, but you drop all things in your inholding when you die. If you're quick enough, you can pick your things back up right where you dropped hem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.1",
+        "source_string": "Dispensers are used to shoot out items. You will need to power each Dispenser with a redstone signal (for example, with a lever) to trigger it.",
+        "translation": "Throwers are brooked to shoot out things. You will need to might each Throwers with a redstone strength (say, with a heaver) to trigger it.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.2.notTouch",
+        "source_string": "To fill a Dispenser with items, press :_input_key.use: on the Dispenser, then move the items that you want to dispense from your inventory to the Dispenser.",
+        "translation": "To fill a Thrower with things, thring :_input_key.use: on the Thrower, then shrithe the things that you wish to throw from your inholding to the Thrower.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.3",
+        "source_string": "Whenever you power a Dispenser, an item will shoot out.",
+        "translation": "Whenever you might a Thrower, a thing will shoot out.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.4",
+        "source_string": "Dispensers can also be used to place items as well, such as Pumpkins on Iron Golems and equipment on Armor Stands.",
+        "translation": "Throwers can also be brooked to stow things as well, such as Harvestovets on Iron Livenedman and hirsting on Hirsting Stands.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.droppers.text.1.notTouch",
+        "source_string": "When powered by Redstone, Droppers will drop a single random item contained within. Press :_input_key.use: on the Dropper to open it and then you can load it with items from your inventory.",
+        "translation": "When mighted by Redstone, Droppers will drop a hapsome thing held within. Thring :_input_key.use: on the Dropper to open it and then you can load it with things from your inholding.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.text.9",
+        "source_string": "Llamas are another ridable mob which can be tamed and used to transport large shipments of items. ",
+        "translation": "Drylandersheep are another ridenly wight which can be tamed and brooked to send great shippings of things. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.selectingItems",
         "source_string": "Selecting items",
         "translation": "Choosing things",
@@ -2971,6 +3427,3694 @@
         "identifier": "howtoplay.selectingItems.title",
         "source_string": "How to Play: Selecting items",
         "translation": "How to Play: Choosing things",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.header.1",
+        "source_string": "1. Hotbar",
+        "translation": "1. Hotband",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "inventory.binSlot",
+        "source_string": "Destroy Item",
+        "translation": "Adwash Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.air.name",
+        "source_string": "Air",
+        "translation": "Lift",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.apple.name",
+        "source_string": "Apple",
+        "translation": "Apple",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlAdultBodySingle.name",
+        "source_string": "Adult %1$s Axolotl",
+        "translation": "Grown %1$s Waterhelper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlBabyBodySingle.name",
+        "source_string": "Baby %1$s Axolotl",
+        "translation": "Baby %1$s Waterhelper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlColorLucy.name",
+        "source_string": "Leucistic",
+        "translation": "Whitened",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlColorCyan.name",
+        "source_string": "Cyan",
+        "translation": "Hewngreen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlColorGold.name",
+        "source_string": "Gold",
+        "translation": "Gold",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlColorWild.name",
+        "source_string": "Brown",
+        "translation": "Brown",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlColorBlue.name",
+        "source_string": "Blue",
+        "translation": "Hewn",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_apple.name",
+        "source_string": "Golden Apple",
+        "translation": "Golden Apple",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.appleEnchanted.name",
+        "source_string": "Enchanted Golden Apple",
+        "translation": "Galed Golden Apple",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.armadillo_scute.name",
+        "source_string": "Armadillo Scute",
+        "translation": "Girdledeer Shale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.armor_stand.name",
+        "source_string": "Armor Stand",
+        "translation": "Hirsting Stand",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.arrow.name",
+        "source_string": "Arrow",
+        "translation": "Flone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.tipped_arrow.name",
+        "source_string": "Tipped Arrow",
+        "translation": "Tipped Flone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.black.name",
+        "source_string": "Black Banner",
+        "translation": "Black Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.blue.name",
+        "source_string": "Blue Banner",
+        "translation": "Hewn Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.black",
+        "source_string": "Black Bordure",
+        "translation": "Black Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.blue",
+        "source_string": "Blue Bordure",
+        "translation": "Hewn Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.brown",
+        "source_string": "Brown Bordure",
+        "translation": "Brown Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.cyan",
+        "source_string": "Cyan Bordure",
+        "translation": "Hewngreen Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.gray",
+        "source_string": "Gray Bordure",
+        "translation": "Gray Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.green",
+        "source_string": "Green Bordure",
+        "translation": "Green Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.lightBlue",
+        "source_string": "Light Blue Bordure",
+        "translation": "Light Hewn Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.lime",
+        "source_string": "Lime Bordure",
+        "translation": "Light Green Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.magenta",
+        "source_string": "Magenta Bordure",
+        "translation": "Bazered Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.orange",
+        "source_string": "Orange Bordure",
+        "translation": "Yellowred Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.pink",
+        "source_string": "Pink Bordure",
+        "translation": "Light Red Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.purple",
+        "source_string": "Purple Bordure",
+        "translation": "Baze Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.red",
+        "source_string": "Red Bordure",
+        "translation": "Red Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.silver",
+        "source_string": "Light Gray Bordure",
+        "translation": "Light Gray Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.white",
+        "source_string": "White Bordure",
+        "translation": "White Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.border.yellow",
+        "source_string": "Yellow Bordure",
+        "translation": "Yellow Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.black",
+        "source_string": "Black Field Masoned",
+        "translation": "Black Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.blue",
+        "source_string": "Blue Field Masoned",
+        "translation": "Hewn Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.brown",
+        "source_string": "Brown Field Masoned",
+        "translation": "Brown Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.cyan",
+        "source_string": "Cyan Field Masoned",
+        "translation": "Hewngreen Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.gray",
+        "source_string": "Gray Field Masoned",
+        "translation": "Gray Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.green",
+        "source_string": "Green Field Masoned",
+        "translation": "Green Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.lightBlue",
+        "source_string": "Light Blue Field Masoned",
+        "translation": "Light Hewn Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.lime",
+        "source_string": "Lime Field Masoned",
+        "translation": "Light Green Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.magenta",
+        "source_string": "Magenta Field Masoned",
+        "translation": "Bazered Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.orange",
+        "source_string": "Orange Field Masoned",
+        "translation": "Yellowred Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.pink",
+        "source_string": "Pink Field Masoned",
+        "translation": "Light Red Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.purple",
+        "source_string": "Purple Field Masoned",
+        "translation": "Baze Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.red",
+        "source_string": "Red Field Masoned",
+        "translation": "Red Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.silver",
+        "source_string": "Light Gray Field Masoned",
+        "translation": "Light Gray Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.white",
+        "source_string": "White Field Masoned",
+        "translation": "White Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.bricks.yellow",
+        "source_string": "Yellow Field Masoned",
+        "translation": "Yellow Field Stonewrighted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.brown.name",
+        "source_string": "Brown Banner",
+        "translation": "Brown Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.black",
+        "source_string": "Black Roundel",
+        "translation": "Black Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.blue",
+        "source_string": "Blue Roundel",
+        "translation": "Hewn Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.brown",
+        "source_string": "Brown Roundel",
+        "translation": "Brown Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.cyan",
+        "source_string": "Cyan Roundel",
+        "translation": "Hewngreen Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.gray",
+        "source_string": "Gray Roundel",
+        "translation": "Gray Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.green",
+        "source_string": "Green Roundel",
+        "translation": "Green Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.lightBlue",
+        "source_string": "Light Blue Roundel",
+        "translation": "Light Hewn Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.lime",
+        "source_string": "Lime Roundel",
+        "translation": "Light Green Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.magenta",
+        "source_string": "Magenta Roundel",
+        "translation": "Bazered Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.orange",
+        "source_string": "Orange Roundel",
+        "translation": "Yellowred Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.pink",
+        "source_string": "Pink Roundel",
+        "translation": "Light Red Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.purple",
+        "source_string": "Purple Roundel",
+        "translation": "Baze Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.red",
+        "source_string": "Red Roundel",
+        "translation": "Red Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.silver",
+        "source_string": "Light Gray Roundel",
+        "translation": "Light Gray Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.white",
+        "source_string": "White Roundel",
+        "translation": "White Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.circle.yellow",
+        "source_string": "Yellow Roundel",
+        "translation": "Yellow Trendle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.black",
+        "source_string": "Black Creeper Charge",
+        "translation": "Black Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.blue",
+        "source_string": "Blue Creeper Charge",
+        "translation": "Hewn Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.brown",
+        "source_string": "Brown Creeper Charge",
+        "translation": "Brown Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.cyan",
+        "source_string": "Cyan Creeper Charge",
+        "translation": "Hewngreen Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.gray",
+        "source_string": "Gray Creeper Charge",
+        "translation": "Gray Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.green",
+        "source_string": "Green Creeper Charge",
+        "translation": "Green Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.lightBlue",
+        "source_string": "Light Blue Creeper Charge",
+        "translation": "Light Hewn Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.lime",
+        "source_string": "Lime Creeper Charge",
+        "translation": "Light Green Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.magenta",
+        "source_string": "Magenta Creeper Charge",
+        "translation": "Bazered Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.orange",
+        "source_string": "Orange Creeper Charge",
+        "translation": "Yellowred Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.pink",
+        "source_string": "Pink Creeper Charge",
+        "translation": "Light Red Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.purple",
+        "source_string": "Purple Creeper Charge",
+        "translation": "Baze Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.red",
+        "source_string": "Red Creeper Charge",
+        "translation": "Red Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.silver",
+        "source_string": "Light Gray Creeper Charge",
+        "translation": "Light Gray Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.white",
+        "source_string": "White Creeper Charge",
+        "translation": "White Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.creeper.yellow",
+        "source_string": "Yellow Creeper Charge",
+        "translation": "Yellow Creeper Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.black",
+        "source_string": "Black Saltire",
+        "translation": "Black Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.blue",
+        "source_string": "Blue Saltire",
+        "translation": "Hewn Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.brown",
+        "source_string": "Brown Saltire",
+        "translation": "Brown Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.cyan",
+        "source_string": "Cyan Saltire",
+        "translation": "Hewngreen Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.gray",
+        "source_string": "Gray Saltire",
+        "translation": "Gray Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.green",
+        "source_string": "Green Saltire",
+        "translation": "Green Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.lightBlue",
+        "source_string": "Light Blue Saltire",
+        "translation": "Light Hewn Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.lime",
+        "source_string": "Lime Saltire",
+        "translation": "Light Green Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.magenta",
+        "source_string": "Magenta Saltire",
+        "translation": "Bazered Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.orange",
+        "source_string": "Orange Saltire",
+        "translation": "Yellowred Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.pink",
+        "source_string": "Pink Saltire",
+        "translation": "Light Red Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.purple",
+        "source_string": "Purple Saltire",
+        "translation": "Baze Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.red",
+        "source_string": "Red Saltire",
+        "translation": "Red Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.silver",
+        "source_string": "Light Gray Saltire",
+        "translation": "Light Gray Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.white",
+        "source_string": "White Saltire",
+        "translation": "White Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cross.yellow",
+        "source_string": "Yellow Saltire",
+        "translation": "Yellow Leaning Rood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.black",
+        "source_string": "Black Bordure Indented",
+        "translation": "Black Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.blue",
+        "source_string": "Blue Bordure Indented",
+        "translation": "Hewn Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.brown",
+        "source_string": "Brown Bordure Indented",
+        "translation": "Brown Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.cyan",
+        "source_string": "Cyan Bordure Indented",
+        "translation": "Hewngreen Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.gray",
+        "source_string": "Gray Bordure Indented",
+        "translation": "Gray Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.green",
+        "source_string": "Green Bordure Indented",
+        "translation": "Green Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.lightBlue",
+        "source_string": "Light Blue Bordure Indented",
+        "translation": "Light Hewn Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.lime",
+        "source_string": "Lime Bordure Indented",
+        "translation": "Light Green Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.magenta",
+        "source_string": "Magenta Bordure Indented",
+        "translation": "Bazered Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.orange",
+        "source_string": "Orange Bordure Indented",
+        "translation": "Yellowred Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.pink",
+        "source_string": "Pink Bordure Indented",
+        "translation": "Light Red Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.purple",
+        "source_string": "Purple Bordure Indented",
+        "translation": "Baze Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.red",
+        "source_string": "Red Bordure Indented",
+        "translation": "Red Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.silver",
+        "source_string": "Light Gray Bordure Indented",
+        "translation": "Light Gray Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.white",
+        "source_string": "White Bordure Indented",
+        "translation": "White Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.yellow",
+        "source_string": "Yellow Bordure Indented",
+        "translation": "Yellow Sawtoothed Frame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.cyan.name",
+        "source_string": "Cyan Banner",
+        "translation": "Hewngreen Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.black",
+        "source_string": "Black Per Bend Sinister",
+        "translation": "Black Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.blue",
+        "source_string": "Blue Per Bend Sinister",
+        "translation": "Hewn Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.brown",
+        "source_string": "Brown Per Bend Sinister",
+        "translation": "Brown Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.cyan",
+        "source_string": "Cyan Per Bend Sinister",
+        "translation": "Hewngreen Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.gray",
+        "source_string": "Gray Per Bend Sinister",
+        "translation": "Gray Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.green",
+        "source_string": "Green Per Bend Sinister",
+        "translation": "Green Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.lightBlue",
+        "source_string": "Light Blue Per Bend Sinister",
+        "translation": "Light Hewn Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.lime",
+        "source_string": "Lime Per Bend Sinister",
+        "translation": "Light Green Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.magenta",
+        "source_string": "Magenta Per Bend Sinister",
+        "translation": "Bazered Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.orange",
+        "source_string": "Orange Per Bend Sinister",
+        "translation": "Yellowred Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.pink",
+        "source_string": "Pink Per Bend Sinister",
+        "translation": "Light Red Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.purple",
+        "source_string": "Purple Per Bend Sinister",
+        "translation": "Baze Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.red",
+        "source_string": "Red Per Bend Sinister",
+        "translation": "Red Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.silver",
+        "source_string": "Light Gray Per Bend Sinister",
+        "translation": "Light Gray Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.white",
+        "source_string": "White Per Bend Sinister",
+        "translation": "White Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_left.yellow",
+        "source_string": "Yellow Per Bend Sinister",
+        "translation": "Yellow Left Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.black",
+        "source_string": "Black Per Bend",
+        "translation": "Black Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.blue",
+        "source_string": "Blue Per Bend",
+        "translation": "Hewn Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.brown",
+        "source_string": "Brown Per Bend",
+        "translation": "Brown Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.cyan",
+        "source_string": "Cyan Per Bend",
+        "translation": "Hewngreen Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.gray",
+        "source_string": "Gray Per Bend",
+        "translation": "Gray Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.green",
+        "source_string": "Green Per Bend",
+        "translation": "Green Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.lightBlue",
+        "source_string": "Light Blue Per Bend",
+        "translation": "Light Hewn Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.lime",
+        "source_string": "Lime Per Bend",
+        "translation": "Light Green Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.magenta",
+        "source_string": "Magenta Per Bend",
+        "translation": "Bazered Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.orange",
+        "source_string": "Orange Per Bend",
+        "translation": "Yellowred Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.pink",
+        "source_string": "Pink Per Bend",
+        "translation": "Light Red Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.purple",
+        "source_string": "Purple Per Bend",
+        "translation": "Baze Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.red",
+        "source_string": "Red Per Bend",
+        "translation": "Red Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.silver",
+        "source_string": "Light Gray Per Bend",
+        "translation": "Light Gray Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.white",
+        "source_string": "White Per Bend",
+        "translation": "White Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_right.yellow",
+        "source_string": "Yellow Per Bend",
+        "translation": "Yellow Right Leaning Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.black",
+        "source_string": "Black Per Bend Inverted",
+        "translation": "Black Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.blue",
+        "source_string": "Blue Per Bend Inverted",
+        "translation": "Hewn Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.brown",
+        "source_string": "Brown Per Bend Inverted",
+        "translation": "Brown Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.cyan",
+        "source_string": "Cyan Per Bend Inverted",
+        "translation": "Hewngreen Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.gray",
+        "source_string": "Gray Per Bend Inverted",
+        "translation": "Gray Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.green",
+        "source_string": "Green Per Bend Inverted",
+        "translation": "Green Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.lightBlue",
+        "source_string": "Light Blue Per Bend Inverted",
+        "translation": "Light Hewn Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.lime",
+        "source_string": "Lime Per Bend Inverted",
+        "translation": "Light Green Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.magenta",
+        "source_string": "Magenta Per Bend Inverted",
+        "translation": "Bazered Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.orange",
+        "source_string": "Orange Per Bend Inverted",
+        "translation": "Yellowred Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.pink",
+        "source_string": "Pink Per Bend Inverted",
+        "translation": "Light Red Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.purple",
+        "source_string": "Purple Per Bend Inverted",
+        "translation": "Baze Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.red",
+        "source_string": "Red Per Bend Inverted",
+        "translation": "Red Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.silver",
+        "source_string": "Light Gray Per Bend Inverted",
+        "translation": "Light Gray Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.white",
+        "source_string": "White Per Bend Inverted",
+        "translation": "White Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_left.yellow",
+        "source_string": "Yellow Per Bend Inverted",
+        "translation": "Yellow Left Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.black",
+        "source_string": "Black Per Bend Sinister Inverted",
+        "translation": "Black Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.blue",
+        "source_string": "Blue Per Bend Sinister Inverted",
+        "translation": "Hewn Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.brown",
+        "source_string": "Brown Per Bend Sinister Inverted",
+        "translation": "Brown Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.cyan",
+        "source_string": "Cyan Per Bend Sinister Inverted",
+        "translation": "Hewngreen Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.gray",
+        "source_string": "Gray Per Bend Sinister Inverted",
+        "translation": "Gray Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.green",
+        "source_string": "Green Per Bend Sinister Inverted",
+        "translation": "Green Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.lightBlue",
+        "source_string": "Light Blue Per Bend Sinister Inverted",
+        "translation": "Light Hewn Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.lime",
+        "source_string": "Lime Per Bend Sinister Inverted",
+        "translation": "Light Green Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.magenta",
+        "source_string": "Magenta Per Bend Sinister Inverted",
+        "translation": "Bazered Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.orange",
+        "source_string": "Orange Per Bend Sinister Inverted",
+        "translation": "Yellowred Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.pink",
+        "source_string": "Pink Per Bend Sinister Inverted",
+        "translation": "Light Red Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.purple",
+        "source_string": "Purple Per Bend Sinister Inverted",
+        "translation": "Baze Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.red",
+        "source_string": "Red Per Bend Sinister Inverted",
+        "translation": "Red Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.silver",
+        "source_string": "Light Gray Per Bend Sinister Inverted",
+        "translation": "Light Gray Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.white",
+        "source_string": "White Per Bend Sinister Inverted",
+        "translation": "White Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.diagonal_up_right.yellow",
+        "source_string": "Yellow Per Bend Sinister Inverted",
+        "translation": "Yellow Right Leaning Down",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.black",
+        "source_string": "Black Flow",
+        "translation": "Black Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.blue",
+        "source_string": "Blue Flow",
+        "translation": "Hewn Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.brown",
+        "source_string": "Brown Flow",
+        "translation": "Brown Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.cyan",
+        "source_string": "Cyan Flow",
+        "translation": "Hewngreen Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.gray",
+        "source_string": "Gray Flow",
+        "translation": "Gray Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.green",
+        "source_string": "Green Flow",
+        "translation": "Green Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.lightBlue",
+        "source_string": "Light Blue Flow",
+        "translation": "Light Hewn Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.lime",
+        "source_string": "Lime Flow",
+        "translation": "Light Green Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.magenta",
+        "source_string": "Magenta Flow",
+        "translation": "Bazered Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.orange",
+        "source_string": "Orange Flow",
+        "translation": "Yellowred Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.pink",
+        "source_string": "Pink Flow",
+        "translation": "Light Red Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.purple",
+        "source_string": "Purple Flow",
+        "translation": "Baze Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.red",
+        "source_string": "Red Flow",
+        "translation": "Red Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.silver",
+        "source_string": "Light Gray Flow",
+        "translation": "Light Gray Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.white",
+        "source_string": "White Flow",
+        "translation": "White Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.yellow",
+        "source_string": "Yellow Flow",
+        "translation": "Yellow Flow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.black",
+        "source_string": "Black Flower Charge",
+        "translation": "Black Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.blue",
+        "source_string": "Blue Flower Charge",
+        "translation": "Hewn Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.brown",
+        "source_string": "Brown Flower Charge",
+        "translation": "Brown Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.cyan",
+        "source_string": "Cyan Flower Charge",
+        "translation": "Hewngreen Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.gray",
+        "source_string": "Gray Flower Charge",
+        "translation": "Gray Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.green",
+        "source_string": "Green Flower Charge",
+        "translation": "Green Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.lightBlue",
+        "source_string": "Light Blue Flower Charge",
+        "translation": "Light Hewn Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.lime",
+        "source_string": "Lime Flower Charge",
+        "translation": "Light Green Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.magenta",
+        "source_string": "Magenta Flower Charge",
+        "translation": "Bazered Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.orange",
+        "source_string": "Orange Flower Charge",
+        "translation": "Yellowred Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.pink",
+        "source_string": "Pink Flower Charge",
+        "translation": "Light Red Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.purple",
+        "source_string": "Purple Flower Charge",
+        "translation": "Baze Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.red",
+        "source_string": "Red Flower Charge",
+        "translation": "Red Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.silver",
+        "source_string": "Light Gray Flower Charge",
+        "translation": "Light Gray Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.white",
+        "source_string": "White Flower Charge",
+        "translation": "White Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.yellow",
+        "source_string": "Yellow Flower Charge",
+        "translation": "Yellow Blossom Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.black",
+        "source_string": "Black Globe",
+        "translation": "Black World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.blue",
+        "source_string": "Blue Globe",
+        "translation": "Hewn World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.brown",
+        "source_string": "Brown Globe",
+        "translation": "Brown World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.cyan",
+        "source_string": "Cyan Globe",
+        "translation": "Hewngreen World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.gray",
+        "source_string": "Gray Globe",
+        "translation": "Gray World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.green",
+        "source_string": "Green Globe",
+        "translation": "Green World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.lightBlue",
+        "source_string": "Light Blue Globe",
+        "translation": "Light Hewn World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.lime",
+        "source_string": "Lime Globe",
+        "translation": "Light Green World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.magenta",
+        "source_string": "Magenta Globe",
+        "translation": "Bazered World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.orange",
+        "source_string": "Orange Globe",
+        "translation": "Yellowred World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.pink",
+        "source_string": "Pink Globe",
+        "translation": "Light Red World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.purple",
+        "source_string": "Purple Globe",
+        "translation": "Baze World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.red",
+        "source_string": "Red Globe",
+        "translation": "Red World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.silver",
+        "source_string": "Light Gray Globe",
+        "translation": "Light Gray World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.white",
+        "source_string": "White Globe",
+        "translation": "White World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.yellow",
+        "source_string": "Yellow Globe",
+        "translation": "Yellow World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.black",
+        "source_string": "Black Gradient",
+        "translation": "Black Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.blue",
+        "source_string": "Blue Gradient",
+        "translation": "Hewn Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.brown",
+        "source_string": "Brown Gradient",
+        "translation": "Brown Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.cyan",
+        "source_string": "Cyan Gradient",
+        "translation": "Hewngreen Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.gray",
+        "source_string": "Gray Gradient",
+        "translation": "Gray Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.green",
+        "source_string": "Green Gradient",
+        "translation": "Green Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.lightBlue",
+        "source_string": "Light Blue Gradient",
+        "translation": "Light Hewn Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.lime",
+        "source_string": "Lime Gradient",
+        "translation": "Light Green Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.magenta",
+        "source_string": "Magenta Gradient",
+        "translation": "Bazered Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.orange",
+        "source_string": "Orange Gradient",
+        "translation": "Yellowred Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.pink",
+        "source_string": "Pink Gradient",
+        "translation": "Light Red Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.purple",
+        "source_string": "Purple Gradient",
+        "translation": "Baze Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.red",
+        "source_string": "Red Gradient",
+        "translation": "Red Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.silver",
+        "source_string": "Light Gray Gradient",
+        "translation": "Light Gray Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.white",
+        "source_string": "White Gradient",
+        "translation": "White Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.yellow",
+        "source_string": "Yellow Gradient",
+        "translation": "Yellow Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.black",
+        "source_string": "Black Base Gradient",
+        "translation": "Black Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.blue",
+        "source_string": "Blue Base Gradient",
+        "translation": "Hewn Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.brown",
+        "source_string": "Brown Base Gradient",
+        "translation": "Brown Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.cyan",
+        "source_string": "Cyan Base Gradient",
+        "translation": "Hewngreen Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.gray",
+        "source_string": "Gray Base Gradient",
+        "translation": "Gray Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.green",
+        "source_string": "Green Base Gradient",
+        "translation": "Green Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.lightBlue",
+        "source_string": "Light Blue Base Gradient",
+        "translation": "Light Hewn Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.lime",
+        "source_string": "Lime Base Gradient",
+        "translation": "Light Green Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.magenta",
+        "source_string": "Magenta Base Gradient",
+        "translation": "Bazered Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.orange",
+        "source_string": "Orange Base Gradient",
+        "translation": "Yellowred Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.pink",
+        "source_string": "Pink Base Gradient",
+        "translation": "Light Red Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.purple",
+        "source_string": "Purple Base Gradient",
+        "translation": "Baze Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.red",
+        "source_string": "Red Base Gradient",
+        "translation": "Red Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.silver",
+        "source_string": "Light Gray Base Gradient",
+        "translation": "Light Gray Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.white",
+        "source_string": "White Base Gradient",
+        "translation": "White Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient_up.yellow",
+        "source_string": "Yellow Base Gradient",
+        "translation": "Yellow Bottom Dimming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gray.name",
+        "source_string": "Gray Banner",
+        "translation": "Gray Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.green.name",
+        "source_string": "Green Banner",
+        "translation": "Green Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.black",
+        "source_string": "Black Guster",
+        "translation": "Black Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.blue",
+        "source_string": "Blue Guster",
+        "translation": "Hewn Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.brown",
+        "source_string": "Brown Guster",
+        "translation": "Brown Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.cyan",
+        "source_string": "Cyan Guster",
+        "translation": "Hewngreen Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.gray",
+        "source_string": "Gray Guster",
+        "translation": "Gray Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.green",
+        "source_string": "Green Guster",
+        "translation": "Green Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.lightBlue",
+        "source_string": "Light Blue Guster",
+        "translation": "Light Hewn Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.lime",
+        "source_string": "Lime Guster",
+        "translation": "Light Green Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.magenta",
+        "source_string": "Magenta Guster",
+        "translation": "Bazered Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.orange",
+        "source_string": "Orange Guster",
+        "translation": "Yellowred Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.pink",
+        "source_string": "Pink Guster",
+        "translation": "Light Red Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.purple",
+        "source_string": "Purple Guster",
+        "translation": "Baze Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.red",
+        "source_string": "Red Guster",
+        "translation": "Red Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.silver",
+        "source_string": "Light Gray Guster",
+        "translation": "Light Gray Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.white",
+        "source_string": "White Guster",
+        "translation": "White Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.guster.yellow",
+        "source_string": "Yellow Guster",
+        "translation": "Yellow Thoder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.black",
+        "source_string": "Black Per Fess",
+        "translation": "Black Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.blue",
+        "source_string": "Blue Per Fess",
+        "translation": "Hewn Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.brown",
+        "source_string": "Brown Per Fess",
+        "translation": "Brown Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.cyan",
+        "source_string": "Cyan Per Fess",
+        "translation": "Hewngreen Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.gray",
+        "source_string": "Gray Per Fess",
+        "translation": "Gray Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.green",
+        "source_string": "Green Per Fess",
+        "translation": "Green Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.lightBlue",
+        "source_string": "Light Blue Per Fess",
+        "translation": "Light Hewn Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.lime",
+        "source_string": "Lime Per Fess",
+        "translation": "Light Green Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.magenta",
+        "source_string": "Magenta Per Fess",
+        "translation": "Bazered Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.orange",
+        "source_string": "Orange Per Fess",
+        "translation": "Yellowred Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.pink",
+        "source_string": "Pink Per Fess",
+        "translation": "Light Red Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.purple",
+        "source_string": "Purple Per Fess",
+        "translation": "Baze Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.red",
+        "source_string": "Red Per Fess",
+        "translation": "Red Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.silver",
+        "source_string": "Light Gray Per Fess",
+        "translation": "Light Gray Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.white",
+        "source_string": "White Per Fess",
+        "translation": "White Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal.yellow",
+        "source_string": "Yellow Per Fess",
+        "translation": "Yellow Top Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.black",
+        "source_string": "Black Per Fess Inverted",
+        "translation": "Black Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.blue",
+        "source_string": "Blue Per Fess Inverted",
+        "translation": "Hewn Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.brown",
+        "source_string": "Brown Per Fess Inverted",
+        "translation": "Brown Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.cyan",
+        "source_string": "Cyan Per Fess Inverted",
+        "translation": "Hewngreen Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.gray",
+        "source_string": "Gray Per Fess Inverted",
+        "translation": "Gray Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.green",
+        "source_string": "Green Per Fess Inverted",
+        "translation": "Green Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.lightBlue",
+        "source_string": "Light Blue Per Fess Inverted",
+        "translation": "Light Hewn Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.lime",
+        "source_string": "Lime Per Fess Inverted",
+        "translation": "Light Green Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.magenta",
+        "source_string": "Magenta Per Fess Inverted",
+        "translation": "Bazered Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.orange",
+        "source_string": "Orange Per Fess Inverted",
+        "translation": "Yellowred Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.pink",
+        "source_string": "Pink Per Fess Inverted",
+        "translation": "Light Red Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.purple",
+        "source_string": "Purple Per Fess Inverted",
+        "translation": "Baze Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.red",
+        "source_string": "Red Per Fess Inverted",
+        "translation": "Red Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.silver",
+        "source_string": "Light Gray Per Fess Inverted",
+        "translation": "Light Gray Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.white",
+        "source_string": "White Per Fess Inverted",
+        "translation": "White Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_horizontal_bottom.yellow",
+        "source_string": "Yellow Per Fess Inverted",
+        "translation": "Yellow Bottom Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.black",
+        "source_string": "Black Per Pale",
+        "translation": "Black Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.blue",
+        "source_string": "Blue Per Pale",
+        "translation": "Hewn Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.brown",
+        "source_string": "Brown Per Pale",
+        "translation": "Brown Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.cyan",
+        "source_string": "Cyan Per Pale",
+        "translation": "Hewngreen Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.gray",
+        "source_string": "Gray Per Pale",
+        "translation": "Gray Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.green",
+        "source_string": "Green Per Pale",
+        "translation": "Green Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.lightBlue",
+        "source_string": "Light Blue Per Pale",
+        "translation": "Light Hewn Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.lime",
+        "source_string": "Lime Per Pale",
+        "translation": "Light Green Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.magenta",
+        "source_string": "Magenta Per Pale",
+        "translation": "Bazered Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.orange",
+        "source_string": "Orange Per Pale",
+        "translation": "Yellowred Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.pink",
+        "source_string": "Pink Per Pale",
+        "translation": "Light Red Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.purple",
+        "source_string": "Purple Per Pale",
+        "translation": "Baze Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.red",
+        "source_string": "Red Per Pale",
+        "translation": "Red Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.silver",
+        "source_string": "Light Gray Per Pale",
+        "translation": "Light Gray Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.white",
+        "source_string": "White Per Pale",
+        "translation": "White Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical.yellow",
+        "source_string": "Yellow Per Pale",
+        "translation": "Yellow Upright Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.black",
+        "source_string": "Black Per Pale Inverted",
+        "translation": "Black Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.blue",
+        "source_string": "Blue Per Pale Inverted",
+        "translation": "Hewn Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.brown",
+        "source_string": "Brown Per Pale Inverted",
+        "translation": "Brown Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.cyan",
+        "source_string": "Cyan Per Pale Inverted",
+        "translation": "Hewngreen Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.gray",
+        "source_string": "Gray Per Pale Inverted",
+        "translation": "Gray Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.green",
+        "source_string": "Green Per Pale Inverted",
+        "translation": "Green Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.lightBlue",
+        "source_string": "Light Blue Per Pale Inverted",
+        "translation": "Light Hewn Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.lime",
+        "source_string": "Lime Per Pale Inverted",
+        "translation": "Light Green Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.magenta",
+        "source_string": "Magenta Per Pale Inverted",
+        "translation": "Bazered Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.orange",
+        "source_string": "Orange Per Pale Inverted",
+        "translation": "Yellowred Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.pink",
+        "source_string": "Pink Per Pale Inverted",
+        "translation": "Light Red Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.purple",
+        "source_string": "Purple Per Pale Inverted",
+        "translation": "Baze Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.red",
+        "source_string": "Red Per Pale Inverted",
+        "translation": "Red Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.silver",
+        "source_string": "Light Gray Per Pale Inverted",
+        "translation": "Light Gray Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.white",
+        "source_string": "White Per Pale Inverted",
+        "translation": "White Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.half_vertical_right.yellow",
+        "source_string": "Yellow Per Pale Inverted",
+        "translation": "Yellow Upright Half Right Side",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.illager_captain.name",
+        "source_string": "Ominous Banner",
+        "translation": "Threatening Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.lightBlue.name",
+        "source_string": "Light Blue Banner",
+        "translation": "Light Hewn Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.lime.name",
+        "source_string": "Lime Banner",
+        "translation": "Light Green Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.magenta.name",
+        "source_string": "Magenta Banner",
+        "translation": "Bazered Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.black",
+        "source_string": "Black Thing",
+        "translation": "Black Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.blue",
+        "source_string": "Blue Thing",
+        "translation": "Hewn Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.brown",
+        "source_string": "Brown Thing",
+        "translation": "Brown Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.cyan",
+        "source_string": "Cyan Thing",
+        "translation": "HewngreenThing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.gray",
+        "source_string": "Gray Thing",
+        "translation": "Gray Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.green",
+        "source_string": "Green Thing",
+        "translation": "Green Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.lightBlue",
+        "source_string": "Light Blue Thing",
+        "translation": "Light Hewn Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.lime",
+        "source_string": "Lime Thing",
+        "translation": "Light Green Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.magenta",
+        "source_string": "Magenta Thing",
+        "translation": "Bazered Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.orange",
+        "source_string": "Orange Thing",
+        "translation": "Yellowred Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.pink",
+        "source_string": "Pink Thing",
+        "translation": "Light Red Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.purple",
+        "source_string": "Purple Thing",
+        "translation": "Baze Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.red",
+        "source_string": "Red Thing",
+        "translation": "Red Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.silver",
+        "source_string": "Light Gray Thing",
+        "translation": "Light Gray Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.white",
+        "source_string": "White Thing",
+        "translation": "White Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.mojang.yellow",
+        "source_string": "Yellow Thing",
+        "translation": "Yellow Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.orange.name",
+        "source_string": "Orange Banner",
+        "translation": "Yellowred Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.black",
+        "source_string": "Black Snout",
+        "translation": "Black Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.blue",
+        "source_string": "Blue Snout",
+        "translation": "Hewn Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.brown",
+        "source_string": "Brown Snout",
+        "translation": "Brown Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.cyan",
+        "source_string": "Cyan Snout",
+        "translation": "Hewngreen Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.gray",
+        "source_string": "Gray Snout",
+        "translation": "Gray Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.green",
+        "source_string": "Green Snout",
+        "translation": "Green Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.lightBlue",
+        "source_string": "Light Blue Snout",
+        "translation": "Light Hewn Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.lime",
+        "source_string": "Lime Snout",
+        "translation": "Light Green Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.magenta",
+        "source_string": "Magenta Snout",
+        "translation": "Bazered Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.orange",
+        "source_string": "Orange Snout",
+        "translation": "Yellowred Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.pink",
+        "source_string": "Pink Snout",
+        "translation": "Light Red Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.purple",
+        "source_string": "Purple Snout",
+        "translation": "Baze Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.red",
+        "source_string": "Red Snout",
+        "translation": "Red Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.silver",
+        "source_string": "Light Gray Snout",
+        "translation": "Light Gray Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.white",
+        "source_string": "White Snout",
+        "translation": "White Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.piglin.yellow",
+        "source_string": "Yellow Snout",
+        "translation": "Yellow Swinenose",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.pink.name",
+        "source_string": "Pink Banner",
+        "translation": "Light Red Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.purple.name",
+        "source_string": "Purple Banner",
+        "translation": "Baze Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.red.name",
+        "source_string": "Red Banner",
+        "translation": "Red Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.black",
+        "source_string": "Black Lozenge",
+        "translation": "Black Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.blue",
+        "source_string": "Blue Lozenge",
+        "translation": "Hewn Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.brown",
+        "source_string": "Brown Lozenge",
+        "translation": "Brown Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.cyan",
+        "source_string": "Cyan Lozenge",
+        "translation": "Hewngreen Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.gray",
+        "source_string": "Gray Lozenge",
+        "translation": "Gray Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.green",
+        "source_string": "Green Lozenge",
+        "translation": "Green Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.lightBlue",
+        "source_string": "Light Blue Lozenge",
+        "translation": "Light Hewn Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.lime",
+        "source_string": "Lime Lozenge",
+        "translation": "Light Green Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.magenta",
+        "source_string": "Magenta Lozenge",
+        "translation": "Bazered Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.orange",
+        "source_string": "Orange Lozenge",
+        "translation": "Yellowred Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.pink",
+        "source_string": "Pink Lozenge",
+        "translation": "Light Red Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.purple",
+        "source_string": "Purple Lozenge",
+        "translation": "Baze Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.red",
+        "source_string": "Red Lozenge",
+        "translation": "Red Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.silver",
+        "source_string": "Light Gray Lozenge",
+        "translation": "Light Gray Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.white",
+        "source_string": "White Lozenge",
+        "translation": "White Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.rhombus.yellow",
+        "source_string": "Yellow Lozenge",
+        "translation": "Yellow Kite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.silver.name",
+        "source_string": "Light Gray Banner",
+        "translation": "Light Gray Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.black",
+        "source_string": "Black Skull Charge",
+        "translation": "Black Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.blue",
+        "source_string": "Blue Skull Charge",
+        "translation": "Hewn Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.brown",
+        "source_string": "Brown Skull Charge",
+        "translation": "Brown Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.cyan",
+        "source_string": "Cyan Skull Charge",
+        "translation": "Hewngreen Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.gray",
+        "source_string": "Gray Skull Charge",
+        "translation": "Gray Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.green",
+        "source_string": "Green Skull Charge",
+        "translation": "Green Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.lightBlue",
+        "source_string": "Light Blue Skull Charge",
+        "translation": "Light Hewn Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.lime",
+        "source_string": "Lime Skull Charge",
+        "translation": "Light Green Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.magenta",
+        "source_string": "Magenta Skull Charge",
+        "translation": "Bazered Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.orange",
+        "source_string": "Orange Skull Charge",
+        "translation": "Yellowred Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.pink",
+        "source_string": "Pink Skull Charge",
+        "translation": "Light Red Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.purple",
+        "source_string": "Purple Skull Charge",
+        "translation": "Baze Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.red",
+        "source_string": "Red Skull Charge",
+        "translation": "Red Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.silver",
+        "source_string": "Light Gray Skull Charge",
+        "translation": "Light Gray Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.white",
+        "source_string": "White Skull Charge",
+        "translation": "White Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.skull.yellow",
+        "source_string": "Yellow Skull Charge",
+        "translation": "Yellow Headbone Shape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.black",
+        "source_string": "Black Paly",
+        "translation": "Black Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.blue",
+        "source_string": "Blue Paly",
+        "translation": "Hewn Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.brown",
+        "source_string": "Brown Paly",
+        "translation": "Brown Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.cyan",
+        "source_string": "Cyan Paly",
+        "translation": "Hewngreen Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.gray",
+        "source_string": "Gray Paly",
+        "translation": "Gray Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.green",
+        "source_string": "Green Paly",
+        "translation": "Green Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.lightBlue",
+        "source_string": "Light Blue Paly",
+        "translation": "Light Hewn Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.lime",
+        "source_string": "Lime Paly",
+        "translation": "Light Green Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.magenta",
+        "source_string": "Magenta Paly",
+        "translation": "Bazered Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.orange",
+        "source_string": "Orange Paly",
+        "translation": "Yellowred Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.pink",
+        "source_string": "Pink Paly",
+        "translation": "Light Red Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.purple",
+        "source_string": "Purple Paly",
+        "translation": "Baze Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.red",
+        "source_string": "Red Paly",
+        "translation": "Red Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.silver",
+        "source_string": "Light Gray Paly",
+        "translation": "Light Gray Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.white",
+        "source_string": "White Paly",
+        "translation": "White Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.small_stripes.yellow",
+        "source_string": "Yellow Paly",
+        "translation": "Yellow Standing Streaks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.white.name",
+        "source_string": "White Banner",
+        "translation": "White Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.yellow.name",
+        "source_string": "Yellow Banner",
+        "translation": "Yellow Streamer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.illager",
+        "source_string": "Illager",
+        "translation": "Thornman",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.black.name",
+        "source_string": "Black Bed",
+        "translation": "Black Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.red.name",
+        "source_string": "Red Bed",
+        "translation": "Red Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.green.name",
+        "source_string": "Green Bed",
+        "translation": "Green Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.brown.name",
+        "source_string": "Brown Bed",
+        "translation": "Brown Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.blue.name",
+        "source_string": "Blue Bed",
+        "translation": "Hewen Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.purple.name",
+        "source_string": "Purple Bed",
+        "translation": "Baze Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.cyan.name",
+        "source_string": "Cyan Bed",
+        "translation": "Hewngreen Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.silver.name",
+        "source_string": "Light Gray Bed",
+        "translation": "Light Gray Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.gray.name",
+        "source_string": "Gray Bed",
+        "translation": "Gray Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.pink.name",
+        "source_string": "Pink Bed",
+        "translation": "Light Red Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.lime.name",
+        "source_string": "Lime Bed",
+        "translation": "Light Green Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.yellow.name",
+        "source_string": "Yellow Bed",
+        "translation": "Yellow Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.lightBlue.name",
+        "source_string": "Light Blue Bed",
+        "translation": "Light Hewn Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.magenta.name",
+        "source_string": "Magenta Bed",
+        "translation": "Bazered Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.orange.name",
+        "source_string": "Orange Bed",
+        "translation": "Yellowred Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bed.white.name",
+        "source_string": "White Bed",
+        "translation": "White Bed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bell.name",
+        "source_string": "Bell",
+        "translation": "Bell",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.steak.name",
+        "source_string": "Steak",
+        "translation": "Cooked Cowflesh",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.beef.name",
+        "source_string": "Raw Beef",
+        "translation": "Raw Cowflesh",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.beetroot.name",
+        "source_string": "Beetroot",
+        "translation": "Red More",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.book.name",
+        "source_string": "Book",
+        "translation": "Book",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bow.name",
+        "source_string": "Bow",
+        "translation": "Bow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bowl.name",
+        "source_string": "Bowl",
+        "translation": "Bowl",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bread.name",
+        "source_string": "Bread",
+        "translation": "Bread",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.brick.name",
+        "source_string": "Brick",
+        "translation": "Tile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.tropicalColorSky.name",
+        "source_string": "Sky",
+        "translation": "Welkin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
