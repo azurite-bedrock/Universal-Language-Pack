@@ -3018,7 +3018,7 @@
     {
         "identifier": "advMode.command",
         "source_string": "Command Input",
-        "translation": "Input ng Utos",
+        "translation": "Input ng Command",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3082,7 +3082,7 @@
     {
         "identifier": "advMode.setCommand.success",
         "source_string": "Command set: %s",
-        "translation": "Na-set na ang utos: %s",
+        "translation": "Na-set na ang command: %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3090,7 +3090,7 @@
     {
         "identifier": "advMode.command.charLimitExceeded",
         "source_string": "Command Input exceeds 500 characters. It is not possible to open the keyboard input on this device type.",
-        "translation": "Ang Input ng Utos ay lumampas na sa 500 na mga karakter. Hindi posibleng buksan ang input ng teklado sa uri ng device na ito.",
+        "translation": "Ang Input ng Command ay lumampas na sa 500 na mga karakter. Hindi posibleng buksan ang input ng keyboard sa uri ng device na ito.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4178,7 +4178,7 @@
     {
         "identifier": "chat.title.cheats",
         "source_string": "Chat and Commands",
-        "translation": "Chat at mga Utos",
+        "translation": "Chat at mga Command",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4962,7 +4962,7 @@
     {
         "identifier": "seargeSays.searge5",
         "source_string": "Scoreboard deleted, commands blocked",
-        "translation": "Nabura ang talaan ng iskor, na-block ang mga utos",
+        "translation": "Nabura ang talaan ng iskor, na-block ang mga command",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5394,7 +5394,7 @@
     {
         "identifier": "commands.agent.outofrange",
         "source_string": "Cannot issue command, Agent is out of range",
-        "translation": "Hindi maisyu ang utos, wala sa saklaw ang mga ahente",
+        "translation": "Hindi maisyu ang command, wala sa saklaw ang mga ahente",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5962,7 +5962,7 @@
     {
         "identifier": "commands.chunkinfo.compiled",
         "source_string": "Chunk is compiled.",
-        "translation": "Nakumpila na ang tipak.",
+        "translation": "Nakumpila na ang chunk.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5978,7 +5978,7 @@
     {
         "identifier": "commands.chunkinfo.empty",
         "source_string": "Chunk is empty.",
-        "translation": "Walang laman ang tipak.",
+        "translation": "Walang laman ang chunk.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5986,7 +5986,7 @@
     {
         "identifier": "commands.chunkinfo.hasLayers",
         "source_string": "Chunk has layers: %1$s",
-        "translation": "May layer ang chunk: %1$s",
+        "translation": "Ang chunk ay mayroong layers na: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6002,7 +6002,7 @@
     {
         "identifier": "commands.chunkinfo.isEmpty",
         "source_string": "Chunk has empty layers: %1$s",
-        "translation": "May layer na walang laman ang chunk: %1$s",
+        "translation": "Ang chunk ay mayroong walang lamang layers na: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6082,7 +6082,7 @@
     {
         "identifier": "commands.clear.failure.no.items",
         "source_string": "Could not clear the inventory of %1$s, no items to remove",
-        "translation": "Hindi matanggalan ang imbentaryo ni %1$s, wala namang aytem na itatangal",
+        "translation": "Hindi matanggalan ang imbentaryo ni %1$s, wala namang aytem na itatanggal",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6106,7 +6106,7 @@
     {
         "identifier": "commands.clear.testing",
         "source_string": "%1$s has %2$d items that match the criteria",
-        "translation": "May %2$d item si %1$s na natatamasa ang kraytirya",
+        "translation": "May %2$d na aytem si %1$s na natutugma sa kraytirya",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6146,7 +6146,7 @@
     {
         "identifier": "commands.clone.filtered.error",
         "source_string": "Filtered usage requires a filter block to be specified",
-        "translation": "Ang filter ay nangangailangan ng isang bloke na ipangfifilter",
+        "translation": "Ang filter ay nangangailangan ng isang bloke na ipangfi-filter",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6290,7 +6290,7 @@
     {
         "identifier": "commands.damage.specify.damage",
         "source_string": "Please specify a valid damage value.",
-        "translation": "Magtiyak ng valid na damage value.",
+        "translation": "Magtiyak ng balidong damage value.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6322,7 +6322,7 @@
     {
         "identifier": "commands.daylock.description",
         "source_string": "Locks and unlocks the day-night cycle.",
-        "translation": "Inila-lock at inia-unlock ang saykel ng araw-gabi.",
+        "translation": "Inila-lock at inia-unlock ang ikot ng araw-gabi.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6490,7 +6490,7 @@
     {
         "identifier": "commands.difficulty.description",
         "source_string": "Sets the difficulty level.",
-        "translation": "Isineset ang lebel ng hirap.",
+        "translation": "Isineset ang lebel ng lebel ng hirap.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6498,7 +6498,7 @@
     {
         "identifier": "commands.difficulty.usage",
         "source_string": "/difficulty <new difficulty>",
-        "translation": "/difficulty <bagong hirap>",
+        "translation": "/difficulty <bagong lebel ng hirap>",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6506,7 +6506,7 @@
     {
         "identifier": "commands.difficulty.success",
         "source_string": "Set game difficulty to %1$s",
-        "translation": "Naiset ang hirap ng laro sa %1$s",
+        "translation": "Naiset ang lebel ng hirap ng laro sa %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6514,7 +6514,7 @@
     {
         "identifier": "commands.downfall.success",
         "source_string": "Toggled downfall",
-        "translation": "Matagumpay na napalitan",
+        "translation": "Na-toggle na ang downfall",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6546,7 +6546,7 @@
     {
         "identifier": "commands.effect.failure.notAMob",
         "source_string": "%1$s cannot have effects",
-        "translation": "Hindi nagkakaroon ng effect ang %1$s",
+        "translation": "Hindi nagkakaroon ng effect si %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6610,7 +6610,7 @@
     {
         "identifier": "commands.enchant.cantEnchant",
         "source_string": "The selected enchantment can't be added to the target item: %1$s",
-        "translation": "Ang piniling agimat ay hindi mailagay sa target na aytem: %1$s",
+        "translation": "Ang piniling mahika ay hindi mailagay sa target na aytem: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6634,7 +6634,7 @@
     {
         "identifier": "commands.enchant.notFound",
         "source_string": "There is no such enchantment with ID %1$d",
-        "translation": "Walang ganoong agimat na may ID na %1$d",
+        "translation": "Walang ganoong mahika na may ID na %1$d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6642,7 +6642,7 @@
     {
         "identifier": "commands.enchant.success",
         "source_string": "Enchanting succeeded for %1$s",
-        "translation": "Matagumpay na naagimatan sa/kay %1$s",
+        "translation": "Matagumpay na namahika para sa/kay %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6666,7 +6666,7 @@
     {
         "identifier": "commands.entitydata.noPlayers",
         "source_string": "%1$s is a player and cannot be changed",
-        "translation": "Manlalaro si %1$s kaya hindi mababaguhan",
+        "translation": "Manlalaro si %1$s, kaya hindi mababaguhan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6698,7 +6698,7 @@
     {
         "identifier": "commands.event.error.empty",
         "source_string": "Event name cannot be empty",
-        "translation": "Hindi maaaring patlang ang pangalan ng event",
+        "translation": "Hindi maaaring walang-laman ang pangalan ng event",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6802,7 +6802,7 @@
     {
         "identifier": "commands.execute.ifUnlessScore.score.notFound",
         "source_string": "No %1$s score for %2$s found",
-        "translation": "Walang nahanap na markang %1$s para kay %2$s",
+        "translation": "Walang nahanap na iskor %1$s para kay %2$s",
         "context": "1: Objective Name ##2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6850,7 +6850,7 @@
     {
         "identifier": "commands.fill.failed",
         "source_string": "No blocks filled",
-        "translation": "Walang pinunan ng bloke",
+        "translation": "Walang pinunan na bloke",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6930,7 +6930,7 @@
     {
         "identifier": "commands.fog.success.pop",
         "source_string": "Last pushed fog setting with id %2$s was successfully removed from %1$s",
-        "translation": "Matagumpay na naitanggal sa %1$s ang huling nilagay na setting na may Id na %2$s",
+        "translation": "Matagumpay na naitanggal sa %1$s ang huling nilagay na setting sa hamog na may Id na %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7210,7 +7210,7 @@
     {
         "identifier": "commands.generic.double.tooBig",
         "source_string": "The number you have entered (%.2f) is too big, it must be at most %.2f",
-        "translation": "Masyadong malaki ang ng bilang na nilagay mo (%.2f), dapat hanggang %.2f lamang",
+        "translation": "Masyadong malaki ang bilang na nilagay mo (%.2f), dapat hanggang %.2f lamang",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7344,6 +7344,374 @@
         "max_length": null
     },
     {
+        "identifier": "commands.generic.invalidMessage",
+        "source_string": "Invalid message length",
+        "translation": "Imbalido ang haba ng mensahe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidPlayerType",
+        "source_string": "Type argument applied to player-only selector",
+        "translation": "Nailagay ang type argument sa selector na player-only",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidType",
+        "source_string": "Unknown type argument",
+        "translation": "Di-alam na type argument",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.levelError",
+        "source_string": "Max level has to be larger than min level",
+        "translation": "Ang max na lebel ay dapat mas malaki sa min na lebel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.malformed.body",
+        "source_string": "Body is missing or malformed",
+        "translation": "Nawawala o sira ang katawan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.malformed.type",
+        "source_string": "Invalid request type",
+        "translation": "Imbalido ang request type",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.notimplemented",
+        "source_string": "Not implemented",
+        "translation": "Hindi naimplementa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.sourceNotLoaded",
+        "source_string": "Source volume is not loaded",
+        "translation": "Hindi naka-load ang source volume",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.destinationNotLoaded",
+        "source_string": "Destination volume is not loaded",
+        "translation": "Hindi naka-load ang destination volume",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.json.invalid",
+        "source_string": "Provided JSON failed to parse with the following error: %1$s",
+        "translation": "Nabigong i-parse ang binigay na JSON at nag-error: %1$s",
+        "context": "Player typed JSON into a command but it was invalid",
+        "labels": "unassigned, lang",
+        "max_length": 1000
+    },
+    {
+        "identifier": "commands.generic.num.invalid",
+        "source_string": "'%1$s' is not a valid number",
+        "translation": "Hindi balido ang numerong '%1$s'",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.num.tooBig",
+        "source_string": "The number you have entered (%1$d) is too big, it must be at most %2$d",
+        "translation": "Masyadong malaki ang bilang na inilagay mo (%1$d), dapat hanggang %2$d lamang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.num.tooSmall",
+        "source_string": "The number you have entered (%1$d) is too small, it must be at least %2$d",
+        "translation": "Masyadong maliit ang bilang na nilagay mo (%1$d), dapat hindi bababa sa %2$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.outOfWorld",
+        "source_string": "Cannot access blocks outside of the world",
+        "translation": "Hindi naaakses ang mga bloke sa labas ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.parameter.invalid",
+        "source_string": "'%1$s' is not a valid parameter",
+        "translation": "Hindi balidong parameter ang '%1$s'",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.permission.selector",
+        "source_string": "<insufficient permissions for selector expansion>",
+        "translation": "<kulang ang karapatan para sa pagpapalawak ng selector>",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.player.notFound",
+        "source_string": "That player cannot be found",
+        "translation": "Hindi mahanap iyang manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.protocol.mismatch",
+        "source_string": "Provided protocol version doesn't match Minecraft's protocol version",
+        "translation": "Ang binigay na protocol version ay hindi nababagay sa protocol version ng Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.radiusError",
+        "source_string": "Minimum selector radius must be smaller than maximum",
+        "translation": "Ang minimum na selector radius ay dapat mas maliit sa maximum",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.radiusNegative",
+        "source_string": "Radius cannot be negative",
+        "translation": "Hindi maaaring negative ang radius",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.rotationError",
+        "source_string": "Rotation out of range",
+        "translation": "Out of range ang rotasyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.running",
+        "source_string": "The command is already running",
+        "translation": "Pinapatakbo na ang command",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.step.failed",
+        "source_string": "Command step failed",
+        "translation": "Nabigo ang command step",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.syntax",
+        "source_string": "Syntax error: Unexpected \"%2$s\": at \"%1$s>>%2$s<<%3$s\"",
+        "translation": "Syntax error: Hindi inaasahang \"%2$s\": sa \"%1$s>>%2$s<<%3$s\"",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.noTargetMatch",
+        "source_string": "No targets matched selector",
+        "translation": "Walang bumagay na target sa selector",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.targetNotPlayer",
+        "source_string": "Selector must be player-type",
+        "translation": "Ang selector ay dapat type ng manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.tooManyNames",
+        "source_string": "Too many target name arguments",
+        "translation": "Masyadong maraming argumento sa pangalan ng target",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.tooManyTargets",
+        "source_string": "Too many targets matched selector",
+        "translation": "Masyadong maraming bumagay na target sa selector",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.too.many.requests",
+        "source_string": "Too many commands have been requested, wait for one to be done",
+        "translation": "Masyadong maraming incommand na command, maghintay muna na matapos ang isa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.unknown",
+        "source_string": "Unknown command: %s. Please check that the command exists and that you have permission to use it.",
+        "translation": "Di-alam na command: %s. Pakitingnan kung may ganoon talagang command at may karapatan kang gamitin ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage",
+        "source_string": "Usage: %1$s",
+        "translation": "Paggamit: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.blocked_edu",
+        "source_string": "Sorry! The %s command is not available in this world.",
+        "translation": "Sorry! Hindi maaari ang %s command sa mundong ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage.noparam",
+        "source_string": "Usage:",
+        "translation": "Paggamit:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.version.mismatch",
+        "source_string": "The requested version doesn't exist for this command",
+        "translation": "Walang ganoong version sa command na ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.version.missing",
+        "source_string": "Command calls not from chat should specify the command's version",
+        "translation": "Dapat tiyakin ng mga command na wala sa chat ang version ng command",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.wrongTargetCamera",
+        "source_string": "Active camera has to be a free camera to target an entity",
+        "translation": "Dapat free camera ang aktibong camera para makapagtarget ng entidad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunkdata.description",
+        "source_string": "Gets pixels for a specific chunk.",
+        "translation": "Kinukuha ang mga pixel sa tiniyak na chunk.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunkdata.success",
+        "source_string": "Chunk data received",
+        "translation": "Nakuha ang chunk data",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunks.description",
+        "source_string": "Gets list of chunks that are loaded.",
+        "translation": "Inililista ang mga chunk na naka-load.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunks.success",
+        "source_string": "Chunk list received",
+        "translation": "Nakuha ang listahan ng chunk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getlocalplayername.description",
+        "source_string": "Returns the local player name.",
+        "translation": "Ibinibigay ang pangalan ng lokal na manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getspawnpoint.description",
+        "source_string": "Gets the spawn position of the specified player(s).",
+        "translation": "Kinukuha ang spawn position ng tiniyak na manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gettopsolidblock.description",
+        "source_string": "Gets the position of the top non-air block below the specified position",
+        "translation": "Kinukuha ang posisyon ng itaas na hindi hanging bloke sa ilalim ng tiniyak na posisyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gettopsolidblock.notfound",
+        "source_string": "No solid blocks under specified position",
+        "translation": "Walang solid na bloke sa ilalim ng tiniyak na posisyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.block.notFound",
+        "source_string": "There is no such block with name %1$d",
+        "translation": "Walang ganoong bloke na may pangalang %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.description",
+        "source_string": "Gives an item to a player.",
+        "translation": "Nagbibigay ng aytem sa isang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.give.item.invalid",
         "source_string": "Invalid command syntax: no such %s exists with that data value",
         "translation": "Imbalidong command sintaksis: walang nag-eexist na %s na may ganyang data value",
@@ -7355,6 +7723,38 @@
         "identifier": "commands.give.item.notFound",
         "source_string": "There is no such item with name %1$d",
         "translation": "Walang ganyang aytem na may pangalang %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.map.invalidData",
+        "source_string": "Invalid map data provided",
+        "translation": "Imbalido ang binigay na map data",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.map.featureNotFound",
+        "source_string": "Could not make exploration map. Feature not found on this dimension",
+        "translation": "Hindi makagawa ng mapang panlakbay. Hindi nahanap ang feature sa dimensyong ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.success",
+        "source_string": "Gave %1$s * %2$d to %3$s",
+        "translation": "Nagbigay ng %1$s * %2$d kay %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.successRecipient",
+        "source_string": "You have been given %1$s * %2$d",
+        "translation": "Binigyan ka ng %1$s * %2$d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7418,7 +7818,7 @@
     {
         "identifier": "commands.help.footer",
         "source_string": "Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments",
-        "translation": "Tip: Gamitin ang <tab> key habang nagta-type ng command para buoin ang command o argumento nito",
+        "translation": "Tip: Gamitin ang <tab> key habang nagta-type ng command para buuin ang command o argumento nito",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7514,7 +7914,7 @@
     {
         "identifier": "commands.inputpermission.mount",
         "source_string": "Mount ## Board a boat / get on a horse",
-        "translation": "Sakyan",
+        "translation": "Sakyan ## Sumakay ng bangka / sumakay ng kabayo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7522,7 +7922,7 @@
     {
         "identifier": "commands.inputpermission.dismount",
         "source_string": "Dismount ## Leave a boat / get off a horse",
-        "translation": "Bumaba",
+        "translation": "Bumaba ## Bumaba sa bangka / bumaba sa kabayo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7530,7 +7930,7 @@
     {
         "identifier": "commands.inputpermission.lateral_movement",
         "source_string": "Lateral Movement ## All movement that you do with a joystick/WASD on keyboard. ",
-        "translation": "Lateral na Paggalaw",
+        "translation": "Lateral na Paggalaw ## Lahat ng mga paggalaw na nagagawa mo gamit ang joystick/WASD sa iyong keyboard. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7538,7 +7938,7 @@
     {
         "identifier": "commands.inputpermission.move_forward",
         "source_string": "Move Forward ## Movement from pushing joystick forward (or pressing W on keyboard)",
-        "translation": "Abante",
+        "translation": "Abante ## Paggalaw sa pag-push ng joystick nang paabante (o pagpindot ng W sa keyboard)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7800,6 +8200,190 @@
         "max_length": null
     },
     {
+        "identifier": "commands.kill.description",
+        "source_string": "Kills entities (players, mobs, etc.).",
+        "translation": "Pumapatay ng entidad (manlalaro, mob, etc.).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.lesson.description",
+        "source_string": "Handle Educational Lesson reporting.",
+        "translation": "Namamahala sa pagreport ng leksyong edukasyonal.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.lesson.success",
+        "source_string": "Success",
+        "translation": "Tagumpay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.list.description",
+        "source_string": "Lists players on the server.",
+        "translation": "Naglilista ng manlalaro sa server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.description",
+        "source_string": "Displays the coordinates for the closest structure or biome of a given type.",
+        "translation": "Pinapakita ang coordinates ng pinakamalapit na estruktura o biome ng binigay na type.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.biome.fail",
+        "source_string": "Could not find a biome of type %1$s within a reasonable distance",
+        "translation": "Hindi makahanap ng biome na %1$s ang type na nasa rasonableng distansiya",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.biome.success",
+        "source_string": "The nearest %1$s is at block %2$s, %3$s, %4$s (%5 blocks away)",
+        "translation": "Ang pinakamalapit na %1$s ay nasa blokeng %2$s, %3$s %4$s (%5 bloke kalayo)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.fail.noplayer",
+        "source_string": "The command can only be used by a valid player",
+        "translation": "Magagmit lang ang command na iyan ng balidong manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.fail.nostructurefound",
+        "source_string": "No valid structure found within a reasonable distance",
+        "translation": "Walang balidong estrukturang nahanap na nasa rasonableng distansiya",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.success",
+        "source_string": "The nearest %1$s is at block %2$s, (y?), %3$s (%4 blocks away)",
+        "translation": "Ang pinakamalapit na %1$s ay nasa blokeng %2$s, (y?), %3$s (%4 bloke kalayo)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.description",
+        "source_string": "Drops the given loot table into the specified inventory or into the world.",
+        "translation": "Inilalaglag ang binigay na loot table sa isang imbentaryo o sa mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidLootTable",
+        "source_string": "Loot table '%1$s' not found",
+        "translation": "Walang loot table na '%1$s' na nahanap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.mainhandOffhandOnNonEntity",
+        "source_string": "Mainhand or offhand should not be used on non entity object.",
+        "translation": "Hindi dapat gamitin ang mainhand o offhand sa object na di-entidad.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.entityNoLootTable",
+        "source_string": "Entity %1$s has no loot table",
+        "translation": "Walang loot table ang entidad na %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.noContainer",
+        "source_string": "Target position %s is not a container",
+        "translation": "Hindi lalagyan ang target na posisyong %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidSlotIdForSlotType",
+        "source_string": "Could not replace slot %s, slot must be between %d and %d for %s",
+        "translation": "Hindi mapalitan ang %s na slot, dapat ay nasa pagitan ng %d at %d para sa %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidSlotTypeForEntity",
+        "source_string": "Entity %s does not have SlotType %s",
+        "translation": "Walang SlotType na %s ang entidad na %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.countExceedsContainerSize",
+        "source_string": "slotId + count exceeds slot container size %d",
+        "translation": "Sumosobra sa laking %d slot ng lalagyan ang slotId = count",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.negativeCount",
+        "source_string": "count cannot be negative a negative number",
+        "translation": "Dapat hindi negative ang count",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.success",
+        "source_string": "%1$s items were dropped.",
+        "translation": "Naglaglag ng %1$s aytem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess",
+        "source_string": "Replaced %s %d of %s with %d item(s) over %d slot(s)",
+        "translation": "Pinalitan ang %s %d ng %s na may %d aytem sa %d slot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess.block",
+        "source_string": "Replaced %s slot %d with %d item(s) over %d slot(s)",
+        "translation": "Pinalitan ang %s slot %d ng %d aytem sa %d slot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.selector.error.moreThanOne",
+        "source_string": "Only one entity is allowed, but the provided selector allows more than one",
+        "translation": "Iisa lang na entidad ang maaari, pero kaya ng binigay na selector ng marami",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.tagsfromitem.description",
         "source_string": "Lists all tags associated with the given item.",
         "translation": "Naglilista ng mga tag na nauugnay sa binigay na aytem.",
@@ -7835,6 +8419,222 @@
         "identifier": "commands.tagsfromitem.fail.notagsfound",
         "source_string": "No tags found on the item: %s.",
         "translation": "Walang tags ang nahanap sa aytem: %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.toggle",
+        "source_string": "Enables/Disables the content log command",
+        "translation": "Binubuksan/sinasara ang command ng content log",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.enabled",
+        "source_string": "Content Log Enabled",
+        "translation": "Nakabukas Na ang Content Log",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.disabled",
+        "source_string": "Content Log Disabled",
+        "translation": "Nakasara Na ang Content Log",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.me.description",
+        "source_string": "Displays a message about yourself.",
+        "translation": "Nagpapalabas ng mensahe tungkol sa iyo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.display.incoming",
+        "source_string": "%1$s whispers to you: %2$s",
+        "translation": "Bulong ni %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.display.outgoing",
+        "source_string": "You whisper to %1$s: %2$s",
+        "translation": "Bulong mo kay %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.sameTarget",
+        "source_string": "You can't send a private message to yourself!",
+        "translation": "Hindi mo mapapadalan ang sarili mo ng pribadong mensahe!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.description",
+        "source_string": "Controls what mob events are allowed to run.",
+        "translation": "Kinokontrol kung ano ang papatakbuhing mob event.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToTrue",
+        "source_string": "Mob Events are now enabled. Individual events which are set to false will not run.",
+        "translation": "Nakabukas na ang Mob Events. Ang mga indibidwal na event na naka-false ay hindi papatakbuhin.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToFalse",
+        "source_string": "Mob Events are now disabled. Individual events will not run.",
+        "translation": "Nakapatay na ang Mob Events. Hindi papatakbuhin ang mga indibidwal na event.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsTrue",
+        "source_string": "Mob Events are enabled. Individual events which are set to false will not run.",
+        "translation": "Nakabukas ang Mob Events. Ang mga indibidwal na event na naka-false ay hindi papatakbuhin.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsFalse",
+        "source_string": "Mob Events are disabled. Individual events will not run.",
+        "translation": "Nakapatay na ang Mob Events. Hindi papatakbuhin ang mga indibidwal na event.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrue",
+        "source_string": "Mob Event %s (id: %s) set to true.",
+        "translation": "Naka-true na Mob Event %s (id: %s).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) set to true, but Mob Events are disabled.",
+        "translation": "Naka-true na ang Mob Event %s (id: %s), pero nakapatay ang Mob Events.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToFalse",
+        "source_string": "Mob Event %s (id: %s) set to false.",
+        "translation": "Naka-false na ang Mob Event %s (id: %s).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrue",
+        "source_string": "Mob Event %s (id: %s) is set to true.",
+        "translation": "Naka-true ang Mob Event %s (id: %s).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) is set to true, but Mob Events are disabled.",
+        "translation": "Naka-true ang Mob Event %s (id: %s), pero nakapatay ang Mob Events.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsFalse",
+        "source_string": "Mob Event %s (id: %s) is set to false.",
+        "translation": "Naka-false ang Mob Event %s (id: %s).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.description",
+        "source_string": "Allows you to control playing music tracks.",
+        "translation": "Nagpapatugtog ng music track.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.failure.emptyTrackName",
+        "source_string": "You must provide a non-empty track name.",
+        "translation": "Magbigay ka dapat ng non-empty na pangalan sa track.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.queueAction",
+        "source_string": "%s has been queued and it will start playing when the current track stops.",
+        "translation": "Nai-queue na ang %s at sisimulang itugtog pagkatapos ng kasalukuyang track.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.playAction",
+        "source_string": "%s has been queued to start playing.",
+        "translation": "Nai-queue na ang %s para simulang itugtog.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.stopAction",
+        "source_string": "Custom music will stop now.",
+        "translation": "Titigil na ang custom music.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.volumeAction",
+        "source_string": "Music volume will be updated to %d.",
+        "translation": "Nai-update na ang lakas ng music sa %d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.description",
+        "source_string": "Grants operator status to a player.",
+        "translation": "Ginagawang operator ang isang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.failed",
+        "source_string": "Could not op (already op or higher): %s",
+        "translation": "Hindi mai-op (op na o mas mataas): %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.success",
+        "source_string": "Opped: %s",
+        "translation": "Nai-op: %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8160,6 +8960,190 @@
         "max_length": null
     },
     {
+        "identifier": "commands.playsound.description",
+        "source_string": "Plays a sound.",
+        "translation": "Nagpapalabas ng tunog.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.playerTooFar",
+        "source_string": "Player %1$s is too far away to hear the sound",
+        "translation": "Masyadong malayo si %1$s para marinig ang tunog",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.success",
+        "source_string": "Played sound '%1$s' to %2$s",
+        "translation": "Pinalabas ang tunog na '%1$s' kay %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.position.description",
+        "source_string": "Toggles on/off coordinates for player.",
+        "translation": "Binubuksan/pinapatay ang coordinates ng isang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.publish.failed",
+        "source_string": "Unable to host local game",
+        "translation": "Hindi makapag-host ng lokal na laro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.publish.started",
+        "source_string": "Local game hosted on port %1$s",
+        "translation": "Naka-host ang larong lokal sa port na %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.querytarget.description",
+        "source_string": "Gets transform, name, and id information about the given target entity or entities.",
+        "translation": "Kinukuha ang impormasyon sa transform, pangalan, at ID ng naturang target na entidad.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.querytarget.success",
+        "source_string": "Target data: %1$s",
+        "translation": "Target na data: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.description",
+        "source_string": "Unlocks recipe in the recipe book for a player.",
+        "translation": "Ina-unlock ang resipi sa recipe book ng manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.unlockedAllRecipes",
+        "source_string": "Unlocked all recipes for %1$s.",
+        "translation": "Nai-unlock na lahat ang resipi para kay %1$s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.removedAllRecipes",
+        "source_string": "Removed all recipes for %1$s.",
+        "translation": "Naitanggal na ang resipi kay %1$s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.unlockedRecipe",
+        "source_string": "Unlocked recipe for %1$s: %2$s",
+        "translation": "Nai-unlock na ang resipi kay %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.removedRecipe",
+        "source_string": "Removed recipe for %1$s: %2$s",
+        "translation": "Naitanggal na ang resipi kay %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.playerHasRecipe",
+        "source_string": "%1$s already has recipe unlocked: %2$s",
+        "translation": "Naka-unlock na ang resipi kay %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.playerDoesNotHaveRecipe",
+        "source_string": "%1$s does not have the recipe: %2$s",
+        "translation": "Wala nitong resipi si %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.notFound",
+        "source_string": "The recipe could not be found.",
+        "translation": "Hindi mahanap ang resipi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.notUnlockable",
+        "source_string": "The recipe is not unlockable in the recipe book.",
+        "translation": "Hindi naa-unlock ang resipi sa recipe book.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.all.description",
+        "source_string": "Reloads all function and script files from all behavior packs, or optionally reloads the world and all resource and behavior packs.",
+        "translation": "Inire-reload lahat ng function at script file sa lahat ng behavior pack, o piliing i-reload ang mundo at lahat ng resource at behavior pack.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.description",
+        "source_string": "Reloads all function and script files from all behavior packs.",
+        "translation": "Inire-reload ang lahat ng function at script file sa lahat ng behavior pack.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.started",
+        "source_string": "Reloading the world has been started.",
+        "translation": "Nagsimula nang i-reload ang mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.success",
+        "source_string": "Function and script files have been reloaded.",
+        "translation": "Nai-reload na ang function at script file.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.error",
+        "source_string": "An unexpected error occurred.",
+        "translation": "May nangyaring di-inaasahang error.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.onlyHost",
+        "source_string": "Only host player can reload the world.",
+        "translation": "Host lamang ang makapagre-reload ng mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.replaceitem.description",
         "source_string": "Replaces items in inventories.",
         "translation": "Nagpapalit ng mga aytem sa mga imbentaryo.",
@@ -8170,7 +9154,7 @@
     {
         "identifier": "commands.replaceitem.failed",
         "source_string": "Could not replace %s slot %d with %d * %s",
-        "translation": "Hindi mapalit ang %s slot %d kasama ang %d * %s",
+        "translation": "Hindi mapalitan ang %s slot %d ng %d * %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8178,7 +9162,7 @@
     {
         "identifier": "commands.replaceitem.keepFailed",
         "source_string": "There is already an item occupying %s slot %d.",
-        "translation": "Mayroon nang aytem na nag-ooccupy sa %s slot %d.",
+        "translation": "Mayroon nang aytem na nakalagay sa %s slot %d.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8186,7 +9170,7 @@
     {
         "identifier": "commands.replaceitem.noContainer",
         "source_string": "Block at %s is not a container",
-        "translation": "Bloke sa %s ay hindi isang container",
+        "translation": "Ang bloke sa %s ay hindi isang container",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8202,7 +9186,7 @@
     {
         "identifier": "commands.replaceitem.success",
         "source_string": "Replaced %s slot %d with %d * %s",
-        "translation": "Napalitan na ang %s slot %d kasama ang %d * %s",
+        "translation": "Napalitan na ang %s slot %d ng %d * %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8210,7 +9194,7 @@
     {
         "identifier": "commands.replaceitem.success.entity",
         "source_string": "Replaced %s slot %d of %s with %d * %s",
-        "translation": "Napalitan na ang %s slot %d ng %s kasama ang %d * %s",
+        "translation": "Napalitan na ang %s slot %d ng %s ng %d * %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8224,6 +9208,1062 @@
         "max_length": null
     },
     {
+        "identifier": "commands.ride.description",
+        "source_string": "Makes entities ride other entities, stops entities from riding, makes rides evict their riders, or summons rides or riders.",
+        "translation": "Pinapasakay ang isang entidad sa isa pang entidad, pinipigilan ang pagsakay ng entidad, pinapaalis sa nagpapasakay ang mga sumasakay, o nagsu-summon ng sasakyan o sasakay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.evictRiders.success",
+        "source_string": "Rides that have successfully evicted their riders: %1$s",
+        "translation": "Mga sinasakyang matagumpay na napaalis ang sumasakay: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.failure",
+        "source_string": "Riders that did not meet ride conditions: %1$s",
+        "translation": "Mga sumasakay na hindi natamasa ang kondisyon sa pagsakay: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.groupDoesntFit",
+        "source_string": "The group of riders does not fit on the ride.",
+        "translation": "Hindi kasya ang grupo ng sasakay sa sasakyan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.notRideable",
+        "source_string": "The selected entity is not rideable.",
+        "translation": "Hindi nasasakyan ang piniling entidad.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.rideFull",
+        "source_string": "This ride is already full.",
+        "translation": "Puno na ang sasakyan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.rideFullRidersLeft",
+        "source_string": "The ride is full, so some riders were not added.",
+        "translation": "Puno na ang sasakyan, kaya may hindi naisakay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.success",
+        "source_string": "Riders successfully added to ride: %1$s",
+        "translation": "Matagumpay na naisakay sa sakay: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.tooManyRiders",
+        "source_string": "Too many riders were specified. Only one is allowed at a time for teleport_ride.",
+        "translation": "Masyadong madaming tiniyak na sasakay. Isa-isahan lang ang maaari sa teleport_ride.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.tooManyRides",
+        "source_string": "Too many rides were specified. Only one is allowed at a time.",
+        "translation": "Masyadong madaming tiniyak na sakay. Iisa lang ang maaari.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.stopRiding.success",
+        "source_string": "Riders that have successfully stopped riding: %1$s",
+        "translation": "Mga sumasakay na matagumpay na napaalis: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.failed",
+        "source_string": "Rides were summoned, but these riders could not be added to them: %1$s",
+        "translation": "Nakapag-summon ng sakay, pero hindi maisakay ang mga ito: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.notRideable",
+        "source_string": "Entity was summoned, but it is not rideable.",
+        "translation": "Nakapag-summon ng entidad, pero hindi siya nasasakyan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.success",
+        "source_string": "Ride successfully summoned for these riders: %1$s",
+        "translation": "Matagumpay na nai-summon ang sakay para sa sasakay na mga ito: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.skipped",
+        "source_string": "Rides were not summoned for the following entities that already have rides: %1$s",
+        "translation": "Hindi nai-summon ang mga sakay sa susunod ng mga entidad na mayroon nang sakay: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.failed",
+        "source_string": "Riders were summoned, but could not be added to rides: %1$s",
+        "translation": "Nakapag-summon ng sasakay, pero hindi sila maisakay: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.fullRides",
+        "source_string": "Riders could not ride these rides because they are full: %1$s",
+        "translation": "Hindi masakyan ng mga sasakay ang mga sakay dahil puno sila: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.ridesWithNoRideableComp",
+        "source_string": "The following entities are not rideable: %1$s",
+        "translation": "Hindi nasasakyan ang susunod na entidad: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.success",
+        "source_string": "Riders successfully summoned for rides: %1$s",
+        "translation": "Matagumpay na nai-summon ang sasaakay para sa sakay na mga ito: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.description",
+        "source_string": "Control or check how the game saves data to disk.",
+        "translation": "Kontrolin o tingnan paano nagse-save ang data sa disk.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.disabled",
+        "source_string": "Turned off world auto-saving",
+        "translation": "Naipatay ang auto-save ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.enabled",
+        "source_string": "Turned on world auto-saving",
+        "translation": "Naibukas ang auto-save ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.failed",
+        "source_string": "Saving failed: %1$s",
+        "translation": "Nabigong i-save: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.start",
+        "source_string": "Saving...",
+        "translation": "Isine-save...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.success",
+        "source_string": "Saved the world",
+        "translation": "Nai-save ang mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-all.error",
+        "source_string": "An error occurred when trying to pause the world storage.",
+        "translation": "Nag-error habang sinusubukang i-pause ang storage ng mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-all.success",
+        "source_string": "Data saved. Files are now ready to be copied.",
+        "translation": "Nai-save na ang data. Maaari nang i-copy ang files.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-off.alreadyOff",
+        "source_string": "Saving is already turned off.",
+        "translation": "Nakapatay na ang pag-save.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.alreadyOn",
+        "source_string": "Saving is already turned on.",
+        "translation": "Nakabukas na ang pag-save.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.notDone",
+        "source_string": "A previous save has not been completed.",
+        "translation": "Hindi natapos ang huling save.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.description",
+        "source_string": "Enables automatic server saves.",
+        "translation": "Binubuksan ang awtomatikong pag-save sa server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.success",
+        "source_string": "Changes to the world are resumed.",
+        "translation": "Matutuloy na ang pagbago sa mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-state.description",
+        "source_string": "Checks if a previous save-all has finished and lists the files involved.",
+        "translation": "Tinitingnan kung may huling save-all na natapos at inililista ang mga file na kasama.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.say.description",
+        "source_string": "Sends a message in the chat to other players.",
+        "translation": "Nagmemensahe sa chat sa ibang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.delay.functionQueued",
+        "source_string": "Scheduled function %1$s in %2$d ticks at gametime %3$d.",
+        "translation": "Inorasan ang function na %1$s ng %2$d tick sa gametime na %3$d.",
+        "context": "1: Name of the mcfunction ##2: Duration (in game ticks) of the delay length ##3: The end game time (in ticks) when the function will run",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.delay.negativeTime",
+        "source_string": "Time cannot be negative.",
+        "translation": "Hindi maaaring negative ang oras.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.description",
+        "source_string": "Schedules an action to be executed once an area is loaded, or after a certain amount of time.",
+        "translation": "Nag-ooras ng isang gawain na isasagawa nang ma-load ang isang lugar, o pagkatapos ng isang panahon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.functionQueued",
+        "source_string": "Function has been queued and it will be executed when the specified area is fully loaded.",
+        "translation": "Naka-queue na ngayon ang function at isasagawa kung lubos na na-load ang tiniyak na lugar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.functionRan",
+        "source_string": "Successfully executed %1$d function entries in function %2$s.",
+        "translation": "Matagumpay na nakapagsagawa ng %1$d function entry sa function na %2$s.",
+        "context": "1: Number of functions that were ran ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.invalidOrigin",
+        "source_string": "The origin needed to execute this function was invalid.",
+        "translation": "Imbalido ang pinanggalingang kailangan para isagawa ang function na ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.name.empty",
+        "source_string": "Ticking area name cannot be empty.",
+        "translation": "Bawal patlang ang pangalan ng ticking area.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.too.many.areas",
+        "source_string": "More than one ticking areas were found with the name %s. Please use a single area.",
+        "translation": "Maraming nakitang ticking area na may pangalang %s. Isa lang dapat ang gamiting area.",
+        "context": "1: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.clear.failure",
+        "source_string": "No functions were removed with the name %1$s.",
+        "translation": "Walang tinanggal na function na may pangalan na %1$s.",
+        "context": "1: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.clear.success",
+        "source_string": "Removed %1$d functions with the name %2$s.",
+        "translation": "Nakapagtanggal ng %1$d function na may pangalan na %2$s.",
+        "context": "1: Number of functions cleared ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.clear.success",
+        "source_string": "Removed %1$d functions with the ticking area name %2$s.",
+        "translation": "Nakapagtanggal ng %1$d function na may pangalan sa ticking area na %2$s.",
+        "context": "1: Name of selected ticking area ##2: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.clear.failure",
+        "source_string": "No functions were removed with the ticking area name %1$s.",
+        "translation": "Walang naitanggal na function na may pangalan sa ticking area na %1$s.",
+        "context": "1: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.func.clear.success",
+        "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
+        "translation": "Nakapagtanggal ng %1$d function na may pangalang %3$s na may pangalan sa ticking area na %2$s.",
+        "context": "1: Number of functions cleared ##2: Name of selected ticking area ##3: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.func.clear.failure",
+        "source_string": "No functions were removed with the ticking area name %1$s and with name %2$s.",
+        "translation": "Walang naitanggal na function na may pangalang %2$sna may pangalan sa ticking area na %1$s.",
+        "context": "1: Name of selected ticking area ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.description",
+        "source_string": "Tracks and displays scores for various objectives.",
+        "translation": "Nagtatala at nagpapakita ng iskor para sa iba't ibang layunin.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.allMatchesFailed",
+        "source_string": "All matches failed",
+        "translation": "Walang bumagay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.noMultiWildcard",
+        "source_string": "Only one user wildcard allowed",
+        "translation": "Iisa lang na user wildcard ang maaari",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectiveNotFound",
+        "source_string": "No objective was found by the name '%1$s'",
+        "translation": "Walang nahanap na layunin na may pangalang '%1$s'",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectiveReadOnly",
+        "source_string": "The objective '%1$s' is read-only and cannot be set",
+        "translation": "Read-only ang layuning '%1$s' at hindi maseset",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.alreadyExists",
+        "source_string": "An objective with the name '%1$s' already exists",
+        "translation": "May layunin nang may pangalang '%1$s'",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.displayTooLong",
+        "source_string": "The display name '%1$s' is too long for an objective, it can be at most %2$d characters long",
+        "translation": "Masyadong mahaba para sa layunin ang display name na '%1$s', dapat hanggang %2$d karakter lang kahaba",
+        "context": "1: Objective Display Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.success",
+        "source_string": "Added new objective '%1$s' successfully",
+        "translation": "Matagumpay na nailagay ang layuning '%1$s'",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.tooLong",
+        "source_string": "The name '%1$s' is too long for an objective, it can be at most %2$d characters long",
+        "translation": "Masyadong mahaba para sa layunin ang pangalan na '%1$s', dapat hanggang %2$d karakter lang kahaba",
+        "context": "1: Objective Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.wrongType",
+        "source_string": "Invalid objective criteria type '%1$s'",
+        "translation": "Imbalido ang type na '%1$s' sa kraytirya ng layunin",
+        "context": "1: Criteria Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.needName",
+        "source_string": "An objective needs a name.",
+        "translation": "Kailangan ng pangalan ang layunin.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.description",
+        "source_string": "Modify scoreboard objectives.",
+        "translation": "Baguhin ang mga layunin ng talamarkahan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.count",
+        "source_string": "Showing %1$d objective(s) on scoreboard:",
+        "translation": "Nagpapakita ng %1$d layunin sa talamarkahan:",
+        "context": "1: Number of Objectives",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.empty",
+        "source_string": "There are no objectives on the scoreboard",
+        "translation": "Walang layunin sa talamarkahan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.entry",
+        "source_string": "- %1$s: displays as '%2$s' and is type '%3$s'",
+        "translation": "- %1$s: pinakikita bilang '%2$s' at '%3$s' ang type",
+        "context": "1: Objective Name ##2: Objective Display Name ##3: Criteria Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.remove.success",
+        "source_string": "Removed objective '%1$s' successfully",
+        "translation": "Matagumpay na naitanggal ang layuning '%1$s'",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.invalidSlot",
+        "source_string": "No such display slot '%1$s'",
+        "translation": "Walang ganoong display slot na '%1$s'",
+        "context": "1: Display Slot",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.successCleared",
+        "source_string": "Cleared objective display slot '%1$s'",
+        "translation": "Naitanggal ang display slot na '%1$s' sa layunin",
+        "context": "1: Display Slot",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.successSet",
+        "source_string": "Set the display objective in slot '%1$s' to '%2$s'",
+        "translation": "Naiset ang dini-display na layunin sa slot '%1$s' sa '%2$s'",
+        "context": "1: Display Slot ##2: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.add.success",
+        "source_string": "Added %1$d to [%2$s] for %3$s (now %4$d)",
+        "translation": "Nagdagdag ng %1$d sa [%2$s] para kay %3$s (ngayo'y %4$d)",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.add.multiple.success",
+        "source_string": "Added %1$d to [%2$s] for %3$d entities",
+        "translation": "Nagdagdag ng %1$d sa [%2$s] para sa %3$d entidad",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.nameNotFound",
+        "source_string": "A player name must be given.",
+        "translation": "Kailangan ibigay ang pangalan ng manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.enable.noTrigger",
+        "source_string": "Objective %1$s is not a trigger",
+        "translation": "Hindi trigger ang layuning %1$s",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.enable.success",
+        "source_string": "Enabled trigger %1$s for %2$s",
+        "translation": "Nabuksan ang trigger na %1$s kay %2$s",
+        "context": "1: Trigger Name ##2: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.count",
+        "source_string": "Showing %1$d tracked players on the scoreboard:",
+        "translation": "Nagpapakita ng %1$d tinatalaang manlalaro sa talamarkahan:",
+        "context": "1: Number of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.empty",
+        "source_string": "There are no tracked players on the scoreboard",
+        "translation": "Walang tinatalaang manlalaro sa talamarkahan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.count",
+        "source_string": "Showing %1$d tracked objective(s) for %2$s:",
+        "translation": "Nagpapakita ng %1$d tinatalaang layunin kay %2$s:",
+        "context": "1: Objective Count ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.empty",
+        "source_string": "Player %1$s has no scores recorded",
+        "translation": "Walang talang score si %1$s",
+        "context": "1: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.entry",
+        "source_string": "- %2$s: %1$d (%3$s)",
+        "translation": "- %2$s: %1$d (%3$s)",
+        "context": "1: Score Value ##2: Objective Display Name ##3: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.invalidOperation",
+        "source_string": "Invalid operation %1$s",
+        "translation": "Operasyong Imbalido %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.notFound",
+        "source_string": "No %1$s score for %2$s found",
+        "translation": "Walang iskor sa %1$s na nahanap kay %2$s",
+        "context": "1: Objective Name ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.success",
+        "source_string": "Updated [%1$s] for %2$d entities",
+        "translation": "Nai-update ang [%1$s] para sa %2$d entidad",
+        "context": "1: Objective Name ##2: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.offlinePlayerName",
+        "source_string": "Player Offline",
+        "translation": "Offline na Manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.random.invalidRange",
+        "source_string": "Min %1$d is not less than max %2$d",
+        "translation": "Ang min %1$d ay hindi bababa sa max %2$d",
+        "context": "1: Min Range Value ##2: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.remove.success",
+        "source_string": "Removed %1$d from [%2$s] for %3$s (now %4$d)",
+        "translation": "Nagbawas ng %1$d sa [%2$s] para kay %3$s (ngayo'y %4$d)",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.remove.multiple.success",
+        "source_string": "Removed %1$d from [%2$s] for %3$d entities",
+        "translation": "Nagbawas ng %1$d sa [%2$s] para sa %3$d entidad",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.reset.success",
+        "source_string": "Reset scores of player %1$s",
+        "translation": "Naireset na ang iskor ni %1$s",
+        "context": "1: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.resetscore.success",
+        "source_string": "Reset score %1$s of player %2$s",
+        "translation": "Naireset na ang iskor sa %1$s ni %2$s",
+        "context": "1: Objective Name ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.success",
+        "source_string": "Set [%1$s] for %2$s to %3$d",
+        "translation": "Naiset na sa %3$d ang [%1$s] kay %2$s",
+        "context": "1: Objective Name ##2: Player Name ##3: Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.multiple.success",
+        "source_string": "Set [%1$s] for %2$d entities to %3$d",
+        "translation": "Naiset na sa %3$d ang [%1$s] sa %2$d entidad",
+        "context": "1: Objective Name ##2: Player Count ##3: Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.tagError",
+        "source_string": "Could not parse dataTag, reason: %1$s",
+        "translation": "Hindi mai-parse ang dataTag, dahilan: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.tagMismatch",
+        "source_string": "The dataTag does not match for %1$s",
+        "translation": "Hindi bumabagay sa %1$s ang dataTag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.score.notFound",
+        "source_string": "No %1$s score for %2$s found",
+        "translation": "Walang nahanap na iskor sa %1$s ni %2$s",
+        "context": "1: Objective Name ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.test.failed",
+        "source_string": "Score %1$d is NOT in range %2$d to %3$d",
+        "translation": "Wala sa %2$d hanggang %3$d ang iskor na %1$d",
+        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.test.success",
+        "source_string": "Score %1$d is in range %2$d to %3$d",
+        "translation": "Nasa %2$d hanggang %3$d ang iskor na %1$d",
+        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.get.success",
+        "source_string": "%1$d",
+        "translation": "%1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teamNotFound",
+        "source_string": "No team was found by the name '%1$s'",
+        "translation": "Walang team na nahanap na may pangalang '%1$s'",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.alreadyExists",
+        "source_string": "A team with the name '%1$s' already exists",
+        "translation": "Mayroon nang team na may pangalang '%1$s'",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.displayTooLong",
+        "source_string": "The display name '%1$s' is too long for a team, it can be at most %2$d characters long",
+        "translation": "Masyadong mahaba para sa team ang display name na '%1$s', dapat hanggang %2$d karakter lang kahaba",
+        "context": "1: Team Display Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.success",
+        "source_string": "Added new team '%1$s' successfully",
+        "translation": "Matagumpay na nailagay ang team na '%1$s'",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.tooLong",
+        "source_string": "The name '%1$s' is too long for a team, it can be at most %2$d characters long",
+        "translation": "Masyadong mahaba para sa team ang pangalang '%1$s', dapat hanggang %2$d karakter lang kahaba",
+        "context": "1: Team Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.empty.alreadyEmpty",
+        "source_string": "Team %1$s is already empty, cannot remove nonexistent players",
+        "translation": "Walang tao ang team %1$s, hindi maaaring magtanggal ng manlalarong wala naman doon",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.empty.success",
+        "source_string": "Removed all %1$d player(s) from team %2$s",
+        "translation": "Naitannggal ang lahat ng %1$d manlalaro a team %2$s",
+        "context": "1: Number of Players ##2: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.join.failure",
+        "source_string": "Could not add %1$d player(s) to team %2$s: %3$s",
+        "translation": "Hindi makapaglagay ng %1$d manlalaro sa team %2$s: %3$s",
+        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.join.success",
+        "source_string": "Added %1$d player(s) to team %2$s: %3$s",
+        "translation": "Nakapaglagay ng %1$d manlalaro sa team %2$s: %3$s",
+        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.failure",
+        "source_string": "Could not remove %1$d player(s) from their teams: %2$s",
+        "translation": "Hindi maitanggal ang %1$d manlalaro sa team nila: %2$s",
+        "context": "1: Number of Players ##2: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.noTeam",
+        "source_string": "You are not in a team",
+        "translation": "Wala ka sa isang team",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.success",
+        "source_string": "Removed %1$d player(s) from their teams: %2$s",
+        "translation": "Nakapagtanggal ng %1$d manlalaro sa team nila: %2$s",
+        "context": "1: Number of Players ##2: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.count",
+        "source_string": "Showing %1$d teams on the scoreboard:",
+        "translation": "Nagpapakita ng %1$d team sa scoreboard:",
+        "context": "1: Number of Teams",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.empty",
+        "source_string": "There are no teams registered on the scoreboard",
+        "translation": "Walang nakarehistrong team sa talamarkahan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.entry",
+        "source_string": "- %1$s: '%2$s' has %3$d players",
+        "translation": "- %1$s: May %3$d manlalaro ang '%2$s'",
+        "context": "1: Team Name ##2: Team Display Name ##3: Number of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.count",
+        "source_string": "Showing %1$d player(s) in team %2$s:",
+        "translation": "Nagpapakita ng %1$d manlalaro sa team %2$s:",
+        "context": "1: Number of Players ##2 Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.empty",
+        "source_string": "Team %1$s has no players",
+        "translation": "Walang manlalaro ang team %1$s",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.entry",
+        "source_string": "- %2$s: %1$d (%3$s)",
+        "translation": "- %2$s: %1$d (%3$s)",
+        "context": "1: Player Name ##2: Score Value ##3: Team Display Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.option.noValue",
+        "source_string": "Valid values for option %1$s are: %2$s",
+        "translation": "Ang mga balidong value sa opsiyong %1$s ay: %2$s",
+        "context": "1: Option Name ##2: List of Option Values",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.option.success",
+        "source_string": "Set option %1$s for team %2$s to %3$s",
+        "translation": "Nai-set sa %3$s ang opsiyong %1$s para sa team %2$s",
+        "context": "1: Option Name ##2: Team Name ##3: Option Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.remove.success",
+        "source_string": "Removed team %1$s",
+        "translation": "Naitanggal na ang team %1$s",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.description",
+        "source_string": "Applies shaking to the players' camera with a specified intensity and duration.",
+        "translation": "Nagpapayugyog sa camera ng manlalaro nang may tiyak na intensidad at durasyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.success",
+        "source_string": "Sent a request to the following players for their camera to shake: %s",
+        "translation": "Nakapagbigay na ng request sa sumusunod na manlalaro para mapayugyog ang camera nila: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.successStop",
+        "source_string": "Stopping camera shake for the following players: %s",
+        "translation": "Pinapatigil ang yugyog ng camera sa sumusunod na manlalaro: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.description",
+        "source_string": "Triggers a script event with an ID and message.",
+        "translation": "Nagti-trigger ng script event na may ID at mensahe.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.messageSizeExceed",
+        "source_string": "Message length exceeds (%1$d) character limit!",
+        "translation": "Sumosobra ang haba ng mensahe sa (%1$d) karakter limit!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.invalidNamespace",
+        "source_string": "Identifier must have a namespace that is not \"minecraft\"",
+        "translation": "Kailangang hindi \"minecraft\" ang namespace ng identifier",
+        "context": "Don't translate the \"minecraft\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.seed.success",
+        "source_string": "Seed: %1$s",
+        "translation": "Seed: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.description",
+        "source_string": "Changes a block to another block.",
+        "translation": "Pinapalitan ang isang bloke ng isa pang bloke.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.failed",
+        "source_string": "Unable to place block",
+        "translation": "Hindi mailagay ang bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.noChange",
+        "source_string": "The block couldn't be placed",
+        "translation": "Hindi mailagay ang bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.notFound",
+        "source_string": "There is no such block with ID/name %1$s",
+        "translation": "Walang bloke na may ganoong ID/pangalang %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.outOfWorld",
+        "source_string": "Cannot place block outside of the world",
+        "translation": "Hindi mailagay ang bloke sa labas ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.success",
+        "source_string": "Block placed",
+        "translation": "Nailagay na ang bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Nabigong i-parse ang data tag: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setidletimeout.success",
+        "source_string": "Successfully set the idle timeout to %1$d minutes.",
+        "translation": "Matagumpay na nai-set ang idle timeout sa %1$d minuto.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslots.description",
+        "source_string": "Sets the number of fixed inventory slots for the server.",
+        "translation": "Isineset ang bilang ng naka-ayos nang slot sa imbentaryo para sa server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslots.success",
+        "source_string": "Number of Fixed Inventory Slots set to %1$d",
+        "translation": "Naiset ang bilang ng Naka-ayos Nang Slot sa %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.setfixedinvslot.description",
         "source_string": "Sets a fixed slot to a specified item.",
         "translation": "Nagse-set ng isang fixed slot sa natukoy na aytem.",
@@ -8232,9 +10272,1697 @@
         "max_length": null
     },
     {
+        "identifier": "commands.setfixedinvslot.success",
+        "source_string": "Fixed Inventory Slot %1$d set to %2$s",
+        "translation": "Naiset ang Naka-ayos Nang Slot na %1$d sa %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.description",
+        "source_string": "Sets or gets the paused state of the game for all players.",
+        "translation": "Isineset o kinukuha ang estado pag-pause ng laro sa lahat ng manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.success",
+        "source_string": "Set or got pause state",
+        "translation": "Naiset o nakuha ang estado pag-pause",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.error",
+        "source_string": "Invalid conditions for setting pause state",
+        "translation": "Imbalido ang kondisyon sa pagset ng estado pag-pause",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.description",
+        "source_string": "Sets the maximum number of players for this game session.",
+        "translation": "Isineset ang maximum na bilang ng manlalaro sa sesyong ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success",
+        "source_string": "Set max players to %1$d.",
+        "translation": "Naiset ang max manlalaro sa %1$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success.upperbound",
+        "source_string": "(Bound to maximum allowed connections)",
+        "translation": "(Naka-bound sa maximum puwedeng koneksiyon)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success.lowerbound",
+        "source_string": "(Bound to current player count)",
+        "translation": "(Naka-bound sa kasalukuyang bilang ng manlalaro)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.description",
+        "source_string": "Sets the world spawn.",
+        "translation": "Isineset ang spawn sa mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.success",
+        "source_string": "Set the world spawn point to (%1$d, %2$d, %3$d)",
+        "translation": "Naiset na sa (%1$d, %2$d, %3$d) ang spawn point sa mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.wrongDimension",
+        "source_string": "The world spawn can not be set in this dimension",
+        "translation": "Hindi maiseset ang spawn sa mundo sa dimensiyong ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.notAllowedInLegacyWorlds",
+        "source_string": "The world spawn can not be set in legacy worlds",
+        "translation": "Hindi maiseset ang spawn sa mundo sa mundo galing legacy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.success.single",
+        "source_string": "Set %1$s's spawn point to (%2$d, %3$d, %4$d)",
+        "translation": "Naiset sa (%2$d, %3$d, %4$d) ang spawn point ni %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.description",
+        "source_string": "Sets the spawn point for a player.",
+        "translation": "Nagseset ng spawn point ng isang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.success.multiple.specific",
+        "source_string": "Set spawn point for %1$s to (%2$d, %3$d, %4$d)",
+        "translation": "Naiset sa (%2$d, %3$d, %4$d) ang spawn point ni %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.success.multiple.generic",
+        "source_string": "Set spawn point for %1$s",
+        "translation": "Naiset ang spawn point ni %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.wrongDimension",
+        "source_string": "The spawn point cannot be set in this dimension",
+        "translation": "Hindi naiseset ang spawn point sa dimensiyong ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearrealmevents.description",
+        "source_string": "Clears all Realm Events stored in the world data.",
+        "translation": "Tinatanggal ang lahat ng Realm event na nakalagay sa data ng mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearrealmevents.start",
+        "source_string": "Clearing all Realm Events",
+        "translation": "Tinatanggal na ang lahat ng Realm event",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearspawnpoint.success.single",
+        "source_string": "Removed %1$s's spawn point",
+        "translation": "Tinanggal ang spawn point ni %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearspawnpoint.description",
+        "source_string": "Removes the spawn point for a player.",
+        "translation": "Tinatanggal ang spawn point ng isang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearspawnpoint.success.multiple",
+        "source_string": "Removed spawn points for %1$s",
+        "translation": "Naitanggal ang spawn points kay %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.description",
+        "source_string": "Teleports entities to random locations.",
+        "translation": "Nagte-teleport ng entidad sa random na lugar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.failure.players",
+        "source_string": "Could not spread %1$s players around %2$s,%3$s (too many players for space - try using spread of at most %4$s)",
+        "translation": "Hindi makapagkalat ng %1$s manlalaro sa %2$s,%3$s (masyadong maraming manlalaro sa lugar - subukang magkalat hanggang %4$s lamang)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.failure.players.unsafe",
+        "source_string": "Could not spread %1$s players around %2$s,%3$s (no safe locations found after %4$s attempts)",
+        "translation": "Hindi makapagkalat ng %1$s manlalaro sa %2$s,%3$s (walang ligtas na lugar na nahanap nang %4$s subok)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.failure.teams",
+        "source_string": "Could not spread %1$s teams around %2$s,%3$s (too many players for space - try using spread of at most %4$s)",
+        "translation": "Hindi makapagkalat ng %1$s team sa %2$s,%3$s (masyadong maraming manlalaro sa lugar - subukang magkalat hanggang %4$s lamang)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.info.players",
+        "source_string": "(Average distance between players is %1$s blocks apart after %2$s iterations)",
+        "translation": "(Ang average na layo ng manlalaro ay %1$s bloke kalayo pagkatapos ng %2$s iterasyon)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.info.teams",
+        "source_string": "(Average distance between teams is %1$s blocks apart after %2$s iterations)",
+        "translation": "(Ang average na layo ng team ay %1$s bloke kalayo pagkatapos ng %2$s iterasyon)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.spreading.players",
+        "source_string": "Spreading %1$s players %2$s blocks around %3$s,%4$s (min %5$s blocks apart)",
+        "translation": "Nagkakalat ng %1$s manlalaro nang %2$s bloke sa %3$s,%4$s (min %5$s bloke kalayo)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.spreading.teams",
+        "source_string": "Spreading %1$s teams %2$s blocks around %3$s,%4$s (min %5$s blocks apart)",
+        "translation": "Nagkakalat ng %1$s team nang %2$s bloke sa %3$s,%4$s (min %5$s bloke kalayo)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.success.players",
+        "source_string": "Successfully spread %1$s players around %2$s,%3$s",
+        "translation": "Matagumpay na naikalat ang %1$s manlalaro sa %2$s,%3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.success.teams",
+        "source_string": "Successfully spread %1$s teams around %2$s,%3$s",
+        "translation": "Matagumpay na naikalat ang %1$s team sa %2$s,%3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.cleared",
+        "source_string": "Cleared %1$s stats",
+        "translation": "Nakapagtanggal ng %1$s stat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.failed",
+        "source_string": "Invalid parameters",
+        "translation": "Imbalido ang parameter",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.noCompatibleBlock",
+        "source_string": "Block at %1$d, %2$d, %3$d can not track stats",
+        "translation": "Hindi nakakakuha ng stat ang bloke sa %1$d, %2$d, %3$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.success",
+        "source_string": "Storing %1$s stats in %2$s on %3$s",
+        "translation": "Inilalagay ang %1$s stat sa %2$s sa %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stop.description",
+        "source_string": "Stops the server.",
+        "translation": "Itinitigil ang server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stop.start",
+        "source_string": "Stopping the server",
+        "translation": "Itinitigil na ang server",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stopsound.description",
+        "source_string": "Stops a sound.",
+        "translation": "Tumitigil ng tunog.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stopsound.success",
+        "source_string": "Stopped sound %s for %s",
+        "translation": "Tinigil ang tunog na %s kay %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stopsound.success.all",
+        "source_string": "Stopped all sounds for %s",
+        "translation": "Tinigil ang lahat ng tunog kay %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.description",
+        "source_string": "Saves or loads a structure in the world.",
+        "translation": "Nagse-save o naglo-load ng estruktura sa mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.empty.load",
+        "source_string": "Can't load a structure with no entities and no blocks",
+        "translation": "Hindi maaaring mag-load ng estrukturang na walang entidad o walang bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.empty.save",
+        "source_string": "Can't save a structure with no entities and no blocks",
+        "translation": "Hindi maaaring i-save ang estruktura na walang entidad at walang bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.invalid.animationTime",
+        "source_string": "Animation time must be 0 or higher",
+        "translation": "Dapat 0 o mas mataas ang animation time",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.invalid.integrity",
+        "source_string": "Integrity must be in the range of 0 to 100",
+        "translation": "Dapat nasa 0 hanggang 100 ang integridad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.invalid.name",
+        "source_string": "Name should be in the format of \"name\" or \"namespace:name\". If not namespace is provided, the default one will be assigned.",
+        "translation": "Dapat naka-format na \"pangalan\" o \"namespace:pangalan\" ang pangalan. Kung walang binigay na namespace, ang default ang gagamitin.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.load.success",
+        "source_string": "Loaded a structure of name %s",
+        "translation": "Nai-load ang estrukturang may pangalang %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.load.queued",
+        "source_string": "A placement request has been queued and it will be executed when the specified area is fully loaded.",
+        "translation": "Naka-queue na ngayon ang placement request at isasagawa kung lubos na na-load ang tiniyak na lugar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.notFound",
+        "source_string": "The structure %s can't be found. Make sure the name was spelled correctly and try again.",
+        "translation": "Hindi mahanap ang estrukturang %s. Siguraduhing tama ang baybay ng pangalan at subukan muli.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.save.success",
+        "source_string": "Saved a structure with name %s",
+        "translation": "Nai-save ang estrukturang may pangalang %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.size.tooBig",
+        "source_string": "A structure's size cannot be larger than (%1$d, %2$d, %3$d), it was (%4$d, %5$d, %6$d)",
+        "translation": "Hindi dapat lalaki sa (%1$d, %2$d, %3$d) ang laki ng estruktura, (%4$d, %5$d, %6$d) ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.size.tooSmall",
+        "source_string": "A structure's size cannot be smaller than (%1$d, %2$d, %3$d), it was (%4$d, %5$d, %6$d)",
+        "translation": "Hindi dapat liliit sa (%1$d, %2$d, %3$d) ang laki ng estruktura, (%4$d, %5$d, %6$d) ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.unknown.action",
+        "source_string": "Unknown structure action provided",
+        "translation": "Di-alam ang estrukturang binanggit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.unloadedChunks",
+        "source_string": "The feature to load a structure in an unloaded area hasn't been implemented yet",
+        "translation": "Hindi pa naimplementa ang feature na maglo-load ng estruktura sa unloaded na lugar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.y.tooHigh",
+        "source_string": "Cannot place blocks outside of the world. Try a value of %d or lower for the Y component of <to: x y z>.",
+        "translation": "Hindi makapaglalagay ng bloke sa labas ng mundo. Subukin ang value na %d o mas mababa para sa Y component ng <to: x y z>.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.y.tooLow",
+        "source_string": "Cannot place blocks outside of the world. Try a value greater than %d for the Y component of <to: x y z>.",
+        "translation": "Hindi makapaglalagay ng bloke sa labas ng mundo. Sumubok ng value na mas mataas sa %d para sa Y component ng <to: x y z>.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.delete.success",
+        "source_string": "Structure %s deleted.",
+        "translation": "Naitanggal na ang %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.description",
+        "source_string": "Summons an entity.",
+        "translation": "Nagsu-summon ng entidad.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.failed",
+        "source_string": "Unable to summon object",
+        "translation": "Hindi maisummon ang object",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.failed.npc",
+        "source_string": "You need Creative + Operator to summon an NPC",
+        "translation": "Kailangan mo ng Creative + Operator para mag-summon ng NPC",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.outOfWorld",
+        "source_string": "Cannot summon the object out of the world",
+        "translation": "Hindi ma-summon ang object sa labas ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.success",
+        "source_string": "Object successfully summoned",
+        "translation": "Matagumpay na nai-summon ang object",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Nabigong i-parse ang data tag: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.description",
+        "source_string": "Manages tags stored in entities.",
+        "translation": "Namamahala ng tag na hawak ng entidad.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.add.failed",
+        "source_string": "Target either already has the tag or has too many tags",
+        "translation": "May ganoon nang tag ang target o masyado nang maraming tag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.add.success.single",
+        "source_string": "Added tag '%1$s' to %2$s",
+        "translation": "Nailagay na ang tag na '%1$s' sa/kay %2$s",
+        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.add.success.multiple",
+        "source_string": "Added tag '%1$s' to %2$d entities",
+        "translation": "Nailagay na ang tag na '%1$s' sa %2$d entidad",
+        "context": "1: Tag string   ##2: Number of entities (numerals)",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.single.empty",
+        "source_string": "%s has no tags",
+        "translation": "Walang tag ang/si %s",
+        "context": "1: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.single.success",
+        "source_string": "%1$s has %2$d tags: %3$s",
+        "translation": "May %2$d tag ang %1$s: %3$s",
+        "context": "1: Entity/Player/Item name   ##2: Number of tags   ##3: Comma separated list of tags",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.multiple.empty",
+        "source_string": "There are no tags on the %d entities",
+        "translation": "Walang tag doon sa %d entidad",
+        "context": "1: Number of entities matching the selector",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.multiple.success",
+        "source_string": "The %1$d entities have %2$d total tags: %3$s",
+        "translation": "May %2$d total na tag doon sa %1$d entidad: %3$s",
+        "context": "1: Number of entities matching the selector   ##2: Number of tags   ##3: Comma separated list of tags",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.remove.failed",
+        "source_string": "Target does not have this tag",
+        "translation": "Wala nitong tag ang target",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.remove.success.single",
+        "source_string": "Removed tag '%1$s' from %2$s",
+        "translation": "Naitanggal na ang tag na '%1$s' sa/kay %2$s",
+        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.remove.success.multiple",
+        "source_string": "Removed tag '%1$s' from %2$d entities",
+        "translation": "Naitanggal na ang tag na '%1$s' sa %2$d entidad",
+        "context": "1: Tag string   ##2: Number of selector matches",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tell.description",
+        "source_string": "Sends a private message to one or more players.",
+        "translation": "Nagpapadala ng pribadong mensahe sa isa o mas marami pang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.description",
+        "source_string": "Sends a JSON message to players.",
+        "translation": "Nagpapadala ng mensahe sa JSON sa manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.jsonStringException",
+        "source_string": "Invalid json string data.",
+        "translation": "Imbalido ang string data ng json.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.noData",
+        "source_string": "No data was provided.",
+        "translation": "Walang binigay na data.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.notArray",
+        "source_string": "Rawtext object must contain an array. Example: \"rawtext\":[{..}]",
+        "translation": "Dapat may array ang rawtext object. Halimbawa: \"rawtext\":[{..}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.textNotString",
+        "source_string": "text field in rawtext must contain a string. Example: \"rawtext\":[{\"text\": \"text to display\"}]",
+        "translation": "Kailangang may string ang text field sa rawtext. Halimbawa: \"rawtext\":[{\"text\": \"text na idi-display\"}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.translateNotString",
+        "source_string": "translate field in rawtext must contain a language key. Example: \"rawtext\":[{\"translate\": \"gui.ok\"}]",
+        "translation": "Kailangan ng language key ng translate field sa rawtext. Halimbawa: \"rawtext\":[{\"translate\": \"gui.ok\"}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.selectorNotString",
+        "source_string": "selector field in rawtext must contain a selector as a string. Example: \"rawtext\":[{\"selector\": \"@e\"}]",
+        "translation": "Kailangan ng selector field sa rawtext ng selector bilang string. Halimbawa: \"rawtext\":[{\"selector\": \"@e\"}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.scoreNotObject",
+        "source_string": "score field in rawtext must contain an object. Example \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "translation": "Kailangan ng object ng score field sa rawtext. Halimbawa: \"rawtext\":[{\"score\": {\"name\": \"pangalan_ko\", \"objective\": \"layunin_ko\"}}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.scoreNameNotString",
+        "source_string": "name field in the score field must be a string. Example \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "translation": "Kailangan ng string ng name field sa score field. Halimbawa: \"rawtext\":[{\"score\": {\"name\": \"pangalan_ko\", \"objective\": \"layunin_ko\"}}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.scoreObjectiveNotString",
+        "source_string": "objective field in the score field must be a string. Example \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "translation": "Kailangan ng string ng objective field sa score field. Halimbawa: \"rawtext\":[{\"score\": {\"name\": \"pangalan_ko\", \"objective\": \"layunin_ko\"}}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.withNotArrayOrRawText",
+        "source_string": "with field in rawtext must contain a array or another rawtext object. Example 1: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\": [ \"value1\", \"value2\" ]}]  Example 2: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\":{\"rawtext\":[{\"text\": \"value1\"}, {\"text\": \"value2\"}]}}]",
+        "translation": "Kailangan ng with field sa rawtext ng array o isa pang rawtext object. Halimbawa 1: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\": [ \"value1\", \"value2\" ]}]  Halimbawa 2: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\":{\"rawtext\":[{\"text\": \"value1\"}, {\"text\": \"value2\"}]}}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.itemIsNotObject",
+        "source_string": "Json value in rawtext array was not an object. Example: \"rawtext\": [{ \"text\" : \"my text\" }]",
+        "translation": "Hindi object ang json value sa rawtext. Halimbawa: \"rawtext\": [{ \"text\" : \"text ko\" }]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.educlientinfo.description",
+        "source_string": "Get tenant ID and host status. Intended for CM.",
+        "translation": "Kumuha ng tenant ID at host status. Para sa CM.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.description",
+        "source_string": "Counts entities (players, mobs, items, etc.) matching specified conditions.",
+        "translation": "Nagbibilang ng entidad (manlalaro, mob, aytem, etc.) na bumabagay sa tiniyak na kondisyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.failure",
+        "source_string": "%1$s did not match the required data structure",
+        "translation": "Hindi bumagay sa kailangang data structure ang %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.success",
+        "source_string": "Found %1$s",
+        "translation": "Nakakita ng %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Nabigong i-parse ang data tag: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.description",
+        "source_string": "Tests whether a certain block is in a specific location.",
+        "translation": "Tinetest kung ang isang block ay nasa tiniyak na lokasyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.failed.data",
+        "source_string": "The block at %1$d,%2$d,%3$d did not match the expected block state.",
+        "translation": "Hindi bumabagay sa inaasahang estado bloke ang bloke sa %1$d,%2$d,%3$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.failed.nbt",
+        "source_string": "The block at %1$d,%2$d,%3$d did not have the required NBT keys.",
+        "translation": "Wala ang bloke sa %1$d,%2$d,%3$d ng kinakailangan NBT key.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.testforblock.failed.tile",
         "source_string": "The block at %1$d,%2$d,%3$d is %4$s (expected: %5$s).",
         "translation": "Ang bloke sa %1$d,%2$d,%3$d ay %4$s (inaasahan: %5$s).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.failed.tileEntity",
+        "source_string": "The block at %1$d,%2$d,%3$d is not a tile entity and cannot support tag matching.",
+        "translation": "Hindi blokeng entidad ang bloke sa %1$d,%2$d,%3$d at hindi nito suporta ang pagbabagay ng tag.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.outOfWorld",
+        "source_string": "Cannot test for block outside of the world",
+        "translation": "Hindi nakapagtetest ng bloke sa labas ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.success",
+        "source_string": "Successfully found the block at %1$d,%2$d,%3$d.",
+        "translation": "Matagumpay na nahanap ang bloke sa %1$d,%2$d,%3$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblocks.description",
+        "source_string": "Tests whether the blocks in two regions match.",
+        "translation": "Tinetest kung ang nagkakaparehas ang bloke sa dalawang lugar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.description",
+        "source_string": "Add, remove, or list ticking areas.",
+        "translation": "Naglalagay, nagtatanggal, o naglilista ng ticking area.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.inuse",
+        "source_string": "%1$d/%2$d ticking areas in use.",
+        "translation": "Ginagamit ang %1$d/%2$d ticking area.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.entitycount",
+        "source_string": "There are %1$d ticking area(s) from entities with the tick_world component.",
+        "translation": "May %1$d ticking area sa entidad na may component tick_world.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.noneExist.currentDimension",
+        "source_string": "No ticking areas exist in the current dimension.",
+        "translation": "Walang ticking area sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-bounds.success",
+        "source_string": "Added ticking area from %1$d to %2$d.",
+        "translation": "Nailagay na ang ticking area galing %1$d sa %2$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-bounds.preload.success",
+        "source_string": "Added ticking area from %1$d to %2$d marked for preload.",
+        "translation": "Nailagay ang ticking area galing %1$d sa %2$d na minarkahang preload.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-circle.success",
+        "source_string": "Added ticking area centered at %1$d with a radius of %2$d chunks.",
+        "translation": "Nailagay ang ticking area nakagitna sa %1$d na may radius na %2$d chunk.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-circle.preload.success",
+        "source_string": "Added ticking area centered at %1$d with a radius of %2$d chunks marked for preload.",
+        "translation": "Nailagay ang ticking area nakagitna sa %1$d na may radius na %2$d chunk na minarkahang preload.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.failure",
+        "source_string": "Max number of ticking areas (%1$d) has already been reached. Cannot add more ticking areas.",
+        "translation": "Naabot na ang max bilang ng ticking area (%1$d). Hindi na makakapaglagay pa ng ticking area.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.conflictingname",
+        "source_string": "A ticking area with the name %1$s already exists.",
+        "translation": "Mayroon nang ticking area na may pangalang %1$s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.chunkfailure",
+        "source_string": "Ticking area contains more than %1$d chunks, ticking area is too large and cannot be created.",
+        "translation": "Marami sa %1$d chunk ang ticking area, masyadong malaki ang ticking area at hindi magagawa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.radiusfailure",
+        "source_string": "Radius cannot be larger than %1$d, ticking area is too large and cannot be created.",
+        "translation": "Hindi dapat lalaki sa %1$d ang radius, masyadong malaki ang ticking area at hindi magagawa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove.success",
+        "source_string": "Removed ticking area(s)",
+        "translation": "Natanggal na ang (mga) ticking area",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove.failure",
+        "source_string": "No ticking areas containing the block position %1$d exist in the current dimension.",
+        "translation": "Walang ticking area na may posisyong %1$d sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove.byname.failure",
+        "source_string": "No ticking areas named %1$s exist in the current dimension.",
+        "translation": "Walang ticking area na may pangalang %1$s sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove_all.success",
+        "source_string": "Removed ticking area(s)",
+        "translation": "Naitanggal na ang (mga) ticking area",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove_all.failure",
+        "source_string": "No ticking areas exist in the current dimension.",
+        "translation": "Walang ticking area sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.success",
+        "source_string": "Updated ticking area(s)",
+        "translation": "Nai-update na ang (mga) ticking area",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.byposition.failure",
+        "source_string": "No ticking areas containing the block position %1$d exist in the current dimension.",
+        "translation": "Walang ticking area na may posisyong %1$d sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.byname.failure",
+        "source_string": "No ticking areas named %1$s exist in the current dimension.",
+        "translation": "Walang ticking area na may pangalang %1$s sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.count",
+        "source_string": "%1$d matching area(s) are marked for preload.",
+        "translation": "Nakapagmarka ng preload na %1$d bumabagay na lugar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.chunks",
+        "source_string": "chunks",
+        "translation": "chunk",
+        "context": "Meaning a chunk of the world.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.circle.radius",
+        "source_string": "Radius",
+        "translation": "Radius",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.preload",
+        "source_string": "Preload",
+        "translation": "Preload",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.success.currentDimension",
+        "source_string": "List of all ticking areas in current dimension",
+        "translation": "Listahan ng lahat ng ticking area sa kasalukuyang dimensiyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.success.allDimensions",
+        "source_string": "List of all ticking areas in all dimensions",
+        "translation": "Listahan ng lahat ng ticking area sa lahat ng dimensiyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.failure.allDimensions",
+        "source_string": "No ticking areas exist in any dimension.",
+        "translation": "Walang ticking area saanmang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.to",
+        "source_string": "to",
+        "translation": "sa",
+        "context": "Used in the context of \"from position to other position\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.type.circle",
+        "source_string": "Circle",
+        "translation": "Bilog",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.added",
+        "source_string": "Added %1$d to the time",
+        "translation": "Nagdagdag ng %1$d sa oras",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.description",
+        "source_string": "Changes or queries the world's game time.",
+        "translation": "Binabago o dinudulog ang game time ng mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.disabled",
+        "source_string": "Always Day is enabled in this world.",
+        "translation": "Nakabukas sa mundong ito ang Palaging Maaraw.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.query.day",
+        "source_string": "Day is %d",
+        "translation": "Ang araw ay %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.query.daytime",
+        "source_string": "Daytime is %d",
+        "translation": "Ang umaga ay %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.query.gametime",
+        "source_string": "Gametime is %d",
+        "translation": "Ang gametime ay %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.set",
+        "source_string": "Set the time to %1$d",
+        "translation": "Naiset na ang oras sa %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.stop",
+        "source_string": "Time %1$s",
+        "translation": "Oras: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.title.description",
+        "source_string": "Controls screen titles.",
+        "translation": "Kumokontrol ng screen title.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.title.success",
+        "source_string": "Title command successfully executed",
+        "translation": "Matagumpay na naisagawa ang title command",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.titleraw.description",
+        "source_string": "Controls screen titles with JSON messages.",
+        "translation": "Kumokontrol ng screen title gamit ang JSON message.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.titleraw.success",
+        "source_string": "Titleraw command successfully executed",
+        "translation": "Matagumpay na naisagawa ang titleraw command",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.toggledownfall.description",
+        "source_string": "Toggles the weather.",
+        "translation": "Pinapalit ang panahon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.description",
+        "source_string": "Teleports entities (players, mobs, etc.).",
+        "translation": "Nagte-teleport ng entidad (manlalaro, mob, etc.).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.notSameDimension",
+        "source_string": "Unable to teleport because players are not in the same dimension",
+        "translation": "Hindi makapag-teleport dahil wala sa parehas na direksiyon ang mga manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.outOfWorld",
+        "source_string": "Cannot teleport entities outside of the world",
+        "translation": "Hindi nakapagte-teleport ng entidad sa labas ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.permission",
+        "source_string": "You do not have permission to use this slash command.",
+        "translation": "Wala kang karapatang gamitin itong slash command.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.safeTeleportFail",
+        "source_string": "Unable to teleport %1$s to %2$s because the area wasn't clear of blocks.",
+        "translation": "Hindi mai-teleport si %1$s sa %2$s kasi may mga bloke ang lugar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.far",
+        "source_string": "Unable to teleport %1$s to the unloaded area at %2$s",
+        "translation": "Hindi mai-teleport si %1$s sa unloaded na lugar sa %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.success",
+        "source_string": "Teleported %1$s to %2$s",
+        "translation": "Nai-teleport si %1$s sa %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.successVictim",
+        "source_string": "You have been teleported to %1$s",
+        "translation": "Itineleport ka sa %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.success.coordinates",
+        "source_string": "Teleported %1$s to %2$s, %3$s, %4$s",
+        "translation": "Nai-teleport si %1$s sa %2$s, %3$s, %4$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.transferserver.description",
+        "source_string": "Transfers a player to another server.",
+        "translation": "Inililipat ang isang manlalaro sa ibang server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.transferserver.successful",
+        "source_string": "Transferred player",
+        "translation": "Nailipat ang manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.transferserver.invalid.port",
+        "source_string": "Invalid port (0-65535)",
+        "translation": "Imbalidong port (0-65535)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.description",
+        "source_string": "Sets a trigger to be activated.",
+        "translation": "Nagseset ng trigger na maa-activate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.disabled",
+        "source_string": "Trigger %1$s is not enabled",
+        "translation": "Hindi nakabukas ang trigger na %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.invalidMode",
+        "source_string": "Invalid trigger mode %1$s",
+        "translation": "Imbalido ang trigger mode na %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.invalidObjective",
+        "source_string": "Invalid trigger name %1$s",
+        "translation": "Imbalido ang pangalan sa trigger na %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.invalidPlayer",
+        "source_string": "Only players can use the /trigger command",
+        "translation": "Manlalaro lamang ang makakagamit ng /trigger command",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.success",
+        "source_string": "Trigger %1$s changed with %2$s %3$s",
+        "translation": "Napalitan ng %2$s %3$s ang trigger na %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unban.failed",
+        "source_string": "Could not unban player %1$s",
+        "translation": "Hindi ma-unban ang manlalarong si %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unban.success",
+        "source_string": "Unbanned player %1$s",
+        "translation": "Na-unban na si %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unbanip.invalid",
+        "source_string": "You have entered an invalid IP address",
+        "translation": "Imbalido ang nilagay mong IP address",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unbanip.success",
+        "source_string": "Unbanned IP address %1$s",
+        "translation": "Na-unban na ang IP address %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.validategamelighting.description",
+        "source_string": "Validate game lighting for a specified region",
+        "translation": "Ibalida ang game lighting ng tiniyak na lugar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.validategamelighting.checkRegionTooBig",
+        "source_string": "Region to check for lighting is too big! (%1$d > %2$d)",
+        "translation": "Masyadong malaki ang lugar na babalidahan ng lighting! (%1$d > %2$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.validategamelighting.outOfWorld",
+        "source_string": "Cannot check lighting outside of the world",
+        "translation": "Hindi nakapagbabalida ng lighting sa labs ng mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.description",
+        "source_string": "Add, remove, or list volumes in the current dimension.",
+        "translation": "Naglalagay, nagtatanggal, o inililista ang mga volume sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.definitionDoesntExist.failure",
+        "source_string": "No volume definition matching identifier \"%1$s\".",
+        "translation": "Walang volume definition na bumabagay sa identifier na \"%1$s\".",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.exceededLimit.failure",
+        "source_string": "Max number of volumes %1$d has already been reached. Cannot add more volumes.",
+        "translation": "Naabot na ang max bilang ng volume (%1$d). Hindi na makakapaglagay pa ng volume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.failure",
+        "source_string": "Failed to create volume.",
+        "translation": "Nabigong gumawa ng volume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.success",
+        "source_string": "Added volume \"%1$s\" from %2$d to %3$d.",
+        "translation": "Nailagay ang volume na \"%1$s\" galing %2$d sa %3$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove.byName.failure",
+        "source_string": "No volumes named %1$s exist in the current dimension.",
+        "translation": "Walang volume na may pangalang %1$s sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove.byPosition.failure",
+        "source_string": "No volumes containing the block position %1$d exist in the current dimension.",
+        "translation": "Walang volume na may posisyong %1$d sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove.success",
+        "source_string": "Removed volume(s) in current dimension",
+        "translation": "Naitanggal ang (mga) volume sa kasalukuyang dimensiyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove_all.success",
+        "source_string": "Removed volume(s) in current dimension",
+        "translation": "Naitanggal ang (mga) volume sa kasalukuyang dimensiyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.list.success.currentDimension",
+        "source_string": "List of all volumes in current dimension",
+        "translation": "Listahan ng lahat ng volume sa kasalukuyang dimensiyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.list.success.allDimensions",
+        "source_string": "List of all volumes in all dimensions",
+        "translation": "Listahan ng lahat ng volume sa lahat ng dimensiyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.list.failure.allDimensions",
+        "source_string": "No volumes exist in any dimension.",
+        "translation": "Walang volume saanmang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.entry.withIdentifier",
+        "source_string": "- %s: %s from %d %d %d to %d %d %d",
+        "translation": "- %s: %s galing %d %d %d sa %d %d %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.entry.withoutIdentifier",
+        "source_string": "- %s: from %d %d %d to %d %d %d",
+        "translation": "- %s: galing %d %d %d sa %d %d %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.noneExist.currentDimension",
+        "source_string": "No volumes exist in the current dimension.",
+        "translation": "Walang volume sa kasalukuyang dimensiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.inUse",
+        "source_string": "%1$d/%2$d volumes in use.",
+        "translation": "Ginagamit ang %1$d/%2$d volume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.clear",
+        "source_string": "Changing to clear weather",
+        "translation": "Pinapalit sa maaliwalas na panahon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.description",
+        "source_string": "Sets the weather.",
+        "translation": "Isineset ang panahon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.disabled",
+        "source_string": "Weather Cycle isn't enabled in this world.",
+        "translation": "Hindi nakabukas ang saykel ng panahon sa mundong ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query",
+        "source_string": "Weather state is: %s",
+        "translation": "Ang estado ng panahon ay: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.clear",
+        "source_string": "clear",
+        "translation": "maaliwalas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.rain",
+        "source_string": "rain",
+        "translation": "umuulan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.thunder",
+        "source_string": "thunder",
+        "translation": "kumikidlat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.rain",
+        "source_string": "Changing to rainy weather",
+        "translation": "Pinapalit sa maulan na panahon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.thunder",
+        "source_string": "Changing to rain and thunder",
+        "translation": "Pinapalit sa ulan at kidlat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.add.failed",
+        "source_string": "Could not add %1$s to the allowlist",
+        "translation": "Hindi mailagay si %1$s sa allowlist",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.add.success",
+        "source_string": "Added %1$s to the allowlist",
+        "translation": "Nailagay si %1$s sa allowlist",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.description",
+        "source_string": "Manages the server allowlist.",
+        "translation": "Namamahala sa allowlist sa server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.disabled",
+        "source_string": "Turned off the allowlist",
+        "translation": "Ipinatay ang allowlist",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.enabled",
+        "source_string": "Turned on the allowlist",
+        "translation": "Ibinukas ang allowlist",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.list",
+        "source_string": "There are %1$d (out of %2$d seen) allowlisted players:",
+        "translation": "May %1$d (sa nakita nang %2$d) na-allowlist na manlalaro:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.reloaded",
+        "source_string": "Allowlist reloaded from file.",
+        "translation": "Nai-reload ang allowlist galing sa file.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.remove.failed",
+        "source_string": "Could not remove %1$s from the allowlist",
+        "translation": "Hindi maitanggal si %1$s sa allowlist",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.remove.success",
+        "source_string": "Removed %1$s from the allowlist",
+        "translation": "Naitanggal na si %1$s sa allowlist",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.description",
+        "source_string": "Issues a camera instruction",
+        "translation": "Nagbibigay ng isang camera instruction",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.success",
+        "source_string": "Sent a camera instruction to the following players: %s",
+        "translation": "Nagpadala na ng camera instruction sa sumusunod na manglalaro: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.unknown.preset",
+        "source_string": "Unknown camera preset name",
+        "translation": "Di-alam ang pangalan ng camera preset",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid",
+        "source_string": "Invalid camera command mode",
+        "translation": "Imbalido ang command mode ng camera",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.color",
+        "source_string": "Fade color values must be integers from 0 to 255",
+        "translation": "Dapat integer na nasa 0 hanggang 255 ang color value ng fade",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.easing",
+        "source_string": "Easing to non-stationary cameras is not supported",
+        "translation": "Hindi suportado ang pag-ease sa gumagalaw na camera",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.time",
+        "source_string": "Fade durations must be between 0 and 10 seconds",
+        "translation": "Dapat nasa 0 hanggang 10 ang tagal ng fade",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.pitch",
+        "source_string": "Camera pitch (X rotation) must be between -90 and 90 degrees",
+        "translation": "Dapat nasa -90 hanggang 90 degrees ang camera pitch (X rotation)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.view.offset",
+        "source_string": "View offset must be between -64 and 64",
+        "translation": "Dapat nasa -64 hanggang 64 ang view offset",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.entity.offset",
+        "source_string": "Entity offset must be between -64 and 64",
+        "translation": "Dapat nasa -64 hanggang 64 ang offset ng entidad",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26858,7 +30586,7 @@
     {
         "identifier": "tile.ancient_debris.name",
         "source_string": "Ancient Debris",
-        "translation": "Sinaunang Tipak",
+        "translation": "Sinaunang Chunk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
