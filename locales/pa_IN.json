@@ -224,6 +224,30 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.bakeCake.desc",
+        "source_string": "Wheat, sugar, milk and eggs!",
+        "translation": "ਕਣਕ, ਖੰਡ, ਦੁੱਧ 'ਤੇ ਆਂਡੇ!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.bookcase",
+        "source_string": "Librarian",
+        "translation": "ਕਿਤਾਬਦਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildHoe",
+        "source_string": "Time to Farm!",
+        "translation": "ਵੇਲ਼ਾ ਕਿਰਸਾਨੀ ਦਾ!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.diamonds",
         "source_string": "DIAMONDS!",
         "translation": "ਹੀਰੇ!",
@@ -259,6 +283,22 @@
         "identifier": "achievement.flyPig",
         "source_string": "When Pigs Fly",
         "translation": "ਜੱਦ ਉੱਡਣ ਪੁੱਤ ਸੂਰਾਂ ਦੇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.ghast.desc",
+        "source_string": "Destroy a Ghast with a fireball",
+        "translation": "ਇੱਕ ਗਾਸਟ ਨੂੰ ਅੱਗ ਦੇ ਗੋਲ਼ੇ ਨਾਲ਼ ਮਾਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.killWither.desc",
+        "source_string": "Kill the Wither",
+        "translation": "ਵਿਦਰ ਨੂੰ ਮਾਰੋ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -810,7 +850,7 @@
     {
         "identifier": "container.enderchest",
         "source_string": "Ender Chest",
-        "translation": "ਅਖੀਰੀ ਸੰਦੂਕੜੀ",
+        "translation": "ਏਂਡਰ ਸੰਦੂਕੜੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1008,6 +1048,14 @@
         "max_length": null
     },
     {
+        "identifier": "realmsCreateScreen.goBack",
+        "source_string": "Go Back",
+        "translation": "ਪਿਛਾਂਹ ਜਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsCreateScreen.twoUsers",
         "source_string": "2 Players",
         "translation": "2 ਖਿਡਾਰੀ",
@@ -1027,6 +1075,14 @@
         "identifier": "realmsCreateScreen.playSolo",
         "source_string": "Play Solo",
         "translation": "ਇੱਕਲਿਆਂ ਖੇਡੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsWorld.owner",
+        "source_string": "owner",
+        "translation": "ਮਾਲਿਕ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1140,6 +1196,62 @@
         "source_string": "In 7 days. %s",
         "translation": "7 ਦਿਨਾਂ ਵਿੱਚ। %s",
         "context": "%s is a localized time and date, ex: \"In 7 days. December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.switchStoreDisplayName",
+        "source_string": "Nintendo eShop",
+        "translation": "ਨਿਨਟੇਂਡੋ ਇ-ਸ਼ਾਪ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.iosStoreDisplayName",
+        "source_string": "App Store",
+        "translation": "ਐਪ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.googlePlayStoreDisplayName",
+        "source_string": "Google Play store",
+        "translation": "ਗੂਗਲ ਪਲੇ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.windowsStoreDisplayName",
+        "source_string": "Windows Store",
+        "translation": "ਵਿੰਡੋਜ਼ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.xboxOneStoreDisplayName",
+        "source_string": "Xbox Store",
+        "translation": "ਐਕਸਬੋਕਸ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.amazonStoreDisplayName",
+        "source_string": "Amazon Appstore",
+        "translation": "ਐਮਾਜ਼ਾਨ ਐਪਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.oculusStoreDisplayName",
+        "source_string": "Oculus Store",
+        "translation": "ਉਕੁਲਸ ਸਟੋਰ",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -2354,7 +2466,7 @@
     {
         "identifier": "entity.villager.butcher",
         "source_string": "Butcher",
-        "translation": "ਬੁੱਚੜ",
+        "translation": "ਕਸਾਈ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2498,7 +2610,7 @@
     {
         "identifier": "entity.wither.name",
         "source_string": "Wither",
-        "translation": "ਤ੍ਰੀਮੂਹਾ",
+        "translation": "ਵਿਦਰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2506,7 +2618,7 @@
     {
         "identifier": "entity.wither_skeleton.name",
         "source_string": "Wither Skeleton",
-        "translation": "ਸਿਆਹ ਪਿੰਜਰ",
+        "translation": "ਵਿਦਰ ਪਿੰਜਰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2514,7 +2626,7 @@
     {
         "identifier": "entity.wither_skull.name",
         "source_string": "Wither Skull",
-        "translation": "ਸਿਆਹ ਖੋਪੜੀ",
+        "translation": "ਵਿਦਰ ਖੋਪੜੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2522,7 +2634,7 @@
     {
         "identifier": "entity.wither_skull_dangerous.name",
         "source_string": "Wither Skull",
-        "translation": "ਸਿਆਹ ਖੋਪੜੀ",
+        "translation": "ਵਿਦਰ ਖੋਪੜੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2546,7 +2658,7 @@
     {
         "identifier": "entity.zoglin.name",
         "source_string": "Zoglin",
-        "translation": "ਜ਼ੋਰਾਹੀ",
+        "translation": "ਜ਼ਾਗਲਿਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2570,7 +2682,7 @@
     {
         "identifier": "entity.zombie_pigman.name",
         "source_string": "Zombified Piglin",
-        "translation": "ਜ਼ੋਮਬੀ ਸੂਰਾਰ",
+        "translation": "ਜ਼ੋਮਬੀ ਪਿਗਲਿਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2634,7 +2746,15 @@
     {
         "identifier": "feature.end_city",
         "source_string": "End City",
-        "translation": "ਅਖੀਰ ਸ਼ਹਿਰ",
+        "translation": "ਏਂਡ ਸ਼ਹਿਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.fortress",
+        "source_string": "Nether Fortress",
+        "translation": "ਨੇਦਰ ਕ਼ਿਲਾ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2755,6 +2875,14 @@
         "identifier": "gameTip.openChat.touch.tts",
         "source_string": "Tap the chat button to open chat",
         "translation": "ਚੈਟ ਖੋਲਣ ਲਈ ਚੈਟ ਬਟਨ ਨੱਪੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "generator.nether",
+        "source_string": "Nether",
+        "translation": "ਨੇਦਰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2912,6 +3040,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.category.realms",
+        "source_string": "Realms",
+        "translation": "ਰੇਲਮ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.armor",
         "source_string": "Armor",
         "translation": "ਸੰਜੋਅ",
@@ -2923,6 +3059,14 @@
         "identifier": "howtoplay.armor.header.2",
         "source_string": "Shield",
         "translation": "ਢਾਲ਼",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bookAndQuill",
+        "source_string": "Book and Quill",
+        "translation": "ਕਿਤਾਬ ਅਤੇ ਕ਼ਲਮ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2954,7 +3098,7 @@
     {
         "identifier": "howtoplay.endCities",
         "source_string": "End Cities",
-        "translation": "ਅਖੀਰ ਸ਼ਹਿਰ",
+        "translation": "ਏਂਡ ਸ਼ਹਿਰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2962,7 +3106,15 @@
     {
         "identifier": "howtoplay.enderChest",
         "source_string": "Ender Chest",
-        "translation": "ਅਖੀਰੀ ਸੰਦੂਕੜੀ",
+        "translation": "ਏਂਡਰ ਸੰਦੂਕੜੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enderChest.text.1",
+        "source_string": "All Ender Chests in a world are linked. Items placed into an Ender Chest are accessible in any other Ender Chest. However, the contents of the Ender Chests are specific for each player. This allows players to store items in any Ender Chest, and retrieve them from other Ender Chests in different positions in the world.",
+        "translation": "ਇਸ ਜੱਗ ਵਿੱਚ ਸਾਰੀਆਂ ਏਂਡਰ ਸੰਦੂਕੜੀਆਂ ਆਪਸ ਵਿੱਚ ਜੁੜੀਆਂ ਹੋਈਆਂ ਹਨ। ਇੱਕ ਏਂਡਰ ਸੰਦੂਕੜੀ ਵਿੱਚ ਪਾਇਆ ਹੋਇਆ ਸਮਾਨ ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਏਂਡਰ ਸੰਦੂਕੜੀ 'ਚੋਂ ਕੱਢ ਸਕਦੇ ਹੋ। ਖਿਡਾਰੀ ਵੱਲੋਂ ਏਂਡਰ ਸੰਦੂਕੜੀ ਵਿੱਚ ਪਾਇਆ ਹੋਇਆ ਸਮਾਨ ਬੱਸ ਉਹ ਖਿਡਾਰੀ ਹੀ ਵੇਖ ਸਕਦਾ ਹੈ। ਜਿਹਦੇ ਕਰਕੇ ਖਿਡਾਰੀ ਕਿਸੇ ਵੀ ਏਂਡਰ ਸੰਦੂਕੜੀ ਵਿੱਚ ਆਪਣਾ ਸਮਾਨ ਪਾ ਸਕਦਾ ਹੈ ਅਤੇ ਜੱਗ ਵਿੱਚ ਕਿਤੇ ਵੀ ਹੋਰਨਾਂ ਏਂਡਰ ਸੰਦੂਕੜੀਆਂ ਵਿੱਚੋਂ ਕੱਢ ਵੀ ਸਕਦਾ ਹੈ।",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2970,7 +3122,7 @@
     {
         "identifier": "howtoplay.eyeOfEnder",
         "source_string": "Eye of Ender",
-        "translation": "ਅਖੀਰੀ ਦੀ ਅੱਖ",
+        "translation": "ਏਂਡਰ ਦੀ ਅੱਖ",
         "context": "How To Play help text header. {MaxLength=\"80\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -3000,6 +3152,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.jukebox.header.2",
+        "source_string": "Redstone",
+        "translation": "ਰੈੱਡਸਟੋਨ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.loom",
         "source_string": "Loom",
         "translation": "ਅੱਡਾ",
@@ -3010,7 +3170,7 @@
     {
         "identifier": "howtoplay.mounts.text.4",
         "source_string": "When Hearts appear around the horse, it has been tamed and will no longer attempt to throw the player off.",
-        "translation": "ਜਦੋਂ ਘੋੜਾ ਗਿੱਝ ਜਾਵੇ ਤਾਂ ਉਹਦੇ ਲਾਗੇ ਦਿਲ ਦਿਸਨ ਲੱਗ ਪੈਂਦੇ ਹਨ ਅਤੇ ਫਿਰ ਘੋੜਾ ਖਿਡਾਰੀ ਨੂੰ ਥੱਲੇ ਸੁੱਟਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰਦਾ।",
+        "translation": "ਜਦੋਂ ਘੋੜਾ ਗਿੱਝ ਜਾਵੇ ਤਾਂ ਉਹਦੇ ਆਲ਼ੇ ਦੁਆਲ਼ੇ ਦਿਲ ਦਿਸਣ ਲੱਗ ਪੈਂਦੇ ਹਨ ਅਤੇ ਫਿਰ ਘੋੜਾ ਖਿਡਾਰੀ ਨੂੰ ਥੱਲੇ ਸੁੱਟਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰਦਾ।",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3019,6 +3179,22 @@
         "identifier": "howtoplay.mounts.header.2",
         "source_string": "Riding Animals",
         "translation": "ਜਨਵਰਾਂ ਦੀ ਸਵਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.text.6b",
+        "source_string": "A camel can carry two players at the same time.",
+        "translation": "ਇੱਕ ਬੋਤਾ ਇੱਕੋ ਵਾਰ 'ਚ ਦੋ ਖਿਡਾਰੀਆਂ ਨੂੰ ਬਿਠਾਲ ਸਕਦਾ ਹੈ।",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.netherPortals",
+        "source_string": "Nether Portal",
+        "translation": "ਨੇਦਰ ਕਵਾੜ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
