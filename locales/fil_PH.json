@@ -26010,7 +26010,7 @@
     {
         "identifier": "howtoplay.category.gettingStarted",
         "source_string": "Getting started",
-        "translation": "Paninimula",
+        "translation": "Pagsisimula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26680,9 +26680,1313 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.beds.text.2.notTouch",
+        "source_string": "Press :_input_key.use: on a Bed to go to sleep. This can only be done at night.",
+        "translation": "Pindutin ang :_input_key.use: sa Kama para matulog. Magagawa lang ito kapag gabi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.2.touch",
+        "source_string": "Tap a Bed to go to sleep. This can only be done at night.",
+        "translation": "Pindutin ang Kama para matulog. Magagawa lang ito kapag gabi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.3",
+        "source_string": "If you are playing Multiplayer, everyone in the world must be in a Bed at the same time to pass the night.",
+        "translation": "Kapag naglalaro ka ng Multiplayer, kailangang nasa Kama ang lahat ng manlalaro sabay-sabay para palipasin ang gabi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.4",
+        "source_string": "If your Bed is broken you will return to where you first spawned into the world.",
+        "translation": "Kapag nasira ang Kama mo babalik ka sa lugar na una mong pinag-spawnan sa mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.5",
+        "source_string": "Be careful when using a Bed in the Nether, it's usually too hot to sleep.",
+        "translation": "Mag-ingat sa paggamit ng Kama sa Nether, medyo mainit masyado para matulog.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew",
+        "source_string": "Beds",
+        "translation": "Kama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.title",
+        "source_string": "How to Play: Beds",
+        "translation": "Paano Maglaro: Kama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.text.1",
+        "source_string": "A soft bed lets you sleep through the night. You'll need wool to craft one, as well as a safe spot to place it.",
+        "translation": "Maipagpapalipas mo ang gabi sa isang malambot na kama. Kailangan mo ng lana para gumawa ng kama at ligtas na lugar na paglalagyan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.text.2",
+        "source_string": "Sleeping in a bed will also set your §espawn point§f, meaning that if you die, you'll reappear right back home!",
+        "translation": "Iseset din ng kama ang §espawn point§f mo, ibig sabihing kapag namatay ka, babalik ka ulit sa bahay mo!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.text.3",
+        "source_string": "You can only fall asleep when it's cozy, like when it's nighttime or during a thunderstorm.",
+        "translation": "Makatutulog ka lang kapag maganda matulog, tulad ng oras na gabi o bumabagyo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks",
+        "source_string": "Blocks",
+        "translation": "Bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.1",
+        "source_string": "The world of Minecraft is made from millions of blocks. Each one is breakable, collectable, and placeable. There are almost no limits to what you can build!",
+        "translation": "Yari ang mundo ng Minecraft ng milyon-milyong bloke. Nasisira, nakokolekta, at nalalagay ang bawat isa. Walang hanggan halos ang kaya mong gawin!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.2",
+        "source_string": "Most blocks you will have to find in the world, but some can only be crafted such as combining other blocks on a crafting table like a Redstone Block or smelted in a furnace like Glass.",
+        "translation": "Karamihan sa mga bloke mahahanap mo sa mundo, pero may ibang nagagawa lang sa paghalo ng ibang bloke sa gawaang mesa tulad ng Bloke ng Redstone o pagtunaw sa pugon tulad ng Salamin.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.header.1",
+        "source_string": "Falling Blocks",
+        "translation": "Nalalaglag na Bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.3",
+        "source_string": "Most blocks are not affected by gravity and can float in mid air, but some like Sand and Gravel, will fall if there is no block underneath them.",
+        "translation": "Hindi apektado ng grabidad ang karamihan sa mga bloke at lumulutang lang sa ere, pero may ilan tulad ng Buhangin o Graba na nahuhulog kapag walang bloke sa ibaba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.header.2",
+        "source_string": "Interesting Blocks",
+        "translation": "Interesanteng Mga Bloke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.4",
+        "source_string": "Here are some examples of the more interesting blocks in Minecraft:",
+        "translation": "Ito pa ang halimbawa ng mga mas interesanteng bloke sa Minecraft:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.5",
+        "source_string": "§eGlass§f - This is a transparent block that is made by smelting Sand in a Furnace.",
+        "translation": "§eSalamin§f - Malinaw na bloke na nagagawa sa pagtunaw ng Buhangin sa Pugon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.6",
+        "source_string": "§eConcrete§f - This is made by dropping a Concrete Powder block into water.",
+        "translation": "§eKongkreto§f - Nagagawa ito sa paglaglag ng bloke ng Pulbos ng Kongkreto sa tubig.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.blocks.text.7",
         "source_string": "§eTerracotta§f - This is found naturally in Badlands biomes or can be crafted and dyed from Clay that is found underwater. Terracotta can be made into Glazed Terracotta by smelting it in a Furnace.",
         "translation": "§eTerakota§f - Ito ay matatagpuan sa mga biomes na Mesa o puwedeng ilikha at kulayan galing sa Luwad na matatagpuan sa ilalim ng tubig. Puwede gawing Pinakintab na Terakota ang Terakota sa pamamagitan ng pagluluto nito sa Pugon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.8",
+        "source_string": "§eMagma Block§f - This is found naturally in the Nether, it gives off a little light and will burn whoever steps on it.",
+        "translation": "§eBloke ng Magma§f - Nahahanap ito nang likas sa Nether, umiilaw ito nang kaunti at susunugin ang sinumang tumapak nito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.9",
+        "source_string": "§eCoarse Dirt§f - This is almost like a normal Dirt block but Grass can't grow on it. It can be found in Windswept Savanna and Old Growth Taiga biomes.",
+        "translation": "§eMagaspang na Lupa§f Para lang itong normal na bloke ng Lupa pero hindi tinutubuan ng Damo. Makikita ito sa biome na Mahanging Sabana at sa Ninunong Taiga.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bookAndQuill",
+        "source_string": "Book and Quill",
+        "translation": "Aklat at Pluma",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bookAndQuill.text.1",
+        "source_string": "The Book and Quill lets you record your adventures. Tell your story by entering text into the pages. You can even change the title and the author! Sign the Book and Quill to finalize your work. The Book and Quill will be editable until it is signed. ",
+        "translation": "Maisusulat mo sa Aklat at Pluma ang gunita ng paglalakbay mo. Isalaysay ang kuwento mo ssa paglagay ng sulat sa pahina nito. Maibabago mo rin ang pamagat at ang may-akda! Pirmahan ang Aklat at Pluma para tapusin ang gawa mo. Mababago ang Aklat at Pluma hangga't hindi pa ito napipirmahan. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand",
+        "source_string": "Brewing Stand",
+        "translation": "Kuluan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.text.1",
+        "source_string": "Brewing potions requires a Brewing Stand. Every potion starts off with a bottle of water, which is made by filling a Glass Bottle with water from a Cauldron or water source.",
+        "translation": "Kailangan ng Kuluan para sa paggawa ng posyon. Nagsisiumla ang bawat posyon sa bite ng tubig, na nagagawa sa pagpuno ng Boteng Salamin ng tubig mula sa Kaldero o sa tubig.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.header.1",
+        "source_string": "Know your Brewing Stand",
+        "translation": "Kilalanin ang iyong Kuluan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.text.2",
+        "source_string": "A Brewing Stand has three slots for creating different potions. One ingredient can be used over all three bottles, so always brew three potions at the same time to best use your resources.",
+        "translation": "May tatlong slot ang Kuluan para gumawa ng iba-ibang posyon. Magagamit ang isang sangkap sa lahat ng tatlong bote, kaya magtimpla palagi ng tatlong posyon sabay-sabay para sulitin ang iyong gamit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.header.2",
+        "source_string": "Ingredients and Potions",
+        "translation": "Sangkap at Posyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.text.3",
+        "source_string": "Putting Nether Wart in the top position of the Brewing Stand will give you an Awkward Potion. This doesn't have any effect by itself, but creates a base potion that can be used to create more advanced potions.",
+        "translation": "Kapag naglagay ka ng Butig-Nether sa itaas na posisyon, makakukuha ka ng Posyong Mahirap. Wala itong talab nang mag-isa, pero ito ang basehang posyon na gagawa ng mas komplikadong mga posyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.text.4",
+        "source_string": "There are many potion effects to discover, experiment with different ingredients and combinations to become a true alchemist.",
+        "translation": "Maraming tutuklasing mga effect ng posyon, mag-eksperimento sa iba't ibang sangkap at halo nang maging ganap na alkemista.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.buildingAShelter",
+        "source_string": "Building a Shelter",
+        "translation": "Pagtayo ng Bahay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.buildingAShelter.title",
+        "source_string": "How to Play: Building a Shelter",
+        "translation": "Paano Maglaro: Paggawa ng Bahay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.buildingAShelter.text.1",
+        "source_string": "When danger comes lurking, a sturdy §eshelter§f can protect you from the threats outside.",
+        "translation": "Kapag may papalapit na panganib, mapoprotektahan ka ng §ebahay§f sa peligro sa labas.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.buildingAShelter.text.2",
+        "source_string": "Building a shelter is critical to surviving your first night, and it doesn't have to be hard.",
+        "translation": "Kritikal ang pagtayo ng bahay para mabuhay sa una mong gabi, at hindi nito kailangang maging mahirap.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.buildingAShelter.text.3",
+        "source_string": "You can build one with anything from dirt to stone, or even close up a cave for a makeshift lodging!",
+        "translation": "Puwede kang gumawa ng bahay gamit ang lupa o bato, o magsara rin ng kuweba para gawing pansamantalang tahanan!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron",
+        "source_string": "Cauldron",
+        "translation": "Kaldero",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.1",
+        "source_string": "The Cauldron is a container that can hold buckets or bottles of liquid. ",
+        "translation": "Lagayan ang Kaldero na nakapaghahawak ng balde o bote ng likido. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.header.1",
+        "source_string": "Filling",
+        "translation": "Pagpuno",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.2.notTouch",
+        "source_string": "Press :_input_key.use: on a Cauldron while holding a Bucket of Water or a Potion to fill the Cauldron with its contents.",
+        "translation": "Pindutin ang :_input_key.use: sa Kaldero habang may hawak na Balde ng Tubig o posyon para punan ang Kaldero ng laman nito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.2.touch",
+        "source_string": "Tap a Cauldron while holding a Bucket of Water or a Potion to fill the Cauldron with its contents.",
+        "translation": "Pindutin ang Kaldero habang may hawak na Balde ng Tubig o posyon para punan ang Kaldero ng laman nito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.3",
+        "source_string": "A Potion will only partially fill a Cauldron so you will have to use multiple Potions to fill it up completely.",
+        "translation": "Bahagi lang ang pinupuno ng Posyon kaya kailangan mong gumamit ng maraming Posyon para punuin ito nang lubusan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.header.2",
+        "source_string": "Dipping Arrows",
+        "translation": "Pagsawsaw ng Tunod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.4.notTouch",
+        "source_string": "Press :_input_key.use: on a Cauldron with your Arrow in hand to create all kinds of different arrows!",
+        "translation": "Pindutin ang :_input_key.use: sa Kaldero hawak ang iyong Tunod para gumawa ng iba't ibang uri ng tunod!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.4.touch",
+        "source_string": "Tap a Cauldron with your Arrow in hand to create all kinds of different arrows!",
+        "translation": "Pindutin ang Kaldero hawak ang iyong Tunod para gumawa ng iba't ibang uri ng tunod!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.header.3",
+        "source_string": "Dyeing Armor",
+        "translation": "Pagtina ng Armadura",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.5.notTouch",
+        "source_string": "To dye Leather Armor or Leather Horse Armor, press :_input_key.use: on a Cauldron filled with water while holding the desired dye. This will change the color of the water inside of the Cauldron. Then dip your armor into the Cauldron by pressing :_input_key.use: with armor in your hand.",
+        "translation": "Para tinaan ang Armadurang Katad o Katad na Armadura ng Kabayo, pindutin ang :_input_key.use: sa Kalderong puno hawak ang gustong tina. Papalitan nito ang kulay ng tubig sa loob ng Kaldero. Pagkatapos, isawsaw ang arma dura mo sa Kaldero sa pagpindot ng :_input_key.use: hawak ang armadura.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.5.touch",
+        "source_string": "To dye Leather Armor or Leather Horse Armor, tap a Cauldron filled with water while holding the desired dye. This will change the color of the water inside of the Cauldron. Then dip your armor into the Cauldron by tapping the Cauldron with the armor in your hand.",
+        "translation": "Para tinaan ang Armadurang Katad o Katad na Armadura ng Kabayo, pindutin ang Kalderong puno hawak ang gustong tina. Papalitan nito ang kulay ng tubig sa loob ng Kaldero. Pagkatapos, isawsaw ang armadura mo sa Kaldero sa pagpindot ng Kaldero hawak ang armadura.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.cauldron.text.6",
+        "source_string": "If you want to wash the dye off, dip the dyed item into a Cauldron of undyed Water.",
+        "translation": "Kung gusto mo tanggalin ang tina, isawsaw ang tininaang aytem sa Kaldero ng normal na tubig.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chat",
+        "source_string": "Chat",
+        "translation": "Chat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chat.text.1.keyboard",
+        "source_string": "Press :_input_key.chat: to open Chat. Type your message and press ENTER.",
+        "translation": "Pindutin ang :_input_key.chat: para buksan ang Chat. I-type ang mensahe mo at pindutin ang ENTER.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chat.text.1.gamepad",
+        "source_string": "Press :_input_key.chat: to open Chat. Type your message and press the send button.",
+        "translation": "Pindutin ang :_input_key.chat: para buksan ang Chat. I-type ang mensahe mo at pindutin ang send button.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chat.text.1.touch",
+        "source_string": "Tap the chat button to open Chat. Type your message and tap the send button.",
+        "translation": "Pindutin ang chat button para buksan ang Chat. I-type ang mensahe mo at pindutin ang button na 'Ipadala'.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chests",
+        "source_string": "Chests",
+        "translation": "Baul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chests.text.1.notTouch",
+        "source_string": "Once you have crafted a Chest, you can place it in the world and then open it with :_input_key.use: to store items from your inventory.",
+        "translation": "Kapag nakagawa ka na ng Baul, mailalagay mo ito sa mundo at buksan ito gamit ang :_input_key.use: para paglagyan ng aytem galing sa iyong imbentaryo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chests.text.1.touch",
+        "source_string": "Once you have crafted a Chest, you can place it in the world and then tap to open it and store items from your inventory.",
+        "translation": "Kapag nakagawa ka na ng Baul, mailalagay mo ito sa mundo at pindutin para buksan ito at paglagyan ng aytem galing sa iyong imbentaryo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chests.text.2",
+        "source_string": "Items in the Chest will be stored there for you to put into your inventory later.",
+        "translation": "Inilalagay ang mga aytem sa Baul para iyong ilagay sa imbentaryo mo mamaya.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chests.text.3",
+        "source_string": "Two Chests placed next to each other will be combined to form a Large Chest.",
+        "translation": "Magiging Malaking Baul ang pinagdikit na dalawang Baul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks",
+        "source_string": "Command Blocks",
+        "translation": "Bloke ng Command",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.1",
+        "source_string": "Command Blocks are a powerful tool for map creators. They store and execute commands upon receiving a Redstone signal.",
+        "translation": "Makapangyarihang gamit ang Bloke ng Command sa mga tagagawa ng mapa. Humahawak at nagsasagawa sila ng mga command sa pagkuha nila ng kuryenteng Redstone.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.2",
+        "source_string": "To get a command block you must use /give.",
+        "translation": "Para makakuha ng bloke ng command, kailangang mong gamitin ang /give.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.3",
+        "source_string": "When a Command Block has either executed or failed to execute its stored command, it sends a Redstone signal from the side where the arrow is pointing.",
+        "translation": "Kapag ang Bloke ng Command ay nagsagawa o nabigong magsagawa ng hawak nitong command, nagpapadala ito ng kuryenteng Redstone sa kabila kung saan nakaturo ang arrow.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.4",
+        "source_string": "You can set the name of the Command Block in the Hover Note field.",
+        "translation": "Mapapangalanan mo ang Bloke ng Command sa patlang ng Hover Note.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5",
+        "source_string": "§eBlock Type§f - There are three types of Command Blocks, each with their own color and behavior:",
+        "translation": "§eUri ng Bloke§f - Mayroong tatlong uri ng Bloke ng Command, na may kanya-kanyang kulay at ugali:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.1",
+        "source_string": "§eImpulse§f - Only executes the stored command when the block receives a redstone signal.",
+        "translation": "§eImpulso§f - Nagsasagawa lang ng hawak na command kapag may nakuhang kuryenteng redstone.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.2",
+        "source_string": "§eChain§f - Executes the stored command when the Command Block behind it has or has not executed its command. ",
+        "translation": "§ePakawing§f - Nagsasagawa ng command kapag ang Bloke ng Command sa likod nito ay nakapagsagawa o hindi. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.3",
+        "source_string": "§eRepeat§f - Once activated, this Command Block will continue executing its stored command as long as it exists.",
+        "translation": "§ePaulit-ulit§f - Kapag inaktiba, patuloy na isasagawa ng Bloke ng Command na ito ang hawak na command habang-buhay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6",
+        "source_string": "§eCondition§f - There are two conditions, each will affect the behavior of the Command Block:",
+        "translation": "§eKondisyon§f - May dalawang kondisyon, babaguhin ng bawat isa ang ugali ng Bloke ng Command:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6.1",
+        "source_string": "§eUnconditional§f - Executes the stored command even if the Command Block behind it failed to execute its command.",
+        "translation": "§eDi-kondisyonal§f - Isinasagawa ang hawak na command kahit nabigong isagawa ng Bloke ng Command sa likod nito ang command nito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6.2",
+        "source_string": "§eConditional§f - Only executes the stored command if the Command Block behind it succeeded in executing its command.",
+        "translation": "§ekondisyonal§f - Isinasagawa lang ang hawak na command kapag matagumpay na naisagawa ng Bloke ng Command sa likod nito ang command nito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7",
+        "source_string": "§eRedstone§f - There are two redstone settings, each will affect the behavior of the Command Block:",
+        "translation": "§eRedstone§f - May dalawang settings sa redstone, babaguhin ng bawat isa ang ugali ng Bloke ng Command:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7.1",
+        "source_string": "§eNeeds Redstone§f - Requires a redstone signal to activate.",
+        "translation": "§eKailangan ng Redstone§f - Kailangan ng kuryenteng redstone para umaktiba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7.2",
+        "source_string": "§eAlways Active§f - Does not require a redstone signal to activate.",
+        "translation": "§ePalaging Aktibo§f - Hindi kailangan ng kuryenteng redstone para umaktiba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.8",
+        "source_string": "A Command Block will also show you its previous output. This will help you figure out if a Command Block failed to execute its command and why.",
+        "translation": "Ipapakita ng Bloke ng Command ang huli nitong output. Tutulungan ka nito kung nabigong isagawa ng Bloke ng Command ang command nito at bakit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commands",
+        "source_string": "Commands",
+        "translation": "Mga Command",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commands.text.1",
+        "source_string": "Commands can be executed from Chat. Type / before you type the command.",
+        "translation": "Maipapatakbo ang mga command sa Chat. I-type ang / bago ilagay ang command.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commands.text.2",
+        "source_string": "There are multitudes of commands that will allow you to do amazing things. There are many sources out there that will provide you with all of the info that you'll ever need.",
+        "translation": "May sangkatutak na command na tutulungan kang gumawa ng magagandang bagay. May maraming sanggunian na nakapalabas na magbibigay sa iyo ng lahat ng kaalamang kakailanganin mo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits",
+        "source_string": "Conduits",
+        "translation": "Padaluyan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.1",
+        "source_string": "An active Conduit gives you powers when you are underwater and when it rains.",
+        "translation": "Dadaluyan ka ng lakas ng aktibong Padaluyan kapag nasa ilalim ka ng tubig o umuulan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.2",
+        "source_string": "A Conduit is crafted with Nautilus Shells and a Heart of the Sea. The Conduit draws power from Prismarine and Sea Lanterns.",
+        "translation": "Nagagawa ang Padaluyan gamit ang Pungo ng Lagan at Puso ng Karagatan. Humuhugot ng lakas ang Padaluyan sa Prismarino at Lamparang Dagat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.header.1",
+        "source_string": "Construction",
+        "translation": "Pagtatayo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.3",
+        "source_string": "Once activated, a Conduit will grant Conduit Power to anything nearby.",
+        "translation": "Kapag naaktiba, bibigyan ng Padaluyan ng Daloy na Kapangyarihan ang lahat na malapit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.4",
+        "source_string": "The more power it draws in, the further its abilities reach.",
+        "translation": "Sa dami ng hinuhugot nitong lakas, mas tataas ang kakayahan nito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool",
+        "source_string": "Crafting a Tool",
+        "translation": "Paggawa ng Kagamitan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.title",
+        "source_string": "How to Play: Crafting a Tool",
+        "translation": "Paano Maglaro: Paggawa ng Kagamitan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.1",
+        "source_string": "§eTools§f help you get things done faster. Some, like the §epickaxe§f:wood_pickaxe: , let you mine stone and various ores. Others, like the §esword§f:wood_sword: , help you keep enemies at bay.",
+        "translation": "Tinutulungan ka ng §eKagamitan§f na mas mabilis magtrabaho. Ang ilan, tulad ng §epiko§f:wood_pickaxe: , ay tumutulong sa iyo magmina ng bato at ng iba't ibang mineral. Ang iba, tulad ng §eespada§f:wood_sword: , ay tumutulong sa iyo labanan ang mga kalaban.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.2.keyboard",
+        "source_string": "To craft a tool, open up your §ecrafting table§f:crafting_table: by walking up to it and right-clicking it. You can craft a basic version of most tools using two sticks and a few planks - your §erecipe book§f will tell you how!",
+        "translation": "Para gumawa ng kagamitan, buksan ang iyong §egawaang mesa§f:crafting_table: sa pagharap mo rito at pag-right click. Makagagawa ka ng payak na bersiyon ng karamihan sa mga kagamitan gamit ang dalawang patpat at kaunting tabla - ituturo ito ng §erecipe book§f mo sa iyo!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.2.gamepad",
+        "source_string": "To craft a tool, open up your §ecrafting table§f:crafting_table: by walking up to it and pressing :_input_key.use:. You can craft a basic version of most tools using two sticks and a few planks - your §erecipe book§f will tell you how!",
+        "translation": "Para gumawa ng kagamitan, buksan ang iyong §egawaang mesa§f:crafting_table: sa pagharap mo rito at pagpindot ng :_input_key.use:. Makagagawa ka ng payak na bersiyon ng karamihan sa mga kagamitan gamit ang dalawang patpat at kaunting tabla - ituturo ito ng §erecipe book§f mo sa iyo!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.2.touch",
+        "source_string": "To craft a tool, open up your §ecrafting table§f:crafting_table: by walking up to it and tapping it. You can craft a basic version of most tools using two sticks and a few planks - your §erecipe book§f will tell you how!",
+        "translation": "Para gumawa ng kagamitan, buksan ang iyong §egawaang mesa§f:crafting_table: sa pagharap mo rito at pagpindot. Makagagawa ka ng payak na bersiyon ng karamihan sa mga kagamitan gamit ang dalawang patpat at kaunting tabla - ituturo ito ng §erecipe book§f mo sa iyo!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder",
+        "source_string": "World Builder",
+        "translation": "Tagatayo ng Mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.title",
+        "source_string": "How to Play: World Builder",
+        "translation": "Paano Maglaro: Tagatayo ng Mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.1",
+        "source_string": "To place or use certain Minecraft Education blocks or items, a player must possess a special ability called 'World Builder'.",
+        "translation": "Para maglagay o gumamit ng ilang mga bloke at aytem sa Minecraft Education, kailangan magkaroon ng manlalaro ng espesyal na abilidad na ang tawag ay 'Tagatayo ng Mundo'.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.2",
+        "source_string": "With cheats activated, the host can enable or disable the World Builder ability for any players in the world.",
+        "translation": "Kapag nakabukas ang cheats, mabubuksan o masasara ng host ang abilidad na Tagatayo ng Mundo ng sinumang manlalaro sa mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.3",
+        "source_string": "To grant World Builder ability to all players in the world, run the following command:",
+        "translation": "Para magbigay ng abilidad na Tagatayo ng Mundo sa lahat ng manlalaro sa mundo, patakbuhin ang sumusunod na command:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.4",
+        "source_string": "/ability @a worldbuilder true",
+        "translation": "/ability @a worldbuilder true",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.5",
+        "source_string": "To quickly toggle your own World Builder ability, run either of the following commands:",
+        "translation": "Para mabilisang palitin ang abilidad na Tagatayo ng Mundo, patakbuhin ang anuman sa sumusunod na command:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.6",
+        "source_string": "/worldbuilder",
+        "translation": "/worldbuilder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.7",
+        "source_string": "/wb",
+        "translation": "/wb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.8",
+        "source_string": "To query your World Builder ability, run the following command:",
+        "translation": "Para dulugin ang abilidad mong Tagatayo ng Mundo, patakbuhin ang sumusunod na command:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.9",
+        "source_string": "/ability @p worldbuilder",
+        "translation": "/ability @p worldbuilder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks",
+        "source_string": "Permission Blocks",
+        "translation": "Bloke ng Karapatan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title",
+        "source_string": "How to Play: Permission Blocks",
+        "translation": "Paano Maglaro: Bloke ng Karapatan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.1",
+        "source_string": "Minecraft Education features several special blocks that make it easier for teachers to create and employ lessons. Only players with World Builder ability can place and destroy these blocks. Only players without World Builder ability are subject to the restrictions imposed by these blocks.",
+        "translation": "May itinatampok na espesyal na bloke ang Minecraft Education na nagpapadali sa mga guro na gumawa at isagawa ang mga aralin. Ang mga manlalaro lamang na may abilidad na Tagatayo ng Mundo ang makalalagay at makasisira ng blokeng ito. Ang mga tao lamang na walang abilidad na Tagatayo ng Mundo ang saklaw ng restriksiyong inilalapat ng blokeng ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.1",
+        "source_string": "Allow/Deny",
+        "translation": "Tanggap/Tanggi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.2",
+        "source_string": "Allow and Deny blocks control where players can build in a world.",
+        "translation": "Kinokontrol ng bloke ng Tanggap at Tanggi kung saan maaaring magtayo sa mundo ang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.3",
+        "source_string": "Players can place or destroy blocks above Allow blocks. Players cannot place or destroy blocks above Deny blocks.",
+        "translation": "Makalalagay at makasisira lamang ang mga manlalaro ng bloke sa ibabaw ng bloke ng Tanggap. Hindi makalalagay at makasisira ang manlalaro ng bloke sa bloke ng Tanggi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.4",
+        "source_string": "Allow and Deny blocks do not affect the area below them.",
+        "translation": "Hindi apektado ng bloke ng Tanggap at Tanggi ang lugar sa ilalim nila.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.5",
+        "source_string": "An Allow block with a Deny block somewhere below it prevents players from building in the space between the two blocks. Above the Allow block, players can place and destroy blocks.",
+        "translation": "Pinipigilan ng bloke ng Tanggap na may bloke ng Tanggi saanman sa ilalim nito ang pagtayo ng manlalaro sa agwat ng dalawang bloke. Sa itaas ng bloke ng Tanggap, makapaglalagay at makapagsisira ng bloke ang manlalaro.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.2",
+        "source_string": "Border",
+        "translation": "Hangganan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.6",
+        "source_string": "Border blocks provide a force field that extends infinitely upward and downward, regardless of the presence of other blocks. Players cannot move through, over, or under a Border block. Players cannot place or destroy blocks that are above or below a Border block.",
+        "translation": "Nagbibigay ng force field ang bloke ng Hangganan na walang-hanggang humahaba pataas at pababa, anuman ang nakalagay na bloke. Hindi makapapasok, sa taas, o sa baba ng bloke ng Hangganan. Hindi makapaglalagay o makapagsisira ng blokeng nasa taas o baba ng bloke ng Hangganan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether",
+        "source_string": "Playing Together",
+        "translation": "Paglaro Sama-sama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.title",
+        "source_string": "Playing together",
+        "translation": "Paglaro Sama-sama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.1",
+        "source_string": "Minecraft is a §emultiplayer§f game by default.",
+        "translation": "Likas na larong §emultiplayer§f ang Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.header.1",
+        "source_string": "Online Multiplayer",
+        "translation": "Online Multiplayer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.2",
+        "source_string": "Every new world you create starts with multiplayer enabled. If you want to make it §eprivate§f, go to World Settings to turn off multiplayer.",
+        "translation": "Nakabukas ang multiplayer sa lahat ng bago mong gawa na mundo. Kung gusto mo itong gawing §epribado§f, pumunta sa Settings ng Mundo at patayin ang multiplayer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.header.2",
+        "source_string": "Joining an Online Game",
+        "translation": "Pagsali sa Larong Online",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.3",
+        "source_string": "To play with others, go to the §eFriends tab§f to see all available Realms, Friends, and LAN games. Just select any game to join it.",
+        "translation": "Para makipaglaro kasama ang iba, pumunta sa §etab ng Kaibigan§f para makita ang lahat ng puwedeng Realms, Kaibigan, at Larong LAN. Pumili ng anumang laro para salihan ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.4",
+        "source_string": "When you start or join an online game, your friends can see this in their Friends tab. If they join, it'll be visible to their friends as well.",
+        "translation": "Kapag nagsimula o sumali ka sa larong online, makikita ng kaibigan mo ito sa kanilang tab ng Kaibigan. Kapag sumali sila, makikita din ng kaibigan nila.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.5",
+        "source_string": "You need to be signed in to a §eMicrosoft account§f with an active internet connection to play multiplayer.",
+        "translation": "Kailangang naka-sign in ka sa isang §eMicrosoft account§f habang nakakonekta sa internet para makapaglaro ng multiplayer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.header.3",
+        "source_string": "Realms - The best way to play together",
+        "translation": "Realms - Ang pinakamainam na paraan sa paglaro nang sama-sama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.6",
+        "source_string": "It's easy to play with friends using §eRealms§f.",
+        "translation": "Madali lang maglaro kasama ang kaibigan gamit ang §eRealms§f.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.7",
+        "source_string": "You and up to 10 friends get 24/7 access to a world that's always online. Explore, get creative, or try curated content from Marketplace.",
+        "translation": "Ikaw at hanggang 10 kaibigan ay makakukuha ng 24/7 akses sa mundong laging online. Maglakbay, maging malikhain, o subukan ang tampok na content sa Marketplace.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.8",
+        "source_string": "All you need is a paid Realms subscription. Why not try a free 30-day trial?",
+        "translation": "Kailangan mo lamang ng bayad na Realms subscription. Hindi subukan ang libreng 30-day trial?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.header.4",
+        "source_string": "Player Permissions",
+        "translation": "Karapatan ng Manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.9",
+        "source_string": "You decide what people can do in your world by changing §eplayer permissions§f.",
+        "translation": "Pagpapasyahan mo kung anong kayang gawin ng tao sa mundo mo sa pagbago ng §ekarapatan ng manlalaro§f.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.10",
+        "source_string": "Open the game menu to see a list of players currently in your world, then select the permissions icon to adjust that player's permissions.",
+        "translation": "Buksan ang menu ng laro para makita ang listahan ng manlalarong kasalukuyang naroroon sa mundo mo, tapos piliin ang icon ng karapatan at ayusin ang karapatan ng manlalarong iyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.realms",
+        "source_string": "Try Realms",
+        "translation": "Subukan ang Realms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.signIn",
+        "source_string": "Sign in to try Realms",
+        "translation": "Mag-sign in para subukan ang Realms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chalkboard",
+        "source_string": "Chalkboards",
+        "translation": "Pisara",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chalkboard.title",
+        "source_string": "How to Play: Chalkboards",
+        "translation": "Paano Maglaro: Pisara",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chalkboard.text.1",
+        "source_string": "Chalkboards are used to display text in the world. Chalkboards display more text than Signs, can be edited after they have been placed, and come in three sizes: Slate, Poster, and Board. The lock toggle allows you to prevent non-World Builders from destroying or editing your chalkboards. Press :_input_key.use: on an existing chalkboard to edit it.",
+        "translation": "Ginagamit ang pisara sa pagpapakita ng teksto sa mundo. Mas maraming naipapakitang teksto ang pisara kaysa sa Karatula, at nae-edit pagkatapos mailagay, at may tatlong uri: Pisara, Poster, at Board. Tinutulungan ka ng toggle ng lock na pigilan ang di-Tagatayo ng Mundo na sirain o i-edit ang pisara. Pindutin ang :_input_key.use: sa nailagay na pisara para i-edit ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chalkboard.text.1.touch",
+        "source_string": "Chalkboards are used to display text in the world. Chalkboards display more text than Signs, can be edited after they have been placed, and come in three sizes: Slate, Poster, and Board. The lock toggle allows you to prevent non-World Builders from destroying or editing your chalkboards. Tap an existing chalkboard to edit it.",
+        "translation": "Ginagamit ang pisara sa pagpapakita ng teksto sa mundo. Mas maraming naipapakitang teksto ang pisara kaysa sa Karatula, at nae-edit pagkatapos mailagay, at may tatlong uri: Pisara, Poster, at Board. Tinutulungan ka ng toggle ng lock na pigilan ang di-Tagatayo ng Mundo na sirain o i-edit ang pisara. Pindutin ang nailagay na pisara para i-edit ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry",
+        "source_string": "Chemistry",
+        "translation": "Chemistry",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry.title",
+        "source_string": "How to Play: Chemistry",
+        "translation": "Paano Maglaro: Chemistry",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry.text.1",
+        "source_string": "Students can simulate real world chemistry by using the Chemistry Equipment blocks. Build any of the 118 different elements by adjusting the sliders in the Element Constructor or view the composition of elements by placing them in the Element Constructor. Combine elements in the Compound Creator to produce chemical compounds. Put elements and compounds into the Lab Table to create Minecraft items. Reduce blocks to their component elements with the Material Reducer.",
+        "translation": "Maisi-simulate ng mag-aaral ang totoong buhay na chemistry gamit ang bloke ng Kagamitan ng Chemistry. Gawin ang anuman sa 118 iba't ibang elemento sa pag-ayos ng slider sa Element Constructor o tingnan ang komposisyon ng elemento sa paglagay nito sa Element Constructor. Ipaghalo ang mga elemento sa Compound Creator para gumawa ng chemical compound. Ilagay ang elemento at compound sa Lab Table para gumawa ng aytem sa Minecraft. Ibawas ang mga bloke sa kanilang component element gamit ang Material Reducer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry.text.2",
+        "source_string": "Download the Chemistry Journal from the Minecraft Education website for a comprehensive guide to chemistry in Minecraft.",
+        "translation": "I-download ang Chemistry Journal sa website ng Minecraft Education para sa komprehensibong gabay sa chemistry sa Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc",
+        "source_string": "Non-Player Characters",
+        "translation": "Non-Player Characters",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc.title",
+        "source_string": "How to Play: Non-Player Characters",
+        "translation": "Paano Maglaro: Non-Player Characters",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc.text.1",
+        "source_string": "NPCs are non-player characters that can provide additional lesson information, hints, or instructions.",
+        "translation": "Ang NPC ay mga karakter na hindi manlalaro na maaaring magbigay ng adisyonal na kaalaman tungkol sa aralin, hint, o instruksiyon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc.text.2",
+        "source_string": "Only World Builders can place, delete, name, or edit NPCs. NPCs can execute commands and link to websites. Commands can be assigned to buttons in the NPC's dialog window; website links will always have a button.",
+        "translation": "Ang mga Tagatayo ng Mundo lamang ang makapaglalagay, makapagbubura, makapagpapangalan, o makapag-e-edit ng NPC. Nakapagpapatakbo ng command at link sa mga website ang mga NPC. Maitatakda ang mga command sa mga button sa dialog window ng NPC; palaging may button ang link sa website.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc.text.3",
+        "source_string": "NPCs have a variety of skins to choose from and are immobile.",
+        "translation": "May sari-saring mapipiliang skin ang NPC at hindi nakagagalaw.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera",
+        "source_string": "Camera",
+        "translation": "Camera",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera.title",
+        "source_string": "How to Play: Camera",
+        "translation": "Paano Maglaro: Camera",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera.text.1",
+        "source_string": "The Camera allows players to take pictures in the world.",
+        "translation": "Tinutulungan ng Camera ang manlalarong kumuha ng litrato sa mundo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera.text.2",
+        "source_string": "To take a picture from your point of view, press :_input_key.use:.",
+        "translation": "Para kumuha ng litrato sa pananaw mo, pindutin ang :_input_key.use:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera.text.2.touch",
+        "source_string": "To take a picture from your point of view, tap and hold, then release.",
+        "translation": "Para kumuha ng litrato sa pananaw mo, pindutin at diinan, tapos pakawalan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera.text.3",
+        "source_string": "To take a selfie, place a camera and press :_input_key.use: on it.",
+        "translation": "Para mag-selfie, maglagay ng camera at pindutin ang :_input_key.use: sa camera.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera.text.3.touch",
+        "source_string": "To take a selfie, place a camera and tap the Take Picture button.",
+        "translation": "Para mag-selfie, maglagay ng camera at pindutin ang button ng Kumuha ng Litrato.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.camera.text.4",
+        "source_string": "Pictures can be viewed in the Portfolio or inserted into the Book and Quill.",
+        "translation": "Mailalagay ang mga litrato sa Portpolyo o sa Aklat at Pluma.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.portfolio",
+        "source_string": "Portfolio",
+        "translation": "Portpolyo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.portfolio.title",
+        "source_string": "How to Play: Portfolio",
+        "translation": "Paano Maglaro: Portpolyo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.portfolio.text.1",
+        "source_string": "Pictures you have taken appear in the Portfolio. Press :_input_key.use: to view the Portfolio. When viewing the Portfolio, you can add captions to pictures, delete pictures, and export pictures as a PDF.",
+        "translation": "Lalabas ang mga litratong kinuha mo sa Portpolyo. Pindutin ang :_input_key.use: para tingnan ang Portpolyo. Habang tinitingnan ang Portpolyo, makapaglalagay ka ng caption sa litrato, magbura ng litrato, o mag-export ng litrato bilang PDF.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.portfolio.text.1.touch",
+        "source_string": "Pictures you have taken appear in the Portfolio. Tap and hold to view the Portfolio. When viewing the Portfolio, you can add captions to pictures, delete pictures, and export pictures as a PDF.",
+        "translation": "Lalabas ang mga litratong kinuha mo sa Portpolyo. Pindutin at idiin para tingnan ang Portpolyo. Habang tinitingnan ang Portpolyo, makapaglalagay ka ng caption sa litrato, magbura ng litrato, o mag-export ng litrato bilang PDF.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.classroomMode",
+        "source_string": "Classroom Mode",
+        "translation": "Classroom Mode",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.classroomMode.title",
+        "source_string": "How to Play: Classroom Mode",
+        "translation": "Paano Maglaro: Classroom Mode",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.classroomMode.text.1",
+        "source_string": "Classroom Mode is an external application that provides educators with features designed to facilitate interaction with students. You can download Classroom Mode from the Minecraft Education website.",
+        "translation": "Ang Classroom Mode ay isang eksternal na application na nagbibigay sa mga kaguruan ng mga feature na idinisenyo para bumuo ng interaksiyon sa mga mag-aaral. Maida-download mo ang Classroom Mode sa website ng Minecraft Education.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.classroomMode.text.2",
+        "source_string": "As the host of a world, use the command /classroommode to launch the Classroom Mode app and connect it to Minecraft Education.",
+        "translation": "Bilang host ng mundo, gamitin ang command na /classroommode para patakbuhin ang Classroom Mode app at ikonekta sa Minecraft Education.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.codeBuilder",
+        "source_string": "Code Builder",
+        "translation": "Code Builder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.codeBuilder.title",
+        "source_string": "How to Play: Code Builder",
+        "translation": "Paano Maglaro: Code Builder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.codeBuilder.text.1",
+        "source_string": "Code Builder allows players to explore, create, and play in Minecraft by writing code using familiar learn-to-code platforms.",
+        "translation": "Tinutulungan ng Code Builder ang manlalarong mag-explore, gumawa, at maglaro sa Minecraft sa pagsulat ng code gamit ang mga pamilyar na learn-to-code platforms.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.codeBuilder.text.2",
+        "source_string": "Launch Code Builder by pressing :_input_key.codeBuilder: or by using the command /code.",
+        "translation": "Patakbuhin ang Code builder sa pagpindot ng :_input_key.codeBuilder: o sa paggamit ng command na /code.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.codeBuilder.text.2.touch",
+        "source_string": "Launch Code Builder by tapping :code_builder_button: or by using the command /code.",
+        "translation": "Patakbuhin ang Code builder sa pagpindot ng :code_builder_button: o sa paggamit ng command na /code.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingTable",
+        "source_string": "Crafting Table",
+        "translation": "Gawaang Mesa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingTable.text.1",
+        "source_string": "The Crafting Table will let you craft more complicated recipes.",
+        "translation": "Tinutulungan ka ng Gawaang Mesa gumawa pa ng mas komplikadong resipi.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
