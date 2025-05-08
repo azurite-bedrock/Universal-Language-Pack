@@ -27992,9 +27992,577 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.craftingTable.text.2.notTouch",
+        "source_string": "Place it in the world, then press :_input_key.use: on the Crafting Table to use it.",
+        "translation": "Ilagay ito sa mundo, at pindutin ang :_input_key.use: sa Gawaang Mesa para gamitin ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingTable.text.2.touch",
+        "source_string": "Place it in the world, then tap the Crafting Table to use it.",
+        "translation": "Ilagay ito sa mundo, tapos pindutin ang Gawaang Mesa para gamitin ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode",
+        "source_string": "Creative Mode",
+        "translation": "Creative Mode",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.1",
+        "source_string": "Creative Mode is there so you can build the land of your dreams mob free!",
+        "translation": "Narito ang Creative Mode para tulungan kang itayo ang iyong paraisong walang mob!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.header.1",
+        "source_string": "Unlimited Building",
+        "translation": "Walang-hanggang Paggawa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.creativeMode.text.2",
         "source_string": "The creative mode interface allows any item in the game to be moved into the player's inventory without the need for mining or crafting the item. The items in the player's inventory will not be removed when they are placed or used in the world, and this allows the player to focus on building rather than resource gathering.",
-        "translation": "Ang interface ng creative mode ay nagbibigay ng akses sa mga anumang aytem sa laro nang hindi na nangangailan ng pagkuha nito sa pamamagitan ng pagmimina o paggawa. Sa creative mode, ang mga aytem sa manlalaro ay hindi matatanggal kapag ito ay nailagay o nagamit sa mundo, at nagbibigay ito ng kakayahan sa manlalaro na magpokus sa pagtatayo ng kaniyang mga nais na likhain kaysa sa pagkuha ng mga ito.",
+        "translation": "Ang interface ng creative mode ay nagbibigay ng akses sa mga anumang aytem sa laro nang hindi na nangangailan ng pagmimina o paggawa nito. Sa creative mode, ang mga aytem sa manlalaro ay hindi matatanggal kapag ito ay nailagay o nagamit sa mundo, at nagbibigay ito ng kakayahan sa manlalaro na pagtuunan ang pagtatayo ng kaniyang mga nais na likhain kaysa sa pagkuha ng mga ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.3",
+        "source_string": "If you create, load, or save a world in Creative Mode, that world will have achievements and leaderboard updates disabled, even if it is then loaded in Survival Mode.",
+        "translation": "Kapag gumawa, nag-load, o nag-save ka ng mundo sa Creative Mode, mapapatay ang tagumpay at update sa leaderboard, kahit pa i-load pagkatapos sa Survival Mode.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.header.2",
+        "source_string": "Flying",
+        "translation": "Paglipad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.4.keyboard",
+        "source_string": "To fly when in Creative Mode, press :_input_key.jump: twice quickly. To exit flying, repeat the action. To fly faster, push :_input_key.forward: twice in rapid succession or press :_input_key.sprint: while flying. When in flying mode, you can hold down :_input_key.jump: to move up and :_input_key.sneak: to move down.",
+        "translation": "Para lumipad sa Creative Mode, pindutin ang :_input_key.jump: nang dalawang beses nang mabilis. Para hindi na lumipad, ulitin ito. Para mas mabilis na lumipad, pindutin ang :_input_key.forward: sunod-sunod nang mabilis o pindutin ang :_input_key.sprint: habang lumilipad. Kapag lumilipad, maididiin mo ang :_input_key.jump: para tumaas at :_input_key.sneak: para bumaba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.4.gamepad",
+        "source_string": "To fly when in Creative Mode, press :_input_key.jump: twice quickly. To exit flying, repeat the action. To fly faster, push :_gamepad_stick_left: forward twice in rapid succession while flying. When in flying mode, you can hold down :_input_key.jump: to move up and :_input_key.sneak: to move down.",
+        "translation": "Para lumipad sa Creative Mode, pindutin ang :_input_key.jump: nang dalawang beses nang mabilis. Para hindi na lumipad, ulitin ito. Para mas mabilis na lumipad, itulak ang :_gamepad_stick_left: sunod-sunod nang mabilis habang lumilipad. Kapag lumilipad, maididiin mo ang :_input_key.jump: para tumaas at :_input_key.sneak: para bumaba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.4a.touch.joystick_tap_and_crosshair",
+        "source_string": "To fly tap :tip_virtual_button_jump: twice quickly, and to stop flying tap :tip_virtual_button_fly_down: twice quickly.",
+        "translation": "Para lumipad pindutin ang :tip_virtual_button_jump: nang dalawang beses nang mabilis, at para tumigil na lumipad pindutin ang :tip_virtual_button_fly_down: nang dalawang beses nang mabilis.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.4b.touch.joystick_tap_and_crosshair",
+        "source_string": "Tap :tip_virtual_button_sprint: to fly faster. To fly up tap and hold :tip_virtual_button_fly_up:, and to fly down tap and hold :tip_virtual_button_fly_down:.",
+        "translation": "Pindutin ang :tip_virtual_button_sprint: para mas mabilis na lumipad. Para lumipad pataas pindutin at diinan ang :tip_virtual_button_fly_up:, at para lumipad pababa pindutin at diinan ang :tip_virtual_button_fly_down:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.4a.touch.classic_dpad",
+        "source_string": "To fly tap :touch_jump: twice quickly, and to stop flying tap :touch_stop_flying: twice quickly.",
+        "translation": "Para lumipad pindutin ang :touch_jump: nang dalawang beses nang mabilis, at para tumigil na lumipad pindutin ang :touch_stop_flying: nang dalawang beses nang mabilis.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.creativeMode.text.4b.touch.classic_dpad",
+        "source_string": "Tap :touch_forward: twice quickly to fly faster. To fly up tap and hold :touch_fly_up:, and to fly down tap and hold :touch_fly_down:.",
+        "translation": "Pindutin ang :touch_forward: nang dalawang beses nang mabilis para mas mabilis na lumipad. Para lumipad pataas pindutin at diinan ang :touch_fly_up:, at para lumipad pababa pindutin at diinan ang :touch_fly_down:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.deathAndRespawn",
+        "source_string": "Death and Respawn",
+        "translation": "Pagkamatay at Pag-respawn",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.deathAndRespawn.title",
+        "source_string": "How to Play: Death and Respawn",
+        "translation": "Paano Maglaro: Pagkamatay at Pag-respawn",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.deathAndRespawn.text.1",
+        "source_string": "Enemies appear every night, and even the best of us can be caught off guard. If your §ehealth bar§f:heart: runs out, you'll die - and then respawn right where you started!",
+        "translation": "Lumalabas bawat gabi ang mga kalaban, kahit ang pinakamagaling ay nadadale. Kapag naubos ang iyong §ebuhay§f:heart:, mamatay ka - tapos magre-respawn ka kung saan ka nagsimula!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.deathAndRespawn.text.2",
+        "source_string": "You have unlimited lives, but you drop all items in your inventory when you die. If you're quick enough, you can pick your items back up right where you dropped them.",
+        "translation": "Mayroon kang walang-hanggang buhay, pero malalaglag mo ang mga aytem sa imbentaryo mo kapag namatay ka. Kung mabilis ka, makukuha mo muli ang aytem mo kung saaan mo ito nalaglag.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty",
+        "source_string": "Difficulty",
+        "translation": "Hirap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.1",
+        "source_string": "Minecraft has varying levels of difficulty so you can tailor the game to your level.",
+        "translation": "May iba't ibang lebel ng hirap ang Minecraft kaya maiaangkop mo sa iyong lebel ang laro mo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.header.1",
+        "source_string": "Peaceful",
+        "translation": "Mapayapa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.2",
+        "source_string": "No hostile mobs will spawn except for shulkers and the Ender Dragon, but they won't do any damage to you.",
+        "translation": "Walang magso-spawn na nang-aaway na mob maliban sa shulker at Enderdragon, pero hindi sila makaka-damage sa iyo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.header.2",
+        "source_string": "Easy",
+        "translation": "Madali",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.3",
+        "source_string": "Hostile mobs spawn but deal less damage. Hunger bar depletes and drains health down to 5 hearts.",
+        "translation": "Nagso-spawn ang nang-aaway na mob pero mas unti ang dinadale nilang damage. Nauubos ang gutom at inuubos ang buhay sa 5 puso.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.header.3",
+        "source_string": "Normal",
+        "translation": "Normal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.4",
+        "source_string": "Hostile mobs will do normal damage, and if your hunger level drops to zero your health will begin to drop, but you won't die.",
+        "translation": "Normal lang ang damage ng nang-aaway na mob, at kapag bumaba ang gutom mo sa zero ay magsisimulang bumaba ang buhay mo, pero hindi ka mamatay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.header.4",
+        "source_string": "Hard",
+        "translation": "Mahirap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.5",
+        "source_string": "Hostile mobs will do more damage, zombies will break through doors, and if your hunger level drops to zero, your health will drop and you could die.",
+        "translation": "Mas malakas ang damage ng nang-aaway na mob, nakasisira ng pinto ang zombi, at kapag bumaba ang gutom mo sa zero, bababa ang buhay mo at maaari kang mamatay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers",
+        "source_string": "Dispensers",
+        "translation": "Tagabigay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.1",
+        "source_string": "Dispensers are used to shoot out items. You will need to power each Dispenser with a redstone signal (for example, with a lever) to trigger it.",
+        "translation": "Ginagamit ang dispenser sa pagtira ng aytem. Kailangan mong kuryentehan ang bawat Tagalagay ng redstone (halimbawa, gamit ang plangka) para paganahin ito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.2.notTouch",
+        "source_string": "To fill a Dispenser with items, press :_input_key.use: on the Dispenser, then move the items that you want to dispense from your inventory to the Dispenser.",
+        "translation": "Para punan ng aytem ang Tagalagay, pindutin ang :_input_key.use: sa Tagalagay, tapos ilipat ang mga aytem na gusto mong ipalagay mula sa imbentaryo mo papunta sa Tagalagay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.2.touch",
+        "source_string": "To fill a Dispenser, tap the Dispenser, then move the items that you want to dispense from your inventory into the Dispenser.",
+        "translation": "Para punan ng aytem ang Tagalagay, pindutin ang Tagalagay, tapos ilipat ang mga aytem na gusto mong ipalagay mula sa imbentaryo mo papunta sa Tagalagay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.header.1",
+        "source_string": "Usage",
+        "translation": "Paggamit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.3",
+        "source_string": "Whenever you power a Dispenser, an item will shoot out.",
+        "translation": "Kapag kinuryentehan mo ang Tagalagay, may titirang aytem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dispensers.text.4",
+        "source_string": "Dispensers can also be used to place items as well, such as Pumpkins on Iron Golems and equipment on Armor Stands.",
+        "translation": "Magagamit din ang Tagalagay sa paglagay ng aytem, tulad ng Kalabasa o Bakal na Golem at kagamitan sa Istante ng Armadura.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.droppers",
+        "source_string": "Droppers",
+        "translation": "Tagahulog",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.droppers.text.1.notTouch",
+        "source_string": "When powered by Redstone, Droppers will drop a single random item contained within. Press :_input_key.use: on the Dropper to open it and then you can load it with items from your inventory.",
+        "translation": "Kapag kinuryente ng Redstone, maghuhulog ang Tagahulog ng isang random na aytem na laman nito. Pindutin ang :_input_key.use: sa Tagahulog at buksan at saka kargahan ng aytem mula sa iyong imbentaryo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.droppers.text.1.touch",
+        "source_string": "When powered by Redstone, Droppers will drop a single random item contained within. Tap the Dropper to open it and then you can load it with items from your inventory.",
+        "translation": "Kapag kinuryente ng Redstone, maghuhulog ang Tagahulog ng isang random na aytem na laman nito. Pindutin ang Tagahulog at buksan at saka kargahan ng aytem mula sa iyong imbentaryo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.droppers.header.1",
+        "source_string": "Usage",
+        "translation": "Paggamit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.droppers.text.2",
+        "source_string": "If a Dropper is facing a Chest or another type of container, the item will be placed into that instead. Long chains of Droppers can be constructed to transport items over a distance.",
+        "translation": "Kapag nakaharap ang Tagahulog sa isang Baul o isa pang uri ng lalagyan, ang aytem ay ilalagay doon. Maaaring magtayo ng linya ng dikit-dikit na Tagahulog para maghatid ng aytem sa isang distansiya.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes",
+        "source_string": "Dyes",
+        "translation": "Tina",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.1",
+        "source_string": "Dye is used to change the color of many things in Minecraft.",
+        "translation": "Ginagamit ang tina sa pagkulay ng maraming bagay sa Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.2",
+        "source_string": "Some Dye materials are harder to find than others. Most Dyes can be crafted from flowers, like §eRed Dye§f from a Poppy, but some Dyes are found or created in more obscure ways such as:",
+        "translation": "Mahirap hanapin ang ilan sa ibang materyales sa Tina. Magagawa ang karamihan ng Tina sa bulaklak, tulad ng §ePulang Tina§f galing sa Amapola, pero may Tinang nahahanap at nagagawa sa iba pang mas komplikadong paraan tulad ng:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.3",
+        "source_string": "§eBlue Dye§f - Mining Lapis Lazuli deep underground",
+        "translation": "§eAsul na Tina§f - Pagmina ng Lapislasuli sa ilalim ng lupa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.4",
+        "source_string": "§eBlack Dye§f - Collecting Ink Sacs from Squids",
+        "translation": "§eItim na Tina§f - pagkolekta ng Tinta sa Pusit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.5",
+        "source_string": "§eBrown Dye§f - Harvesting Cocoa Beans in the Jungle",
+        "translation": "§eKayumangging Tina§f - pag-ani ng Kakaw sa Gubat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.6",
+        "source_string": "§eGreen Dye§f - Smelted from Cactus",
+        "translation": "§eBerdeng Tina§f - Niluluto galing sa Kaktus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.7",
+        "source_string": "§eWhite Dye§f - Crafted from Bone Meal",
+        "translation": "§ePuting Tina§f - Nagagawa sa Pataba",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra",
+        "source_string": "Elytra",
+        "translation": "Elytra",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.1",
+        "source_string": "Elytra are an item that can be equipped to allow gliding. Elytra are equipped in the chest armor slot.",
+        "translation": "Ang Elytra ay isang aytem na nasusuot para lumipad. Isinusuot ang Elytra sa balutiang slot.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.2",
+        "source_string": "Elytra cannot be crafted, but are found in Item Frames in rare End Ships, guarded by fearsome Shulkers.",
+        "translation": "Hindi nagagawa ang Elytra, nahahanap sila sa mga Kuwadro ng madalang na Barko ng End, na binabantayan ng katako-takot na mga Shulker.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.header.1",
+        "source_string": "Learn to Fly",
+        "translation": "Matutong Lumipad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.3.notTouch",
+        "source_string": "When equipped with Elytra, a player can press :_input_key.jump: while falling to start gliding. Note that you need to be quite high to really get the full effect!",
+        "translation": "Kapag suot ang Elytra, mapipindot ng manlalaro ang :_input_key.jump: habang nalalaglag para magsimulang lumipad. Alamin na kailangang nasa mataas-taas ka para makuha ang buong lakas!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.3.touch",
+        "source_string": "When equipped with Elytra, tap :touch_jump: or :tip_virtual_button_fly_up: while falling to start gliding. Make sure you're high up to get the full effect!",
+        "translation": "Kapag suot ang Elytra, pindutin ang :touch_jump: o ang :tip_virtual_button_fly_up: habang nalalaglag para magsimulang lumipad. Siguraduhing nasa mataas ka para makuha ang buong lakas!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.4",
+        "source_string": "While gliding, you can steer by looking around. If you look downwards, you'll move faster - but you'll also hit the ground sooner. If you look upwards, you'll gain some height - but do it for too long and you'll stall, falling instead of rising!",
+        "translation": "Habang lumilipad, lumingon para lumiko. Kapag tumingin ka sa baba, bibilis ang takbo mo - pero bibilis din ang pagsalpok mo. Kapag tumingin ka sa taas, tataas ka - pero tagalan ay titigil ka at bababa sa halip ng tataas!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.4.touch",
+        "source_string": "You can steer while gliding by looking around. If you look downwards, you'll gain some speed, but you'll also hit the ground faster. If you look upward, you'll gain some height, but do it for too long and you'll stall - which means you'll start falling.",
+        "translation": "Lumingon para lumiko habang lumilipad. Kapag lumingon ka pababa, bibilis ang takbo mo, pero bibilis din ang pagsalpok mo. Kapag lumingon ka pataas, tataas ka, pero tagalan ay titigil ka - kumbaga magsisimula kang mahulog.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.5",
+        "source_string": "Your Elytra will slowly lose durability while flying, and if they break mid-flight you'll fall. You can repair them by combining them with Phantom Membrane at an Anvil.",
+        "translation": "Mababawasan ang durabilidad ng Elytra mo nang paunti-unti habang lumilipad, at kapag nasira ito habang lumilipad ay mahuhulog ka. Maaayos mo ito sa pamamagitan ng paghalo niyon at ng lamad ng Phantom sa Palihan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.header.2",
+        "source_string": "Rocket Powered Flight",
+        "translation": "Kuwitis Powered na Paglipad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.6",
+        "source_string": "Firework Rockets that have no effects can be used to extend Elytra flight. You will be damaged if you use a Firework Rocket that has effects to extend flight.",
+        "translation": "Magagamit ang Kuwitis na walang halo sa pagpapahaba ng lipad ng Elytra. Mada-damage ka kung gumamit ka ng Kuwitis na may halo sa pagpapahaba ng lipad.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable",
+        "source_string": "Enchanting Table",
+        "translation": "Agimatang Mesa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.1",
+        "source_string": "The Experience Points collected by picking up Experience Orbs can be used to enchant Weapons, Armor, Tools, and Books.",
+        "translation": "Magagamit ang mga Puntos ng Karanasan na nakolekta sa pagdampot ng Bolang-karanasan sa pag-agimat ng Armas, Armadura, Kagamitan, at Aklat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.header.1",
+        "source_string": "Enchanting",
+        "translation": "Pag-aagimat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.2",
+        "source_string": "When an enchantable item is placed in the slot below the book in the Enchanting Table, the three buttons to the right of the slot will display some enchantments with their Experience Level cost and Lapis Lazuli cost.",
+        "translation": "Kapag nilagay ang naaagimatang aytem sa slot sa ibaba ng aklat sa Agimatang Mesa, may lalabas sa tatlong button sa kanan ng slot na mga agimat kasama ang halagang Lebel ng Karanasan at halagang Lapislasuli.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.3",
+        "source_string": "The actual enchantment applied is randomly selected based on the cost displayed.",
+        "translation": "Ang aktuwal na agimat na inilalagay ay random na pinipili base sa halagang pinalabas.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.header.2",
+        "source_string": "Stronger Enchantments",
+        "translation": "Mas Malakas na Agimat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.4",
+        "source_string": "If the Enchanting Table is surrounded by Bookshelves (up to a maximum of 15), with a one block gap between the Bookshelf and the Enchanting Table, arcane glyphs will be seen going to the book on the Enchanting Table and the potency of the enchantments will be increased.",
+        "translation": "Kapag napalilibutan ng Istante ng Aklat ang Agimatang Mesa (maximum na 15), na may isang blokeng agwat sa Istante ng Aklat at Agimatang Mesa, may makikitang mahiwagang titik na pumupunta sa aklat sa Agimatang Mesa at lalakas ang talab ng agimat.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.header.3",
+        "source_string": "Enchanting Books",
+        "translation": "Aklat ng Agimat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.5",
+        "source_string": "Enchanted Books are used at the Anvil to apply enchantments to items. This gives you more control over which enchantments you would like on your items.",
+        "translation": "Ginagamit ang Aklat ng Agimat sa Palihan para lagyan ng agimat ang mga aytem. Bibigyan ka nito ng mas malayang kontrol sa kung anong agimat ang gusto mo sa aytem mo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.encyclopedia",
+        "source_string": "Encyclopedia",
+        "translation": "Ensiklopedya",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.encyclopedia.title",
+        "source_string": "Minecraft Encyclopedia",
+        "translation": "Ensiklopedya ng Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.encyclopedia.text.1",
+        "source_string": "Minecraft Encyclopedia",
+        "translation": "Ensiklopedya ng Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.endCities",
+        "source_string": "End Cities",
+        "translation": "Lungsod ng End",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
