@@ -4634,7 +4634,7 @@
     {
         "identifier": "codeScreen.deprecatedIDE.title",
         "source_string": "Code Editor Changes###{MaxLength=27}",
-        "translation": "Modificare editor de cod###{MaxLength=27}",
+        "translation": "Modificare editor de cod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4642,7 +4642,7 @@
     {
         "identifier": "codeScreen.deprecatedIDE.body",
         "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.###{MaxLength=1000}",
-        "translation": "Acest editor de cod va părăsi Minecraft Education în curând. Poți continua să codezi aventurile de programare Minecraft Education cu MakeCode. Faceți clic pe 'Aflați mai multe' pentru detalii despre această schimbare, care ar fi momentul și cum să faceți o copie de rezervă a proiectelor de cod.###{MaxLength=1000}",
+        "translation": "Acest editor de cod va părăsi Minecraft Education în curând. Poți continua să codezi aventurile de programare Minecraft Education cu MakeCode. Faceți clic pe 'Aflați mai multe' pentru detalii despre această schimbare, care ar fi momentul și cum să faceți o copie de rezervă a proiectelor de cod.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4650,7 +4650,7 @@
     {
         "identifier": "codeScreen.deprecatedIDE.button.learnMore",
         "source_string": "Learn more###{MaxLength=27}",
-        "translation": "Aflați mai multe###{MaxLength=27}",
+        "translation": "Aflați mai multe",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4658,7 +4658,7 @@
     {
         "identifier": "codeScreen.deprecatedIDE.button.close",
         "source_string": "Close###{MaxLength=27}",
-        "translation": "Închide###{MaxLength=27}",
+        "translation": "Închide",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5762,7 +5762,7 @@
     {
         "identifier": "commands.blockdata.outOfWorld",
         "source_string": "Cannot change block outside of the world",
-        "translation": "Nu se poate modifica un block în afara lumi",
+        "translation": "Nu se poate modifica un bloc din afara lumi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7187,6 +7187,342 @@
         "identifier": "commands.generic.disabled",
         "source_string": "Cheats aren't enabled in this world.",
         "translation": "Comenzile nu sunt activate in această lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.disabled.editorLocked",
+        "source_string": "The command you entered, %s, is not supported in the Editor.",
+        "translation": "Comanda introdusă, %s, nu este suportată în editor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.disabled.templateLocked",
+        "source_string": "Settings are currently locked. Unlock Template World Options in the Game Settings menu to change them.",
+        "translation": "Setările sunt momentan blocate. Deblocați setarea Opțiuni Lumi Șablon in setările jocului pentru a le schimba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.double.tooBig",
+        "source_string": "The number you have entered (%.2f) is too big, it must be at most %.2f",
+        "translation": "Numărul pe care l-ai introdus (%.2f) este prea mare, trebuie să fie maxim %.2f",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.double.tooSmall",
+        "source_string": "The number you have entered (%.2f) is too small, it must be at least %.2f",
+        "translation": "Numărul pe care l-ai introdus (%.2f) este prea mic, trebuie sa fie minim %.2f",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.duplicateType",
+        "source_string": "Duplicate type arguments",
+        "translation": "Duplicare argumente tip",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.duplicateSelectorArgument",
+        "source_string": "Duplicate %s selector arguments",
+        "translation": "Duplicare %s argumente selector",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.encryption.badkey",
+        "source_string": "Bad public key given. Expected 120 byte key after PEM formatting.",
+        "translation": "Cheie publică incorectă. Este necesară o cheie de 120 octeți după formatarea PEM.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.encryption.badsalt",
+        "source_string": "Bad salt given. Expected a 16 bytes before base 64 encoding.",
+        "translation": "Sare greșită. Se așteptau 16 octeți înainte de codificarea bazei 64.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.encryption.required",
+        "source_string": "Encrypted session required",
+        "translation": "Este necesară o sesiune criptată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.differentDimension",
+        "source_string": "Target entity cannot be in a different dimension",
+        "translation": "Entitatea țintă nu poate fi într-o dimensiune diferită",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.invalidType",
+        "source_string": "Entity type '%1$s' is invalid",
+        "translation": "Tipul de entitate „%1$s” este invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.invalidUuid",
+        "source_string": "The entity UUID provided is in an invalid format",
+        "translation": "UUID-ul entității dat este într-un format invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.notFound",
+        "source_string": "That entity cannot be found",
+        "translation": "Acea entitate nu poate fi găsită",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.error.permissions",
+        "source_string": "Incorrect permission level for command: %s.  ##1: command name",
+        "translation": "Nivel de permisiuni incorect pentru comanda: %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.exception",
+        "source_string": "An unknown error occurred while attempting to perform this command",
+        "translation": "A apărut o eroare necunoscută în timp ce se încerca efectuarea acestei comenzi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidAgentType",
+        "source_string": "Type argument applied to Agent-only selector",
+        "translation": "Tipul de argument poate fi aplicat doar selectorului Agent",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidcontext",
+        "source_string": "Invalid context provided for given command type",
+        "translation": "Contextul furnizat este invalid pentru tipul de comandă dat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidOrigin",
+        "source_string": "Command origin was invalid at command execution time",
+        "translation": "Originea comenzii a fost invalidă la timpul execuției comenzii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidDevice",
+        "source_string": "The command you entered, %s, is not supported on this device",
+        "translation": "Comanda introdusă, %s, nu este suportată pe acest dispozitiv",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidMessage",
+        "source_string": "Invalid message length",
+        "translation": "Lungime mesaj invalidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidPlayerType",
+        "source_string": "Type argument applied to player-only selector",
+        "translation": "Tipul de argument poate fi aplicat doar selectorului jucător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidType",
+        "source_string": "Unknown type argument",
+        "translation": "Argument de tip necunoscut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.levelError",
+        "source_string": "Max level has to be larger than min level",
+        "translation": "Nivelul maxim trebuie să fie mai mare decât nivelul minim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.malformed.body",
+        "source_string": "Body is missing or malformed",
+        "translation": "Corpul lipsește sau este format incorect",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.malformed.type",
+        "source_string": "Invalid request type",
+        "translation": "Cerere invalidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.notimplemented",
+        "source_string": "Not implemented",
+        "translation": "Neimplementat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.sourceNotLoaded",
+        "source_string": "Source volume is not loaded",
+        "translation": "Volumul sursă nu este încărcat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.destinationNotLoaded",
+        "source_string": "Destination volume is not loaded",
+        "translation": "Volumul destinație nu este încărcat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.json.invalid",
+        "source_string": "Provided JSON failed to parse with the following error: %1$s",
+        "translation": "JSON-ul furnizat nu a putut fi analizat cu următoarea eroare: %1$s",
+        "context": "Player typed JSON into a command but it was invalid",
+        "labels": "unassigned, lang",
+        "max_length": 1000
+    },
+    {
+        "identifier": "commands.generic.num.invalid",
+        "source_string": "'%1$s' is not a valid number",
+        "translation": "Numărul %1$s nu este valid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.num.tooBig",
+        "source_string": "The number you have entered (%1$d) is too big, it must be at most %2$d",
+        "translation": "Numărul pe care l-ai introdus (%1$d) este prea mare, trebuie să fie maxim %2$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.num.tooSmall",
+        "source_string": "The number you have entered (%1$d) is too small, it must be at least %2$d",
+        "translation": "Numărul pe care l-ai introdus (%1$d) este prea mic, trebuie să fie minim %2$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.outOfWorld",
+        "source_string": "Cannot access blocks outside of the world",
+        "translation": "Nu se pot accesa blocuri din afara lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.parameter.invalid",
+        "source_string": "'%1$s' is not a valid parameter",
+        "translation": "Parametrul „%1$s” nu este valid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.permission.selector",
+        "source_string": "<insufficient permissions for selector expansion>",
+        "translation": "<permisiuni insuficiente pentru expansiunea selectorului>",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.player.notFound",
+        "source_string": "That player cannot be found",
+        "translation": "Acest jucător nu a fost găsit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.protocol.mismatch",
+        "source_string": "Provided protocol version doesn't match Minecraft's protocol version",
+        "translation": "Versiunea de protocol oferită nu se potrivește cu versiunea de protocol Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.radiusError",
+        "source_string": "Minimum selector radius must be smaller than maximum",
+        "translation": "Raza minimă a selectorului trebuie să fie mai mică decât raza maximă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.radiusNegative",
+        "source_string": "Radius cannot be negative",
+        "translation": "Raza nu poate fi negativă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.rotationError",
+        "source_string": "Rotation out of range",
+        "translation": "Rotație în afara razei",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.running",
+        "source_string": "The command is already running",
+        "translation": "Această comandă rulează deja",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.step.failed",
+        "source_string": "Command step failed",
+        "translation": "Pas comandă eșuat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
