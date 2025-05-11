@@ -1,5 +1,13 @@
 [
     {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "Big Langij Pak",
+        "context": "Name of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
         "identifier": "language.name",
         "source_string": "Name (Location)",
         "translation": "LOLCAT (Kingdom of Cats)",
@@ -8,9 +16,65 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.chat.tts.keyboard",
+        "source_string": "Keyboard",
+        "translation": "Keyboord",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.loading.done",
+        "source_string": "Done",
+        "translation": "Dun",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.saving.done",
+        "source_string": "Done",
+        "translation": "Dun",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.first",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.button.tts.title",
         "source_string": "Button",
         "translation": "Butonn",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "Imaig",
+        "context": "TTS spoken word for image types",
+        "labels": "unassigned, lang",
+        "max_length": 15
+    },
+    {
+        "identifier": "accessibility.tab.tts.title",
+        "source_string": "Tab",
+        "translation": "Tabz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.toggle.tts.title",
+        "source_string": "Toggle",
+        "translation": "Toggl",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -56,6 +120,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.button.sort",
+        "source_string": "Sort",
+        "translation": "Surt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.start.buttonHelper",
         "source_string": "%s : %s",
         "translation": "%s : %s",
@@ -64,9 +136,625 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.screenName.chat",
+        "source_string": "Chat Screen",
+        "translation": "Chad screeen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.settings.reset",
+        "source_string": "reset",
+        "translation": "rezet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.worldTemplates.help",
+        "source_string": "Help",
+        "translation": "HALP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.line1",
+        "source_string": "Welcome to Minecraft!",
+        "translation": "Welcom 2 Minecraft!!1!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.unassigned",
+        "source_string": "Unassigned",
+        "translation": "nO key hEre",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.keyboard.arrow",
+        "source_string": "arrow",
+        "translation": "arrowz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.hyperLink.text",
+        "source_string": "Learn more",
+        "translation": "Lern MOahr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accounts.signOut.fail.hyperLink.uri",
         "source_string": "https://aka.ms/mcedu-login",
         "translation": "https://aka.ms/mcedu-login",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.acquireIron",
+        "source_string": "Acquire Hardware",
+        "translation": "I can haz irun",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.acquireIron.desc",
+        "source_string": "Smelt an iron ingot",
+        "translation": "Cook teh iruns",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.blaze_rod",
+        "source_string": "Into Fire",
+        "translation": "In2 fire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.blaze_rod.desc",
+        "source_string": "Relieve a Blaze of its rod",
+        "translation": "Releef 1 blaze of its tail",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildBetterPickaxe",
+        "source_string": "Getting an Upgrade",
+        "translation": "Lehveleng Up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildBetterPickaxe.desc",
+        "source_string": "Construct a better pickaxe",
+        "translation": "Maek a beder pikkatt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.diamonds",
+        "source_string": "DIAMONDS!",
+        "translation": "DEEMONDS!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.enchantments",
+        "source_string": "Enchanter",
+        "translation": "Encater",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.exploreAllBiomes",
+        "source_string": "Adventuring Time",
+        "translation": "Catvenshuring Tiem",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.exploreAllBiomes.desc",
+        "source_string": "Discover all biomes",
+        "translation": "Disccover evry baium",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.fullBeacon",
+        "source_string": "Beaconator",
+        "translation": "Baconator 2000",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.fullBeacon.desc",
+        "source_string": "Create a full beacon",
+        "translation": "Charg bacon 2 100%!!!1!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.ghast",
+        "source_string": "Return to Sender",
+        "translation": "Return 2 sendr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.ghast.desc",
+        "source_string": "Destroy a Ghast with a fireball",
+        "translation": "Beet meanz Ghast w/ fiery ball",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.killEnemy",
+        "source_string": "Monster Hunter",
+        "translation": "Bad Kitteh deadmakr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.openInventory.desc",
+        "source_string": "Press '%1$s' to open your inventory.",
+        "translation": "Prez '%1$s' to opin inventary.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.portal",
+        "source_string": "We Need to Go Deeper",
+        "translation": "Us needz 2 go deepurr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.portal.desc",
+        "source_string": "Build a portal to the Nether",
+        "translation": "Bilt Nether portel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.potion",
+        "source_string": "Local Brewery",
+        "translation": "You're a lizard, Hairy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.potion.desc",
+        "source_string": "Brew a potion",
+        "translation": "Brw poshun",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.requires",
+        "source_string": "Requires '%1$s'",
+        "translation": "Rekwirz '%1$s'",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.snipeSkeleton",
+        "source_string": "Sniper Duel",
+        "translation": "mLgY0l0 dewwel!!!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.snipeSkeleton.desc",
+        "source_string": "Kill a skeleton with an arrow from more than 50 meters",
+        "translation": "ez a boniboi frum at lest 50 metrs ewey",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.spawnWither",
+        "source_string": "The Beginning?",
+        "translation": "Da Start?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.spawnWither.desc",
+        "source_string": "Spawn the Wither",
+        "translation": "Spon da Wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.taken",
+        "source_string": "Taken!",
+        "translation": "Takin!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.theEnd",
+        "source_string": "The End?",
+        "translation": "Teh End?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.theEnd.desc",
+        "source_string": "Locate the End",
+        "translation": "Lokat teh End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.theEnd2",
+        "source_string": "The End.",
+        "translation": "Teh End.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.theEnd2.desc",
+        "source_string": "Defeat the Ender Dragon",
+        "translation": "Defeet teh Dwagon Bos",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.unknown",
+        "source_string": "???",
+        "translation": "???",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.uninitScore",
+        "source_string": "--",
+        "translation": "--",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.boat",
+        "source_string": "Tap jump to exit the boat",
+        "translation": "Tep jump to leev watr car",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.minecart",
+        "source_string": "Tap jump to exit the minecart",
+        "translation": "Tep jump to leev minecat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.pig",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.horse",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.strider",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.donkey",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.mule",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.llama",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.trader_llama",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.skeleton_horse",
+        "source_string": "Tap sneak to dismount",
+        "translation": "Tep snek to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.minecart",
+        "source_string": "Tap dismount to exit the minecart",
+        "translation": "Tep dizmount to leev minecat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.pig",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.horse",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.strider",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.donkey",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.mule",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.llama",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.trader_llama",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.scheme.skeleton_horse",
+        "source_string": "Tap dismount to dismount",
+        "translation": "Tep dizmount to dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.boat",
+        "source_string": "Press :_input_key.jump: to exit the boat",
+        "translation": "Press :_input_key.jump: to leev watr car",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.minecart",
+        "source_string": "Press :_input_key.jump: to exit the minecart",
+        "translation": "Press :_input_key.jump: to leev minecat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.pig",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.horse",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.strider",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.donkey",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.mule",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.llama",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.trader_llama",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.skeleton_horse",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "Prezz :_input_key.sneak: tu Dizmount",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.creeper",
+        "source_string": "Ignite",
+        "translation": "Catch on faer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.edit",
+        "source_string": "Edit",
+        "translation": "Edet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.exit.boat",
+        "source_string": "Leave Boat",
+        "translation": "leev watr car",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.feed",
+        "source_string": "Feed",
+        "translation": "Fed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.milk",
+        "source_string": "Milk",
+        "translation": "Milk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.mooshear",
+        "source_string": "Shear",
+        "translation": "cut cut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.repair",
+        "source_string": "Repair",
+        "translation": "fikz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.ride.strider",
+        "source_string": "Ride",
+        "translation": "Ried",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.shear",
+        "source_string": "Shear",
+        "translation": "Cut",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -332,6 +1020,542 @@
         "source_string": "Chest",
         "translation": "Kat Box",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commandBlockScreen.redstone",
+        "source_string": "Redstone:",
+        "translation": "Redstone:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commandBlockScreen.redstone.needs_redstone",
+        "source_string": "Needs Redstone",
+        "translation": "Needz Redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commandBlockScreen.redstone.always_on",
+        "source_string": "Always Active",
+        "translation": "Allwayz on",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.stonecutter",
+        "source_string": "Stonecutter",
+        "translation": "Shrpy movin thingy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.stonecutter_block",
+        "source_string": "Stonecutter",
+        "translation": "Shrpy movin thingy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jukebox.header.2",
+        "source_string": "Redstone",
+        "translation": "Redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.redstone",
+        "source_string": "Redstone",
+        "translation": "Redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.comparator.name",
+        "source_string": "Redstone Comparator",
+        "translation": "Redstone thingy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.lodestonecompass.name",
+        "source_string": "Lodestone Compass",
+        "translation": "loserstone compas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.repeater.name",
+        "source_string": "Redstone Repeater",
+        "translation": "Redstone Repeetah",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_door.name",
+        "source_string": "Oak Door",
+        "translation": "Oak Dor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_axe.name",
+        "source_string": "Stone Axe",
+        "translation": "Stone Aks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_axe.name",
+        "source_string": "Wooden Axe",
+        "translation": "teh furst chopper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_hoe.name",
+        "source_string": "Stone Hoe",
+        "translation": "Ston Hoe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_hoe.name",
+        "source_string": "Wooden Hoe",
+        "translation": "Wuddn Hoe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.map.exploration.mansion.name",
+        "source_string": "Woodland Explorer Map",
+        "translation": "WOOdland explurer map",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_pickaxe.name",
+        "source_string": "Stone Pickaxe",
+        "translation": "Ston Pikkatt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_pickaxe.name",
+        "source_string": "Wooden Pickaxe",
+        "translation": "Wuddn Pikkatt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.redstone.name",
+        "source_string": "Redstone Dust",
+        "translation": "Redstone Dust",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.stone_shovel.name",
+        "source_string": "Stone Shovel",
+        "translation": "stone spoon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_shovel.name",
+        "source_string": "Wooden Shovel",
+        "translation": "Wuddn Spoon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wooden_sword.name",
+        "source_string": "Wooden Sword",
+        "translation": "Wuddn Sord",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.mangrove_wood.name",
+        "source_string": "Mangrove Wood",
+        "translation": "Mangroff wood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_mangrove_wood.name",
+        "source_string": "Stripped Mangrove Wood",
+        "translation": "naked mangroff wuud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cherry_wood.name",
+        "source_string": "Cherry Wood",
+        "translation": "Sakura wuud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_cherry_wood.name",
+        "source_string": "Stripped Cherry Wood",
+        "translation": "Naked Sakura Bawk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_button.name",
+        "source_string": "Oak Button",
+        "translation": "Oak Button",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.blackstone_stairs.name",
+        "source_string": "Blackstone Stairs",
+        "translation": "bleck rock stairz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.blackstone_wall.name",
+        "source_string": "Blackstone Wall",
+        "translation": "bleckston wal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_brick_wall.name",
+        "source_string": "Polished Blackstone Brick Wall",
+        "translation": "polised bleck brik wal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chiseled_polished_blackstone.name",
+        "source_string": "Chiseled Polished Blackstone",
+        "translation": "chizald shiny blak rok",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.gilded_blackstone.name",
+        "source_string": "Gilded Blackstone",
+        "translation": "Some goldid bleckston",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.blackstone_slab.name",
+        "source_string": "Blackstone Slab",
+        "translation": "bleckston sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_brick_slab.name",
+        "source_string": "Polished Blackstone Brick Slab",
+        "translation": "shiny blak rok brik slab",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone.name",
+        "source_string": "Polished Blackstone",
+        "translation": "polised bleckston",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.doorWood.name",
+        "source_string": "Wooden Door",
+        "translation": "Wuddn Dor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_pressure_plate.name",
+        "source_string": "Oak Pressure Plate",
+        "translation": "Oak Prseure Pleitz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.double_stone_slab.wood.name",
+        "source_string": "Wooden Slab",
+        "translation": "Wuddn Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stone_slab.wood.name",
+        "source_string": "Wooden Slab",
+        "translation": "Wuddn Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.planks.name",
+        "source_string": "Wooden Planks",
+        "translation": "Wuddn Plankz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_slab.acacia.name",
+        "source_string": "Acacia Slab",
+        "translation": "Akacia Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_slab.big_oak.name",
+        "source_string": "Dark Oak Slab",
+        "translation": "Blak Oke Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_slab.birch.name",
+        "source_string": "Birch Slab",
+        "translation": "Burch Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_slab.jungle.name",
+        "source_string": "Jungle Slab",
+        "translation": "Jungo Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_slab.name",
+        "source_string": "Wood Slab",
+        "translation": "Wud Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_slab.oak.name",
+        "source_string": "Oak Slab",
+        "translation": "Oak Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wooden_slab.spruce.name",
+        "source_string": "Spruce Slab",
+        "translation": "Sproos Sleb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_wood.name",
+        "source_string": "Pale Oak Wood",
+        "translation": "Wite ook Wud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_pale_oak_wood.name",
+        "source_string": "Stripped Pale Oak Wood",
+        "translation": "Naked Wite Oke Wud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.oak.name",
+        "source_string": "Oak Wood",
+        "translation": "Oak Wuud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.spruce.name",
+        "source_string": "Spruce Wood",
+        "translation": "Spruz Wuud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.birch.name",
+        "source_string": "Birch Wood",
+        "translation": "Brch Wud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.jungle.name",
+        "source_string": "Jungle Wood",
+        "translation": "Jungl Wuud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.acacia.name",
+        "source_string": "Acacia Wood",
+        "translation": "Acashuh Wuud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.dark_oak.name",
+        "source_string": "Dark Oak Wood",
+        "translation": "Blak Oke Wuud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.stripped.oak.name",
+        "source_string": "Stripped Oak Wood",
+        "translation": "Naked Oac Bawk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.stripped.spruce.name",
+        "source_string": "Stripped Spruce Wood",
+        "translation": "Naked Sproos Bawk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.stripped.birch.name",
+        "source_string": "Stripped Birch Wood",
+        "translation": "Naked Berch Bawk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wildflowers.name",
+        "source_string": "Wildflowers",
+        "translation": "Weed but pretier",
+        "context": "A patch of thin decorative wild flowers on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.firefly_bush.name",
+        "source_string": "Firefly Bush",
+        "translation": "U would not bliev ur eyes bush",
+        "context": "A bush inhabited by Firefly bugs",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bush.name",
+        "source_string": "Bush",
+        "translation": "Smol tree",
+        "context": "A small, dense, plant",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.leaf_litter.name",
+        "source_string": "Leaf Litter",
+        "translation": "Lotz o Leefz",
+        "context": "A patch of thin decorative leaf litter on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cactus_flower.name",
+        "source_string": "Cactus Flower",
+        "translation": "Thornz flowah",
+        "context": "A pink flower which grows on the top of a Cactus",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.brown_egg.name",
+        "source_string": "Brown Egg",
+        "translation": "Schokolate ec",
+        "context": "A brown chicken egg which hatches a warm climate variant of a chicken",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.blue_egg.name",
+        "source_string": "Blue Egg",
+        "translation": "DIAMUNDZ ec",
+        "context": "A blue chicken egg which hatches a cold climate variant of a chicken",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.short_dry_grass.name",
+        "source_string": "Short Dry Grass",
+        "translation": "Shurt Dry Graz",
+        "context": "A patch of short dried grass on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tall_dry_grass.name",
+        "source_string": "Tall Dry Grass",
+        "translation": "Tawl Dry Graz",
+        "context": "A patch of tall dried grass on the ground",
         "labels": "unassigned, lang",
         "max_length": null
     }
