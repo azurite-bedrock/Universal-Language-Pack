@@ -7528,6 +7528,70 @@
         "max_length": null
     },
     {
+        "identifier": "commands.generic.syntax",
+        "source_string": "Syntax error: Unexpected \"%2$s\": at \"%1$s>>%2$s<<%3$s\"",
+        "translation": "Eroare de sintaxă: „%2$s” neașteptat: la „%1$s >>%2$s<<%3$s”",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.noTargetMatch",
+        "source_string": "No targets matched selector",
+        "translation": "Selectorul nu se potrivește cu nicio țintă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.targetNotPlayer",
+        "source_string": "Selector must be player-type",
+        "translation": "Selectorul trebuie să fie al jucătorului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.tooManyNames",
+        "source_string": "Too many target name arguments",
+        "translation": "Prea multe argumente de tip nume-țintă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.tooManyTargets",
+        "source_string": "Too many targets matched selector",
+        "translation": "Selectorul se potrivește cu prea multe ținte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.too.many.requests",
+        "source_string": "Too many commands have been requested, wait for one to be done",
+        "translation": "Au fost solicitate prea multe comenzi, așteaptă ca una dintre acestea să fie finalizată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.unknown",
+        "source_string": "Unknown command: %s. Please check that the command exists and that you have permission to use it.",
+        "translation": "Comanda „%s” este necunoscută. Vă rog să verificați dacă această comandă există și că aveți permisiunea de a o folosi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage",
+        "source_string": "Usage: %1$s",
+        "translation": "Utilizare: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gathering.info.qr.title.console",
         "source_string": "Live Event Stream",
         "translation": "Live stream eveniment",
