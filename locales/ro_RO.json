@@ -7592,6 +7592,374 @@
         "max_length": null
     },
     {
+        "identifier": "commands.generic.blocked_edu",
+        "source_string": "Sorry! The %s command is not available in this world.",
+        "translation": "Scuze! Comanda %s nu este disponibilă în această lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage.noparam",
+        "source_string": "Usage:",
+        "translation": "Utilizare:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.version.mismatch",
+        "source_string": "The requested version doesn't exist for this command",
+        "translation": "Versiunea cerută nu există pentru această comandă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.version.missing",
+        "source_string": "Command calls not from chat should specify the command's version",
+        "translation": "Comenzile de apel din chat trebuie să specifice versiunea de comandă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.wrongTargetCamera",
+        "source_string": "Active camera has to be a free camera to target an entity",
+        "translation": "Camera activă trebuie să fie o cameră foto liberă pentru a viza o entitate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunkdata.description",
+        "source_string": "Gets pixels for a specific chunk.",
+        "translation": "Obține pixeli pentru o anumită bucată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunkdata.success",
+        "source_string": "Chunk data received",
+        "translation": "Datele bucății au fost primite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunks.description",
+        "source_string": "Gets list of chunks that are loaded.",
+        "translation": "Preia lista de bucăți încărcate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunks.success",
+        "source_string": "Chunk list received",
+        "translation": "Lista de bucăți a fost primită",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getlocalplayername.description",
+        "source_string": "Returns the local player name.",
+        "translation": "Returnează numele local al jucătorului.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getspawnpoint.description",
+        "source_string": "Gets the spawn position of the specified player(s).",
+        "translation": "Preia poziția de început a jucătorului/jucătorilor specificat/specificați.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gettopsolidblock.description",
+        "source_string": "Gets the position of the top non-air block below the specified position",
+        "translation": "Primește poziția celui mai înalt bloc non-aer de sub poziția blocului specificat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gettopsolidblock.notfound",
+        "source_string": "No solid blocks under specified position",
+        "translation": "Nu există blocuri solide sub poziția specificată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.block.notFound",
+        "source_string": "There is no such block with name %1$d",
+        "translation": "Blocul cu numele „%1$d” nu există",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.description",
+        "source_string": "Gives an item to a player.",
+        "translation": "Dă un element unui jucător.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.item.invalid",
+        "source_string": "Invalid command syntax: no such %s exists with that data value",
+        "translation": "Sintaxă comandă invalidă: nu există %s cu valorile date",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.item.notFound",
+        "source_string": "There is no such item with name %1$d",
+        "translation": "Obiectul cu numele „%1$d” nu există",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.map.invalidData",
+        "source_string": "Invalid map data provided",
+        "translation": "Datele hărții sunt invalide",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.map.featureNotFound",
+        "source_string": "Could not make exploration map. Feature not found on this dimension",
+        "translation": "Nu s-a creat harta de explorare. Caracteristică indisponibilă în această dimensiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.success",
+        "source_string": "Gave %1$s * %2$d to %3$s",
+        "translation": "Ai dat %1$s * %2$d lui %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.successRecipient",
+        "source_string": "You have been given %1$s * %2$d",
+        "translation": "Ai primit %1$s * %2$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Analiza datelor a eșuat: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidData",
+        "source_string": "\"data\" has an invalid input, must be an integer.",
+        "translation": "„data” are o intrare invalidă, trebuie să fie un număr întreg.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidQuantity",
+        "source_string": "\"quantity\" has an invalid input, must be an integer or range of integers.",
+        "translation": "„quantity” are o intrare invalidă, trebuie să fie un număr întreg sau un interval de numere întregi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidSlot",
+        "source_string": "\"slot\" has an invalid input, must be an integer or range of integers.",
+        "translation": "„slot” are o intrare invalidă, trebuie să fie un număr întreg sau un interval de numere întregi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.noItem",
+        "source_string": "\"item\" missing, required for \"hasitem\" filter.",
+        "translation": "„item” lipsă, necesar pentru filtrul „hasitem”.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.slotNoLocation",
+        "source_string": "Specifying a \"slot\" is invalid if a \"location\" is not given.",
+        "translation": "Specificarea unui „slot” este invalidă dacă nu este dat un „location”.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.help.description",
+        "source_string": "Provides help/list of commands.",
+        "translation": "Afișează ajutor/listă de comenzi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.help.footer",
+        "source_string": "Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments",
+        "translation": "Sfat: Folosește tasta <tab> în timp ce tastezi o comandă pentru a completa automat comanda sau argumentele acesteia",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.help.header",
+        "source_string": "--- Showing help page %1$d of %2$d (/help <page>) ---",
+        "translation": "--- Se arată pagina de ajutor %1$d din %2$d (/help <pagina>) ---",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.help.command.aliases",
+        "source_string": "%s (also %s):",
+        "translation": "%s (de asemenea %s):",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hud.description",
+        "source_string": "Changes the visibility of hud elements.",
+        "translation": "Schimbă vizibilitatea elementelor HUD.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hud.success",
+        "source_string": "Hud command successfully executed",
+        "translation": "Comanda HUD executată cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.immutableworld.description",
+        "source_string": "Sets the immutable state of the world.",
+        "translation": "Setează starea de imutabilitate a lumii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.immutableworld.info",
+        "source_string": "immutableworld = %s",
+        "translation": "immutableworld = %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.description",
+        "source_string": "Sets whether or not a player's input can affect their character.",
+        "translation": "Setează dacă intrarea unui jucător poate sau nu să le afecteze caracterul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.camera",
+        "source_string": "Camera",
+        "translation": "Cameră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.movement",
+        "source_string": "Movement",
+        "translation": "Mișcare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.jump",
+        "source_string": "Jump",
+        "translation": "Salt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.sneak",
+        "source_string": "Sneak",
+        "translation": "Furișare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.mount",
+        "source_string": "Mount ## Board a boat / get on a horse",
+        "translation": "Urcă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.dismount",
+        "source_string": "Dismount ## Leave a boat / get off a horse",
+        "translation": "Coboară",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.lateral_movement",
+        "source_string": "Lateral Movement ## All movement that you do with a joystick/WASD on keyboard. ",
+        "translation": "Mișcă-te lateral",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_forward",
+        "source_string": "Move Forward ## Movement from pushing joystick forward (or pressing W on keyboard)",
+        "translation": "Mișcă-te înainte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_backward",
+        "source_string": "Move Backward",
+        "translation": "Mișcă-te în spate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_left",
+        "source_string": "Move Left",
+        "translation": "Mișcă-te în stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gathering.info.qr.title.console",
         "source_string": "Live Event Stream",
         "translation": "Live stream eveniment",
