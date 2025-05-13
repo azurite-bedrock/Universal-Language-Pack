@@ -7954,7 +7954,863 @@
     {
         "identifier": "commands.inputpermission.move_left",
         "source_string": "Move Left",
-        "translation": "Mișcă-te în stânga",
+        "translation": "Mișcă-te la stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_right",
+        "source_string": "Move Right",
+        "translation": "Mișcă-te la dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.enabled",
+        "source_string": "enabled",
+        "translation": "activate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.disabled",
+        "source_string": "disabled",
+        "translation": "dezactivate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.invalidfilter",
+        "source_string": "'%s' is an invalid filter argument",
+        "translation": "'%s' este un argument de filtrare invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.missingpermission",
+        "source_string": "'permission' has an invalid input",
+        "translation": "'permission' are o intrare invalidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.missingstate",
+        "source_string": "'state' has an invalid input",
+        "translation": "'state' are o intrare invalidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.outputoneplayer",
+        "source_string": "%s input %s for %s  ##1: Input lock category (camera/movement/jump/sneak/mount/etc.) ##2: State (enabled/disabled) ##3: Player name",
+        "translation": "Intrarea %s este %s pentru %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.outputmultipleplayers",
+        "source_string": "%s input %s for %d players  ##1: Input lock category (camera/movement) ##2: State (enabled/disabled) ##3: Player count",
+        "translation": "Intrarea %s este %s pentru %s jucători",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.query",
+        "source_string": "<%s>: %d %s",
+        "translation": "<%s>: %d %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.queryverbose",
+        "source_string": "<%s>: %d enabled | %d disabled",
+        "translation": "<%s>: %d activat | %d dezactivat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.description",
+        "source_string": "Lists all items with the given tag.",
+        "translation": "Listează toate obiectele cu eticheta dată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.single",
+        "source_string": "There is %d item with the tag %s:",
+        "translation": "Există %d obiect cu eticheta %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.multiple",
+        "source_string": "There are %d items with the tag %s:",
+        "translation": "Există %d obiecte cu eticheta %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.list.items",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.fail.noitemsfound",
+        "source_string": "No items contain the tag %s.",
+        "translation": "Niciun obiect nu are eticheta %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.description",
+        "source_string": "Kicks a player from the server.",
+        "translation": "Dă afară un jucător de pe server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.description.edu",
+        "source_string": "Removes a player from the game.",
+        "translation": "Elimină un jucător din joc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.no.player",
+        "source_string": "Please provide the name of the player you want to kick",
+        "translation": "Vă rugăm să introduceți numele jucătorului pe care doriți să îl dați afară",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.not.found",
+        "source_string": "Could not find player %1$s",
+        "translation": "N-a putut găsi jucătorul %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.not.yourself",
+        "source_string": "You may not remove yourself from the game",
+        "translation": "Nu te poți da afară din joc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.success",
+        "source_string": "Kicked %1$s from the game",
+        "translation": "Ai dat afară pe %1$s din joc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.success.reason",
+        "source_string": "Kicked %1$s from the game: '%2$s'",
+        "translation": "Ai dat afară pe %1$s din jocul: „%2$s”",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.success.reasonedu",
+        "source_string": "Removed %1$s from the game: '%2$s'",
+        "translation": "Ai dat afară pe %1$s din jocul: „%2$s”",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.no.host",
+        "source_string": "The host may not be kicked from the game.",
+        "translation": "Gazda nu poate fi dată afară din joc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.no.teacher",
+        "source_string": "Teachers may not be removed from the game.",
+        "translation": "Profesorii nu pot fi dați afară din joc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.attemptKillPlayerCreative.edu",
+        "source_string": "Players cannot be removed while they are in Creative mode.",
+        "translation": "Jucătorii nu pot fi eliminați cât timp sunt în modul creativ.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.attemptKillPlayerCreative",
+        "source_string": "Players cannot be killed while they are in Creative mode.",
+        "translation": "Jucătorii nu pot fi omorâți cât timp sunt în modul creativ.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.successful.edu",
+        "source_string": "Removed %1$s",
+        "translation": "Eliminat %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.successful",
+        "source_string": "Killed %1$s",
+        "translation": "Omorât %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.description.edu",
+        "source_string": "Removes entities (players, mobs, etc.).",
+        "translation": "Elimină entități (jucători, creaturi etc.).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.description",
+        "source_string": "Kills entities (players, mobs, etc.).",
+        "translation": "Elimină entități (jucători, creaturi etc.).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.lesson.description",
+        "source_string": "Handle Educational Lesson reporting.",
+        "translation": "Gestionează raportarea lecției educaționale.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.lesson.success",
+        "source_string": "Success",
+        "translation": "Succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.list.description",
+        "source_string": "Lists players on the server.",
+        "translation": "Listează jucătorii de pe server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.description",
+        "source_string": "Displays the coordinates for the closest structure or biome of a given type.",
+        "translation": "Afișează coordonatele pentru cea mai apropiată structură sau biom de un anumit tip.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.biome.fail",
+        "source_string": "Could not find a biome of type %1$s within a reasonable distance",
+        "translation": "Nu s-a putut găsi un biom de tip %1$s la o distanță rezonabilă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.biome.success",
+        "source_string": "The nearest %1$s is at block %2$s, %3$s, %4$s (%5 blocks away)",
+        "translation": "Cel mai apropiat %1$s este la blocul %2$s, %3$s, %4$s (la distanță de %5 blocuri depărtare)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.fail.noplayer",
+        "source_string": "The command can only be used by a valid player",
+        "translation": "Comanda poate fi folosită doar de un jucător valid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.fail.nostructurefound",
+        "source_string": "No valid structure found within a reasonable distance",
+        "translation": "Nicio structură validă găsită la o distanță rezonabilă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.success",
+        "source_string": "The nearest %1$s is at block %2$s, (y?), %3$s (%4 blocks away)",
+        "translation": "Cel mai apropiat %1$s este la blocul %2$s, (y?), %3$s, (la distanță de %4 blocuri depărtare)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.mainhandOffhandOnNonEntity",
+        "source_string": "Mainhand or offhand should not be used on non entity object.",
+        "translation": "Nu ar trebui să se folosească mâna principală sau mâna secundară la obiecte care nu sunt o entitate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.noContainer",
+        "source_string": "Target position %s is not a container",
+        "translation": "Poziția țintă %s nu este un container",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidSlotIdForSlotType",
+        "source_string": "Could not replace slot %s, slot must be between %d and %d for %s",
+        "translation": "Nu s-a putut înlocui slotul %s, slotul trebuie să fie între %d și %d pentru %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidSlotTypeForEntity",
+        "source_string": "Entity %s does not have SlotType %s",
+        "translation": "Entitatea %s nu are SlotType %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.countExceedsContainerSize",
+        "source_string": "slotId + count exceeds slot container size %d",
+        "translation": "slotId + count depășește dimensiunea containerului de sloturi %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.negativeCount",
+        "source_string": "count cannot be negative a negative number",
+        "translation": "numărul nu poate fi negativ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.success",
+        "source_string": "%1$s items were dropped.",
+        "translation": "%1$s elemente au fost scăpate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess",
+        "source_string": "Replaced %s %d of %s with %d item(s) over %d slot(s)",
+        "translation": "Înlocuit %s %d din %s cu %d articol(e) peste %d slot(uri)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess.block",
+        "source_string": "Replaced %s slot %d with %d item(s) over %d slot(s)",
+        "translation": "Înlocuit slotul %s %d cu %d articol(e) peste %d slot(uri)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.selector.error.moreThanOne",
+        "source_string": "Only one entity is allowed, but the provided selector allows more than one",
+        "translation": "Doar o singură entitate este permisă, dar selectorul furnizat permite mai mult de o entitate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.description",
+        "source_string": "Lists all tags associated with the given item.",
+        "translation": "Listează toate etichetele asociate cu elementul dat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.single",
+        "source_string": "There is %d tag on the item %s:",
+        "translation": "Există o etichetă %d pe obiectul %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.multiple",
+        "source_string": "There are %d tags on the item %s:",
+        "translation": "Există etichetele %d pe obiectul %s:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.list.tags",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.fail.notagsfound",
+        "source_string": "No tags found on the item: %s.",
+        "translation": "Nici o etichetă găsită pe obiectul: %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.toggle",
+        "source_string": "Enables/Disables the content log command",
+        "translation": "Activează/Dezactivează comanda pentru jurnalul de conținut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.enabled",
+        "source_string": "Content Log Enabled",
+        "translation": "Jurnal de conținut activat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.disabled",
+        "source_string": "Content Log Disabled",
+        "translation": "Jurnal de conținut dezactivat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.me.description",
+        "source_string": "Displays a message about yourself.",
+        "translation": "Afișează un mesaj despre tine.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.display.incoming",
+        "source_string": "%1$s whispers to you: %2$s",
+        "translation": "%1$s îți șoptește: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.display.outgoing",
+        "source_string": "You whisper to %1$s: %2$s",
+        "translation": "Șoptești lui %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.sameTarget",
+        "source_string": "You can't send a private message to yourself!",
+        "translation": "Nu îți poți trimite un mesaj privat!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.description",
+        "source_string": "Controls what mob events are allowed to run.",
+        "translation": "Controlează ce evenimente de creatură pot să ruleze.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToTrue",
+        "source_string": "Mob Events are now enabled. Individual events which are set to false will not run.",
+        "translation": "Evenimentele de creatură sunt acum activate. Evenimentele individuale care sunt setate la fals nu vor rula.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToFalse",
+        "source_string": "Mob Events are now disabled. Individual events will not run.",
+        "translation": "Evenimentele de creatură sunt acum dezactivate. Evenimentele individuale nu vor rula.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsTrue",
+        "source_string": "Mob Events are enabled. Individual events which are set to false will not run.",
+        "translation": "Evenimentele de creatură sunt activate. Evenimentele individuale care sunt setate la fals nu vor rula.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsFalse",
+        "source_string": "Mob Events are disabled. Individual events will not run.",
+        "translation": "Evenimentele de creatură sunt dezactivate. Evenimentele individuale nu vor rula.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrue",
+        "source_string": "Mob Event %s (id: %s) set to true.",
+        "translation": "Evenimentul de creatură %s (id: %s) setat la adevărat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) set to true, but Mob Events are disabled.",
+        "translation": "Evenimentul de creatură %s (id: %s) setat la adevărat, dar evenimentele de creatură sunt dezactivate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToFalse",
+        "source_string": "Mob Event %s (id: %s) set to false.",
+        "translation": "Evenimentul de creatură %s (id: %s) setat la fals.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrue",
+        "source_string": "Mob Event %s (id: %s) is set to true.",
+        "translation": "Evenimentul de creatură %s (id: %s) este setat la adevărat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) is set to true, but Mob Events are disabled.",
+        "translation": "Evenimentul de creatură %s (id: %s) este setat la adevărat, dar evenimentele de creatură sunt dezactivate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsFalse",
+        "source_string": "Mob Event %s (id: %s) is set to false.",
+        "translation": "Evenimentul de creatură %s (id: %s) este setat la fals.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.description",
+        "source_string": "Allows you to control playing music tracks.",
+        "translation": "Îți permite să controlezi redarea pieselor muzicale.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.failure.emptyTrackName",
+        "source_string": "You must provide a non-empty track name.",
+        "translation": "Trebuie să introduceți un nume de melodie care nu este gol.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.queueAction",
+        "source_string": "%s has been queued and it will start playing when the current track stops.",
+        "translation": "%s a fost pus în coadă și va începe redarea când melodia curentă se oprește.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.playAction",
+        "source_string": "%s has been queued to start playing.",
+        "translation": "%s a fost pus în coadă pentru a începe redarea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.stopAction",
+        "source_string": "Custom music will stop now.",
+        "translation": "Muzica personalizată se va opri acum.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.volumeAction",
+        "source_string": "Music volume will be updated to %d.",
+        "translation": "Volumul muzicii va fi actualizat la %d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.description",
+        "source_string": "Grants operator status to a player.",
+        "translation": "Acordă statutul de operator unui jucător.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.failed",
+        "source_string": "Could not op (already op or higher): %s",
+        "translation": "Nu s-a putut acorda operator (deja operator sau mai mare): %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.success",
+        "source_string": "Opped: %s",
+        "translation": "Acordat operator: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.message",
+        "source_string": "You have been opped",
+        "translation": "Ați devenit operator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.operator.invalid",
+        "source_string": "Invalid operation %1$s.",
+        "translation": "Operațiune invalidă %1$s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.commandblock",
+        "source_string": "CommandBlock",
+        "translation": "Bloc de comenzi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.external",
+        "source_string": "External",
+        "translation": "Externă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.devconsole",
+        "source_string": "DevConsole",
+        "translation": "DevConsole",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.script",
+        "source_string": "Script Engine",
+        "translation": "Motor Script",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.scriptDebugger",
+        "source_string": "Script Debugger",
+        "translation": "Depanator Script",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.server",
+        "source_string": "Server",
+        "translation": "Server",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.teacher",
+        "source_string": "Teacher",
+        "translation": "Profesor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ops.description",
+        "source_string": "Reloads and applies Op permissions.",
+        "translation": "Reîncarcă și aplică permisiunile de operator.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ops.reloaded",
+        "source_string": "Ops reloaded from file.",
+        "translation": "Operatori reîncărcați din fișier.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ops.set.success",
+        "source_string": "Succeeded in setting operator level for player %s.",
+        "translation": "S-a reușit setarea nivelului de operator pentru jucătorul %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.description",
+        "source_string": "Reloads and applies permissions.",
+        "translation": "Reîncarcă și aplică permisiunile.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "command.permissions.list.fail.filenotfound",
+        "source_string": "Failed to list permissions from file, file not found.",
+        "translation": "Eșuare la afișarea permisiunilor din fișier, fișierul nu a fost găsit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.reloaded",
+        "source_string": "Permissions reloaded from file.",
+        "translation": "Permisiuni reîncărcate din fișier.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "command.permissions.reload.fail.filenotfound",
+        "source_string": "Failed to reload permissions from file, file not found.",
+        "translation": "Eșuare la reîncărcarea permisiunilor din fișier, fișierul nu a fost găsit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.set.failed",
+        "source_string": "Could not set permission level %s for player %s.",
+        "translation": "Nu s-a putut stabili nivelul de permisiune %s pentru jucătorul %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.set.success",
+        "source_string": "Succeeded in setting permission level %s for player %s.",
+        "translation": "S-a reușit setarea nivelului de permisiuni %s pentru jucătorul %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.save.failed",
+        "source_string": "Could not save permission level %s for player %s.",
+        "translation": "Nu s-a putut salva nivelul de permisiune %s pentru jucătorul %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.save.success",
+        "source_string": "Succeeded in saving permission level %s for player %s.",
+        "translation": "S-a reușit salvarea nivelului de permisiuni %s pentru jucătorul %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnParticleEmitter.description",
+        "source_string": "Creates a particle emitter",
+        "translation": "Creează un emițător de particule",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnParticleEmitter.success",
+        "source_string": "Request to create %1$s sent to all players.",
+        "translation": "Cerere de a crea %1$s trimisă tuturor jucătorilor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.particle.description",
+        "source_string": "Creates particles.",
+        "translation": "Creează particule.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.particle.notFound",
+        "source_string": "Unknown effect name (%1$s)",
+        "translation": "Nume efect necunoscut (%1$s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.particle.success",
+        "source_string": "Playing effect %1$s for %2$d times",
+        "translation": "Se redă efectul %1$s de %2$d ori",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
