@@ -8280,9 +8280,33 @@
         "max_length": null
     },
     {
+        "identifier": "commands.loot.description",
+        "source_string": "Drops the given loot table into the specified inventory or into the world.",
+        "translation": "Întoarce tabelul de recompense dat în inventarul specificat sau în lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidLootTable",
+        "source_string": "Loot table '%1$s' not found",
+        "translation": "Tabelul de recompense „%1$s” nu a fost găsit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.loot.failure.mainhandOffhandOnNonEntity",
         "source_string": "Mainhand or offhand should not be used on non entity object.",
         "translation": "Nu ar trebui să se folosească mâna principală sau mâna secundară la obiecte care nu sunt o entitate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.entityNoLootTable",
+        "source_string": "Entity %1$s has no loot table",
+        "translation": "Entitatea %1$s nu are tabel de recompense",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8811,6 +8835,390 @@
         "identifier": "commands.particle.success",
         "source_string": "Playing effect %1$s for %2$d times",
         "translation": "Se redă efectul %1$s de %2$d ori",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.chunknotloaded.error",
+        "source_string": "Feature placement failed. Not all chunks are loaded.",
+        "translation": "Plasarea caracteristicilor a eșuat. Nu toate bucățile sunt încărcate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.error",
+        "source_string": "Place command failed.",
+        "translation": "Comanda de plasare a eșuat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidfeature.error",
+        "source_string": "Invalid feature name.",
+        "translation": "Nume caracteristică invalid.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidfeaturerule.error",
+        "source_string": "Invalid feature rule name.",
+        "translation": "Nume regulă caracteristică invalid.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidposition.error",
+        "source_string": "Feature could not be placed at this location.",
+        "translation": "Caracteristica nu a putut fi plasată la această locație.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidstructure.error",
+        "source_string": "Invalid structure name.",
+        "translation": "Nume structură invalid.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.maxdepth.error",
+        "source_string": "Invalid max depth. Value must be between 1 and 20.",
+        "translation": "Adâncime maximă invalidă. Valoarea trebuie să fie între 1 și 20.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.success",
+        "source_string": "Place command succeeded.",
+        "translation": "Comanda de plasare a reușit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playanimation.description",
+        "source_string": "Makes one or more entities play a one-off animation. Assumes all variables are setup correctly.",
+        "translation": "Face una sau mai multe entități să joace o singură animație. Asumă faptul că toate variabilele sunt setate corect.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playanimation.success",
+        "source_string": "Animation request sent to clients for processing.",
+        "translation": "Cerere de animație trimisă clienților în vederea prelucrării.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.players.list",
+        "source_string": "There are %1$d/%2$d players online:",
+        "translation": "Sunt %1$d/%2$d jucători online:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.players.list.names",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.description",
+        "source_string": "Plays a sound.",
+        "translation": "Redă un sunet.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.playerTooFar",
+        "source_string": "Player %1$s is too far away to hear the sound",
+        "translation": "Jucătorul %1$s este prea departe pentru a auzi sunetul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.success",
+        "source_string": "Played sound '%1$s' to %2$s",
+        "translation": "A fost redat sunetul '%1$s' lui %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.position.description",
+        "source_string": "Toggles on/off coordinates for player.",
+        "translation": "Activetază/dezactivează coordonatele pentru jucător.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.publish.failed",
+        "source_string": "Unable to host local game",
+        "translation": "Nu se poate găzdui jocul local",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.publish.started",
+        "source_string": "Local game hosted on port %1$s",
+        "translation": "Joc local găzduit pe portul %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.querytarget.description",
+        "source_string": "Gets transform, name, and id information about the given target entity or entities.",
+        "translation": "Obține informații de transformare, nume și id despre entitatea sau entitățile țintă date.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.querytarget.success",
+        "source_string": "Target data: %1$s",
+        "translation": "Date țintă: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.description",
+        "source_string": "Unlocks recipe in the recipe book for a player.",
+        "translation": "Deblochează rețeta din cartea de rețete a unui jucător.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.unlockedAllRecipes",
+        "source_string": "Unlocked all recipes for %1$s.",
+        "translation": "S-au deblocat toate rețetele pentru %1$s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.removedAllRecipes",
+        "source_string": "Removed all recipes for %1$s.",
+        "translation": "S-au șters toate rețetele pentru %1$s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.unlockedRecipe",
+        "source_string": "Unlocked recipe for %1$s: %2$s",
+        "translation": "Rețetă deblocată pentru %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.removedRecipe",
+        "source_string": "Removed recipe for %1$s: %2$s",
+        "translation": "Rețetă ștearsă pentru %1$s: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.playerHasRecipe",
+        "source_string": "%1$s already has recipe unlocked: %2$s",
+        "translation": "%1$s are deja rețeta deblocată: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.playerDoesNotHaveRecipe",
+        "source_string": "%1$s does not have the recipe: %2$s",
+        "translation": "%1$s nu are rețeta: %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.notFound",
+        "source_string": "The recipe could not be found.",
+        "translation": "Rețeta nu a putut fi găsită.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.notUnlockable",
+        "source_string": "The recipe is not unlockable in the recipe book.",
+        "translation": "Reţeta nu poate fi deblocată în cartea de reţete.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.all.description",
+        "source_string": "Reloads all function and script files from all behavior packs, or optionally reloads the world and all resource and behavior packs.",
+        "translation": "Reîncarcă toate funcțiile și fișierele script din toate pachetele de comportament, sau opțional reîncarcă lumea și toate resursele și pachetele de comportament.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.description",
+        "source_string": "Reloads all function and script files from all behavior packs.",
+        "translation": "Reîncarcă toate funcțiile și fișierele script din toate pachetele de comportament.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.started",
+        "source_string": "Reloading the world has been started.",
+        "translation": "Reîncărcarea lumii a început.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.success",
+        "source_string": "Function and script files have been reloaded.",
+        "translation": "Funcțiile și fișierele script au fost reîncărcate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.error",
+        "source_string": "An unexpected error occurred.",
+        "translation": "A apărut o eroare neașteptată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.onlyHost",
+        "source_string": "Only host player can reload the world.",
+        "translation": "Doar jucătorul gazdă poate reîncărca lumea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.description",
+        "source_string": "Replaces items in inventories.",
+        "translation": "Înlocuiește elemente din inventare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.failed",
+        "source_string": "Could not replace %s slot %d with %d * %s",
+        "translation": "Nu s-a putut înlocui slotul %s %d cu %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.keepFailed",
+        "source_string": "There is already an item occupying %s slot %d.",
+        "translation": "Există deja un obiect care ocupă slot %s %d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.noContainer",
+        "source_string": "Block at %s is not a container",
+        "translation": "Blocul de la %s nu este un container",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.badSlotNumber",
+        "source_string": "Could not replace slot %d, must be a value between %d and %d.",
+        "translation": "Nu s-a putut înlocui slotul %d, trebuie să fie între %d și %d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success",
+        "source_string": "Replaced %s slot %d with %d * %s",
+        "translation": "S-a înlocuit slotul %s %d cu %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success.entity",
+        "source_string": "Replaced %s slot %d of %s with %d * %s",
+        "translation": "S-a înlocuit slotul %s %d din %s cu %d * %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Analiza datelor a eșuat: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.description",
+        "source_string": "Makes entities ride other entities, stops entities from riding, makes rides evict their riders, or summons rides or riders.",
+        "translation": "Face ca entitățile să călărească alte entități, oprește călăritul entităților, evacuează pasagerii sau generează curse sau pasageri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.evictRiders.success",
+        "source_string": "Rides that have successfully evicted their riders: %1$s",
+        "translation": "Curse care au evacuat cu succes pasagerii: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.failure",
+        "source_string": "Riders that did not meet ride conditions: %1$s",
+        "translation": "Pasageri care nu au îndeplinit condițiile de cursă: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.groupDoesntFit",
+        "source_string": "The group of riders does not fit on the ride.",
+        "translation": "Grupul de pasageri nu încape în cursă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.notRideable",
+        "source_string": "The selected entity is not rideable.",
+        "translation": "Entitatea selectată nu poate fi călărită.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
