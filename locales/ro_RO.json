@@ -9224,6 +9224,366 @@
         "max_length": null
     },
     {
+        "identifier": "commands.ride.startRiding.rideFull",
+        "source_string": "This ride is already full.",
+        "translation": "Această cursă este deja plină.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.rideFullRidersLeft",
+        "source_string": "The ride is full, so some riders were not added.",
+        "translation": "Cursa este plină, deci nu au fost adăugați câțiva pasageri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.success",
+        "source_string": "Riders successfully added to ride: %1$s",
+        "translation": "Pasageri adăugați cu succes la cursă: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.tooManyRiders",
+        "source_string": "Too many riders were specified. Only one is allowed at a time for teleport_ride.",
+        "translation": "Prea mulți pasageri au fost specificați. Doar unul este permis pentru teleport_ride.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.tooManyRides",
+        "source_string": "Too many rides were specified. Only one is allowed at a time.",
+        "translation": "Prea mulți curse specificate odată. Doar una este permisă odată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.stopRiding.success",
+        "source_string": "Riders that have successfully stopped riding: %1$s",
+        "translation": "Călători care s-au oprit din călărit cu succes: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.failed",
+        "source_string": "Rides were summoned, but these riders could not be added to them: %1$s",
+        "translation": "Au fost generate curse, dar acești pasageri nu au putut fi adăugați la ele: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.notRideable",
+        "source_string": "Entity was summoned, but it is not rideable.",
+        "translation": "Entitatea a fost generată, dar nu poate fi călărită.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.success",
+        "source_string": "Ride successfully summoned for these riders: %1$s",
+        "translation": "Curse generate cu succes pentru pasagerii: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.skipped",
+        "source_string": "Rides were not summoned for the following entities that already have rides: %1$s",
+        "translation": "Curse nu au fost generate pentru următoarele entități care au deja curse: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.failed",
+        "source_string": "Riders were summoned, but could not be added to rides: %1$s",
+        "translation": "Au fost generați pasageri, dar nu au putut fi adăugați la cursele: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.fullRides",
+        "source_string": "Riders could not ride these rides because they are full: %1$s",
+        "translation": "Pasagerii nu au putut călări aceste curse deoarece sunt pline: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.ridesWithNoRideableComp",
+        "source_string": "The following entities are not rideable: %1$s",
+        "translation": "Următoarele entități nu pot fi călărite: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.success",
+        "source_string": "Riders successfully summoned for rides: %1$s",
+        "translation": "Pasageri generați cu succes pentru cursele: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.description",
+        "source_string": "Control or check how the game saves data to disk.",
+        "translation": "Controlează sau verifică modul in care salvează jocul datele pe disc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.disabled",
+        "source_string": "Turned off world auto-saving",
+        "translation": "S-a oprit auto-salvarea lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.enabled",
+        "source_string": "Turned on world auto-saving",
+        "translation": "S-a pornit auto-salvarea lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.failed",
+        "source_string": "Saving failed: %1$s",
+        "translation": "Salvarea a eșuat: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.start",
+        "source_string": "Saving...",
+        "translation": "Se salvează...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.success",
+        "source_string": "Saved the world",
+        "translation": "S-a salvat lumea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-all.error",
+        "source_string": "An error occurred when trying to pause the world storage.",
+        "translation": "A apărut o eroare la încercarea de a întrerupe stocarea lumii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-all.success",
+        "source_string": "Data saved. Files are now ready to be copied.",
+        "translation": "Date salvate. Fișierele sunt acum gata pentru copiere.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-off.alreadyOff",
+        "source_string": "Saving is already turned off.",
+        "translation": "Salvarea este deja dezactivată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.alreadyOn",
+        "source_string": "Saving is already turned on.",
+        "translation": "Salvarea este deja activată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.notDone",
+        "source_string": "A previous save has not been completed.",
+        "translation": "O salvare anterioară nu a fost finalizată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.description",
+        "source_string": "Enables automatic server saves.",
+        "translation": "Activează salvările automate ale serverului.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.success",
+        "source_string": "Changes to the world are resumed.",
+        "translation": "Schimbările din lume sunt reluate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-state.description",
+        "source_string": "Checks if a previous save-all has finished and lists the files involved.",
+        "translation": "Verifică dacă salvarea-totală s-a terminat și enumeră fișierele implicate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.say.description",
+        "source_string": "Sends a message in the chat to other players.",
+        "translation": "Trimite un mesaj în chat către alți jucători.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.delay.functionQueued",
+        "source_string": "Scheduled function %1$s in %2$d ticks at gametime %3$d.",
+        "translation": "Funcția %1$s programată în %2$d tick-uri la momentul jocului %3$d.",
+        "context": "1: Name of the mcfunction ##2: Duration (in game ticks) of the delay length ##3: The end game time (in ticks) when the function will run",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.delay.negativeTime",
+        "source_string": "Time cannot be negative.",
+        "translation": "Timpul nu poate fi negativ.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.description",
+        "source_string": "Schedules an action to be executed once an area is loaded, or after a certain amount of time.",
+        "translation": "Programează o acțiune să fie executată odată ce o zonă este încărcată sau după ce a trecut un timp.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.functionQueued",
+        "source_string": "Function has been queued and it will be executed when the specified area is fully loaded.",
+        "translation": "Funcția a fost pusă în coadă și va fi executată atunci când zona specificată este complet încărcată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.functionRan",
+        "source_string": "Successfully executed %1$d function entries in function %2$s.",
+        "translation": "S-a executat cu succes %1$d intrări de funcții din funcția %2$s.",
+        "context": "1: Number of functions that were ran ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.invalidOrigin",
+        "source_string": "The origin needed to execute this function was invalid.",
+        "translation": "Originea necesară pentru a executa această funcție a fost invalidă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.name.empty",
+        "source_string": "Ticking area name cannot be empty.",
+        "translation": "Numele zonei de tick-uri nu poate fi gol.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.too.many.areas",
+        "source_string": "More than one ticking areas were found with the name %s. Please use a single area.",
+        "translation": "Au fost găsite mai multe zone de tick-uri cu numele %s. Vă rugăm să folosiți o singură zonă.",
+        "context": "1: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.clear.failure",
+        "source_string": "No functions were removed with the name %1$s.",
+        "translation": "Nu a fost eliminată nicio funcție cu numele %1$s.",
+        "context": "1: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.clear.success",
+        "source_string": "Removed %1$d functions with the name %2$s.",
+        "translation": "%1$d funcții eliminate cu numele %2$s.",
+        "context": "1: Number of functions cleared ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.clear.success",
+        "source_string": "Removed %1$d functions with the ticking area name %2$s.",
+        "translation": "%1$d funcții eliminate cu numele zonei de tick-uri %2$s.",
+        "context": "1: Name of selected ticking area ##2: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.clear.failure",
+        "source_string": "No functions were removed with the ticking area name %1$s.",
+        "translation": "Nu a fost eliminată nicio funcție cu numele zonei de tick-uri %1$s.",
+        "context": "1: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.func.clear.success",
+        "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
+        "translation": "%1$d funcții eliminate cu numele zonei de tick-uri %2$s și numele %3$s.",
+        "context": "1: Number of functions cleared ##2: Name of selected ticking area ##3: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.func.clear.failure",
+        "source_string": "No functions were removed with the ticking area name %1$s and with name %2$s.",
+        "translation": "Nu a fost eliminată nicio funcție cu numele zonei de tick-uri %1$s și numele %2$s.",
+        "context": "1: Name of selected ticking area ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.description",
+        "source_string": "Tracks and displays scores for various objectives.",
+        "translation": "Urmărește și afișează scoruri pentru diferite obiective.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.allMatchesFailed",
+        "source_string": "All matches failed",
+        "translation": "Toate potrivirile au eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gathering.info.qr.title.console",
         "source_string": "Live Event Stream",
         "translation": "Live stream eveniment",
