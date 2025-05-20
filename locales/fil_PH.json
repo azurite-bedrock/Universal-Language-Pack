@@ -1666,7 +1666,7 @@
     {
         "identifier": "accessibility.emotes.unassigned",
         "source_string": "Unassigned",
-        "translation": "Walang nakalagay",
+        "translation": "Di-nakatatag",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13098,7 +13098,7 @@
     {
         "identifier": "controllerLayoutScreen.confirmation.unassigned",
         "source_string": "Save with unassigned actions?",
-        "translation": "I-save kasama ang hindi nahalilihang aksiyon?",
+        "translation": "I-save kasama ang di-nakatatag na aksiyon?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13138,7 +13138,7 @@
     {
         "identifier": "controllerLayoutScreen.unassigned",
         "source_string": "Unassigned",
-        "translation": "Hindi Nahalilihan",
+        "translation": "Di-nakatatag",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13882,7 +13882,7 @@
     {
         "identifier": "createWorld.customize.custom.lavaLakeChance",
         "source_string": "Lava Lake Rarity",
-        "translation": "Pagkadalang ng Lawa ng Kumukulong Putik",
+        "translation": "Pagkadalang ng Lawa ng Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14130,7 +14130,7 @@
     {
         "identifier": "createWorld.customize.custom.useLavaLakes",
         "source_string": "Lava Lakes",
-        "translation": "Lawa ng Kumukulong Putik",
+        "translation": "Lawa ng Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14138,7 +14138,7 @@
     {
         "identifier": "createWorld.customize.custom.useLavaOceans",
         "source_string": "Lava Oceans",
-        "translation": "Dagat ng Kumukulong Putik",
+        "translation": "Dagat ng Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20178,7 +20178,7 @@
     {
         "identifier": "death.attack.lava",
         "source_string": "%1$s tried to swim in lava",
-        "translation": "Tumampisaw si %1$s sa kumukulong putik",
+        "translation": "Tumampisaw si %1$s sa lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20186,7 +20186,7 @@
     {
         "identifier": "death.attack.lava.player",
         "source_string": "%1$s tried to swim in lava to escape %2$s",
-        "translation": "Tumampisaw si %1$s sa kumukulong putik para takasan ang/si %2$s",
+        "translation": "Tumampisaw si %1$s sa lava para takasan ang/si %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20226,7 +20226,7 @@
     {
         "identifier": "death.attack.magma",
         "source_string": "%1$s discovered the floor was lava",
-        "translation": "Nalaman ni %1$s na kumukulong putik ang sahig",
+        "translation": "Nalaman ni %1$s na lava ang sahig",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38538,7 +38538,7 @@
     {
         "identifier": "item.bucketLava.name",
         "source_string": "Lava Bucket",
-        "translation": "Balde ng Kumukulong Putik",
+        "translation": "Balde ng Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39218,7 +39218,7 @@
     {
         "identifier": "item.warped_fungus_on_a_stick.name",
         "source_string": "Warped Fungus on a Stick",
-        "translation": "Bingkong na Halamang-singaw sa Tungkod",
+        "translation": "Kiwal na Kabuti sa Tungkod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39490,7 +39490,7 @@
     {
         "identifier": "item.warped_door.name",
         "source_string": "Warped Door",
-        "translation": "Bingkong na Pinto",
+        "translation": "Kiwal na Pinto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41986,7 +41986,7 @@
     {
         "identifier": "item.warped_sign.name",
         "source_string": "Warped Sign",
-        "translation": "Bingkong na Karatula",
+        "translation": "Kiwal na Karatula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60074,7 +60074,7 @@
     {
         "identifier": "tile.mangrove_propagule.name",
         "source_string": "Mangrove Propagule",
-        "translation": "Bakawang Propagyul",
+        "translation": "Punla ng Bakawan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -64042,7 +64042,7 @@
     {
         "identifier": "stat.enderchestOpened",
         "source_string": "Ender Chests Opened",
-        "translation": "Baul ng Ender na Binuksan",
+        "translation": "Baul ng End na Binuksan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69280,6 +69280,438 @@
         "max_length": null
     },
     {
+        "identifier": "stream.confirm_start",
+        "source_string": "Are you sure you want to start broadcasting?",
+        "translation": "Gusto mo ba talagang magsimulang mag-broadcast?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.account_not_bound",
+        "source_string": "Before you can broadcast Minecraft through Twitch, you will need to link your Twitch account on mojang.com. Would you like to do that now?",
+        "translation": "Bago mo i-broadcast ang Minecraft sa Twitch, kailangan mo munang i-link ang iyong Twitch account sa mojang.com. Gusto mo na bang gawin iyon ngayon?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.account_not_bound.okay",
+        "source_string": "Link Accounts",
+        "translation": "I-link ang Account",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.account_not_migrated",
+        "source_string": "Before you can broadcast Minecraft through Twitch, you will need to migrate your Minecraft account to a Mojang account. Would you like to do that now?",
+        "translation": "Bago mo i-broadcast ang Minecraft sa Twitch, kailangan mo munang ilipat ang iyong Minecraft account sa isang Mojang account. Gusto mo na ba iyong gawin?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.account_not_migrated.okay",
+        "source_string": "Migrate Account",
+        "translation": "Ilipat ang Account",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.failed_auth",
+        "source_string": "Authentication to Twitch failed. Please go to mojang.com and rebind your Twitch account.",
+        "translation": "Nabigong mag-awtentika sa Twitch. Pumunta sa mojang.com para itatag uli ang Twitch account mo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.failed_auth.okay",
+        "source_string": "Rebind Accounts",
+        "translation": "Itatag Uli ang Account",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.failed_auth_error",
+        "source_string": "Unable to authenticate to Twitch. Please try again later.",
+        "translation": "Hindi makapag-awtentika sa Twitch. Subukang muli mamaya.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.initialization_failure",
+        "source_string": "Unable to initialize the Twitch SDK.",
+        "translation": "Hindi mainisyalisa ang Twitch SDK.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.initialization_failure.extra",
+        "source_string": "(Reason: %s)",
+        "translation": "(Dahilan: %s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.library_arch_mismatch",
+        "source_string": "The custom java version used to launch Minecraft has a different architecture than the one used to run the launcher. Please make sure these are the same, either 32-bit or 64-bit for both.",
+        "translation": "Ang custom na java na version na ginamit para i-launch ang Minecraft ay may ibang arkitektura sa ginagamit ng launcher. Siguraduhing parehas ang mga ito, 32-bit man o 64-bit para sa dalawa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.library_failure",
+        "source_string": "Unable to load the libraries needed for the integrated Twitch broadcasting service.",
+        "translation": "Hindi ma-load ang mga library na kailangan sa integradong serbisyong pang-broadcast ng Twitch.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.no_fbo",
+        "source_string": "Your video card needs to support at least OpenGL version 3.0 or support Framebuffer Objects via an extension to use the integrated Twitch broadcasting.",
+        "translation": "Kailangan ng mahigit na OpenGL version 3.0 ang video card mo o sumusuporta ito ng mga Framebuffer Object sa pamamagitan ng isang extension para gamitin ang integradong pag-broadcast ng Twitch.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.no_fbo.arb",
+        "source_string": "Framebuffer object support via ARB is: %s",
+        "translation": "Ang suporta sa framebuffer object sa pamamagitan ng ARB ay: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.no_fbo.blend",
+        "source_string": "Separate blending support via EXT is: %s",
+        "translation": "Ang suporta sa separate blending sa pamamagitan ng EXT ay: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.no_fbo.ext",
+        "source_string": "Framebuffer object support via EXT is: %s",
+        "translation": "Ang suporta sa framebuffer object sa pamamagitan ng EXT ay: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.no_fbo.version",
+        "source_string": "You are currently using: %s",
+        "translation": "Kasalukuyan mong ginagamit ang: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.not_supported.mac",
+        "source_string": "Unfortunately the integrated Twitch broadcasting on Mac requires a version of OSX newer than the one you are on. You must use 10.7 (Mac OS X Lion) or newer to be able to use this service. Would you like to visit apple.com to learn about upgrading?",
+        "translation": "Sa kasamaang-palad kailangan ng integradong pag-broadcast ng Twitch sa Mac ng version ng OSX na mas bago sa gamit mo. Kailangan mo gumamit ng 10.7 (Mac OS X Lion) o mas bago para magamit itong serbisyo. Gusto mo bang bisitahin ang apple.com para matuto sa pag-upgrade?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.not_supported.mac.okay",
+        "source_string": "Upgrade",
+        "translation": "Mag-upgrade",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.not_supported.other",
+        "source_string": "Unfortunately the integrated Twitch broadcasting service requires Windows (Vista or newer) or Mac OS X (10.7/Lion or newer)",
+        "translation": "Sa kasamaang-palad kailangan ng integradong serbisyong pang-broadcast ng Twitch ng Windows (Vista o mas bago) o ng Mac OS X (10.7/Lion o mas bago)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.not_supported.windows",
+        "source_string": "Unfortunately the integrated Twitch broadcasting requires a newer version of Windows than you are on. You must have at least Windows Vista or newer.",
+        "translation": "Sa kasamaang-palad kailangan ng integradong pag-broadcast ng Twitch ng mas bagong version ng Windows na mas bago sa gamit mo. Kailangan mo ng mahigit na Windows Vista o mas bago.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.report_to_mojang",
+        "source_string": "Report to Mojang",
+        "translation": "Iulat sa Mojang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.soundflower.chat",
+        "source_string": "Soundflower is required to be able to stream on Mac. %s",
+        "translation": "Kailangan ang Soundflower para makapag-stream sa Mac. %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.soundflower.chat.link",
+        "source_string": "Please click here to install it.",
+        "translation": "Pindutin ito para i-install.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.title",
+        "source_string": "Twitch Broadcasting Unavailable",
+        "translation": "Unavailable ang Pag-broadcast ng Twitch",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.unknown",
+        "source_string": "Unfortunately you cannot broadcast to Twitch at this time. And we don't know why :'(",
+        "translation": "Sa kasamaang-palad hindi ka makapagbo-broadcast ngayon sa Twitch ngayong oras. At 'di namin alam kung bakit :'(",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.unknown.chat",
+        "source_string": "Could not start stream: %s",
+        "translation": "Hindi masimulan ang stream: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.administrator",
+        "source_string": "Twitch Administrator",
+        "translation": "Twitch Administrator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.banned",
+        "source_string": "Banned",
+        "translation": "Banned",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.banned.other",
+        "source_string": "Banned on %s's channel",
+        "translation": "Naka-ban sa channel ni %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.banned.self",
+        "source_string": "Banned on your channel",
+        "translation": "Naka-ban sa channel mo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.broadcaster",
+        "source_string": "Broadcaster",
+        "translation": "Broadcaster",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.broadcaster.other",
+        "source_string": "Broadcaster",
+        "translation": "Broadcaster",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.broadcaster.self",
+        "source_string": "Broadcaster (You!)",
+        "translation": "Broadcaster (Ikaw!)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.moderator",
+        "source_string": "Moderator",
+        "translation": "Moderator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.moderator.other",
+        "source_string": "Moderator on %s's channel",
+        "translation": "Moderator sa channel ni %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.moderator.self",
+        "source_string": "Moderator on your channel",
+        "translation": "Moderator sa channel mo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.mode.staff",
+        "source_string": "Twitch Staff",
+        "translation": "Twitch Staff",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.subscription.subscriber",
+        "source_string": "Subscriber",
+        "translation": "Subscriber",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.subscription.subscriber.other",
+        "source_string": "Subscriber to %s's channel",
+        "translation": "Subscriber sa channel ni %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.subscription.subscriber.self",
+        "source_string": "Subscriber to your channel",
+        "translation": "Subscriber sa channel mo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.user.subscription.turbo",
+        "source_string": "Twitch Turbo",
+        "translation": "Twitch Turbo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.userinfo.ban",
+        "source_string": "Ban",
+        "translation": "I-ban",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.userinfo.chatTooltip",
+        "source_string": "Click to manage user",
+        "translation": "Pindutin para pamahalaan ang user",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.userinfo.mod",
+        "source_string": "Promote to Moderator",
+        "translation": "I-promote sa Moderator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.userinfo.timeout",
+        "source_string": "Timeout",
+        "translation": "Timeout",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.userinfo.unban",
+        "source_string": "Unban",
+        "translation": "I-unban",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.userinfo.unmod",
+        "source_string": "Demote from Moderator",
+        "translation": "Tanggalin sa Pagka-moderator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profanity_filter.title",
+        "source_string": "Profanity Filter",
+        "translation": "Filter sa Masamang Salita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profanity_filter.msg",
+        "source_string": "The text you entered contains words that others may find offensive and cannot be used. Please try again.",
+        "translation": "May lamang masamang salita ang sulat mo na maaaring makasira at hindi ito magagamit. Subukang muli.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "terms_and_conditions.goBack",
+        "source_string": "Go Back",
+        "translation": "Bumalik",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "terms_and_conditions.viewTermsAndConditions",
+        "source_string": "To view terms and conditions, please visit https://minecraft.net/terms in any web browser.",
+        "translation": "Para tingnan ang termino at tuntunin,, pakibisita ang https://minecraft.net/terms sa anumang web browser.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "textToIcon.touch.assigment.attack",
+        "source_string": "TAP",
+        "translation": "PINDOT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "textToIcon.touch.assigment.use",
+        "source_string": "LONG TAP",
+        "translation": "MAHABANG PINDOT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.acaciaFence.name",
         "source_string": "Acacia Fence",
         "translation": "Akasyang Bakod",
@@ -69290,7 +69722,7 @@
     {
         "identifier": "tile.acacia_fence_gate.name",
         "source_string": "Acacia Fence Gate",
-        "translation": "Akasya Tarangkahan",
+        "translation": "Akasyang Tarangkahan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69306,7 +69738,7 @@
     {
         "identifier": "tile.allow.name",
         "source_string": "Allow",
-        "translation": "Payag",
+        "translation": "Tanggap",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69322,7 +69754,7 @@
     {
         "identifier": "tile.unknown.name",
         "source_string": "Unknown",
-        "translation": "Hindi Kilala",
+        "translation": "Di-alam",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69378,7 +69810,7 @@
     {
         "identifier": "tile.barrier.name",
         "source_string": "Barrier",
-        "translation": "Hadlang",
+        "translation": "Barrier",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69394,7 +69826,7 @@
     {
         "identifier": "tile.beacon.primary",
         "source_string": "Primary Power",
-        "translation": "Pangunahing Kapangyarihan",
+        "translation": "Pangunahing Lakas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69402,7 +69834,7 @@
     {
         "identifier": "tile.beacon.secondary",
         "source_string": "Secondary Power",
-        "translation": "Pangalawang Kapangyarihan",
+        "translation": "Pangalawang Lakas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69458,7 +69890,7 @@
     {
         "identifier": "tile.bed.noSleep",
         "source_string": "You can only sleep at night and during thunderstorms",
-        "translation": "Makakatulog ka lamang sa gabi o habang kumikidlat",
+        "translation": "Makatutulog ka lamang ng gabi at nang bumabagyo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69466,7 +69898,7 @@
     {
         "identifier": "tile.bed.notSafe",
         "source_string": "You may not rest now, there are monsters nearby",
-        "translation": "Hindi ka makakatulog ngayon, may mga halimaw sa malapit",
+        "translation": "Hindi ka makatutulog ngayon, may malapit na halimaw",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69474,7 +69906,7 @@
     {
         "identifier": "tile.bed.notValid",
         "source_string": "Your home bed was missing or obstructed",
-        "translation": "Ang iyong pangunihang kama ay nawawala o nakaharang",
+        "translation": "Nawawala o nahaharangan ang iyong tahanang kama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69482,7 +69914,7 @@
     {
         "identifier": "tile.bed.occupied",
         "source_string": "This bed is occupied",
-        "translation": "Ang iyong kama ay okupado",
+        "translation": "Ginagamit na ang kamang ito",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69490,7 +69922,7 @@
     {
         "identifier": "tile.bed.respawnSet",
         "source_string": "Respawn point set",
-        "translation": "Na-set na ang iyong punto ng muling pagkabuhay",
+        "translation": "Na-set na ang respawn point",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69498,7 +69930,7 @@
     {
         "identifier": "tile.bed.tooFar",
         "source_string": "Bed is too far away",
-        "translation": "Masyadong malayo ang iyong kama",
+        "translation": "Masyadong malayo ang kama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69506,7 +69938,7 @@
     {
         "identifier": "tile.bed.obstructed",
         "source_string": "Bed is obstructed",
-        "translation": "Nakaharang ang iyong kama",
+        "translation": "Nahaharangan ang kama",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69634,7 +70066,7 @@
     {
         "identifier": "tile.cave_vines.name",
         "source_string": "Cave Vines",
-        "translation": "Kuwebang Baging",
+        "translation": "Baging-yungib",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69642,7 +70074,7 @@
     {
         "identifier": "tile.cave_vines_body_with_berries.name",
         "source_string": "Cave Vines",
-        "translation": "Kuwebang Baging",
+        "translation": "Baging-yungib",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69650,7 +70082,7 @@
     {
         "identifier": "tile.cave_vines_head_with_berries.name",
         "source_string": "Cave Vines",
-        "translation": "Kuwebang Baging",
+        "translation": "Baging-yungib",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69810,7 +70242,7 @@
     {
         "identifier": "tile.brown_mushroom_block.cap.name",
         "source_string": "Brown Mushroom Block",
-        "translation": "Kabuting Kayumangging Bloke",
+        "translation": "Bloke ng Kabuting Kayumanggi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69922,7 +70354,7 @@
     {
         "identifier": "tile.carved_pumpkin.name",
         "source_string": "Carved Pumpkin",
-        "translation": "Kinortang Kalabasa",
+        "translation": "Kalabasang Inukit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69938,7 +70370,7 @@
     {
         "identifier": "tile.chalkboard.oneByOne.name",
         "source_string": "Slate",
-        "translation": "Pisarang Bato",
+        "translation": "Pisara",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -69954,7 +70386,7 @@
     {
         "identifier": "tile.chalkboard.threeByTwo.name",
         "source_string": "Board",
-        "translation": "Pisarang Kahoy",
+        "translation": "Board",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70034,7 +70466,7 @@
     {
         "identifier": "tile.warped_stem.name",
         "source_string": "Warped Stem",
-        "translation": "Bingkong na Tangkay",
+        "translation": "Kiwal na Tangkay",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70050,7 +70482,7 @@
     {
         "identifier": "tile.stripped_warped_stem.name",
         "source_string": "Stripped Warped Stem",
-        "translation": "Binalatang Tangkay ng Bingkong",
+        "translation": "Binalatang Kiwal na Tangkay",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70058,7 +70490,7 @@
     {
         "identifier": "tile.crimson_hyphae.name",
         "source_string": "Crimson Hyphae",
-        "translation": "Haypey ng Krimson",
+        "translation": "Hypha ng Krimson",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70066,7 +70498,7 @@
     {
         "identifier": "tile.warped_hyphae.name",
         "source_string": "Warped Hyphae",
-        "translation": "Haypey ng Bingkong",
+        "translation": "Hypha ng Bingkong",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70074,7 +70506,7 @@
     {
         "identifier": "tile.stripped_crimson_hyphae.name",
         "source_string": "Stripped Crimson Hyphae",
-        "translation": "Binalatang Haypey ng Krimson",
+        "translation": "Binalatang Hypha ng Krimson",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70082,7 +70514,7 @@
     {
         "identifier": "tile.stripped_warped_hyphae.name",
         "source_string": "Stripped Warped Hyphae",
-        "translation": "Binalatang Haypey ng Bingkong",
+        "translation": "Binalatang Kiwal na Hypha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70098,7 +70530,7 @@
     {
         "identifier": "tile.warped_planks.name",
         "source_string": "Warped Planks",
-        "translation": "Bingkong na Tabla",
+        "translation": "Kiwal na Tabla",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70114,7 +70546,7 @@
     {
         "identifier": "tile.warped_door.name",
         "source_string": "Warped Door",
-        "translation": "Bingkong na Pinto",
+        "translation": "Kiwal na Pinto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70130,7 +70562,7 @@
     {
         "identifier": "tile.warped_trapdoor.name",
         "source_string": "Warped Trapdoor",
-        "translation": "Bingkong na Pintong Maliit",
+        "translation": "Kiwal na Pintong Maliit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70146,7 +70578,7 @@
     {
         "identifier": "tile.warped_standing_sign.name",
         "source_string": "Warped Sign",
-        "translation": "Bingkong na Karatula",
+        "translation": "Kiwal na Karatula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70162,7 +70594,7 @@
     {
         "identifier": "tile.warped_wall_sign.name",
         "source_string": "Warped Sign",
-        "translation": "Bingkong na Karatula",
+        "translation": "Kiwal na Karatula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70178,7 +70610,7 @@
     {
         "identifier": "tile.warped_stairs.name",
         "source_string": "Warped Stairs",
-        "translation": "Bingkong na Hagdanan",
+        "translation": "Kiwal na Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70194,7 +70626,7 @@
     {
         "identifier": "tile.warped_fence.name",
         "source_string": "Warped Fence",
-        "translation": "Bingkong na Bakod",
+        "translation": "Kiwal na Bakod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70210,7 +70642,7 @@
     {
         "identifier": "tile.warped_fence_gate.name",
         "source_string": "Warped Fence Gate",
-        "translation": "Bingkong na Tarangkahan",
+        "translation": "Kiwal na Tarangkahan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70226,7 +70658,7 @@
     {
         "identifier": "tile.warped_button.name",
         "source_string": "Warped Button",
-        "translation": "Bingkong na Pindutan",
+        "translation": "Kiwal na Pindutan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70242,7 +70674,7 @@
     {
         "identifier": "tile.warped_pressure_plate.name",
         "source_string": "Warped Pressure Plate",
-        "translation": "Bingkong na Apakan",
+        "translation": "Kiwal na Apakan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70258,7 +70690,7 @@
     {
         "identifier": "tile.warped_slab.name",
         "source_string": "Warped Slab",
-        "translation": "Bingkong na Laha",
+        "translation": "Kiwal na Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70274,7 +70706,7 @@
     {
         "identifier": "tile.warped_double_slab.name",
         "source_string": "Warped Slab",
-        "translation": "Bingkong na Laha",
+        "translation": "Kiwal na Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70298,7 +70730,7 @@
     {
         "identifier": "tile.warped_nylium.name",
         "source_string": "Warped Nylium",
-        "translation": "Niliyong Bingkong",
+        "translation": "Kiwal na Nylium",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70522,7 +70954,7 @@
     {
         "identifier": "tile.chiseled_nether_bricks.name",
         "source_string": "Chiseled Nether Bricks",
-        "translation": "Laryong Taga-nether na Pinait",
+        "translation": "Pinait na Laryong Nether",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -70530,7 +70962,7 @@
     {
         "identifier": "tile.cracked_nether_bricks.name",
         "source_string": "Cracked Nether Bricks",
-        "translation": "Basag na Laryong Taga-nether",
+        "translation": "Basag na Laryong Nether",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71120,9 +71552,17 @@
         "max_length": null
     },
     {
+        "identifier": "structure_block.waterlog_block",
+        "source_string": "Waterlog Blocks",
+        "translation": "Blokeng May Tubig",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.structure_void.name",
         "source_string": "Structure Void",
-        "translation": "estrukturang Kawalan",
+        "translation": "Void ng Estruktura",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71130,7 +71570,7 @@
     {
         "identifier": "tile.trial_spawner.name",
         "source_string": "Trial Spawner",
-        "translation": "Panlikhaang Kahong Taga-Kamara ng Pagsubok",
+        "translation": "Panlikhaan ng Pagsubok",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71354,7 +71794,7 @@
     {
         "identifier": "tile.cobblestone_wall.nether_brick.name",
         "source_string": "Nether Brick Wall",
-        "translation": "Laryong Taga-nether na Pader",
+        "translation": "Laryong Nether na Pader",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71386,7 +71826,7 @@
     {
         "identifier": "tile.cobblestone_wall.red_nether_brick.name",
         "source_string": "Red Nether Brick Wall",
-        "translation": "Pulang Laryong Taga-nether na Pader",
+        "translation": "Pulang Laryong Nether na Pader",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71442,7 +71882,7 @@
     {
         "identifier": "tile.wheat.name",
         "source_string": "Crops",
-        "translation": "Trigong Pananim",
+        "translation": "Pananim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71490,7 +71930,7 @@
     {
         "identifier": "tile.dirt.coarse.name",
         "source_string": "Coarse Dirt",
-        "translation": "Baog na Lupa",
+        "translation": "Tuyot na Lupa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71642,7 +72082,7 @@
     {
         "identifier": "tile.enchanting_table.name",
         "source_string": "Enchanting Table",
-        "translation": "Pang-agimatang Mesa",
+        "translation": "Agimatang Mesa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71658,7 +72098,7 @@
     {
         "identifier": "tile.end_portal_frame.name",
         "source_string": "End Portal Frame",
-        "translation": "balangkas ng Lagusan sa End",
+        "translation": "Balangkas ng Lagusan sa End",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71738,7 +72178,7 @@
     {
         "identifier": "tile.warped_roots.warpedRoots.name",
         "source_string": "Warped Roots",
-        "translation": "Ugat ng Bingkong",
+        "translation": "Kiwal na Ugat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71938,7 +72378,7 @@
     {
         "identifier": "tile.packed_ice.name",
         "source_string": "Packed Ice",
-        "translation": "Sinksik na Yelo",
+        "translation": "Siksik na Yelo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -71954,7 +72394,7 @@
     {
         "identifier": "tile.frosted_ice.name",
         "source_string": "Frosted Ice",
-        "translation": "Nagyelong Yelo",
+        "translation": "Sapin ng Yelo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72002,7 +72442,7 @@
     {
         "identifier": "tile.flowing_lava.name",
         "source_string": "Lava",
-        "translation": "Kumukulong Putik",
+        "translation": "Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72010,7 +72450,7 @@
     {
         "identifier": "tile.lava.name",
         "source_string": "Lava",
-        "translation": "Kumukulong Putik",
+        "translation": "Lava",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72090,7 +72530,7 @@
     {
         "identifier": "tile.lever.name",
         "source_string": "Lever",
-        "translation": "Pingga",
+        "translation": "Plangka",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72106,7 +72546,7 @@
     {
         "identifier": "tile.glow_lichen.name",
         "source_string": "Glow Lichen",
-        "translation": "Laykeng Nagliliwanag",
+        "translation": "Lumiliwanag na Layken",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72114,7 +72554,7 @@
     {
         "identifier": "tile.lightning_rod.name",
         "source_string": "Lightning Rod",
-        "translation": "Tungkod-pangkidlat",
+        "translation": "Pararayos",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72122,7 +72562,7 @@
     {
         "identifier": "tile.lit_pumpkin.name",
         "source_string": "Jack o'Lantern",
-        "translation": "Jack ng Parol",
+        "translation": "Parol na Kalabasa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72210,7 +72650,7 @@
     {
         "identifier": "tile.mob_spawner.name",
         "source_string": "Monster Spawner",
-        "translation": "Panlikhaang Kahon ng Halimaw",
+        "translation": "Panlikhaan ng Halimaw",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72218,7 +72658,7 @@
     {
         "identifier": "tile.monster_egg.brick.name",
         "source_string": "Infested Stone Bricks",
-        "translation": "Laryong Batong may Peste",
+        "translation": "Impestadong Laryong Bato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72226,7 +72666,7 @@
     {
         "identifier": "tile.monster_egg.chiseledbrick.name",
         "source_string": "Infested Chiseled Stone Brick",
-        "translation": "Laryong Batong Inukit na may Peste",
+        "translation": "Impestadong Inukit na Laryong Bato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72234,7 +72674,7 @@
     {
         "identifier": "tile.monster_egg.cobble.name",
         "source_string": "Infested Cobblestone",
-        "translation": "Eskombro na may Peste",
+        "translation": "Impestadong Eskombro",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72242,7 +72682,7 @@
     {
         "identifier": "tile.monster_egg.crackedbrick.name",
         "source_string": "Infested Cracked Stone Brick",
-        "translation": "Basag na Laryong Batong may Peste",
+        "translation": "Impestadong Basag na Laryong Bato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72250,7 +72690,7 @@
     {
         "identifier": "tile.monster_egg.mossybrick.name",
         "source_string": "Infested Mossy Stone Brick",
-        "translation": "Malumot na Laryong Batong may Peste",
+        "translation": "Impestadong Malumot na Laryong Bato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72258,7 +72698,7 @@
     {
         "identifier": "tile.monster_egg.name",
         "source_string": "Infested Stone",
-        "translation": "Batong may Peste",
+        "translation": "Impestadong Bato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72266,7 +72706,7 @@
     {
         "identifier": "tile.monster_egg.stone.name",
         "source_string": "Infested Stone",
-        "translation": "Batong may Peste",
+        "translation": "Impestadong Bato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72298,7 +72738,7 @@
     {
         "identifier": "tile.nether_brick.name",
         "source_string": "Nether Bricks",
-        "translation": "Bloke ng Laryong Taga-nether",
+        "translation": "Bloke ng Laryong Nether",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72306,7 +72746,7 @@
     {
         "identifier": "tile.red_nether_brick.name",
         "source_string": "Red Nether Bricks",
-        "translation": "Pulang Laryong Taga-nether",
+        "translation": "Bloke ng Pulang Laryong Nether",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72314,7 +72754,7 @@
     {
         "identifier": "tile.nether_brick_fence.name",
         "source_string": "Nether Brick Fence",
-        "translation": "Laryong Taga-nether na Bakod",
+        "translation": "Laryong Nether na Bakod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72338,7 +72778,7 @@
     {
         "identifier": "tile.netherreactor.builtTooHigh",
         "source_string": "The nether reactor needs to be built lower down.",
-        "translation": "Ang nether reactor ay kailangang itayo nang mas mababa.",
+        "translation": "Kailangang itayo ang nether reactor nang mas mababa.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72346,7 +72786,7 @@
     {
         "identifier": "tile.netherreactor.builtTooLow",
         "source_string": "The nether reactor needs to be built higher up.",
-        "translation": "Ang nether reactor ay kailangang itayo nang mas mataas.",
+        "translation": "Kailangang itayo ang nether reactor nang mas mataas.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72354,7 +72794,7 @@
     {
         "identifier": "tile.netherreactor.name",
         "source_string": "Nether Reactor Core",
-        "translation": "Nukleo ng Reaktor ng Nether",
+        "translation": "Butod ng Nether Reactor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72370,7 +72810,7 @@
     {
         "identifier": "tile.netherreactor.wrongPattern",
         "source_string": "Not the correct pattern!",
-        "translation": "Wala sa wastong pagkakaayos!",
+        "translation": "Hindi tama ang pagkakaayos!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72394,7 +72834,7 @@
     {
         "identifier": "tile.warped_wart_block.name",
         "source_string": "Warped Wart Block",
-        "translation": "Bloke ng Butig na Bingkong",
+        "translation": "Bloke ng Kiwal na Butig",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72698,7 +73138,7 @@
     {
         "identifier": "tile.crimson_fungus.name",
         "source_string": "Crimson Fungus",
-        "translation": "Krimsong Halamang-singaw",
+        "translation": "Krimsong Kabuti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72706,7 +73146,7 @@
     {
         "identifier": "tile.warped_fungus.name",
         "source_string": "Warped Fungus",
-        "translation": "Bingkong na Halamang-singaw",
+        "translation": "Kiwal na Kabuti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72714,7 +73154,7 @@
     {
         "identifier": "tile.red_mushroom_block.name",
         "source_string": "Red Mushroom Block",
-        "translation": "Kabuting Pulang Bloke",
+        "translation": "Bloke ng Kabuting Pula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72754,7 +73194,7 @@
     {
         "identifier": "tile.red_sandstone.cut.name",
         "source_string": "Cut Red Sandstone",
-        "translation": "Hiniwang Batumbuhanging Pula",
+        "translation": "Inukit na Batumbuhanging Pula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72770,7 +73210,7 @@
     {
         "identifier": "tile.redstone_lamp.name",
         "source_string": "Redstone Lamp",
-        "translation": "Lampara ng Redstone",
+        "translation": "Lamparang Redstone",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -72842,7 +73282,7 @@
     {
         "identifier": "tile.sandstone.cut.name",
         "source_string": "Cut Sandstone",
-        "translation": "Hiniwang Batumbuhangin",
+        "translation": "Inukit na Batumbuhangin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73010,7 +73450,7 @@
     {
         "identifier": "tile.nether_brick_stairs.name",
         "source_string": "Nether Brick Stairs",
-        "translation": "Laryong Taga-nether na Hagdanan",
+        "translation": "Laryong Nether na Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73242,7 +73682,7 @@
     {
         "identifier": "tile.red_nether_brick_stairs.name",
         "source_string": "Red Nether Brick Stairs",
-        "translation": "Pulang Laryong Taga-nether na Hagdanan",
+        "translation": "Pulang Laryong Nether na Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73554,7 +73994,7 @@
     {
         "identifier": "tile.double_stone_slab.nether_brick.name",
         "source_string": "Nether Brick Slab",
-        "translation": "Laryong Taga-nether na Laha",
+        "translation": "Laryong Nether na Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73634,7 +74074,7 @@
     {
         "identifier": "tile.stone_slab.nether_brick.name",
         "source_string": "Nether Brick Slab",
-        "translation": "Laryong Taga-nether na Laha",
+        "translation": "Laryong Nether na Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73730,7 +74170,7 @@
     {
         "identifier": "tile.stone_slab2.red_nether_brick.name",
         "source_string": "Red Nether Brick Slab",
-        "translation": "Pulang Laryong Taga-nether na Laha",
+        "translation": "Pulang Laryong Nether na Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73834,7 +74274,7 @@
     {
         "identifier": "tile.stone_slab4.cut_sandstone.name",
         "source_string": "Cut Sandstone Slab",
-        "translation": "Hiniwang Batumbuhanging Laha",
+        "translation": "Inukit na Batumbuhanging Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73842,7 +74282,7 @@
     {
         "identifier": "tile.stone_slab4.cut_red_sandstone.name",
         "source_string": "Cut Red Sandstone Slab",
-        "translation": "Hiniwang Batumbuhanging Pulang Laha",
+        "translation": "Inukit na Batumbuhanging Pulang Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73850,7 +74290,7 @@
     {
         "identifier": "tile.coral_block.blue.name",
         "source_string": "Tube Coral Block",
-        "translation": "Malatubong Koral na Bloke",
+        "translation": "Bloke ng Malatubong Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73858,7 +74298,7 @@
     {
         "identifier": "tile.coral_block.pink.name",
         "source_string": "Brain Coral Block",
-        "translation": "Malautak na Koral na Bloke",
+        "translation": "Bloke ng Malautak na Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73866,7 +74306,7 @@
     {
         "identifier": "tile.coral_block.purple.name",
         "source_string": "Bubble Coral Block",
-        "translation": "Malabulang Koral na Bloke",
+        "translation": "Bloke ng Malabulang Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73874,7 +74314,7 @@
     {
         "identifier": "tile.coral_block.red.name",
         "source_string": "Fire Coral Block",
-        "translation": "Malaapoy na Koral na Bloke",
+        "translation": "Bloke ng Malaapoy na Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73882,7 +74322,7 @@
     {
         "identifier": "tile.coral_block.yellow.name",
         "source_string": "Horn Coral Block",
-        "translation": "Malasungay na Koral na Bloke",
+        "translation": "Bloke ng Malasungay na Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73890,7 +74330,7 @@
     {
         "identifier": "tile.coral_block.blue_dead.name",
         "source_string": "Dead Tube Coral Block",
-        "translation": "Patay na Malatubong Koral na Bloke",
+        "translation": "Bloke ng Patay na Malatubong Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73898,7 +74338,7 @@
     {
         "identifier": "tile.coral_block.pink_dead.name",
         "source_string": "Dead Brain Coral Block",
-        "translation": "Patay na Malautak na Koral na Bloke",
+        "translation": "Bloke ng Patay na Malautak na Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73906,7 +74346,7 @@
     {
         "identifier": "tile.coral_block.purple_dead.name",
         "source_string": "Dead Bubble Coral Block",
-        "translation": "Patay na Malabulang Koral na Bloke",
+        "translation": "Bloke ng Patay na Malabulang Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73914,7 +74354,7 @@
     {
         "identifier": "tile.coral_block.red_dead.name",
         "source_string": "Dead Fire Coral Block",
-        "translation": "Patay na Malaapoy na Koral na Bloke",
+        "translation": "Bloke ng Patay na Malaapoy na Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -73922,7 +74362,7 @@
     {
         "identifier": "tile.coral_block.yellow_dead.name",
         "source_string": "Dead Horn Coral Block",
-        "translation": "Patay na Malasungay na Koral na Bloke",
+        "translation": "Bloke ng Patay na Malasungay na Koral",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -74778,7 +75218,7 @@
     {
         "identifier": "tile.creaking_heart.name",
         "source_string": "Creaking Heart",
-        "translation": "Puso ng Umaalit-it",
+        "translation": "Puso ng Alit-itan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -75498,7 +75938,7 @@
     {
         "identifier": "tile.campfire.name",
         "source_string": "Campfire",
-        "translation": "Apoy ng Kampo",
+        "translation": "Siga",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -75522,7 +75962,7 @@
     {
         "identifier": "tile.sweet_berry_bush.name",
         "source_string": "Sweet Berry Bush",
-        "translation": "Palumpong ng Matamis na Kamansalay",
+        "translation": "Palumpong ng Matamis na Berry",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -75642,7 +76082,7 @@
     {
         "identifier": "tile.nether_gold_ore.name",
         "source_string": "Nether Gold Ore",
-        "translation": "Gintong Mineral na Taga-nether",
+        "translation": "Gintong Mineral ng Nether",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -75682,7 +76122,7 @@
     {
         "identifier": "tile.infested_deepslate.name",
         "source_string": "Infested Deepslate",
-        "translation": "Pisaranlalim na may Peste",
+        "translation": "Impestadong Pisaranlalim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -75938,7 +76378,7 @@
     {
         "identifier": "tile.cracked_deepslate_tiles.name",
         "source_string": "Cracked Deepslate Tiles",
-        "translation": "Basag na Pisaranlalim na Tisa",
+        "translation": "Basag na Tisang Pisaranlalim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76074,7 +76514,7 @@
     {
         "identifier": "tile.cut_copper.name",
         "source_string": "Cut Copper",
-        "translation": "Hiniwang Tanso",
+        "translation": "Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76082,7 +76522,7 @@
     {
         "identifier": "tile.exposed_cut_copper.name",
         "source_string": "Exposed Cut Copper",
-        "translation": "Bilad na Hiniwang Tanso",
+        "translation": "Bilad na Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76090,7 +76530,7 @@
     {
         "identifier": "tile.weathered_cut_copper.name",
         "source_string": "Weathered Cut Copper",
-        "translation": "Bilad na Hiniwang Tanso",
+        "translation": "Bilad na Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76098,7 +76538,7 @@
     {
         "identifier": "tile.oxidized_cut_copper.name",
         "source_string": "Oxidized Cut Copper",
-        "translation": "Oksidadong Hiniwang Tanso",
+        "translation": "Oksidadong Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76106,7 +76546,7 @@
     {
         "identifier": "tile.waxed_cut_copper.name",
         "source_string": "Waxed Cut Copper",
-        "translation": "Pinagkitang Hiniwang Tanso",
+        "translation": "Pinagkitang Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76114,7 +76554,7 @@
     {
         "identifier": "tile.waxed_exposed_cut_copper.name",
         "source_string": "Waxed Exposed Cut Copper",
-        "translation": "Pinagkitang Bilad na Hiniwang Tanso",
+        "translation": "Pinagkitang Bilad na Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76122,7 +76562,7 @@
     {
         "identifier": "tile.waxed_weathered_cut_copper.name",
         "source_string": "Waxed Weathered Cut Copper",
-        "translation": "Pinagkitang May-edad na Hiniwang Tanso",
+        "translation": "Pinagkitang May-edad na Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76130,7 +76570,7 @@
     {
         "identifier": "tile.waxed_oxidized_cut_copper.name",
         "source_string": "Waxed Oxidized Cut Copper",
-        "translation": "Pinagkitang Oksidadong Hiniwang Tanso",
+        "translation": "Pinagkitang Oksidadong Inukit na Tanso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76138,7 +76578,7 @@
     {
         "identifier": "tile.cut_copper_stairs.name",
         "source_string": "Cut Copper Stairs",
-        "translation": "Hiniwang Tansong Hagdanan",
+        "translation": "Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76146,7 +76586,7 @@
     {
         "identifier": "tile.exposed_cut_copper_stairs.name",
         "source_string": "Exposed Cut Copper Stairs",
-        "translation": "Bilad na Hiniwang Tansong Hagdanan",
+        "translation": "Bilad na Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76154,7 +76594,7 @@
     {
         "identifier": "tile.weathered_cut_copper_stairs.name",
         "source_string": "Weathered Cut Copper Stairs",
-        "translation": "May-edad na Hiniwang Tansong Hagdanan",
+        "translation": "May-edad na Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76162,7 +76602,7 @@
     {
         "identifier": "tile.oxidized_cut_copper_stairs.name",
         "source_string": "Oxidized Cut Copper Stairs",
-        "translation": "Oksidadong Hiniwang Tansong Hagdanan",
+        "translation": "Oksidadong Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76170,7 +76610,7 @@
     {
         "identifier": "tile.waxed_cut_copper_stairs.name",
         "source_string": "Waxed Cut Copper Stairs",
-        "translation": "Pinagkitang Hiniwang Tansong Hagdanan",
+        "translation": "Pinagkitang Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76178,7 +76618,7 @@
     {
         "identifier": "tile.waxed_exposed_cut_copper_stairs.name",
         "source_string": "Waxed Exposed Cut Copper Stairs",
-        "translation": "Pinagkitang Bilad na Hiniwang Tansong Hagdanan",
+        "translation": "Pinagkitang Bilad na Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76186,7 +76626,7 @@
     {
         "identifier": "tile.waxed_weathered_cut_copper_stairs.name",
         "source_string": "Waxed Weathered Cut Copper Stairs",
-        "translation": "Pinagkitang May-edad na Hiniwang Tansong Hagdanan",
+        "translation": "Pinagkitang May-edad na Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76194,7 +76634,7 @@
     {
         "identifier": "tile.waxed_oxidized_cut_copper_stairs.name",
         "source_string": "Waxed Oxidized Cut Copper Stairs",
-        "translation": "Pinagkitang Oksidisang Hiniwang Tansong Hagdanan",
+        "translation": "Pinagkitang Oksidadong Inukit na Tansong Hagdanan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76202,7 +76642,7 @@
     {
         "identifier": "tile.cut_copper_slab.name",
         "source_string": "Cut Copper Slab",
-        "translation": "Hiniwang Tansong Laha",
+        "translation": "Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76210,7 +76650,7 @@
     {
         "identifier": "tile.exposed_cut_copper_slab.name",
         "source_string": "Exposed Cut Copper Slab",
-        "translation": "Bilad na Hiniwang Tansong Laha",
+        "translation": "Bilad na Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76218,7 +76658,7 @@
     {
         "identifier": "tile.weathered_cut_copper_slab.name",
         "source_string": "Weathered Cut Copper Slab",
-        "translation": "May-edad na Hiniwang Tansong Laha",
+        "translation": "May-edad na Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76226,7 +76666,7 @@
     {
         "identifier": "tile.oxidized_cut_copper_slab.name",
         "source_string": "Oxidized Cut Copper Slab",
-        "translation": "Oksidadong Hiniwang Tansong Laha",
+        "translation": "Oksidadong Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76234,7 +76674,7 @@
     {
         "identifier": "tile.waxed_cut_copper_slab.name",
         "source_string": "Waxed Cut Copper Slab",
-        "translation": "Pinagkitang Hiniwang Tansong Laha",
+        "translation": "Pinagkitang Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76242,7 +76682,7 @@
     {
         "identifier": "tile.waxed_exposed_cut_copper_slab.name",
         "source_string": "Waxed Exposed Cut Copper Slab",
-        "translation": "Pinagkitang Bilad na Hiniwang Tansong Laha",
+        "translation": "Pinagkitang Bilad na Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76250,7 +76690,7 @@
     {
         "identifier": "tile.waxed_weathered_cut_copper_slab.name",
         "source_string": "Waxed Weathered Cut Copper Slab",
-        "translation": "Pinagkitang May-edad na Hiniwang Tansong Laha",
+        "translation": "Pinagkitang May-edad na Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76258,7 +76698,7 @@
     {
         "identifier": "tile.waxed_oxidized_cut_copper_slab.name",
         "source_string": "Waxed Oxidized Cut Copper Slab",
-        "translation": "Pinagkitang Oksidisang Hiniwang Tansong Laha",
+        "translation": "Pinagkitang Oksidadong Inukit na Tansong Laha",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76618,7 +77058,7 @@
     {
         "identifier": "hudScreen.tooltip.waxOn",
         "source_string": "Wax On",
-        "translation": "May Waks",
+        "translation": "May Pagkit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76626,7 +77066,23 @@
     {
         "identifier": "hudScreen.tooltip.waxOff",
         "source_string": "Wax Off",
-        "translation": "Walang Waks",
+        "translation": "Walang Pagkit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.scrape",
+        "source_string": "Scrape",
+        "translation": "Kaskasin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.emote_unassigned",
+        "source_string": "Unassigned",
+        "translation": "Di-nakatatag",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76770,7 +77226,7 @@
     {
         "identifier": "tile.candle_cake.name",
         "source_string": "Cake with Candle",
-        "translation": "Keyk na may Kandila",
+        "translation": "Keyk na May Kandila",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76778,7 +77234,7 @@
     {
         "identifier": "tile.white_candle_cake.name",
         "source_string": "Cake with White Candle",
-        "translation": "Keyk na may Kandilang Puti",
+        "translation": "Keyk na May Kandilang Puti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76786,7 +77242,7 @@
     {
         "identifier": "tile.orange_candle_cake.name",
         "source_string": "Cake with Orange Candle",
-        "translation": "Keyk na may Kandilang Kahel",
+        "translation": "Keyk na May Kandilang Kahel",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76794,7 +77250,7 @@
     {
         "identifier": "tile.magenta_candle_cake.name",
         "source_string": "Cake with Magenta Candle",
-        "translation": "Keyk na may Kandilang Mahenta",
+        "translation": "Keyk na May Kandilang Mahenta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76802,7 +77258,7 @@
     {
         "identifier": "tile.light_blue_candle_cake.name",
         "source_string": "Cake with Light Blue Candle",
-        "translation": "Keyk na may Kandilang Kulay-langit",
+        "translation": "Keyk na May Kandilang Kulay-langit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76810,7 +77266,7 @@
     {
         "identifier": "tile.yellow_candle_cake.name",
         "source_string": "Cake with Yellow Candle",
-        "translation": "Keyk na may Kandilang Dilaw",
+        "translation": "Keyk na May Kandilang Dilaw",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76818,7 +77274,7 @@
     {
         "identifier": "tile.lime_candle_cake.name",
         "source_string": "Cake with Lime Candle",
-        "translation": "Keyk na may Kandilang Murang Berde",
+        "translation": "Keyk na May Kandilang Murang Berde",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76826,7 +77282,7 @@
     {
         "identifier": "tile.pink_candle_cake.name",
         "source_string": "Cake with Pink Candle",
-        "translation": "Keyk na may Kandilang Rosas",
+        "translation": "Keyk na May Kandilang Rosas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76834,7 +77290,7 @@
     {
         "identifier": "tile.gray_candle_cake.name",
         "source_string": "Cake with Gray Candle",
-        "translation": "Keyk na may Kandilang Abuhin",
+        "translation": "Keyk na May Kandilang Abuhin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76842,7 +77298,7 @@
     {
         "identifier": "tile.light_gray_candle_cake.name",
         "source_string": "Cake with Light Gray Candle",
-        "translation": "Keyk na may Kandilang Kulay-pilak",
+        "translation": "Keyk na May Kandilang Kulay-pilak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76850,7 +77306,7 @@
     {
         "identifier": "tile.cyan_candle_cake.name",
         "source_string": "Cake with Cyan Candle",
-        "translation": "Keyk na may Kandilang Cyan",
+        "translation": "Keyk na May Kandilang Cyan",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76858,7 +77314,7 @@
     {
         "identifier": "tile.purple_candle_cake.name",
         "source_string": "Cake with Purple Candle",
-        "translation": "Keyk na may Kandilang Lila",
+        "translation": "Keyk na May Kandilang Lila",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76866,7 +77322,7 @@
     {
         "identifier": "tile.blue_candle_cake.name",
         "source_string": "Cake with Blue Candle",
-        "translation": "Keyk na may Kandilang Asul",
+        "translation": "Keyk na May Kandilang Asul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76874,7 +77330,7 @@
     {
         "identifier": "tile.brown_candle_cake.name",
         "source_string": "Cake with Brown Candle",
-        "translation": "Keyk na may Kandilang Kayumanggi",
+        "translation": "Keyk na May Kandilang Kayumanggi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76882,7 +77338,7 @@
     {
         "identifier": "tile.green_candle_cake.name",
         "source_string": "Cake with Green Candle",
-        "translation": "Keyk na may Kandilang Berde",
+        "translation": "Keyk na May Kandilang Berde",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76890,7 +77346,7 @@
     {
         "identifier": "tile.red_candle_cake.name",
         "source_string": "Cake with Red Candle",
-        "translation": "Keyk na may Kandilang Pula",
+        "translation": "Keyk na May Kandilang Pula",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76898,7 +77354,7 @@
     {
         "identifier": "tile.black_candle_cake.name",
         "source_string": "Cake with Black Candle",
-        "translation": "Keyk na may Kandilang Itim",
+        "translation": "Keyk na May Kandilang Itim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -76995,6 +77451,318 @@
         "identifier": "tile.smooth_basalt.name",
         "source_string": "Smooth Basalt",
         "translation": "Makinis na Basalto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.empty",
+        "source_string": "Tipped Arrow",
+        "translation": "Sinawsaw na Tunod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.mundane",
+        "source_string": "Tipped Arrow",
+        "translation": "Sinawsaw na Tunod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.thick",
+        "source_string": "Tipped Arrow",
+        "translation": "Sinawsaw na Tunod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.awkward",
+        "source_string": "Tipped Arrow",
+        "translation": "Sinawsaw na Tunod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.nightVision",
+        "source_string": "Arrow of Night Vision",
+        "translation": "Tunod ng Pagkakita sa Dilim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.invisibility",
+        "source_string": "Arrow of Invisibility",
+        "translation": "Tunod ng Tagabulag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.jump",
+        "source_string": "Arrow of Leaping",
+        "translation": "Tunod ng Pagtalon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.fireResistance",
+        "source_string": "Arrow of Fire Resistance",
+        "translation": "Tunod ng Resistensiya sa Apoy",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.moveSpeed",
+        "source_string": "Arrow of Swiftness",
+        "translation": "Tunod ng Bilis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.moveSlowdown",
+        "source_string": "Arrow of Slowness",
+        "translation": "Tunod ng Pagkabagal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.water",
+        "source_string": "Arrow of Splashing",
+        "translation": "Tunod ng Tubig",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.waterBreathing",
+        "source_string": "Arrow of Water Breathing",
+        "translation": "Tunod ng Paghinga sa Tubig",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.heal",
+        "source_string": "Arrow of Healing",
+        "translation": "Tunod ng Paggaling",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.harm",
+        "source_string": "Arrow of Harming",
+        "translation": "Tunod ng Sakit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.poison",
+        "source_string": "Arrow of Poison",
+        "translation": "Tunod ng Lason",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.regeneration",
+        "source_string": "Arrow of Regeneration",
+        "translation": "Tunod ng Rehenerasyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.damageBoost",
+        "source_string": "Arrow of Strength",
+        "translation": "Tunod ng Lakas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.weakness",
+        "source_string": "Arrow of Weakness",
+        "translation": "Tunod ng Pagkahina",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.levitation",
+        "source_string": "Arrow of Levitation",
+        "translation": "Tunod ng Paglutang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.luck",
+        "source_string": "Arrow of Luck",
+        "translation": "Tunod ng Suwerte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.wither",
+        "source_string": "Arrow of Decay",
+        "translation": "Tunod ng Panlalanta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.turtleMaster",
+        "source_string": "Arrow of the Turtle Master",
+        "translation": "Tunod ng Dalubhasang Pawikan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.slowFalling",
+        "source_string": "Arrow of Slow Falling",
+        "translation": "Tunod ng Mabagal na Pagkahulog",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.infested",
+        "source_string": "Arrow of Infestation",
+        "translation": "Tunod ng Impestasyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.oozing",
+        "source_string": "Arrow of Oozing",
+        "translation": "Tunod ng Oozing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.weaving",
+        "source_string": "Arrow of Weaving",
+        "translation": "Tunod ng Paghabi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.windCharged",
+        "source_string": "Arrow of Wind Charging",
+        "translation": "Tunod ng Pagbuhawi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.title",
+        "source_string": "Structure Block",
+        "translation": "Bloke ng Estruktura",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.structure_name",
+        "source_string": "Structure Name",
+        "translation": "Pangalan ng Estruktura",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode",
+        "source_string": "Mode:",
+        "translation": "Mode:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.save",
+        "source_string": "Save",
+        "translation": "Save",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.load",
+        "source_string": "Load",
+        "translation": "Load",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.corner",
+        "source_string": "Corner",
+        "translation": "Sulok",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.data",
+        "source_string": "Data",
+        "translation": "Data",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.export",
+        "source_string": "3D Export",
+        "translation": "3D Export",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.invalid",
+        "source_string": "Invalid mode",
+        "translation": "Imbalido ang mode",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.size",
+        "source_string": "Size:",
+        "translation": "Laki:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.data_label",
+        "source_string": "Data:",
+        "translation": "Data:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.offset",
+        "source_string": "Offset:",
+        "translation": "Offset:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null

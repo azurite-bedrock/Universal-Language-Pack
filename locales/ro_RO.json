@@ -8050,7 +8050,7 @@
     {
         "identifier": "commands.itemswithtag.success.single",
         "source_string": "There is %d item with the tag %s:",
-        "translation": "Există %d obiect cu eticheta %s:",
+        "translation": "Există un obiect %d cu eticheta %s:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8848,9 +8848,25 @@
         "max_length": null
     },
     {
+        "identifier": "commands.place.description",
+        "source_string": "Places a jigsaw structure, feature, or feature rule in the world.",
+        "translation": "Plasează o construcție, o caracteristică sau o regulă de caracteristici în lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.place.error",
         "source_string": "Place command failed.",
         "translation": "Comanda de plasare a eșuat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.generation.error",
+        "source_string": "Jigsaw structure generation failed.",
+        "translation": "Generarea construcției a eșuat.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8891,6 +8907,14 @@
         "identifier": "commands.place.maxdepth.error",
         "source_string": "Invalid max depth. Value must be between 1 and 20.",
         "translation": "Adâncime maximă invalidă. Valoarea trebuie să fie între 1 și 20.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.outofbounds.error",
+        "source_string": "Jigsaw structure generation failed. Structure placed out of bounds.",
+        "translation": "Generarea construcției a eșuat. Structura a fost plasată în afara limitelor.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9579,6 +9603,1406 @@
         "identifier": "commands.scoreboard.allMatchesFailed",
         "source_string": "All matches failed",
         "translation": "Toate potrivirile au eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.noMultiWildcard",
+        "source_string": "Only one user wildcard allowed",
+        "translation": "Este permis doar un singur utilizator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectiveNotFound",
+        "source_string": "No objective was found by the name '%1$s'",
+        "translation": "Niciun obiectiv nu a fost găsit cu numele „%1$s”",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectiveReadOnly",
+        "source_string": "The objective '%1$s' is read-only and cannot be set",
+        "translation": "Obiectivul „%1$s” poate fi doar citit și nu poate fi setat",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.alreadyExists",
+        "source_string": "An objective with the name '%1$s' already exists",
+        "translation": "Un obiectiv cu numele „%1$s” deja există",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.displayTooLong",
+        "source_string": "The display name '%1$s' is too long for an objective, it can be at most %2$d characters long",
+        "translation": "Numele de afișare „%1$s” este prea lung pentru un obiectiv, poate fi de cel mult %2$d caractere",
+        "context": "1: Objective Display Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.success",
+        "source_string": "Added new objective '%1$s' successfully",
+        "translation": "Noul obiectiv „%1$s” a fost adăugat cu succes",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.tooLong",
+        "source_string": "The name '%1$s' is too long for an objective, it can be at most %2$d characters long",
+        "translation": "Numele de „%1$s” este prea lung pentru un obiectiv, poate fi de cel mult %2$d caractere",
+        "context": "1: Objective Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.wrongType",
+        "source_string": "Invalid objective criteria type '%1$s'",
+        "translation": "Tip criteriu obiectiv „%1$s” invalid",
+        "context": "1: Criteria Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.needName",
+        "source_string": "An objective needs a name.",
+        "translation": "Un obiectiv are nevoie de un nume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.description",
+        "source_string": "Modify scoreboard objectives.",
+        "translation": "Modifică obiectivele tabelului de scor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.count",
+        "source_string": "Showing %1$d objective(s) on scoreboard:",
+        "translation": "Se afișează %1$d obiectiv(e) pe tabelul de scor:",
+        "context": "1: Number of Objectives",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.empty",
+        "source_string": "There are no objectives on the scoreboard",
+        "translation": "Nu există obiective în tabelul de scor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.entry",
+        "source_string": "- %1$s: displays as '%2$s' and is type '%3$s'",
+        "translation": "- %1$s: se afișează ca „%2$s” și tip „%3$s”",
+        "context": "1: Objective Name ##2: Objective Display Name ##3: Criteria Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.remove.success",
+        "source_string": "Removed objective '%1$s' successfully",
+        "translation": "Obiectivul „%1$s” a fost șters cu succes",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.invalidSlot",
+        "source_string": "No such display slot '%1$s'",
+        "translation": "Niciun slot de afișare „%1$s”",
+        "context": "1: Display Slot",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.successCleared",
+        "source_string": "Cleared objective display slot '%1$s'",
+        "translation": "S-a golit slotul de afișare obiectiv „%1$s”",
+        "context": "1: Display Slot",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.successSet",
+        "source_string": "Set the display objective in slot '%1$s' to '%2$s'",
+        "translation": "S-a setat obiectivul afișat în slotul „%1$s” la „%2$s”",
+        "context": "1: Display Slot ##2: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.add.success",
+        "source_string": "Added %1$d to [%2$s] for %3$s (now %4$d)",
+        "translation": "%1$d adăugat la [%2$s] pentru %3$s (în prezent %4$d)",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.add.multiple.success",
+        "source_string": "Added %1$d to [%2$s] for %3$d entities",
+        "translation": "%1$d adăugat la [%2$s] pentru %3$d entități",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.nameNotFound",
+        "source_string": "A player name must be given.",
+        "translation": "Trebuie dat un nume de jucător.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.enable.noTrigger",
+        "source_string": "Objective %1$s is not a trigger",
+        "translation": "Obiectivul %1$s nu este un declanșator",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.enable.success",
+        "source_string": "Enabled trigger %1$s for %2$s",
+        "translation": "Activat declanșatorul %1$s pentru %2$s",
+        "context": "1: Trigger Name ##2: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.count",
+        "source_string": "Showing %1$d tracked players on the scoreboard:",
+        "translation": "Se afișează %1$d jucători urmăriți pe tabelul de scor:",
+        "context": "1: Number of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.empty",
+        "source_string": "There are no tracked players on the scoreboard",
+        "translation": "Nu există niciun jucător urmărit în tabelul de scor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.count",
+        "source_string": "Showing %1$d tracked objective(s) for %2$s:",
+        "translation": "Se afișează %1$d obiectiv(e) urmărit(e) pentru %2$s:",
+        "context": "1: Objective Count ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.empty",
+        "source_string": "Player %1$s has no scores recorded",
+        "translation": "Jucătorul %1$s nu are nici un scor înregistrat",
+        "context": "1: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.entry",
+        "source_string": "- %2$s: %1$d (%3$s)",
+        "translation": "- %2$s: %1$d (%3$s)",
+        "context": "1: Score Value ##2: Objective Display Name ##3: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.invalidOperation",
+        "source_string": "Invalid operation %1$s",
+        "translation": "Operațiune invalidă %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.notFound",
+        "source_string": "No %1$s score for %2$s found",
+        "translation": "Nu s-a găsit niciun scor %1$s pentru %2$s",
+        "context": "1: Objective Name ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.success",
+        "source_string": "Updated [%1$s] for %2$d entities",
+        "translation": "Actualizat [%1$s] pentru %2$d entități",
+        "context": "1: Objective Name ##2: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.offlinePlayerName",
+        "source_string": "Player Offline",
+        "translation": "Jucător offline",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.random.invalidRange",
+        "source_string": "Min %1$d is not less than max %2$d",
+        "translation": "Minimul %1$d nu este mai mic decât maximul %2$d",
+        "context": "1: Min Range Value ##2: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.remove.success",
+        "source_string": "Removed %1$d from [%2$s] for %3$s (now %4$d)",
+        "translation": "S-a eliminat %1$d de la [%2$s] pentru %3$s (acum %4$d)",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.remove.multiple.success",
+        "source_string": "Removed %1$d from [%2$s] for %3$d entities",
+        "translation": "S-a eliminat %1$d de la [%2$s] pentru %3$d entități",
+        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.reset.success",
+        "source_string": "Reset scores of player %1$s",
+        "translation": "S-au resetat scorurile jucătorului %1$s",
+        "context": "1: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.resetscore.success",
+        "source_string": "Reset score %1$s of player %2$s",
+        "translation": "S-a resetat scorul %1$s jucătorului %2$s",
+        "context": "1: Objective Name ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.success",
+        "source_string": "Set [%1$s] for %2$s to %3$d",
+        "translation": "S-a setat [%1$s] la %3$d pentru %2$s",
+        "context": "1: Objective Name ##2: Player Name ##3: Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.multiple.success",
+        "source_string": "Set [%1$s] for %2$d entities to %3$d",
+        "translation": "S-a setat [%1$s] la %3$d pentru %2$d entități",
+        "context": "1: Objective Name ##2: Player Count ##3: Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.tagError",
+        "source_string": "Could not parse dataTag, reason: %1$s",
+        "translation": "Nu s-au putut analiza dataTag, motivul: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.tagMismatch",
+        "source_string": "The dataTag does not match for %1$s",
+        "translation": "dataTag-ul nu se potrivește pentru %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.score.notFound",
+        "source_string": "No %1$s score for %2$s found",
+        "translation": "Nu s-a găsit niciun scor %1$s pentru %2$s",
+        "context": "1: Objective Name ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.test.failed",
+        "source_string": "Score %1$d is NOT in range %2$d to %3$d",
+        "translation": "Scorul %1$d NU este în intervalul de la %2$d la %3$d",
+        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.test.success",
+        "source_string": "Score %1$d is in range %2$d to %3$d",
+        "translation": "Scorul %1$d este în intervalul de la %2$d la %3$d",
+        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.get.success",
+        "source_string": "%1$d",
+        "translation": "%1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teamNotFound",
+        "source_string": "No team was found by the name '%1$s'",
+        "translation": "Nicio echipă nu a fost găsită cu numele „%1$s”",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.alreadyExists",
+        "source_string": "A team with the name '%1$s' already exists",
+        "translation": "O echipă cu numele „%1$s” deja există",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.displayTooLong",
+        "source_string": "The display name '%1$s' is too long for a team, it can be at most %2$d characters long",
+        "translation": "Numele de afișare „%1$s” este prea lung pentru o echipă, poate fi de cel mult %2$d caractere",
+        "context": "1: Team Display Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.success",
+        "source_string": "Added new team '%1$s' successfully",
+        "translation": "Noua echipă „%1$s” a fost adăugată cu succes",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.tooLong",
+        "source_string": "The name '%1$s' is too long for a team, it can be at most %2$d characters long",
+        "translation": "Numele „%1$s” este prea lung pentru o echipă, poate fi de cel mult %2$d caractere",
+        "context": "1: Team Name ##2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.empty.alreadyEmpty",
+        "source_string": "Team %1$s is already empty, cannot remove nonexistent players",
+        "translation": "Echipa %1$s este deja goală, nu se pot elimina jucători inexistenți",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.empty.success",
+        "source_string": "Removed all %1$d player(s) from team %2$s",
+        "translation": "S-au eliminat toți jucătorii %1$d din echipa %2$s",
+        "context": "1: Number of Players ##2: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.join.failure",
+        "source_string": "Could not add %1$d player(s) to team %2$s: %3$s",
+        "translation": "Nu s-au putut adăuga jucătorii %1$d în echipa %2$s: %3$s",
+        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.join.success",
+        "source_string": "Added %1$d player(s) to team %2$s: %3$s",
+        "translation": "S-au adăugat %1$d jucători în echipa %2$s: %3$s",
+        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.failure",
+        "source_string": "Could not remove %1$d player(s) from their teams: %2$s",
+        "translation": "Nu s-au putut elimina jucătorii %1$d din echipele lor: %2$s",
+        "context": "1: Number of Players ##2: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.noTeam",
+        "source_string": "You are not in a team",
+        "translation": "Nu ești într-o echipă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.success",
+        "source_string": "Removed %1$d player(s) from their teams: %2$s",
+        "translation": "S-au eliminat %1$d jucători din echipele lor: %2$s",
+        "context": "1: Number of Players ##2: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.count",
+        "source_string": "Showing %1$d teams on the scoreboard:",
+        "translation": "Se afișează %1$d echipe pe tabelul de scor:",
+        "context": "1: Number of Teams",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.empty",
+        "source_string": "There are no teams registered on the scoreboard",
+        "translation": "Nu există nicio echipă înregistrată în tabelul de scor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.entry",
+        "source_string": "- %1$s: '%2$s' has %3$d players",
+        "translation": "- %1$s: '%2$s' are %3$d jucători",
+        "context": "1: Team Name ##2: Team Display Name ##3: Number of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.count",
+        "source_string": "Showing %1$d player(s) in team %2$s:",
+        "translation": "Se afișează %1$d jucători în echipa %2$s:",
+        "context": "1: Number of Players ##2 Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.empty",
+        "source_string": "Team %1$s has no players",
+        "translation": "Echipa %1$s nu are niciun jucător",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.entry",
+        "source_string": "- %2$s: %1$d (%3$s)",
+        "translation": "- %2$s: %1$d (%3$s)",
+        "context": "1: Player Name ##2: Score Value ##3: Team Display Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.option.noValue",
+        "source_string": "Valid values for option %1$s are: %2$s",
+        "translation": "Valori valide pentru opțiunea %1$s sunt: %2$s",
+        "context": "1: Option Name ##2: List of Option Values",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.option.success",
+        "source_string": "Set option %1$s for team %2$s to %3$s",
+        "translation": "S-a setat opțiunea %1$s pentru echipa %2$s la %3$s",
+        "context": "1: Option Name ##2: Team Name ##3: Option Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.remove.success",
+        "source_string": "Removed team %1$s",
+        "translation": "S-a eliminat echipa %1$s",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.description",
+        "source_string": "Applies shaking to the players' camera with a specified intensity and duration.",
+        "translation": "Agită camera jucătorilor cu o intensitate și o durată specificate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.success",
+        "source_string": "Sent a request to the following players for their camera to shake: %s",
+        "translation": "S-a trimis o cerere următorilor jucători pentru agitarea camerei: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.successStop",
+        "source_string": "Stopping camera shake for the following players: %s",
+        "translation": "Se oprește agitarea camerei pentru următorii jucători: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.description",
+        "source_string": "Triggers a script event with an ID and message.",
+        "translation": "Declanșează un eveniment de script cu un ID și un mesaj.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.messageSizeExceed",
+        "source_string": "Message length exceeds (%1$d) character limit!",
+        "translation": "Lungimea mesajului depășește limita de caractere (%1$d)!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.invalidNamespace",
+        "source_string": "Identifier must have a namespace that is not \"minecraft\"",
+        "translation": "Identificatorul trebuie să aibă un namespace care nu este „minecraft”",
+        "context": "Don't translate the \"minecraft\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.description",
+        "source_string": "Changes a block to another block.",
+        "translation": "Schimbă un bloc cu un alt bloc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.failed",
+        "source_string": "Unable to place block",
+        "translation": "Nu s-a putut plasa blocul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.noChange",
+        "source_string": "The block couldn't be placed",
+        "translation": "Blocul nu a putut fi plasat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.notFound",
+        "source_string": "There is no such block with ID/name %1$s",
+        "translation": "Blocul cu ID-ul/numele „%1$s” nu există",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.outOfWorld",
+        "source_string": "Cannot place block outside of the world",
+        "translation": "Nu se poate plasa blocul în afara lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.success",
+        "source_string": "Block placed",
+        "translation": "Bloc plasat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Analiza datelor a eșuat: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setidletimeout.success",
+        "source_string": "Successfully set the idle timeout to %1$d minutes.",
+        "translation": "S-a setat cu succes temporizatorul de inactivitate la %1$d minute.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslots.description",
+        "source_string": "Sets the number of fixed inventory slots for the server.",
+        "translation": "Setează numărul de sloturi fixe de inventar pentru server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslots.success",
+        "source_string": "Number of Fixed Inventory Slots set to %1$d",
+        "translation": "Numărul de sloturi fixe de inventar setat la %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslot.description",
+        "source_string": "Sets a fixed slot to a specified item.",
+        "translation": "Setează un slot fix la un anumit obiect.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslot.success",
+        "source_string": "Fixed Inventory Slot %1$d set to %2$s",
+        "translation": "Slot de inventar fix %1$d setat la %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.description",
+        "source_string": "Sets or gets the paused state of the game for all players.",
+        "translation": "Setează sau primește starea de pauză a jocului pentru toți jucătorii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.success",
+        "source_string": "Set or got pause state",
+        "translation": "S-a setat sau primit starea de pauză",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.error",
+        "source_string": "Invalid conditions for setting pause state",
+        "translation": "Condiții invalide pentru setarea stării de pauză",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.description",
+        "source_string": "Sets the maximum number of players for this game session.",
+        "translation": "Setează numărul maxim de jucători pentru această sesiune de joc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success",
+        "source_string": "Set max players to %1$d.",
+        "translation": "S-a setat numărul maxim de jucători la %1$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success.upperbound",
+        "source_string": "(Bound to maximum allowed connections)",
+        "translation": "(Legată de conexiunile maxime permise)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success.lowerbound",
+        "source_string": "(Bound to current player count)",
+        "translation": "(Legată de numărul jucătorilor actuali)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.description",
+        "source_string": "Sets the world spawn.",
+        "translation": "Setează generarea lumii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.success",
+        "source_string": "Set the world spawn point to (%1$d, %2$d, %3$d)",
+        "translation": "Punctul de generare al lumii setat la (%1$d, %2$d, %3$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.wrongDimension",
+        "source_string": "The world spawn can not be set in this dimension",
+        "translation": "Generarea lumii nu poate fi setată în această dimensiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.notAllowedInLegacyWorlds",
+        "source_string": "The world spawn can not be set in legacy worlds",
+        "translation": "Generarea lumii nu poate fi setată în lumile tip vechi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.success.single",
+        "source_string": "Set %1$s's spawn point to (%2$d, %3$d, %4$d)",
+        "translation": "S-a setat punctul de reînviere al lui %1$s la (%2$d, %3$d, %4$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.description",
+        "source_string": "Sets the spawn point for a player.",
+        "translation": "Setează punctul de reînviere pentru un jucător.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.success.multiple.specific",
+        "source_string": "Set spawn point for %1$s to (%2$d, %3$d, %4$d)",
+        "translation": "S-a setat punctul de reînviere pentru %1$s la (%2$d, %3$d, %4$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.success.multiple.generic",
+        "source_string": "Set spawn point for %1$s",
+        "translation": "Setează punctul de reînviere pentru %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnpoint.wrongDimension",
+        "source_string": "The spawn point cannot be set in this dimension",
+        "translation": "Punctul de reînviere nu poate fi setat în această dimensiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearrealmevents.description",
+        "source_string": "Clears all Realm Events stored in the world data.",
+        "translation": "Șterge toate evenimentele de Realm stocate în datele lumii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearrealmevents.start",
+        "source_string": "Clearing all Realm Events",
+        "translation": "Se șterg toate evenimentele de Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearspawnpoint.success.single",
+        "source_string": "Removed %1$s's spawn point",
+        "translation": "S-a șters punctul de reînviere al lui %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearspawnpoint.description",
+        "source_string": "Removes the spawn point for a player.",
+        "translation": "Șterge punctul de reînviere pentru un jucător.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearspawnpoint.success.multiple",
+        "source_string": "Removed spawn points for %1$s",
+        "translation": "S-au șters punctele de reînviere pentru %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.description",
+        "source_string": "Teleports entities to random locations.",
+        "translation": "Teleportează entitățile în locații aleatorii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.failure.players",
+        "source_string": "Could not spread %1$s players around %2$s,%3$s (too many players for space - try using spread of at most %4$s)",
+        "translation": "Nu s-au putut răspândi jucătorii %1$s în jurul %2$s,%3$s (prea mulți jucători pentru spațiu - încearcă să folosești o răspândire de cel mult %4$s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.failure.players.unsafe",
+        "source_string": "Could not spread %1$s players around %2$s,%3$s (no safe locations found after %4$s attempts)",
+        "translation": "Nu s-au putut răspândi jucătorii %1$s în jurul %2$s,%3$s (nu s-au găsit locații sigure după %4$s încercări)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.failure.teams",
+        "source_string": "Could not spread %1$s teams around %2$s,%3$s (too many players for space - try using spread of at most %4$s)",
+        "translation": "Nu s-au putut răspândi echipele %1$s în jurul %2$s,%3$s (prea mulți jucători pentru spațiu - încearcă să folosești o răspândire de cel mult %4$s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.info.players",
+        "source_string": "(Average distance between players is %1$s blocks apart after %2$s iterations)",
+        "translation": "(Distanța medie dintre jucători este de %1$s blocuri după %2$s iterații)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.info.teams",
+        "source_string": "(Average distance between teams is %1$s blocks apart after %2$s iterations)",
+        "translation": "(Distanța medie dintre echipe este de %1$s blocuri după %2$s iterații)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.spreading.players",
+        "source_string": "Spreading %1$s players %2$s blocks around %3$s,%4$s (min %5$s blocks apart)",
+        "translation": "Se răspândesc %1$s jucători la distanță de %2$s blocuri în jurul %3$s,%4$s (separare de minim %5$s blocuri)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.spreading.teams",
+        "source_string": "Spreading %1$s teams %2$s blocks around %3$s,%4$s (min %5$s blocks apart)",
+        "translation": "Se răspândesc %1$s echipe la distanță de %2$s blocuri în jurul %3$s,%4$s (separare de minim %5$s blocuri)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.success.players",
+        "source_string": "Successfully spread %1$s players around %2$s,%3$s",
+        "translation": "S-au răspândit cu succes %1$s jucători în jurul %2$s,%3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spreadplayers.success.teams",
+        "source_string": "Successfully spread %1$s teams around %2$s,%3$s",
+        "translation": "S-au răspândit cu succes %1$s echipe în jurul %2$s,%3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.cleared",
+        "source_string": "Cleared %1$s stats",
+        "translation": "S-au șters %1$s statistici",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.failed",
+        "source_string": "Invalid parameters",
+        "translation": "Parametri incorecţi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.noCompatibleBlock",
+        "source_string": "Block at %1$d, %2$d, %3$d can not track stats",
+        "translation": "Blocul de la %1$d, %2$d, %3$d nu poate urmări statistici",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.success",
+        "source_string": "Storing %1$s stats in %2$s on %3$s",
+        "translation": "Se stochează %1$s statistici în %2$s pe %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stop.description",
+        "source_string": "Stops the server.",
+        "translation": "Oprește serverul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stop.start",
+        "source_string": "Stopping the server",
+        "translation": "Se oprește serverul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stopsound.description",
+        "source_string": "Stops a sound.",
+        "translation": "Oprește un sunet.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stopsound.success",
+        "source_string": "Stopped sound %s for %s",
+        "translation": "Sunetul %s oprit pentru %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stopsound.success.all",
+        "source_string": "Stopped all sounds for %s",
+        "translation": "S-au oprit toate sunetele pentru %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.description",
+        "source_string": "Saves or loads a structure in the world.",
+        "translation": "Salvează sau încarcă o structură în lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.empty.load",
+        "source_string": "Can't load a structure with no entities and no blocks",
+        "translation": "Nu se poate încărca o structură fără entități și fără blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.empty.save",
+        "source_string": "Can't save a structure with no entities and no blocks",
+        "translation": "Nu se poate salva o structură fără entități și fără blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.invalid.animationTime",
+        "source_string": "Animation time must be 0 or higher",
+        "translation": "Timpul de animație trebuie să fie 0 sau mai mare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.invalid.integrity",
+        "source_string": "Integrity must be in the range of 0 to 100",
+        "translation": "Integritatea trebuie să fie în intervalul 0 - 100",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.invalid.name",
+        "source_string": "Name should be in the format of \"name\" or \"namespace:name\". If not namespace is provided, the default one will be assigned.",
+        "translation": "Numele trebuie să fie în formatul „name” sau „namespace:name”. Dacă nu este furnizat namespace, cel implicit va fi alocat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.load.success",
+        "source_string": "Loaded a structure of name %s",
+        "translation": "S-a încărcat o structură cu numele %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.load.queued",
+        "source_string": "A placement request has been queued and it will be executed when the specified area is fully loaded.",
+        "translation": "Cererea de plasare a fost pusă în coadă și va fi executată atunci când zona specificată este complet încărcată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.notFound",
+        "source_string": "The structure %s can't be found. Make sure the name was spelled correctly and try again.",
+        "translation": "Structura %s nu poate fi găsită. Asigurați-vă că numele a fost scris corect și încercați din nou.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.save.success",
+        "source_string": "Saved a structure with name %s",
+        "translation": "S-a salvat o structură cu numele %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.size.tooBig",
+        "source_string": "A structure's size cannot be larger than (%1$d, %2$d, %3$d), it was (%4$d, %5$d, %6$d)",
+        "translation": "Dimensiunea unei structuri nu poate fi mai mare decât (%1$d, %2$d, %3$d), era (%4$d, %5$d, %6$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.size.tooSmall",
+        "source_string": "A structure's size cannot be smaller than (%1$d, %2$d, %3$d), it was (%4$d, %5$d, %6$d)",
+        "translation": "Dimensiunea unei structuri nu poate fi mai mică decât (%1$d, %2$d, %3$d), era (%4$d, %5$d, %6$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.unknown.action",
+        "source_string": "Unknown structure action provided",
+        "translation": "Acțiunea de structură furnizată este necunoscută",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.unloadedChunks",
+        "source_string": "The feature to load a structure in an unloaded area hasn't been implemented yet",
+        "translation": "Funcția de încărcare a unei structuri într-o zonă neîncărcată nu a fost încă implementată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.y.tooHigh",
+        "source_string": "Cannot place blocks outside of the world. Try a value of %d or lower for the Y component of <to: x y z>.",
+        "translation": "Nu se pot plasa blocuri în afara lumii. Încercați o valoare de %d sau mai mică pentru componenta Y a <to: x y z>.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.y.tooLow",
+        "source_string": "Cannot place blocks outside of the world. Try a value greater than %d for the Y component of <to: x y z>.",
+        "translation": "Nu se pot plasa blocuri în afara lumii. Încercați o valoare mai mare decât %d pentru componenta Y a <to: x y z>.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.structure.delete.success",
+        "source_string": "Structure %s deleted.",
+        "translation": "Structura %s a fost ștearsă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.description",
+        "source_string": "Summons an entity.",
+        "translation": "Convoacă o entitate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.failed",
+        "source_string": "Unable to summon object",
+        "translation": "Nu se poate convoca obiectul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.failed.npc",
+        "source_string": "You need Creative + Operator to summon an NPC",
+        "translation": "Aveți nevoie de modul creativ + operator pentru a convoca un NPC",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.outOfWorld",
+        "source_string": "Cannot summon the object out of the world",
+        "translation": "Obiectul nu poate fi convocat în afara lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.success",
+        "source_string": "Object successfully summoned",
+        "translation": "Obiect convocat cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.summon.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Analiza datelor a eșuat: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.description",
+        "source_string": "Manages tags stored in entities.",
+        "translation": "Gestionează etichetele stocate în entități.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.add.failed",
+        "source_string": "Target either already has the tag or has too many tags",
+        "translation": "Ținta fie are deja eticheta sau are prea multe etichete",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.add.success.single",
+        "source_string": "Added tag '%1$s' to %2$s",
+        "translation": "S-a adăugat eticheta „%1$s” la %2$s",
+        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.add.success.multiple",
+        "source_string": "Added tag '%1$s' to %2$d entities",
+        "translation": "S-a adăugat eticheta „%1$s” la %2$d entități",
+        "context": "1: Tag string   ##2: Number of entities (numerals)",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.single.empty",
+        "source_string": "%s has no tags",
+        "translation": "%s nu are nici o etichetă",
+        "context": "1: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.single.success",
+        "source_string": "%1$s has %2$d tags: %3$s",
+        "translation": "%1$s are %2$d etichete: %3$s",
+        "context": "1: Entity/Player/Item name   ##2: Number of tags   ##3: Comma separated list of tags",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.multiple.empty",
+        "source_string": "There are no tags on the %d entities",
+        "translation": "Nu există etichete pe entitățile %d",
+        "context": "1: Number of entities matching the selector",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.list.multiple.success",
+        "source_string": "The %1$d entities have %2$d total tags: %3$s",
+        "translation": "Entitățile %1$d au %2$d etichete în total: %3$s",
+        "context": "1: Number of entities matching the selector   ##2: Number of tags   ##3: Comma separated list of tags",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.remove.failed",
+        "source_string": "Target does not have this tag",
+        "translation": "Ținta nu are această etichetă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.remove.success.single",
+        "source_string": "Removed tag '%1$s' from %2$s",
+        "translation": "S-a șters eticheta „%1$s” de la %2$s",
+        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tag.remove.success.multiple",
+        "source_string": "Removed tag '%1$s' from %2$d entities",
+        "translation": "S-a șters eticheta „%1$s” de la %2$d entități",
+        "context": "1: Tag string   ##2: Number of selector matches",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tell.description",
+        "source_string": "Sends a private message to one or more players.",
+        "translation": "Trimite un mesaj privat unuia sau mai multor jucători.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.description",
+        "source_string": "Sends a JSON message to players.",
+        "translation": "Trimite un mesaj JSON jucătorilor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.jsonStringException",
+        "source_string": "Invalid json string data.",
+        "translation": "Date de șir json invalide.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.noData",
+        "source_string": "No data was provided.",
+        "translation": "Nu au fost furnizate date.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.notArray",
+        "source_string": "Rawtext object must contain an array. Example: \"rawtext\":[{..}]",
+        "translation": "Obiectul rawtext trebuie să conțină un șir. Exemplu: \"rawtext\":[{..}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.textNotString",
+        "source_string": "text field in rawtext must contain a string. Example: \"rawtext\":[{\"text\": \"text to display\"}]",
+        "translation": "câmpul text din rawtext trebuie să conțină un șir. Exemplu: \"rawtext\":[{\"text\": \"text pentru afișare\"}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.translateNotString",
+        "source_string": "translate field in rawtext must contain a language key. Example: \"rawtext\":[{\"translate\": \"gui.ok\"}]",
+        "translation": "câmpul de traducere din rawtext trebuie să conțină o cheie de limbă. Exemplu: \"rawtext\":[{\"translate\": \"gui.ok\"}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.selectorNotString",
+        "source_string": "selector field in rawtext must contain a selector as a string. Example: \"rawtext\":[{\"selector\": \"@e\"}]",
+        "translation": "câmpul selector din rawtext trebuie să conțină un selector ca șir. Exemplu: \"rawtext\":[{\"selector\": \"@e\"}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.scoreNotObject",
+        "source_string": "score field in rawtext must contain an object. Example \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "translation": "câmpul scor din rawtext trebuie să conțină un obiect. Exemplu \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.scoreNameNotString",
+        "source_string": "name field in the score field must be a string. Example \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "translation": "câmpul nume din câmpul de scor trebuie să fie un șir. Exemplu \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.scoreObjectiveNotString",
+        "source_string": "objective field in the score field must be a string. Example \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "translation": "câmpul obiectiv din câmpul de scor trebuie să fie un șir. Exemplu \"rawtext\":[{\"score\": {\"name\": \"my_name\", \"objective\": \"my_objective\"}}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.withNotArrayOrRawText",
+        "source_string": "with field in rawtext must contain a array or another rawtext object. Example 1: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\": [ \"value1\", \"value2\" ]}]  Example 2: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\":{\"rawtext\":[{\"text\": \"value1\"}, {\"text\": \"value2\"}]}}]",
+        "translation": "câmpul with din rawtext trebuie să conțină un șir sau un alt obiect rawtext. Exemplul 1: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\": [ \"value1\", \"value2\" ]}] Exemplul 2: \"rawtext\":[{\"translate\": \"chat.type.announcement\", \"with\":{\"rawtext\":[{\"text\": \"value1\"}, {\"text\": \"value2\"}]}]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tellraw.error.itemIsNotObject",
+        "source_string": "Json value in rawtext array was not an object. Example: \"rawtext\": [{ \"text\" : \"my text\" }]",
+        "translation": "Valoarea json în șirul rawtext nu a fost un obiect. Exemplu: \"rawtext\": [{ \"text\" : \"my text\" }]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.educlientinfo.description",
+        "source_string": "Get tenant ID and host status. Intended for CM.",
+        "translation": "Obține clientul ID si statutul de gazdă. Destinate CM.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.description",
+        "source_string": "Counts entities (players, mobs, items, etc.) matching specified conditions.",
+        "translation": "Numără entități (jucători, creaturi, obiecte etc.) care să corespundă condițiilor specificate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.failure",
+        "source_string": "%1$s did not match the required data structure",
+        "translation": "%1$s nu s-a potrivit cu structura de date necesară",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.success",
+        "source_string": "Found %1$s",
+        "translation": "S-a găsit %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testfor.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Analiza datelor a eșuat: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
