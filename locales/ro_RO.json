@@ -5962,7 +5962,7 @@
     {
         "identifier": "commands.chunkinfo.compiled",
         "source_string": "Chunk is compiled.",
-        "translation": "Chunk-ul este compilat.",
+        "translation": "Bucata este compilată.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5978,7 +5978,7 @@
     {
         "identifier": "commands.chunkinfo.empty",
         "source_string": "Chunk is empty.",
-        "translation": "Chunk-ul este gol.",
+        "translation": "Bucata este goală.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5986,7 +5986,7 @@
     {
         "identifier": "commands.chunkinfo.hasLayers",
         "source_string": "Chunk has layers: %1$s",
-        "translation": "Chunk-ul are straturile: %1$s",
+        "translation": "Bucata are straturile: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5994,7 +5994,7 @@
     {
         "identifier": "commands.chunkinfo.hasNoRenderableLayers",
         "source_string": "Chunk has no renderable layers.",
-        "translation": "Chunk-ul nu are straturi randabile.",
+        "translation": "Bucata nu are straturi randabile.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6002,7 +6002,7 @@
     {
         "identifier": "commands.chunkinfo.isEmpty",
         "source_string": "Chunk has empty layers: %1$s",
-        "translation": "Chunk-ul are straturi goale: %1$s",
+        "translation": "Bucata are straturi goale: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6010,7 +6010,7 @@
     {
         "identifier": "commands.chunkinfo.location",
         "source_string": "Chunk location: (%1$d, %2$d, %3$d)",
-        "translation": "Locație chunk: (%1$d, %2$d, %3$d)",
+        "translation": "Locație bucată: (%1$d, %2$d, %3$d)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6018,7 +6018,7 @@
     {
         "identifier": "commands.chunkinfo.noChunk",
         "source_string": "No chunk found at chunk position %1$d, %2$d, %3$d",
-        "translation": "Nu s-a găsit nici un chunk la poziția %1$d, %2$d, %3$d",
+        "translation": "Nu s-a găsit nicio bucată la poziția %1$d, %2$d, %3$d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6026,7 +6026,7 @@
     {
         "identifier": "commands.chunkinfo.notCompiled",
         "source_string": "Chunk is not compiled.",
-        "translation": "Chunk-ul nu este compilat.",
+        "translation": "Bucata nu este compilată.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6034,7 +6034,7 @@
     {
         "identifier": "commands.chunkinfo.notEmpty",
         "source_string": "Chunk is not empty.",
-        "translation": "Chunk-ul nu este gol.",
+        "translation": "Bucata nu este goală.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7162,7 +7162,7 @@
     {
         "identifier": "commands.generic.chunk.notFound",
         "source_string": "Specified chunk not found",
-        "translation": "Chunk-ul specificat nu a fost găsit",
+        "translation": "Bucata specificată nu a fost găsită",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11008,6 +11008,790 @@
         "max_length": null
     },
     {
+        "identifier": "commands.testforblock.description",
+        "source_string": "Tests whether a certain block is in a specific location.",
+        "translation": "Testează dacă un anumit bloc se află într-o anumită locație.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.failed.data",
+        "source_string": "The block at %1$d,%2$d,%3$d did not match the expected block state.",
+        "translation": "Blocul de la %1$d,%2$d,%3$d nu se potrivește cu starea de bloc așteptată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.failed.nbt",
+        "source_string": "The block at %1$d,%2$d,%3$d did not have the required NBT keys.",
+        "translation": "Blocul de la %1$d,%2$d,%3$d nu a avut cheile NBT necesare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.failed.tile",
+        "source_string": "The block at %1$d,%2$d,%3$d is %4$s (expected: %5$s).",
+        "translation": "Blocul de la %1$d,%2$d,%3$d este %4$s (se aștepta: %5$s).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.failed.tileEntity",
+        "source_string": "The block at %1$d,%2$d,%3$d is not a tile entity and cannot support tag matching.",
+        "translation": "Blocul de la %1$d,%2$d,%3$d nu este o entitate de bloc și nu poate sprijini potrivirea etichetelor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.outOfWorld",
+        "source_string": "Cannot test for block outside of the world",
+        "translation": "Nu se poate testa pentru bloc în afara lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblock.success",
+        "source_string": "Successfully found the block at %1$d,%2$d,%3$d.",
+        "translation": "A fost găsit cu succes un bloc la %1$d,%2$d,%3$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.testforblocks.description",
+        "source_string": "Tests whether the blocks in two regions match.",
+        "translation": "Testează dacă blocurile din două regiuni se potrivesc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.description",
+        "source_string": "Add, remove, or list ticking areas.",
+        "translation": "Adaugă, elimină sau listează zonele de tick-uri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.inuse",
+        "source_string": "%1$d/%2$d ticking areas in use.",
+        "translation": "%1$d/%2$d zone de tick-uri în uz.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.entitycount",
+        "source_string": "There are %1$d ticking area(s) from entities with the tick_world component.",
+        "translation": "Există %1$d zone de tick-uri de la entități cu componenta tick_world.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea.noneExist.currentDimension",
+        "source_string": "No ticking areas exist in the current dimension.",
+        "translation": "Nu există zone de tick-uri în dimensiunea actuală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-bounds.success",
+        "source_string": "Added ticking area from %1$d to %2$d.",
+        "translation": "S-a adăugat zona de tick-uri de la %1$d la %2$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-bounds.preload.success",
+        "source_string": "Added ticking area from %1$d to %2$d marked for preload.",
+        "translation": "S-a adăugat zona de tick-uri de la %1$d la %2$d marcată pentru pre-încărcare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-circle.success",
+        "source_string": "Added ticking area centered at %1$d with a radius of %2$d chunks.",
+        "translation": "S-a adăugat o zonă de tick-uri centrată pe %1$d cu o rază de %2$d bucăți.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add-circle.preload.success",
+        "source_string": "Added ticking area centered at %1$d with a radius of %2$d chunks marked for preload.",
+        "translation": "S-a adăugat o zonă de tick-uri centrată pe %1$d cu o rază de %2$d bucăți marcate pentru pre-încărcare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.failure",
+        "source_string": "Max number of ticking areas (%1$d) has already been reached. Cannot add more ticking areas.",
+        "translation": "Numărul maxim de zone de tick-uri (%1$d) a fost deja atins. Nu se pot adăuga mai multe zone de tick-uri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.conflictingname",
+        "source_string": "A ticking area with the name %1$s already exists.",
+        "translation": "O zonă de tick-uri cu numele „%1$s” deja există.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.chunkfailure",
+        "source_string": "Ticking area contains more than %1$d chunks, ticking area is too large and cannot be created.",
+        "translation": "Zona de tick-uri conține mai mult de %1$d bucăți, zona de tick-uri este prea mare și nu poate fi creată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-add.radiusfailure",
+        "source_string": "Radius cannot be larger than %1$d, ticking area is too large and cannot be created.",
+        "translation": "Raza nu poate fi mai mare de %1$d, zona de tick-uri este prea mare și nu poate fi creată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove.success",
+        "source_string": "Removed ticking area(s)",
+        "translation": "Zone de tick-uri șterse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove.failure",
+        "source_string": "No ticking areas containing the block position %1$d exist in the current dimension.",
+        "translation": "Nu există zone de tick-uri care să conțină poziția \nde bloc %1$d în dimensiunea curentă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove.byname.failure",
+        "source_string": "No ticking areas named %1$s exist in the current dimension.",
+        "translation": "Nu există zone de tick-uri numite „%1$s” în dimensiunea actuală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove_all.success",
+        "source_string": "Removed ticking area(s)",
+        "translation": "Zone de tick-uri șterse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-remove_all.failure",
+        "source_string": "No ticking areas exist in the current dimension.",
+        "translation": "Nu există zone de tick-uri în dimensiunea actuală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.success",
+        "source_string": "Updated ticking area(s)",
+        "translation": "Zone de tick-uri actualizate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.byposition.failure",
+        "source_string": "No ticking areas containing the block position %1$d exist in the current dimension.",
+        "translation": "Nu există zone de tick-uri care să conțină poziția \nde bloc %1$d în dimensiunea curentă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.byname.failure",
+        "source_string": "No ticking areas named %1$s exist in the current dimension.",
+        "translation": "Nu există zone de tick-uri numite „%1$s” în dimensiunea actuală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-preload.count",
+        "source_string": "%1$d matching area(s) are marked for preload.",
+        "translation": "%1$d zone care se potrivesc sunt marcate pentru pre-încărcare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.chunks",
+        "source_string": "chunks",
+        "translation": "bucăți",
+        "context": "Meaning a chunk of the world.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.circle.radius",
+        "source_string": "Radius",
+        "translation": "Rază",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.preload",
+        "source_string": "Preload",
+        "translation": "Pre-încărcare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.success.currentDimension",
+        "source_string": "List of all ticking areas in current dimension",
+        "translation": "Lista tuturor zonelor de tick-uri în dimensiunea actuală",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.success.allDimensions",
+        "source_string": "List of all ticking areas in all dimensions",
+        "translation": "Lista tuturor zonelor de tick-uri din toate dimensiunile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.failure.allDimensions",
+        "source_string": "No ticking areas exist in any dimension.",
+        "translation": "Nu există zone de tick-uri în nicio dimensiune.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.to",
+        "source_string": "to",
+        "translation": "la",
+        "context": "Used in the context of \"from position to other position\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tickingarea-list.type.circle",
+        "source_string": "Circle",
+        "translation": "Cerc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.added",
+        "source_string": "Added %1$d to the time",
+        "translation": "%1$d adăugat la timp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.description",
+        "source_string": "Changes or queries the world's game time.",
+        "translation": "Schimbă sau indică timpul de joc al lumii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.disabled",
+        "source_string": "Always Day is enabled in this world.",
+        "translation": "„Tot timpul zi” este activat pe această lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.query.day",
+        "source_string": "Day is %d",
+        "translation": "Ziua este %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.query.daytime",
+        "source_string": "Daytime is %d",
+        "translation": "Timpul zilei este %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.query.gametime",
+        "source_string": "Gametime is %d",
+        "translation": "Timpul jocului este %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.set",
+        "source_string": "Set the time to %1$d",
+        "translation": "Setează timpul la %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.time.stop",
+        "source_string": "Time %1$s",
+        "translation": "Timp %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.title.description",
+        "source_string": "Controls screen titles.",
+        "translation": "Controlează titlurile de ecran.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.title.success",
+        "source_string": "Title command successfully executed",
+        "translation": "Comanda titlu executată cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.titleraw.description",
+        "source_string": "Controls screen titles with JSON messages.",
+        "translation": "Controlează titlurile de ecran cu mesaje JSON.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.titleraw.success",
+        "source_string": "Titleraw command successfully executed",
+        "translation": "Comanda titleraw executată cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.toggledownfall.description",
+        "source_string": "Toggles the weather.",
+        "translation": "Schimbă vremea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.description",
+        "source_string": "Teleports entities (players, mobs, etc.).",
+        "translation": "Teleportează entitățile (jucători, mobi, etc.).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.notSameDimension",
+        "source_string": "Unable to teleport because players are not in the same dimension",
+        "translation": "Nu se pot teleporta pentru că jucătorii nu sunt in aceeași dimensiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.outOfWorld",
+        "source_string": "Cannot teleport entities outside of the world",
+        "translation": "Nu se pot teleporta entități în afara lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.permission",
+        "source_string": "You do not have permission to use this slash command.",
+        "translation": "Nu ai permisiune să folosești această comandă slash.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.safeTeleportFail",
+        "source_string": "Unable to teleport %1$s to %2$s because the area wasn't clear of blocks.",
+        "translation": "Nu se poate teleporta %1$s la %2$s pentru că zona era blocată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.far",
+        "source_string": "Unable to teleport %1$s to the unloaded area at %2$s",
+        "translation": "Nu se poate teleporta %1$s la zona neîncărcată de la %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.success",
+        "source_string": "Teleported %1$s to %2$s",
+        "translation": "S-a teleportat %1$s la %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.successVictim",
+        "source_string": "You have been teleported to %1$s",
+        "translation": "Ai fost teleportat la %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.success.coordinates",
+        "source_string": "Teleported %1$s to %2$s, %3$s, %4$s",
+        "translation": "Teleportat %1$s la %2$s, %3$s, %4$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.transferserver.description",
+        "source_string": "Transfers a player to another server.",
+        "translation": "Transferă un jucător pe alt server.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.transferserver.successful",
+        "source_string": "Transferred player",
+        "translation": "Jucător transferat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.transferserver.invalid.port",
+        "source_string": "Invalid port (0-65535)",
+        "translation": "Port invalid (0-65535)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.description",
+        "source_string": "Sets a trigger to be activated.",
+        "translation": "Setează un declanșator pentru a fi activat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.disabled",
+        "source_string": "Trigger %1$s is not enabled",
+        "translation": "Declanșatorul %1$s nu este activat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.invalidMode",
+        "source_string": "Invalid trigger mode %1$s",
+        "translation": "Mod de declanșare %1$s invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.invalidObjective",
+        "source_string": "Invalid trigger name %1$s",
+        "translation": "Nume declanșator %1$s invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.invalidPlayer",
+        "source_string": "Only players can use the /trigger command",
+        "translation": "Doar jucătorii pot folosi comanda /trigger",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.trigger.success",
+        "source_string": "Trigger %1$s changed with %2$s %3$s",
+        "translation": "Declanșator %1$s schimbat cu %2$s %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unban.failed",
+        "source_string": "Could not unban player %1$s",
+        "translation": "Nu s-a putut debloca jucătorul %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unban.success",
+        "source_string": "Unbanned player %1$s",
+        "translation": "Jucător deblocat %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unbanip.invalid",
+        "source_string": "You have entered an invalid IP address",
+        "translation": "Ai introdus o adresă IP invalidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.unbanip.success",
+        "source_string": "Unbanned IP address %1$s",
+        "translation": "Adresă IP permisă %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.validategamelighting.description",
+        "source_string": "Validate game lighting for a specified region",
+        "translation": "Validează iluminarea jocului pentru o anumită regiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.validategamelighting.checkRegionTooBig",
+        "source_string": "Region to check for lighting is too big! (%1$d > %2$d)",
+        "translation": "Regiunea pentru a verifica pentru iluminare este prea mare! (%1$d > %2$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.validategamelighting.outOfWorld",
+        "source_string": "Cannot check lighting outside of the world",
+        "translation": "Nu se poate verifica iluminarea în afara lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.description",
+        "source_string": "Add, remove, or list volumes in the current dimension.",
+        "translation": "Adaugă, elimină sau listează volumele din dimensiunea curentă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.definitionDoesntExist.failure",
+        "source_string": "No volume definition matching identifier \"%1$s\".",
+        "translation": "Nicio definiție de volum nu se potrivește cu identificatorul „%1$s”.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.exceededLimit.failure",
+        "source_string": "Max number of volumes %1$d has already been reached. Cannot add more volumes.",
+        "translation": "Numărul maxim de volume %1$d a fost deja atins. Nu se pot adăuga mai multe volume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.failure",
+        "source_string": "Failed to create volume.",
+        "translation": "Nu s-a putut crea volumul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.add.success",
+        "source_string": "Added volume \"%1$s\" from %2$d to %3$d.",
+        "translation": "S-a adăugat volumul „%1$s” de la %2$d la %3$d.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove.byName.failure",
+        "source_string": "No volumes named %1$s exist in the current dimension.",
+        "translation": "Nu există volume numite „%1$s” în dimensiunea actuală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove.byPosition.failure",
+        "source_string": "No volumes containing the block position %1$d exist in the current dimension.",
+        "translation": "Nu există volume care să conțină poziția \nde bloc %1$d în dimensiunea curentă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.serverSimDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc",
+        "source_string": "Non-Player Characters",
+        "translation": "Caractere non-jucător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_showChunkMap",
+        "source_string": "Show chunk map",
+        "translation": "Arată harta bucăților",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_chunkMapMode",
+        "source_string": "Chunk Map View Mode",
+        "translation": "Mod vizualizare hartă bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_chunk_map_mode_off",
+        "source_string": "Off",
+        "translation": "Dezactivată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_chunk_map_mode_client",
+        "source_string": "Client",
+        "translation": "Client",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_chunk_map_mode_client_main_chunksource",
+        "source_string": "Client (MainChunkSource)",
+        "translation": "Client (MainChunkSource)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_chunk_map_mode_server_chunk_state",
+        "source_string": "Server",
+        "translation": "Server",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_chunk_map_mode_server_chunk_debug_display_state",
+        "source_string": "Server (DB State)",
+        "translation": "Server (stare DB)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_enableDebugHudOverlay.renderchunks",
+        "source_string": "Render chunks",
+        "translation": "Randare bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_use_fast_chunk_culling",
+        "source_string": "Use Fast Chunk Culling",
+        "translation": "Folosește Fast-Culling pentru bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.raytracing.renderDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.deferred.renderDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.renderDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.renderDistanceRecommendedFormat",
+        "source_string": "%s chunks (recommended)",
+        "translation": "%s bucăți (recomandat)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "progressScreen.message.waitingForTickingAreas",
+        "source_string": "Loading Ticking Areas",
+        "translation": "Se încarcă zonele de tick-uri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gathering.info.qr.title.console",
         "source_string": "Live Event Stream",
         "translation": "Live stream eveniment",
@@ -11066,7 +11850,7 @@
     {
         "identifier": "unloadedchunk.message.warning",
         "source_string": "Chunk still loading. You may encounter some mild performance issues",
-        "translation": "Chunk-ul încă se încarcă. S-ar putea să întâlnești unele probleme ușoare de performanță",
+        "translation": "Bucata încă se încarcă. S-ar putea să întâlnești unele probleme ușoare de performanță",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
