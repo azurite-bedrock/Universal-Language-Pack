@@ -18,7 +18,7 @@
     {
         "identifier": "language.name",
         "source_string": "Name (Location)",
-        "translation": "Nume (Locație)",
+        "translation": "Română (România)",
         "context": "Name of the to be translated language",
         "labels": "unassigned, metadata",
         "max_length": null
@@ -3570,7 +3570,7 @@
     {
         "identifier": "authentication.store.confirm.button",
         "source_string": "Confirm",
-        "translation": "Confirmați",
+        "translation": "Confirmare",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10176,6 +10176,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.seed.success",
+        "source_string": "Seed: %1$s",
+        "translation": "Sămânță: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.setblock.description",
         "source_string": "Changes a block to another block.",
         "translation": "Schimbă un bloc cu un alt bloc.",
@@ -11178,7 +11186,7 @@
     {
         "identifier": "commands.tickingarea-remove.failure",
         "source_string": "No ticking areas containing the block position %1$d exist in the current dimension.",
-        "translation": "Nu există zone de tick-uri care să conțină poziția \nde bloc %1$d în dimensiunea curentă.",
+        "translation": "Nu există zone de tick-uri care să conțină poziția de bloc %1$d în dimensiunea curentă.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11218,7 +11226,7 @@
     {
         "identifier": "commands.tickingarea-preload.byposition.failure",
         "source_string": "No ticking areas containing the block position %1$d exist in the current dimension.",
-        "translation": "Nu există zone de tick-uri care să conțină poziția \nde bloc %1$d în dimensiunea curentă.",
+        "translation": "Nu există zone de tick-uri care să conțină poziția de bloc %1$d în dimensiunea curentă.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11658,7 +11666,1039 @@
     {
         "identifier": "commands.volumearea.remove.byPosition.failure",
         "source_string": "No volumes containing the block position %1$d exist in the current dimension.",
-        "translation": "Nu există volume care să conțină poziția \nde bloc %1$d în dimensiunea curentă.",
+        "translation": "Nu există volume care să conțină poziția de bloc %1$d în dimensiunea curentă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove.success",
+        "source_string": "Removed volume(s) in current dimension",
+        "translation": "S-au eliminat volumele din dimensiunea curentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.remove_all.success",
+        "source_string": "Removed volume(s) in current dimension",
+        "translation": "S-au eliminat volumele din dimensiunea curentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.list.success.currentDimension",
+        "source_string": "List of all volumes in current dimension",
+        "translation": "Lista tuturor volumelor din dimensiunea curentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.list.success.allDimensions",
+        "source_string": "List of all volumes in all dimensions",
+        "translation": "Lista tuturor volumelor din toate dimensiunile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.list.failure.allDimensions",
+        "source_string": "No volumes exist in any dimension.",
+        "translation": "Nu există volume în nicio dimensiune.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.entry.withIdentifier",
+        "source_string": "- %s: %s from %d %d %d to %d %d %d",
+        "translation": "- %s: %s de la %d %d %d la %d %d %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.entry.withoutIdentifier",
+        "source_string": "- %s: from %d %d %d to %d %d %d",
+        "translation": "- %s: de la %d %d %d la %d %d %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.noneExist.currentDimension",
+        "source_string": "No volumes exist in the current dimension.",
+        "translation": "Nu există volume în dimensiunea actuală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.volumearea.inUse",
+        "source_string": "%1$d/%2$d volumes in use.",
+        "translation": "%1$d/%2$d volume în uz.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.clear",
+        "source_string": "Changing to clear weather",
+        "translation": "Schimbat la vreme curată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.description",
+        "source_string": "Sets the weather.",
+        "translation": "Setează vremea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.disabled",
+        "source_string": "Weather Cycle isn't enabled in this world.",
+        "translation": "Ciclul de vreme nu este activat în această lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query",
+        "source_string": "Weather state is: %s",
+        "translation": "Starea vremii este: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.clear",
+        "source_string": "clear",
+        "translation": "curată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.rain",
+        "source_string": "rain",
+        "translation": "ploaie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.thunder",
+        "source_string": "thunder",
+        "translation": "tunet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.rain",
+        "source_string": "Changing to rainy weather",
+        "translation": "Schimbat la vreme ploioasă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.thunder",
+        "source_string": "Changing to rain and thunder",
+        "translation": "Schimbare la ploaie și tunete",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.add.failed",
+        "source_string": "Could not add %1$s to the allowlist",
+        "translation": "Nu s-a putut adăuga %1$s la lista permisă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.add.success",
+        "source_string": "Added %1$s to the allowlist",
+        "translation": "S-a adăugat %1$s la lista permisă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.description",
+        "source_string": "Manages the server allowlist.",
+        "translation": "Administrează lista permisă a serverului.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.disabled",
+        "source_string": "Turned off the allowlist",
+        "translation": "Lista permisă a fost dezactivată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.enabled",
+        "source_string": "Turned on the allowlist",
+        "translation": "Lista permisă a fost activată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.list",
+        "source_string": "There are %1$d (out of %2$d seen) allowlisted players:",
+        "translation": "Sunt %1$d jucători de pe lista albă (din %2$d total):",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.reloaded",
+        "source_string": "Allowlist reloaded from file.",
+        "translation": "Lista permisă reîncărcată din fișier.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.remove.failed",
+        "source_string": "Could not remove %1$s from the allowlist",
+        "translation": "Nu s-a putut elimina %1$s din lista permisă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.allowlist.remove.success",
+        "source_string": "Removed %1$s from the allowlist",
+        "translation": "%1$s a fost eliminat din lista permisă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.description",
+        "source_string": "Issues a camera instruction",
+        "translation": "Emite instrucțiune pentru cameră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.success",
+        "source_string": "Sent a camera instruction to the following players: %s",
+        "translation": "S-a trimis o instrucțiune de cameră către următorii jucători: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.unknown.preset",
+        "source_string": "Unknown camera preset name",
+        "translation": "Nume presetare cameră necunoscut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid",
+        "source_string": "Invalid camera command mode",
+        "translation": "Mod de comandă cameră invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.color",
+        "source_string": "Fade color values must be integers from 0 to 255",
+        "translation": "Valorile culorii estompate trebuie să fie numere întregi de la 0 la 255",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.easing",
+        "source_string": "Easing to non-stationary cameras is not supported",
+        "translation": "Nu este suportată deplasarea către camere non-staționare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.time",
+        "source_string": "Fade durations must be between 0 and 10 seconds",
+        "translation": "Durațiile estompării trebuie să fie între 0 și 10 secunde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.pitch",
+        "source_string": "Camera pitch (X rotation) must be between -90 and 90 degrees",
+        "translation": "Pasul camerei (rotația X) trebuie să fie între -90 și 90 de grade",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.view.offset",
+        "source_string": "View offset must be between -64 and 64",
+        "translation": "Compensarea de vedere trebuie să fie între -64 și 64",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.entity.offset",
+        "source_string": "Entity offset must be between -64 and 64",
+        "translation": "Compensarea entității trebuie să fie cuprinsă între -64 și 64",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.invalid.offset.camera",
+        "source_string": "Entity and view offset can only be applied to the follow_orbit camera",
+        "translation": "Compensarea entității și a vederii poate fi aplicată numai camerei follow_orbit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.perspective.locked",
+        "source_string": "Perspective cannot be changed while using custom cameras",
+        "translation": "Perspectiva nu poate fi schimbată când utilizați camere personalizate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.camera.perspective.option",
+        "source_string": "Your selected camera will change when the custom camera is not active",
+        "translation": "Camera foto selectată se va schimba atunci când camera personalizată nu este activă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.world_age.description",
+        "source_string": "Changes or queries the world's age (time since creation).",
+        "translation": "Schimbă sau arată vârsta lumii (timp de la creare).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.world_age.added",
+        "source_string": "Added %1$d to the world's age",
+        "translation": "%1$d adăugat la vârsta lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.world_age.query",
+        "source_string": "World age is %d",
+        "translation": "Vârsta lumii este %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.world_age.set",
+        "source_string": "Set the world's age to %1$d",
+        "translation": "Setează vârsta lumii la %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.center.success",
+        "source_string": "Set world border center to %1$s,%2$s",
+        "translation": "S-a setat centrul frontierei de lume la %1$s,%2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.damage.amount.success",
+        "source_string": "Set world border damage amount to %1$s per block (from %2$s per block)",
+        "translation": "S-a setat cantitatea de daune de la frontiera lumii la %1$s pe bloc (de la %2$s pe bloc)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.damage.buffer.success",
+        "source_string": "Set world border damage buffer to %1$s blocks (from %2$s blocks)",
+        "translation": "S-a setat zona tampon de daune de la frontiera lumii la %1$s blocuri (de la %2$s blocuri)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.get.success",
+        "source_string": "World border is currently %1$s blocks wide",
+        "translation": "Frontiera lumii are în prezent o lățime de %1$s blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.set.success",
+        "source_string": "Set world border to %1$s blocks wide (from %2$s blocks)",
+        "translation": "S-a setat lățimea frontierei lumii la %1$s blocuri (de la %2$s blocuri)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.setSlowly.grow.success",
+        "source_string": "Growing world border to %1$s blocks wide (up from %2$s blocks) over %3$s seconds",
+        "translation": "Se crește lățimea frontierei lumii la %1$s blocuri (față de %2$s blocuri) în %3$s secunde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.setSlowly.shrink.success",
+        "source_string": "Shrinking world border to %1$s blocks wide (down from %2$s blocks) over %3$s seconds",
+        "translation": "Se micșorează lățimea frontierei lumii la %1$s blocuri (față de %2$s blocuri) în %3$s secunde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.warning.distance.success",
+        "source_string": "Set world border warning to %1$s blocks away (from %2$s blocks)",
+        "translation": "S-a setat avertizarea de frontieră de lume la %1$s blocuri distanță (de la %2$s blocuri)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.warning.time.success",
+        "source_string": "Set world border warning to %1$s seconds away (from %2$s seconds)",
+        "translation": "S-a setat avertizarea de frontieră de lume la %1$s secunde distanță (de la %2$s secunde)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldbuilder.description",
+        "source_string": "Toggle World Builder status of caller.",
+        "translation": "Schimbă statusul apelantului editorului de lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldbuilder.success",
+        "source_string": "World Builder status updated to %1$s",
+        "translation": "Starea editorului de lume a fost actualizată la %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.wsserver.description",
+        "source_string": "Attempts to connect to the websocket server on the provided URL.",
+        "translation": "Încearcă să se conecteze la serverul websocket cu URL-ul furnizat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.wsserver.invalid.url",
+        "source_string": "The provided server URL is invalid",
+        "translation": "URL-ul serverului furnizat nu este valid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.wsserver.request.existing",
+        "source_string": "Another connection request is currently running",
+        "translation": "O altă solicitare de conectare rulează în prezent",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.wsserver.request.failed",
+        "source_string": "Could not connect to server: %1$s",
+        "translation": "Nu s-a putut face conexiunea la server: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.wsserver.request.failed.disabled",
+        "source_string": "Websocket server request rejected, go to Settings to enable.",
+        "translation": "Solicitarea serverului de Websocket respinsă, intrați la Setări pentru a activa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.wsserver.success",
+        "source_string": "Connection established to server: %1$s",
+        "translation": "Conexiune stabilită la server: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.xp.description",
+        "source_string": "Adds or removes player experience.",
+        "translation": "Adaugă sau elimină experienţa jucătorului.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.xp.failure.widthdrawXp",
+        "source_string": "Cannot give player negative experience points",
+        "translation": "Nu pot da jucătorului puncte de experiență negative",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.xp.success",
+        "source_string": "Gave %1$d experience to %2$s",
+        "translation": "S-a dat %1$d experiență lui %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.xp.success.levels",
+        "source_string": "Gave %1$d levels to %2$s",
+        "translation": "S-au dat %1$d nivele lui %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.xp.success.negative.levels",
+        "source_string": "Taken %1$d levels from %2$s",
+        "translation": "S-au luat %1$d nivele de la %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reloadconfig.description",
+        "source_string": "Reloads configuration files relating to variables, secrets, permissions, etc.",
+        "translation": "Reîncarcă fișierele de configurare legate de variabile, secrete, permisiuni, etc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reloadconfig.success",
+        "source_string": "Pack configurations have been reloaded from disk from '%1$s'",
+        "translation": "Configurațiile pachetului au fost reîncărcate de pe disc din „%1$s”",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmovementauthority.description",
+        "source_string": "Controls whether the client or the server is responsible for checking if a player's movement is valid. Use \"client\" to set to client, or \"server\" to set to server.",
+        "translation": "Controlează dacă clientul sau serverul este responsabil pentru a verifica dacă mișcarea jucătorului este validă. Folosește „client” pentru a seta clientul sau „server” pentru a seta serverul.",
+        "context": "The \"client\" and \"server\", specifically in quotation marks. They are the value passed to the command and must be the same for each language and stay in English. The other occurences of the words, not in quotation marks, should be translated",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmovementauthority.success",
+        "source_string": "Set movement authority to %s",
+        "translation": "S-a setat autoritatea de mișcare la %s",
+        "context": "The %s is either client or server in English and represent what was given to the command",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmovementauthority.error",
+        "source_string": "Not allowed to set movement authority to %s, current value is %s",
+        "translation": "Nu este permisă setarea autorității de mișcare la %s, valoarea curentă este %s",
+        "context": "The first %s will be the English word client and the second one the English word server. They represent possible command argument",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect.authorizing",
+        "source_string": "Logging in...",
+        "translation": "Se autentifică...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect.connecting",
+        "source_string": "Connecting to the server...",
+        "translation": "Se conectează la server...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect.failed",
+        "source_string": "Failed to connect to the server",
+        "translation": "Nu s-a putut conecta la server",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect_gamepad.warning.controllerRequired",
+        "source_string": "Game controller required",
+        "translation": "Este necesar controler de joc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect_gamepad.pressButtonToContinue",
+        "source_string": "Please press the 'A' button on your controller to continue",
+        "translation": "Vă rugăm să apăsați butonul „A” de pe controler pentru a continua",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gamepad_disconnect",
+        "source_string": "Controller lost connection",
+        "translation": "Controler-ul a pierdut conexiunea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gamepad_disconnect.reconnectController",
+        "source_string": "Your controller has lost connection. Please reconnect your controller to continue.",
+        "translation": "Controler-ul dvs. a pierdut conexiunea. Vă rugăm să reconectați controler-ul pentru a continua.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.beacon",
+        "source_string": "Beacon",
+        "translation": "Far",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.brewing",
+        "source_string": "Brewing Stand",
+        "translation": "Alambic",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.chest",
+        "source_string": "Chest",
+        "translation": "Cufăr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.chestDouble",
+        "source_string": "Large Chest",
+        "translation": "Cufăr Mare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.crafter",
+        "source_string": "Crafter",
+        "translation": "Fabricator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.crafting",
+        "source_string": "Crafting",
+        "translation": "Fabricare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.creative",
+        "source_string": "Item Selection",
+        "translation": "Selectați obiect",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.dispenser",
+        "source_string": "Dispenser",
+        "translation": "Distribuitor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.dropper",
+        "source_string": "Dropper",
+        "translation": "Aruncător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant",
+        "source_string": "Enchant",
+        "translation": "Fermecare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.clue",
+        "source_string": "%s . . . ?",
+        "translation": "%s . . . ?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.levelrequirement",
+        "source_string": "Level Requirement: %d",
+        "translation": "Nivel necesar: %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.lapis.many",
+        "source_string": "%d Lapis Lazuli",
+        "translation": "%d lapislazuli",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.lapis.one",
+        "source_string": "1 Lapis Lazuli",
+        "translation": "1 lapislazuli",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.level.many",
+        "source_string": "%d Enchantment Levels",
+        "translation": "%d niveluri de fermecare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.level.one",
+        "source_string": "1 Enchantment Level",
+        "translation": "1 nivel de fermecare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enderchest",
+        "source_string": "Ender Chest",
+        "translation": "Cufăr de Ender",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.furnace",
+        "source_string": "Furnace",
+        "translation": "Cuptor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.hopper",
+        "source_string": "Item Hopper",
+        "translation": "Pâlnie obiecte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.inventory",
+        "source_string": "Inventory",
+        "translation": "Inventar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.isLocked",
+        "source_string": "%s is locked!",
+        "translation": "%s este blocat!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.loom",
+        "source_string": "Loom",
+        "translation": "Război de ţesut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.minecart",
+        "source_string": "Minecart",
+        "translation": "Vagonet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.repair",
+        "source_string": "Repair & Name",
+        "translation": "Repară și numire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.repair.cost",
+        "source_string": "Enchantment Cost: %1$d",
+        "translation": "Cost: %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.repair.expensive",
+        "source_string": "Too Expensive!",
+        "translation": "Prea scump!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.repairAndDisenchant",
+        "source_string": "Repair & Disenchant",
+        "translation": "Reparare & desfermecare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.stonecutter",
+        "source_string": "Stonecutter",
+        "translation": "Tăietor de piatră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.stonecutter_block",
+        "source_string": "Stonecutter",
+        "translation": "Tăietor de piatră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.smithing_table",
+        "source_string": "Smithing Table",
+        "translation": "Masă de fierărie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.smithing_table_block",
+        "source_string": "Smithing Table",
+        "translation": "Masă de fierărie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.smithing_table.upgrade",
+        "source_string": "Upgrade Gear",
+        "translation": "Îmbunătățire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.shulkerbox",
+        "source_string": "Shulker Box",
+        "translation": "Cutie de shulker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.shulkerboxContains",
+        "source_string": "and %d more...",
+        "translation": "și încă %d...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.barrel",
+        "source_string": "Barrel",
+        "translation": "Butoi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.addItem",
+        "source_string": "Add Item",
+        "translation": "Adăugați obiect",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.addItemStack",
+        "source_string": "Add Item Stack",
+        "translation": "Adaugă stivă obiecte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.adjustSlider",
+        "source_string": "Left/right Adjust Slider",
+        "translation": "Ajustare glisor Stânga/Dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.confirmSearch",
+        "source_string": "Confirm",
+        "translation": "Confirmare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.select.enchant",
+        "source_string": "Select Enchant",
+        "translation": "Selectați farmec",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.select.item",
+        "source_string": "Select Item",
+        "translation": "Selectați element",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.select.slot",
+        "source_string": "Select Slot",
+        "translation": "Selectați slot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.select",
+        "source_string": "Select",
+        "translation": "Selectați",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.selectRecipe",
+        "source_string": "Select Recipe",
+        "translation": "Selectați rețeta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.deselectRecipe",
+        "source_string": "Deselect Recipe",
+        "translation": "De-selectați rețeta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.clearRecipe",
+        "source_string": "Clear Recipe",
+        "translation": "Ștergeți rețeta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.tab",
+        "source_string": "Tab",
+        "translation": "Filă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.take.half",
+        "source_string": "Take Half",
+        "translation": "Ia o jumătate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.take.one",
+        "source_string": "Take One",
+        "translation": "Ia Unul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.take",
+        "source_string": "Take",
+        "translation": "Ia",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.takeItem",
+        "source_string": "Take Item",
+        "translation": "Ia obiectul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11667,6 +12707,14 @@
         "identifier": "createWorldScreen.serverSimDistanceFormat",
         "source_string": "%s chunks",
         "translation": "%s bucăți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.confirm_add_server",
+        "source_string": "Add ### Confirmation button text in the popup for adding a server, {MaxLength=10}",
+        "translation": "Adaugă",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11779,6 +12827,14 @@
         "identifier": "options.renderDistanceRecommendedFormat",
         "source_string": "%s chunks (recommended)",
         "translation": "%s bucăți (recomandat)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "permissions.removeplayer.title",
+        "source_string": "Remove Player Confirmation",
+        "translation": "Elimină confirmarea jucătorilor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
