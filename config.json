@@ -17,9 +17,9 @@
                 "url": "github.com/azurite-bedrock/regolith-filters",
                 "version": "cc18d2a113dba7e0088b653d96b8424fa60a7bb1"
             },
-            "packer": {
-                "url": "github.com/MCDevKit/regolith-library",
-                "version": "1.0.3"
+            "pack_anything": {
+                "url": "github.com/Nusiq/regolith-filters",
+                "version": "1.1.0"
             }
         },
         "formatVersion": "1.4.0",
@@ -60,9 +60,12 @@
                         "profile": "release"
                     },
                     {
-                        "filter": "packer",
+                        "filter": "pack_anything",
                         "settings": {
-                            "output": "Universal-Language-Pack.mcpack"
+                            "output": "Universal-Language-Pack.mcpack",
+                            "pathmap": {
+                                "RP": "/"
+                            }
                         }
                     }
                 ]
