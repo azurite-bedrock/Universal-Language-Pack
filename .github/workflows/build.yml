@@ -1,0 +1,60 @@
+name: Build
+
+on:
+    schedule:
+        - cron: '0 0 * * 0'
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    bump-version:
+        runs-on: ubuntu-latest
+        outputs:
+            new-tag: ${{ steps.bump.outputs.new_tag }}
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
+            - name: Get latest semver tag
+              id: get_tag
+              run: |
+                  LATEST_TAG=$(git describe --tags --match "[0-9]*" --abbrev=0 2>/dev/null || echo "0.0.0")
+                  echo "::set-output name=latest::$LATEST_TAG"
+            - name: Bump patch version
+              id: bump
+              run: |
+                  IFS='.' read -r MAJOR MINOR PATCH <<< "${{ steps.get_tag.outputs.latest }}"
+                  NEW_TAG="$MAJOR.$MINOR.$((PATCH+1))"
+                  echo "::set-output name=new_tag::$NEW_TAG"
+            - name: Create and push new tag
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git tag "${{ steps.bump.outputs.new_tag }}"
+                  git push origin "${{ steps.bump.outputs.new_tag }}"
+
+    build-and-release:
+        needs: bump-version
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  ref: ${{ needs.bump-version.outputs.new-tag }}
+            - name: Install Rust
+              uses: dtolnay/rust-toolchain@stable
+            - name: Install Deno
+              uses: denoland/setup-deno@v1
+              with:
+                  deno-version: v1.x
+            - uses: Bedrock-OSS/regolith-action@v1.1.0
+              with:
+                  profile: pack
+            - uses: softprops/action-gh-release@v1
+              with:
+                  tag_name: ${{ needs.bump-version.outputs.new-tag }}
+                  files: '*.mcpack'
+                  fail_on_unmatched_files: true
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
