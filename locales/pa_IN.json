@@ -2,7 +2,7 @@
     {
         "identifier": "pack.description",
         "source_string": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by theaddonn",
-        "translation": "ਦੀਐਡਓਨ ਵੱਲੋਂ ਬੈਡਰੌਕ ਅਡੀਸ਼ਨ ਵਿੱਚ ਨਾ- ਮੋਜੂਦ ਬੋਲੀਆਂ ਜੋੜਨ ਵਾਸਤੇ ਰਿਸੋਰਸ ਪੈਕ।",
+        "translation": "Theaddonn ਵੱਲੋਂ ਬੈਡਰੌਕ ਅਡੀਸ਼ਨ ਵਿੱਚ ਨਾ- ਮੋਜੂਦ ਬੋਲੀਆਂ ਜੋੜਨ ਵਾਸਤੇ ਰਿਸੋਰਸ ਪੈਕ।",
         "context": "Description of the Add-On",
         "labels": "unassigned, metadata",
         "max_length": null
@@ -16,9 +16,65 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.disableTTS",
+        "source_string": "Text To Speech disabled",
+        "translation": "ਲਿੱਖਤ ਤੋਂ ਬੋਲੀ ਬੰਦ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.enableTTS",
+        "source_string": "Text To Speech enabled",
+        "translation": "ਲਿੱਖਤ ਤੋਂ ਬੋਲੀ ਚਾਲੂ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.back",
+        "source_string": "Press the %s to go back",
+        "translation": "ਪਿਛਾਂਹ ਜਾਣ ਲਈ %s ਨੱਪੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.exitChat",
+        "source_string": "Press the %s to exit chat",
+        "translation": "ਚੈਟ 'ਚੋ ਬਾਹਰ ਜਾਣ ਲਈ %s ਨੱਪੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.sendMessage",
+        "source_string": "Press the %s to send message",
+        "translation": "ਸੁਨੇਹਾ ਘੱਲਣ ਲਈ %s ਨੱਪੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.chat.tts.says",
         "source_string": "%s says %s",
         "translation": "%s ਆਖਦੇ ਹਨ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.hideChat",
+        "source_string": "Hide chat",
+        "translation": "ਚੈਟ ਲੁੱਕਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.keyboard",
+        "source_string": "Keyboard",
+        "translation": "ਕੀਬੋਰਡ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35,6 +91,22 @@
         "identifier": "accessibility.chat.tts.textboxTitle",
         "source_string": "Chat",
         "translation": "ਗੱਲ - ਬਾਤ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.loading.done",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.saving.done",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -152,6 +224,62 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.bakeCake.desc",
+        "source_string": "Wheat, sugar, milk and eggs!",
+        "translation": "ਕਣਕ, ਖੰਡ, ਦੁੱਧ 'ਤੇ ਆਂਡੇ!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.bookcase",
+        "source_string": "Librarian",
+        "translation": "ਕਿਤਾਬਦਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.breedCow.desc",
+        "source_string": "Breed two cows with wheat",
+        "translation": "ਕਣਕ ਨਾਲ਼ ਦੋ ਗਾਵਾਂ ਦੀ ਉਭਾਰੀ ਕਰਵਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildBetterPickaxe.desc",
+        "source_string": "Construct a better pickaxe",
+        "translation": "ਅੱਗੇ ਨਾਲ਼ੋਂ ਇੱਕ ਵਧਿਆ ਗੇਂਤੀ ਬਣਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildHoe",
+        "source_string": "Time to Farm!",
+        "translation": "ਵੇਲ਼ਾ ਕਿਰਸਾਨੀ ਦਾ!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.cookFish",
+        "source_string": "Delicious Fish",
+        "translation": "ਸਵਾਦੀ ਮੱਛੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.cookFish.desc",
+        "source_string": "Catch and cook fish!",
+        "translation": "ਮੱਛੀ ਫੜੋ 'ਤੇ ਪਕਾਓ!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.diamonds",
         "source_string": "DIAMONDS!",
         "translation": "ਹੀਰੇ!",
@@ -192,9 +320,49 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.fullBeacon",
+        "source_string": "Beaconator",
+        "translation": "ਆ ਗਏ ਚਾਨਣਮੁਨਾਰੇਆਂ ਵਾਲ਼ੇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.fullBeacon.desc",
+        "source_string": "Create a full beacon",
+        "translation": "ਇੱਕ ਮੁਕੰਮਲ ਚਾਨਣਮੁਨਾਰਾ ਬਣਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.ghast.desc",
+        "source_string": "Destroy a Ghast with a fireball",
+        "translation": "ਇੱਕ ਗਾਸਟ ਨੂੰ ਅੱਗ ਦੇ ਗੋਲ਼ੇ ਨਾਲ਼ ਮਾਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.killWither.desc",
+        "source_string": "Kill the Wither",
+        "translation": "ਵਿਦਰ ਨੂੰ ਮਾਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.snipeSkeleton.desc",
         "source_string": "Kill a skeleton with an arrow from more than 50 meters",
         "translation": "50 ਮੀਟਰ ਤੋਂ ਵੱਧ ਦੀ ਦੂਰੀ ਤੋਂ ਤੀਰ ਨਾਲ਼ ਇੱਕ ਪਿੰਜਰ ਨੂੰ ਮਾਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.theEnd2.desc",
+        "source_string": "Defeat the Ender Dragon",
+        "translation": "ਏਂਡਰ ਵਸੂਕ ਨੂੰ ਹਰਾਓ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -211,6 +379,70 @@
         "identifier": "achievement.uninitScore",
         "source_string": "--",
         "translation": "--",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.pig",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.horse",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.strider",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.donkey",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.mule",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.llama",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.trader_llama",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.hint.exit.console.skeleton_horse",
+        "source_string": "Press :_input_key.sneak: to dismount",
+        "translation": "ਉਤਰਣ ਲਈ :_input_key.sneak: ਦਬਾਓ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -360,6 +592,14 @@
         "max_length": null
     },
     {
+        "identifier": "advMode.allPlayers",
+        "source_string": "@a = all players",
+        "translation": "@a = ਸਾਰੇ ਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "apple.iCloudSignInRequired.title",
         "source_string": "Sign In",
         "translation": "ਸਾਈਨ ਇਨ ਕਰੋ",
@@ -443,6 +683,62 @@
         "identifier": "chat.settings.lineSpacingNumber",
         "source_string": "x%s",
         "translation": "x%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.stream.emote",
+        "source_string": "(%s) * %s %s",
+        "translation": "(%s) * %s %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.stream.text",
+        "source_string": "(%s) <%s> %s",
+        "translation": "(%s) <%s> %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.title",
+        "source_string": "Chat",
+        "translation": "ਚੈਟ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.admin",
+        "source_string": "[%s: %s]",
+        "translation": "[%s: %s]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.announcement",
+        "source_string": "[%s] %s",
+        "translation": "[%s] %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.emote",
+        "source_string": "* %s %s",
+        "translation": "* %s %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.text",
+        "source_string": "<%s> %s",
+        "translation": "<%s> %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -536,6 +832,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.players.list.names",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.players.get.success",
         "source_string": "%1$d",
         "translation": "%1$d",
@@ -576,6 +880,14 @@
         "max_length": null
     },
     {
+        "identifier": "container.beacon",
+        "source_string": "Beacon",
+        "translation": "ਚਾਨਣਮੁਨਾਰਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.chest",
         "source_string": "Chest",
         "translation": "ਸੰਦੂਕੜੀ",
@@ -600,9 +912,25 @@
         "max_length": null
     },
     {
+        "identifier": "container.enchant.lapis.many",
+        "source_string": "%d Lapis Lazuli",
+        "translation": "%d ਲਾਜਵਰਦ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.lapis.one",
+        "source_string": "1 Lapis Lazuli",
+        "translation": "1 ਲਾਜਵਰਦ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.enderchest",
         "source_string": "Ender Chest",
-        "translation": "ਅਖੀਰੀ ਸੰਦੂਕੜੀ",
+        "translation": "ਏਂਡਰ ਸੰਦੂਕੜੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -776,6 +1104,14 @@
         "max_length": null
     },
     {
+        "identifier": "createWorldScreen.editor.deleteProject",
+        "source_string": "Delete Project",
+        "translation": "ਪ੍ਰੋਜੈਕਟ ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsInvitationScreen.shareDialogShareButton",
         "source_string": "Share",
         "translation": "ਸਾਂਝਾ ਕਰੋ",
@@ -787,6 +1123,14 @@
         "identifier": "realmsInvitationScreen.shareDialogCopyButton",
         "source_string": "Copy",
         "translation": "ਕਾਪੀ ਕਰੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsCreateScreen.goBack",
+        "source_string": "Go Back",
+        "translation": "ਪਿਛਾਂਹ ਜਾਓ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -811,6 +1155,22 @@
         "identifier": "realmsCreateScreen.playSolo",
         "source_string": "Play Solo",
         "translation": "ਇੱਕਲਿਆਂ ਖੇਡੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsWorld.owner",
+        "source_string": "owner",
+        "translation": "ਮਾਲਿਕ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.playersSectionTitle",
+        "source_string": "Players",
+        "translation": "ਖਿਡਾਰੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -916,6 +1276,62 @@
         "source_string": "In 7 days. %s",
         "translation": "7 ਦਿਨਾਂ ਵਿੱਚ। %s",
         "context": "%s is a localized time and date, ex: \"In 7 days. December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.switchStoreDisplayName",
+        "source_string": "Nintendo eShop",
+        "translation": "ਨਿਨਟੇਂਡੋ ਇ-ਸ਼ਾਪ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.iosStoreDisplayName",
+        "source_string": "App Store",
+        "translation": "ਐਪ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.googlePlayStoreDisplayName",
+        "source_string": "Google Play store",
+        "translation": "ਗੂਗਲ ਪਲੇ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.windowsStoreDisplayName",
+        "source_string": "Windows Store",
+        "translation": "ਵਿੰਡੋਜ਼ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.xboxOneStoreDisplayName",
+        "source_string": "Xbox Store",
+        "translation": "ਐਕਸਬੋਕਸ ਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.amazonStoreDisplayName",
+        "source_string": "Amazon Appstore",
+        "translation": "ਐਮਾਜ਼ਾਨ ਐਪਸਟੋਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.oculusStoreDisplayName",
+        "source_string": "Oculus Store",
+        "translation": "ਉਕੁਲਸ ਸਟੋਰ",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -1344,9 +1760,97 @@
         "max_length": null
     },
     {
+        "identifier": "enchantment.durability",
+        "source_string": "Unbreaking",
+        "translation": "ਅਟੁੱਟ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "enchantment.heavy_weapon.density",
         "source_string": "Density",
         "translation": "ਸੰਘਣਾਪਣ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.1",
+        "source_string": "I",
+        "translation": "I",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.10",
+        "source_string": "X",
+        "translation": "X",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.2",
+        "source_string": "II",
+        "translation": "II",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.3",
+        "source_string": "III",
+        "translation": "III",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.4",
+        "source_string": "IV",
+        "translation": "IV",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.5",
+        "source_string": "V",
+        "translation": "V",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.6",
+        "source_string": "VI",
+        "translation": "VI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.7",
+        "source_string": "VII",
+        "translation": "VII",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.8",
+        "source_string": "VIII",
+        "translation": "VIII",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.9",
+        "source_string": "IX",
+        "translation": "IX",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1368,9 +1872,41 @@
         "max_length": null
     },
     {
+        "identifier": "enchantment.protect.explosion",
+        "source_string": "Blast Protection",
+        "translation": "ਧਮਾਕੇ ਤੋਂ ਰਾਖੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.fire",
+        "source_string": "Fire Protection",
+        "translation": "ਅੱਗ ਤੋਂ ਰਾਖੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "enchantment.thorns",
         "source_string": "Thorns",
         "translation": "ਕੰਡੇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.untouching",
+        "source_string": "Silk Touch",
+        "translation": "ਰੇਸ਼ਮੀ ਛੋਹ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.waterWorker",
+        "source_string": "Aqua Affinity",
+        "translation": "ਪਾਣੀ ਦਾ ਨਿਹੋਂ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1448,6 +1984,14 @@
         "max_length": null
     },
     {
+        "identifier": "entity.creeper.name",
+        "source_string": "Creeper",
+        "translation": "ਕਰੀਪਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "entity.dolphin.name",
         "source_string": "Dolphin",
         "translation": "ਬੁੱਲਣ",
@@ -1514,7 +2058,7 @@
     {
         "identifier": "entity.ender_crystal.name",
         "source_string": "Ender Crystal",
-        "translation": "ਅਖੀਰੀ ਮਣਕਾ",
+        "translation": "ਏਂਡਰ ਮਣਕਾ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1522,7 +2066,7 @@
     {
         "identifier": "entity.ender_dragon.name",
         "source_string": "Ender Dragon",
-        "translation": "ਅਖੀਰੀ ਵਸੂਕ",
+        "translation": "ਏਂਡਰ ਵਸੂਕ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1530,7 +2074,15 @@
     {
         "identifier": "entity.enderman.name",
         "source_string": "Enderman",
-        "translation": "ਅਖੀਰਜਣਾ",
+        "translation": "ਏਂਡਰਮੈਨ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.endermite.name",
+        "source_string": "Endermite",
+        "translation": "ਏਂਡਰਮਾਇਟ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1538,7 +2090,7 @@
     {
         "identifier": "entity.ender_pearl.name",
         "source_string": "Ender Pearl",
-        "translation": "ਅਖੀਰੀ ਮੋਤੀ",
+        "translation": "ਏਂਡਰ ਮੋਤੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1571,6 +2123,14 @@
         "identifier": "entity.fireball.name",
         "source_string": "Fireball",
         "translation": "ਅੱਗ ਦਾ ਗੋਲ਼ਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.fishing_hook.name",
+        "source_string": "Fishing Hook",
+        "translation": "ਮੱਛੀ ਫੜਨ ਵਾਲ਼ੀ ਕੁੰਡੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1610,7 +2170,15 @@
     {
         "identifier": "entity.ghast.name",
         "source_string": "Ghast",
-        "translation": "ਭਾਂਬੜ",
+        "translation": "ਗਾਸਟ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.glow_squid.name",
+        "source_string": "Glow Squid",
+        "translation": "ਲਿਸ਼ਕਦਾ ਸਕਵਿਡ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1618,7 +2186,7 @@
     {
         "identifier": "entity.piglin_brute.name",
         "source_string": "Piglin Brute",
-        "translation": "ਕੱਬਾ ਸੂਰਾਰ",
+        "translation": "ਕੱਬਾ ਪਿਗਲਿਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1634,7 +2202,7 @@
     {
         "identifier": "entity.hoglin.name",
         "source_string": "Hoglin",
-        "translation": "ਵਰਾਹੀ",
+        "translation": "ਹਾਗਲਿਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1682,7 +2250,23 @@
     {
         "identifier": "entity.llama.name",
         "source_string": "Llama",
-        "translation": "ਲਾਮਾਹ",
+        "translation": "ਲਾਮਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.trader_llama.name",
+        "source_string": "Trader Llama",
+        "translation": "ਵਣਜਾਰੇ ਦਾ ਲਾਮਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.llama_spit.name",
+        "source_string": "Llama Spit",
+        "translation": "ਲਾਮਾ ਦਾ ਥੁੱਕ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1698,7 +2282,7 @@
     {
         "identifier": "entity.mooshroom.name",
         "source_string": "Mooshroom",
-        "translation": "ਖੁੰਬ",
+        "translation": "ਮੂਸ਼ਰੂਮ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1738,7 +2322,7 @@
     {
         "identifier": "entity.piglin.name",
         "source_string": "Piglin",
-        "translation": "ਸੂਰਾਰ",
+        "translation": "ਪਿਗਲਿਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1778,7 +2362,7 @@
     {
         "identifier": "entity.shulker.name",
         "source_string": "Shulker",
-        "translation": "ਸਿੱਪੋ",
+        "translation": "ਸ਼ਲਕਰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1786,7 +2370,7 @@
     {
         "identifier": "entity.shulker_bullet.name",
         "source_string": "Shulker Bullet",
-        "translation": "ਸਿੱਪੋ ਗੋਲ਼ੀ",
+        "translation": "ਸ਼ਲਕਰ ਗੋਲ਼ੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1962,7 +2546,7 @@
     {
         "identifier": "entity.villager.butcher",
         "source_string": "Butcher",
-        "translation": "ਬੁੱਚੜ",
+        "translation": "ਕਸਾਈ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2106,7 +2690,7 @@
     {
         "identifier": "entity.wither.name",
         "source_string": "Wither",
-        "translation": "ਤ੍ਰੀਮੂਹਾ",
+        "translation": "ਵਿਦਰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2114,7 +2698,7 @@
     {
         "identifier": "entity.wither_skeleton.name",
         "source_string": "Wither Skeleton",
-        "translation": "ਸਿਆਹ ਪਿੰਜਰ",
+        "translation": "ਵਿਦਰ ਪਿੰਜਰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2122,7 +2706,7 @@
     {
         "identifier": "entity.wither_skull.name",
         "source_string": "Wither Skull",
-        "translation": "ਸਿਆਹ ਖੋਪੜੀ",
+        "translation": "ਵਿਦਰ ਖੋਪੜੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2130,7 +2714,7 @@
     {
         "identifier": "entity.wither_skull_dangerous.name",
         "source_string": "Wither Skull",
-        "translation": "ਸਿਆਹ ਖੋਪੜੀ",
+        "translation": "ਵਿਦਰ ਖੋਪੜੀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2154,7 +2738,7 @@
     {
         "identifier": "entity.zoglin.name",
         "source_string": "Zoglin",
-        "translation": "ਜ਼ੋਰਾਹੀ",
+        "translation": "ਜ਼ਾਗਲਿਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2178,7 +2762,7 @@
     {
         "identifier": "entity.zombie_pigman.name",
         "source_string": "Zombified Piglin",
-        "translation": "ਜ਼ੋਮਬੀ ਸੂਰਾਰ",
+        "translation": "ਜ਼ੋਮਬੀ ਪਿਗਲਿਨ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2200,6 +2784,14 @@
         "max_length": null
     },
     {
+        "identifier": "exports.share.file",
+        "source_string": "Share %s",
+        "translation": "ਸਾਂਝਾ ਕਰੋ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "exports.suspendWarning.title",
         "source_string": "Warning",
         "translation": "ਧਿਆਨ ਦਿਓ",
@@ -2208,9 +2800,57 @@
         "max_length": null
     },
     {
+        "identifier": "addExternalServerScreen.addServer",
+        "source_string": "Add Server",
+        "translation": "ਸਰਵਰ ਜੋੜੇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.nameTextBoxLabel",
+        "source_string": "Server Name",
+        "translation": "ਸਰਵਰ ਦਾ ਨਾਂ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.ipTextBoxLabel",
+        "source_string": "Server Address",
+        "translation": "ਸਰਵਰ ਦਾ ਪਤਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "feature.end_city",
         "source_string": "End City",
-        "translation": "ਅਖੀਰ ਸ਼ਹਿਰ",
+        "translation": "ਏਂਡ ਸ਼ਹਿਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.fortress",
+        "source_string": "Nether Fortress",
+        "translation": "ਨੇਦਰ ਕ਼ਿਲਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.mansion",
+        "source_string": "Woodland Mansion",
+        "translation": "ਜੰਗਲੀ ਬੰਗਲਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.monument",
+        "source_string": "Ocean Monument",
+        "translation": "ਸਮੁੰਦਰੀ ਅਜੂਬਾ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2304,6 +2944,30 @@
         "max_length": null
     },
     {
+        "identifier": "gameTip.openChat.touch",
+        "source_string": "Tap to open chat",
+        "translation": "ਚੈਟ ਖੋਲਣ ਲਈ ਨੱਪੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openChat.touch.tts",
+        "source_string": "Tap the chat button to open chat",
+        "translation": "ਚੈਟ ਖੋਲਣ ਲਈ ਚੈਟ ਬਟਨ ਨੱਪੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "generator.nether",
+        "source_string": "Nether",
+        "translation": "ਨੇਦਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gui.delete",
         "source_string": "Delete",
         "translation": "ਮਿਟਾਓ",
@@ -2320,9 +2984,25 @@
         "max_length": null
     },
     {
+        "identifier": "gui.done",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gui.goBack",
         "source_string": "Go Back",
         "translation": "ਪਿਛਾਂਹ ਜਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.playOffline",
+        "source_string": "Play Offline",
+        "translation": "ਆਫ਼ਲਾਈਨ ਖੇਡੋ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2424,6 +3104,30 @@
         "max_length": null
     },
     {
+        "identifier": "hostOption.weather.thunderstorm",
+        "source_string": "Thunderstorm",
+        "translation": "ਹਨੇਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.preparingForTheNight",
+        "source_string": "Preparing for the night",
+        "translation": "ਰਾਤ ਦੀ ਤਿਆਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.realms",
+        "source_string": "Realms",
+        "translation": "ਰੇਲਮ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.armor",
         "source_string": "Armor",
         "translation": "ਸੰਜੋਅ",
@@ -2440,6 +3144,102 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.beacons",
+        "source_string": "Beacons",
+        "translation": "ਚਾਨਣਮੁਨਾਰੇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.header.2",
+        "source_string": "Use",
+        "translation": "ਵਰਤੋਂ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bookAndQuill",
+        "source_string": "Book and Quill",
+        "translation": "ਕਿਤਾਬ ਅਤੇ ਕ਼ਲਮ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chests",
+        "source_string": "Chests",
+        "translation": "ਸੰਦੂਕ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra",
+        "source_string": "Elytra",
+        "translation": "ਇਲੇਟ੍ਰਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.header.1",
+        "source_string": "Learn to Fly",
+        "translation": "ਉੱਡਣਾ ਸਿੱਖੋ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.endCities",
+        "source_string": "End Cities",
+        "translation": "ਏਂਡ ਸ਼ਹਿਰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enderChest",
+        "source_string": "Ender Chest",
+        "translation": "ਏਂਡਰ ਸੰਦੂਕੜੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enderChest.text.1",
+        "source_string": "All Ender Chests in a world are linked. Items placed into an Ender Chest are accessible in any other Ender Chest. However, the contents of the Ender Chests are specific for each player. This allows players to store items in any Ender Chest, and retrieve them from other Ender Chests in different positions in the world.",
+        "translation": "ਇਸ ਜੱਗ ਵਿੱਚ ਸਾਰੀਆਂ ਏਂਡਰ ਸੰਦੂਕੜੀਆਂ ਆਪਸ ਵਿੱਚ ਜੁੜੀਆਂ ਹੋਈਆਂ ਹਨ। ਇੱਕ ਏਂਡਰ ਸੰਦੂਕੜੀ ਵਿੱਚ ਪਾਇਆ ਹੋਇਆ ਸਮਾਨ ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਏਂਡਰ ਸੰਦੂਕੜੀ 'ਚੋਂ ਕੱਢ ਸਕਦੇ ਹੋ। ਖਿਡਾਰੀ ਵੱਲੋਂ ਏਂਡਰ ਸੰਦੂਕੜੀ ਵਿੱਚ ਪਾਇਆ ਹੋਇਆ ਸਮਾਨ ਬੱਸ ਉਹ ਖਿਡਾਰੀ ਹੀ ਵੇਖ ਸਕਦਾ ਹੈ। ਜਿਹਦੇ ਕਰਕੇ ਖਿਡਾਰੀ ਕਿਸੇ ਵੀ ਏਂਡਰ ਸੰਦੂਕੜੀ ਵਿੱਚ ਆਪਣਾ ਸਮਾਨ ਪਾ ਸਕਦਾ ਹੈ ਅਤੇ ਜੱਗ ਵਿੱਚ ਕਿਤੇ ਵੀ ਹੋਰਨਾਂ ਏਂਡਰ ਸੰਦੂਕੜੀਆਂ ਵਿੱਚੋਂ ਕੱਢ ਵੀ ਸਕਦਾ ਹੈ।",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.eyeOfEnder",
+        "source_string": "Eye of Ender",
+        "translation": "ਏਂਡਰ ਦੀ ਅੱਖ",
+        "context": "How To Play help text header. {MaxLength=\"80\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming",
+        "source_string": "Farming",
+        "translation": "ਕਿਰਸਾਨੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.text.2",
+        "source_string": "Crops require light, water, and farmland to grow. You need a hoe, a water source, and seeds to farm.",
+        "translation": "ਫ਼ਸਲਾਂ ਨੂੰ ਉੱਗਣ ਲਈ ਧੁੱਪ, ਪਾਣੀ, ਅਤੇ ਪੈਲ਼ੀ ਦੀ ਲੋੜ ਪੈਂਦੀ ਹੈ। ਖੇਤੀ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਇੱਕ ਕੇਹੀ, ਪਾਣੀ ਦਾ ਸਰੋਤ, ਅਤੇ ਬੀ ਚਾਹੀਦੇ ਹਨ।",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.furnace",
         "source_string": "Furnace",
         "translation": "ਭੱਠੀ",
@@ -2448,9 +3248,65 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.jukebox.header.2",
+        "source_string": "Redstone",
+        "translation": "ਰੈੱਡਸਟੋਨ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.loom",
         "source_string": "Loom",
         "translation": "ਅੱਡਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.text.4",
+        "source_string": "When Hearts appear around the horse, it has been tamed and will no longer attempt to throw the player off.",
+        "translation": "ਜਦੋਂ ਘੋੜਾ ਗਿੱਝ ਜਾਵੇ ਤਾਂ ਉਹਦੇ ਆਲ਼ੇ ਦੁਆਲ਼ੇ ਦਿਲ ਦਿਸਣ ਲੱਗ ਪੈਂਦੇ ਹਨ ਅਤੇ ਫਿਰ ਘੋੜਾ ਖਿਡਾਰੀ ਨੂੰ ਥੱਲੇ ਸੁੱਟਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਹੀਂ ਕਰਦਾ।",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.header.2",
+        "source_string": "Riding Animals",
+        "translation": "ਜਨਵਰਾਂ ਦੀ ਸਵਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.text.6b",
+        "source_string": "A camel can carry two players at the same time.",
+        "translation": "ਇੱਕ ਬੋਤਾ ਇੱਕੋ ਵਾਰ 'ਚ ਦੋ ਖਿਡਾਰੀਆਂ ਨੂੰ ਬਿਠਾਲ ਸਕਦਾ ਹੈ।",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.netherPortals",
+        "source_string": "Nether Portal",
+        "translation": "ਨੇਦਰ ਕਵਾੜ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.dye.blue.name",
+        "source_string": "Lapis Lazuli",
+        "translation": "ਲਾਜਵਰਦ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.exit.done",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2496,6 +3352,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.delete_account.confirm.button",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.group.feedback",
         "source_string": "Feedback",
         "translation": "ਸੁਝਾਅ",
@@ -2520,6 +3384,126 @@
         "max_length": null
     },
     {
+        "identifier": "pauseScreen.playersTitle",
+        "source_string": "Players in %s",
+        "translation": "ਖਿਡਾਰੀ %s ਵਿੱਚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.controlCustomization.exit",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "playscreen.delete.legacy.confirm",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "progressScreen.message.done",
+        "source_string": "Done!",
+        "translation": "ਹੋ ਗਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editPackDone",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.delete.confirm",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.multiselectDelete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectServer.delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectServer.deleteButton",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.deleteButton",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectTemplate.deleteTemplateDone",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectTemplate.delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.player",
+        "source_string": "Players",
+        "translation": "ਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.offerDescription.players",
+        "source_string": "Players:",
+        "translation": "ਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "playercount.single_player",
         "source_string": "Single Player",
         "translation": "ਇੱਕਖਿਡਾਰੀ",
@@ -2536,9 +3520,25 @@
         "max_length": null
     },
     {
+        "identifier": "tile.beacon.name",
+        "source_string": "Beacon",
+        "translation": "ਚਾਨਣਮੁਨਾਰਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.bed.name",
         "source_string": "Bed",
         "translation": "ਮੰਜਾ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.lapis_ore.name",
+        "source_string": "Lapis Lazuli Ore",
+        "translation": "ਲਾਜਵਰਦ ਧਾਤ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2555,6 +3555,38 @@
         "identifier": "trial.tabbed_upsell.multiplayer.title",
         "source_string": "MULTIPLAYER",
         "translation": "ਬਹੁਖਿਡਾਰੀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.delete.confirm_delete",
+        "source_string": "Delete",
+        "translation": "ਮਿਟਾਓ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addServer.add",
+        "source_string": "Done",
+        "translation": "ਹੋ ਗਿਆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "contentlog.delete.delete",
+        "source_string": "Delete Now",
+        "translation": "ਹੁਣ ਮਿਟਾਓ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null

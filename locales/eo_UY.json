@@ -24,6 +24,22 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.disableTTS",
+        "source_string": "Text To Speech disabled",
+        "translation": "Rakontanto malŝaltita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.enableTTS",
+        "source_string": "Text To Speech enabled",
+        "translation": "Rakontanto ŝaltita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.chat.tts.gamepad.back",
         "source_string": "Press the %s to go back",
         "translation": "Premu %s por iri reen",
@@ -35,6 +51,14 @@
         "identifier": "accessibility.chat.tts.gamepad.exitChat",
         "source_string": "Press the %s to exit chat",
         "translation": "Premu %s por eliri el babilejo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.sendMessage",
+        "source_string": "Press the %s to send message",
+        "translation": "Alklaku «%s» por sendi mesaĝon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -284,6 +308,14 @@
         "source_string": "%s Screen",
         "translation": "%s-ekrano",
         "context": "%s will be replaced with the title of the screen (Example: Library Screen)",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.scrollbar.tts.title",
+        "source_string": "Scroll Bar",
+        "translation": "Rulumskalo",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -824,6 +856,22 @@
         "max_length": null
     },
     {
+        "identifier": "accounts.signOutConfirmation",
+        "source_string": "Do you want to sign out and switch accounts?",
+        "translation": "Ĉu vi volas elsaluti kaj ŝanĝi kontojn?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.switchConfirmation",
+        "source_string": "Do you want to switch accounts? Your current account will stay signed in.",
+        "translation": "Ĉu vi volas ŝanĝi kontojn? Via nuna konto restos ensalutita.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accounts.signOut",
         "source_string": "Sign Out",
         "translation": "Elsaluti",
@@ -840,9 +888,25 @@
         "max_length": null
     },
     {
+        "identifier": "accounts.manage",
+        "source_string": "Manage Account",
+        "translation": "Mastrumi konton",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accounts.signOut.fail.title",
         "source_string": "Sign-out failed",
         "translation": "Ne eblis elsaluti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.body.line1",
+        "source_string": "We were unable to sign you out at this time. Please try again later. This will not prevent you from signing in with another account.",
+        "translation": "Ni ne povis elsalutigi vin nun. Bonvolu reprovi poste. Ĉi tio ne malebligos, ke vi ensalutos per alia konto.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1106,7 +1170,7 @@
     {
         "identifier": "action.hint.exit.boat",
         "source_string": "Tap jump to exit the boat",
-        "translation": "Tuŝu «Salti» por eliri la boaton",
+        "translation": "Tuŝu «Salti» por eliri el boato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1114,7 +1178,7 @@
     {
         "identifier": "action.hint.exit.minecart",
         "source_string": "Tap jump to exit the minecart",
-        "translation": "Tuŝu «Salti» por eliri la vagoneton",
+        "translation": "Tuŝu «Salti» por eliri el vagoneto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1186,7 +1250,7 @@
     {
         "identifier": "action.hint.exit.scheme.minecart",
         "source_string": "Tap dismount to exit the minecart",
-        "translation": "Tuŝu «Desalti» por eliri vagoneto",
+        "translation": "Tuŝu «Desalti» por eliri el vagoneto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1258,7 +1322,7 @@
     {
         "identifier": "action.hint.exit.console.boat",
         "source_string": "Press :_input_key.jump: to exit the boat",
-        "translation": "Tuŝu :_input_key.jump: por eliri la boaton",
+        "translation": "Tuŝu :_input_key.jump: por eliri el boato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1266,7 +1330,7 @@
     {
         "identifier": "action.hint.exit.console.minecart",
         "source_string": "Press :_input_key.jump: to exit the minecart",
-        "translation": "Tuŝu :_input_key.jump: por eliri la vagoneton",
+        "translation": "Tuŝu :_input_key.jump: por eliri el vagoneto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1354,7 +1418,7 @@
     {
         "identifier": "action.interact.exit.boat",
         "source_string": "Leave Boat",
-        "translation": "Eliri boaton",
+        "translation": "Eliri el boato",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1394,7 +1458,7 @@
     {
         "identifier": "action.interact.moostew",
         "source_string": "Milk Stew",
-        "translation": "Melki supon",
+        "translation": "Melki Mooshroomon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1450,7 +1514,7 @@
     {
         "identifier": "action.interact.sit",
         "source_string": "Sit",
-        "translation": "Sidigi",
+        "translation": "Eksidi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1458,7 +1522,7 @@
     {
         "identifier": "action.interact.stand",
         "source_string": "Stand",
-        "translation": "Starigi",
+        "translation": "Ekstari",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1474,7 +1538,7 @@
     {
         "identifier": "action.interact.tame",
         "source_string": "Tame",
-        "translation": "Malsovaĝigi",
+        "translation": "Hejmigi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1522,7 +1586,7 @@
     {
         "identifier": "action.interact.saddle",
         "source_string": "Saddle",
-        "translation": "Fiksi selon",
+        "translation": "Seli",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1554,7 +1618,7 @@
     {
         "identifier": "action.interact.leash",
         "source_string": "Leash",
-        "translation": "Konduki",
+        "translation": "Ligi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1562,7 +1626,7 @@
     {
         "identifier": "action.interact.unleash",
         "source_string": "Unleash",
-        "translation": "Malkonduki",
+        "translation": "Malligi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1586,7 +1650,7 @@
     {
         "identifier": "action.interact.equiphorsearmor",
         "source_string": "Equip Horse Armor",
-        "translation": "Ekipigi ĉevalan armaĵon",
+        "translation": "Surmeti ĉevalan armaĵon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1594,7 +1658,7 @@
     {
         "identifier": "action.interact.equipcarpet",
         "source_string": "Equip Carpet",
-        "translation": "Ekipigi tapiŝon",
+        "translation": "Surmeti tapiŝon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1602,7 +1666,7 @@
     {
         "identifier": "action.interact.trade",
         "source_string": "Trade",
-        "translation": "Interŝanĝi",
+        "translation": "Komerci",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1618,7 +1682,7 @@
     {
         "identifier": "action.interact.armorstand.equip",
         "source_string": "Equip",
-        "translation": "Ekipi",
+        "translation": "Surmeti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1666,7 +1730,7 @@
     {
         "identifier": "action.interact.equipwolfarmor",
         "source_string": "Equip Wolf Armor",
-        "translation": "Ekipigi lupan armaĵon",
+        "translation": "Surmeti lupan armaĵon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1674,7 +1738,7 @@
     {
         "identifier": "action.interact.removewolfarmor",
         "source_string": "Remove Wolf Armor",
-        "translation": "Malekipigi lupan armaĵon",
+        "translation": "Demeti lupan armaĵon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1874,7 +1938,7 @@
     {
         "identifier": "attribute.name.generic.maxHealth",
         "source_string": "Max Health",
-        "translation": "maximuma sano",
+        "translation": "maksimuma sano",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1930,7 +1994,7 @@
     {
         "identifier": "attribution.viewAttribution",
         "source_string": "To view attributions, please visit https://minecraft.net/attribution in any web browser.",
-        "translation": "Por vidi atribuojn, bonvolu viziti https://minecraft.net/attribution en ajna TTT-legilo.",
+        "translation": "Por vidi atribuojn, bonvolu viziti https://minecraft.net/attribution en ajna retumilo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1946,7 +2010,7 @@
     {
         "identifier": "authentication.pleaseSignIn",
         "source_string": "Sign in with your school or organizational account to use Minecraft Education.",
-        "translation": "Ensalutu per via konto de la lernejo aŭ organizaĵo por uzi Minecraft Education.",
+        "translation": "Ensalutu per via lerneja aŭ organiza konto por uzi Minecraft Education.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1954,7 +2018,7 @@
     {
         "identifier": "authentication.loggingin",
         "source_string": "Signing in...",
-        "translation": "Ensalutante...",
+        "translation": "Ensalutado...",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1978,7 +2042,7 @@
     {
         "identifier": "authentication.unauthenticated",
         "source_string": "This account is not eligible to use Minecraft Education.",
-        "translation": "Ĉi tiu konto ne validas por uzi Minecraft Education.",
+        "translation": "Tiu konto ne taŭgas por uzi Minecraft Education.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1986,7 +2050,7 @@
     {
         "identifier": "authentication.location",
         "source_string": "For more information:",
-        "translation": "Pli da informo:",
+        "translation": "Pli da informoj:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2056,6 +2120,54 @@
         "max_length": null
     },
     {
+        "identifier": "eula.intro",
+        "source_string": "To use Minecraft Education you must accept the End-User Licensing Agreement.",
+        "translation": "Por uzi Minecraft Education vi devas akcepti la Licensan Akordon de la Uzanto.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.location",
+        "source_string": "The EULA is at:",
+        "translation": "La Akordo estas ĉe:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.title",
+        "source_string": "End-User Licensing Agreement",
+        "translation": "Licensa Akordo de la Uzanto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.view",
+        "source_string": "View EULA",
+        "translation": "Vidi Akordon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.callToAction",
+        "source_string": "Click Accept to accept the terms of this agreement.",
+        "translation": "Alklaki «Akcepti» por akcepti la terminojn de ĉi tiu akordo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.acceptButton",
+        "source_string": "Accept",
+        "translation": "Akcepti",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "book.byAuthor",
         "source_string": "by",
         "translation": "de",
@@ -2074,7 +2186,7 @@
     {
         "identifier": "book.editTitle",
         "source_string": "Enter Book Title:",
-        "translation": "Tajpu titolon de la libro:",
+        "translation": "Entajpu titolo de la libro:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2098,7 +2210,7 @@
     {
         "identifier": "book.finalizeWarning",
         "source_string": "Note! When you sign the book, it will no longer be editable.",
-        "translation": "Atentu! Kiam vi subskribos la libron, ĝi ne plu estos redaktebla.",
+        "translation": "Averto! Post kiam vi subskribos la libron, ĝi ne plu estos redaktebla.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2274,7 +2386,7 @@
     {
         "identifier": "chat.mute",
         "source_string": "Mute Chat",
-        "translation": "Silentigu babilojn",
+        "translation": "Silentigi babilejon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2282,7 +2394,7 @@
     {
         "identifier": "chat.realmsFilterDisabled",
         "source_string": "This Realm has chat filtering turned off.",
-        "translation": "La filtrado de babiloj malaktiviĝis en ĉi tiu Realm.",
+        "translation": "La filtrado de babiloj malaktivas en ĉi tiu Realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2290,7 +2402,7 @@
     {
         "identifier": "chat.settings",
         "source_string": "Chat Settings",
-        "translation": "Agordoj de babiloj",
+        "translation": "Babilejaj agordoj",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2298,7 +2410,7 @@
     {
         "identifier": "chat.settings.defaultChatColor",
         "source_string": "Default Chat Color",
-        "translation": "Defaŭlta koloro de babiloj",
+        "translation": "Defaŭlta koloro de babilejo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2306,7 +2418,7 @@
     {
         "identifier": "chat.settings.chatColor",
         "source_string": "Chat Color",
-        "translation": "Koloro de babiloj",
+        "translation": "Koloro de babilejo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2314,7 +2426,7 @@
     {
         "identifier": "chat.settings.chatFont",
         "source_string": "Chat Font",
-        "translation": "Tiparo de babiloj",
+        "translation": "Tiparo de babilejo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2362,7 +2474,7 @@
     {
         "identifier": "chat.settings.lineSpacing",
         "source_string": "Line Spacing",
-        "translation": "Linipaŝo",
+        "translation": "Interlinia spacado",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2442,7 +2554,7 @@
     {
         "identifier": "chat.title",
         "source_string": "Chat",
-        "translation": "Babiloj",
+        "translation": "Babilejo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2450,7 +2562,7 @@
     {
         "identifier": "chat.title.cheats",
         "source_string": "Chat and Commands",
-        "translation": "Babiloj kaj komandoj",
+        "translation": "Babilejo kaj komandoj",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2458,7 +2570,7 @@
     {
         "identifier": "chat.type.achievement",
         "source_string": "%s has just earned the achievement %s",
-        "translation": "%s ĵus atingis la atingon %s",
+        "translation": "%s ĵus gajnis la atingon %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2498,7 +2610,7 @@
     {
         "identifier": "chat.type.sleeping",
         "source_string": "%s is sleeping in a bed. To skip to dawn, %s more users need to sleep in beds at the same time.",
-        "translation": "%s nun dormas en lito. Por preterpasi la nokton %s pli da ludantoj devas dormi en litojn samtempe.",
+        "translation": "%s dormas en lito. Por preterpasi la nokton %s pli da ludantoj devas dormi en litoj samtempe.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2514,7 +2626,7 @@
     {
         "identifier": "chat.renamed",
         "source_string": "You have been temporarily renamed to '%s' on this server",
-        "translation": "Via nomo provizore ŝanĝiĝis al «%s» en ĉi tiu servilo",
+        "translation": "Via nomo estas portempe ŝanĝita al «%s» en ĉi tiu servilo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2522,7 +2634,7 @@
     {
         "identifier": "chat.coordinateTypePosition",
         "source_string": "My Position",
-        "translation": "Bloka pozicio",
+        "translation": "Mia pozicio",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2530,7 +2642,7 @@
     {
         "identifier": "chat.coordinateTypeFacing",
         "source_string": "Block Position",
-        "translation": "Bloka pozicio",
+        "translation": "Pozicio de bloko",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2554,7 +2666,7 @@
     {
         "identifier": "chat.coordinatesInvalidLong",
         "source_string": "Invalid Coordinates: make sure you are looking at a block",
-        "translation": "Nevalidaj koordinatoj: kontrolu, ke vi rigardas blokon",
+        "translation": "Nevalidaj koordinatoj: certiĝu, ke vi rigardas blokon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2594,7 +2706,7 @@
     {
         "identifier": "chooseRealmScreen.header",
         "source_string": "Choose a Realm Server",
-        "translation": "Elektu servilon de Realms",
+        "translation": "Elektu Realm-servilon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2602,7 +2714,7 @@
     {
         "identifier": "chooseRealmScreen.realmsplusbuttontext",
         "source_string": "Add a 10 player Realm",
-        "translation": "Aldoni Realms'n de 10 ludantoj",
+        "translation": "Aldoni 10-ludantan Realm-servilon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2610,7 +2722,15 @@
     {
         "identifier": "chooseRealmScreen.realmsbuttontext",
         "source_string": "Add a 2 player Realm",
-        "translation": "Aldoni Realms'n de 2 ludantoj",
+        "translation": "Aldoni 2-ludantan Realm-servilon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "customTemplatesScreen.header",
+        "source_string": "Imported Templates",
+        "translation": "Importitaj ŝablonoj",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2922,7 +3042,7 @@
     {
         "identifier": "commandBlockScreen.executeFirstTick",
         "source_string": "Execute on First Tick",
-        "translation": "Efektivigi je la unua takto",
+        "translation": "Plenumi je la unua takto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2955,6 +3075,110 @@
         "identifier": "commandBlockScreen.title",
         "source_string": "Command Block",
         "translation": "Komanda bloko",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge",
+        "source_string": "Searge says: %s",
+        "translation": "Searge diras: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge1",
+        "source_string": "Yolo",
+        "translation": "Yolo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge2",
+        "source_string": "/achievement take achievement.understandCommands @p",
+        "translation": "/achievement preni achievement.understandCommands @p",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge3",
+        "source_string": "Ask for help on twitter",
+        "translation": "Petu helpon en tvitero",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge4",
+        "source_string": "/deop @p",
+        "translation": "/deop @p",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge5",
+        "source_string": "Scoreboard deleted, commands blocked",
+        "translation": "Poentotabulo forigita, komandoj blokataj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge6",
+        "source_string": "Contact helpdesk for help",
+        "translation": "Kontaktu la helpejon por helpo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge7",
+        "source_string": "/testfornoob @p",
+        "translation": "/testfornoob @p",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge8",
+        "source_string": "/trigger warning",
+        "translation": "/trigger averto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge9",
+        "source_string": "Oh my god, it's full of stats",
+        "translation": "Dio mia, ĝi plenas je statistikoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge10",
+        "source_string": "/kill @p[name=!Searge]",
+        "translation": "/kill @p[name=!Searge]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge11",
+        "source_string": "Have you tried turning it off and on again?",
+        "translation": "Ĉu vi provis malaktivigi kaj reaktivigi ĝin?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "seargeSays.searge12",
+        "source_string": "Sorry, no help today",
+        "translation": "Pardonu, neniu helpo hodiaŭ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3387,6 +3611,134 @@
         "identifier": "entity.zombie_villager_v2.name",
         "source_string": "Zombie Villager",
         "translation": "Zombia vilaĝano",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.end_city",
+        "source_string": "End City",
+        "translation": "Enda urbo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.fortress",
+        "source_string": "Nether Fortress",
+        "translation": "Nether fortikaĵo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.mansion",
+        "source_string": "Woodland Mansion",
+        "translation": "Arbara domego",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.mineshaft",
+        "source_string": "Mineshaft",
+        "translation": "Minŝakto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.missingno",
+        "source_string": "Unknown Feature",
+        "translation": "Nekonata konstruaĵo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.monument",
+        "source_string": "Ocean Monument",
+        "translation": "Oceana monumento",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.stronghold",
+        "source_string": "Stronghold",
+        "translation": "Citadelo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.temple",
+        "source_string": "Temple",
+        "translation": "Templo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.village",
+        "source_string": "Village",
+        "translation": "Vilaĝo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.shipwreck",
+        "source_string": "Shipwreck",
+        "translation": "Ŝipvrako",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.buried_treasure",
+        "source_string": "Buried Treasure",
+        "translation": "Enterigita trezoro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.ruins",
+        "source_string": "Ocean Ruins",
+        "translation": "Oceanaj ruinoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.pillager_outpost",
+        "source_string": "Pillager Outpost",
+        "translation": "Rabista posteno",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.bastion_remnant",
+        "source_string": "Bastion Remnant",
+        "translation": "Prabastiono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.ruined_portal",
+        "source_string": "Ruined Portal",
+        "translation": "Ruinigita portalo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.trial_chambers",
+        "source_string": "Trial Chambers",
+        "translation": "Defia ĉambraro",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4458,7 +4810,7 @@
     {
         "identifier": "npcscreen.action.url.placeholder",
         "source_string": "Type URL Here...",
-        "translation": "Tajpu URL-n ĉie tie...",
+        "translation": "Entajpu URL-on ĉie tie...",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4482,7 +4834,7 @@
     {
         "identifier": "npcscreen.action.url.warning.emptyUri",
         "source_string": "If no URL is added, this button will open a new browser window.",
-        "translation": "Se URL ne aldoniĝas, ĉi tiu butono malfermos novan fenestron de TTT-legilo.",
+        "translation": "Se neniu URL estas aldonita, ĉi tiu butono malfermos novan retumilan fenestron.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4498,7 +4850,7 @@
     {
         "identifier": "npcscreen.addtext",
         "source_string": "Type Dialog Here...",
-        "translation": "Tajpu dialogon ĉi tie...",
+        "translation": "Entajpu dialogon ĉi tie...",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4506,7 +4858,7 @@
     {
         "identifier": "npcscreen.addurl",
         "source_string": "Add URL",
-        "translation": "Aldoni URL-n",
+        "translation": "Aldoni URL-on",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4594,7 +4946,7 @@
     {
         "identifier": "npcscreen.learnmore",
         "source_string": "Learn More",
-        "translation": "Pli da informo",
+        "translation": "Ekscii pli",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4634,7 +4986,7 @@
     {
         "identifier": "npcUri.launch.failure",
         "source_string": "Unable to open the NPC Link. This doesn't look like a supported URL.",
-        "translation": "La NLP-ligilo ne povas malfermiĝi. Ŝajnas, ke la URL ne estas subtenata.",
+        "translation": "La NLP-ligilo ne povas malfermiĝi. Ŝajnas, ke ĉi tio ne estas subtenata URL.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4715,6 +5067,22 @@
         "identifier": "tile.mud_brick_double_slab",
         "source_string": "Mud Brick Double Slab",
         "translation": "Fangobrika duobla ŝtupo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.ancient_city",
+        "source_string": "Ancient City",
+        "translation": "Antikva urbo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.trail_ruins",
+        "source_string": "Trail Ruins",
+        "translation": "Spura ruino",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null

@@ -218,7 +218,7 @@
     {
         "identifier": "accessibility.image.tts.title",
         "source_string": "Image",
-        "translation": "బొమ్మ",
+        "translation": "చిత్రం",
         "context": "TTS spoken word for image types",
         "labels": "unassigned, lang",
         "max_length": 15
@@ -272,6 +272,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.button.exit",
+        "source_string": "Exit",
+        "translation": "నిష్క్రమించు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.slider.tts.percentValue",
         "source_string": "%s percent",
         "translation": "%s శాతం",
@@ -283,6 +291,14 @@
         "identifier": "accessibility.play.uploadWorld",
         "source_string": "Upload World",
         "translation": "ఒలవు ఎక్కించు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.permissions",
+        "source_string": "Permissions",
+        "translation": "అనుమతులు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -410,7 +426,7 @@
     {
         "identifier": "accessibility.worldTemplates.help",
         "source_string": "Help",
-        "translation": "తోడ్పాటు",
+        "translation": "సహాయం",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -419,6 +435,14 @@
         "identifier": "accessibility.popup.message.line1",
         "source_string": "Welcome to Minecraft!",
         "translation": "Minecraft కి మేలురాక!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.line3",
+        "source_string": "Would you like to turn this off?",
+        "translation": "మీరు దీన్ని ఆపివేయాలనుకుంటున్నారా?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -443,6 +467,14 @@
         "identifier": "accounts.signOut.fail.hyperLink.text",
         "source_string": "Learn more",
         "translation": "ఇంకా నేర్చుకో",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.bookcase",
+        "source_string": "Librarian",
+        "translation": "పుస్తకశాలాధికారి",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -496,6 +528,30 @@
         "max_length": null
     },
     {
+        "identifier": "action.interact.name",
+        "source_string": "Name",
+        "translation": "పేరు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.read",
+        "source_string": "Read",
+        "translation": "చదువు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:movement",
+        "source_string": "Speed",
+        "translation": "వేగం",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "attribute.name.horse.jumpStrength",
         "source_string": "Horse Jump Strength",
         "translation": "గంతు బలం",
@@ -504,9 +560,41 @@
         "max_length": null
     },
     {
+        "identifier": "authentication.demo.body.error",
+        "source_string": "We're sorry, but this lesson is not currently available.",
+        "translation": "క్షమించండి, కానీ ఈ పాఠం ప్రస్తుతానికి అందుబాటులో లేదు.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signIn.tryAgain",
+        "source_string": "Try again",
+        "translation": "మళ్ళీ ప్రయత్నించండి",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "authentication.welcome",
         "source_string": "Welcome, %s!",
         "translation": "స్వాగతం, %s!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.exitingGame",
+        "source_string": "Goodbye, come back soon.",
+        "translation": "మళ్ళీ వచ్చి ఆడుకోండి.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.help",
+        "source_string": "Help",
+        "translation": "సహాయం",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -536,9 +624,113 @@
         "max_length": null
     },
     {
+        "identifier": "chat.settings.color",
+        "source_string": "Color",
+        "translation": "రంగు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chestScreen.header.large",
+        "source_string": "Large Chest",
+        "translation": "పెద్ద భోషాణం",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chestScreen.header.small",
+        "source_string": "Chest",
+        "translation": "భోషాణం",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "craftingScreen.tab.nature",
+        "source_string": "Nature",
+        "translation": "ప్రకృతి",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "craftingScreen.tab.items",
+        "source_string": "Items",
+        "translation": "వస్తువులు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "cauldronScreen.header",
         "source_string": "Cauldron",
         "translation": "కాగు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "codeScreen.changeEditorModal.change",
+        "source_string": "Change",
+        "translation": "మార్పు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "color.black",
+        "source_string": "Black",
+        "translation": "నలుపు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "color.gray",
+        "source_string": "Gray",
+        "translation": "బూడిద రంగు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "color.blue",
+        "source_string": "Blue",
+        "translation": "నీలం",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "color.green",
+        "source_string": "Green",
+        "translation": "ఆకుపచ్చ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "color.red",
+        "source_string": "Red",
+        "translation": "ఎరుపు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "color.yellow",
+        "source_string": "Yellow",
+        "translation": "పసుపు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "color.white",
+        "source_string": "White",
+        "translation": "తెలుపు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -555,6 +747,30 @@
         "identifier": "commands.blockdata.destroyFailed",
         "source_string": "You cannot dig here",
         "translation": "ఇక్కడ తవ్వలేవు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage",
+        "source_string": "Usage: %1$s",
+        "translation": "వాడుక: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage.noparam",
+        "source_string": "Usage:",
+        "translation": "వాడుక:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.movement",
+        "source_string": "Movement",
+        "translation": "కదలిక",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -608,6 +824,22 @@
         "max_length": null
     },
     {
+        "identifier": "controller.buttonTip.select.item",
+        "source_string": "Select Item",
+        "translation": "వస్తువును ఎంచుకోండి",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.takeItem",
+        "source_string": "Take Item",
+        "translation": "వస్తువును తీసుకోండి",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "createWorld.customize.custom.useVillages",
         "source_string": "Villages",
         "translation": "ఊరులు",
@@ -642,7 +874,7 @@
     {
         "identifier": "realmsCreateScreen.durationShort",
         "source_string": "30 Days",
-        "translation": "30 నాళ్ళు",
+        "translation": "30 రోజులు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -650,7 +882,7 @@
     {
         "identifier": "realmsCreateScreen.durationLong",
         "source_string": "180 Days",
-        "translation": "180 నాళ్ళు",
+        "translation": "180 రోజులు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -658,7 +890,7 @@
     {
         "identifier": "realmsWorld.owner",
         "source_string": "owner",
-        "translation": "తారియరి",
+        "translation": "యజమాని",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -674,7 +906,7 @@
     {
         "identifier": "realmsSettingsScreen.maxPlayersLabelFormat",
         "source_string": "%d Friends",
-        "translation": "%d నెచ్చెళు",
+        "translation": "%d స్నేహితులు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -754,7 +986,7 @@
     {
         "identifier": "entity.axolotl.name",
         "source_string": "Axolotl",
-        "translation": "నడకచేప",
+        "translation": "నడచేప",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -762,7 +994,7 @@
     {
         "identifier": "entity.horse.name",
         "source_string": "Horse",
-        "translation": "గుర్రం",
+        "translation": "గుఱ్ఱం",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -866,7 +1098,7 @@
     {
         "identifier": "entity.villager.name",
         "source_string": "Villager",
-        "translation": "ఊరివాడు",
+        "translation": "గ్రామస్థుడు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -882,7 +1114,7 @@
     {
         "identifier": "entity.villager_v2.name",
         "source_string": "Villager",
-        "translation": "ఊరివాడు",
+        "translation": "గ్రామస్థుడు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -899,6 +1131,14 @@
         "identifier": "feature.village",
         "source_string": "Village",
         "translation": "ఊరు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.deleted",
+        "source_string": "Deleted item",
+        "translation": "వస్తువు తొలగించారు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -962,7 +1202,7 @@
     {
         "identifier": "howtoplay.weapons.header.1",
         "source_string": "Sword",
-        "translation": "వాలు",
+        "translation": "ఖడ్గం",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -971,6 +1211,46 @@
         "identifier": "howtoplay.weapons.header.2",
         "source_string": "Bow",
         "translation": "విల్లు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.air.name",
+        "source_string": "Air",
+        "translation": "గాలి",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlAdultBodySingle.name",
+        "source_string": "Adult %1$s Axolotl",
+        "translation": "పెద్ద %1$s నడచేప",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlBabyBodySingle.name",
+        "source_string": "Baby %1$s Axolotl",
+        "translation": "%1$s నడచేపకూన",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlColorGold.name",
+        "source_string": "Gold",
+        "translation": "స్వర్ణపు రంగు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlColorBlue.name",
+        "source_string": "Blue",
+        "translation": "నీలి",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1026,7 +1306,7 @@
     {
         "identifier": "item.bucketAxolotl.name",
         "source_string": "Bucket of Axolotl",
-        "translation": "నడకచేప బాల్చీ",
+        "translation": "నడచేప బాల్చీ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1056,9 +1336,57 @@
         "max_length": null
     },
     {
+        "identifier": "item.trident.name",
+        "source_string": "Trident",
+        "translation": "త్రిశూలం",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.muttonRaw.name",
+        "source_string": "Raw Mutton",
+        "translation": "పచ్చి మేకమాంసం",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.potato.name",
+        "source_string": "Potato",
+        "translation": "బంగాళాదుంప",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.ruby.name",
+        "source_string": "Ruby",
+        "translation": "కెంపు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.saddle.name",
+        "source_string": "Saddle",
+        "translation": "జీను",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.spider_eye.name",
         "source_string": "Spider Eye",
         "translation": "సాలీడు కన్ను",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.sugar.name",
+        "source_string": "Sugar",
+        "translation": "చక్కెర",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1104,6 +1432,46 @@
         "max_length": null
     },
     {
+        "identifier": "item.wheat.name",
+        "source_string": "Wheat",
+        "translation": "గోధుమ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.name",
+        "source_string": "Shield",
+        "translation": "డాలు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle.empty",
+        "source_string": "Empty",
+        "translation": "ఖాళీ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle.full",
+        "source_string": "Full",
+        "translation": "నిండు",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.goat_horn.name",
+        "source_string": "Goat Horn",
+        "translation": "మేక కొమ్ము",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.wool",
         "source_string": "Wool",
         "translation": "బొచ్చు",
@@ -1114,7 +1482,7 @@
     {
         "identifier": "itemGroup.name.sword",
         "source_string": "Swords",
-        "translation": "వాళు",
+        "translation": "ఖడ్గాలు",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1131,6 +1499,14 @@
         "identifier": "tile.scaffolding.name",
         "source_string": "Scaffolding",
         "translation": "సారువ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spyglass.name",
+        "source_string": "Spyglass",
+        "translation": "దూరదర్శిని",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1164,6 +1540,14 @@
         "source_string": "Villagers are great at building villages. Think you can do better?",
         "translation": "గ్రామస్థులు గ్రామాలు చక్కగా కడతారు. ఐతే, మీరు?",
         "context": "This is a prompt to encourage players to build things.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.blue_egg.name",
+        "source_string": "Blue Egg",
+        "translation": "నీలి గుడ్డు",
+        "context": "A blue chicken egg which hatches a cold climate variant of a chicken",
         "labels": "unassigned, lang",
         "max_length": null
     }
