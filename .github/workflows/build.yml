@@ -85,6 +85,7 @@ jobs:
                   profile: pack
             - uses: softprops/action-gh-release@v1
               with:
+                  name: 'v${{ needs.bump-version.outputs.tag-to-release }}'
                   tag_name: ${{ needs.bump-version.outputs.tag-to-release }}
                   files: '*.mcpack'
                   fail_on_unmatched_files: true
