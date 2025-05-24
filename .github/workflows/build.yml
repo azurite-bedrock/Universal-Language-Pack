@@ -12,7 +12,7 @@ jobs:
     bump-version:
         runs-on: ubuntu-latest
         outputs:
-            new-tag: ${{ steps.bump.outputs.new_tag }}
+            tag-to-release: ${{ steps.determine_tag.outputs.tag_to_release }}
         steps:
             - uses: actions/checkout@v3
               with:
@@ -21,19 +21,51 @@ jobs:
               id: get_tag
               run: |
                   LATEST_TAG=$(git describe --tags --match "[0-9]*" --abbrev=0 2>/dev/null || echo "0.0.0")
-                  echo "::set-output name=latest::$LATEST_TAG"
-            - name: Bump patch version
-              id: bump
+                  echo "latest=$LATEST_TAG" >> $GITHUB_OUTPUT
+            - name: Check if latest tag has a release
+              id: check_release
               run: |
-                  IFS='.' read -r MAJOR MINOR PATCH <<< "${{ steps.get_tag.outputs.latest }}"
-                  NEW_TAG="$MAJOR.$MINOR.$((PATCH+1))"
-                  echo "::set-output name=new_tag::$NEW_TAG"
-            - name: Create and push new tag
+                  LATEST_TAG="${{ steps.get_tag.outputs.latest }}"
+                  if gh release view "$LATEST_TAG" &>/dev/null; then
+                    echo "has_release=true" >> $GITHUB_OUTPUT
+                    echo "Tag $LATEST_TAG already has a release"
+                  else
+                    echo "has_release=false" >> $GITHUB_OUTPUT
+                    echo "Tag $LATEST_TAG does not have a release"
+                  fi
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Determine tag to release
+              id: determine_tag
               run: |
-                  git config user.name "github-actions[bot]"
-                  git config user.email "github-actions[bot]@users.noreply.github.com"
-                  git tag "${{ steps.bump.outputs.new_tag }}"
-                  git push origin "${{ steps.bump.outputs.new_tag }}"
+                  LATEST_TAG="${{ steps.get_tag.outputs.latest }}"
+                  HAS_RELEASE="${{ steps.check_release.outputs.has_release }}"
+
+                  if [ "$HAS_RELEASE" = "true" ]; then
+                    # Tag has a release, bump patch version
+                    IFS='.' read -r MAJOR MINOR PATCH <<< "$LATEST_TAG"
+                    NEW_TAG="$MAJOR.$MINOR.$((PATCH+1))"
+                    echo "tag_to_release=$NEW_TAG" >> $GITHUB_OUTPUT
+                    echo "Will create new tag: $NEW_TAG"
+                  else
+                    # Tag doesn't have a release, use existing tag
+                    echo "tag_to_release=$LATEST_TAG" >> $GITHUB_OUTPUT
+                    echo "Will use existing tag: $LATEST_TAG"
+                  fi
+            - name: Create and push new tag (if needed)
+              run: |
+                  LATEST_TAG="${{ steps.get_tag.outputs.latest }}"
+                  TAG_TO_RELEASE="${{ steps.determine_tag.outputs.tag_to_release }}"
+
+                  if [ "$TAG_TO_RELEASE" != "$LATEST_TAG" ]; then
+                    echo "Creating new tag: $TAG_TO_RELEASE"
+                    git config user.name "github-actions[bot]"
+                    git config user.email "github-actions[bot]@users.noreply.github.com"
+                    git tag "$TAG_TO_RELEASE"
+                    git push origin "$TAG_TO_RELEASE"
+                  else
+                    echo "Using existing tag: $TAG_TO_RELEASE"
+                  fi
 
     build-and-release:
         needs: bump-version
@@ -41,7 +73,7 @@ jobs:
         steps:
             - uses: actions/checkout@v3
               with:
-                  ref: ${{ needs.bump-version.outputs.new-tag }}
+                  ref: ${{ needs.bump-version.outputs.tag-to-release }}
             - name: Install Rust
               uses: dtolnay/rust-toolchain@stable
             - name: Install Deno
@@ -53,7 +85,7 @@ jobs:
                   profile: pack
             - uses: softprops/action-gh-release@v1
               with:
-                  tag_name: ${{ needs.bump-version.outputs.new-tag }}
+                  tag_name: ${{ needs.bump-version.outputs.tag-to-release }}
                   files: '*.mcpack'
                   fail_on_unmatched_files: true
               env:
