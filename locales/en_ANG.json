@@ -656,6 +656,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.screenName.achievements",
+        "source_string": "Achievements Screen",
+        "translation": "Fulfilling Shirm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.screenName.chat",
         "source_string": "Chat Screen",
         "translation": "Chat Shirm",
@@ -1212,6 +1220,14 @@
         "source_string": "PLN",
         "translation": "PLN",
         "context": "{Locked}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.toast",
+        "source_string": "Notification",
+        "translation": "Heedening",
+        "context": "This is the name of the popup that appears when a player gets a notification for a game invite or achievement unlocked",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -1834,7 +1850,7 @@
     {
         "identifier": "achievement.exploreAllBiomes.desc",
         "source_string": "Discover all biomes",
-        "translation": "Find all lifescapes",
+        "translation": "Find all lifeheaps",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1867,6 +1883,14 @@
         "identifier": "achievement.fullBeacon.desc",
         "source_string": "Create a full beacon",
         "translation": "Make a full beacon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.get",
+        "source_string": "Achievement get!",
+        "translation": "Fulfilling reap!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1963,6 +1987,14 @@
         "identifier": "achievement.mineWood.desc",
         "source_string": "Attack a tree until a block of wood pops out",
         "translation": "Break down a tree oth a clot of wood shows up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.notification.description",
+        "source_string": "Achievement unlocked",
+        "translation": "Fulfilling unlocked",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2832,6 +2864,14 @@
         "max_length": null
     },
     {
+        "identifier": "authentication.demo.title",
+        "source_string": "Loading the Demo",
+        "translation": "Loading the Kithing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "authentication.loggingin",
         "source_string": "Signing in...",
         "translation": "Going in...",
@@ -2944,9 +2984,65 @@
         "max_length": null
     },
     {
+        "identifier": "authentication.store.purchase.button",
+        "source_string": "Purchase license (%s/year)",
+        "translation": "Buy leaves (%s/year)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.viewPrivacyPolicy",
+        "source_string": "Privacy Policy",
+        "translation": "Sunderly Thew",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "authentication.toast.refreshFailed.title",
         "source_string": "Account",
         "translation": "Reckoning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.error.generic.title",
+        "source_string": "Unable to Sign In",
+        "translation": "Could not Go In",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.error.generic.link2",
+        "source_string": "Try a demo lesson.",
+        "translation": "Fand a kithing read.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.location",
+        "source_string": "The EULA is at:",
+        "translation": "The EULA is at:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.title",
+        "source_string": "End-User Licensing Agreement",
+        "translation": "End-User Licensing Agreement",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.view",
+        "source_string": "View EULA",
+        "translation": "Show EULA",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3010,7 +3106,7 @@
     {
         "identifier": "book.generation.0",
         "source_string": "Original",
-        "translation": "First Book",
+        "translation": "First book",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3059,6 +3155,14 @@
         "identifier": "book.titleHere",
         "source_string": "[Enter title here]",
         "translation": "[Input name here]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.headerPortfolio",
+        "source_string": "From Portfolio",
+        "translation": "From Lookbook",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3264,6 +3368,22 @@
         "max_length": null
     },
     {
+        "identifier": "chat.type.achievement",
+        "source_string": "%s has just earned the achievement %s",
+        "translation": "%s has now earned the fulfilling %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.achievement.taken",
+        "source_string": "%s has lost the achievement %s",
+        "translation": "%s has lost the fulfilling %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "chat.type.admin",
         "source_string": "[%s: %s]",
         "translation": "[%s: %s]",
@@ -3315,6 +3435,14 @@
         "identifier": "chat.coordinateTypeFacing",
         "source_string": "Block Position",
         "translation": "Clot Stow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.redactObfuscatedText",
+        "source_string": "[OBFUSCATED]",
+        "translation": "[ADDLED]",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3712,6 +3840,14 @@
         "max_length": null
     },
     {
+        "identifier": "commandBlockScreen.executeFirstTick",
+        "source_string": "Execute on First Tick",
+        "translation": "Run on First Tick",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commandBlockScreen.displayOutputMode",
         "source_string": "O",
         "translation": "O",
@@ -3723,6 +3859,14 @@
         "identifier": "commandBlockScreen.hideOutputMode",
         "source_string": "X",
         "translation": "X",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commandBlockScreen.title",
+        "source_string": "Command Block",
+        "translation": "Hest Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3800,6 +3944,206 @@
         "max_length": null
     },
     {
+        "identifier": "commands.achievement.alreadyHave",
+        "source_string": "Player %1$s already has achievement %2$s",
+        "translation": "Player %1$s already has fulfilling %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.description",
+        "source_string": "Gives or removes an achievement from a player.",
+        "translation": "Yeaves or fornims a fulfilling from a player.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.dontHave",
+        "source_string": "Player %1$s doesn't have achievement %2$s",
+        "translation": "Player %1$s doesn't have fulfilling %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.give.success.all",
+        "source_string": "Successfully given all achievements to %1$s",
+        "translation": "Speedfully yeaven all fulfillings to %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.give.success.one",
+        "source_string": "Successfully given %1$s the stat %2$s",
+        "translation": "Speedfully yeaven %1$s the tolllore %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.statTooLow",
+        "source_string": "Player %1$s does not have the stat %2$s",
+        "translation": "Player %1$s does not have the tolllore %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.take.success.all",
+        "source_string": "Successfully taken all achievements from %1$s",
+        "translation": "Speedfully nimmed all fulfillings from %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.take.success.one",
+        "source_string": "Successfully taken the stat %1$s from %2$s",
+        "translation": "Speedfully nimmed the tolllore %1$s from %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.unknownAchievement",
+        "source_string": "Unknown achievement or statistic '%1$s'",
+        "translation": "Unknown fulfilling or tolllore '%1$s'",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.attack.success",
+        "source_string": "Agent attack successful",
+        "translation": "Forwright strike speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.attack.failed",
+        "source_string": "Agent failed to attack",
+        "translation": "Forwright could not strike",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.collect.success",
+        "source_string": "Agent collect successful",
+        "translation": "Forwright gather speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.collect.failed",
+        "source_string": "Agent failed to collect",
+        "translation": "Forwright could not gather",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.createagent.success",
+        "source_string": "Created Agent",
+        "translation": "Made Forwright",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.createagent.failed",
+        "source_string": "Unable to create Agent",
+        "translation": "Could not make Forwright",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.destroy.success",
+        "source_string": "Agent destroyed a block",
+        "translation": "Forwright broke a clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.destroy.failed",
+        "source_string": "Agent destroy failed",
+        "translation": "Forwright breaking trucked",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detect.success",
+        "source_string": "Agent detect successful",
+        "translation": "Forwright acknow speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detect.failed",
+        "source_string": "Agent failed to detect",
+        "translation": "Forwright could not acknow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detectredstone.success",
+        "source_string": "Agent detectredstone successful",
+        "translation": "Forwright detectredstone speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detectredstone.failed",
+        "source_string": "Agent failed to detectredstone",
+        "translation": "Forwright could not detectredstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.drop.success",
+        "source_string": "Agent drop successful",
+        "translation": "Forwright drop speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.drop.failed",
+        "source_string": "Agent failed to drop",
+        "translation": "Forwright could not drop",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.dropall.success",
+        "source_string": "Agent dropall successful",
+        "translation": "Forwright dropall speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.dropall.failed",
+        "source_string": "Agent failed to dropall",
+        "translation": "Forwright could not dropall",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.agent.getitemcount.success",
         "source_string": "Agent getitemcount successful",
         "translation": "Forwright getitemcount speedful",
@@ -3848,6 +4192,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.agent.getposition.success",
+        "source_string": "Agent getposition successful",
+        "translation": "Forwright getposition speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.agent.setitem.success",
         "source_string": "Agent set item successful",
         "translation": "Forwright set thing speedful",
@@ -3867,6 +4219,14 @@
         "identifier": "commands.autocomplete.a",
         "source_string": "all players",
         "translation": "all players",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.autocomplete.c",
+        "source_string": "my Agent",
+        "translation": "my Forwright",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3899,6 +4259,14 @@
         "identifier": "commands.autocomplete.s",
         "source_string": "yourself",
         "translation": "yourself",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.autocomplete.v",
+        "source_string": "all Agents",
+        "translation": "all Forwrights",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3938,7 +4306,7 @@
     {
         "identifier": "commands.difficulty.usage",
         "source_string": "/difficulty <new difficulty>",
-        "translation": "/difficulty <new arvethness>",
+        "translation": "/difficulty <new difficulty>",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3946,7 +4314,7 @@
     {
         "identifier": "commands.effect.success",
         "source_string": "Gave %1$s * %2$d to %3$s for %4$d seconds",
-        "translation": "Gave %1$s * %2$d to %3$s for %4$d brightoms",
+        "translation": "Yave %1$s * %2$d to %3$s for %4$d braids",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3954,7 +4322,7 @@
     {
         "identifier": "commands.effect.success.infinite",
         "source_string": "Gave %1$s * %2$d to %3$s for an infinite duration",
-        "translation": "Gave %1$s * %2$d to %3$s for an infinite time",
+        "translation": "Yave %1$s * %2$d to %3$s for an unendly time",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4218,7 +4586,7 @@
     {
         "identifier": "commands.locate.biome.fail",
         "source_string": "Could not find a biome of type %1$s within a reasonable distance",
-        "translation": "Could not find a lifescape of kind %1$s within well-grounded farness",
+        "translation": "Could not find a lifeheap of kind %1$s within well-grounded farness",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4226,7 +4594,7 @@
     {
         "identifier": "commands.locate.biome.success",
         "source_string": "The nearest %1$s is at block %2$s, %3$s, %4$s (%5 blocks away)",
-        "translation": "The nearest %1$s is at %2$s, %3$s, %4$s (%5m away)",
+        "translation": "The nearest %1$s is at clot %2$s, %3$s, %4$s (%5 m away)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4234,7 +4602,7 @@
     {
         "identifier": "commands.locate.structure.success",
         "source_string": "The nearest %1$s is at block %2$s, (y?), %3$s (%4 blocks away)",
-        "translation": "The nearest %1$s is at %2$s, (y?), %3$s (%4m away)",
+        "translation": "The nearest %1$s is at clot %2$s, (y?), %3$s (%4 m away)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4520,9 +4888,65 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.arrow",
+        "source_string": "%1$s was shot by %2$s",
+        "translation": "%1$s was shot by %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.arrow.item",
         "source_string": "%1$s was shot by %2$s using %3$s",
         "translation": "%1$s was shot by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.bullet",
+        "source_string": "%1$s was sniped by %2$s",
+        "translation": "%1$s was snited by %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.cactus",
+        "source_string": "%1$s was pricked to death",
+        "translation": "%1$s was pricked to death",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.drown",
+        "source_string": "%1$s drowned",
+        "translation": "%1$s choked on water",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.explosion",
+        "source_string": "%1$s blew up",
+        "translation": "%1$s blew up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.explosion.player",
+        "source_string": "%1$s was blown up by %2$s",
+        "translation": "%1$s was blown up by %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.fireball",
+        "source_string": "%1$s was fireballed by %2$s",
+        "translation": "%1$s was fireballed by %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4536,9 +4960,57 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.generic",
+        "source_string": "%1$s died",
+        "translation": "%1$s swelted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.indirectMagic.item",
         "source_string": "%1$s was killed by %2$s using %3$s",
         "translation": "%1$s was killed by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.inFire",
+        "source_string": "%1$s went up in flames",
+        "translation": "%1$s went up in blaze",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.lava",
+        "source_string": "%1$s tried to swim in lava",
+        "translation": "%1$s fanded to swim in moltenstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.lava.player",
+        "source_string": "%1$s tried to swim in lava to escape %2$s",
+        "translation": "%1$s fanded to swim in moltenstone to atwind %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.lightningBolt",
+        "source_string": "%1$s was struck by lightning",
+        "translation": "%1$s was struck by lightning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.maceSmash.player",
+        "source_string": "%1$s was smashed by %2$s",
+        "translation": "%1$s was smashed by %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4552,9 +5024,65 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.magic",
+        "source_string": "%1$s was killed by magic",
+        "translation": "%1$s was killed by dwimmer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.magma",
+        "source_string": "%1$s discovered the floor was lava",
+        "translation": "%1$s found out the floor was moltenstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.magma.player",
+        "source_string": "%1$s walked on danger zone due to %2$s",
+        "translation": "%1$s walked on harmful stead owing to %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.mob",
+        "source_string": "%1$s was slain by %2$s",
+        "translation": "%1$s was slain by %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.mob.item",
         "source_string": "%1$s was slain by %2$s using %3$s",
         "translation": "%1$s was slain by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.onFire",
+        "source_string": "%1$s burned to death",
+        "translation": "%1$s burned to death",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.outOfWorld",
+        "source_string": "%1$s fell out of the world",
+        "translation": "%1$s fell out of the world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.player",
+        "source_string": "%1$s was slain by %2$s",
+        "translation": "%1$s was slain by %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4568,9 +5096,41 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.spit",
+        "source_string": "%1$s was spitballed by %2$s",
+        "translation": "%1$s was spitballed by %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.starve",
+        "source_string": "%1$s starved to death",
+        "translation": "%1$s starved to death",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.thrown.item",
         "source_string": "%1$s was pummeled by %2$s using %3$s",
         "translation": "%1$s was pummeled by %2$s brooking %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.trident",
+        "source_string": "%1$s was impaled to death by %2$s",
+        "translation": "%1$s was sticked to death by %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.stalagmite",
+        "source_string": "%1$s was impaled on a stalagmite",
+        "translation": "%1$s was sticked on a dripstone",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4635,6 +5195,46 @@
         "identifier": "feed.reportToastMessage",
         "source_string": "Item reported",
         "translation": "Thing bewritten",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "pauseNotification.title.onePlayer",
+        "source_string": "%s joined your game!",
+        "translation": "%s fayed your game!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "pauseNotification.title.twoPlayers",
+        "source_string": "%s and %s joined your game!",
+        "translation": "%s and %s fayed your game!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "pauseNotification.title.moreThanTwoPlayers",
+        "source_string": "Multiple people joined your game!",
+        "translation": "Many leeds fayed your game!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "pauseNotification.playButton",
+        "source_string": "Play",
+        "translation": "Play",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.achievements",
+        "source_string": "Achievements",
+        "translation": "Fulfillings",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4899,6 +5499,30 @@
         "identifier": "level.import.failed.incompatibleEdition",
         "source_string": "World import failed: Unsupported file format",
         "translation": "World inbring trucked: Unupheld thread layout",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.notification.title",
+        "source_string": "Game Invite",
+        "translation": "Game Lathing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.notification.acceptInviteTtsGamepad",
+        "source_string": "Press %s to accept",
+        "translation": "Thring %s to bear",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.notification.description",
+        "source_string": "%s has invited you to play Minecraft",
+        "translation": "%s has welcome you to play Minecraft",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12784,6 +13408,70 @@
         "max_length": null
     },
     {
+        "identifier": "item.pale_oak_door.name",
+        "source_string": "Pale Oak Door",
+        "translation": "Bloak Oak Door",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pale_oak_hanging_sign.name",
+        "source_string": "Pale Oak Hanging Sign",
+        "translation": "Bloak Oak Hanging Token",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pale_oak_sign.name",
+        "source_string": "Pale Oak Sign",
+        "translation": "Bloak Oak Token",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_sapling.name",
+        "source_string": "Pale Oak Sapling",
+        "translation": "Bloak Oak Sapling",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_leaves.name",
+        "source_string": "Pale Oak Leaves",
+        "translation": "Bloak Oak Leaves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.boat.pale_oak.name",
+        "source_string": "Pale Oak Boat",
+        "translation": "Bloak Oak Boat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.chest_boat.pale_oak.name",
+        "source_string": "Pale Oak Boat with Chest",
+        "translation": "Bloak Oak Boat with Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.magenta.name",
+        "source_string": "Magenta Shield",
+        "translation": "Bazered Shield",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.bundle",
         "source_string": "Bundle",
         "translation": "Bundle",
@@ -12960,6 +13648,30 @@
         "max_length": null
     },
     {
+        "identifier": "joincode.icon_text.7",
+        "source_string": "Agent",
+        "translation": "Forwright",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.interactwithtoast",
+        "source_string": "Open Notification",
+        "translation": "Open Heedening",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.mobeffectsandinteractwithtoast",
+        "source_string": "Open Notification/Mob Effects",
+        "translation": "Open Heedening/Wight Rines",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "keyboard.keyName.semicolon",
         "source_string": "SEMICOLON",
         "translation": "HALF TWOFOLD DOTS",
@@ -12976,9 +13688,113 @@
         "max_length": null
     },
     {
+        "identifier": "map.position.agent",
+        "source_string": "Agent Pos: %s, %s, %s",
+        "translation": "Forwright Stow: %s, %s, %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "notification.lock.noCraft",
+        "source_string": "This item is locked and can't be crafted with",
+        "translation": "This thing is locked and can't be crafted with",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "notification.lock.noDrop",
+        "source_string": "This item is locked and can't be dropped",
+        "translation": "This thing is locked and can't be dropped",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "notification.lock.noRemove",
+        "source_string": "This item is locked and can't be removed from the inventory",
+        "translation": "This thing is locked and can't be fornimmed from the inholding",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "notification.lock.noReplace",
+        "source_string": "This item is locked and can't be replaced",
+        "translation": "This thing is locked and can't be swapped",
+        "context": "Locked items cannot be removed from the player's inventory.",
+        "labels": "unassigned, lang",
+        "max_length": 42
+    },
+    {
         "identifier": "options.accountErrorButton",
         "source_string": "View Errors",
         "translation": "See Dwales",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.Toast",
+        "source_string": "Toast notification duration",
+        "translation": "Pop-up heedening time",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.Chat",
+        "source_string": "Chat message duration",
+        "translation": "Chat writ time",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.chat.ThreeSec",
+        "source_string": "3 seconds",
+        "translation": "3 braids",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.chat.TenSec",
+        "source_string": "10 seconds (default)",
+        "translation": "10 braids (stock)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.chat.ThirtySec",
+        "source_string": "30 seconds",
+        "translation": "30 braids",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.toast.ThreeSec",
+        "source_string": "3 seconds (default)",
+        "translation": "3 braids (stock)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.toast.TenSec",
+        "source_string": "10 seconds",
+        "translation": "10 braids",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.toast.ThirtySec",
+        "source_string": "30 seconds",
+        "translation": "30 braids",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13024,6 +13840,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.turnOffAchievements",
+        "source_string": "Turn off achievements?",
+        "translation": "Lay off fulfillings?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.suggestedContent.button.viewMore",
         "source_string": "View More Packs",
         "translation": "See More Packs",
@@ -13043,6 +13867,22 @@
         "identifier": "review.item.post.rating.submit.button",
         "source_string": "Rate this pack",
         "translation": "Deem this pack",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stats.tooltip.type.achievement",
+        "source_string": "Achievement",
+        "translation": "Fulfilling",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.view_achievement",
+        "source_string": "View achievement",
+        "translation": "Show fulfilling",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13072,6 +13912,142 @@
         "max_length": null
     },
     {
+        "identifier": "tile.pale_oak_button.name",
+        "source_string": "Pale Oak Button",
+        "translation": "Bloak Oak Knap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_double_slab.name",
+        "source_string": "Pale Oak Double Slab",
+        "translation": "Bloak Oak Twofold Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_fence.name",
+        "source_string": "Pale Oak Fence",
+        "translation": "Bloak Oak Edder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_fence_gate.name",
+        "source_string": "Pale Oak Fence Gate",
+        "translation": "Bloak Oak Edder Gate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_log.name",
+        "source_string": "Pale Oak Log",
+        "translation": "Bloak Oak Stock",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_planks.name",
+        "source_string": "Pale Oak Planks",
+        "translation": "Bloak Oak Boards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_pressure_plate.name",
+        "source_string": "Pale Oak Pressure Plate",
+        "translation": "Bloak Oak Thrutch Tile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_slab.name",
+        "source_string": "Pale Oak Slab",
+        "translation": "Bloak Oak Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_stairs.name",
+        "source_string": "Pale Oak Stairs",
+        "translation": "Bloak Oak Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_trapdoor.name",
+        "source_string": "Pale Oak Trapdoor",
+        "translation": "Bloak Oak Trapdoor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_wood.name",
+        "source_string": "Pale Oak Wood",
+        "translation": "Bloak Oak Wood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_pale_oak_log.name",
+        "source_string": "Stripped Pale Oak Log",
+        "translation": "Stripped Bloak Oak Stock",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_pale_oak_wood.name",
+        "source_string": "Stripped Pale Oak Wood",
+        "translation": "Stripped Bloak Oak Wood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_hanging_moss.name",
+        "source_string": "Pale Hanging Moss",
+        "translation": "Bloak Hanging Moss",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_moss_block.name",
+        "source_string": "Pale Moss Block",
+        "translation": "Bloak Moss Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_moss_carpet.name",
+        "source_string": "Pale Moss Carpet",
+        "translation": "Bloak Moss Layer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.achievements.title",
+        "source_string": "ACHIEVEMENTS",
+        "translation": "FULFILLINGS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "midgameTips.33",
         "source_string": "There are 3587 types of tropical fish!",
         "translation": "There are 3587 kinds of southsea fish!",
@@ -13091,6 +14067,102 @@
         "identifier": "dr.collect_achievement_item",
         "source_string": "Collect",
         "translation": "Gather",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.to_skins",
+        "source_string": "Switching to Classic Skins",
+        "translation": "Switching to Win Hides",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.to_persona",
+        "source_string": "Switching to Character Creator",
+        "translation": "Switching to Hoad Maker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.persona_save",
+        "source_string": "The Character has been saved",
+        "translation": "The Hoad has been kept",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.persona_create",
+        "source_string": "The Character has been created",
+        "translation": "The Hoad has been made",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.persona_create_new",
+        "source_string": "New Character has been created",
+        "translation": "New Hoad has been made",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.classic_skin_created_new",
+        "source_string": "New Skin has been created",
+        "translation": "New Hide has been made",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.persona_delete",
+        "source_string": "The Character has been deleted",
+        "translation": "The Hoad has been adwashed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.item_selection_failed",
+        "source_string": "Failed to select item",
+        "translation": "Could not choose thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.notification.character_failed",
+        "source_string": "Failed to load character %s",
+        "translation": "Could not load hoad %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.openInputLegend",
+        "source_string": "Open",
+        "translation": "Open",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.locked",
+        "source_string": "Locked",
+        "translation": "Locked",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.locked",
+        "source_string": "Locked",
+        "translation": "Locked",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
