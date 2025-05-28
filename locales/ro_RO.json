@@ -218,7 +218,7 @@
     {
         "identifier": "accessibility.chat.howtoemote",
         "source_string": "Press or Hold %s to Emote",
-        "translation": "Apăsați sau țineți apăsat pe %s pentru a folosi un emote",
+        "translation": "Apasă sau ține apăsat pe %s să folosești un emote",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -442,7 +442,7 @@
     {
         "identifier": "accessibility.button.creative.layout",
         "source_string": "Recipe book view",
-        "translation": "Afișare carte de rețete",
+        "translation": "Afișarea cărții de rețete",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20016,6 +20016,14 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.bullet",
+        "source_string": "%1$s was sniped by %2$s",
+        "translation": "%1$s a fost lovit(ă) cu o săgeată de la distanță de %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.cactus",
         "source_string": "%1$s was pricked to death",
         "translation": "%1$s a murit înțepat(ă) de un cactus",
@@ -21664,6 +21672,62 @@
         "max_length": null
     },
     {
+        "identifier": "disconnectionScreen.editor.cannotUseRayTracing",
+        "source_string": "Ray Tracing enabled resource packs are not yet compatible with Editor projects.",
+        "translation": "Pachetele de resurse activate RayTracing nu sunt deocamdată compatibile cu proiectele Editor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.unexpectedPacket",
+        "source_string": "Disconnected due to an unexpected type of packet received which cannot be processed.  This could be due to a version mismatch or corruption at the networking level.",
+        "translation": "Deconectat din cauza unui tip neașteptat de pachet primit care nu poate fi procesat. Acest lucru s-ar putea datora unei nepotriviri a versiunii sau coruperii la nivelul rețelei.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.connectionLost",
+        "source_string": "The connection to the host was lost. If that world is still being hosted, please check your internet connection and try to connect again.",
+        "translation": "Conexiunea la gazdă a fost pierdută. Dacă lumea respectivă este încă găzduită, verificați conexiunea la internet și încercați să vă conectați din nou.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.deepLink.TryingToOpenDemoWorldWhileSignedIn.title",
+        "source_string": "Unable to load world.",
+        "translation": "Nu s-a putut încărca lumea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.deepLink.TryingToOpenDemoWorldWhileSignedIn.body",
+        "source_string": "Try opening this world in demo mode.",
+        "translation": "Încearcă să deschizi această lume în modul demo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.errorCode",
+        "source_string": "Error Code: ",
+        "translation": "Cod de eroare: ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "storageSpaceWarningScreen.frontend",
+        "source_string": "You are almost out of data storage space! Minecraft has restricted access to this feature until you clear up additional storage space.",
+        "translation": "Ai rămas aproape fără spațiul de stocare al datelor! Minecraft a restricționat accesul la această caracteristică până când mai ștergi spațiu de stocare suplimentar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "storageSpaceWarningScreen.lowduringgameplay",
         "source_string": "Your device is almost out of the space that Minecraft can use to save worlds and settings on this device. Why not delete some old stuff you don't need so that you can keep saving new stuff?",
         "translation": "Dispozitivul tău aproape nu mai spațiu pe care să îl poată folosi Minecraft pentru a salva lumi și setări. De ce nu ștergeți unele lucruri vechi de care nu aveți nevoie pentru a putea salva în continuare lucruri noi?",
@@ -22072,10 +22136,2210 @@
         "max_length": null
     },
     {
+        "identifier": "edu.pause.multiplayer.disabled",
+        "source_string": "Multiplayer is not available in this lesson.",
+        "translation": "Multiplayer nu este disponibil în această lecție.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "effect.duration.infinite",
         "source_string": "∞",
         "translation": "∞",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.badOmen",
+        "source_string": "Bad Omen",
+        "translation": "Rău augur",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.infested",
+        "source_string": "Infested",
+        "translation": "Infestat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.oozing",
+        "source_string": "Oozing",
+        "translation": "Înmâzgare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.raid_omen",
+        "source_string": "Raid Omen",
+        "translation": "Augur de invazie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.trial_omen",
+        "source_string": "Trial Omen",
+        "translation": "Încercare de rău augur",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.villageHero",
+        "source_string": "Hero of the Village",
+        "translation": "Eroul Satului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.weaving",
+        "source_string": "Weaving",
+        "translation": "Țesere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.wind_charged",
+        "source_string": "Wind Charged",
+        "translation": "Vânt încărcat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowDamage",
+        "source_string": "Power",
+        "translation": "Putere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowFire",
+        "source_string": "Flame",
+        "translation": "Flacără",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowInfinite",
+        "source_string": "Infinity",
+        "translation": "Infinit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowKnockback",
+        "source_string": "Punch",
+        "translation": "Lovitură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.crossbowMultishot",
+        "source_string": "Multishot",
+        "translation": "Multiproiectil",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.crossbowPiercing",
+        "source_string": "Piercing",
+        "translation": "Sfredelire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.crossbowQuickCharge",
+        "source_string": "Quick Charge",
+        "translation": "Încărcare rapidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.curse.binding",
+        "source_string": "Curse of Binding",
+        "translation": "Blestem al legării",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.curse.vanishing",
+        "source_string": "Curse of Vanishing",
+        "translation": "Blestem al dispariției",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.damage.all",
+        "source_string": "Sharpness",
+        "translation": "Ascuțime",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.damage.arthropods",
+        "source_string": "Bane of Arthropods",
+        "translation": "Spaima artropodelor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.damage.undead",
+        "source_string": "Smite",
+        "translation": "Izbire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.digging",
+        "source_string": "Efficiency",
+        "translation": "Eficiență",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.durability",
+        "source_string": "Unbreaking",
+        "translation": "Trăinicie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.fire",
+        "source_string": "Fire Aspect",
+        "translation": "Aspectul focului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.fishingSpeed",
+        "source_string": "Lure",
+        "translation": "Momeală",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.frostwalker",
+        "source_string": "Frost Walker",
+        "translation": "Mers de gheață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.heavy_weapon.breach",
+        "source_string": "Breach",
+        "translation": "Breșă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.heavy_weapon.density",
+        "source_string": "Density",
+        "translation": "Densitate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.heavy_weapon.windburst",
+        "source_string": "Wind Burst",
+        "translation": "Rafală de vânt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.knockback",
+        "source_string": "Knockback",
+        "translation": "Recul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.1",
+        "source_string": "I",
+        "translation": "I",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.10",
+        "source_string": "X",
+        "translation": "X",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.2",
+        "source_string": "II",
+        "translation": "II",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.3",
+        "source_string": "III",
+        "translation": "III",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.4",
+        "source_string": "IV",
+        "translation": "IV",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.5",
+        "source_string": "V",
+        "translation": "V",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.6",
+        "source_string": "VI",
+        "translation": "VI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.7",
+        "source_string": "VII",
+        "translation": "VII",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.8",
+        "source_string": "VIII",
+        "translation": "VIII",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.9",
+        "source_string": "IX",
+        "translation": "IX",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonus",
+        "source_string": "Looting",
+        "translation": "Jefuire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonusDigger",
+        "source_string": "Fortune",
+        "translation": "Avere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonusFishing",
+        "source_string": "Luck of the Sea",
+        "translation": "Norocul mării",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.mending",
+        "source_string": "Mending",
+        "translation": "Refacere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.oxygen",
+        "source_string": "Respiration",
+        "translation": "Răsuflare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.all",
+        "source_string": "Protection",
+        "translation": "Protecție",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.explosion",
+        "source_string": "Blast Protection",
+        "translation": "Protecție împotriva exploziilor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.fall",
+        "source_string": "Feather Falling",
+        "translation": "Ușor ca o pană",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.fire",
+        "source_string": "Fire Protection",
+        "translation": "Protecție împotriva focului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.projectile",
+        "source_string": "Projectile Protection",
+        "translation": "Protecție împotriva proiectilelor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.soul_speed",
+        "source_string": "Soul Speed",
+        "translation": "Viteza sufletului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.swift_sneak",
+        "source_string": "Swift Sneak",
+        "translation": "Furișare rapidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.thorns",
+        "source_string": "Thorns",
+        "translation": "Spini",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.untouching",
+        "source_string": "Silk Touch",
+        "translation": "Atingere de mătase",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.waterWalker",
+        "source_string": "Depth Strider",
+        "translation": "Agilitate acvatică",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.waterWorker",
+        "source_string": "Aqua Affinity",
+        "translation": "Afinitate acvatică",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentChanneling",
+        "source_string": "Channeling",
+        "translation": "Dirijare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentLoyalty",
+        "source_string": "Loyalty",
+        "translation": "Loialitate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentRiptide",
+        "source_string": "Riptide",
+        "translation": "Contracurent",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentImpaling",
+        "source_string": "Impaling",
+        "translation": "Străpungere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.area_effect_cloud.name",
+        "source_string": "Area Effect Cloud",
+        "translation": "Nor de efect",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.armadillo.name",
+        "source_string": "Armadillo",
+        "translation": "Tatu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.armor_stand.name",
+        "source_string": "Armor Stand",
+        "translation": "Suport de armură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.arrow.name",
+        "source_string": "Arrow",
+        "translation": "Săgeată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bat.name",
+        "source_string": "Bat",
+        "translation": "Liliac",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bee.name",
+        "source_string": "Bee",
+        "translation": "Albină",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.blaze.name",
+        "source_string": "Blaze",
+        "translation": "Dogoreală",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.boat.name",
+        "source_string": "Boat",
+        "translation": "Barcă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bogged.name",
+        "source_string": "Bogged",
+        "translation": "Împotmolit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.breeze.name",
+        "source_string": "Breeze",
+        "translation": "Briză",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.breeze_wind_charge_projectile.name",
+        "source_string": "Wind Charge",
+        "translation": "Minge de vânt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cat.name",
+        "source_string": "Cat",
+        "translation": "Pisică",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cave_spider.name",
+        "source_string": "Cave Spider",
+        "translation": "Păianjen de peșteră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.chicken.name",
+        "source_string": "Chicken",
+        "translation": "Găină",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cow.name",
+        "source_string": "Cow",
+        "translation": "Vacă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.creaking.name",
+        "source_string": "Creaking",
+        "translation": "Scârțâitor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.creeper.name",
+        "source_string": "Creeper",
+        "translation": "Creeper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.dolphin.name",
+        "source_string": "Dolphin",
+        "translation": "Delfin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.goat.name",
+        "source_string": "Goat",
+        "translation": "Capră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.panda.name",
+        "source_string": "Panda",
+        "translation": "Panda",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.donkey.name",
+        "source_string": "Donkey",
+        "translation": "Măgar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.dragon_fireball.name",
+        "source_string": "Dragon Fireball",
+        "translation": "Minge de foc a dragonului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.drowned.name",
+        "source_string": "Drowned",
+        "translation": "Înecat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.egg.name",
+        "source_string": "Egg",
+        "translation": "Ou",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.elder_guardian.name",
+        "source_string": "Elder Guardian",
+        "translation": "Mare străjer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.ender_crystal.name",
+        "source_string": "Ender Crystal",
+        "translation": "Cristal din End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.ender_dragon.name",
+        "source_string": "Ender Dragon",
+        "translation": "Dragon de Ender",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.enderman.name",
+        "source_string": "Enderman",
+        "translation": "Enderman",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.endermite.name",
+        "source_string": "Endermite",
+        "translation": "Endermit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.ender_pearl.name",
+        "source_string": "Ender Pearl",
+        "translation": "Perlă de Ender",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.evocation_illager.name",
+        "source_string": "Evoker",
+        "translation": "Evocator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.evocation_fang.name",
+        "source_string": "Evoker Fang",
+        "translation": "Colți de evocator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.eye_of_ender_signal.name",
+        "source_string": "Eye of Ender",
+        "translation": "Ochi de Ender",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.falling_block.name",
+        "source_string": "Falling Block",
+        "translation": "Bloc în cădere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.fireball.name",
+        "source_string": "Fireball",
+        "translation": "Minge de foc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.fireworks_rocket.name",
+        "source_string": "Firework Rocket",
+        "translation": "Artificiu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.fishing_hook.name",
+        "source_string": "Fishing Hook",
+        "translation": "Cârlig de pescuit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.fish.clownfish.name",
+        "source_string": "Clownfish",
+        "translation": "Pește-clovn",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.fox.name",
+        "source_string": "Fox",
+        "translation": "Vulpe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cod.name",
+        "source_string": "Cod",
+        "translation": "Cod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.pufferfish.name",
+        "source_string": "Pufferfish",
+        "translation": "Pește-balon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.salmon.name",
+        "source_string": "Salmon",
+        "translation": "Somon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.tropicalfish.name",
+        "source_string": "Tropical Fish",
+        "translation": "Pește tropical",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.axolotl.name",
+        "source_string": "Axolotl",
+        "translation": "Axolot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.ghast.name",
+        "source_string": "Ghast",
+        "translation": "Ghast",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.glow_squid.name",
+        "source_string": "Glow Squid",
+        "translation": "Calamar strălucitor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.piglin_brute.name",
+        "source_string": "Piglin Brute",
+        "translation": "Piglin brutal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.guardian.name",
+        "source_string": "Guardian",
+        "translation": "Străjer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.hoglin.name",
+        "source_string": "Hoglin",
+        "translation": "Hoglin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.horse.name",
+        "source_string": "Horse",
+        "translation": "Cal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.husk.name",
+        "source_string": "Husk",
+        "translation": "Momâie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.ravager.name",
+        "source_string": "Ravager",
+        "translation": "Distrugător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.iron_golem.name",
+        "source_string": "Iron Golem",
+        "translation": "Golem de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.item.name",
+        "source_string": "Item",
+        "translation": "Obiect",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.leash_knot.name",
+        "source_string": "Leash Knot",
+        "translation": "Nod de lesă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.lightning_bolt.name",
+        "source_string": "Lightning Bolt",
+        "translation": "Trăsnet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.lingering_potion.name",
+        "source_string": "Lingering Potion",
+        "translation": "Poțiune persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.llama.name",
+        "source_string": "Llama",
+        "translation": "Lamă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.trader_llama.name",
+        "source_string": "Trader Llama",
+        "translation": "Lama negustorului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.llama_spit.name",
+        "source_string": "Llama Spit",
+        "translation": "Scuipat de lamă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.magma_cube.name",
+        "source_string": "Magma Cube",
+        "translation": "Cub de magmă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.minecart.name",
+        "source_string": "Minecart",
+        "translation": "Vagonet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.chest_minecart.name",
+        "source_string": "Minecart with Chest",
+        "translation": "Cufăr în vagonet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.command_block_minecart.name",
+        "source_string": "Minecart with Command Block",
+        "translation": "Bloc de comenzi în vagonet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.furnace_minecart.name",
+        "source_string": "Minecart with Furnace",
+        "translation": "Cuptor în vagonet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.hopper_minecart.name",
+        "source_string": "Minecart with Hopper",
+        "translation": "Pâlnie în vagonet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.tnt_minecart.name",
+        "source_string": "Minecart with TNT",
+        "translation": "TNT în vagonet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.mule.name",
+        "source_string": "Mule",
+        "translation": "Catâr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.mooshroom.name",
+        "source_string": "Mooshroom",
+        "translation": "Mooshroom",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.moving_block.name",
+        "source_string": "Moving Block",
+        "translation": "Bloc în mișcare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.ocelot.name",
+        "source_string": "Ocelot",
+        "translation": "Ocelot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.painting.name",
+        "source_string": "Painting",
+        "translation": "Pictură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.parrot.name",
+        "source_string": "Parrot",
+        "translation": "Papagal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.phantom.name",
+        "source_string": "Phantom",
+        "translation": "Fantasmă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.pig.name",
+        "source_string": "Pig",
+        "translation": "Porc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.piglin.name",
+        "source_string": "Piglin",
+        "translation": "Piglin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.pillager.name",
+        "source_string": "Pillager",
+        "translation": "Jefuitor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.polar_bear.name",
+        "source_string": "Polar Bear",
+        "translation": "Urs polar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.rabbit.name",
+        "source_string": "Rabbit",
+        "translation": "Iepure",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.sheep.name",
+        "source_string": "Sheep",
+        "translation": "Oaie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.shulker.name",
+        "source_string": "Shulker",
+        "translation": "Shulker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.shulker_bullet.name",
+        "source_string": "Shulker Bullet",
+        "translation": "Glonț de shulker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.silverfish.name",
+        "source_string": "Silverfish",
+        "translation": "Peștișor argintiu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.skeleton.name",
+        "source_string": "Skeleton",
+        "translation": "Schelet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.skeleton_horse.name",
+        "source_string": "Skeleton Horse",
+        "translation": "Cal schelet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.stray.name",
+        "source_string": "Stray",
+        "translation": "Hoinar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.slime.name",
+        "source_string": "Slime",
+        "translation": "Mâzgă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.small_fireball.name",
+        "source_string": "Small Fireball",
+        "translation": "Minge de foc mică",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.sniffer.name",
+        "source_string": "Sniffer",
+        "translation": "Adulmecător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.snowball.name",
+        "source_string": "Snowball",
+        "translation": "Bulgăr de zăpadă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.snow_golem.name",
+        "source_string": "Snow Golem",
+        "translation": "Golem de zăpadă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.spider.name",
+        "source_string": "Spider",
+        "translation": "Păianjen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.splash_potion.name",
+        "source_string": "Potion",
+        "translation": "Poțiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.squid.name",
+        "source_string": "Squid",
+        "translation": "Calamar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.strider.name",
+        "source_string": "Strider",
+        "translation": "Umblător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.tnt.name",
+        "source_string": "Block of TNT",
+        "translation": "Bloc de TNT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.thrown_trident.name",
+        "source_string": "Trident",
+        "translation": "Trident",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.tripod_camera.name",
+        "source_string": "Tripod Camera",
+        "translation": "Tripod cameră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.turtle.name",
+        "source_string": "Turtle",
+        "translation": "Țestoasă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.unknown.name",
+        "source_string": "Unknown",
+        "translation": "Necunoscut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.vex.name",
+        "source_string": "Vex",
+        "translation": "Spirit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.name",
+        "source_string": "Villager",
+        "translation": "Sătean",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.armor",
+        "source_string": "Armorer",
+        "translation": "Fierar de armură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.butcher",
+        "source_string": "Butcher",
+        "translation": "Măcelar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.cartographer",
+        "source_string": "Cartographer",
+        "translation": "Cartograf",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.cleric",
+        "source_string": "Cleric",
+        "translation": "Cleric",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.farmer",
+        "source_string": "Farmer",
+        "translation": "Fermier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.fisherman",
+        "source_string": "Fisherman",
+        "translation": "Pescar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.fletcher",
+        "source_string": "Fletcher",
+        "translation": "Săgetar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.leather",
+        "source_string": "Leatherworker",
+        "translation": "Pielar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.librarian",
+        "source_string": "Librarian",
+        "translation": "Bibliotecar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.shepherd",
+        "source_string": "Shepherd",
+        "translation": "Cioban",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.tool",
+        "source_string": "Tool Smith",
+        "translation": "Fierar de unelte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.weapon",
+        "source_string": "Weapon Smith",
+        "translation": "Fierar de arme",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.mason",
+        "source_string": "Mason",
+        "translation": "Zidar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.unskilled",
+        "source_string": "Unskilled Villager",
+        "translation": "Sătean necalificat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager_v2.name",
+        "source_string": "Villager",
+        "translation": "Sat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.vindicator.name",
+        "source_string": "Vindicator",
+        "translation": "Apărător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.wandering_trader.name",
+        "source_string": "Wandering Trader",
+        "translation": "Negustor ambulant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.wind_charge_projectile.name",
+        "source_string": "Wind Charge",
+        "translation": "Minge de vânt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.witch.name",
+        "source_string": "Witch",
+        "translation": "Vrăjitoare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.wither.name",
+        "source_string": "Wither",
+        "translation": "Wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.wither_skeleton.name",
+        "source_string": "Wither Skeleton",
+        "translation": "Schelet wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.wither_skull.name",
+        "source_string": "Wither Skull",
+        "translation": "Craniu de wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.wither_skull_dangerous.name",
+        "source_string": "Wither Skull",
+        "translation": "Craniu de wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.wolf.name",
+        "source_string": "Wolf",
+        "translation": "Lup",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.xp_orb.name",
+        "source_string": "Experience Orb",
+        "translation": "Sferă de experiență",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.xp_bottle.name",
+        "source_string": "Bottle o' Enchanting",
+        "translation": "Sticluță de experiență",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.zoglin.name",
+        "source_string": "Zoglin",
+        "translation": "Zoglin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.zombie.name",
+        "source_string": "Zombie",
+        "translation": "Zombi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.zombie_horse.name",
+        "source_string": "Zombie Horse",
+        "translation": "Cal-zombi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.zombie_pigman.name",
+        "source_string": "Zombified Piglin",
+        "translation": "Piglin zombificat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.zombie_villager.name",
+        "source_string": "Zombie Villager",
+        "translation": "Sătean zombi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.zombie_villager_v2.name",
+        "source_string": "Zombie Villager",
+        "translation": "Sătean zombi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "exports.share.file",
+        "source_string": "Share %s",
+        "translation": "Distribuiți %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "exports.suspendWarning.client.content",
+        "source_string": "Warning: If you continue, you will be disconnected from this multiplayer session.",
+        "translation": "Atenție: Dacă vei continua, vei fi deconectat de la această sesiune multiplayer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "exports.suspendWarning.host.content",
+        "source_string": "Warning: If you continue, this will end the multiplayer session for all players.",
+        "translation": "Atenție: Dacă vei continua, acest lucru va închide sesiunea multiplayer pentru toți jucătorii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "exports.suspendWarning.title",
+        "source_string": "Warning",
+        "translation": "Atenție",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "exports.eduCloud.suspendWarning.host.content",
+        "source_string": "Are you sure you want to save and leave the game?%1Warning: If you do, this will end the multiplayer session for all players.%1We'll upload your world to the cloud too!",
+        "translation": "Ești sigur că vrei să salvezi și să părăsești jocul?%1Atenție: Dacă o faci, acest lucru va încheia sesiunea multiplayer pentru toți jucătorii.%1Vom încărca lumea ta și în cloud!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "exports.fileError.title",
+        "source_string": "Unable to save your file",
+        "translation": "Nu se poate salva fișierul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "exports.fileError.body",
+        "source_string": "The disk may be full or write-protected or the file may be in use. Please check to make sure the file is not open and try again.",
+        "translation": "Discul este plin sau protejat la scriere sau fișierul este folosit. Vă rugăm să verificați că fișierul nu este deschis și încercați din nou.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.addServer",
+        "source_string": "Add Server",
+        "translation": "Adaugă server",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.nameTextBoxLabel",
+        "source_string": "Server Name",
+        "translation": "Nume Server",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.namePlaceholder",
+        "source_string": "Please enter server name",
+        "translation": "Vă rugăm să introduceți numele serverului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.ipTextBoxLabel",
+        "source_string": "Server Address",
+        "translation": "Adresă server",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.portTextBoxLabel",
+        "source_string": "Port",
+        "translation": "Port",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.ipPlaceholder",
+        "source_string": "Please enter IP or Address",
+        "translation": "Vă rugăm să introduceți un IP sau o adresă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.alreadyAdded",
+        "source_string": "This server has already been added",
+        "translation": "Acest server a fost deja adăugat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.saveButtonLabel",
+        "source_string": "Save",
+        "translation": "Salvare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.playButtonLabel",
+        "source_string": "Play",
+        "translation": "Joacă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.removeButtonLabel",
+        "source_string": "Remove",
+        "translation": "Șterge",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.removeConfirmation",
+        "source_string": "Are you sure you want to remove this server? ",
+        "translation": "Ești sigur că vrei să elimini acest server? ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.addTitle",
+        "source_string": "Add External Server",
+        "translation": "Adaugă un server extern",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addExternalServerScreen.editTitle",
+        "source_string": "Edit External Server",
+        "translation": "Editează serverul extern",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.end_city",
+        "source_string": "End City",
+        "translation": "Oraș din End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.fortress",
+        "source_string": "Nether Fortress",
+        "translation": "Fortăreață de Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.mansion",
+        "source_string": "Woodland Mansion",
+        "translation": "Conac de pădure",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.mineshaft",
+        "source_string": "Mineshaft",
+        "translation": "Puț de mină",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.missingno",
+        "source_string": "Unknown Feature",
+        "translation": "Caracteristică necunoscută",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.monument",
+        "source_string": "Ocean Monument",
+        "translation": "Monument oceanic",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.temple",
+        "source_string": "Temple",
+        "translation": "Templu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.village",
+        "source_string": "Village",
+        "translation": "Sat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.buried_treasure",
+        "source_string": "Buried Treasure",
+        "translation": "Comoară îngropată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.ruins",
+        "source_string": "Ocean Ruins",
+        "translation": "Ruine oceanice",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.pillager_outpost",
+        "source_string": "Pillager Outpost",
+        "translation": "Avanpost de Pilligeri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.bastion_remnant",
+        "source_string": "Bastion Remnant",
+        "translation": "Rămășitele bastionului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.ruined_portal",
+        "source_string": "Ruined Portal",
+        "translation": "Portal ruinat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.trial_chambers",
+        "source_string": "Trial Chambers",
+        "translation": "Camere de Proces",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.like",
+        "source_string": "Like",
+        "translation": "Apreciere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.manage_feed",
+        "source_string": "Manage feed",
+        "translation": "Gestionare flux",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.comment",
+        "source_string": "Comment",
+        "translation": "Comentariu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.reported_label",
+        "source_string": "Reports",
+        "translation": "Rapoarte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.ignore",
+        "source_string": "Ignore",
+        "translation": "Ignorare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.nrreport",
+        "source_string": "%d report",
+        "translation": "%d raport",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.nrreports",
+        "source_string": "%d reports",
+        "translation": "%d rapoarte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.newPost",
+        "source_string": "New post",
+        "translation": "Postare nouă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.daysAgo",
+        "source_string": "%dd ago",
+        "translation": "cu %d zile în urmă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.hoursAgo",
+        "source_string": "%dh ago",
+        "translation": "cu %d ore în urmă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.minutesAgo",
+        "source_string": "%dm ago",
+        "translation": "cu %d minute în urmă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.now",
+        "source_string": "Just now",
+        "translation": "Chiar acum",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationDayAgo",
+        "source_string": "Posted one day ago",
+        "translation": "Postat acum o zi",
+        "context": "This social media post was posted one day ago",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationDaysAgo",
+        "source_string": "Posted %d days ago",
+        "translation": "Postat acum %d zile",
+        "context": "This social media post was posted x days ago",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationHourAgo",
+        "source_string": "Posted one hour ago",
+        "translation": "Postat acum o oră",
+        "context": "This social media post was posted one hour ago",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationHoursAgo",
+        "source_string": "Posted %d hours ago",
+        "translation": "Postat acum %d ore",
+        "context": "This social media post was posted x hours ago",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationMinuteAgo",
+        "source_string": "Posted one minute ago",
+        "translation": "Postat acum un minut",
+        "context": "This social media post was posted one minute ago",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationMinutesAgo",
+        "source_string": "Posted %d minutes ago",
+        "translation": "Postat acum %d minut(e)",
+        "context": "This social media post was posted x minutes ago",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationNow",
+        "source_string": "Posted just now",
+        "translation": "Postat chiar acum",
+        "context": "This social media post was posted just now",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.narrationDate",
+        "source_string": "Posted on %s %d, %d",
+        "translation": "Postat pe %s, %d și %d",
+        "context": "This social media post was posted on 'month day, year' ex. Posted on March 12, 2023",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.whatup",
+        "source_string": "What are you up to?",
+        "translation": "Ce mai faci?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.upload",
+        "source_string": "Your screenshot is being uploaded...",
+        "translation": "Captura de ecran se încarcă...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.manage",
+        "source_string": "Manage Feed",
+        "translation": "Gestionare flux",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.share",
+        "source_string": "Share",
+        "translation": "Distribuie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.addScreenshot",
+        "source_string": "Add Screenshot",
+        "translation": "Adăugare Captură de ecran",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.shareScreenshot",
+        "source_string": "Screenshot captured. Go to Realms Stories to share it.",
+        "translation": "Captura de ecran a fost făcută. Du-te la Realms Stories să o distribui.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.screenshotCaptured",
+        "source_string": "Screenshot captured. You can view it in your screenshot gallery.",
+        "translation": "Captura de ecran a fost făcută. O poți vedea în galeria de capturi de ecran.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.screenshotAlmostFull",
+        "source_string": "Screenshot captured. Your gallery is almost full. (%d/%d)",
+        "translation": "Captura de ecran a fost făcută. Galeria este aproape plină (%d/%d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.screenshotReachedMax",
+        "source_string": "Screenshot captured. Your gallery is full. (%d/%d)",
+        "translation": "Captura de ecran a fost făcută. Galeria este plină (%d/%d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.screenshotFull",
+        "source_string": "Your gallery is full. Delete screenshots to free up space.",
+        "translation": "Galeria ta este plină. Șterge niște capturi de ecran să eliberezi spațiu.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.screenshotFullShort",
+        "source_string": "Screenshot gallery full",
+        "translation": "Galerie de capturi de ecran plină",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.comments",
+        "source_string": "Comments",
+        "translation": "Comentarii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.edit",
+        "source_string": "Edit",
+        "translation": "Editare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.screenshots",
+        "source_string": "Screenshots",
+        "translation": "Capturi de ecran",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.return",
+        "source_string": "Menu",
+        "translation": "Meniu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.goToFeed",
+        "source_string": "Feed",
+        "translation": "Flux",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.cancel",
+        "source_string": "Cancel",
+        "translation": "Anulare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.previous",
+        "source_string": "Previous",
+        "translation": "Anterior",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.next",
+        "source_string": "Next",
+        "translation": "Următor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.delete",
+        "source_string": "Delete",
+        "translation": "Ștergere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.deleted",
+        "source_string": "Deleted item",
+        "translation": "Articol șters",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.report_xbox",
+        "source_string": "Report to Xbox Enforcement",
+        "translation": "Raportare către echipa Xbox",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.report_club",
+        "source_string": "Report to Club",
+        "translation": "Raportare către club",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.clubdescription",
+        "source_string": "Realm Description",
+        "translation": "Descriere Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.no_feed_item_content",
+        "source_string": "Screenshots and discussions in your Realm will show up here. Get started by pressing \"New post\"",
+        "translation": "Capturile de ecran și discuțiile din Realmul tău vor apărea aici. Începe prin a apăsa „Postare nouă”",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.no_reported_item_content",
+        "source_string": "No items have been reported",
+        "translation": "Niciun articol nu a fost raportat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventorySurvival.mouse",
+        "source_string": "Open your inventory~LINEBREAK~Press :_input_key.inventory:",
+        "translation": "Deschide inventarul~LINEBREAK~Apasă :_input_key.inventory:",
+        "context": "{StrContains=~LINEBREAK~}",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -22146,7 +24410,7 @@
     {
         "identifier": "options.dev_chunk_map_mode_off",
         "source_string": "Off",
-        "translation": "Dezactivată",
+        "translation": "Dezactivat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22450,7 +24714,7 @@
     {
         "identifier": "hbui.Accordion.closeInputLegend",
         "source_string": "Close",
-        "translation": "Inchide",
+        "translation": "Închide",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22458,7 +24722,7 @@
     {
         "identifier": "hbui.Accordion.narrationComponentType",
         "source_string": "Accordion",
-        "translation": "Accordion",
+        "translation": "Acordeon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22482,7 +24746,7 @@
     {
         "identifier": "hbui.Accordion.stateCollapsed",
         "source_string": "Collapsed",
-        "translation": "Collapsed",
+        "translation": "Colapsat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
