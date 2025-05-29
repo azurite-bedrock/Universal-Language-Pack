@@ -23920,6 +23920,14 @@
         "max_length": null
     },
     {
+        "identifier": "feature.shipwreck",
+        "source_string": "Shipwreck",
+        "translation": "Epavă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "feature.buried_treasure",
         "source_string": "Buried Treasure",
         "translation": "Comoară îngropată",
@@ -24336,10 +24344,794 @@
         "max_length": null
     },
     {
+        "identifier": "feed.no_screenshot",
+        "source_string": "You do not have any screenshots",
+        "translation": "Nu ai nicio captură de ecran",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.reportToastMessage",
+        "source_string": "Item reported",
+        "translation": "Element raportat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.forbidden",
+        "source_string": "Unauthorized to post to timeline",
+        "translation": "Nu ești autorizat să postezi pe cronologie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.failedToPost",
+        "source_string": "Post unsuccessful",
+        "translation": "Postare nereuşită",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.failedToPostDescription",
+        "source_string": "Screenshot invalid",
+        "translation": "Captură de ecran invalidă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.failedToPostRateLimit",
+        "source_string": "Try posting again in a few minutes. Realms is trying to catch up.",
+        "translation": "Încearcă să postezi din nou în câteva minute. Realms încearcă să recupereze.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.uppload_started",
+        "source_string": "Screenshot is being uploaded",
+        "translation": "Captura de ecran se încarcă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.uppload_success",
+        "source_string": "Screenshot has been uploaded",
+        "translation": "Captura de ecran a fost încărcată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.connected",
+        "source_string": "Every Realm is connected to a Club with your Microsoft account.",
+        "translation": "Fiecare Realm este conectat la un Club cu contul tău Microsoft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.unviewedPost",
+        "source_string": "New",
+        "translation": "Nou",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "furnaceScreen.fuel",
+        "source_string": "Fuel",
+        "translation": "Combustibil",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "furnaceScreen.header",
+        "source_string": "Furnace",
+        "translation": "Cuptor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "furnaceScreen.input",
+        "source_string": "Input",
+        "translation": "Intrare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "furnaceScreen.result",
+        "source_string": "Result",
+        "translation": "Rezultat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameArgument.featureUnsupported",
+        "source_string": "This version of Minecraft doesn't support this feature",
+        "translation": "Această versiune de Minecraft nu suportă această caracteristică",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.adventure",
+        "source_string": "Adventure Mode",
+        "translation": "Modul Aventură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.changed",
+        "source_string": "Your game mode has been updated to %s",
+        "translation": "Modul tău de joc a fost actualizat la %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.creative",
+        "source_string": "Creative Mode",
+        "translation": "Modul Creativ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.hardcore",
+        "source_string": "Hardcore Mode!",
+        "translation": "Modul Extrem!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.spectator",
+        "source_string": "Spectator Mode",
+        "translation": "Modul Spectator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.survival",
+        "source_string": "Survival Mode",
+        "translation": "Modul Supraviețuire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.cameraMovement.mouse",
+        "source_string": "Look around~LINEBREAK~Use your mouse to turn",
+        "translation": "Uitați-vă în jur~LINEBREAK~Folosește mouse-ul pentru a te întoarce",
+        "context": "{StrContains=~LINEBREAK~}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.cameraMovement.touch",
+        "source_string": "Touch and drag the screen to look around",
+        "translation": "Atinge și glisează degetul pentru a te uita în jur",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.cameraMovement.controller",
+        "source_string": "Move :tip_right_stick: to look around",
+        "translation": "Mișcă :tip_right_stick: pentru te uita în jur",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.playerMovement.mouse",
+        "source_string": "Move with :_input_key.forward:, :_input_key.left:, :_input_key.back:, :_input_key.right:",
+        "translation": "Mișcă-te cu :_input_key.forward:, :_input_key.left:, :_input_key.back:, :_input_key.right:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.playerMovement.touch",
+        "source_string": "Move by using the joystick",
+        "translation": "Mișcă-te folosind joystick-ul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.playerMovement.touch.classic",
+        "source_string": "Move by using the arrow buttons",
+        "translation": "Mișcă-te folosind butoanele cu săgeți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.playerMovement.controller",
+        "source_string": "Move :tip_left_stick: to move around",
+        "translation": "Mișcă :tip_left_stick: pentru te deplasa prin jur",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.flying.mouse",
+        "source_string": "Double tap :_input_key.jump: to fly",
+        "translation": "Apasă de două ori :_input_key.jump: pentru a zbura",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.flying.touch",
+        "source_string": "Double tap jump to fly",
+        "translation": "Apasă de două ori salt pentru a zbura",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.flyDown.mouse",
+        "source_string": "Press :_input_key.sneak: to fly down",
+        "translation": "Apasă :_input_key.sneak: pentru a coborî",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.flyUp.mouse",
+        "source_string": "Press :_input_key.jump: to fly up",
+        "translation": "Apasă :_input_key.jump: pentru a urca",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.stopFlying.mouse",
+        "source_string": "Double tap :_input_key.jump: to stop flying",
+        "translation": "Apasă de două ori :_input_key.jump: pentru a te opri din zburat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.stopFlying.touch",
+        "source_string": "Double tap fly down to stop flying",
+        "translation": "Apasă de două ori zburat în jos pentru a te opri din zburat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.jump.mouse",
+        "source_string": "Jump with :_input_key.jump:",
+        "translation": "Sari cu :_input_key.jump:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.swim.mouse",
+        "source_string": "Press and hold :_input_key.jump: to swim up",
+        "translation": "Apasă și ține apăsat :_input_key.jump: pentru a înota în sus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.swim.touch",
+        "source_string": "Press to swim up",
+        "translation": "Apasă pentru a înota în sus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.hotbar.selection.mouse",
+        "source_string": "Scroll or press %s to hold item    ## The added string will be a number between 1 and 9",
+        "translation": "Derulează sau apasă %s pentru a ține în mână obiectul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.hotbar.selection.touch",
+        "source_string": "Tap item in hotbar to hold it",
+        "translation": "Atinge obiectul din bara de acțiune pentru a-l ține în mână",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.breakBlock.mouse",
+        "source_string": "Hold left click to break blocks",
+        "translation": "Ține apăsat clic stânga pentru a sparge blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.breakBlock.touch",
+        "source_string": "Tap and hold to break blocks",
+        "translation": "Atinge și ține apăsat pentru a sparge blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.breakBlock.touch.classic",
+        "source_string": "Tap and hold to break blocks",
+        "translation": "Atinge și ține apăsat pentru a sparge blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.breakBlock.controller",
+        "source_string": "Tap and hold to break blocks",
+        "translation": "Atinge și ține apăsat pentru a sparge blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.breakBlock.touch.crosshair",
+        "source_string": "Tap and hold :tip_virtual_button_action_attack_or_destroy:~LINEBREAK~to break blocks",
+        "translation": "Atinge și ține apăsat pe :tip_virtual_button_action_attack_or_destroy:~LINEBREAK~pentru a sparge blocurile",
+        "context": "{StrContains=~LINEBREAK~}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.placeBlock.mouse",
+        "source_string": "Right click to place block",
+        "translation": "Click dreapta pentru a plasa blocul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.placeBlock.touch",
+        "source_string": "Tap to place block",
+        "translation": "Atinge pentru a plasa blocul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.placeBlock.controller",
+        "source_string": "Click on the ground to place block",
+        "translation": "Faceți clic pe teren pentru a plasa blocul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.placeBlock.touch.crosshair",
+        "source_string": "Tap :tip_virtual_button_action_build_or_use: to place block",
+        "translation": "Atinge :tip_virtual_button_action_build_or_use: pentru a plasa blocul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gameTip.openInventorySurvival.mouse",
         "source_string": "Open your inventory~LINEBREAK~Press :_input_key.inventory:",
         "translation": "Deschide inventarul~LINEBREAK~Apasă :_input_key.inventory:",
         "context": "{StrContains=~LINEBREAK~}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventorySurvival.touch",
+        "source_string": "Open inventory to see crafting recipes",
+        "translation": "Deschide inventarul pentru a vedea rețetele de fabricare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventorySurvival.controller",
+        "source_string": "Press :_input_key.inventory: to open your inventory",
+        "translation": "Apasă :_input_key.inventory: pentru a-ți deschide inventarul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventoryCreative.mouse",
+        "source_string": "Open your inventory~LINEBREAK~Press :_input_key.inventory:",
+        "translation": "Deschide inventarul~LINEBREAK~Apasă :_input_key.inventory:",
+        "context": "{StrContains=~LINEBREAK~}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventoryCreative.touch",
+        "source_string": "Open inventory to see building blocks",
+        "translation": "Deschide inventarul pentru a vedea blocuri de construcție",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventoryCreative.controller",
+        "source_string": "Press :_input_key.inventory: to open your inventory",
+        "translation": "Apasă :_input_key.inventory: pentru a-ți deschide inventarul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.useSneak.mouse",
+        "source_string": "Hold :_input_key.sneak: to sneak!~LINEBREAK~Can't fall off edges now",
+        "translation": "Ține apăsat :_input_key.sneak: pentru a te furișa!~LINEBREAK~Nu mai poți cădea acum de pe margini",
+        "context": "{StrContains=~LINEBREAK~}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.sneak.mouse",
+        "source_string": "You are sneaking! Can’t fall off edges now",
+        "translation": "Te furișezi! Nu poți cădea acum de pe margini",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.sneak.touch",
+        "source_string": "You're sneaking, so you can't fall off edges",
+        "translation": "Te furișezi, deci nu poți să cazi de pe margini",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.sneak.controller",
+        "source_string": "You're sneaking, so you can't fall off edges",
+        "translation": "Te furișezi, deci nu poți să cazi de pe margini",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.placeCraftingTable.mouse",
+        "source_string": "Place your crafting table. Hold it and click to place",
+        "translation": "Plasează masa de lucru. Ține-o și apasă clic pentru a-o plasa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.placeCraftingTable.touch",
+        "source_string": "Place your crafting table by tapping the ground",
+        "translation": "Plasează masa de lucru atingând terenul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.placeCraftingTable.controller",
+        "source_string": "Place your crafting table, hold it then tap the ground",
+        "translation": "Plasează masa de lucru, ține-o și apoi atinge terenul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.useCraftingTable.mouse",
+        "source_string": "Right click on Crafting Table to use",
+        "translation": "Click dreapta pe Masa de lucru pentru a-o utiliza",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openChat.mouse",
+        "source_string": "Press %s to open chat",
+        "translation": "Apasă %s pentru a deschide conversația",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openChat.touch",
+        "source_string": "Tap to open chat",
+        "translation": "Atinge pentru a deschide conversația",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.exportWorldLong",
+        "source_string": "Export World",
+        "translation": "Exportare lume",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.exportTemplate",
+        "source_string": "Export Template",
+        "translation": "Exportare șablon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.templateMinVersion",
+        "source_string": "Template Minimum Version",
+        "translation": "Versiune minimă șablon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.templateLocPickerTitle",
+        "source_string": "Browse for languages.json in localization folder",
+        "translation": "Răsfoiește pentru languages.json în dosarul de localizare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.templateLocPickerButton",
+        "source_string": "Select Localization",
+        "translation": "Selectați localizarea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.templateIconPickerTitle",
+        "source_string": "Browse for a world icon",
+        "translation": "Răsfoiește pentru o pictogramă a lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.templateIconPickerDesc",
+        "source_string": "Minecraft Icon",
+        "translation": "Pictogramă Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.templateIconPickerButton",
+        "source_string": "Pick world icon",
+        "translation": "Alege pictograma lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.pickLoc.successMessage",
+        "source_string": "Copied localization",
+        "translation": "Localizare copiată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.pickLoc.failedMessage",
+        "source_string": "Error: File picked wasn't languages.json",
+        "translation": "Eroare: Fișierul ales nu era languages.json",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.pickIcon.successMessage",
+        "source_string": "Copied world icon",
+        "translation": "Pictograma lumii a fost copiată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.pickIcon.failedMessage",
+        "source_string": "Error: Invalid file format",
+        "translation": "Eroare: Format fișier invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.previous",
+        "source_string": "Previous",
+        "translation": "Anterior",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.copyWorld",
+        "source_string": "Copy World",
+        "translation": "Copiați lumea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.copyWorld.failedTitle",
+        "source_string": "An error has occured",
+        "translation": "A apărut o eroare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.copyWorld.failedMessage",
+        "source_string": "You can't copy this world because your device doesn't have enough available storage space. Free up some space and try again.",
+        "translation": "Nu poți copia această lume deoarece dispozitivul tău nu are suficient spațiu de stocare disponibil. Eliberează spațiu și încearcă din nou.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.goBack",
+        "source_string": "Go Back",
+        "translation": "Înapoi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.import",
+        "source_string": "Import",
+        "translation": "Importare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.importWorld",
+        "source_string": "Import",
+        "translation": "Importare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.importRetailWorld.title",
+        "source_string": "Import World?",
+        "translation": "Importați lumea?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.importRetailWorld.text.1",
+        "source_string": "This world must be imported before you can use it in the Beta.",
+        "translation": "Această lume trebuie importată înainte de a o putea folosi în Beta.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.importRetailWorld.text.2",
+        "source_string": "Importing the world creates a copy, and will not affect the original world.",
+        "translation": "Importarea unei lumi creează o copie și nu va afecta lumea originală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.importRetailWorld.text.3",
+        "source_string": "Would you like to make a Beta copy of this world?",
+        "translation": "Vrei să faci o copie Beta a acestei lumi?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.importRetailWorld.failedMessage",
+        "source_string": "Failed to import your world.",
+        "translation": "Importarea lumii a eșuat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.minecraftWorld",
+        "source_string": "Minecraft World",
+        "translation": "Lume Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.minecraftBundle",
+        "source_string": "Minecraft Bundle",
+        "translation": "Pachet Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.login",
+        "source_string": "Login",
+        "translation": "Autentificare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.logout",
+        "source_string": "Logout",
+        "translation": "Deconectare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.next",
+        "source_string": "Next",
+        "translation": "Continuare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.no",
+        "source_string": "No",
+        "translation": "Nu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.none",
+        "source_string": "None",
+        "translation": "Niciunul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.ok",
+        "source_string": "OK",
+        "translation": "OK",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.store",
+        "source_string": "Check Store",
+        "translation": "Verifică magazinul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.continue",
+        "source_string": "Continue",
+        "translation": "Continuare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.pickWorld",
+        "source_string": "Browse for a Minecraft World",
+        "translation": "Răsfoiește pentru o lume Minecraft",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
