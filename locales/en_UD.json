@@ -472,6 +472,22 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.play.singleNewPost",
+        "source_string": "1 new post",
+        "translation": "ʇsod ʍǝu ⥝",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.multipleNewPosts",
+        "source_string": "%s new posts",
+        "translation": "sʇsod ʍǝu %s",
+        "context": "%s will be a number",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.start.buttonHelper",
         "source_string": "%s : %s",
         "translation": "%s : %s",
@@ -756,6 +772,14 @@
         "source_string": "'Z' to 'A'",
         "translation": "'Z' to 'A'",
         "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.settings.reset",
+        "source_string": "reset",
+        "translation": "ʇǝsǝɹ",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -1056,9 +1080,345 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.popup.title",
+        "source_string": "Turn Off Screen Reader?",
+        "translation": "¿ɹǝpɐǝᴚ uǝǝɹɔS ɟɟO uɹn⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.line1",
+        "source_string": "Welcome to Minecraft!",
+        "translation": "¡ʇɟɐɹɔǝuᴉW oʇ ǝɯoɔꞁǝM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.default",
+        "source_string": "On your device, screen reader support is enabled by default.",
+        "translation": "˙ʇꞁnɐɟǝp ʎq pǝꞁqɐuǝ sᴉ ʇɹoddns ɹǝpɐǝɹ uǝǝɹɔs 'ǝɔᴉʌǝp ɹnoʎ uO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.platform",
+        "source_string": "We've detected that your system has a screen reader enabled and have automatically enabled Minecraft's screen reader.",
+        "translation": "˙ɹǝpɐǝɹ uǝǝɹɔs s,ʇɟɐɹɔǝuᴉW pǝꞁqɐuǝ ʎꞁꞁɐɔᴉʇɐɯoʇnɐ ǝʌɐɥ puɐ pǝꞁqɐuǝ ɹǝpɐǝɹ uǝǝɹɔs ɐ sɐɥ ɯǝʇsʎs ɹnoʎ ʇɐɥʇ pǝʇɔǝʇǝp ǝʌ,ǝM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.touch",
+        "source_string": "Touch and drag to find controls on the screen, and double tap controls to select. To scroll on a screen, double tap and hold while swiping up or down.",
+        "translation": "˙uʍop ɹo dn ᵷuᴉdᴉʍs ǝꞁᴉɥʍ pꞁoɥ puɐ dɐʇ ǝꞁqnop 'uǝǝɹɔs ɐ uo ꞁꞁoɹɔs o⟘ ˙ʇɔǝꞁǝs oʇ sꞁoɹʇuoɔ dɐʇ ǝꞁqnop puɐ 'uǝǝɹɔs ǝɥʇ uo sꞁoɹʇuoɔ puᴉɟ oʇ ᵷɐɹp puɐ ɥɔno⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.xbl",
+        "source_string": "We've detected that your account has \"Let games read to me\" enabled and have automatically enabled Minecraft's screen reader.",
+        "translation": "˙ɹǝpɐǝɹ uǝǝɹɔs s,ʇɟɐɹɔǝuᴉW pǝꞁqɐuǝ ʎꞁꞁɐɔᴉʇɐɯoʇnɐ ǝʌɐɥ puɐ pǝꞁqɐuǝ ,,ǝɯ oʇ pɐǝɹ sǝɯɐᵷ ʇǝꞀ,, sɐɥ ʇunoɔɔɐ ɹnoʎ ʇɐɥʇ pǝʇɔǝʇǝp ǝʌ,ǝM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.line3",
+        "source_string": "Would you like to turn this off?",
+        "translation": "¿ɟɟo sᴉɥʇ uɹnʇ oʇ ǝʞᴉꞁ noʎ pꞁnoM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.left_button_text",
+        "source_string": "Turn Off",
+        "translation": "ɟɟO uɹn⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.right_button_text",
+        "source_string": "Leave On",
+        "translation": "uO ǝʌɐǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.popup.joinRealm",
         "source_string": "Join Realm Screen",
         "translation": "Join Realm Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.controllerLayoutScreen.buttonRemapped",
+        "source_string": "%s is now bound to %s",
+        "translation": "%s oʇ punoq ʍou sᴉ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.controllerLayoutScreen.buttonBoundTo",
+        "source_string": "%s button: %s",
+        "translation": "%s :uoʇʇnq %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.controllerLayoutScreen.buttonRemapping",
+        "source_string": "Select input to bind for %s",
+        "translation": "%s ɹoɟ puᴉq oʇ ʇnduᴉ ʇɔǝꞁǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.down",
+        "source_string": "Button A",
+        "translation": "Ɐ uoʇʇnᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.right",
+        "source_string": "Button B",
+        "translation": "ᗺ uoʇʇnᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.left",
+        "source_string": "Button X",
+        "translation": "X uoʇʇnᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.faceButton.up",
+        "source_string": "Button Y",
+        "translation": "⅄ uoʇʇnᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.button.systemLeft",
+        "source_string": "View Button",
+        "translation": "uoʇʇnᗺ ʍǝᴉɅ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.button.systemRight",
+        "source_string": "Menu Button",
+        "translation": "uoʇʇnᗺ nuǝW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.dpad.down",
+        "source_string": "D-Pad Down",
+        "translation": "uʍoᗡ pɐԀ-ᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.dpad.up",
+        "source_string": "D-Pad Up",
+        "translation": "d∩ pɐԀ-ᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.dpad.left",
+        "source_string": "D-Pad Left",
+        "translation": "ʇɟǝꞀ pɐԀ-ᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.dpad.right",
+        "source_string": "D-Pad Right",
+        "translation": "ʇɥᵷᴉᴚ pɐԀ-ᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.stick.left",
+        "source_string": "Left Stick",
+        "translation": "ʞɔᴉʇS ʇɟǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.stick.right",
+        "source_string": "Right Stick",
+        "translation": "ʞɔᴉʇS ʇɥᵷᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.stick.left.tiltDown",
+        "source_string": "Left Stick Tilt Back",
+        "translation": "ʞɔɐᗺ ʇꞁᴉ⟘ ʞɔᴉʇS ʇɟǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.stick.left.tiltLeft",
+        "source_string": "Left Stick Tilt Left",
+        "translation": "ʇɟǝꞀ ʇꞁᴉ⟘ ʞɔᴉʇS ʇɟǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.stick.left.tiltRight",
+        "source_string": "Left Stick Tilt Right",
+        "translation": "ʇɥᵷᴉᴚ ʇꞁᴉ⟘ ʞɔᴉʇS ʇɟǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.stick.left.tiltUp",
+        "source_string": "Left Stick Tilt Forward",
+        "translation": "pɹɐʍɹoℲ ʇꞁᴉ⟘ ʞɔᴉʇS ʇɟǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.trigger.right",
+        "source_string": "Right Trigger",
+        "translation": "ɹǝᵷᵷᴉɹ⟘ ʇɥᵷᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.trigger.left",
+        "source_string": "Left Trigger",
+        "translation": "ɹǝᵷᵷᴉɹ⟘ ʇɟǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.bumper.right",
+        "source_string": "Right Bumper",
+        "translation": "ɹǝdɯnᗺ ʇɥᵷᴉᴚ",
+        "context": "Used for both Xbox and controller on Windows",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.gamepad.bumper.left",
+        "source_string": "Left Bumper",
+        "translation": "ɹǝdɯnᗺ ʇɟǝꞀ",
+        "context": "Used for both Xbox and controller on Windows",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.keyboard.leftBracket",
+        "source_string": "Left square bracket key",
+        "translation": "ʎǝʞ ʇǝʞɔɐɹq ǝɹɐnbs ʇɟǝꞀ",
+        "context": "left square bracket means '[' on the english keyboard",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.keyboard.rightBracket",
+        "source_string": "Right square bracket key",
+        "translation": "ʎǝʞ ʇǝʞɔɐɹq ǝɹɐnbs ʇɥᵷᴉᴚ",
+        "context": "right square bracket means ']' on the english keyboard",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.hovered",
+        "source_string": "%s, emote button %d, %d of %d",
+        "translation": "p%d ɟo %d '%d uoʇʇnq ǝʇoɯǝ '%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.assigned",
+        "source_string": "The %s emote assigned",
+        "translation": "pǝuᵷᴉssɐ ǝʇoɯǝ %s ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.unassigned",
+        "source_string": "Unassigned",
+        "translation": "pǝuᵷᴉssɐu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.playSuccess",
+        "source_string": "Play emote",
+        "translation": "ǝʇoɯǝ ʎɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.playFailed",
+        "source_string": "No emote assigned to this button, press %s the Change Emotes button",
+        "translation": "uoʇʇnq sǝʇoɯƎ ǝᵷuɐɥƆ ǝɥʇ %s ssǝɹd 'uoʇʇnq sᴉɥʇ oʇ pǝuᵷᴉssɐ ǝʇoɯǝ oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.changeEmotesInstruction.button",
+        "source_string": "the %s to access",
+        "translation": "ssǝɔɔɐ oʇ %s ǝɥʇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.keyboard.arrow",
+        "source_string": "arrow",
+        "translation": "ʍoɹɹɐ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.instruction.keyboard",
+        "source_string": "Press right or left to cycle through emote buttons. Press the down arrow to access the Change Emotes button.",
+        "translation": "˙uoʇʇnq sǝʇoɯƎ ǝᵷuɐɥƆ ǝɥʇ ssǝɔɔɐ oʇ ʍoɹɹɐ uʍop ǝɥʇ ssǝɹԀ ˙suoʇʇnq ǝʇoɯǝ ɥᵷnoɹɥʇ ǝꞁɔʎɔ oʇ ʇɟǝꞁ ɹo ʇɥᵷᴉɹ ssǝɹԀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2128,6 +2488,246 @@
         "max_length": null
     },
     {
+        "identifier": "action.interact.talk",
+        "source_string": "Talk",
+        "translation": "ʞꞁɐ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.tame",
+        "source_string": "Tame",
+        "translation": "ǝɯɐ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.dye",
+        "source_string": "Dye",
+        "translation": "ǝʎᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.cure",
+        "source_string": "Cure",
+        "translation": "ǝɹnƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.opencontainer",
+        "source_string": "Open",
+        "translation": "uǝdO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.createMap",
+        "source_string": "Create Map",
+        "translation": "dɐW ǝʇɐǝɹƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.takepicture",
+        "source_string": "Take Picture",
+        "translation": "ǝɹnʇɔᴉԀ ǝʞɐ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.saddle",
+        "source_string": "Saddle",
+        "translation": "ǝꞁppɐS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.mount",
+        "source_string": "Mount",
+        "translation": "ʇunoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.boost",
+        "source_string": "Boost",
+        "translation": "ʇsooᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.write",
+        "source_string": "Write",
+        "translation": "ǝʇᴉɹM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.leash",
+        "source_string": "Leash",
+        "translation": "ɥsɐǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.unleash",
+        "source_string": "Unleash",
+        "translation": "ɥsɐǝꞁu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.name",
+        "source_string": "Name",
+        "translation": "ǝɯɐN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.attachchest",
+        "source_string": "Attach Chest",
+        "translation": "ʇsǝɥƆ ɥɔɐʇʇⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.equiphorsearmor",
+        "source_string": "Equip Horse Armor",
+        "translation": "ɹoɯɹⱯ ǝsɹoH dᴉnbƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.equipcarpet",
+        "source_string": "Equip Carpet",
+        "translation": "ʇǝdɹɐƆ dᴉnbƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.trade",
+        "source_string": "Trade",
+        "translation": "ǝpɐɹ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.armorstand.pose",
+        "source_string": "Pose",
+        "translation": "ǝsoԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.armorstand.equip",
+        "source_string": "Equip",
+        "translation": "dᴉnbƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.read",
+        "source_string": "Read",
+        "translation": "pɐǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.wakevillager",
+        "source_string": "Wake Villager",
+        "translation": "ɹǝᵷɐꞁꞁᴉɅ ǝʞɐM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.barter",
+        "source_string": "Barter",
+        "translation": "ɹǝʇɹɐᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.use",
+        "source_string": "Use Item",
+        "translation": "ɯǝʇI ǝs∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.brush",
+        "source_string": "Brush",
+        "translation": "ɥsnɹᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.equipwolfarmor",
+        "source_string": "Equip Wolf Armor",
+        "translation": "ɹoɯɹⱯ ɟꞁoM dᴉnbƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.removewolfarmor",
+        "source_string": "Remove Wolf Armor",
+        "translation": "ɹoɯɹⱯ ɟꞁoM ǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.repairwolfarmor",
+        "source_string": "Repair Wolf Armor",
+        "translation": "ɹoɯɹⱯ ɟꞁoM ɹᴉɐdǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "advMode.allEntities",
+        "source_string": "@e = all entities",
+        "translation": "sǝᴉʇᴉʇuǝ ꞁꞁɐ = ǝ@",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "advMode.allPlayers",
+        "source_string": "@a = all players",
+        "translation": "sɹǝʎɐꞁd ꞁꞁɐ = ɐ@",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "advMode.command",
         "source_string": "Command Input",
         "translation": "ʇnduI puɐɯɯoƆ",
@@ -2240,9 +2840,993 @@
         "max_length": null
     },
     {
+        "identifier": "apple.iCloudNoSpace.button.manageICloud",
+        "source_string": "Manage iCloud",
+        "translation": "pnoꞁƆᴉ ǝᵷɐuɐW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "apple.iCloudNoInternet.message",
+        "source_string": "You need an internet connection to save your worlds properly. They might not be here next time you play Minecraft. Reconnect to the internet to make sure all of your worlds get saved.",
+        "translation": "˙pǝʌɐs ʇǝᵷ spꞁɹoʍ ɹnoʎ ɟo ꞁꞁɐ ǝɹns ǝʞɐɯ oʇ ʇǝuɹǝʇuᴉ ǝɥʇ oʇ ʇɔǝuuoɔǝᴚ ˙ʇɟɐɹɔǝuᴉW ʎɐꞁd noʎ ǝɯᴉʇ ʇxǝu ǝɹǝɥ ǝq ʇou ʇɥᵷᴉɯ ʎǝɥ⟘ ˙ʎꞁɹǝdoɹd spꞁɹoʍ ɹnoʎ ǝʌɐs oʇ uoᴉʇɔǝuuoɔ ʇǝuɹǝʇuᴉ uɐ pǝǝu no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "apple.iCloudSignInRequired.title",
+        "source_string": "Sign In",
+        "translation": "uI uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "apple.iCloudSignInRequired.message",
+        "source_string": "You need to be signed in to iCloud to play Minecraft. Go to your Apple TV settings and turn on iCloud.",
+        "translation": "˙pnoꞁƆᴉ uo uɹnʇ puɐ sᵷuᴉʇʇǝs Ʌ⟘ ǝꞁddⱯ ɹnoʎ oʇ o⅁ ˙ʇɟɐɹɔǝuᴉW ʎɐꞁd oʇ pnoꞁƆᴉ oʇ uᴉ pǝuᵷᴉs ǝq oʇ pǝǝu no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "apple.iCloudUserChanged.message",
+        "source_string": "A new iCloud account has signed in. You will need to restart Minecraft to play.",
+        "translation": "˙ʎɐꞁd oʇ ʇɟɐɹɔǝuᴉW ʇɹɐʇsǝɹ oʇ pǝǝu ꞁꞁᴉʍ no⅄ ˙uᴉ pǝuᵷᴉs sɐɥ ʇunoɔɔɐ pnoꞁƆᴉ ʍǝu Ɐ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "apple.LocalNetworkPermission.message",
+        "source_string": "Minecraft wants to access your local network. This allows you and others on your local network to play together. Declining this permission does not affect online features or gameplay. But will prevent you and others, on the same network, from playing together.",
+        "translation": "˙ɹǝɥʇǝᵷoʇ ᵷuᴉʎɐꞁd ɯoɹɟ 'ʞɹoʍʇǝu ǝɯɐs ǝɥʇ uo 'sɹǝɥʇo puɐ noʎ ʇuǝʌǝɹd ꞁꞁᴉʍ ʇnᗺ ˙ʎɐꞁdǝɯɐᵷ ɹo sǝɹnʇɐǝɟ ǝuᴉꞁuo ʇɔǝɟɟɐ ʇou sǝop uoᴉssᴉɯɹǝd sᴉɥʇ ᵷuᴉuᴉꞁɔǝᗡ ˙ɹǝɥʇǝᵷoʇ ʎɐꞁd oʇ ʞɹoʍʇǝu ꞁɐɔoꞁ ɹnoʎ uo sɹǝɥʇo puɐ noʎ sʍoꞁꞁɐ sᴉɥ⟘ ˙ʞɹoʍʇǝu ꞁɐɔoꞁ ɹnoʎ ssǝɔɔɐ oʇ sʇuɐʍ ʇɟɐɹɔǝuᴉW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.plus.0",
+        "source_string": "+%d %s",
+        "translation": "%s %d+",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.plus.1",
+        "source_string": "+%d%% %s",
+        "translation": "%s %%%d+",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.plus.2",
+        "source_string": "+%d%% %s",
+        "translation": "%s %%%d+",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.take.0",
+        "source_string": "-%d %s",
+        "translation": "%s %d-",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.take.1",
+        "source_string": "-%d%% %s",
+        "translation": "%s %%%d-",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.modifier.take.2",
+        "source_string": "-%d%% %s",
+        "translation": "%s %%%d-",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:attack_damage",
+        "source_string": "Attack Damage",
+        "translation": "ǝᵷɐɯɐᗡ ʞɔɐʇʇⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:follow_range",
+        "source_string": "Mob Follow Range",
+        "translation": "ǝᵷuɐᴚ ʍoꞁꞁoℲ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:knockback_resistance",
+        "source_string": "Knockback Resistance",
+        "translation": "ǝɔuɐʇsᴉsǝᴚ ʞɔɐqʞɔouꞰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.maxHealth",
+        "source_string": "Max Health",
+        "translation": "ɥʇꞁɐǝH xɐW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.attackDamage",
+        "source_string": "Attack Damage",
+        "translation": "ǝᵷɐɯɐᗡ ʞɔɐʇʇⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.generic.knockbackResistance",
+        "source_string": "Knockback Resistance",
+        "translation": "ǝɔuɐʇsᴉsǝᴚ ʞɔɐqʞɔouꞰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.minecraft:movement",
+        "source_string": "Speed",
+        "translation": "pǝǝdS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.horse.jumpStrength",
+        "source_string": "Horse Jump Strength",
+        "translation": "ɥʇᵷuǝɹʇS dɯnՐ ǝsɹoH",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribute.name.zombie.spawnReinforcements",
+        "source_string": "Zombie Reinforcements",
+        "translation": "sʇuǝɯǝɔɹoɟuᴉǝᴚ ǝᴉqɯoZ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribution.goBack",
+        "source_string": "Go Back",
+        "translation": "ʞɔɐᗺ o⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "attribution.viewAttribution",
+        "source_string": "To view attributions, please visit https://minecraft.net/attribution in any web browser.",
+        "translation": "˙ɹǝsʍoɹq qǝʍ ʎuɐ uᴉ uoᴉʇnqᴉɹʇʇɐ/ʇǝu˙ʇɟɐɹɔǝuᴉɯ//:sdʇʇɥ ʇᴉsᴉʌ ǝsɐǝꞁd 'suoᴉʇnqᴉɹʇʇɐ ʍǝᴉʌ o⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.body.default",
+        "source_string": "Starting the demo experience...",
+        "translation": "˙˙˙ǝɔuǝᴉɹǝdxǝ oɯǝp ǝɥʇ ᵷuᴉʇɹɐʇS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.body.error",
+        "source_string": "We're sorry, but this lesson is not currently available.",
+        "translation": "˙ǝꞁqɐꞁᴉɐʌɐ ʎꞁʇuǝɹɹnɔ ʇou sᴉ uossǝꞁ sᴉɥʇ ʇnq 'ʎɹɹos ǝɹ,ǝM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.title",
+        "source_string": "Loading the Demo",
+        "translation": "oɯǝᗡ ǝɥʇ ᵷuᴉpɐoꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.demo.title.error",
+        "source_string": "Lesson Not Available",
+        "translation": "ǝꞁqɐꞁᴉɐʌⱯ ʇoN uossǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.pleaseSignIn",
+        "source_string": "Sign in with your school or organizational account to use Minecraft Education.",
+        "translation": "˙uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ǝsn oʇ ʇunoɔɔɐ ꞁɐuoᴉʇɐzᴉuɐᵷɹo ɹo ꞁooɥɔs ɹnoʎ ɥʇᴉʍ uᴉ uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.loggingin",
+        "source_string": "Signing in...",
+        "translation": "˙˙˙uᴉ ᵷuᴉuᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signIn",
+        "source_string": "Sign in",
+        "translation": "uᴉ uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signIn.tryAgain",
+        "source_string": "Try again",
+        "translation": "uᴉɐᵷɐ ʎɹ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signingInTo",
+        "source_string": "Signing into %s",
+        "translation": "%s oʇuᴉ ᵷuᴉuᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.unableToConnect",
+        "source_string": "Unable to Connect",
+        "translation": "ʇɔǝuuoƆ oʇ ǝꞁqɐu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.unauthenticated",
+        "source_string": "This account is not eligible to use Minecraft Education.",
+        "translation": "˙uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ǝsn oʇ ǝꞁqᴉᵷᴉꞁǝ ʇou sᴉ ʇunoɔɔɐ sᴉɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.location",
+        "source_string": "For more information:",
+        "translation": ":uoᴉʇɐɯɹoɟuᴉ ǝɹoɯ ɹoℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.tryagain",
+        "source_string": "Sign in with a different account",
+        "translation": "ʇunoɔɔɐ ʇuǝɹǝɟɟᴉp ɐ ɥʇᴉʍ uᴉ uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.welcome",
+        "source_string": "Welcome, %s!",
+        "translation": "¡%s 'ǝɯoɔꞁǝM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.exitingGame",
+        "source_string": "Goodbye, come back soon.",
+        "translation": "˙uoos ʞɔɐq ǝɯoɔ 'ǝʎqpoo⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.finalTrialWarning",
+        "source_string": "This is your final trial of Minecraft Education.%1%1After this session, your school or organization will need to purchase a license for you to continue to use all the features of Minecraft Education.",
+        "translation": "˙uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo sǝɹnʇɐǝɟ ǝɥʇ ꞁꞁɐ ǝsn oʇ ǝnuᴉʇuoɔ oʇ noʎ ɹoɟ ǝsuǝɔᴉꞁ ɐ ǝsɐɥɔɹnd oʇ pǝǝu ꞁꞁᴉʍ uoᴉʇɐzᴉuɐᵷɹo ɹo ꞁooɥɔs ɹnoʎ 'uoᴉssǝs sᴉɥʇ ɹǝʇɟⱯ%1%1˙uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo ꞁɐᴉɹʇ ꞁɐuᴉɟ ɹnoʎ sᴉ sᴉɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.oneTrialWarning",
+        "source_string": "You have 1 trial of Minecraft Education remaining before your school or organization will need to purchase a license.%1%1Every time you open Minecraft Education, you will use one trial. ",
+        "translation": " ˙ꞁɐᴉɹʇ ǝuo ǝsn ꞁꞁᴉʍ noʎ 'uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW uǝdo noʎ ǝɯᴉʇ ʎɹǝʌƎ%1%1˙ǝsuǝɔᴉꞁ ɐ ǝsɐɥɔɹnd oʇ pǝǝu ꞁꞁᴉʍ uoᴉʇɐzᴉuɐᵷɹo ɹo ꞁooɥɔs ɹnoʎ ǝɹoɟǝq ᵷuᴉuᴉɐɯǝɹ uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo ꞁɐᴉɹʇ ⥝ ǝʌɐɥ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialMessageTitle",
+        "source_string": "Free Trial",
+        "translation": "ꞁɐᴉɹ⟘ ǝǝɹℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialWelcome",
+        "source_string": "Welcome!%1%1You have %2 trials of Minecraft Education available before your school or organization will need to purchase a license.%1%1Every time you open Minecraft Education, you will use one trial. Enjoy!",
+        "translation": "¡ʎoɾuƎ ˙ꞁɐᴉɹʇ ǝuo ǝsn ꞁꞁᴉʍ noʎ 'uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW uǝdo noʎ ǝɯᴉʇ ʎɹǝʌƎ%1%1˙ǝsuǝɔᴉꞁ ɐ ǝsɐɥɔɹnd oʇ pǝǝu ꞁꞁᴉʍ uoᴉʇɐzᴉuɐᵷɹo ɹo ꞁooɥɔs ɹnoʎ ǝɹoɟǝq ǝꞁqɐꞁᴉɐʌɐ uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo sꞁɐᴉɹʇ %2 ǝʌɐɥ no⅄%1%1¡ǝɯoɔꞁǝM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialWarning",
+        "source_string": "You have %2 trials of Minecraft Education remaining before your school or organization will need to purchase a license.%1%1Every time you open Minecraft Education, you will use one trial. ",
+        "translation": " ˙ꞁɐᴉɹʇ ǝuo ǝsn ꞁꞁᴉʍ noʎ 'uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW uǝdo noʎ ǝɯᴉʇ ʎɹǝʌƎ%1%1˙ǝsuǝɔᴉꞁ ɐ ǝsɐɥɔɹnd oʇ pǝǝu ꞁꞁᴉʍ uoᴉʇɐzᴉuɐᵷɹo ɹo ꞁooɥɔs ɹnoʎ ǝɹoɟǝq ᵷuᴉuᴉɐɯǝɹ uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo sꞁɐᴉɹʇ %2 ǝʌɐɥ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialEnded",
+        "source_string": "Your trial of Minecraft Education is complete.%1%1Your school or organization will need to purchase a license for you to continue to use all of the features of Minecraft Education.%1%1You'll be signed out of your %2 account now and you can explore our feature-limited demo lesson.",
+        "translation": "˙uossǝꞁ oɯǝp pǝʇᴉɯᴉꞁ-ǝɹnʇɐǝɟ ɹno ǝɹoꞁdxǝ uɐɔ noʎ puɐ ʍou ʇunoɔɔɐ %2 ɹnoʎ ɟo ʇno pǝuᵷᴉs ǝq ꞁꞁ,no⅄%1%1˙uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo sǝɹnʇɐǝɟ ǝɥʇ ɟo ꞁꞁɐ ǝsn oʇ ǝnuᴉʇuoɔ oʇ noʎ ɹoɟ ǝsuǝɔᴉꞁ ɐ ǝsɐɥɔɹnd oʇ pǝǝu ꞁꞁᴉʍ uoᴉʇɐzᴉuɐᵷɹo ɹo ꞁooɥɔs ɹno⅄%1%1˙ǝʇǝꞁdɯoɔ sᴉ uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo ꞁɐᴉɹʇ ɹno⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialEndedTitle",
+        "source_string": "Trial Ended",
+        "translation": "pǝpuƎ ꞁɐᴉɹ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.clickToPurchase",
+        "source_string": "How to purchase",
+        "translation": "ǝsɐɥɔɹnd oʇ ʍoH",
+        "context": "Translations should be 20 characters or less",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.adalException",
+        "source_string": "We can't connect to the service you need right now. Please check your internet connection and try again.",
+        "translation": "˙uᴉɐᵷɐ ʎɹʇ puɐ uoᴉʇɔǝuuoɔ ʇǝuɹǝʇuᴉ ɹnoʎ ʞɔǝɥɔ ǝsɐǝꞁԀ ˙ʍou ʇɥᵷᴉɹ pǝǝu noʎ ǝɔᴉʌɹǝs ǝɥʇ oʇ ʇɔǝuuoɔ ʇ,uɐɔ ǝM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.buyMinecraft",
+        "source_string": "Go to the App Store",
+        "translation": "ǝɹoʇS ddⱯ ǝɥʇ oʇ o⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.title",
+        "source_string": "You've been logged out",
+        "translation": "ʇno pǝᵷᵷoꞁ uǝǝq ǝʌ,no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.body",
+        "source_string": "Another device has logged in using your account.",
+        "translation": "˙ʇunoɔɔɐ ɹnoʎ ᵷuᴉsn uᴉ pǝᵷᵷoꞁ sɐɥ ǝɔᴉʌǝp ɹǝɥʇouⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.edu.leaveGame.help",
+        "source_string": "Help",
+        "translation": "dꞁǝH",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.educationOnly",
+        "source_string": "If you are not an education user, go to the app store to download the standard version.",
+        "translation": "˙uoᴉsɹǝʌ pɹɐpuɐʇs ǝɥʇ pɐoꞁuʍop oʇ ǝɹoʇs ddɐ ǝɥʇ oʇ oᵷ 'ɹǝsn uoᴉʇɐɔnpǝ uɐ ʇou ǝɹɐ noʎ ɟI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.minecraftInstead",
+        "source_string": "App Store",
+        "translation": "ǝɹoʇS ddⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signInButton",
+        "source_string": "Sign In with a Different Account",
+        "translation": "ʇunoɔɔⱯ ʇuǝɹǝɟɟᴉᗡ ɐ ɥʇᴉʍ uI uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.signInRequired",
+        "source_string": "Sign In Required",
+        "translation": "pǝɹᴉnbǝᴚ uI uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.confirm.button",
+        "source_string": "Confirm",
+        "translation": "ɯɹᴉɟuoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.confirmPurchase",
+        "source_string": "Confirm Purchase",
+        "translation": "ǝsɐɥɔɹnԀ ɯɹᴉɟuoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.intro",
+        "source_string": "Your trial of Minecraft Education is complete. To continue playing Minecraft Education, you will need to purchase a license.",
+        "translation": "˙ǝsuǝɔᴉꞁ ɐ ǝsɐɥɔɹnd oʇ pǝǝu ꞁꞁᴉʍ noʎ 'uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ᵷuᴉʎɐꞁd ǝnuᴉʇuoɔ o⟘ ˙ǝʇǝꞁdɯoɔ sᴉ uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɟo ꞁɐᴉɹʇ ɹno⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.popup.purchaseFailed.title",
+        "source_string": "Something Went Wrong",
+        "translation": "ᵷuoɹM ʇuǝM ᵷuᴉɥʇǝɯoS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.popup.purchaseFailed.msg",
+        "source_string": "Sorry, we were unable to complete your purchase. Maybe check your internet connection?",
+        "translation": "¿uoᴉʇɔǝuuoɔ ʇǝuɹǝʇuᴉ ɹnoʎ ʞɔǝɥɔ ǝqʎɐW ˙ǝsɐɥɔɹnd ɹnoʎ ǝʇǝꞁdɯoɔ oʇ ǝꞁqɐun ǝɹǝʍ ǝʍ 'ʎɹɹoS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.purchase.info1",
+        "source_string": "The payment will be charged to your iTunes account at confirmation of purchase and the subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your account will be charged for renewal within 24-hours prior to the end of the current period, at the subscription price option you have previously selected. ",
+        "translation": " ˙pǝʇɔǝꞁǝs ʎꞁsnoᴉʌǝɹd ǝʌɐɥ noʎ uoᴉʇdo ǝɔᴉɹd uoᴉʇdᴉɹɔsqns ǝɥʇ ʇɐ 'poᴉɹǝd ʇuǝɹɹnɔ ǝɥʇ ɟo puǝ ǝɥʇ oʇ ɹoᴉɹd sɹnoɥ-߈ᘔ uᴉɥʇᴉʍ ꞁɐʍǝuǝɹ ɹoɟ pǝᵷɹɐɥɔ ǝq ꞁꞁᴉʍ ʇunoɔɔɐ ɹno⅄ ˙poᴉɹǝd ʇuǝɹɹnɔ ǝɥʇ ɟo puǝ ǝɥʇ ǝɹoɟǝq sɹnoɥ-߈ᘔ ʇsɐǝꞁ ʇɐ ɟɟo pǝuɹnʇ sᴉ ʍǝuǝɹ-oʇnɐ ssǝꞁun sʍǝuǝɹ ʎꞁꞁɐɔᴉʇɐɯoʇnɐ uoᴉʇdᴉɹɔsqns ǝɥʇ puɐ ǝsɐɥɔɹnd ɟo uoᴉʇɐɯɹᴉɟuoɔ ʇɐ ʇunoɔɔɐ sǝun⟘ᴉ ɹnoʎ oʇ pǝᵷɹɐɥɔ ǝq ꞁꞁᴉʍ ʇuǝɯʎɐd ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.purchase.info2",
+        "source_string": "You can manage your subscription and turn off auto-renewal by accessing your iTunes Account settings after purchase. If you cancel after your subscription has activated, you won't be refunded for the remaining active period of the subscription. Your iTunes account will be linked to your O365 Education Account for this subscription, so you will not be eligible to purchase additional Minecraft Education licenses with this iTunes account.",
+        "translation": "˙ʇunoɔɔɐ sǝun⟘ᴉ sᴉɥʇ ɥʇᴉʍ sǝsuǝɔᴉꞁ uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ꞁɐuoᴉʇᴉppɐ ǝsɐɥɔɹnd oʇ ǝꞁqᴉᵷᴉꞁǝ ǝq ʇou ꞁꞁᴉʍ noʎ os 'uoᴉʇdᴉɹɔsqns sᴉɥʇ ɹoɟ ʇunoɔɔⱯ uoᴉʇɐɔnpƎ ϛ9ƐO ɹnoʎ oʇ pǝʞuᴉꞁ ǝq ꞁꞁᴉʍ ʇunoɔɔɐ sǝun⟘ᴉ ɹno⅄ ˙uoᴉʇdᴉɹɔsqns ǝɥʇ ɟo poᴉɹǝd ǝʌᴉʇɔɐ ᵷuᴉuᴉɐɯǝɹ ǝɥʇ ɹoɟ pǝpunɟǝɹ ǝq ʇ,uoʍ noʎ 'pǝʇɐʌᴉʇɔɐ sɐɥ uoᴉʇdᴉɹɔsqns ɹnoʎ ɹǝʇɟɐ ꞁǝɔuɐɔ noʎ ɟI ˙ǝsɐɥɔɹnd ɹǝʇɟɐ sᵷuᴉʇʇǝs ʇunoɔɔⱯ sǝun⟘ᴉ ɹnoʎ ᵷuᴉssǝɔɔɐ ʎq ꞁɐʍǝuǝɹ-oʇnɐ ɟɟo uɹnʇ puɐ uoᴉʇdᴉɹɔsqns ɹnoʎ ǝᵷɐuɐɯ uɐɔ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.purchase.button",
+        "source_string": "Purchase license (%s/year)",
+        "translation": "(ɹɐǝʎ/%s) ǝsuǝɔᴉꞁ ǝsɐɥɔɹnԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.terms",
+        "source_string": "Terms of Use",
+        "translation": "ǝs∩ ɟo sɯɹǝ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.viewTermsAndConditions",
+        "source_string": "Terms and Conditions",
+        "translation": "suoᴉʇᴉpuoƆ puɐ sɯɹǝ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.store.viewPrivacyPolicy",
+        "source_string": "Privacy Policy",
+        "translation": "ʎɔᴉןoԀ ʎɔɐʌᴉɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.toast.refreshFailed.title",
+        "source_string": "Account",
+        "translation": "ʇunoɔɔⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eula.acceptButton",
+        "source_string": "Accept",
+        "translation": "ʇdǝɔɔⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.byAuthor",
+        "source_string": "by",
+        "translation": "ʎq",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.defaultAuthor",
+        "source_string": "Author Unknown",
+        "translation": "uʍouʞu∩ ɹoɥʇnⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.editTitle",
+        "source_string": "Enter Book Title:",
+        "translation": ":ǝꞁʇᴉ⟘ ʞooᗺ ɹǝʇuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.export",
+        "source_string": "Export",
+        "translation": "ʇɹodxƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.finalizeButton",
+        "source_string": "Sign and Close",
+        "translation": "ǝsoꞁƆ puɐ uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.finalizeWarning",
+        "source_string": "Note! When you sign the book, it will no longer be editable.",
+        "translation": "˙ǝꞁqɐʇᴉpǝ ǝq ɹǝᵷuoꞁ ou ꞁꞁᴉʍ ʇᴉ 'ʞooq ǝɥʇ uᵷᴉs noʎ uǝɥM ¡ǝʇoN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.generation.0",
+        "source_string": "Original",
+        "translation": "ꞁɐuᴉᵷᴉɹO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.generation.1",
+        "source_string": "Copy of original",
+        "translation": "ꞁɐuᴉᵷᴉɹo ɟo ʎdoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.generation.2",
+        "source_string": "Copy of a copy",
+        "translation": "ʎdoɔ ɐ ɟo ʎdoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.generation.3",
+        "source_string": "Tattered",
+        "translation": "pǝɹǝʇʇɐ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.pageIndicator",
+        "source_string": "Page %1$s of %2$s",
+        "translation": "%2$s ɟo %1$s ǝᵷɐԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.signButton",
+        "source_string": "Sign",
+        "translation": "uᵷᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.titleHere",
+        "source_string": "[Enter title here]",
+        "translation": "[ǝɹǝɥ ǝꞁʇᴉʇ ɹǝʇuƎ]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.headerPortfolio",
+        "source_string": "From Portfolio",
+        "translation": "oᴉꞁoɟʇɹoԀ ɯoɹℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "book.headerInventory",
+        "source_string": "From Inventory",
+        "translation": "ʎɹoʇuǝʌuI ɯoɹℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "build.tooHigh",
+        "source_string": "Height limit for building is %s blocks",
+        "translation": "sʞɔoꞁq %s sᴉ ᵷuᴉpꞁᴉnq ɹoɟ ʇᴉɯᴉꞁ ʇɥᵷᴉǝH",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "build.tooLow",
+        "source_string": "Minimum height for building is %s blocks",
+        "translation": "sʞɔoꞁq %s sᴉ ᵷuᴉpꞁᴉnq ɹoɟ ʇɥᵷᴉǝɥ ɯnɯᴉuᴉW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chalkboardScreen.header",
+        "source_string": "Edit Text",
+        "translation": "ʇxǝ⟘ ʇᴉpƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chalkboardScreen.locked",
+        "source_string": "Locked",
+        "translation": "pǝʞɔoꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chalkboardScreen.unlocked",
+        "source_string": "Unlocked",
+        "translation": "pǝʞɔoꞁu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.cannotSend",
+        "source_string": "Cannot send chat message",
+        "translation": "ǝᵷɐssǝɯ ʇɐɥɔ puǝs ʇouuɐƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.copy",
+        "source_string": "Copy to Clipboard",
+        "translation": "pɹɐoqdᴉꞁƆ oʇ ʎdoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.link.confirm",
+        "source_string": "Are you sure you want to open the following website?",
+        "translation": "¿ǝʇᴉsqǝʍ ᵷuᴉʍoꞁꞁoɟ ǝɥʇ uǝdo oʇ ʇuɐʍ noʎ ǝɹns noʎ ǝɹⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.link.confirmTrusted",
+        "source_string": "Do you want to open this link or copy it to your clipboard?",
+        "translation": "¿pɹɐoqdᴉꞁɔ ɹnoʎ oʇ ʇᴉ ʎdoɔ ɹo ʞuᴉꞁ sᴉɥʇ uǝdo oʇ ʇuɐʍ noʎ oᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.link.open",
+        "source_string": "Open in browser",
+        "translation": "ɹǝsʍoɹq uᴉ uǝdO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.link.warning",
+        "source_string": "Never open links from people that you don't trust!",
+        "translation": "¡ʇsnɹʇ ʇ,uop noʎ ʇɐɥʇ ǝꞁdoǝd ɯoɹɟ sʞuᴉꞁ uǝdo ɹǝʌǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.mentions.autocomplete.allPlayers",
+        "source_string": "mention all players",
+        "translation": "sɹǝʎɐꞁd ꞁꞁɐ uoᴉʇuǝɯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.mute",
+        "source_string": "Mute Chat",
+        "translation": "ʇɐɥƆ ǝʇnW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.realmsFilterDisabled",
+        "source_string": "This Realm has chat filtering turned off.",
+        "translation": "˙ɟɟo pǝuɹnʇ ᵷuᴉɹǝʇꞁᴉɟ ʇɐɥɔ sɐɥ ɯꞁɐǝᴚ sᴉɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings",
+        "source_string": "Chat Settings",
+        "translation": "sᵷuᴉʇʇǝS ʇɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.defaultChatColor",
+        "source_string": "Default Chat Color",
+        "translation": "ɹoꞁoƆ ʇɐɥƆ ʇꞁnɐɟǝᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.chatColor",
+        "source_string": "Chat Color",
+        "translation": "ɹoꞁoƆ ʇɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.chatFont",
+        "source_string": "Chat Font",
+        "translation": "ʇuoℲ ʇɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.color",
+        "source_string": "Color",
+        "translation": "ɹoꞁoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.font",
+        "source_string": "Font",
+        "translation": "ʇuoℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.fontColor",
+        "source_string": "Font Color",
+        "translation": "ɹoꞁoƆ ʇuoℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.fontSize",
+        "source_string": "Size: %s",
+        "translation": "%s :ǝzᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.fontSize.disabled",
+        "source_string": "Size: Available with %s",
+        "translation": "%s ɥʇᴉʍ ǝꞁqɐꞁᴉɐʌⱯ :ǝzᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.lineSpacing",
+        "source_string": "Line Spacing",
+        "translation": "ᵷuᴉɔɐdS ǝuᴉꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.lineSpacingNumber",
+        "source_string": "x%s",
+        "translation": "%sx",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.mentions",
+        "source_string": "My Mentions",
+        "translation": "suoᴉʇuǝW ʎW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.mentionsColor",
+        "source_string": "My Mentions Color",
+        "translation": "ɹoꞁoƆ suoᴉʇuǝW ʎW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.muteAll",
+        "source_string": "Mute All Chat",
+        "translation": "ʇɐɥƆ ꞁꞁⱯ ǝʇnW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.muteEmotes",
+        "source_string": "Mute Emote Chat",
+        "translation": "ʇɐɥƆ ǝʇoɯƎ ǝʇnW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.unmuteAll",
+        "source_string": "Unmute All Chat",
+        "translation": "ʇɐɥƆ ꞁꞁⱯ ǝʇnɯu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "chat.settings.tts",
         "source_string": "Text To Speech For Chat",
         "translation": "Text To Speech For Chat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.stream.emote",
+        "source_string": "(%s) * %s %s",
+        "translation": "%s %s * (%s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.stream.text",
+        "source_string": "(%s) <%s> %s",
+        "translation": "%s <%s> (%s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.title",
+        "source_string": "Chat",
+        "translation": "ʇɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.title.cheats",
+        "source_string": "Chat and Commands",
+        "translation": "spuɐɯɯoƆ puɐ ʇɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.achievement",
+        "source_string": "%s has just earned the achievement %s",
+        "translation": "%s ʇuǝɯǝʌǝᴉɥɔɐ ǝɥʇ pǝuɹɐǝ ʇsnɾ sɐɥ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.achievement.taken",
+        "source_string": "%s has lost the achievement %s",
+        "translation": "%s ʇuǝɯǝʌǝᴉɥɔɐ ǝɥʇ ʇsoꞁ sɐɥ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.admin",
+        "source_string": "[%s: %s]",
+        "translation": "[%s: %s]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.announcement",
+        "source_string": "[%s] %s",
+        "translation": "%s [%s]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.emote",
+        "source_string": "* %s %s",
+        "translation": "%s %s *",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commandBlock.shortName",
+        "source_string": "@",
+        "translation": "@",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2364,6 +3948,14 @@
         "source_string": "'Z' to 'A'",
         "translation": "'Z' to 'A'",
         "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "contentlog.history.copyToClipboard",
+        "source_string": "Copy to Clipboard",
+        "translation": "pɹɐoqdᴉꞁƆ oʇ ʎdoƆ",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
