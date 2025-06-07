@@ -4968,6 +4968,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.give.block.notFound",
+        "source_string": "There is no such block with name %1$d",
+        "translation": "There is no such clot with name %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.give.description",
         "source_string": "Gives an item to a player.",
         "translation": "Yeaves a thing to a player.",
@@ -5352,6 +5360,54 @@
         "max_length": null
     },
     {
+        "identifier": "commands.setblock.failed",
+        "source_string": "Unable to place block",
+        "translation": "Could not lay clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.noChange",
+        "source_string": "The block couldn't be placed",
+        "translation": "The clot couldn't be laid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.notFound",
+        "source_string": "There is no such block with ID/name %1$s",
+        "translation": "There is no such clot with IHOOD/name %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.outOfWorld",
+        "source_string": "Cannot place block outside of the world",
+        "translation": "Cannot lay clot outside of the world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.success",
+        "source_string": "Block placed",
+        "translation": "Clot laid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Lore token understanding trucked: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.tag.add.success.single",
         "source_string": "Added tag '%1$s' to %2$s",
         "translation": "Eked token '%1$s' to %2$s",
@@ -5488,6 +5544,46 @@
         "max_length": null
     },
     {
+        "identifier": "realmsInvitationScreen.unblock",
+        "source_string": "Unblock",
+        "translation": "Undit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.unblocked",
+        "source_string": "Unblocked",
+        "translation": "Unditted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.blocked",
+        "source_string": "Blocked",
+        "translation": "Ditted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.kickAndBlock",
+        "source_string": "Block",
+        "translation": "Dit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSharingScreen.blockedInviteTitle",
+        "source_string": "Player Blocked",
+        "translation": "Player Ditted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "networkWorld.userSignTextBlockedLine0",
         "source_string": "---",
         "translation": "---",
@@ -5496,9 +5592,49 @@
         "max_length": null
     },
     {
+        "identifier": "networkWorld.userSignTextBlockedLine1",
+        "source_string": "Author",
+        "translation": "Booker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "networkWorld.userSignTextBlockedLine2",
+        "source_string": "is blocked",
+        "translation": "is ditted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "networkWorld.userSignTextBlockedLine3",
         "source_string": "---",
         "translation": "---",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "networkWorld.userSignTextMutedLine2",
+        "source_string": "is blocked",
+        "translation": "is ditted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "networkWorld.userBookTextBlocked",
+        "source_string": "[Author is Blocked]",
+        "translation": "[Booker is Ditted]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "networkWorld.userBookTextMuted",
+        "source_string": "[Author is Blocked]",
+        "translation": "[Booker is Ditted]",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5888,6 +6024,14 @@
         "max_length": null
     },
     {
+        "identifier": "entity.falling_block.name",
+        "source_string": "Falling Block",
+        "translation": "Falling Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "entity.tropicalfish.name",
         "source_string": "Tropical Fish",
         "translation": "Southsea Fish",
@@ -5899,6 +6043,30 @@
         "identifier": "entity.item.name",
         "source_string": "Item",
         "translation": "Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.command_block_minecart.name",
+        "source_string": "Minecart with Command Block",
+        "translation": "Delvewain with Hest Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.moving_block.name",
+        "source_string": "Moving Block",
+        "translation": "Shrithing Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.tnt.name",
+        "source_string": "Block of TNT",
+        "translation": "Clot of Blastle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5963,6 +6131,14 @@
         "identifier": "pauseNotification.playButton",
         "source_string": "Play",
         "translation": "Play",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "generator.debug_all_block_states",
+        "source_string": "Debug Mode",
+        "translation": "Unbug Wayset",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6160,6 +6336,30 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.jigsawBlocks",
+        "source_string": "Jigsaw Blocks",
+        "translation": "Inlock Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.header.1",
+        "source_string": "How to Obtain",
+        "translation": "How to Reap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.header.2",
+        "source_string": " Settings",
+        "translation": " Settings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.mounts.text.9",
         "source_string": "Llamas are another ridable mob which can be tamed and used to transport large shipments of items. ",
         "translation": "Drylandersheep are another ridenly wight which can be tamed and brooked to send great shippings of things. ",
@@ -6208,9 +6408,49 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.placingBlocks",
+        "source_string": "Placing blocks",
+        "translation": "Laying clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks.title",
+        "source_string": "How to Play: Placing blocks",
+        "translation": "How to Play: Laying clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.ranching.text.5",
         "source_string": "Animals will follow you when you hold their desired food item. This will help you lead them to your ranch or another animal.",
         "translation": "Deer will follow you when you hold her listed food thing. This will help you lead hem to your feeland or another deer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks",
+        "source_string": "Structure Blocks",
+        "translation": "Framework Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.1",
+        "source_string": "How to Obtain",
+        "translation": "How to Reap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.2",
+        "source_string": " Modes",
+        "translation": " Waysets",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14128,6 +14368,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.record_blocks.desc",
+        "source_string": "C418 - blocks",
+        "translation": "C418 - blocks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.skull.player.name",
         "source_string": "%s's Head",
         "translation": "%s's Head",
@@ -14392,9 +14640,25 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.coral",
+        "source_string": "Coral Blocks",
+        "translation": "Blossomdeer Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.bundles",
         "source_string": "Bundles",
         "translation": "Bundles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw_block.title",
+        "source_string": "Jigsaw Block",
+        "translation": "Inlock Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14616,6 +14880,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.bamboo_block.name",
+        "source_string": "Block of Bamboo",
+        "translation": "Treereed Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_bamboo_block.name",
+        "source_string": "Block of Stripped Bamboo",
+        "translation": "Stripped Treereed Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "review.item.post.rating.submit.button",
         "source_string": "Rate this pack",
         "translation": "Deem this pack",
@@ -14632,9 +14912,33 @@
         "max_length": null
     },
     {
+        "identifier": "soundCategory.block",
+        "source_string": "Blocks",
+        "translation": "Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stat.blocksButton",
+        "source_string": "Blocks",
+        "translation": "Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "stat.deaths",
         "source_string": "Number of Deaths",
         "translation": "Rime of Deaths",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stat.mineBlock",
+        "source_string": "%1$s Mined",
+        "translation": "%1$s Delved",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14683,6 +14987,30 @@
         "identifier": "store.search.filter.offer_type.bundles",
         "source_string": "Bundles",
         "translation": "Bundles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.moss_block.name",
+        "source_string": "Moss Block",
+        "translation": "Moss Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bone_block.name",
+        "source_string": "Bone Block",
+        "translation": "Bone Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.coal_block.name",
+        "source_string": "Block of Coal",
+        "translation": "Coal Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
