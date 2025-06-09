@@ -3594,7 +3594,7 @@
     {
         "identifier": "authentication.store.popup.purchaseFailed.title",
         "source_string": "Something Went Wrong",
-        "translation": "Ceva nu a funcționat corect",
+        "translation": "Ceva nu a mers bine",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7242,7 +7242,7 @@
     {
         "identifier": "commands.generic.encryption.badkey",
         "source_string": "Bad public key given. Expected 120 byte key after PEM formatting.",
-        "translation": "Cheie publică incorectă. Este necesară o cheie de 120 octeți după formatarea PEM.",
+        "translation": "Cheie publică incorectă. Este necesară o cheie de 120 de octeți după formatarea PEM.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17306,7 +17306,7 @@
     {
         "identifier": "networkWorld.joinable_friends_label",
         "source_string": "Joinable Friends",
-        "translation": "Prieteni pe care îi poți alătura",
+        "translation": "Prieteni la care te poți alătura",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17434,7 +17434,7 @@
     {
         "identifier": "networkWorld.joinByCode",
         "source_string": "Join Realm",
-        "translation": "Intrați în Realm",
+        "translation": "Alătură-te unui Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24992,6 +24992,14 @@
         "max_length": null
     },
     {
+        "identifier": "generator.largeBiomes",
+        "source_string": "Large Biomes",
+        "translation": "Biomuri mari",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "generator.nether",
         "source_string": "Nether",
         "translation": "Nether",
@@ -25576,6 +25584,14 @@
         "max_length": null
     },
     {
+        "identifier": "gui.resourcepacks",
+        "source_string": "Resource Packs...",
+        "translation": "Pachete de resurse...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gui.submit",
         "source_string": "Submit",
         "translation": "Trimitere",
@@ -25603,6 +25619,14 @@
         "identifier": "gui.submitFeedback.text",
         "source_string": "Send Feedback to the Creator",
         "translation": "Trimite feedback creatorului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.submitFeedback.body.text",
+        "source_string": "Write down any feedback and send it directly to the creator. Your message will not be posted to the Marketplace and the creator will not be able to respond.",
+        "translation": "Notați orice feedback și trimiteți-l direct creatorului. Mesajul dvs. nu va fi postat pe Piață și creatorul nu va putea răspunde.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25640,6 +25664,422 @@
         "max_length": null
     },
     {
+        "identifier": "gui.submitFeedback.failure.status.other",
+        "source_string": "Cannot submit your review at this time, please try again later. (Error Code: %d)",
+        "translation": "Recenzia dvs. nu poate fi trimisă în acest moment, vă rugăm să încercați din nou mai târziu. (Cod eroare: %d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.togglable_slot",
+        "source_string": "Press to disable slot",
+        "translation": "Apasă pentru a dezactiva slotul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.playOffline",
+        "source_string": "Play Offline",
+        "translation": "Joacă offline",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.signIn",
+        "source_string": "Sign In",
+        "translation": "Autentificare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.genericNetworkError",
+        "source_string": "Something went wrong. Try checking your internet connection.",
+        "translation": "Ceva nu a mers bine. Încearcă să verifici conexiunea la internet.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.hide",
+        "source_string": "Hide",
+        "translation": "Ascunde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.editor.minecraftProject",
+        "source_string": "Minecraft Project",
+        "translation": "Proiect Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.editor.minecraftTestWorld",
+        "source_string": "Minecraft Editor Test World",
+        "translation": "Lume test Editor Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.editor.exportProject",
+        "source_string": "Export Project",
+        "translation": "Exportă proiectul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.editor.copyProject",
+        "source_string": "Copy Project",
+        "translation": "Copiază proiectul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.editor.copyProject.failedMessage",
+        "source_string": "We could not create a copy of this project. This may be caused by a lack of storage space or another issue. See https://aka.ms/MCStorage for more information. ",
+        "translation": "Nu am putut crea o copie a acestui proiect. Acest lucru poate fi cauzat de lipsa spațiului de stocare sau de o altă problemă. Vezi https://aka.ms/MCStorage pentru mai multe informații. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.edu.exitGameWarningCaption",
+        "source_string": "Minecraft Education",
+        "translation": "Minecraft Education",
+        "context": "Use Minecraft 教育版 in zh_CN translation",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.edu.exitGameWarningMessage",
+        "source_string": "Exit Minecraft Education?",
+        "translation": "Ieși din Minecraft Education?",
+        "context": "Use 离开 Minecraft 教育版? in zh_CN translation",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.edu.exitGameWarningCaptionPreview",
+        "source_string": "Minecraft Education Preview",
+        "translation": "Previzualizare Minecraft Education",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.edu.exitGameWarningMessagePreview",
+        "source_string": "Exit Minecraft Education Preview?",
+        "translation": "Ieși din previzualizare Minecraft Education?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.update",
+        "source_string": "Update",
+        "translation": "Actualizare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.updateRequired",
+        "source_string": "Update Required",
+        "translation": "Actualizare necesară",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.title",
+        "source_string": "Version Out of Date",
+        "translation": "Versiune expirată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.body",
+        "source_string": "Update to the latest version to access all the new features, play with friends online, or see what's new in the Marketplace.",
+        "translation": "Actualizează la cea mai recentă versiune pentru a accesa toate caracteristicile noi, a te juca împreună cu prietenii online sau a vedea ce este nou în Piață.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.commerceNotSupported.title",
+        "source_string": "Can't Access Marketplace",
+        "translation": "Nu se poate accesa Piața",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.commerceNotSupported.body",
+        "source_string": "This version of Minecraft can no longer access Minecraft Marketplace. Update to the latest version to restore Marketplace access.",
+        "translation": "Această versiune de Minecraft nu mai poate accesa Piața Minecraft. Actualizați la ultima versiune pentru a restaura accesul la Piață.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.packs.updateRequired",
+        "source_string": "Please update to the latest version to download your pack purchased in Minecraft Marketplace.",
+        "translation": "Vă rugăm să actualizați la ultima versiune pentru a descărca pachetul achiziționat din Piață Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.patchVersion",
+        "source_string": "Version %s Patch Notes:",
+        "translation": "Versiune %s Note actualizare:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.codeBuilder",
+        "source_string": "Code Builder",
+        "translation": "Constructor de cod",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.setWorldSpawn",
+        "source_string": "Set World Spawn",
+        "translation": "Setare punct de generare al lumii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.teleport",
+        "source_string": "Teleport",
+        "translation": "Teleportare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.teleport.who",
+        "source_string": "Who",
+        "translation": "Cine",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.teleport.where",
+        "source_string": "Where",
+        "translation": "Unde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time",
+        "source_string": "Time",
+        "translation": "Timp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time.day",
+        "source_string": "Day",
+        "translation": "Zi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time.midnight",
+        "source_string": "Midnight",
+        "translation": "Miezul nopții",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time.noon",
+        "source_string": "Noon",
+        "translation": "Amiază",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time.night",
+        "source_string": "Night",
+        "translation": "Noapte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time.sunrise",
+        "source_string": "Sunrise",
+        "translation": "Răsăritul Soarelui",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time.sunset",
+        "source_string": "Sunset",
+        "translation": "Apusul Soarelui",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.weather",
+        "source_string": "Weather",
+        "translation": "Vreme",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.weather.clear",
+        "source_string": "Clear",
+        "translation": "Curată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.weather.rain",
+        "source_string": "Rain",
+        "translation": "Ploaie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.weather.thunderstorm",
+        "source_string": "Thunderstorm",
+        "translation": "Furtună",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.next",
+        "source_string": "Next",
+        "translation": "Următorul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.previous",
+        "source_string": "Previous",
+        "translation": "Anteriorul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.education",
+        "source_string": "Education",
+        "translation": "Educație",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.gettingSettled",
+        "source_string": "Getting settled",
+        "translation": "Așezarea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.gettingStarted",
+        "source_string": "Getting started",
+        "translation": "Noțiuni de bază",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.overworld",
+        "source_string": "Overworld A-Z",
+        "translation": "Suprafață A-Z",
+        "context": "Meaning: Everything Overworld in alphabetical order",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.preparingForTheNight",
+        "source_string": "Preparing for the night",
+        "translation": "Pregătirea pentru noapte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.realms",
+        "source_string": "Realms",
+        "translation": "Realms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.redstoneEngineering",
+        "source_string": "Redstone Engineering",
+        "translation": "Inginerie Redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.standsAndTables",
+        "source_string": "Stands & Tables",
+        "translation": "Fire și tabele",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.survivingTheFirstNight",
+        "source_string": "Surviving the first Night",
+        "translation": "Supravieţuirea primei nopţi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.theEndDimension",
+        "source_string": "The End Dimension",
+        "translation": "Dimensiunea End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.category.optionsAndCheats",
+        "source_string": "Options & Cheats",
+        "translation": "Opțiuni & Comenzi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.category.marketplace",
         "source_string": "Marketplace",
         "translation": "Piață",
@@ -25651,6 +26091,62 @@
         "identifier": "howtoplay.adventureMode",
         "source_string": "Adventure Mode",
         "translation": "Modul Aventură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.adventureMode.text.1",
+        "source_string": "Adventure Mode is a gamemode for world builders. In Adventure Mode, players must use special tools to place or break blocks.",
+        "translation": "Modul Aventură este un mod de joc pentru constructorii de lumi. În Modul Aventură, jucătorii trebuie să folosească unelte speciale pentru a plasa sau sparge blocuri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.adventureMode.text.2",
+        "source_string": "To get these special tools, you must use §e/give§f with §ecanplace§f or §ecandestroy§f parameters while in creative mode.",
+        "translation": "Pentru a obține aceste unelte speciale, trebuie să folosești §e/give§f cu parametrii §ecanplace§f sau §ecandestroy§f cât timp ești în mod creativ.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil",
+        "source_string": "Anvil",
+        "translation": "Nicovala",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.text.1",
+        "source_string": "Experience Levels can be used to repair, enchant, or rename items with the Anvil.",
+        "translation": "Nivelele de experiență pot fi folosite pentru a repara, fermeca sau redenumi obiecte cu nicovala.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.header.1",
+        "source_string": "Renaming and Applying Enchantments",
+        "translation": "Redenumirea și aplicarea farmecelor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.text.2",
+        "source_string": "All items can be renamed, although only items with durability can be repaired or enchanted with Books on the Anvil.",
+        "translation": "Toate obiectele pot fi redenumite, deși numai articolele cu durabilitate pot fi reparate sau fermecate cu cărți pe nicovală.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.header.2",
+        "source_string": "Repairing",
+        "translation": "Repararea",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
