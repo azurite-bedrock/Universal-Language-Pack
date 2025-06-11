@@ -2106,7 +2106,7 @@
     {
         "identifier": "achievement.fullBeacon.desc",
         "source_string": "Create a full beacon",
-        "translation": "Crează un far complet",
+        "translation": "Creează un far complet",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11810,7 +11810,7 @@
     {
         "identifier": "commands.weather.thunder",
         "source_string": "Changing to rain and thunder",
-        "translation": "Schimbare la ploaie și tunete",
+        "translation": "Se schimbă la ploaie și tunete",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26320,6 +26320,590 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.armor.text.5b.touch",
+        "source_string": "When using the \"D-Pad & tap to interact\" control scheme, tap :touch_sneak: to toggle blocking with the shield.",
+        "translation": "Când folosiți schema de control „D-Pad și apăsați pentru a interacționa”, apăsați pe :touch_sneak: pentru a comuta blocarea cu scutul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5c.touch",
+        "source_string": "When using a \"Joystick\" control scheme, tap :tip_virtual_button_sneak: to toggle blocking with the shield.",
+        "translation": "Când folosiți schema de control „Joystick”, apăsați pe :tip_virtual_button_sneak: pentru a comuta blocarea cu scutul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5.rift_controller",
+        "source_string": "The Shield will block incoming damage. The Shield can be equipped in the offhand slot as well as the hotbar. Press :_input_key.sneak: or click :rift_X: to toggle block with the Shield.",
+        "translation": "Scutul va bloca daunele primite. Scutul poate fi echipat în slotul secundar precum și în bara de acțiune. Apăsați :_input_key.sneak: sau faceți clic pe :rift_X: pentru a bloca folosind scutul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5.windowsmr_controller",
+        "source_string": "The Shield will block incoming damage. The Shield can be equipped in the offhand slot as well as the hotbar. Press :_input_key.sneak: or click :windowsmr_right_stick: to toggle block with the Shield.",
+        "translation": "Scutul va bloca daunele primite. Scutul poate fi echipat în slotul secundar precum și în bara de acțiune. Apăsați :_input_key.sneak: sau faceți clic pe :windowsmr_right_stick: pentru a bloca folosind scutul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.6",
+        "source_string": "The Shield can even block a Creeper explosion!",
+        "translation": "Scutul poate bloca chiar și explozia unui Creeper!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.header.3",
+        "source_string": "Disguise",
+        "translation": "Deghizează-te",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.7",
+        "source_string": "You can also wear a Carved Pumpkin on your head. This won't give you any :armor: but will make it so Endermen won't get mad when you look at them.",
+        "translation": "Poți purta un dovleac sculptat pe capul tău. Acesta nu are deloc :armor:, dar nu îi vei mai deranja pe Endermen când te uiți la ei.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand",
+        "source_string": "Armor Stand",
+        "translation": "Suportul de armură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.1",
+        "source_string": "An Armor Stand holds your armor while you aren't using it.",
+        "translation": "Un suport de armură îți ține armura când nu o folosești.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.header.1",
+        "source_string": "Outfitting",
+        "translation": "Echiparea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.2.notTouch",
+        "source_string": "Press :_input_key.use: on an Armor Stand while holding a piece of armor to place it on the Armor Stand.",
+        "translation": "Apasă :_input_key.use: pe un suport de armură în timp ce ții o bucată de armură pentru a o plasa pe el.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.2.touch",
+        "source_string": "Tap an Armor Stand while holding a piece of armor to place it on the Armor Stand.",
+        "translation": "Apasă pe un suport de armură în timp ce ții o bucată de armură pentru a o plasa pe el.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.3.notTouch",
+        "source_string": "Press :_input_key.use: on an Armor Stand with an open hand to remove something from the Armor Stand.",
+        "translation": "Apasă :_input_key.use: pe un suport de armură cu mâna goală pentru a scoate ceva de pe el.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.3.touch",
+        "source_string": "Tap an Armor Stand with an open hand to remove something from the Armor Stand.",
+        "translation": "Apasă pe un suport de armură cu mâna goală pentru a scoate ceva de pe el.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.header.2",
+        "source_string": "Posing",
+        "translation": "Poziționarea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.4.notTouch",
+        "source_string": "An Armor Stand can change its pose, sneak and press :_input_key.use: on an Armor Stand to change the pose.",
+        "translation": "Un suport de armură își poate schimba poziția, furișează-te și apasă :_input_key.use: pe un suport de armură pentru a-i schimba poziția.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.4.touch",
+        "source_string": "An Armor Stand can change its pose, sneak and tap an Armor Stand to change the pose.",
+        "translation": "Un suport de armură își poate schimba poziția, furișează-te și apasă pe un suport de armură pentru a-i schimba poziția.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.header.3",
+        "source_string": "Dancing",
+        "translation": "Dansul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.5",
+        "source_string": "Armor Stands will react to a Redstone signal, try giving it different signal strengths and see what happens.",
+        "translation": "Suporturile de armură vor reacționa la un semnal Redstone, încearcă să îi dai diferite puteri de semnal și vezi ce se întâmplă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners",
+        "source_string": "Banners",
+        "translation": "Stindardele",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.1",
+        "source_string": "Banners are a cool way to decorate your house or castle with custom patterns and colors.",
+        "translation": "Stindardele sunt un mod grozav de a-ți decora casa sau castelul cu modele și culori personalizate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.2",
+        "source_string": "After crafting a Banner, you can put it on a Crafting Table or Loom and add different dyes to create your own unique, cool design!",
+        "translation": "După fabricarea unui stindard, îl poți pune pe o masă de lucru sau pe un război de țesut și poți adăuga diferite vopsele pentru a-ți crea propriul design unic și interesant!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.header.1",
+        "source_string": "Applying a Pattern",
+        "translation": "Aplicarea unui model",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.3",
+        "source_string": "There are many different patterns that you can create with your dye such as:",
+        "translation": "Există multe modele diferite pe care le poți crea cu vopselele tale precum:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.4",
+        "source_string": "  - Making a triangle will give you a chevron pattern.",
+        "translation": "  - Crearea unui triunghi îți va da un model triunghi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.5",
+        "source_string": "  - Making a cross gives you a cross pattern.",
+        "translation": "  - Crearea unei cruci îți va da un model cruce.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.6",
+        "source_string": "  - Use an Oxeye Daisy to craft a flower pattern.",
+        "translation": "  - Folosește o margaretă pentru a crea un model cu flori.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.7",
+        "source_string": "Experiment with different combinations to get even more patterns!",
+        "translation": "Experimentează cu diferite combinații pentru a obține și mai multe modele!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.header.2",
+        "source_string": "Multiple Layers",
+        "translation": "Straturi multiple",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.8",
+        "source_string": "A Banner can also have multiple layers, allowing you to have more than one pattern on your Banner. If you don't like the last pattern you put on a Banner, you can wash the last layer off in a Cauldron.",
+        "translation": "Un stindard poate avea de asemenea mai multe straturi, permițându-ți să ai mai mult de un model pe stindardul tău. Dacă nu vă place ultimul model pe care îl puneți pe un stindard, puteți spăla ultimul strat într-un cazan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.header.3",
+        "source_string": "Making Copies",
+        "translation": "Crearea de copii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.9",
+        "source_string": "If you want to copy a Banner, put it on the Crafting Table with a blank Banner.",
+        "translation": "Dacă vrei să copiezi un stindard, pune-l pe masa de lucru cu un stindard gol.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons",
+        "source_string": "Beacons",
+        "translation": "Farurile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.1",
+        "source_string": "Active Beacons project a bright beam of light into the sky.",
+        "translation": "Farurile active proiectează o rază puternică de lumină spre cer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.2",
+        "source_string": "They are crafted with Glass, Obsidian, and Nether Stars (which is obtained by defeating the Wither).",
+        "translation": "Acestea sunt fabricate din sticlă, obsidian și stele de Nether (care sunt obținute prin înfrângerea Witherului).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.header.1",
+        "source_string": "Construction",
+        "translation": "Construcția",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.3",
+        "source_string": "Beacons need to be on top of a Pyramid of Iron, Gold, Emerald, Diamond, or Netherite blocks with an unobstructed view of the sky.",
+        "translation": "Un far trebuie să fie vârful unei piramide din bloc de fier, aur, smarald, diamant sau netherit cu o vedere neobstrucționată a cerului.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.4",
+        "source_string": "The material that the Beacon is placed on has no effect on the power of the Beacon.",
+        "translation": "Materialul pe care este amplasat farul nu are niciun efect asupra puterii lui.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.header.2",
+        "source_string": "Use",
+        "translation": "Utilizări",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.5",
+        "source_string": "In the Beacon menu you can select one primary power for your Beacon. The more tiers your pyramid has the more powers you can have.",
+        "translation": "În meniul farului poți selecta o putere primară pentru far. Numărul de puteri pe care le poți avea crește odată cu nivelul piramidei.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.6",
+        "source_string": "To set the powers of your Beacon you must use a Netherite Ingot, Emerald, Diamond, Gold Ingot, or Iron Ingot in the payment slot.",
+        "translation": "Pentru a seta puterea farului tău, trebuie să folosești un lingou de netherit, un smarald, un diamant, un lingou de aur sau un lingou de fier în slotul de plată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.7",
+        "source_string": "Once set, the powers will emanate from the Beacon indefinitely. Powers are granted to all nearby players.",
+        "translation": "Odată stabilite, puterile vor fi emise din far pe termen nelimitat. Puterile sunt acordate tuturor jucătorilor din apropiere.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beacons.text.8",
+        "source_string": "To change the color of the beam, place a stained glass block in its path.",
+        "translation": "Pentru a schimba culoarea razei, plasează un bloc de sticlă colorată în calea sa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds",
+        "source_string": "Beds",
+        "translation": "Paturile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.1",
+        "source_string": "Sleeping in a Bed passes the night and sets your spawn point.",
+        "translation": "Dormitul într-un pat trece noaptea și îți setează punctul de reînviere.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.2.notTouch",
+        "source_string": "Press :_input_key.use: on a Bed to go to sleep. This can only be done at night.",
+        "translation": "Apasă :_input_key.use: pe un pat pentru a te culca. Acest lucru poate fi făcut numai noaptea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.2.touch",
+        "source_string": "Tap a Bed to go to sleep. This can only be done at night.",
+        "translation": "Apasă pe un pat pentru a te culca. Acest lucru poate fi făcut numai noaptea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.3",
+        "source_string": "If you are playing Multiplayer, everyone in the world must be in a Bed at the same time to pass the night.",
+        "translation": "Dacă joci Multiplayer, toată lumea trebuie să fie într-un pat în același timp pentru a trece noaptea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.4",
+        "source_string": "If your Bed is broken you will return to where you first spawned into the world.",
+        "translation": "Daca patul tău este spart, te vei întoarce unde te-ai generat prima dată în lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.beds.text.5",
+        "source_string": "Be careful when using a Bed in the Nether, it's usually too hot to sleep.",
+        "translation": "Ai grijă când folosești un pat în Nether, este de obicei prea cald pentru a dormi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew",
+        "source_string": "Beds",
+        "translation": "Paturi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.title",
+        "source_string": "How to Play: Beds",
+        "translation": "Cum să joci: Paturi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.text.1",
+        "source_string": "A soft bed lets you sleep through the night. You'll need wool to craft one, as well as a safe spot to place it.",
+        "translation": "Un pat moale îți permite să dormi noaptea. Veți avea nevoie de lână pentru a fabrica unul, precum și un loc sigur pentru a-l plasa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.text.2",
+        "source_string": "Sleeping in a bed will also set your §espawn point§f, meaning that if you die, you'll reappear right back home!",
+        "translation": "Dormitul într-un pat îți va seta de asemenea §punctul de reînviere§f, însemnând că dacă mori, vei reînvia acasă!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.text.3",
+        "source_string": "You can only fall asleep when it's cozy, like when it's nighttime or during a thunderstorm.",
+        "translation": "Poți adormi doar când este frumos, ca atunci când este noapte sau în timpul unei furtuni.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks",
+        "source_string": "Blocks",
+        "translation": "Blocurile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.1",
+        "source_string": "The world of Minecraft is made from millions of blocks. Each one is breakable, collectable, and placeable. There are almost no limits to what you can build!",
+        "translation": "Lumea Minecraft este făcută din milioane de blocuri. Fiecare poate fi spart, colectat și amplasat. Nu există aproape nicio limită pentru ceea ce poți construi!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.2",
+        "source_string": "Most blocks you will have to find in the world, but some can only be crafted such as combining other blocks on a crafting table like a Redstone Block or smelted in a furnace like Glass.",
+        "translation": "Va trebui să găsești în lume majoritatea blocurilor, dar unele trebuie fabricate, cum ar fi combinarea altor blocuri pe o masă de lucru precum un bloc de Redstone, sau topite într-un cuptor precum sticla.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.header.1",
+        "source_string": "Falling Blocks",
+        "translation": "Blocuri în cădere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.3",
+        "source_string": "Most blocks are not affected by gravity and can float in mid air, but some like Sand and Gravel, will fall if there is no block underneath them.",
+        "translation": "Majoritatea blocurilor nu sunt afectate de gravitație și pot pluti în aer, dar unele ca nisipul și pietrișul vor cădea dacă nu există nici un bloc sub ele.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.header.2",
+        "source_string": "Interesting Blocks",
+        "translation": "Blocuri interesante",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.4",
+        "source_string": "Here are some examples of the more interesting blocks in Minecraft:",
+        "translation": "Aici sunt câteva exemple cu cele mai interesante blocuri în Minecraft:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.5",
+        "source_string": "§eGlass§f - This is a transparent block that is made by smelting Sand in a Furnace.",
+        "translation": "§eSticla§f - Acesta este un bloc transparent, care se face prin topirea nisipului într-un cuptor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.6",
+        "source_string": "§eConcrete§f - This is made by dropping a Concrete Powder block into water.",
+        "translation": "§eBetonul§f - Acesta este făcut prin plasarea unui bloc de pulbere de beton in apă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.7",
+        "source_string": "§eTerracotta§f - This is found naturally in Badlands biomes or can be crafted and dyed from Clay that is found underwater. Terracotta can be made into Glazed Terracotta by smelting it in a Furnace.",
+        "translation": "§eTeracota§f - Aceasta este găsită în mod natural in biom-urile de badlands sau poate fi făcută și vopsită din lut, care se găsește sub apă. Teracota poate fi transformată în „Teracotă smălțuită” într-un cuptor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.8",
+        "source_string": "§eMagma Block§f - This is found naturally in the Nether, it gives off a little light and will burn whoever steps on it.",
+        "translation": "§eBlocul de magmă§f - Acesta este găsit în mod natural în Nether, oferă puțină lumină și arde pe oricine calcă pe el.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.9",
+        "source_string": "§eCoarse Dirt§f - This is almost like a normal Dirt block but Grass can't grow on it. It can be found in Windswept Savanna and Old Growth Taiga biomes.",
+        "translation": "§ePământul pietros§f - Este aproape ca un bloc normal de pământ dar iarba nu poate crește pe el. Se găsește în biom-urile de savană bătută de vânt și pădure veche taiga.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bookAndQuill",
+        "source_string": "Book and Quill",
+        "translation": "Cartea și condeiul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bookAndQuill.text.1",
+        "source_string": "The Book and Quill lets you record your adventures. Tell your story by entering text into the pages. You can even change the title and the author! Sign the Book and Quill to finalize your work. The Book and Quill will be editable until it is signed. ",
+        "translation": "Cartea și condeiul îți permit să înregistrezi aventurile tale. Spune-ți povestea scriind text în pagini. Poți chiar să schimbi titlul și autorul! Semnează cartea și condeiul pentru a-ți finaliza munca. Cartea și condeiul pot fi editate până când sunt semnate. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand",
+        "source_string": "Brewing Stand",
+        "translation": "Alambicul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.text.1",
+        "source_string": "Brewing potions requires a Brewing Stand. Every potion starts off with a bottle of water, which is made by filling a Glass Bottle with water from a Cauldron or water source.",
+        "translation": "Fabricarea poțiunilor necesită un alambic. Fiecare poțiune începe cu o sticluță de apă, care este făcută prin umplerea unui sticluțe goale cu apă de la un cazan sau sursă de apă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.header.1",
+        "source_string": "Know your Brewing Stand",
+        "translation": "Cunoaște-ți alambicul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.brewingStand.text.2",
+        "source_string": "A Brewing Stand has three slots for creating different potions. One ingredient can be used over all three bottles, so always brew three potions at the same time to best use your resources.",
+        "translation": "Un alambic are trei locuri pentru a crea poțiuni diferite. Un ingredient poate fi folosit pe toate cele trei sticluțe, astfel încât întotdeauna să facă trei poțiuni în același timp pentru a utiliza cât mai bine resursele.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.chemistry.text.1",
         "source_string": "Students can simulate real world chemistry by using the Chemistry Equipment blocks. Build any of the 118 different elements by adjusting the sliders in the Element Constructor or view the composition of elements by placing them in the Element Constructor. Combine elements in the Compound Creator to produce chemical compounds. Put elements and compounds into the Lab Table to create Minecraft items. Reduce blocks to their component elements with the Material Reducer.",
         "translation": "Elevii pot simula chimia din lumea reală folosind blocurile Echipamentului Chimic. Construiți cu oricare dintre cele 118 elemente diferite prin ajustarea glisoarelor din Constructorul de elemente sau vedeți compoziția elementelor plasându-le în constructorul de elemente. Combinați elementele din creatorul de compuși pentru a produce compuși chimici. Pune elemente și compuși în tabelul de laborator pentru a crea elemente Minecraft. Reduce blocurile la elementele lor componente cu Reducătorul de material.",
@@ -26331,6 +26915,366 @@
         "identifier": "howtoplay.npc",
         "source_string": "Non-Player Characters",
         "translation": "Caractere non-jucător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "immersive_reader.book_page_header",
+        "source_string": "Page %1 of %2",
+        "translation": "Pagina %1 din %2",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "immersive_reader.portfolio_page_header",
+        "source_string": " Page %1",
+        "translation": " Pagina %1",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.launch.failed",
+        "source_string": "Launch failed",
+        "translation": "Lansarea a eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.export.started",
+        "source_string": "World export started...",
+        "translation": "Exportarea lumii a început...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.import.started",
+        "source_string": "World import started...",
+        "translation": "Importarea lumii a început...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.export.success",
+        "source_string": "World export finished successfully",
+        "translation": "Exportul lumii s-a terminat cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.import.success",
+        "source_string": "World import finished successfully",
+        "translation": "Importul lumii s-a terminat cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.export.failed",
+        "source_string": "World export failed",
+        "translation": "Exportarea lumii a eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.import.failed",
+        "source_string": "World import failed",
+        "translation": "Importarea lumii a eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.import.failed.incompatibleEdition",
+        "source_string": "World import failed: Unsupported file format",
+        "translation": "Importarea lumii a eșuat: Format fișier neacceptat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.editor.export.started",
+        "source_string": "Project export started...",
+        "translation": "Exportarea proiectului a început...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.editor.import.started",
+        "source_string": "Project import started...",
+        "translation": "Importarea proiectului a început...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.editor.export.success",
+        "source_string": "Project export finished successfully",
+        "translation": "Exportul proiectului s-a terminat cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.editor.import.success",
+        "source_string": "Project import finished successfully",
+        "translation": "Importul proiectului s-a terminat cu succes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.editor.export.failed",
+        "source_string": "Project export failed",
+        "translation": "Exportarea proiectului a eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.editor.import.failed",
+        "source_string": "Project import failed",
+        "translation": "Importarea proiectului a eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "level.editor.import.failed.incompatibleEdition",
+        "source_string": "Project import failed: Unsupported file format",
+        "translation": "Importarea proiectului a eșuat: Format fișier neacceptat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "inbox.realmInvite.title",
+        "source_string": "Realm invite to %s",
+        "translation": "Invitație la Realm-ul %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "inbox.gameInvite.title",
+        "source_string": "Game Invite from %s",
+        "translation": "Invitație la joc de la %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.clear",
+        "source_string": "Clear Selection",
+        "translation": "Șterge selecția",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.send",
+        "source_string": "Send %d Invites",
+        "translation": "Trimite %d invitații",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.sendOne",
+        "source_string": "Send 1 Invite",
+        "translation": "Trimite 1 invitație",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.sendUnnumbered",
+        "source_string": "Send Invites",
+        "translation": "Trimite invitațiile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.title",
+        "source_string": "Invite Friends to your Game",
+        "translation": "Invită prieteni la jocul tău",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.titleRealms",
+        "source_string": "Invite Members to your Realm Server",
+        "translation": "Invită membri pe serverul tău Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.error.message",
+        "source_string": "Some of your invites may have failed to send.",
+        "translation": "Este posibil ca unele invitații să nu se fi putut trimite.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.noFriends",
+        "source_string": "You haven't added anyone to your friend's list!",
+        "translation": "Nu ai adăugat pe nimeni la lista prietenilor tăi!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.noRealmFriends",
+        "source_string": "You haven't added anyone to your Realm!",
+        "translation": "Nu ai adăugat pe nimeni la Realm-ul tău!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.OnlineFriends",
+        "source_string": "Online Friends",
+        "translation": "Prieteni online",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.OfflineFriends",
+        "source_string": "Offline Friends",
+        "translation": "Prieteni offline",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.SuggestedFriends",
+        "source_string": "Suggested Friends",
+        "translation": "Prieteni sugerați",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.error1",
+        "source_string": "Something went wrong. We couldn't load your friends list.",
+        "translation": "Ceva nu a mers bine. Nu ți-am putut încărca lista de prieteni.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.error2",
+        "source_string": "Something went wrong. We couldn't load some of your friends details.",
+        "translation": "Ceva nu a mers bine. Nu am putut încărca unele din detaliile prietenilor tăi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.realm.add_member",
+        "source_string": "Add Realm Members",
+        "translation": "Adaugă membri Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.notification.title",
+        "source_string": "Game Invite",
+        "translation": "Invitație la joc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.notification.acceptInviteTtsTouch",
+        "source_string": "Double tap the invite at the top of the screen to accept",
+        "translation": "Apasă de două ori invitația din partea de sus a ecranului pentru a accepta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.notification.acceptInviteTtsGamepad",
+        "source_string": "Press %s to accept",
+        "translation": "Apasă %s pentru a accepta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.notification.description",
+        "source_string": "%s has invited you to play Minecraft",
+        "translation": "%s te-a invitat să joci Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.confirmation.description",
+        "source_string": "%s has invited you to play Minecraft",
+        "translation": "%s te-a invitat să joci Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.pageCounter",
+        "source_string": "%d/%d",
+        "translation": "%d/%d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "inventory.binSlot",
+        "source_string": "Destroy Item",
+        "translation": "Distruge obiectul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.air.name",
+        "source_string": "Air",
+        "translation": "Aer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.apple.name",
+        "source_string": "Apple",
+        "translation": "Măr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlAdultBodySingle.name",
+        "source_string": "Adult %1$s Axolotl",
+        "translation": "Axolot %1$s adult",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.axolotlBabyBodySingle.name",
+        "source_string": "Baby %1$s Axolotl",
+        "translation": "Axolot %1$s copil",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26544,9 +27488,73 @@
         "max_length": null
     },
     {
+        "identifier": "stat.beaconInteraction",
+        "source_string": "Interactions with Beacon",
+        "translation": "Interacțiuni cu farul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.beacon.name",
+        "source_string": "Beacon",
+        "translation": "Far",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.beacon.primary",
+        "source_string": "Primary Power",
+        "translation": "Putere primară",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.beacon.secondary",
+        "source_string": "Secondary Power",
+        "translation": "Putere secundară",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.beacon.primary.pocket",
+        "source_string": "Primary",
+        "translation": "Primar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.beacon.secondary.pocket",
+        "source_string": "Secondary",
+        "translation": "Secundar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.url",
+        "source_string": "https://microsoft.com/link",
+        "translation": "https://microsoft.com/link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tips.edu.27",
         "source_string": "Game moving slowly? Try turning down the render distance in Settings.",
         "translation": "Jocul se mișcă încet? Încearcă să micșorezi distanța de randare din Setări.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "lategameTips.20",
+        "source_string": "The Beacon is a powerful item that can only be crafted with a Nether star from the Wither!",
+        "translation": "Farul este un obiect puternic care poate fi creat doar cu o stea de Nether de la Wither!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
