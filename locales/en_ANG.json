@@ -4880,6 +4880,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.compare.success",
+        "source_string": "%1$d blocks compared",
+        "translation": "%1$d clots bemeted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.difficulty.usage",
         "source_string": "/difficulty <new difficulty>",
         "translation": "/difficulty <new difficulty>",
@@ -6088,9 +6096,49 @@
         "max_length": null
     },
     {
+        "identifier": "feed.reported_label",
+        "source_string": "Reports",
+        "translation": "Mields",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.nrreport",
+        "source_string": "%d report",
+        "translation": "%d mield",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.nrreports",
+        "source_string": "%d reports",
+        "translation": "%d mields",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "feed.deleted",
         "source_string": "Deleted item",
         "translation": "Adwashed Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.report_xbox",
+        "source_string": "Report to Xbox Enforcement",
+        "translation": "Mield to Xbox Enforcement",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.report_club",
+        "source_string": "Report to Club",
+        "translation": "Mield to Club",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15344,6 +15392,14 @@
         "max_length": null
     },
     {
+        "identifier": "stream.unavailable.report_to_mojang",
+        "source_string": "Report to Mojang",
+        "translation": "Mield to Mojang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.activator_rail.name",
         "source_string": "Activator Rail",
         "translation": "Astirrer Ironroad",
@@ -16312,6 +16368,342 @@
         "max_length": null
     },
     {
+        "identifier": "xbox.profile.report",
+        "source_string": "Report",
+        "translation": "Mield",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.gamertag",
+        "source_string": "Report %s",
+        "translation": "Mield %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.optionalText",
+        "source_string": "Enter Text Here (optional)",
+        "translation": "Input Writ Here (kirely)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.toast",
+        "source_string": "You have reported %s",
+        "translation": "You have mielded %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.toastError",
+        "source_string": "We were unable to send your report. Try again soon.",
+        "translation": "We could not send your mield. Fand ayen later.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.whereReport",
+        "source_string": "Where did you observe the bad behavior?",
+        "translation": "Where did you behold the bad behaving?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.whyReport",
+        "source_string": "Why are you reporting %s?",
+        "translation": "Why are you mielding %s?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.area.chat",
+        "source_string": "Chat message",
+        "translation": "Chat writ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "Player hide",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.area.gameplay",
+        "source_string": "Gameplay",
+        "translation": "Gameplay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.area.ingame",
+        "source_string": "In-game creations",
+        "translation": "In-game makings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.cyberbullying",
+        "source_string": "Cyberbullying",
+        "translation": "Netharrying",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.falseReporting",
+        "source_string": "Excessive false / inaccurate reports",
+        "translation": "Overboard untrue mields",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.exploits",
+        "source_string": "Exploits and 3rd party applications",
+        "translation": "Misbid loopholes and 3rd group bearings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.harassingComments",
+        "source_string": "Harassing or Defamatory comments",
+        "translation": "Harrying or Shending bemarks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.hateSpeech",
+        "source_string": "Hate speech",
+        "translation": "Hate speech",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.impersonatingStaff",
+        "source_string": "Impersonating staff, Player Support, or Community representatives",
+        "translation": "Makebelieving as staff, Player Upholding, or Fellowship spokesmen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.nameOrGamertag",
+        "source_string": "Player Name or Gamertag",
+        "translation": "Player Name or Gamertag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.galleryScreenshot",
+        "source_string": "Gallery Screenshot",
+        "translation": "Lookbook Shirmshot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.modding",
+        "source_string": "Modding",
+        "translation": "Tweaking",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.obsceneLanguage",
+        "source_string": "Obscene or Vulgar language",
+        "translation": "Smutty or Foul tongue",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.realLifeInfo",
+        "source_string": "Real Life Information and Threats",
+        "translation": "True Life Abreasting and Threats",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.sexualReference",
+        "source_string": "References to Sexual Content & Violence",
+        "translation": "Upliftings to Heamedy Inholding & Heast",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.spam",
+        "source_string": "Spamming for commercial purposes",
+        "translation": "Overchatting for chaffering grounds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.terrorismOrViolentExtremism",
+        "source_string": "Terrorism or violent extremism",
+        "translation": "Fearstriking or heast utmosting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Child sexual exploitation or abuse",
+        "translation": "Child heamedy misbidding",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.imminentHarm",
+        "source_string": "Imminent harm",
+        "translation": "Nearing harm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Non-Consensual intimate imagery",
+        "translation": "Unthaved couthred bilth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.policyViolation",
+        "source_string": "Policy Violation",
+        "translation": "Thew Ewleap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.harassment",
+        "source_string": "Harassment or Bullying",
+        "translation": "Harrying",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.profanity",
+        "source_string": "Profanity",
+        "translation": "Warrying",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.controversial",
+        "source_string": "Controversial Topic",
+        "translation": "Withermood Antimber",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.notoriousFigure",
+        "source_string": "Notorious Figure",
+        "translation": "Marked Someone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.cheating",
+        "source_string": "Cheating",
+        "translation": "Blenching",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.defamation",
+        "source_string": "Defamation, Impersonation, False Information",
+        "translation": "Shending, Misleading and Untrue Abreasting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.fraud",
+        "source_string": "Fraud",
+        "translation": "Foken",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.selfHarm",
+        "source_string": "Self-Harm or Suicide",
+        "translation": "Self-Harm or Selfmurther",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.nudity",
+        "source_string": "Nudity or Pornography",
+        "translation": "Nakedness or Smutcraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.sexuallyInappropriate",
+        "source_string": "Sexually Inappropriate",
+        "translation": "Heamedily unseemliness",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.extremeViolence",
+        "source_string": "Extreme Violence or Gore",
+        "translation": "Utmost Bloodshed or Gore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.quittingEarly",
+        "source_string": "Quitting early",
+        "translation": "Leaving early",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.unsportingBehavior",
+        "source_string": "Unsporting behavior",
+        "translation": "Unfair behaving",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "midgameTips.33",
         "source_string": "There are 3587 types of tropical fish!",
         "translation": "There are 3587 kinds of southsea fish!",
@@ -16411,6 +16803,54 @@
         "identifier": "dr.color.button_name",
         "source_string": "Color",
         "translation": "Hue",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.testLocation",
+        "source_string": "At: %s, %s, %s (relative: %s, %s, %s)",
+        "translation": "At: %s, %s, %s (kin: %s, %s, %s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.tickCount",
+        "source_string": "Tick: %s                                              ## This appears right below the gameTest.report.testLocation line",
+        "translation": "Tick: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.someTestsFailed",
+        "source_string": "%s required tests failed :(",
+        "translation": "%s needed fands trucked :(",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.allRequiredTestsPassed",
+        "source_string": "All required tests passed :)",
+        "translation": "All needed fands byfared :)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.optionalFailures",
+        "source_string": "%s optional tests failed",
+        "translation": "%s kirely fands trucked",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.bookTitle",
+        "source_string": "Game Test Report                                      ## A book with this title is placed next to each test with the test results inside",
+        "translation": "Game Fand Mield",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
