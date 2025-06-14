@@ -4840,9 +4840,49 @@
         "max_length": null
     },
     {
+        "identifier": "commands.blockdata.placeFailed",
+        "source_string": "You cannot place blocks here",
+        "translation": "You cannot lay clots here",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.blockdata.destroyFailed",
         "source_string": "You cannot dig here",
         "translation": "You cannot dig here",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.invalidState",
+        "source_string": "'%1$s' is not a valid Block State.",
+        "translation": "'%1$s' is not a right Clot Hoad.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.stateError",
+        "source_string": "Block State: '%1$s' is invalid on Block: '%2$s'.",
+        "translation": "Clot Hoad: '%1$s' is unright on Clot: '%2$s'.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.typeError",
+        "source_string": "Invalid value type for Block State: '%1$s'.",
+        "translation": "Unright worth kind for Clot Hoad: '%1$s'.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.valueError",
+        "source_string": "Invalid value for Block State: '%1$s'.",
+        "translation": "Unright worth for Clot Hoad: '%1$s'.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4875,6 +4915,30 @@
         "identifier": "commands.clear.testing",
         "source_string": "%1$s has %2$d items that match the criteria",
         "translation": "%1$s has %2$d things that match the yardstick",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.description",
+        "source_string": "Clones blocks from one region to another.",
+        "translation": "Twins clots from one erd to another.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.failed",
+        "source_string": "No blocks cloned",
+        "translation": "No clots twinned",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.success",
+        "source_string": "%1$d blocks cloned",
+        "translation": "%1$d clots twinned",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4939,6 +5003,30 @@
         "identifier": "commands.enchant.noItem",
         "source_string": "The target doesn't hold an item: %1$s",
         "translation": "The mark doesn't hold a thing: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.failed",
+        "source_string": "No blocks filled",
+        "translation": "No clots filled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.outOfWorld",
+        "source_string": "Cannot place blocks outside of the world",
+        "translation": "Cannot lay clots outside of the world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.success",
+        "source_string": "%1$d blocks filled",
+        "translation": "%1$d clots filled",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5456,6 +5544,22 @@
         "max_length": null
     },
     {
+        "identifier": "commands.testforblocks.description",
+        "source_string": "Tests whether the blocks in two regions match.",
+        "translation": "Fands whether the clots in two erds match.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.worldborder.get.success",
+        "source_string": "World border is currently %1$s blocks wide",
+        "translation": "World rim is anwardly %1$s clots wide",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.creative",
         "source_string": "Item Selection",
         "translation": "Thing Choosing",
@@ -5547,6 +5651,38 @@
         "identifier": "crafting.badCombination",
         "source_string": "No valid output for that item",
         "translation": "No right output for that thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "crafting.noRecipesInventory",
+        "source_string": "You need to collect blocks to craft!",
+        "translation": "You need to gather clots to craft!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "crafting.noRecipesWorkbench",
+        "source_string": "You need to collect blocks to craft!",
+        "translation": "You need to gather clots to craft!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.respawnblocksexplode",
+        "source_string": "Respawn Blocks Explode",
+        "translation": "Edstart Clots Blast",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.commandblocksenabled",
+        "source_string": "Command Blocks Enabled",
+        "translation": "Hest Clots On",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6160,6 +6296,22 @@
         "max_length": null
     },
     {
+        "identifier": "gameTip.breakBlock.mouse",
+        "source_string": "Hold left click to break blocks",
+        "translation": "Hold left click to break clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventoryCreative.touch",
+        "source_string": "Open inventory to see building blocks",
+        "translation": "Open inholding to see building clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "pauseNotification.title.onePlayer",
         "source_string": "%s joined your game!",
         "translation": "%s fayed your game!",
@@ -6304,6 +6456,30 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.blocks.header.1",
+        "source_string": "Falling Blocks",
+        "translation": "Falling Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.3",
+        "source_string": "Most blocks are not affected by gravity and can float in mid air, but some like Sand and Gravel, will fall if there is no block underneath them.",
+        "translation": "Most clots are not rined by heaviness and can float in mid lift, but some like Sand and Pebbles, will fall if there is no clot underneath hem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.header.2",
+        "source_string": "Interesting Blocks",
+        "translation": "Gripping Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.cauldron.text.6",
         "source_string": "If you want to wash the dye off, dip the dyed item into a Cauldron of undyed Water.",
         "translation": "If you wish to wash the dye off, dip the dyed thing into an Ironcrock of undyed Water.",
@@ -6323,6 +6499,22 @@
         "identifier": "howtoplay.chests.text.2",
         "source_string": "Items in the Chest will be stored there for you to put into your inventory later.",
         "translation": "Things in the Chest will be stowed there for you to put into your inholding later.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks",
+        "source_string": "Command Blocks",
+        "translation": "Hest Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.2",
+        "source_string": "§eChain§f - Executes the stored command when the Command Block behind it has or has not executed its command. ",
+        "translation": "§eRackent§f - Runs the stowed hest when the Hest Clot behind it has or has not run its hest. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15264,6 +15456,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.chiseled_tuff.name",
+        "source_string": "Chiseled Tuff",
+        "translation": "Graven Ashstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chiseled_tuff_bricks.name",
+        "source_string": "Chiseled Tuff Bricks",
+        "translation": "Graven Ashstone Woughstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.pink_petals.name",
         "source_string": "Pink Petals",
         "translation": "Light Red Leaves",
@@ -15560,6 +15768,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.bed.noSleep",
+        "source_string": "You can only sleep at night and during thunderstorms",
+        "translation": "You can only sleep at night and in thunderstorms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bed.notSafe",
+        "source_string": "You may not rest now, there are monsters nearby",
+        "translation": "You may not rest now, there are fiends nearby",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.bed.notValid",
         "source_string": "Your home bed was missing or obstructed",
         "translation": "Your home bed was missing or hindered",
@@ -15744,6 +15968,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.birch_fence_gate.name",
+        "source_string": "Birch Fence Gate",
+        "translation": "Birch Edder Gate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.blast_furnace.name",
         "source_string": "Blast Furnace",
         "translation": "Blast Oven",
@@ -15763,6 +15995,62 @@
         "identifier": "tile.coal_block.name",
         "source_string": "Block of Coal",
         "translation": "Coal Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.redstone_block.name",
+        "source_string": "Block of Redstone",
+        "translation": "Redstone Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bookshelf.name",
+        "source_string": "Bookshelf",
+        "translation": "Bookshelf",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.brick_block.name",
+        "source_string": "Bricks",
+        "translation": "Tiles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.brown_mushroom.name",
+        "source_string": "Brown Mushroom",
+        "translation": "Brown Toadstool",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.brown_mushroom_block.mushroom.name",
+        "source_string": "Mushroom",
+        "translation": "Toadstool",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.brown_mushroom_block.stem.name",
+        "source_string": "Mushroom Stem",
+        "translation": "Toadstool Stem",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.brown_mushroom_block.cap.name",
+        "source_string": "Brown Mushroom Block",
+        "translation": "Brown Toadstool Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15795,6 +16083,14 @@
         "identifier": "tile.jungle_button.name",
         "source_string": "Jungle Button",
         "translation": "Rainwold Knap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.respawn_anchor.respawnSet",
+        "source_string": "Respawn point set",
+        "translation": "Edstart ord set",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15843,6 +16139,46 @@
         "identifier": "tile.lodestone.name",
         "source_string": "Lodestone",
         "translation": "Lodestone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.warped_stem.name",
+        "source_string": "Warped Stem",
+        "translation": "Warped Stem",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_crimson_stem.name",
+        "source_string": "Stripped Crimson Stem",
+        "translation": "Stripped Fellred Stem",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stripped_warped_stem.name",
+        "source_string": "Stripped Warped Stem",
+        "translation": "Stripped Warped Stem",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.crimson_door.name",
+        "source_string": "Crimson Door",
+        "translation": "Fellred Door",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.warped_door.name",
+        "source_string": "Warped Door",
+        "translation": "Warped Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
