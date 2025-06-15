@@ -4944,9 +4944,25 @@
         "max_length": null
     },
     {
+        "identifier": "commands.clone.tooManyBlocks",
+        "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
+        "translation": "Too many clots in the narrowed stead (%1$d > %2$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.compare.success",
         "source_string": "%1$d blocks compared",
         "translation": "%1$d clots bemeted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compare.tooManyBlocks",
+        "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
+        "translation": "Too many clots in the narrowed stead (%1$d > %2$d)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5032,6 +5048,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.fill.tooManyBlocks",
+        "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
+        "translation": "Too many clots in the narrowed stead (%1$d > %2$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.function.functionNameNotFound",
         "source_string": "Function %1$s not found.",
         "translation": "Working %1$s not found.",
@@ -5059,6 +5083,22 @@
         "identifier": "commands.gamemode.fail.invalid",
         "source_string": "Game mode '%1$s' is invalid",
         "translation": "Game wayset '%1$s' is unright",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.outOfWorld",
+        "source_string": "Cannot access blocks outside of the world",
+        "translation": "Cannot reach clots outside of the world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gettopsolidblock.notfound",
+        "source_string": "No solid blocks under specified position",
+        "translation": "No fast clots under narrowed stow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6480,6 +6520,22 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.blocks.text.5",
+        "source_string": "§eGlass§f - This is a transparent block that is made by smelting Sand in a Furnace.",
+        "translation": "§eGlass§f - This is a seethrough clot that is made by smelting Sand in an Oven.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.6",
+        "source_string": "§eConcrete§f - This is made by dropping a Concrete Powder block into water.",
+        "translation": "§eStonelime§f - This is made by dropping a Stonelime Dust clot into water.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.cauldron.text.6",
         "source_string": "If you want to wash the dye off, dip the dyed item into a Cauldron of undyed Water.",
         "translation": "If you wish to wash the dye off, dip the dyed thing into an Ironcrock of undyed Water.",
@@ -6512,9 +6568,145 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.commandBlocks.text.1",
+        "source_string": "Command Blocks are a powerful tool for map creators. They store and execute commands upon receiving a Redstone signal.",
+        "translation": "Hest Clots are a mainful tool for draught makers. They stow and run hests upon reaping a Redstone strength.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.2",
+        "source_string": "To get a command block you must use /give.",
+        "translation": "To reap a hest clot you must brook /give.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.3",
+        "source_string": "When a Command Block has either executed or failed to execute its stored command, it sends a Redstone signal from the side where the arrow is pointing.",
+        "translation": "When a Hest Clot has either run or trucked to run its stowed hest, it sends a Redstone strength from the side where the flone is ording.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.4",
+        "source_string": "You can set the name of the Command Block in the Hover Note field.",
+        "translation": "You can set the name of the Hest Clot in the Hover Heed field.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5",
+        "source_string": "§eBlock Type§f - There are three types of Command Blocks, each with their own color and behavior:",
+        "translation": "§eClot Kind§f - There are three kinds of Hest Clots, each with her own hue and behaving:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.1",
+        "source_string": "§eImpulse§f - Only executes the stored command when the block receives a redstone signal.",
+        "translation": "§eOnebeat§f - Only runs the stowed hest when the clot reaps a redstone strength.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.commandBlocks.text.5.2",
         "source_string": "§eChain§f - Executes the stored command when the Command Block behind it has or has not executed its command. ",
         "translation": "§eRackent§f - Runs the stowed hest when the Hest Clot behind it has or has not run its hest. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.3",
+        "source_string": "§eRepeat§f - Once activated, this Command Block will continue executing its stored command as long as it exists.",
+        "translation": "§eEdledge§f - Once astirred, this Hest Clot will go on running its stowed hest as long as it bestands.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6",
+        "source_string": "§eCondition§f - There are two conditions, each will affect the behavior of the Command Block:",
+        "translation": "§eTharfly§f - There are two tharves, each will rine the behaving of the Hest Clot:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6.1",
+        "source_string": "§eUnconditional§f - Executes the stored command even if the Command Block behind it failed to execute its command.",
+        "translation": "§eUntharfly§f - Runs the stowed hest even if the Hest Clot behind it trucked to run its hest.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6.2",
+        "source_string": "§eConditional§f - Only executes the stored command if the Command Block behind it succeeded in executing its command.",
+        "translation": "§eTharfly§f - Only runs the stowed hest if the Hest Clot behind it sped in running its hest.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7",
+        "source_string": "§eRedstone§f - There are two redstone settings, each will affect the behavior of the Command Block:",
+        "translation": "§eRedstone§f - There are two redstone settings, each will rine the behaving of the Hest Clot:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7.1",
+        "source_string": "§eNeeds Redstone§f - Requires a redstone signal to activate.",
+        "translation": "§eNeeds Redstone§f - Needs a redstone strength to astir.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7.2",
+        "source_string": "§eAlways Active§f - Does not require a redstone signal to activate.",
+        "translation": "§eAlways Astir§f - Does not need a redstone strength to astir.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks",
+        "source_string": "Permission Blocks",
+        "translation": "Thaving Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title",
+        "source_string": "How to Play: Permission Blocks",
+        "translation": "How to Play: Thaving Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.1",
+        "source_string": "Allow/Deny",
+        "translation": "Aleave/Atsake",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.2",
+        "source_string": "Border",
+        "translation": "Rim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6707,6 +6899,22 @@
         "identifier": "howtoplay.structureBlocks.header.2",
         "source_string": " Modes",
         "translation": " Waysets",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.4",
+        "source_string": "Redstone Activation",
+        "translation": "Redstone Astirring",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.5",
+        "source_string": "Integrity and Seed",
+        "translation": "Cleanness and Seed",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14904,6 +15112,14 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.permission",
+        "source_string": "Permission Blocks",
+        "translation": "Thaving Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.coral",
         "source_string": "Coral Blocks",
         "translation": "Blossomdeer Clots",
@@ -15006,6 +15222,38 @@
         "context": "Locked items cannot be removed from the player's inventory.",
         "labels": "unassigned, lang",
         "max_length": 42
+    },
+    {
+        "identifier": "options.blockAlternatives",
+        "source_string": "Alternate Blocks",
+        "translation": "Sidekire Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.showBlockSelectButton",
+        "source_string": "Pick Block",
+        "translation": "Pick Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.showBlockSelectButton.message",
+        "source_string": "Quickly equip any block you can see in the world. Useful after explosions...",
+        "translation": "Quickly bedight any clot you can see in the world. Handy after blasts...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.destroyvibration",
+        "source_string": "Vibrate When Breaking Blocks",
+        "translation": "Shiver When Breaking Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
     },
     {
         "identifier": "options.accountErrorButton",
@@ -15123,6 +15371,158 @@
         "identifier": "options.turnOffAchievements",
         "source_string": "Turn off achievements?",
         "translation": "Lay off fulfillings?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.collect",
+        "source_string": "Collect",
+        "translation": "Gather",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.peel",
+        "source_string": "Peel Bark",
+        "translation": "Hild Rind",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.scaffoldingDescend",
+        "source_string": "Hold to Descend",
+        "translation": "Hold to Alight",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.pick",
+        "source_string": "Pick",
+        "translation": "Pick",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.placeBook",
+        "source_string": "Place Book",
+        "translation": "Lay Book",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.readBook",
+        "source_string": "Read Book",
+        "translation": "Read Book",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.removeBook",
+        "source_string": "Remove Book",
+        "translation": "Fornim Book",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.shear",
+        "source_string": "Shear",
+        "translation": "Shear",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.carve",
+        "source_string": "Carve",
+        "translation": "Carve",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.grow",
+        "source_string": "Grow",
+        "translation": "Grow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.boatExit",
+        "source_string": "Leave Boat",
+        "translation": "Leave Boat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.tooltip.emote",
+        "source_string": "Emote",
+        "translation": "Stir",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.controlCustomization.exit",
+        "source_string": "Done",
+        "translation": "Done",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.controlCustomization.size",
+        "source_string": "Size",
+        "translation": "Breadth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.daysPlayed",
+        "source_string": "Days played: %s",
+        "translation": "Days played: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.daysPlayed.overflow",
+        "source_string": "Too many to count!",
+        "translation": "Too many to rime!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "playscreen.header.local",
+        "source_string": "Play",
+        "translation": "Play",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "playscreen.header.realms",
+        "source_string": "Realms",
+        "translation": "Realms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "playscreen.lastPlayed.today",
+        "source_string": "Today",
+        "translation": "Today",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15507,6 +15907,22 @@
         "identifier": "review.item.post.rating.submit.button",
         "source_string": "Rate this pack",
         "translation": "Deem this pack",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.gameMode.adventure.line1",
+        "source_string": "Same as survival mode, but blocks can't",
+        "translation": "Same as overlive wayset, but clots can't",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.gameMode.creative.line2",
+        "source_string": "destroy blocks instantly",
+        "translation": "break clots anon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16224,6 +16640,14 @@
         "max_length": null
     },
     {
+        "identifier": "structure_block.waterlog_block",
+        "source_string": "Waterlog Blocks",
+        "translation": "Adrench Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.nether_brick.name",
         "source_string": "Nether Bricks",
         "translation": "Nether Tiles",
@@ -16696,6 +17120,22 @@
         "max_length": null
     },
     {
+        "identifier": "structure_block.invisible_blocks",
+        "source_string": "Invisible Blocks:",
+        "translation": "Unseenly Clots:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.remove_blocks",
+        "source_string": "Remove Blocks:",
+        "translation": "Fornim Clots:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.tabbed_upsell.achievements.title",
         "source_string": "ACHIEVEMENTS",
         "translation": "FULFILLINGS",
@@ -17040,6 +17480,30 @@
         "max_length": null
     },
     {
+        "identifier": "xbox.statistics.blocksBroken",
+        "source_string": "Blocks broken",
+        "translation": "Clots broken",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eduTemplateWorld.blocksOfGrass.name",
+        "source_string": "Blocks of Grass",
+        "translation": "Grass Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.edu.13",
+        "source_string": "In Creative Mode, players can freely choose to build from any of the blocks in Minecraft.",
+        "translation": "In Makerly Wayset, players can freely choose to build from any of the clots in Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "midgameTips.33",
         "source_string": "There are 3587 types of tropical fish!",
         "translation": "There are 3587 kinds of southsea fish!",
@@ -17052,6 +17516,22 @@
         "source_string": "The Enderman language is actually English in reverse.",
         "translation": "The Enderman tongue is English thwirely in truth.",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.creative.4",
+        "source_string": "Combine flint and steel with a TNT block for explosive results.",
+        "translation": "Bind flint and steel with a Blastle clot for blasting outcomes.",
+        "context": "Flint and steel is a tool used to create fire or to ignite certain blocks, structures and mobs. TNT will explode when you light it.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.creative.14",
+        "source_string": "Move through solid objects using spectator mode.",
+        "translation": "Shrithe through fast things brooking onlooker wayset.",
+        "context": "There is a Game mode called Spectator Mode. It allows you to fly through walls and blocks and everything.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17139,6 +17619,14 @@
         "identifier": "dr.color.button_name",
         "source_string": "Color",
         "translation": "Hue",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.assert.unexpectedBlockState",
+        "source_string": "Block does not have the expected Block State",
+        "translation": "Clot does not have the abode Clot Hoad",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
