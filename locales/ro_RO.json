@@ -26746,7 +26746,7 @@
     {
         "identifier": "howtoplay.bedsNew.text.2",
         "source_string": "Sleeping in a bed will also set your §espawn point§f, meaning that if you die, you'll reappear right back home!",
-        "translation": "Dormitul într-un pat îți va seta de asemenea §punctul de reînviere§f, însemnând că dacă mori, vei reînvia acasă!",
+        "translation": "Dormitul într-un pat îți va seta de asemenea §epunctul de reînviere§f, însemnând că dacă mori, vei reînvia acasă!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27144,9 +27144,425 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.commandBlocks",
+        "source_string": "Command Blocks",
+        "translation": "Blocurile de Comenzi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.1",
+        "source_string": "Command Blocks are a powerful tool for map creators. They store and execute commands upon receiving a Redstone signal.",
+        "translation": "Blocurile de comenzi sunt o unealtă puternică pentru creatorii hărții. Ele stochează și execută comenzile când primesc un semnal redstone.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.2",
+        "source_string": "To get a command block you must use /give.",
+        "translation": "Pentru a obține un bloc de comandă, trebuie să folosești /give.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.3",
+        "source_string": "When a Command Block has either executed or failed to execute its stored command, it sends a Redstone signal from the side where the arrow is pointing.",
+        "translation": "Când un bloc de comenzi a reușit sau nu să execute comanda stocată, trimite un semnal de redstone de pe partea către care indică săgeata.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.4",
+        "source_string": "You can set the name of the Command Block in the Hover Note field.",
+        "translation": "Poți seta numele blocului de comenzi în câmpul Notă plutitoare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5",
+        "source_string": "§eBlock Type§f - There are three types of Command Blocks, each with their own color and behavior:",
+        "translation": "§eTipuri de blocuri§f - Există trei tipuri de blocuri de comenzi, fiecare cu propriile culori și comportamente:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.1",
+        "source_string": "§eImpulse§f - Only executes the stored command when the block receives a redstone signal.",
+        "translation": "§eImpuls§f - Execută comanda stocată doar atunci când blocul primește un semnal de redstone.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.2",
+        "source_string": "§eChain§f - Executes the stored command when the Command Block behind it has or has not executed its command. ",
+        "translation": "§elanț§f - Execută comanda stocată atunci când blocul de comandă din spatele său a încercat să-și execute comanda. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.5.3",
+        "source_string": "§eRepeat§f - Once activated, this Command Block will continue executing its stored command as long as it exists.",
+        "translation": "§eRepetare§f - Odată activat, acest bloc de comenzi va continua executarea comenzii stocate până este spart.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6",
+        "source_string": "§eCondition§f - There are two conditions, each will affect the behavior of the Command Block:",
+        "translation": "§eCondiție§f - Există două condiții, fiecare va afecta comportamentul blocului de comenzi:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6.1",
+        "source_string": "§eUnconditional§f - Executes the stored command even if the Command Block behind it failed to execute its command.",
+        "translation": "§eNecondiţional§f - Execută comanda stocată chiar dacă blocul de comandă din spatele lui nu a reușit să-și execute comanda.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.6.2",
+        "source_string": "§eConditional§f - Only executes the stored command if the Command Block behind it succeeded in executing its command.",
+        "translation": "§eCondiţional§f - Execută comanda stocată doar dacă blocul de comandă din spatele lui a reușit să-și execute comanda.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7",
+        "source_string": "§eRedstone§f - There are two redstone settings, each will affect the behavior of the Command Block:",
+        "translation": "§eRedstone§f - Există două setări legate de redstone, fiecare va afecta comportamentul blocului de comenzi:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7.1",
+        "source_string": "§eNeeds Redstone§f - Requires a redstone signal to activate.",
+        "translation": "§eNecesită Redstone§f - Are nevoie de un semnal redstone pentru a se activa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.7.2",
+        "source_string": "§eAlways Active§f - Does not require a redstone signal to activate.",
+        "translation": "§eMereu activ§f - Nu are nevoie de un semnal redstone pentru a se activa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commandBlocks.text.8",
+        "source_string": "A Command Block will also show you its previous output. This will help you figure out if a Command Block failed to execute its command and why.",
+        "translation": "Un bloc de comenzi îți va arăta și rezultatul anterior. Acest lucru vă va ajuta să vă dați seama dacă un bloc de comandă nu a reușit să execute comanda și de ce.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commands",
+        "source_string": "Commands",
+        "translation": "Comenzi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.commands.text.1",
         "source_string": "Commands can be executed from Chat. Type / before you type the command.",
         "translation": "Comenzile pot fi executate din discuție. Înainte de a tasta comanda scrie /.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.commands.text.2",
+        "source_string": "There are multitudes of commands that will allow you to do amazing things. There are many sources out there that will provide you with all of the info that you'll ever need.",
+        "translation": "Există o multitudine de comenzi care îți vor permite să faci lucruri uimitoare. Există multe surse care îți vor oferi toate informațiile de care vei avea nevoie vreodată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits",
+        "source_string": "Conduits",
+        "translation": "Conductele",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.1",
+        "source_string": "An active Conduit gives you powers when you are underwater and when it rains.",
+        "translation": "O conductă activă îți oferă putere când ești sub apă și când plouă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.2",
+        "source_string": "A Conduit is crafted with Nautilus Shells and a Heart of the Sea. The Conduit draws power from Prismarine and Sea Lanterns.",
+        "translation": "O conductă este creată cu cochilii de nautilus și o inimă a mării. Conducta atrage putere de la prismarin și felinare maritime.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.header.1",
+        "source_string": "Construction",
+        "translation": "Construcția",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.3",
+        "source_string": "Once activated, a Conduit will grant Conduit Power to anything nearby.",
+        "translation": "Odată activată, o conductă va acorda putere de conductă oricui din apropiere.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.text.4",
+        "source_string": "The more power it draws in, the further its abilities reach.",
+        "translation": "Cu cât atrage mai multă putere, cu atât abilitățile ei vor fi mai mari.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool",
+        "source_string": "Crafting a Tool",
+        "translation": "Fabricarea unei unelte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.title",
+        "source_string": "How to Play: Crafting a Tool",
+        "translation": "Cum să joci: Fabricarea unei unelte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.1",
+        "source_string": "§eTools§f help you get things done faster. Some, like the §epickaxe§f:wood_pickaxe: , let you mine stone and various ores. Others, like the §esword§f:wood_sword: , help you keep enemies at bay.",
+        "translation": "§eUneltele§f te ajută să termini lucruri mai rapid. Unele, cum ar fi §etârnăcopul§f:wood_pickaxe: , îți permit să extragi piatră și diferite minereuri. Altele, precum §esabia§f:wood_sword: , te ajută să ții dușmanii departe.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.2.keyboard",
+        "source_string": "To craft a tool, open up your §ecrafting table§f:crafting_table: by walking up to it and right-clicking it. You can craft a basic version of most tools using two sticks and a few planks - your §erecipe book§f will tell you how!",
+        "translation": "Pentru a fabrica o unealtă, deschideți §emasa de lucru§f:crafting_table: mergând la ea și făcând clic dreapta. Poți crea o versiune de bază a majorității uneltelor folosind două bețe și câteva scânduri - §ecartea de rețete§f îți va spune cum!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.2.gamepad",
+        "source_string": "To craft a tool, open up your §ecrafting table§f:crafting_table: by walking up to it and pressing :_input_key.use:. You can craft a basic version of most tools using two sticks and a few planks - your §erecipe book§f will tell you how!",
+        "translation": "Pentru a fabrica o unealtă, deschideți §emasa de lucru§f:crafting_table: mergând la ea și apăsând :_input_key.use:. Poți crea o versiune de bază a majorității uneltelor folosind două bețe și câteva scânduri - §ecartea de rețete§f îți va spune cum!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingATool.text.2.touch",
+        "source_string": "To craft a tool, open up your §ecrafting table§f:crafting_table: by walking up to it and tapping it. You can craft a basic version of most tools using two sticks and a few planks - your §erecipe book§f will tell you how!",
+        "translation": "Pentru a fabrica o unealtă, deschideți §emasa de lucru§f:crafting_table: mergând și apăsând pe ea. Poți crea o versiune de bază a majorității uneltelor folosind două bețe și câteva scânduri - §ecartea de rețete§f îți va spune cum!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder",
+        "source_string": "World Builder",
+        "translation": "Editorul de lumi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.title",
+        "source_string": "How to Play: World Builder",
+        "translation": "Cum să joci: Editorul de lumi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.1",
+        "source_string": "To place or use certain Minecraft Education blocks or items, a player must possess a special ability called 'World Builder'.",
+        "translation": "Pentru a plasa sau utiliza anumite blocuri sau obiecte din Minecraft Education, un jucător trebuie să aibă o abilitate specială numită „Editor de lumi”.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.2",
+        "source_string": "With cheats activated, the host can enable or disable the World Builder ability for any players in the world.",
+        "translation": "Cu comenzi activate, gazda poate activa sau dezactiva capacitatea Editorului de lumi pentru orice jucători din lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.3",
+        "source_string": "To grant World Builder ability to all players in the world, run the following command:",
+        "translation": "Pentru a oferi abilitățile Editorului de lumi tuturor jucătorilor din lume, rulează următoarea comandă:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.4",
+        "source_string": "/ability @a worldbuilder true",
+        "translation": "/ability @a worldbuilder true",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.5",
+        "source_string": "To quickly toggle your own World Builder ability, run either of the following commands:",
+        "translation": "Pentru a comuta rapid propria ta abilitate de a folosi Editorul de lumi, rulează oricare dintre următoarele comenzi:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.6",
+        "source_string": "/worldbuilder",
+        "translation": "/worldbuilder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.7",
+        "source_string": "/wb",
+        "translation": "/wb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.8",
+        "source_string": "To query your World Builder ability, run the following command:",
+        "translation": "Pentru a vedea dacă poți să folosești Editorul de lumi, rulează următoarea comandă:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.9",
+        "source_string": "/ability @p worldbuilder",
+        "translation": "/ability @p worldbuilder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks",
+        "source_string": "Permission Blocks",
+        "translation": "Blocuri de permisiuni",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title",
+        "source_string": "How to Play: Permission Blocks",
+        "translation": "Cum să joci: Blocuri de permisiuni",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.1",
+        "source_string": "Minecraft Education features several special blocks that make it easier for teachers to create and employ lessons. Only players with World Builder ability can place and destroy these blocks. Only players without World Builder ability are subject to the restrictions imposed by these blocks.",
+        "translation": "Minecraft Education are mai multe blocuri speciale care facilitează crearea și folosirea lecțiilor de către profesori. Doar jucătorii cu abilitatea Editorului de lumi pot plasa şi distruge aceste blocuri. Doar jucătorii fără abilitatea Editorului de lumi sunt supuși restricțiilor impuse de aceste blocuri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.1",
+        "source_string": "Allow/Deny",
+        "translation": "Permite/Refuză",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.2",
+        "source_string": "Allow and Deny blocks control where players can build in a world.",
+        "translation": "Blocurile permite și refuză controlează unde jucătorii pot construi într-o lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.3",
+        "source_string": "Players can place or destroy blocks above Allow blocks. Players cannot place or destroy blocks above Deny blocks.",
+        "translation": "Jucătorii pot plasa sau distruge blocuri deasupra blocurilor de permite. Jucătorii nu pot plasa sau distruge blocuri deasupra blocurilor de refuză.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.4",
+        "source_string": "Allow and Deny blocks do not affect the area below them.",
+        "translation": "Blocurile permite și refuză nu afectează zona de sub ele.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.5",
+        "source_string": "An Allow block with a Deny block somewhere below it prevents players from building in the space between the two blocks. Above the Allow block, players can place and destroy blocks.",
+        "translation": "Un bloc permite cu un bloc refuză undeva sub el împiedică jucătorii să construiască în spațiul dintre cele două blocuri. Deasupra blocului de permite jucătorii pot plasa sau distruge blocuri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.2",
+        "source_string": "Border",
+        "translation": "Marginea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.6",
+        "source_string": "Border blocks provide a force field that extends infinitely upward and downward, regardless of the presence of other blocks. Players cannot move through, over, or under a Border block. Players cannot place or destroy blocks that are above or below a Border block.",
+        "translation": "Blocurile de margine oferă un câmp de forță care se extinde infinit, în sus și în jos, indiferent de prezența altor blocuri. Jucătorii nu se pot deplasa prin blocul de margine. Jucătorii nu pot plasa sau distruge blocuri care sunt deasupra sau sub un bloc de margine.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.playingTogether.text.7",
+        "source_string": "You and up to 10 friends get 24/7 access to a world that's always online. Explore, get creative, or try curated content from Marketplace.",
+        "translation": "Tu și până la 10 prieteni obțineți acces 24/7 la o lume care este întotdeauna online. Explorează, fii creativ sau încearcă conținut curățat din Piață.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27179,6 +27595,30 @@
         "identifier": "howtoplay.hostAndPlayerOptions.text.1.touch",
         "source_string": "When playing with cheats on, host options will allow you to teleport yourself or friends, change the weather, set the time of day, and change the entry point or world spawn of your game. Once cheats have been enabled, you can find these options in the chat window by tapping the chat button.",
         "translation": "Când te joci cu comenzile pornite, opțiunile de gazdă îți vor permite să te teleportezi sau să-ți teleportezi prietenii, să schimbi vremea, să setezi ora zilei și să schimbi punctul de intrare sau reînviere al lumii tale. Odată ce comenzile au fost activate, poți găsi aceste opțiuni în fereastra de discuție apăsând butonul de discuție.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.minecoins.text.3",
+        "source_string": "*Minecoins require a version of Minecraft: Bedrock Edition with Minecraft Marketplace. Minecoins are not compatible on PlayStation®. For compatibility information see minecraft.net/minecoins",
+        "translation": "*Minecoins necesită o versiune de Minecraft: Bedrock Edition cu Piața Minecraft. Minecoins nu sunt compatibile cu PlayStation®. Pentru informații de compatibilitate consultați minecraft.net/minecoins ",
+        "context": "CertRequirement: [PlayStation®]",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worlds.text.3",
+        "source_string": "All of the content in the Marketplace is created by our professional commiunity creators.",
+        "translation": "Tot conținutul din Piață este creat de creatorii noștri profesioniști.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worlds.text.11",
+        "source_string": "Dynamic Worlds allow you to explore the creative designs of our marketplace creators in a randomly generated map.",
+        "translation": "Lumile dinamice îți permit să explorezi proiectele creative ale creatorilor noștri de piață pe o hartă generată aleatoriu.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27568,6 +28008,14 @@
         "max_length": null
     },
     {
+        "identifier": "menu.store",
+        "source_string": "Marketplace",
+        "translation": "Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "multiplayer.inBedOpenChat",
         "source_string": "Open Chat",
         "translation": "Deschide discuția",
@@ -27688,6 +28136,30 @@
         "max_length": null
     },
     {
+        "identifier": "options.csbHeading",
+        "source_string": "MARKETPLACE PASS",
+        "translation": "PASS-UL PIEȚEI",
+        "context": "{StrContains=\"MARKETPLACE PASS\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.csbInfoLine01",
+        "source_string": "Catalog of 150+ Marketplace packs and items ### {MaxLength=\"100\"}",
+        "translation": "Catalog de peste 150 de pachete și articole din piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_show_display_logged_error_marketplace",
+        "source_string": "Marketplace errors",
+        "translation": "Erorile pieței",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_renderBoundingBox",
         "source_string": "Render bounding box",
         "translation": "Randare casetă de încadrare",
@@ -27776,6 +28248,22 @@
         "max_length": null
     },
     {
+        "identifier": "options.dev_displayMarketplaceDocumentId",
+        "source_string": "Show Marketplace Document Id",
+        "translation": "Afișare ID document Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_clearStoreCache",
+        "source_string": "Clear Marketplace Cache",
+        "translation": "Curăță cache Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.enableChatTextToSpeech",
         "source_string": "Text To Speech For Chat",
         "translation": "Transformați textul în vorbire pentru discuție",
@@ -27787,6 +28275,14 @@
         "identifier": "options.enableOpenChatMessage",
         "source_string": "Enable Open Chat Message",
         "translation": "Activează mesajul de deschidere a discuției",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.raytracing.disabled.upsell.supported_platform",
+        "source_string": "This option can only be edited while playing in a ray tracing capable world. Find one in the Marketplace, or create your own ray tracing capable resource pack.",
+        "translation": "Această opțiune poate fi editată doar în timp ce se joacă într-o lume capabilă de ray-tracing. Găsește una în Piață sau creează-ți propriul pachet de resurse capabil de ray-tracing.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27875,6 +28371,14 @@
         "identifier": "options.notificationDuration.Chat",
         "source_string": "Chat message duration",
         "translation": "Durata afișării mesajelor noi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.notificationDuration.ToastMessage",
+        "source_string": "Choose how long messages like game invites and Marketplace offers are visible",
+        "translation": "Alegeți cât de mult sunt vizibile mesajele precum invitațiile de joc și ofertele din Piață",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27984,6 +28488,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.viewSubscriptions.button.addMarketplacePass",
+        "source_string": "Add Marketplace Pass ### {MaxLength=\"80\"} {StrContains=\"Marketplace Pass\"}",
+        "translation": "Adaugă Pass al Pieței",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.bloomStrengthSlider",
         "source_string": "Bloom",
         "translation": "Strălucire",
@@ -27995,6 +28507,14 @@
         "identifier": "hudScreen.tooltip.basic.chat",
         "source_string": "Chat",
         "translation": "Discuția",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "playscreen.realmsContent",
+        "source_string": "Play 150+ marketplace packs",
+        "translation": "Joacă peste 150 de pachete din piață",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28024,6 +28544,14 @@
         "max_length": null
     },
     {
+        "identifier": "persona.csb.savings",
+        "source_string": "You save %s minecoins with your Marketplace Pass subscription!",
+        "translation": "Ai salvat %s minecoins cu abonamentul tău de Pass-ul Pieței!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "progressScreen.message.waitingForTickingAreas",
         "source_string": "Loading Ticking Areas",
         "translation": "Se încarcă zonele de tick-uri",
@@ -28032,9 +28560,121 @@
         "max_length": null
     },
     {
+        "identifier": "progressScreen.message.unownedTemplate",
+        "source_string": "It looks like you do not own the Marketplace template this world is based on. You can purchase it from Minecraft Marketplace.",
+        "translation": "Se pare că nu deții șablonul de Piață pe care această lume se bazează. Îl poți cumpăra de pe Piața Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.available.none.store",
+        "source_string": "View Marketplace",
+        "translation": "Vezi Piața",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.realmsPlus.title.packs.contentSub",
+        "source_string": "Marketplace Pass Packs",
+        "translation": "Pachete din Pass-ul Pieței",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.error.enteringgame.message",
+        "source_string": "This Realm contains resource or behavior packs that have expired from Realms Plus. You will need to either deactivate these packs or purchase them from the marketplace in order to play on the Realm.",
+        "translation": "Acest Realm conține resurse sau pachete de comportament care au expirat din Realms Plus. Va trebui să dezactivați aceste pachete sau să le cumpărați din piață pentru a le putea juca pe Realm.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "sidebar.marketplace",
+        "source_string": "Marketplace",
+        "translation": "Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.delete.content.redownload",
+        "source_string": "You can redownload content you've bought from the Marketplace.",
+        "translation": "Poți redescărca tot conținutul cumpărat de tine din Piață.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.delete.premium",
+        "source_string": "You are about to delete \"%s\". You will still own %s and if you wish to use %s again in the future, you can re-download it from the Marketplace.",
+        "translation": "Urmează să ștergeți „%s”. Încă veți deține %s și dacă doriți să utilizați %s din nou în viitor, îl puteți descărca din Piață.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectTemplate.marketplacePass",
+        "source_string": "Featured Marketplace Pass Content",
+        "translation": "Conținut din Pass-ul Pieței Recomandat",
+        "context": "{StrContains=\"Marketplace Pass\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectTemplate.suggestedContent.title",
+        "source_string": "Featured Marketplace Content",
+        "translation": "Conținut din Piață Recomandat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "selectTemplate.inventory",
+        "source_string": "My Marketplace Packs",
+        "translation": "Pachetele mele din Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "skins.buy.noConnection",
+        "source_string": "We're unable to connect to the Marketplace. Maybe check your internet connection?",
+        "translation": "Nu ne putem conecta la Piață. Verificați conexiunea la internet?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "skins.information.upsellWithoutStore",
+        "source_string": "You must purchase the skin pack to use that skin, and we can't connect to the Marketplace.",
+        "translation": "Trebuie să cumpărați pachetul de costume pentru a folosi acel costum, și nu ne putem conecta la Piață.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "skins.store.upsell.seePack",
+        "source_string": "See Pack in the Marketplace",
+        "translation": "Vezi pachet în Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "stat.beaconInteraction",
         "source_string": "Interactions with Beacon",
         "translation": "Interacțiuni cu farul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.title",
+        "source_string": "Marketplace",
+        "translation": "Piață",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
