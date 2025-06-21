@@ -1178,7 +1178,7 @@
     {
         "identifier": "accessibility.controllerLayoutScreen.buttonRemapped",
         "source_string": "%s is now bound to %s",
-        "translation": "%s oʇ punoq ʍou sᴉ %s",
+        "translation": "%s ɹoɟ %s oʇ ᵷuᴉpuᴉq pǝᵷuɐɥƆ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1186,7 +1186,7 @@
     {
         "identifier": "accessibility.controllerLayoutScreen.buttonBoundTo",
         "source_string": "%s button: %s",
-        "translation": "%s :uoʇʇnq %s",
+        "translation": "uoʇʇnq %s oʇ punoq sᴉ %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1442,7 +1442,7 @@
     {
         "identifier": "accounts.name",
         "source_string": "Name: %s (%s)",
-        "translation": "(%s) %s :ǝɯɐN",
+        "translation": "%s (%s) :ǝɯɐN",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3882,7 +3882,7 @@
     {
         "identifier": "chat.stream.emote",
         "source_string": "(%s) * %s %s",
-        "translation": "%s %s * (%s)",
+        "translation": "(%s) * %s %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3890,7 +3890,7 @@
     {
         "identifier": "chat.stream.text",
         "source_string": "(%s) <%s> %s",
-        "translation": "%s <%s> (%s)",
+        "translation": "(%s) <%s> %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3914,7 +3914,7 @@
     {
         "identifier": "chat.type.achievement",
         "source_string": "%s has just earned the achievement %s",
-        "translation": "%s ʇuǝɯǝʌǝᴉɥɔɐ ǝɥʇ pǝuɹɐǝ ʇsnɾ sɐɥ %s",
+        "translation": "%s ʎq pǝuɹɐǝ uǝǝq ʇsnɾ sɐɥ %s ʇuǝɯǝɔuɐʌpɐ ǝɥ⟘",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3922,7 +3922,7 @@
     {
         "identifier": "chat.type.achievement.taken",
         "source_string": "%s has lost the achievement %s",
-        "translation": "%s ʇuǝɯǝʌǝᴉɥɔɐ ǝɥʇ ʇsoꞁ sɐɥ %s",
+        "translation": "%s ʎq ʇsoꞁ uǝǝq sɐɥ %s ʇuǝɯǝɔuɐʌpɐ ǝɥ⟘",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3947,6 +3947,14 @@
         "identifier": "chat.type.emote",
         "source_string": "* %s %s",
         "translation": "%s %s *",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.sleeping",
+        "source_string": "%s is sleeping in a bed. To skip to dawn, %s more users need to sleep in beds at the same time.",
+        "translation": "˙pǝq ɐ uᴉ ᵷuᴉdǝǝꞁs sᴉ %s ˙ǝɯᴉʇ ǝɯɐs ǝɥʇ ʇɐ spǝq uᴉ dǝǝꞁs oʇ pǝǝu sɹǝsn ǝɹoɯ %s 'uʍɐp oʇ dᴉʞs o⟘",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5424,9 +5432,49 @@
         "max_length": null
     },
     {
+        "identifier": "commands.blockdata.notValid",
+        "source_string": "The target block is not a data holder block",
+        "translation": "ʞɔoꞁq ɹǝpꞁoɥ ɐʇɐp ɐ ʇou sᴉ ʞɔoꞁq ʇǝᵷɹɐʇ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.outOfWorld",
+        "source_string": "Cannot change block outside of the world",
+        "translation": "pꞁɹoʍ ǝɥʇ ɟo ǝpᴉsʇno ʞɔoꞁq ǝᵷuɐɥɔ ʇouuɐƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.success",
+        "source_string": "Block data updated to: %1$s",
+        "translation": "%1$s :oʇ pǝʇɐpdn ɐʇɐp ʞɔoꞁᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.blockdata.tagError",
         "source_string": "Data tag parsing failed: %1$s",
         "translation": "%1$s :pǝꞁᴉɐɟ ᵷuᴉsɹɐd ᵷɐʇ ɐʇɐᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.invalidState",
+        "source_string": "'%1$s' is not a valid Block State.",
+        "translation": "˙ǝʇɐʇS ʞɔoꞁᗺ pᴉꞁɐʌ ɐ ʇou sᴉ ,%1$s,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.stateError",
+        "source_string": "Block State: '%1$s' is invalid on Block: '%2$s'.",
+        "translation": "˙,%2$s, :ʞɔoꞁᗺ uo pᴉꞁɐʌuᴉ sᴉ ,%1$s, :ǝʇɐʇS ʞɔoꞁᗺ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5736,6 +5784,574 @@
         "max_length": null
     },
     {
+        "identifier": "commands.clear.testing",
+        "source_string": "%1$s has %2$d items that match the criteria",
+        "translation": "ɐᴉɹǝʇᴉɹɔ ǝɥʇ ɥɔʇɐɯ ʇɐɥʇ sɯǝʇᴉ %2$d sɐɥ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearfixedinv.description",
+        "source_string": "Removes all Fixed Inventory Slots.",
+        "translation": "˙sʇoꞁS ʎɹoʇuǝʌuI pǝxᴉℲ ꞁꞁɐ sǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clearfixedinv.success",
+        "source_string": "Cleared the Fixed Inventory",
+        "translation": "ʎɹoʇuǝʌuI pǝxᴉℲ ǝɥʇ pǝɹɐǝꞁƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.description",
+        "source_string": "Clones blocks from one region to another.",
+        "translation": "˙ɹǝɥʇouɐ oʇ uoᴉᵷǝɹ ǝuo ɯoɹɟ sʞɔoꞁq sǝuoꞁƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.failed",
+        "source_string": "No blocks cloned",
+        "translation": "pǝuoꞁɔ sʞɔoꞁq oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.filtered.error",
+        "source_string": "Filtered usage requires a filter block to be specified",
+        "translation": "pǝᴉɟᴉɔǝds ǝq oʇ ʞɔoꞁq ɹǝʇꞁᴉɟ ɐ sǝɹᴉnbǝɹ ǝᵷɐsn pǝɹǝʇꞁᴉℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.noOverlap",
+        "source_string": "Source and destination can not overlap",
+        "translation": "dɐꞁɹǝʌo ʇou uɐɔ uoᴉʇɐuᴉʇsǝp puɐ ǝɔɹnoS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.success",
+        "source_string": "%1$d blocks cloned",
+        "translation": "pǝuoꞁɔ sʞɔoꞁq %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clone.tooManyBlocks",
+        "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
+        "translation": "(%2$d < %1$d) ɐǝɹɐ pǝᴉɟᴉɔǝds ǝɥʇ uᴉ sʞɔoꞁq ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.closechat.description",
+        "source_string": "Closes the chat window of the local player if it is open.",
+        "translation": "˙uǝdo sᴉ ʇᴉ ɟᴉ ɹǝʎɐꞁd ꞁɐɔoꞁ ǝɥʇ ɟo ʍopuᴉʍ ʇɐɥɔ ǝɥʇ sǝsoꞁƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.closechat.success",
+        "source_string": "Chat closed",
+        "translation": "pǝsoꞁɔ ʇɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.closechat.failure",
+        "source_string": "Chat was not open",
+        "translation": "uǝdo ʇou sɐʍ ʇɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.closewebsocket.description",
+        "source_string": "Closes websocket connection if there is one.",
+        "translation": "˙ǝuo sᴉ ǝɹǝɥʇ ɟᴉ uoᴉʇɔǝuuoɔ ʇǝʞɔosqǝʍ sǝsoꞁƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.code.description",
+        "source_string": "Launches Code Builder.",
+        "translation": "˙ɹǝpꞁᴉnᗺ ǝpoƆ sǝɥɔunɐꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.code.success",
+        "source_string": "Launched Code Builder.",
+        "translation": "˙ɹǝpꞁᴉnᗺ ǝpoƆ pǝɥɔunɐꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compare.failed",
+        "source_string": "Source and destination are not identical",
+        "translation": "ꞁɐɔᴉʇuǝpᴉ ʇou ǝɹɐ uoᴉʇɐuᴉʇsǝp puɐ ǝɔɹnoS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compare.success",
+        "source_string": "%1$d blocks compared",
+        "translation": "pǝɹɐdɯoɔ sʞɔoꞁq %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compare.tooManyBlocks",
+        "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
+        "translation": "(%2$d < %1$d) ɐǝɹɐ pǝᴉɟᴉɔǝds ǝɥʇ uᴉ sʞɔoꞁq ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compactdb.description",
+        "source_string": "Explicitly compacts the levelDB log.",
+        "translation": "˙ᵷoꞁ ᗺᗡꞁǝʌǝꞁ ǝɥʇ sʇɔɐdɯoɔ ʎꞁʇᴉɔᴉꞁdxƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compactdb.success",
+        "source_string": "Successfully compacted levelDB log.",
+        "translation": "˙ᵷoꞁ ᗺᗡꞁǝʌǝꞁ pǝʇɔɐdɯoɔ ʎꞁꞁnɟssǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.corruptworld.description",
+        "source_string": "Corrupts the world loaded on the server.",
+        "translation": "˙ɹǝʌɹǝs ǝɥʇ uo pǝpɐoꞁ pꞁɹoʍ ǝɥʇ sʇdnɹɹoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.corruptworld.success",
+        "source_string": "Successfully corrupted the world.",
+        "translation": "˙pꞁɹoʍ ǝɥʇ pǝʇdnɹɹoɔ ʎꞁꞁnɟssǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.description",
+        "source_string": "Apply damage to the specified entities.",
+        "translation": "˙sǝᴉʇᴉʇuǝ pǝᴉɟᴉɔǝds ǝɥʇ oʇ ǝᵷɐɯɐp ʎꞁddⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.specify.damage",
+        "source_string": "Please specify a valid damage value.",
+        "translation": "˙ǝnꞁɐʌ ǝᵷɐɯɐp pᴉꞁɐʌ ɐ ʎɟᴉɔǝds ǝsɐǝꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.success",
+        "source_string": "Applied damage to %1$s",
+        "translation": "%1$s oʇ ǝᵷɐɯɐp pǝᴉꞁddⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.failed",
+        "source_string": "Could not apply damage to %1$s",
+        "translation": "%1$s oʇ ǝᵷɐɯɐp ʎꞁddɐ ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.tooManySources",
+        "source_string": "There can only be one source entity. Please adjust your selector to limit selection to one entity.",
+        "translation": "˙ʎʇᴉʇuǝ ǝuo oʇ uoᴉʇɔǝꞁǝs ʇᴉɯᴉꞁ oʇ ɹoʇɔǝꞁǝs ɹnoʎ ʇsnɾpɐ ǝsɐǝꞁԀ ˙ʎʇᴉʇuǝ ǝɔɹnos ǝuo ǝq ʎꞁuo uɐɔ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.daylock.description",
+        "source_string": "Locks and unlocks the day-night cycle.",
+        "translation": "˙ǝꞁɔʎɔ ʇɥᵷᴉu-ʎɐp ǝɥʇ sʞɔoꞁun puɐ sʞɔoꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.debug.description",
+        "source_string": "Starts or stops a debugging session.",
+        "translation": "˙uoᴉssǝs ᵷuᴉᵷᵷnqǝp ɐ sdoʇs ɹo sʇɹɐʇS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.debug.notStarted",
+        "source_string": "Can't stop profiling when we haven't started yet!",
+        "translation": "¡ʇǝʎ pǝʇɹɐʇs ʇ,uǝʌɐɥ ǝʍ uǝɥʍ ᵷuᴉꞁᴉɟoɹd doʇs ʇ,uɐƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.debug.start",
+        "source_string": "Started debug profiling",
+        "translation": "ᵷuᴉꞁᴉɟoɹd ᵷnqǝp pǝʇɹɐʇS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.debug.stop",
+        "source_string": "Stopped debug profiling after %.2f seconds (%1$d ticks)",
+        "translation": "(sʞɔᴉʇ %1$d) spuoɔǝs %.2f ɹǝʇɟɐ ᵷuᴉꞁᴉɟoɹd ᵷnqǝp pǝddoʇS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.defaultgamemode.description",
+        "source_string": "Sets the default game mode.",
+        "translation": "˙ǝpoɯ ǝɯɐᵷ ʇꞁnɐɟǝp ǝɥʇ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.defaultgamemode.success",
+        "source_string": "The world's default game mode is now %1$s",
+        "translation": "%1$s ʍou sᴉ ǝpoɯ ǝɯɐᵷ ʇꞁnɐɟǝp s,pꞁɹoʍ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.deop.description",
+        "source_string": "Revokes operator status from a player.",
+        "translation": "˙ɹǝʎɐꞁd ɐ ɯoɹɟ snʇɐʇs ɹoʇɐɹǝdo sǝʞoʌǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.deop.failed",
+        "source_string": "Could not de-op (permission level too high): %s",
+        "translation": "%s :(ɥᵷᴉɥ ooʇ ꞁǝʌǝꞁ uoᴉssᴉɯɹǝd) do-ǝp ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.deop.success",
+        "source_string": "De-opped: %s",
+        "translation": "%s :pǝddo-ǝᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.deop.message",
+        "source_string": "You have been de-opped",
+        "translation": "pǝddo-ǝp uǝǝq ǝʌɐɥ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.description",
+        "source_string": "Opens NPC dialogue for a player.",
+        "translation": "˙ɹǝʎɐꞁd ɐ ɹoɟ ǝnᵷoꞁɐᴉp ƆԀN suǝdO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.changeFailed",
+        "source_string": "Failed to change the scene for the NPC.",
+        "translation": "˙ƆԀN ǝɥʇ ɹoɟ ǝuǝɔs ǝɥʇ ǝᵷuɐɥɔ oʇ pǝꞁᴉɐℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.changeSuccess",
+        "source_string": "Dialogue successfully changed the scene for the NPC globally.",
+        "translation": "˙ʎꞁꞁɐqoꞁᵷ ƆԀN ǝɥʇ ɹoɟ ǝuǝɔs ǝɥʇ pǝᵷuɐɥɔ ʎꞁꞁnɟssǝɔɔns ǝnᵷoꞁɐᴉᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.changePerPlayerSuccess",
+        "source_string": "Dialogue successfully changed NPC text just for %1$s.",
+        "translation": "˙%1$s ɹoɟ ʇsnɾ ʇxǝʇ ƆԀN pǝᵷuɐɥɔ ʎꞁꞁnɟssǝɔɔns ǝnᵷoꞁɐᴉᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.invalidScene",
+        "source_string": "Invalid scene was referenced.",
+        "translation": "˙pǝɔuǝɹǝɟǝɹ sɐʍ ǝuǝɔs pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.noNpcComponent",
+        "source_string": "Selected actor did not have an NPC component.",
+        "translation": "˙ʇuǝuodɯoɔ ƆԀN uɐ ǝʌɐɥ ʇou pᴉp ɹoʇɔɐ pǝʇɔǝꞁǝS.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.npcNotFound",
+        "source_string": "Failed to find an NPC.",
+        "translation": "˙ƆԀN uɐ puᴉɟ oʇ pǝꞁᴉɐℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.npcNotInRange",
+        "source_string": "An NPC was found, but was not in the receiving player %1$s's ticking range.",
+        "translation": "˙ǝᵷuɐɹ ᵷuᴉʞɔᴉʇ s,%1$s ɹǝʎɐꞁd ᵷuᴉʌᴉǝɔǝɹ ǝɥʇ uᴉ ʇou sɐʍ ʇnq 'punoɟ sɐʍ ƆԀN uⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.success",
+        "source_string": "Dialogue sent to %1$s.",
+        "translation": "˙%1$s oʇ ʇuǝs ǝnᵷoꞁɐᴉᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.dialogue.tooManyNPCs",
+        "source_string": "Selector for NPCs was ambiguous and resulted in too many selected. Please select only one NPC.",
+        "translation": "˙ƆԀN ǝuo ʎꞁuo ʇɔǝꞁǝs ǝsɐǝꞁԀ ˙pǝʇɔǝꞁǝs ʎuɐɯ ooʇ uᴉ pǝʇꞁnsǝɹ puɐ snonᵷᴉqɯɐ sɐʍ sƆԀN ɹoɟ ɹoʇɔǝꞁǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.difficulty.description",
+        "source_string": "Sets the difficulty level.",
+        "translation": "˙ꞁǝʌǝꞁ ʎʇꞁnɔᴉɟɟᴉp ǝɥʇ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.difficulty.success",
+        "source_string": "Set game difficulty to %1$s",
+        "translation": "%1$s oʇ ʎʇꞁnɔᴉɟɟᴉp ǝɯɐᵷ ʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.downfall.success",
+        "source_string": "Toggled downfall",
+        "translation": "ꞁꞁɐɟuʍop pǝꞁᵷᵷo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.description",
+        "source_string": "Add or remove status effects.",
+        "translation": "˙sʇɔǝɟɟǝ snʇɐʇs ǝʌoɯǝɹ ɹo ppⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.failure.notActive",
+        "source_string": "Couldn't take %1$s from %2$s as they do not have the effect",
+        "translation": "ʇɔǝɟɟǝ ǝɥʇ ǝʌɐɥ ʇou op ʎǝɥʇ sɐ %2$s ɯoɹɟ %1$s ǝʞɐʇ ʇ,upꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.failure.notActive.all",
+        "source_string": "Couldn't take any effects from %1$s as they do not have any",
+        "translation": "ʎuɐ ǝʌɐɥ ʇou op ʎǝɥʇ sɐ %1$s ɯoɹɟ sʇɔǝɟɟǝ ʎuɐ ǝʞɐʇ ʇ,upꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.failure.notAMob",
+        "source_string": "%1$s cannot have effects",
+        "translation": "sʇɔǝɟɟǝ ǝʌɐɥ ʇouuɐɔ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.notFound",
+        "source_string": "There is no such mob effect with ID %s",
+        "translation": "%s ᗡI ɥʇᴉʍ ʇɔǝɟɟǝ qoɯ ɥɔns ou sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.success",
+        "source_string": "Gave %1$s * %2$d to %3$s for %4$d seconds",
+        "translation": "spuoɔǝs %4$d ɹoɟ %3$s oʇ %2$d * %1$s ǝʌɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.success.infinite",
+        "source_string": "Gave %1$s * %2$d to %3$s for an infinite duration",
+        "translation": "uoᴉʇɐɹnp ǝʇᴉuᴉɟuᴉ uɐ ɹoɟ %3$s oʇ %2$d * %1$s ǝʌɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.success.removed",
+        "source_string": "Took %1$s from %2$s",
+        "translation": "%2$s ɯoɹɟ %1$s ʞoo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.success.removed.all",
+        "source_string": "Took all effects from %1$s",
+        "translation": "%1$s ɯoɹɟ sʇɔǝɟɟǝ ꞁꞁɐ ʞoo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.cantCombine",
+        "source_string": "%1$s can't be combined with %2$s",
+        "translation": "%2$s ɥʇᴉʍ pǝuᴉqɯoɔ ǝq ʇ,uɐɔ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.invalidLevel",
+        "source_string": "%1$s does not support level %2$d",
+        "translation": "%2$d ꞁǝʌǝꞁ ʇɹoddns ʇou sǝop %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.cantEnchant",
+        "source_string": "The selected enchantment can't be added to the target item: %1$s",
+        "translation": "%1$s :ɯǝʇᴉ ʇǝᵷɹɐʇ ǝɥʇ oʇ pǝppɐ ǝq ʇ,uɐɔ ʇuǝɯʇuɐɥɔuǝ pǝʇɔǝꞁǝs ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.description",
+        "source_string": "Adds an enchantment to a player's selected item.",
+        "translation": "˙ɯǝʇᴉ pǝʇɔǝꞁǝs s,ɹǝʎɐꞁd ɐ oʇ ʇuǝɯʇuɐɥɔuǝ uɐ sppⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.noItem",
+        "source_string": "The target doesn't hold an item: %1$s",
+        "translation": "%1$s :ɯǝʇᴉ uɐ pꞁoɥ ʇ,usǝop ʇǝᵷɹɐʇ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.notFound",
+        "source_string": "There is no such enchantment with ID %1$d",
+        "translation": "%1$d ᗡI ɥʇᴉʍ ʇuǝɯʇuɐɥɔuǝ ɥɔns ou sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.enchant.success",
+        "source_string": "Enchanting succeeded for %1$s",
+        "translation": "%1$s ɹoɟ pǝpǝǝɔɔns ᵷuᴉʇuɐɥɔuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.entitydata.description",
+        "source_string": "Modifies the data tag of an entity.",
+        "translation": "˙ʎʇᴉʇuǝ uɐ ɟo ᵷɐʇ ɐʇɐp ǝɥʇ sǝᴉɟᴉpoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.entitydata.failed",
+        "source_string": "The data tag did not change: %1$s",
+        "translation": "%1$s :ǝᵷuɐɥɔ ʇou pᴉp ᵷɐʇ ɐʇɐp ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.entitydata.noPlayers",
+        "source_string": "%1$s is a player and cannot be changed",
+        "translation": "pǝᵷuɐɥɔ ǝq ʇouuɐɔ puɐ ɹǝʎɐꞁd ɐ sᴉ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.entitydata.success",
+        "source_string": "Entity data updated to: %1$s",
+        "translation": "%1$s :oʇ pǝʇɐpdn ɐʇɐp ʎʇᴉʇuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.entitydata.tagError",
         "source_string": "Data tag parsing failed: %1$s",
         "translation": "%1$s :pǝꞁᴉɐɟ ᵷuᴉsɹɐd ᵷɐʇ ɐʇɐᗡ",
@@ -5744,9 +6360,561 @@
         "max_length": null
     },
     {
+        "identifier": "commands.event.description",
+        "source_string": "Triggers an event for the specified object(s)",
+        "translation": "(s)ʇɔǝɾqo pǝᴉɟᴉɔǝds ǝɥʇ ɹoɟ ʇuǝʌǝ uɐ sɹǝᵷᵷᴉɹ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.event.error.empty",
+        "source_string": "Event name cannot be empty",
+        "translation": "ʎʇdɯǝ ǝq ʇouuɐɔ ǝɯɐu ʇuǝʌƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.event.error.failed",
+        "source_string": "%1$s could not be executed on: %2$s",
+        "translation": "%2$s :uo pǝʇnɔǝxǝ ǝq ʇou pꞁnoɔ %1$s",
+        "context": "1: Event Name ##2: List of failed entities for which the event could not be executed",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.event.success",
+        "source_string": "%1$s successfully executed on: %2$s",
+        "translation": "%2$s :uo pǝʇnɔǝxǝ ʎꞁꞁnɟssǝɔɔns %1$s",
+        "context": "1: Event Name ##2: List of entities",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.align.invalidInput",
+        "source_string": "Invalid swizzle, expected combination of 'x', 'y', and 'z'",
+        "translation": ",z, puɐ ',ʎ, ',x, ɟo uoᴉʇɐuᴉqɯoɔ pǝʇɔǝdxǝ 'ǝꞁzzᴉʍs pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.allInvocationsFailed",
+        "source_string": "All invocations failed: '%1$s'",
+        "translation": ",%1$s, :pǝꞁᴉɐɟ suoᴉʇɐɔoʌuᴉ ꞁꞁⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.failed",
+        "source_string": "Failed to execute '%1$s' as %2$s",
+        "translation": "%2$s sɐ ,%1$s, ǝʇnɔǝxǝ oʇ pǝꞁᴉɐℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.description",
+        "source_string": "Executes a command on behalf of one or more entities.",
+        "translation": "˙sǝᴉʇᴉʇuǝ ǝɹoɯ ɹo ǝuo ɟo ɟꞁɐɥǝq uo puɐɯɯoɔ ɐ sǝʇnɔǝxƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.outRangedDetectPosition",
+        "source_string": "Detect position: %1$s %2$s %3$s is out of range.",
+        "translation": "˙ǝᵷuɐɹ ɟo ʇno sᴉ %3$s %2$s %1$s :uoᴉʇᴉsod ʇɔǝʇǝᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.falseCondition",
+        "source_string": "Execute subcommand %1$s %2$s test failed.",
+        "translation": "˙pǝꞁᴉɐɟ ʇsǝʇ %2$s %1$s puɐɯɯoɔqns ǝʇnɔǝxƎ",
+        "context": "1: Subcommand ##2: ConditionSubcommand",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.falseConditionWithCount",
+        "source_string": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
+        "translation": "˙%3$s :ʇunoɔ 'pǝꞁᴉɐɟ ʇsǝʇ %2$s %1$s puɐɯɯoɔqns ǝʇnɔǝxƎ",
+        "context": "1: Subcommand ##2: ConditionSubcommand ##3: Test passed count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.trueCondition",
+        "source_string": "Test passed.",
+        "translation": "˙pǝssɐd ʇsǝ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.trueConditionWithCount",
+        "source_string": "Test passed, count: %1$s.",
+        "translation": "˙%1$s :ʇunoɔ 'pǝssɐd ʇsǝ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.ifUnlessBlocks.tooManyBlocks",
+        "source_string": "Checking too many blocks. Max block count: %1$s. Current block count: %2$s.",
+        "translation": "˙%2$s :ʇunoɔ ʞɔoꞁq ʇuǝɹɹnƆ ˙%1$s :ʇunoɔ ʞɔoꞁq xɐW ˙sʞɔoꞁq ʎuɐɯ ooʇ ᵷuᴉʞɔǝɥƆ",
+        "context": "1: Max number of blocks that are checked ##2: Current number of blocks that are checked",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.ifUnlessScore.score.notFound",
+        "source_string": "No %1$s score for %2$s found",
+        "translation": "punoɟ %2$s ɹoɟ ǝɹoɔs %1$s oN",
+        "context": "1: Objective Name ##2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.ifUnlessScore.targets.tooMany",
+        "source_string": "%1$s targets matched the selector. Only 1 target is allowed.",
+        "translation": "˙pǝʍoꞁꞁɐ sᴉ ʇǝᵷɹɐʇ ⥝ ʎꞁuO ˙ɹoʇɔǝꞁǝs ǝɥʇ pǝɥɔʇɐɯ sʇǝᵷɹɐʇ %1$s",
+        "context": "Number of targets that are matching with selector",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.ifUnlessScore.targets.empty",
+        "source_string": "There is no tracked player '%1$s' on the scoreboard",
+        "translation": "pɹɐoqǝɹoɔs ǝɥʇ uo ,%1$s, ɹǝʎɐꞁd pǝʞɔɐɹʇ ou sᴉ ǝɹǝɥ⟘",
+        "context": "1: Player name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.ifUnlessScore.objectiveNotFound",
+        "source_string": "No objective was found by the name '%1$s'",
+        "translation": ",%1$s, ǝɯɐu ǝɥʇ ʎq punoɟ sɐʍ ǝʌᴉʇɔǝɾqo oN",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.ifUnlessScore.players.compareOperation.invalidOperation",
+        "source_string": "Invalid operation %1$s.",
+        "translation": "˙%1$s uoᴉʇɐɹǝdo pᴉꞁɐʌuI",
+        "context": "1: Operator",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.description",
+        "source_string": "Fills all or parts of a region with a specific block.",
+        "translation": "˙ʞɔoꞁq ɔᴉɟᴉɔǝds ɐ ɥʇᴉʍ uoᴉᵷǝɹ ɐ ɟo sʇɹɐd ɹo ꞁꞁɐ sꞁꞁᴉℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.failed",
+        "source_string": "No blocks filled",
+        "translation": "pǝꞁꞁᴉɟ sʞɔoꞁq oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.outOfWorld",
+        "source_string": "Cannot place blocks outside of the world",
+        "translation": "pꞁɹoʍ ǝɥʇ ɟo ǝpᴉsʇno sʞɔoꞁq ǝɔɐꞁd ʇouuɐƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.success",
+        "source_string": "%1$d blocks filled",
+        "translation": "pǝꞁꞁᴉɟ sʞɔoꞁq %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.fill.tagError",
         "source_string": "Data tag parsing failed: %1$s",
         "translation": "%1$s :pǝꞁᴉɐɟ ᵷuᴉsɹɐd ᵷɐʇ ɐʇɐᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.tooManyBlocks",
+        "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
+        "translation": "(%2$d < %1$d) ɐǝɹɐ pǝᴉɟᴉɔǝds ǝɥʇ uᴉ sʞɔoꞁq ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fill.replace.auxvalue.invalid",
+        "source_string": "Invalid replace data value for block %1$s",
+        "translation": "%1$s ʞɔoꞁq ɹoɟ ǝnꞁɐʌ ɐʇɐp ǝɔɐꞁdǝɹ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fog.description",
+        "source_string": "Add or remove fog settings file",
+        "translation": "ǝꞁᴉɟ sᵷuᴉʇʇǝs ᵷoɟ ǝʌoɯǝɹ ɹo ppⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fog.invalidFogId",
+        "source_string": "Invalid Fog Setting Id : %1$s",
+        "translation": "%1$s : pI ᵷuᴉʇʇǝS ᵷoℲ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fog.invalidUserId",
+        "source_string": "No fog settings with the id were found for %1$s",
+        "translation": "%1$s ɹoɟ punoɟ ǝɹǝʍ pᴉ ǝɥʇ ɥʇᴉʍ sᵷuᴉʇʇǝs ᵷoɟ oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fog.limitReached",
+        "source_string": "Size limit reached for fog identifiers for %1$s",
+        "translation": "%1$s ɹoɟ sɹǝᴉɟᴉʇuǝpᴉ ᵷoɟ ɹoɟ pǝɥɔɐǝɹ ʇᴉɯᴉꞁ ǝzᴉS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fog.success.pop",
+        "source_string": "Last pushed fog setting with id %2$s was successfully removed from %1$s",
+        "translation": "%1$s ɯoɹɟ pǝʌoɯǝɹ ʎꞁꞁnɟssǝɔɔns sɐʍ %2$s pᴉ ɥʇᴉʍ ᵷuᴉʇʇǝs ᵷoɟ pǝɥsnd ʇsɐꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fog.success.push",
+        "source_string": "Fog setting was successfully added for %1$s with id %2$s",
+        "translation": "%2$s pᴉ ɥʇᴉʍ %1$s ɹoɟ pǝppɐ ʎꞁꞁnɟssǝɔɔns sɐʍ ᵷuᴉʇʇǝs ᵷoℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.fog.success.remove",
+        "source_string": "Fog settings with id %2$s were successfully removed from %1$s",
+        "translation": "%1$s ɯoɹɟ pǝʌoɯǝɹ ʎꞁꞁnɟssǝɔɔns ǝɹǝʍ %2$s pᴉ ɥʇᴉʍ sᵷuᴉʇʇǝs ᵷoℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.function.description",
+        "source_string": "Runs commands found in the corresponding function file.",
+        "translation": "˙ǝꞁᴉɟ uoᴉʇɔunɟ ᵷuᴉpuodsǝɹɹoɔ ǝɥʇ uᴉ punoɟ spuɐɯɯoɔ sunᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.function.functionNameNotFound",
+        "source_string": "Function %1$s not found.",
+        "translation": "˙punoɟ ʇou %1$s uoᴉʇɔunℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.function.invalidCharacters",
+        "source_string": "Function with title '%s' is invalid, character '%s' is not allowed in function names.",
+        "translation": "pᴉꞁɐʌuᴉ sᴉ ,%s, ǝꞁʇᴉʇ ɥʇᴉʍ uoᴉʇɔunɟ ǝɥʇ os 'sǝɯɐu uoᴉʇɔunɟ uᴉ pǝʍoꞁꞁɐ ʇou sᴉ ,%s, ɹǝʇɔɐɹɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.function.noEngineVersionSpecified",
+        "source_string": "Function %s could not be run. You must specify a min_engine_version in the behavior pack's manifest.json.",
+        "translation": "˙uosɾ˙ʇsǝɟᴉuɐɯ s,ʞɔɐd ɹoᴉʌɐɥǝq ǝɥʇ uᴉ uoᴉsɹǝʌ_ǝuᴉᵷuǝ_uᴉɯ ɐ ʎɟᴉɔǝds ʇsnɯ no⅄ ˙unɹ ǝq ʇou pꞁnoɔ %s uoᴉʇɔunℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.function.success",
+        "source_string": "Successfully executed %1$d function entries.",
+        "translation": "˙sǝᴉɹʇuǝ uoᴉʇɔunɟ %1$d pǝʇnɔǝxǝ ʎꞁꞁnɟssǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamemode.description",
+        "source_string": "Sets a player's game mode.",
+        "translation": "˙ǝpoɯ ǝɯɐᵷ s,ɹǝʎɐꞁd ɐ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamemode.success.other",
+        "source_string": "Set %2$s's game mode to %1$s",
+        "translation": "%1$s oʇ ǝpoɯ ǝɯɐᵷ s,%2$s ʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamemode.success.self",
+        "source_string": "Set own game mode to %1$s",
+        "translation": "%1$s oʇ ǝpoɯ ǝɯɐᵷ uʍo ʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamemode.fail.invalid",
+        "source_string": "Game mode '%1$s' is invalid",
+        "translation": "pᴉꞁɐʌuᴉ sᴉ ,%1$s, ǝpoɯ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamerule.description",
+        "source_string": "Sets or queries a game rule value.",
+        "translation": "˙ǝnꞁɐʌ ǝꞁnɹ ǝɯɐᵷ ɐ sǝᴉɹǝnb ɹo sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamerule.type.invalid",
+        "source_string": "Invalid type used for game rule '%1$s'",
+        "translation": ",%1$s, ǝꞁnɹ ǝɯɐᵷ ɹoɟ pǝsn ǝdʎʇ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamerule.type.nocheatsenabled",
+        "source_string": "Game rule '%1$s' can only be used if cheats are enabled in this world.",
+        "translation": "˙pꞁɹoʍ sᴉɥʇ uᴉ pǝꞁqɐuǝ ǝɹɐ sʇɐǝɥɔ ɟᴉ pǝsn ǝq ʎꞁuo uɐɔ ,%1$s, ǝꞁnɹ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamerule.nopermission",
+        "source_string": "Only server owners can change '%1$s'",
+        "translation": ",%1$s, ǝᵷuɐɥɔ uɐɔ sɹǝuʍo ɹǝʌɹǝs ʎꞁuO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamerule.norule",
+        "source_string": "No game rule called '%1$s' is available",
+        "translation": "ǝꞁqɐꞁᴉɐʌɐ sᴉ ,%1$s, pǝꞁꞁɐɔ ǝꞁnɹ ǝɯɐᵷ oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gamerule.success",
+        "source_string": "Game rule %1$s has been updated to %2$s",
+        "translation": "%2$s oʇ pǝʇɐpdn uǝǝq sɐɥ %1$s ǝꞁnɹ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips.description",
+        "source_string": "Enable or disable the game tips on this device",
+        "translation": "ǝɔᴉʌǝp sᴉɥʇ uo sdᴉʇ ǝɯɐᵷ ǝɥʇ ǝꞁqɐsᴉp ɹo ǝꞁqɐuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips.enabled",
+        "source_string": "Game tips are now enabled",
+        "translation": "pǝꞁqɐuǝ ʍou ǝɹɐ sdᴉʇ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips.disabled",
+        "source_string": "Game tips are now disabled",
+        "translation": "pǝꞁqɐsᴉp ʍou ǝɹɐ sdᴉʇ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-off.description",
+        "source_string": "Disable game tips on this device",
+        "translation": "ǝɔᴉʌǝp sᴉɥʇ uo sdᴉʇ ǝɯɐᵷ ǝꞁqɐsᴉᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-off.success",
+        "source_string": "Game tips are now disabled",
+        "translation": "pǝꞁqɐsᴉp ʍou ǝɹɐ sdᴉʇ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-on.description",
+        "source_string": "Enable game tips on this device",
+        "translation": "ǝɔᴉʌǝp sᴉɥʇ uo sdᴉʇ ǝɯɐᵷ ǝꞁqɐuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-on.success",
+        "source_string": "Game tips are now enabled",
+        "translation": "pǝꞁqɐuǝ ʍou ǝɹɐ sdᴉʇ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-reset.description",
+        "source_string": "Reset game tips on this device",
+        "translation": "ǝɔᴉʌǝp sᴉɥʇ uo sdᴉʇ ǝɯɐᵷ ʇǝsǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-reset.success",
+        "source_string": "Game tips are now reset",
+        "translation": "ʇǝsǝɹ ʍou ǝɹɐ sdᴉʇ ǝɯɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.async.initiated",
+        "source_string": "'%1$s' command started (async step %2$d)",
+        "translation": "(%2$d dǝʇs ɔuʎsɐ) pǝʇɹɐʇs puɐɯɯoɔ ,%1$s,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.boolean.invalid",
+        "source_string": "'%1$s' is not true or false",
+        "translation": "ǝsꞁɐɟ ɹo ǝnɹʇ ʇou sᴉ ,%1$s,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.chunk.notFound",
+        "source_string": "Specified chunk not found",
+        "translation": "punoɟ ʇou ʞunɥɔ pǝᴉɟᴉɔǝdS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.componentError",
+        "source_string": "Component list parsing failed",
+        "translation": "pǝꞁᴉɐɟ ᵷuᴉsɹɐd ʇsᴉꞁ ʇuǝuodɯoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.dimension.notFound",
+        "source_string": "Specified dimension not found",
+        "translation": "punoɟ ʇou uoᴉsuǝɯᴉp pǝᴉɟᴉɔǝdS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.disabled",
+        "source_string": "Cheats aren't enabled in this world.",
+        "translation": "˙pꞁɹoʍ sᴉɥʇ uᴉ pǝꞁqɐuǝ ʇ,uǝɹɐ sʇɐǝɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.disabled.editorLocked",
+        "source_string": "The command you entered, %s, is not supported in the Editor.",
+        "translation": "˙ɹoʇᴉpƎ ǝɥʇ uᴉ pǝʇɹoddns ʇou sᴉ '%s 'pǝɹǝʇuǝ noʎ puɐɯɯoɔ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.disabled.templateLocked",
+        "source_string": "Settings are currently locked. Unlock Template World Options in the Game Settings menu to change them.",
+        "translation": "˙ɯǝɥʇ ǝᵷuɐɥɔ oʇ nuǝɯ sᵷuᴉʇʇǝS ǝɯɐ⅁ ǝɥʇ uᴉ suoᴉʇdO pꞁɹoM ǝʇɐꞁdɯǝ⟘ ʞɔoꞁu∩ ˙pǝʞɔoꞁ ʎꞁʇuǝɹɹnɔ ǝɹɐ sᵷuᴉʇʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.double.tooBig",
+        "source_string": "The number you have entered (%.2f) is too big, it must be at most %.2f",
+        "translation": "(%.2f sᴉ ǝnꞁɐʌ) %.2f ɟo ǝnꞁɐʌ pǝʍoꞁꞁɐ ɯnɯᴉxɐɯ uɐɥʇ ɹǝᵷᵷᴉq sᴉ pǝɹǝʇuǝ ǝʌɐɥ noʎ ɹǝqɯnu ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.double.tooSmall",
+        "source_string": "The number you have entered (%.2f) is too small, it must be at least %.2f",
+        "translation": "(%.2f sᴉ ǝnꞁɐʌ) %.2f ɟo ǝnꞁɐʌ pǝʍoꞁꞁɐ ɯnɯᴉuᴉɯ uɐɥʇ ɹǝꞁꞁɐɯs sᴉ pǝɹǝʇuǝ ǝʌɐɥ noʎ ɹǝqɯnu ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.duplicateType",
+        "source_string": "Duplicate type arguments",
+        "translation": "sʇuǝɯnᵷɹɐ ǝdʎʇ ǝʇɐɔᴉꞁdnᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.duplicateSelectorArgument",
+        "source_string": "Duplicate %s selector arguments",
+        "translation": "sʇuǝɯnᵷɹɐ ɹoʇɔǝꞁǝs %s ǝʇɐɔᴉꞁdnᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.encryption.badkey",
+        "source_string": "Bad public key given. Expected 120 byte key after PEM formatting.",
+        "translation": "˙ᵷuᴉʇʇɐɯɹoɟ WƎԀ ɹǝʇɟɐ ʎǝʞ ǝʇʎq 0ᘔ⥝ pǝʇɔǝdxƎ ˙uǝʌᴉᵷ ʎǝʞ ɔᴉꞁqnd pɐᗺ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
