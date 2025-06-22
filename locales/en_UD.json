@@ -1178,7 +1178,7 @@
     {
         "identifier": "accessibility.controllerLayoutScreen.buttonRemapped",
         "source_string": "%s is now bound to %s",
-        "translation": "%s ɹoɟ %s oʇ ᵷuᴉpuᴉq pǝᵷuɐɥƆ",
+        "translation": "%2$s oʇ punoq ʍou sᴉ %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1378,7 +1378,7 @@
     {
         "identifier": "accessibility.emotes.hovered",
         "source_string": "%s, emote button %d, %d of %d",
-        "translation": "p%d ɟo %d '%d uoʇʇnq ǝʇoɯǝ '%s",
+        "translation": "%4$d ɟo %3$d '%2$d uoʇʇnq ǝʇoɯǝ '%1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3882,7 +3882,7 @@
     {
         "identifier": "chat.stream.emote",
         "source_string": "(%s) * %s %s",
-        "translation": "(%s) * %s %s",
+        "translation": "%3$s %2$s * (%1$s)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3954,7 +3954,15 @@
     {
         "identifier": "chat.type.sleeping",
         "source_string": "%s is sleeping in a bed. To skip to dawn, %s more users need to sleep in beds at the same time.",
-        "translation": "˙pǝq ɐ uᴉ ᵷuᴉdǝǝꞁs sᴉ %s ˙ǝɯᴉʇ ǝɯɐs ǝɥʇ ʇɐ spǝq uᴉ dǝǝꞁs oʇ pǝǝu sɹǝsn ǝɹoɯ %s 'uʍɐp oʇ dᴉʞs o⟘",
+        "translation": "˙ǝɯᴉʇ ǝɯɐs ǝɥʇ ʇɐ spǝq uᴉ dǝǝꞁs oʇ pǝǝu sɹǝsn ǝɹoɯ %2$s 'uʍɐp oʇ dᴉʞs o⟘ ˙pǝq ɐ uᴉ ᵷuᴉdǝǝꞁs sᴉ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.type.text",
+        "source_string": "<%s> %s",
+        "translation": "%2$s <%1$s>",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6920,9 +6928,521 @@
         "max_length": null
     },
     {
+        "identifier": "commands.generic.encryption.badsalt",
+        "source_string": "Bad salt given. Expected a 16 bytes before base 64 encoding.",
+        "translation": "˙ᵷuᴉpoɔuǝ ɹnoɟ-ʎʇxᴉs ǝsɐq ǝɹoɟǝq sǝʇʎq 9⥝ ɐ pǝʇɔǝdxƎ ˙uǝʌᴉᵷ ʇꞁɐs pɐᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.encryption.required",
+        "source_string": "Encrypted session required",
+        "translation": "pǝɹᴉnbǝɹ uoᴉssǝs pǝʇdʎɹɔuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.differentDimension",
+        "source_string": "Target entity cannot be in a different dimension",
+        "translation": "uoᴉsuǝɯᴉp ʇuǝɹǝɟɟᴉp ɐ uᴉ ǝq ʇouuɐɔ ʎʇᴉʇuǝ ʇǝᵷɹɐ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.invalidType",
+        "source_string": "Entity type '%1$s' is invalid",
+        "translation": "pᴉꞁɐʌuᴉ sᴉ ,%1$s, ǝdʎʇ ʎʇᴉʇuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.invalidUuid",
+        "source_string": "The entity UUID provided is in an invalid format",
+        "translation": "ʇɐɯɹoɟ pᴉꞁɐʌuᴉ uɐ uᴉ sᴉ pǝpᴉʌoɹd ᗡI∩∩ ʎʇᴉʇuǝ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.entity.notFound",
+        "source_string": "That entity cannot be found",
+        "translation": "punoɟ ǝq ʇouuɐɔ ʎʇᴉʇuǝ ʇɐɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.error.permissions",
+        "source_string": "Incorrect permission level for command: %s.  ##1: command name",
+        "translation": "˙%s :puɐɯɯoɔ ɹoɟ ꞁǝʌǝꞁ uoᴉssᴉɯɹǝd ʇɔǝɹɹoɔuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.exception",
+        "source_string": "An unknown error occurred while attempting to perform this command",
+        "translation": "puɐɯɯoɔ sᴉɥʇ ɯɹoɟɹǝd oʇ ᵷuᴉʇdɯǝʇʇɐ ǝꞁᴉɥʍ pǝɹɹnɔɔo ɹoɹɹǝ uʍouʞun uⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidAgentType",
+        "source_string": "Type argument applied to Agent-only selector",
+        "translation": "ɹoʇɔǝꞁǝs ʎꞁuo-ʇuǝᵷⱯ oʇ pǝᴉꞁddɐ ʇuǝɯnᵷɹɐ ǝdʎ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidcontext",
+        "source_string": "Invalid context provided for given command type",
+        "translation": "ǝdʎʇ puɐɯɯoɔ uǝʌᴉᵷ ɹoɟ pǝpᴉʌoɹd ʇxǝʇuoɔ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidOrigin",
+        "source_string": "Command origin was invalid at command execution time",
+        "translation": "ǝɯᴉʇ uoᴉʇnɔǝxǝ puɐɯɯoɔ ʇɐ pᴉꞁɐʌuᴉ sɐʍ uᴉᵷᴉɹo puɐɯɯoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidDevice",
+        "source_string": "The command you entered, %s, is not supported on this device",
+        "translation": "ǝɔᴉʌǝp sᴉɥʇ uo pǝʇɹoddns ʇou sᴉ '%s 'pǝɹǝʇuǝ noʎ puɐɯɯoɔ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidMessage",
+        "source_string": "Invalid message length",
+        "translation": "ɥʇᵷuǝꞁ ǝᵷɐssǝɯ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidPlayerType",
+        "source_string": "Type argument applied to player-only selector",
+        "translation": "ɹoʇɔǝꞁǝs ʎꞁuo-ɹǝʎɐꞁd oʇ pǝᴉꞁddɐ ʇuǝɯnᵷɹɐ ǝdʎ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.invalidType",
+        "source_string": "Unknown type argument",
+        "translation": "ʇuǝɯnᵷɹɐ ǝdʎʇ uʍouʞu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.levelError",
+        "source_string": "Max level has to be larger than min level",
+        "translation": "ꞁǝʌǝꞁ uᴉɯ uɐɥʇ ɹǝᵷɹɐꞁ ǝq oʇ sɐɥ ꞁǝʌǝꞁ xɐW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.malformed.body",
+        "source_string": "Body is missing or malformed",
+        "translation": "pǝɯɹoɟꞁɐɯ ɹo ᵷuᴉssᴉɯ sᴉ ʎpoᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.malformed.type",
+        "source_string": "Invalid request type",
+        "translation": "ǝdʎʇ ʇsǝnbǝɹ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.notimplemented",
+        "source_string": "Not implemented",
+        "translation": "pǝʇuǝɯǝꞁdɯᴉ ʇoN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.sourceNotLoaded",
+        "source_string": "Source volume is not loaded",
+        "translation": "pǝpɐoꞁ ʇou sᴉ ǝɯnꞁoʌ ǝɔɹnoS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.destinationNotLoaded",
+        "source_string": "Destination volume is not loaded",
+        "translation": "pǝpɐoꞁ ʇou sᴉ ǝɯnꞁoʌ uoᴉʇɐuᴉʇsǝᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.json.invalid",
+        "source_string": "Provided JSON failed to parse with the following error: %1$s",
+        "translation": "%1$s :ɹoɹɹǝ ᵷuᴉʍoꞁꞁoɟ ǝɥʇ ɥʇᴉʍ ǝsɹɐd oʇ pǝꞁᴉɐɟ NOSՐ pǝpᴉʌoɹԀ",
+        "context": "Player typed JSON into a command but it was invalid",
+        "labels": "unassigned, lang",
+        "max_length": 1000
+    },
+    {
+        "identifier": "commands.generic.num.invalid",
+        "source_string": "'%1$s' is not a valid number",
+        "translation": "ɹǝqɯnu pᴉꞁɐʌ ɐ ʇou sᴉ ,%1$s,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.num.tooBig",
+        "source_string": "The number you have entered (%1$d) is too big, it must be at most %2$d",
+        "translation": "%2$d ʇsoɯ ʇɐ ǝq ʇsnɯ ʇᴉ 'ᵷᴉq ooʇ sᴉ (%1$d) pǝɹǝʇuǝ ǝʌɐɥ noʎ ɹǝqɯnu ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.num.tooSmall",
+        "source_string": "The number you have entered (%1$d) is too small, it must be at least %2$d",
+        "translation": "%2$d ʇsɐǝꞁ ʇɐ ǝq ʇsnɯ ʇᴉ 'ꞁꞁɐɯs ooʇ sᴉ (%1$d) pǝɹǝʇuǝ ǝʌɐɥ noʎ ɹǝqɯnu ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.outOfWorld",
+        "source_string": "Cannot access blocks outside of the world",
+        "translation": "pꞁɹoʍ ǝɥʇ ɟo ǝpᴉsʇno sʞɔoꞁq ssǝɔɔɐ ʇouuɐƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.parameter.invalid",
+        "source_string": "'%1$s' is not a valid parameter",
+        "translation": "ɹǝʇǝɯɐɹɐd pᴉꞁɐʌ ɐ ʇou sᴉ ,%1$s,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.permission.selector",
+        "source_string": "<insufficient permissions for selector expansion>",
+        "translation": "<uoᴉsuɐdxǝ ɹoʇɔǝꞁǝs ɹoɟ suoᴉssᴉɯɹǝd ʇuǝᴉɔᴉɟɟnsuᴉ>",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.player.notFound",
+        "source_string": "That player cannot be found",
+        "translation": "punoɟ ǝq ʇouuɐɔ ɹǝʎɐꞁd ʇɐɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.protocol.mismatch",
+        "source_string": "Provided protocol version doesn't match Minecraft's protocol version",
+        "translation": "uoᴉsɹǝʌ ꞁoɔoʇoɹd s,ʇɟɐɹɔǝuᴉW ɥɔʇɐɯ ʇ,usǝop uoᴉsɹǝʌ ꞁoɔoʇoɹd pǝpᴉʌoɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.radiusError",
+        "source_string": "Minimum selector radius must be smaller than maximum",
+        "translation": "ɯnɯᴉxɐɯ uɐɥʇ ɹǝꞁꞁɐɯs ǝq ʇsnɯ snᴉpɐɹ ɹoʇɔǝꞁǝs ɯnɯᴉuᴉW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.radiusNegative",
+        "source_string": "Radius cannot be negative",
+        "translation": "ǝʌᴉʇɐᵷǝu ǝq ʇouuɐɔ snᴉpɐᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.rotationError",
+        "source_string": "Rotation out of range",
+        "translation": "ǝᵷuɐɹ ɟo ʇno uoᴉʇɐʇoᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.running",
+        "source_string": "The command is already running",
+        "translation": "ᵷuᴉuunɹ ʎpɐǝɹꞁɐ sᴉ puɐɯɯoɔ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.step.failed",
+        "source_string": "Command step failed",
+        "translation": "pǝꞁᴉɐɟ dǝʇs puɐɯɯoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.syntax",
+        "source_string": "Syntax error: Unexpected \"%2$s\": at \"%1$s>>%2$s<<%3$s\"",
+        "translation": ",,%3$s>>%2$s<<%1$s,, ʇɐ :,,%2$s,, pǝʇɔǝdxǝu∩ :ɹoɹɹǝ xɐʇuʎS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.noTargetMatch",
+        "source_string": "No targets matched selector",
+        "translation": "ɹoʇɔǝꞁǝs pǝɥɔʇɐɯ sʇǝᵷɹɐʇ oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.targetNotPlayer",
+        "source_string": "Selector must be player-type",
+        "translation": "ǝdʎʇ-ɹǝʎɐꞁd ǝq ʇsnɯ ɹoʇɔǝꞁǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.tooManyNames",
+        "source_string": "Too many target name arguments",
+        "translation": "sʇuǝɯnᵷɹɐ ǝɯɐu ʇǝᵷɹɐʇ ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.tooManyTargets",
+        "source_string": "Too many targets matched selector",
+        "translation": "ɹoʇɔǝꞁǝs pǝɥɔʇɐɯ sʇǝᵷɹɐʇ ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.too.many.requests",
+        "source_string": "Too many commands have been requested, wait for one to be done",
+        "translation": "ǝuop ǝq oʇ ǝuo ɹoɟ ʇᴉɐʍ 'pǝʇsǝnbǝɹ uǝǝq ǝʌɐɥ spuɐɯɯoɔ ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.unknown",
+        "source_string": "Unknown command: %s. Please check that the command exists and that you have permission to use it.",
+        "translation": "˙ʇᴉ ǝsn oʇ uoᴉssᴉɯɹǝd ǝʌɐɥ noʎ ʇɐɥʇ puɐ sʇsᴉxǝ puɐɯɯoɔ ǝɥʇ ʇɐɥʇ ʞɔǝɥɔ ǝsɐǝꞁԀ ˙%s :puɐɯɯoɔ uʍouʞu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage",
+        "source_string": "Usage: %1$s",
+        "translation": "%1$s :ǝᵷɐs∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.blocked_edu",
+        "source_string": "Sorry! The %s command is not available in this world.",
+        "translation": "˙pꞁɹoʍ sᴉɥʇ uᴉ ǝꞁqɐꞁᴉɐʌɐ ʇou sᴉ puɐɯɯoɔ %s ǝɥ⟘ ¡ʎɹɹoS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage.noparam",
+        "source_string": "Usage:",
+        "translation": " :ǝᵷɐs∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.version.mismatch",
+        "source_string": "The requested version doesn't exist for this command",
+        "translation": "puɐɯɯoɔ sᴉɥʇ ɹoɟ ʇsᴉxǝ ʇ,usǝop uoᴉsɹǝʌ pǝʇsǝnbǝɹ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.version.missing",
+        "source_string": "Command calls not from chat should specify the command's version",
+        "translation": "uoᴉsɹǝʌ s,puɐɯɯoɔ ǝɥʇ ʎɟᴉɔǝds pꞁnoɥs ʇɐɥɔ ɯoɹɟ ʇou sꞁꞁɐɔ puɐɯɯoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.wrongTargetCamera",
+        "source_string": "Active camera has to be a free camera to target an entity",
+        "translation": "ʎʇᴉʇuǝ uɐ ʇǝᵷɹɐʇ oʇ ɐɹǝɯɐɔ ǝǝɹɟ ɐ ǝq oʇ sɐɥ ɐɹǝɯɐɔ ǝʌᴉʇɔⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.item.invalid",
+        "source_string": "Invalid command syntax: no such %s exists with that data value",
+        "translation": "ǝnꞁɐʌ ɐʇɐp ʇɐɥʇ ɥʇᴉʍ sʇsᴉxǝ %s ɥɔns ou :xɐʇuʎs puɐɯɯoɔ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.item.notFound",
+        "source_string": "There is no such item with name %1$d",
+        "translation": "%1$d ǝɯɐu ɥʇᴉʍ ɯǝʇᴉ ɥɔns ou sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.map.invalidData",
+        "source_string": "Invalid map data provided",
+        "translation": "pǝpᴉʌoɹd ɐʇɐp dɐɯ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.map.featureNotFound",
+        "source_string": "Could not make exploration map. Feature not found on this dimension",
+        "translation": "uoᴉsuǝɯᴉp sᴉɥʇ uo punoɟ ʇou ǝɹnʇɐǝℲ ˙dɐɯ uoᴉʇɐɹoꞁdxǝ ǝʞɐɯ ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.success",
+        "source_string": "Gave %1$s * %2$d to %3$s",
+        "translation": "%3$s oʇ %2$d * %1$s ǝʌɐ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.successRecipient",
+        "source_string": "You have been given %1$s * %2$d",
+        "translation": "%2$d * %1$s uǝʌᴉᵷ uǝǝq ǝʌɐɥ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.give.tagError",
         "source_string": "Data tag parsing failed: %1$s",
         "translation": "%1$s :pǝꞁᴉɐɟ ᵷuᴉsɹɐd ᵷɐʇ ɐʇɐᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidData",
+        "source_string": "\"data\" has an invalid input, must be an integer.",
+        "translation": "˙ɹǝᵷǝʇuᴉ uɐ ǝq ʇsnɯ 'ʇnduᴉ pᴉꞁɐʌuᴉ uɐ sɐɥ ,,ɐʇɐp,,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidQuantity",
+        "source_string": "\"quantity\" has an invalid input, must be an integer or range of integers.",
+        "translation": "˙sɹǝᵷǝʇuᴉ ɟo ǝᵷuɐɹ ɹo ɹǝᵷǝʇuᴉ uɐ ǝq ʇsnɯ 'ʇnduᴉ pᴉꞁɐʌuᴉ uɐ sɐɥ ,,ʎʇᴉʇuɐnb,,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.invalidSlot",
+        "source_string": "\"slot\" has an invalid input, must be an integer or range of integers.",
+        "translation": "˙sɹǝᵷǝʇuᴉ ɟo ǝᵷuɐɹ ɹo ɹǝᵷǝʇuᴉ uɐ ǝq ʇsnɯ 'ʇnduᴉ pᴉꞁɐʌuᴉ uɐ sɐɥ ,,ʇoꞁs,,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.noItem",
+        "source_string": "\"item\" missing, required for \"hasitem\" filter.",
+        "translation": "˙ɹǝʇꞁᴉɟ ,,ɯǝʇᴉsɐɥ,, ɹoɟ pǝɹᴉnbǝɹ 'ᵷuᴉssᴉɯ ,,ɯǝʇᴉ,,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hasitem.fail.slotNoLocation",
+        "source_string": "Specifying a \"slot\" is invalid if a \"location\" is not given.",
+        "translation": "˙uǝʌᴉᵷ ʇou sᴉ ,,uoᴉʇɐɔoꞁ,, ɐ ɟᴉ pᴉꞁɐʌuᴉ sᴉ ,,ʇoꞁs,, ɐ ᵷuᴉʎɟᴉɔǝdS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.help.description",
+        "source_string": "Provides help/list of commands.",
+        "translation": "˙spuɐɯɯoɔ ɟo ʇsᴉꞁ/dꞁǝɥ sǝpᴉʌoɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.help.footer",
+        "source_string": "Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments",
+        "translation": "sʇuǝɯnᵷɹɐ sʇᴉ ɹo puɐɯɯoɔ ǝɥʇ ǝʇǝꞁdɯoɔ-oʇnɐ oʇ puɐɯɯoɔ ɐ ᵷuᴉdʎʇ ǝꞁᴉɥʍ ʎǝʞ <qɐʇ> ǝɥʇ ǝs∩ :dᴉ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.help.command.aliases",
+        "source_string": "%s (also %s):",
+        "translation": ":(%2$s osꞁɐ) %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.immutableworld.info",
+        "source_string": "immutableworld = %s",
+        "translation": "%s = pꞁɹoʍǝꞁqɐʇnɯɯᴉ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.invalidfilter",
+        "source_string": "'%s' is an invalid filter argument",
+        "translation": "ʇuǝɯnᵷɹɐ ɹǝʇꞁᴉɟ pᴉꞁɐʌuᴉ uɐ sᴉ ,%s,",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6936,10 +7456,58 @@
         "max_length": null
     },
     {
+        "identifier": "commands.schedule.functionRan",
+        "source_string": "Successfully executed %1$d function entries in function %2$s.",
+        "translation": "˙%2$s uoᴉʇɔunɟ uᴉ sǝᴉɹʇuǝ uoᴉʇɔunɟ %1$d pǝʇnɔǝxǝ ʎꞁꞁnɟssǝɔɔnS",
+        "context": "1: Number of functions that were ran ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.clear.success",
+        "source_string": "Removed %1$d functions with the name %2$s.",
+        "translation": "˙%2$s ǝɯɐu ǝɥʇ ɥʇᴉʍ suoᴉʇɔunɟ %1$d pǝʌoɯǝᴚ",
+        "context": "1: Number of functions cleared ##2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.func.clear.success",
+        "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
+        "translation": "˙%3$s ǝɯɐu ɥʇᴉʍ puɐ %2$s ǝɯɐu ɐǝɹɐ ᵷuᴉʞɔᴉʇ ǝɥʇ ɥʇᴉʍ suoᴉʇɔunɟ %1$d pǝʌoɯǝᴚ",
+        "context": "1: Number of functions cleared ##2: Name of selected ticking area ##3: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.count",
+        "source_string": "Showing %1$d tracked players on the scoreboard:",
+        "translation": ":pɹɐoqǝɹoɔs ǝɥʇ uo sɹǝʎɐꞁd pǝʞɔɐɹʇ %1$d ᵷuᴉʍoɥS",
+        "context": "1: Number of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.players.set.tagError",
         "source_string": "Could not parse dataTag, reason: %1$s",
         "translation": "%1$s :uosɐǝɹ 'ᵷɐ⟘ɐʇɐp ǝsɹɐd ʇou pꞁnoƆ",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.failure",
+        "source_string": "Could not remove %1$d player(s) from their teams: %2$s",
+        "translation": "%2$s :sɯɐǝʇ ɹᴉǝɥʇ ɯoɹɟ (s)ɹǝʎɐꞁd %1$d ǝʌoɯǝɹ ʇou pꞁnoƆ",
+        "context": "1: Number of Players ##2: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.leave.success",
+        "source_string": "Removed %1$d player(s) from their teams: %2$s",
+        "translation": "%2$s :sɯɐǝʇ ɹᴉǝɥʇ ɯoɹɟ (s)ɹǝʎɐꞁd %1$d pǝʌoɯǝᴚ",
+        "context": "1: Number of Players ##2: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },

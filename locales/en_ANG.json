@@ -336,6 +336,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.textbox.tts.title",
+        "source_string": "Textbox",
+        "translation": "Writbox",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.toggle.tts.title",
         "source_string": "Toggle",
         "translation": "Toggle",
@@ -912,6 +920,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.screenName.emoteWheel",
+        "source_string": "Emotes Screen",
+        "translation": "Stirrings Shirm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.screenName.addExternalServer",
         "source_string": "Add External Server Screen",
         "translation": "Eke Outward Outreckoner Shirm",
@@ -1426,7 +1442,7 @@
     {
         "identifier": "accessibility.gamepad.button.systemLeft",
         "source_string": "View Button",
-        "translation": "See Key",
+        "translation": "Show Key",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5632,6 +5648,22 @@
         "max_length": null
     },
     {
+        "identifier": "container.enchant",
+        "source_string": "Enchant",
+        "translation": "Gale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.clue",
+        "source_string": "%s . . . ?",
+        "translation": "%s . . . ?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.hopper",
         "source_string": "Item Hopper",
         "translation": "Thing Hopper",
@@ -5906,7 +5938,7 @@
     {
         "identifier": "realmsSettingsScreen.viewSubscriptionsButton",
         "source_string": "View Subscriptions",
-        "translation": "See Underwritings",
+        "translation": "Show Underwritings",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6536,6 +6568,22 @@
         "max_length": null
     },
     {
+        "identifier": "enchantment.lootBonus",
+        "source_string": "Looting",
+        "translation": "Reaving",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonusDigger",
+        "source_string": "Fortune",
+        "translation": "Hap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "enchantment.mending",
         "source_string": "Mending",
         "translation": "Fettling",
@@ -6603,6 +6651,14 @@
         "identifier": "enchantment.thorns",
         "source_string": "Thorns",
         "translation": "Thorns",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.waterWorker",
+        "source_string": "Aqua Affinity",
+        "translation": "Water Kinship",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7914,7 +7970,7 @@
     {
         "identifier": "howtoplay.playingTogether.text.4",
         "source_string": "When you start or join an online game, your friends can see this in their Friends tab. If they join, it'll be visible to their friends as well.",
-        "translation": "When you start or fay an onweb game, your friends can see this in her Friends stead. If they fay, it'll be seenly to her friends as well.",
+        "translation": "When you start or fay an onweb game, your friends can see this in her Friends stead. If hie fay, it'll be seenly to her friends as well.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7995,6 +8051,30 @@
         "identifier": "howtoplay.codeBuilder.title",
         "source_string": "How to Play: Code Builder",
         "translation": "How to Play: Dern Builder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingTable",
+        "source_string": "Crafting Table",
+        "translation": "Workbench",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingTable.text.1",
+        "source_string": "The Crafting Table will let you craft more complicated recipes.",
+        "translation": "The Workbench will let you craft more manifold knowledge.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.craftingTable.text.2.notTouch",
+        "source_string": "Place it in the world, then press :_input_key.use: on the Crafting Table to use it.",
+        "translation": "Lay it in the world, then thring :_input_key.use: on the Workbench to brook it.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8091,6 +8171,142 @@
         "identifier": "howtoplay.dyes",
         "source_string": "Dyes",
         "translation": "Dyes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.3",
+        "source_string": "§eBlue Dye§f - Mining Lapis Lazuli deep underground",
+        "translation": "§eHewn Dye§f - Delving Hewnstone deep underground",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.4",
+        "source_string": "§eBlack Dye§f - Collecting Ink Sacs from Squids",
+        "translation": "§eBlack Dye§f - Harvesting Bleck Cods from Sleevefish",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.6",
+        "source_string": "§eGreen Dye§f - Smelted from Cactus",
+        "translation": "§eGreen Dye§f - Smelted from Thorntree",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.7",
+        "source_string": "§eWhite Dye§f - Crafted from Bone Meal",
+        "translation": "§eWhite Dye§f - Crafted from Bone Meal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.header.1",
+        "source_string": "Learn to Fly",
+        "translation": "Learn to Fly",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable",
+        "source_string": "Enchanting Table",
+        "translation": "Galdercraft Bench",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.1",
+        "source_string": "The Experience Points collected by picking up Experience Orbs can be used to enchant Weapons, Armor, Tools, and Books.",
+        "translation": "The Cunning Ords gathered by picking up Cunballs can be brooked to gale Weapons, Hirsting, Tools, and Books.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.header.1",
+        "source_string": "Enchanting",
+        "translation": "Galing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.2",
+        "source_string": "When an enchantable item is placed in the slot below the book in the Enchanting Table, the three buttons to the right of the slot will display some enchantments with their Experience Level cost and Lapis Lazuli cost.",
+        "translation": "When a galenly thing is laid in the groovestead beneath the book in the Galdercraft Bench, the three keys to the right of the groovestead will show some galders with her Cunning Layer worth and Hewnstone worth.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.3",
+        "source_string": "The actual enchantment applied is randomly selected based on the cost displayed.",
+        "translation": "The real galder besought is hapsomely chosen on the fee shown.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.header.2",
+        "source_string": "Stronger Enchantments",
+        "translation": "Stronger Galders",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.4",
+        "source_string": "If the Enchanting Table is surrounded by Bookshelves (up to a maximum of 15), with a one block gap between the Bookshelf and the Enchanting Table, arcane glyphs will be seen going to the book on the Enchanting Table and the potency of the enchantments will be increased.",
+        "translation": "If the Galdercraft Bench is belapped by Bookshelves (up to the greatest of 15), with a one clot gap between the Bookshelf and the Galdercraft Bench, rowncraftish carvings will be seen going to the book on the Galdercraft Bench and the mightihood of the galders will be risen.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.header.3",
+        "source_string": "Enchanting Books",
+        "translation": "Galing Books",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.enchantingTable.text.5",
+        "source_string": "Enchanted Books are used at the Anvil to apply enchantments to items. This gives you more control over which enchantments you would like on your items.",
+        "translation": "Galed Books are brooked at the Anvil to beseech galders to things. This yeaves you more steer over which galders you would like on your things.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.encyclopedia",
+        "source_string": "Encyclopedia",
+        "translation": "Kenbook",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.encyclopedia.title",
+        "source_string": "Minecraft Encyclopedia",
+        "translation": "Minecraft Kenbook",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.encyclopedia.text.1",
+        "source_string": "Minecraft Encyclopedia",
+        "translation": "Minecraft Kenbook",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16608,6 +16824,14 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.enchantedBook",
+        "source_string": "Enchanted Books",
+        "translation": "Galed Books",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.coral",
         "source_string": "Coral Blocks",
         "translation": "Blossomdeer Clots",
@@ -16659,6 +16883,230 @@
         "identifier": "key.mobeffectsandinteractwithtoast",
         "source_string": "Open Notification/Mob Effects",
         "translation": "Open Heedening/Wight Rines",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.left",
+        "source_string": "Strafe Left",
+        "translation": "Sidestep Left",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.mouseButton",
+        "source_string": "Button %1$s",
+        "translation": "Key %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.pickItem",
+        "source_string": "Pick Block",
+        "translation": "Pick Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.playerlist",
+        "source_string": "List Players",
+        "translation": "List Players",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.right",
+        "source_string": "Strafe Right",
+        "translation": "Sidestep Right",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.inGameMenu",
+        "source_string": "Game Menu",
+        "translation": "Game List",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.use",
+        "source_string": "Use Item/Place Block",
+        "translation": "Brook Thing/Lay Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.flyDownSlow",
+        "source_string": "Fly Down Slow",
+        "translation": "Fly Down Slow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.flyUpSlow",
+        "source_string": "Fly Up Slow",
+        "translation": "Fly Down Slow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.mobEffects",
+        "source_string": "Mob Effects",
+        "translation": "Wight Rines",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.moveBack",
+        "source_string": "Move Back",
+        "translation": "Shrithe Back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.moveForward",
+        "source_string": "Move Forward",
+        "translation": "Shrithe Forward",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.moveLeft",
+        "source_string": "Move Left",
+        "translation": "Shrithe Left",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.moveRight",
+        "source_string": "Move Right",
+        "translation": "Shrithe Right",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.pause",
+        "source_string": "Pause",
+        "translation": "Stop",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.backspace",
+        "source_string": "BACK",
+        "translation": "BACK",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.tab",
+        "source_string": "TAB",
+        "translation": "STEAD",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.return",
+        "source_string": "RETURN",
+        "translation": "EFTCOME",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.pause",
+        "source_string": "PAUSE",
+        "translation": "STOP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.lshift",
+        "source_string": "SHIFT",
+        "translation": "SHIFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.end",
+        "source_string": "END",
+        "translation": "END",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.home",
+        "source_string": "HOME",
+        "translation": "HOME",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.left",
+        "source_string": "LEFT",
+        "translation": "LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.up",
+        "source_string": "UP",
+        "translation": "UP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.right",
+        "source_string": "RIGHT",
+        "translation": "RIGHT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.down",
+        "source_string": "DOWN",
+        "translation": "DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.insert",
+        "source_string": "INSERT",
+        "translation": "INPUT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.delete",
+        "source_string": "DELETE",
+        "translation": "ADWASH",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17192,9 +17640,105 @@
         "max_length": null
     },
     {
+        "identifier": "options.brightness.notVisible",
+        "source_string": "Not Visible",
+        "translation": "Not Seenly",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.brightness.barelyVisible",
+        "source_string": "Barely Visible",
+        "translation": "Barely Seenly",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.brightness.easilyVisible",
+        "source_string": "Easily Visible",
+        "translation": "Eath Seenly",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.adEduRememberMe",
+        "source_string": "Remember Me",
+        "translation": "Mind Me",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.advancedButton",
+        "source_string": "Advanced Video Settings...",
+        "translation": "Furthered Filmlike Settings...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.showAdvancedVideoSettings",
+        "source_string": "Show Advanced Video Settings",
+        "translation": "Show Furthered Filmlike Settings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.advancedOpengl",
+        "source_string": "Advanced OpenGL",
+        "translation": "Furthered OpenGL",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.advancedVideoTitle",
+        "source_string": "Advanced Video Settings",
+        "translation": "Furthered Filmlike Settings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.attribution",
+        "source_string": "Attribution",
+        "translation": "Ownship",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.ao.max",
+        "source_string": "Maximum",
+        "translation": "Greatest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.ao.min",
+        "source_string": "Minimum",
+        "translation": "Least",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.ao.off",
         "source_string": "OFF",
         "translation": "OFF",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.clearhotbar",
+        "source_string": "Clear Hotbar",
+        "translation": "Empty Hotband",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17211,6 +17755,14 @@
         "identifier": "options.buildid.format",
         "source_string": "Build: %1$s",
         "translation": "Build: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.controlMode.selected",
+        "source_string": "Selected: ",
+        "translation": "Chosen: ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17299,6 +17851,22 @@
         "identifier": "options.chat.color",
         "source_string": "Colors",
         "translation": "Hues",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.chat.links",
+        "source_string": "Web Links",
+        "translation": "Web Links",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.chat.opacity",
+        "source_string": "Opacity",
+        "translation": "Throughsight",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17448,6 +18016,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.delete_account.confirm.button",
+        "source_string": "Delete",
+        "translation": "Adwash",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_show_display_logged_error_marketplace",
         "source_string": "Marketplace errors",
         "translation": "Chapstow dwales",
@@ -17459,6 +18035,14 @@
         "identifier": "options.dev_chunk_map_mode_off",
         "source_string": "Off",
         "translation": "Off",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_chunk_map_mode_client",
+        "source_string": "Client",
+        "translation": "Software",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -17484,6 +18068,14 @@
         "source_string": "Camera",
         "translation": "Byldmaker",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_enableDebugHudOverlay.hbui",
+        "source_string": "Gameface ",
+        "translation": "Gameleer ",
+        "context": "This is a proper name, do not translate",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17531,6 +18123,14 @@
         "identifier": "options.dev_connection_quality.slow",
         "source_string": "Slow",
         "translation": "Slow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.discoveryEnvironment.local",
+        "source_string": "Local",
+        "translation": "Neigh",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -18040,9 +18640,41 @@
         "max_length": null
     },
     {
+        "identifier": "options.creator.watchdogHangFormat",
+        "source_string": "%s Seconds",
+        "translation": "%s Braids",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.creator.watchdogHangFormatDefault",
+        "source_string": "%s Seconds (default)",
+        "translation": "%s Braids (stock)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.interactionmodel.touch",
         "source_string": "Touch",
         "translation": "Rine",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.interactionmodel.crosshair",
+        "source_string": "Crosshair",
+        "translation": "Roodheer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.interactionmodel.classic",
+        "source_string": "Classic",
+        "translation": "Win",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -18064,9 +18696,33 @@
         "max_length": null
     },
     {
+        "identifier": "options.language",
+        "source_string": "Language",
+        "translation": "Tongue",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.languageGuiScaleCompatibility.cancel",
+        "source_string": "Go Back",
+        "translation": "Go Back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.cancel",
+        "source_string": "Cancel",
+        "translation": "Belay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.accountErrorButton",
         "source_string": "View Errors",
-        "translation": "See Dwales",
+        "translation": "Show Dwales",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -19362,7 +20018,7 @@
     {
         "identifier": "resourcePack.available.none.store",
         "source_string": "View Marketplace",
-        "translation": "See Chapstow",
+        "translation": "Show Chapstow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -19370,7 +20026,7 @@
     {
         "identifier": "resourcePack.suggestedContent.button.viewMore",
         "source_string": "View More Packs",
-        "translation": "See More Packs",
+        "translation": "Show More Packs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -19386,7 +20042,7 @@
     {
         "identifier": "resourcePack.error.enteringgame.button",
         "source_string": "View Active Packs",
-        "translation": "See Astirred Packs",
+        "translation": "Show Astirred Packs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20120,10 +20776,362 @@
         "max_length": null
     },
     {
+        "identifier": "store.search.filter.andSelectedText",
+        "source_string": "and %s",
+        "translation": "and %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.pack_type",
+        "source_string": "Pack Types",
+        "translation": "Pack Kinds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.pack_type.selectedCount",
+        "source_string": "%d Pack Types",
+        "translation": "%d Pack Kinds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.minecoin",
+        "source_string": "Minecoins",
+        "translation": "Minecoins",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.minecoin.selectedCount",
+        "source_string": "%d Minecoin Filters",
+        "translation": "%d Minecoin Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.clear.minecoin",
+        "source_string": "Clear Minecoin Filters",
+        "translation": "Empty Minecoin Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.rating",
+        "source_string": "Ratings",
+        "translation": "Deemings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.rating.selectedCount",
+        "source_string": "%d Rating Filters",
+        "translation": "%d Deeming Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.clear.rating",
+        "source_string": "Clear Rating Filters",
+        "translation": "Empty Deeming Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.addonPacks",
+        "source_string": "Add-Ons",
+        "translation": "Eke-Ons",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.skinPacks",
+        "source_string": "Skins",
+        "translation": "Hides",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.texturePacks",
+        "source_string": "Textures",
+        "translation": "Lodes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.title",
+        "source_string": "Filters",
+        "translation": "Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.worldTemplates",
+        "source_string": "Worlds",
+        "translation": "Worlds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.addOns",
+        "source_string": "Add-Ons",
+        "translation": "Eke-Ons",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.installed_state",
+        "source_string": "Installed State",
+        "translation": "Stelled Hoad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.installed",
+        "source_string": "Installed",
+        "translation": "Stelled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.notInstalled",
+        "source_string": "Not Installed",
+        "translation": "Not Stelled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.clear.installed",
+        "source_string": "Reset Installed Filters",
+        "translation": "Edset Stelled Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.dressingroombody",
+        "source_string": "Body",
+        "translation": "Body",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.dressingroomstyle",
+        "source_string": "Style",
+        "translation": "Kind",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.dressingroomstyle.selectedCount",
+        "source_string": "%d Styles",
+        "translation": "%d Kinds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.sortConstWord",
+        "source_string": "Sort",
+        "translation": "Temse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.Default",
+        "source_string": "Relevance",
+        "translation": "Bearing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.NewestFirst",
+        "source_string": "Newest First",
+        "translation": "Newest First",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.OldestFirst",
+        "source_string": "Oldest First",
+        "translation": "Oldest First",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.A_to_Z",
+        "source_string": "A to Z",
+        "translation": "A to Z",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.Z_to_A",
+        "source_string": "Z to A",
+        "translation": "Z to A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.Installed",
+        "source_string": "Installed",
+        "translation": "Stelled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.notInstalled",
+        "source_string": "Not Installed",
+        "translation": "Not Stelled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.resultText",
+        "source_string": "by %s",
+        "translation": "by %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.A_to_Z.tts.title",
+        "source_string": "'A' to 'Z'",
+        "translation": "'A' to 'Z'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.Z_to_A.tts.title",
+        "source_string": "'Z' to 'A'",
+        "translation": "'Z' to 'A'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.pagination.next",
+        "source_string": "Next >",
+        "translation": "Next >",
+        "context": "Chevrons (< and >) should not be moved",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.pagination.previous",
+        "source_string": "< Previous",
+        "translation": "< Former",
+        "context": "Chevrons (< and >) should not be moved",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.uploadContentToRealmsFail.title",
+        "source_string": "Error",
+        "translation": "Dwale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.uploadContentToRealmsProgressTitle",
+        "source_string": "Applying content to Realm",
+        "translation": "Beseeching inholding to Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.uploadContentToRealmsProgressText",
+        "source_string": "The selected content is being applied to your Realm.",
+        "translation": "The chosen inholding is being besought to your Realm.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.uploadContentToRealmsFail.message",
+        "source_string": "Failed to upload content to the selected Realm!",
+        "translation": "Could not upload inholding to the chosen Realm!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.uploadContentToRealmsFail.forbidden.message",
+        "source_string": "You do not own one or more of the applied content!",
+        "translation": "You do not own one or more of the besought inholding!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.applyToRealm",
+        "source_string": "Create on Realm",
+        "translation": "Make on Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.inRealmsPlus",
+        "source_string": "In Realms Plus",
+        "translation": "In Realms Plus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.inCsb",
         "source_string": "In Marketplace Pass",
         "translation": "In Chapstow Path",
         "context": "{StrContains=\"Marketplace Pass\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.uploadWorldTitle",
+        "source_string": "Replace World?",
+        "translation": "Swap Out World?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.uploadPackTitle",
+        "source_string": "Replace Pack?",
+        "translation": "Swap Out Pack?",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -20144,9 +21152,65 @@
         "max_length": null
     },
     {
+        "identifier": "stream.unavailable.account_not_bound.okay",
+        "source_string": "Link Accounts",
+        "translation": "Link Reckonings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.account_not_migrated.okay",
+        "source_string": "Migrate Account",
+        "translation": "Wander Out Reckoning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.failed_auth.okay",
+        "source_string": "Rebind Accounts",
+        "translation": "Edbind Reckonings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.initialization_failure.extra",
+        "source_string": "(Reason: %s)",
+        "translation": "(Ground: %s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.no_fbo.version",
+        "source_string": "You are currently using: %s",
+        "translation": "You are anwardly brooking: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.not_supported.mac.okay",
+        "source_string": "Upgrade",
+        "translation": "Better",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "stream.unavailable.report_to_mojang",
         "source_string": "Report to Mojang",
         "translation": "Mield to Mojang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.soundflower.chat.link",
+        "source_string": "Please click here to install it.",
+        "translation": "Kindly click here to stell it.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20560,6 +21624,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.glow_berries.name",
+        "source_string": "Glow Berries",
+        "translation": "Glow Berries",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.moss_block.name",
         "source_string": "Moss Block",
         "translation": "Moss Clot",
@@ -20728,9 +21800,33 @@
         "max_length": null
     },
     {
+        "identifier": "tile.stone_button.name",
+        "source_string": "Stone Button",
+        "translation": "Stone Knap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.cactus.name",
         "source_string": "Cactus",
         "translation": "Thorntree",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cake.name",
+        "source_string": "Cake",
+        "translation": "Kitch",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.dried_kelp_block.name",
+        "source_string": "Dried Kelp Block",
+        "translation": "Dried Ash Seaweed Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20755,6 +21851,14 @@
         "identifier": "tile.cauldron.name",
         "source_string": "Cauldron",
         "translation": "Ironcrock",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chalkboard.oneByOne.name",
+        "source_string": "Slate",
+        "translation": "Shindlestone",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21136,6 +22240,86 @@
         "max_length": null
     },
     {
+        "identifier": "tile.polished_blackstone_bricks.name",
+        "source_string": "Polished Blackstone Bricks",
+        "translation": "Sliked Blackstone Woughstones",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cracked_polished_blackstone_bricks.name",
+        "source_string": "Cracked Polished Blackstone Bricks",
+        "translation": "Cracked Sliked Blackstone Woughstones",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_brick_stairs.name",
+        "source_string": "Polished Blackstone Brick Stairs",
+        "translation": "Sliked Blackstone Woughstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.blackstone_stairs.name",
+        "source_string": "Blackstone Stairs",
+        "translation": "Blackstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.blackstone_wall.name",
+        "source_string": "Blackstone Wall",
+        "translation": "Blackstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_brick_wall.name",
+        "source_string": "Polished Blackstone Brick Wall",
+        "translation": "Sliked Blackstone Woughstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chiseled_polished_blackstone.name",
+        "source_string": "Chiseled Polished Blackstone",
+        "translation": "Graven Sliked Blackstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.gilded_blackstone.name",
+        "source_string": "Gilded Blackstone",
+        "translation": "Gilded Blackstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.blackstone_slab.name",
+        "source_string": "Blackstone Slab",
+        "translation": "Blackstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_brick_slab.name",
+        "source_string": "Polished Blackstone Brick Slab",
+        "translation": "Sliked Blackstone Woughstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.chain.name",
         "source_string": "Chain",
         "translation": "Rackent",
@@ -21152,6 +22336,526 @@
         "max_length": null
     },
     {
+        "identifier": "tile.soul_fire.name",
+        "source_string": "Soul Fire",
+        "translation": "Soul Fire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone.name",
+        "source_string": "Polished Blackstone",
+        "translation": "Sliked Blackstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_stairs.name",
+        "source_string": "Polished Blackstone Stairs",
+        "translation": "Sliked Blackstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_slab.name",
+        "source_string": "Polished Blackstone Slab",
+        "translation": "Sliked Blackstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_pressure_plate.name",
+        "source_string": "Polished Blackstone Pressure Plate",
+        "translation": "Sliked Blackstone Thrutch Tile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_button.name",
+        "source_string": "Polished Blackstone Button",
+        "translation": "Sliked Blackstone Knap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_blackstone_wall.name",
+        "source_string": "Polished Blackstone Wall",
+        "translation": "Sliked Blackstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_tuff.name",
+        "source_string": "Polished Tuff",
+        "translation": "Sliked Ashstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_tuff_slab.name",
+        "source_string": "Polished Tuff Slab",
+        "translation": "Sliked Ashstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_tuff_stairs.name",
+        "source_string": "Polished Tuff Stairs",
+        "translation": "Sliked Ashstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.polished_tuff_wall.name",
+        "source_string": "Polished Tuff Wall",
+        "translation": "Sliked Ashstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chiseled_nether_bricks.name",
+        "source_string": "Chiseled Nether Bricks",
+        "translation": "Graven Nether Tiles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cracked_nether_bricks.name",
+        "source_string": "Cracked Nether Bricks",
+        "translation": "Cracked Nether Tiles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.trapped_chest.name",
+        "source_string": "Trapped Chest",
+        "translation": "Trapped Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxWhite.name",
+        "source_string": "White Shulker Box",
+        "translation": "White Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxOrange.name",
+        "source_string": "Orange Shulker Box",
+        "translation": "Yellowred Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxMagenta.name",
+        "source_string": "Magenta Shulker Box",
+        "translation": "Bazered Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxLightBlue.name",
+        "source_string": "Light Blue Shulker Box",
+        "translation": "Light Hewn Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxYellow.name",
+        "source_string": "Yellow Shulker Box",
+        "translation": "Yellow Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxLime.name",
+        "source_string": "Lime Shulker Box",
+        "translation": "Light Green Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxPink.name",
+        "source_string": "Pink Shulker Box",
+        "translation": "Light Red Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxGray.name",
+        "source_string": "Gray Shulker Box",
+        "translation": "Gray Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxSilver.name",
+        "source_string": "Light Gray Shulker Box",
+        "translation": "Light Gray Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxCyan.name",
+        "source_string": "Cyan Shulker Box",
+        "translation": "Hewngreen Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxPurple.name",
+        "source_string": "Purple Shulker Box",
+        "translation": "Baze Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxBlue.name",
+        "source_string": "Blue Shulker Box",
+        "translation": "Hewn Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxBrown.name",
+        "source_string": "Brown Shulker Box",
+        "translation": "Brown Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxGreen.name",
+        "source_string": "Green Shulker Box",
+        "translation": "Green Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxRed.name",
+        "source_string": "Red Shulker Box",
+        "translation": "Red Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBoxBlack.name",
+        "source_string": "Black Shulker Box",
+        "translation": "Black Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.shulkerBox.name",
+        "source_string": "Shulker Box",
+        "translation": "Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chorus_flower.name",
+        "source_string": "Chorus Flower",
+        "translation": "Glee Blossom",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chorus_plant.name",
+        "source_string": "Chorus Plant",
+        "translation": "Glee Wort",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.white.name",
+        "source_string": "White Stained Glass",
+        "translation": "White Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.silver.name",
+        "source_string": "Light Gray Stained Glass",
+        "translation": "Light Gray Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.gray.name",
+        "source_string": "Gray Stained Glass",
+        "translation": "Gray Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.black.name",
+        "source_string": "Black Stained Glass",
+        "translation": "Black Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.brown.name",
+        "source_string": "Brown Stained Glass",
+        "translation": "Brown Hued Gladd",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.red.name",
+        "source_string": "Red Stained Glass",
+        "translation": "Red Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.orange.name",
+        "source_string": "Orange Stained Glass",
+        "translation": "Yellowred Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.yellow.name",
+        "source_string": "Yellow Stained Glass",
+        "translation": "Yellow Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.lime.name",
+        "source_string": "Lime Stained Glass",
+        "translation": "Light Green Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.green.name",
+        "source_string": "Green Stained Glass",
+        "translation": "Green Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.cyan.name",
+        "source_string": "Cyan Stained Glass",
+        "translation": "Hewngreen Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.light_blue.name",
+        "source_string": "Light Blue Stained Glass",
+        "translation": "Light Hewn Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.blue.name",
+        "source_string": "Blue Stained Glass",
+        "translation": "Hewn Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.purple.name",
+        "source_string": "Purple Stained Glass",
+        "translation": "Baze Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.magenta.name",
+        "source_string": "Magenta Stained Glass",
+        "translation": "Bazered Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass.pink.name",
+        "source_string": "Pink Stained Glass",
+        "translation": "Light Red Hued Glass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.white.name",
+        "source_string": "White Stained Glass Pane",
+        "translation": "White Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.silver.name",
+        "source_string": "Light Gray Stained Glass Pane",
+        "translation": "Light Gray Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.gray.name",
+        "source_string": "Gray Stained Glass Pane",
+        "translation": "Gray Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.black.name",
+        "source_string": "Black Stained Glass Pane",
+        "translation": "Black Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.brown.name",
+        "source_string": "Brown Stained Glass Pane",
+        "translation": "Brown Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.red.name",
+        "source_string": "Red Stained Glass Pane",
+        "translation": "Red Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.orange.name",
+        "source_string": "Orange Stained Glass Pane",
+        "translation": "Yellowred Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.yellow.name",
+        "source_string": "Yellow Stained Glass Pane",
+        "translation": "Yellow Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.lime.name",
+        "source_string": "Lime Stained Glass Pane",
+        "translation": "Light Green Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.green.name",
+        "source_string": "Green Stained Glass Pane",
+        "translation": "Green Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.cyan.name",
+        "source_string": "Cyan Stained Glass Pane",
+        "translation": "Hewngreen Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.light_blue.name",
+        "source_string": "Light Blue Stained Glass Pane",
+        "translation": "Light Hewn Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.blue.name",
+        "source_string": "Blue Stained Glass Pane",
+        "translation": "Hewn Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.purple.name",
+        "source_string": "Purple Stained Glass Pane",
+        "translation": "Baze Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.magenta.name",
+        "source_string": "Magenta Stained Glass Pane",
+        "translation": "Bazered Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stained_glass_pane.pink.name",
+        "source_string": "Pink Stained Glass Pane",
+        "translation": "Light Red Hued Glass Sheet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.clay.name",
         "source_string": "Clay",
         "translation": "Clay",
@@ -21163,6 +22867,14 @@
         "identifier": "structure_block.waterlog_block",
         "source_string": "Waterlog Blocks",
         "translation": "Adrench Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.trial_spawner.name",
+        "source_string": "Trial Spawner",
+        "translation": "Fand Beyetter",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21304,6 +23016,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.cobblestone_wall.mossy.name",
+        "source_string": "Mossy Cobblestone Wall",
+        "translation": "Mossy Cobblestone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.normal.name",
+        "source_string": "Cobblestone Wall ",
+        "translation": "Cobblestone Wough ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.cobblestone_wall.granite.name",
         "source_string": "Granite Wall",
         "translation": "Cornstone Wough",
@@ -21315,6 +23043,78 @@
         "identifier": "tile.cobblestone_wall.diorite.name",
         "source_string": "Diorite Wall",
         "translation": "Shedstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.andesite.name",
+        "source_string": "Andesite Wall",
+        "translation": "Andestone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.sandstone.name",
+        "source_string": "Sandstone Wall",
+        "translation": "Sandstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.brick.name",
+        "source_string": "Brick Wall",
+        "translation": "Tile Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.stone_brick.name",
+        "source_string": "Stone Brick Wall",
+        "translation": "Woughstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.mossy_stone_brick.name",
+        "source_string": "Mossy Stone Brick Wall",
+        "translation": "Mossy Woughstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.nether_brick.name",
+        "source_string": "Nether Brick Wall",
+        "translation": "Nether Tile Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.end_brick.name",
+        "source_string": "End Stone Brick Wall",
+        "translation": "End Woughstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.red_nether_brick.name",
+        "source_string": "Red Nether Brick Wall",
+        "translation": "Red Nether Tile Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.command_block.name",
+        "source_string": "Command Block",
+        "translation": "Hest Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21776,6 +23576,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.jukebox.name",
+        "source_string": "Jukebox",
+        "translation": "Gleebox",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.jungleFence.name",
         "source_string": "Jungle Fence",
         "translation": "Rainwold Edder",
@@ -21976,6 +23784,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.noteblock.name",
+        "source_string": "Note Block",
+        "translation": "Ringer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.mycelium.name",
         "source_string": "Mycelium",
         "translation": "Swambmore",
@@ -22080,6 +23896,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.diamond_ore.name",
+        "source_string": "Diamond Ore",
+        "translation": "Hardhirst Ore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.gold_ore.name",
         "source_string": "Gold Ore",
         "translation": "Gold Ore",
@@ -22091,6 +23915,14 @@
         "identifier": "tile.iron_ore.name",
         "source_string": "Iron Ore",
         "translation": "Iron Ore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.lapis_ore.name",
+        "source_string": "Lapis Lazuli Ore",
+        "translation": "Hewnstone Ore",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22128,6 +23960,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.stone_pressure_plate.name",
+        "source_string": "Stone Pressure Plate",
+        "translation": "Stone Thrutch Tile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.wooden_pressure_plate.name",
         "source_string": "Oak Pressure Plate",
         "translation": "Oak Thrutch Tile",
@@ -22155,6 +23995,14 @@
         "identifier": "tile.jungle_pressure_plate.name",
         "source_string": "Jungle Pressure Plate",
         "translation": "Rainwold Thrutch Tile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.prismarine.bricks.name",
+        "source_string": "Prismarine Bricks",
+        "translation": "Prismarine Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22472,6 +24320,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.stone_brick_stairs.name",
+        "source_string": "Stone Brick Stairs",
+        "translation": "Woughstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.oak_stairs.name",
         "source_string": "Oak Stairs",
         "translation": "Oak Stairs",
@@ -22571,6 +24427,22 @@
         "identifier": "tile.polished_andesite_stairs.name",
         "source_string": "Polished Andesite Stairs",
         "translation": "Sliked Andestone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.mossy_stone_brick_stairs.name",
+        "source_string": "Mossy Stone Brick Stairs",
+        "translation": "Mossy Woughstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.end_brick_stairs.name",
+        "source_string": "End Stone Brick Stairs",
+        "translation": "End Woughstone Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22786,7 +24658,7 @@
     {
         "identifier": "tile.stonebrick.chiseled.name",
         "source_string": "Chiseled Stone Bricks",
-        "translation": "Graven Stone Woughstones",
+        "translation": "Graven Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22794,7 +24666,7 @@
     {
         "identifier": "tile.stonebrick.cracked.name",
         "source_string": "Cracked Stone Bricks",
-        "translation": "Cracked Stone Woughstones",
+        "translation": "Cracked Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22802,7 +24674,7 @@
     {
         "identifier": "tile.stonebrick.default.name",
         "source_string": "Stone Bricks",
-        "translation": "Stone Woughstones",
+        "translation": "Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22810,7 +24682,7 @@
     {
         "identifier": "tile.stonebrick.mossy.name",
         "source_string": "Mossy Stone Bricks",
-        "translation": "Mossy Stone Woughstones",
+        "translation": "Mossy Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22818,7 +24690,7 @@
     {
         "identifier": "tile.stonebrick.name",
         "source_string": "Stone Bricks",
-        "translation": "Stone Woughstones",
+        "translation": "Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22826,7 +24698,7 @@
     {
         "identifier": "tile.stonebrick.smooth.name",
         "source_string": "Smooth Stone Bricks",
-        "translation": "Smooth Stone Woughstones",
+        "translation": "Smooth Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22898,7 +24770,7 @@
     {
         "identifier": "tile.double_stone_slab.smoothStoneBrick.name",
         "source_string": "Stone Brick Slab",
-        "translation": "Stone Woughstone Halfclot",
+        "translation": "Woughstone Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22970,7 +24842,7 @@
     {
         "identifier": "tile.stone_slab.smoothStoneBrick.name",
         "source_string": "Stone Brick Slab",
-        "translation": "Stone Woughstone Halfclot",
+        "translation": "Woughstone Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23016,6 +24888,30 @@
         "max_length": null
     },
     {
+        "identifier": "tile.stone_slab2.prismarine.bricks.name",
+        "source_string": "Prismarine Brick Slab",
+        "translation": "Prismarine Woughstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stone_slab2.red_nether_brick.name",
+        "source_string": "Red Nether Brick Slab",
+        "translation": "Red Nether Tile Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stone_slab3.end_brick.name",
+        "source_string": "End Stone Brick Slab",
+        "translation": "End Woughstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.stone_slab3.diorite.name",
         "source_string": "Diorite Slab",
         "translation": "Shedstone Halfclot",
@@ -23043,6 +24939,14 @@
         "identifier": "tile.stone_slab3.granite.smooth.name",
         "source_string": "Polished Granite Slab",
         "translation": "Sliked Cornstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stone_slab4.mossy_stone_brick.name",
+        "source_string": "Mossy Stone Brick Slab",
+        "translation": "Mossy Woughstone Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23194,7 +25098,7 @@
     {
         "identifier": "tile.end_bricks.name",
         "source_string": "End Stone Bricks",
-        "translation": "End Stone Woughstones",
+        "translation": "End Woughstones",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23960,6 +25864,30 @@
         "max_length": null
     },
     {
+        "identifier": "tile.netherite_block.name",
+        "source_string": "Block of Netherite",
+        "translation": "Netherite Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.ancient_debris.name",
+        "source_string": "Ancient Debris",
+        "translation": "Fern Lave",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.nether_gold_ore.name",
+        "source_string": "Nether Gold Ore",
+        "translation": "Nether Gold Ore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.crying_obsidian.name",
         "source_string": "Crying Obsidian",
         "translation": "Weeping Ravenflint",
@@ -24499,6 +26427,22 @@
         "identifier": "tipped_arrow.effect.windCharged",
         "source_string": "Arrow of Wind Charging",
         "translation": "Flone of Wind Loading",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.title",
+        "source_string": "Structure Block",
+        "translation": "Framework Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.structure_name",
+        "source_string": "Structure Name",
+        "translation": "Framework Name",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26640,6 +28584,46 @@
         "max_length": null
     },
     {
+        "identifier": "gameTest.assert.noContainerFound",
+        "source_string": "No container found",
+        "translation": "No inholder found",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.assert.invalidEntityInstance",
+        "source_string": "Invalid entity instance",
+        "translation": "Unright ansen befalling",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.success.runningTests",
+        "source_string": "Running %s tests...",
+        "translation": "Running %s fands...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.success.relativePosition",
+        "source_string": "Position relative to %s: %s",
+        "translation": "Stow akin to %s: %s",
+        "context": "first %s is the name of the test and the second %s is the local location in the test structure",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.success.passed",
+        "source_string": "%s passed!",
+        "translation": "%s byfared!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gameTest.report.testLocation",
         "source_string": "At: %s, %s, %s (relative: %s, %s, %s)",
         "translation": "At: %s, %s, %s (kin: %s, %s, %s)",
@@ -26688,9 +28672,425 @@
         "max_length": null
     },
     {
+        "identifier": "script.error.unknownCommandMode",
+        "source_string": "Unknown command mode provided",
+        "translation": "Unknown hest wayset yeaven",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "script.error.debuggerFailed",
+        "source_string": "Failed to start debugger",
+        "translation": "Could not start unbugger",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "script.success.debuggerListen",
+        "source_string": "Debugger listening on port %s",
+        "translation": "Unbugger listening on harbor %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "script.success.debuggerConnect",
+        "source_string": "Debugger connected to host %s on port %s",
+        "translation": "Unbugger bound to dright %s on harbor %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "script.success.debuggerClosed",
+        "source_string": "Debugger closed",
+        "translation": "Unbugger shut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "clientscript.error.debuggerFailed",
+        "source_string": "Failed to start client debugger",
+        "translation": "Could not start software unbugger",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "clientscript.success.debuggerListen",
+        "source_string": "Client debugger listening on port %s",
+        "translation": "Software unbugger listening on harbor %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "clientscript.success.debuggerConnect",
+        "source_string": "Client debugger connected to host %s on port %s",
+        "translation": "Software unbugger bound to dright %s on harbor %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "clientscript.success.debuggerClosed",
+        "source_string": "Client debugger closed",
+        "translation": "Software unbugger shut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "world_recovery.select_worlds",
+        "source_string": "Select Worlds",
+        "translation": "Choose Worlds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "world_recovery.error.generic",
+        "source_string": "An error occurred: %s",
+        "translation": "A dwale befell: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.button.liveEventFallback",
+        "source_string": "Live Event",
+        "translation": "Live Befalling",
+        "context": "An in-game event that is currently active or will soon become active",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.button.join.liveEventFallback",
+        "source_string": "Join Event",
+        "translation": "Fay Befalling",
+        "context": "A prompt for the user to join the active Live Event",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.button.updateRequired",
+        "source_string": "Update Required",
+        "translation": "Anwardening Needed",
+        "context": "An updated version of Minecraft is required for the user to proceed",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.caption.startsIn",
+        "source_string": "Starts in %s",
+        "translation": "Starts in %s",
+        "context": "This is a countdown where %s will return a long format date. A final string may say \"Starts in 34d 12h 54m 22s\" for 34 days, 12 hours, 54 minutes, and 22 seconds.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.caption.endsIn",
+        "source_string": "Ends in %s",
+        "translation": "Ends in %s",
+        "context": "This is a countdown where %s will return a long format date. A final string may say \"Ends in 34d 12h 54m 22s\" for 34 days, 12 hours, 54 minutes, and 22 seconds.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.info.button.readMore",
+        "source_string": "Read More...",
+        "translation": "Read More...",
+        "context": "Button that will link the user to a location that contains more information about the current Live Event",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.info.title.liveEventFallback",
+        "source_string": "Live Event",
+        "translation": "Live Befalling",
+        "context": "An in-game event that is currently active or will soon become active",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.info.header.liveEventFallback",
+        "source_string": "Live Event",
+        "translation": "Live Befalling",
+        "context": "An in-game event that is currently active or will soon become active",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.info.modal.title.connectFail",
+        "source_string": "Failed to connect",
+        "translation": "Could not bind",
+        "context": "Informing the user that an error occurred when connecting to the Live Event",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.connect.title",
+        "source_string": "Connecting...",
+        "translation": "Binding...",
+        "context": "Status message while the user is connecting to the Live Event server",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.info.qr.title.onlineService",
+        "source_string": "Learn More",
+        "translation": "Learn More",
+        "context": "Text above a QR code that will redirect the user to a location with more information about the current Live Event",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.info.qr.title.childAccount",
+        "source_string": "Online Play Not Allowed",
+        "translation": "Onweb Play Not Aleaved",
+        "context": "User is not allowed to join the Live Event due to online/multiplayer restrictions on their account",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.activation.warning",
+        "source_string": "Unable to find Gathering",
+        "translation": "Could not find Gathering",
+        "context": "Error when the client is unable to find the specified gathering during deeplink activation",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.activation.warning.title",
+        "source_string": "Oh no!",
+        "translation": "Oh no!",
+        "context": "Expression of mild distress when an error occurs",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wildflowers.name",
+        "source_string": "Wildflowers",
+        "translation": "Wildblossoms",
+        "context": "A patch of thin decorative wild flowers on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.firefly_bush.name",
+        "source_string": "Firefly Bush",
+        "translation": "Firefly Bush",
+        "context": "A bush inhabited by Firefly bugs",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bush.name",
+        "source_string": "Bush",
+        "translation": "Bush",
+        "context": "A small, dense, plant",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.leaf_litter.name",
+        "source_string": "Leaf Litter",
+        "translation": "Fallen Leaves",
+        "context": "A patch of thin decorative leaf litter on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cactus_flower.name",
+        "source_string": "Cactus Flower",
+        "translation": "Thorntree Blossom",
+        "context": "A pink flower which grows on the top of a Cactus",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.brown_egg.name",
+        "source_string": "Brown Egg",
+        "translation": "Brown Ey",
+        "context": "A brown chicken egg which hatches a warm climate variant of a chicken",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.blue_egg.name",
+        "source_string": "Blue Egg",
+        "translation": "Hewn Ey",
+        "context": "A blue chicken egg which hatches a cold climate variant of a chicken",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.short_dry_grass.name",
+        "source_string": "Short Dry Grass",
+        "translation": "Short Dry Grass",
+        "context": "A patch of short dried grass on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tall_dry_grass.name",
+        "source_string": "Tall Dry Grass",
+        "translation": "Tall Dry Grass",
+        "context": "A patch of tall dried grass on the ground",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.closeInputLegend",
+        "source_string": "Close",
+        "translation": "Shut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "Squeezebox",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Accordion.openInputLegend",
         "source_string": "Open",
         "translation": "Open",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "Keeled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "Unfolded",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.cancelButton",
+        "source_string": "Cancel",
+        "translation": "Belay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "Bear",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "Your reckonings were not fit to be unlinked. Maybe soothe your web binding?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "Something went wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "Are you wis?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "Unlinking reckonings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successBody",
+        "source_string": "Your accounts have been unlinked",
+        "translation": "Your reckonings have been unlinked",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successHeader",
+        "source_string": "Unlink successful",
+        "translation": "Unlink speedful",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkButton",
+        "source_string": "Unlink",
+        "translation": "Unlink",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine1",
+        "source_string": "Account unlink warning",
+        "translation": "Reckoning unlink warning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine2",
+        "source_string": "Account unlink details",
+        "translation": "Reckoning unlink insights",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
+        "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
+        "translation": "If you understand the above and still wish to unlink your reckoning, choose \"Unlink\" beneath.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.anotherPlatform",
+        "source_string": "Completed on another platform",
+        "translation": "Fuldone on another hardware",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26771,6 +29171,102 @@
         "identifier": "hbui.AchievementDetailsRoute.narration.percentage",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.progress",
+        "source_string": "progress",
+        "translation": "forthship",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "meed locked",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "meed unlocked",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.title",
+        "source_string": "Achievement details",
+        "translation": "Fulfilling insights",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.reward",
+        "source_string": "Reward",
+        "translation": "Meed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.title",
+        "source_string": "Achievement Details",
+        "translation": "Fulfilling Insights",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.titleNarration",
+        "source_string": "Achievement Details Screen",
+        "translation": "Fulfilling Insights Shirm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.viewReward",
+        "source_string": "View reward",
+        "translation": "Show meed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
+        "source_string": "A behaviour pack is activated   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "translation": "A behaving pack is astirred",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "translation": "Go back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements   ###Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "translation": "You can’t earn fulfillings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.completed",
+        "source_string": "Completed",
+        "translation": "Fuldone",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
