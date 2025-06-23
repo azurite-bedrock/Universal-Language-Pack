@@ -5584,6 +5584,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.stats.cleared",
+        "source_string": "Cleared %1$s stats",
+        "translation": "Emptied %1$s tolllores",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.tag.add.success.single",
         "source_string": "Added tag '%1$s' to %2$s",
         "translation": "Eked token '%1$s' to %2$s",
@@ -5664,9 +5672,65 @@
         "max_length": null
     },
     {
+        "identifier": "container.enchant.levelrequirement",
+        "source_string": "Level Requirement: %d",
+        "translation": "Layer Foreneed: %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.lapis.many",
+        "source_string": "%d Lapis Lazuli",
+        "translation": "%d Hewnstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.lapis.one",
+        "source_string": "1 Lapis Lazuli",
+        "translation": "1 Hewnstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.level.many",
+        "source_string": "%d Enchantment Levels",
+        "translation": "%d Galdercraft Layers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.enchant.level.one",
+        "source_string": "1 Enchantment Level",
+        "translation": "1 Galdercraft Layer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.hopper",
         "source_string": "Item Hopper",
         "translation": "Thing Hopper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.repair.cost",
+        "source_string": "Enchantment Cost: %1$d",
+        "translation": "Galdercraft Fee: %1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.repairAndDisenchant",
+        "source_string": "Repair & Disenchant",
+        "translation": "Fettle & Ungale",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5704,9 +5768,25 @@
         "max_length": null
     },
     {
+        "identifier": "controller.buttonTip.backToEnchanting",
+        "source_string": "Back to Enchanting",
+        "translation": "Back to Galing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "controller.buttonTip.renameItem",
         "source_string": "Rename Item",
         "translation": "Edname Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.select.enchant",
+        "source_string": "Select Enchant",
+        "translation": "Choose Galder",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5936,10 +6016,194 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.expiration.timeFormat",
+        "source_string": "%s at %s",
+        "translation": "%s at %s",
+        "context": "%s is a local date and %s is a local time, ex: \"December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.hour.full",
+        "source_string": "In 1 hour. %s",
+        "translation": "In 1 stound. %s",
+        "context": "%s is a localized time and date, ex: \"In 1 hour. December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.quarterDay.full",
+        "source_string": "In 6 hours. %s",
+        "translation": "In 6 stounds. %s",
+        "context": "%s is a localized time and date, ex: \"In 6 hours. December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.halfDay.full",
+        "source_string": "In 12 hours. %s",
+        "translation": "In 12 stounds. %s",
+        "context": "%s is a localized time and date, ex: \"In 12 hours. December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.day.full",
+        "source_string": "In 1 day. %s",
+        "translation": "In 1 day. %s",
+        "context": "%s is a localized time and date, ex: \"In 1 day. December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.week.full",
+        "source_string": "In 7 days. %s",
+        "translation": "In 7 days. %s",
+        "context": "%s is a localized time and date, ex: \"In 7 days. December 19 2017 at 11:30:20\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.viewSubscriptionsButton",
         "source_string": "View Subscriptions",
         "translation": "Show Underwritings",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formattedSpecific.today",
+        "source_string": "Today at %s",
+        "translation": "Today at %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formattedSpecific.yesterday",
+        "source_string": "Yesterday at %s",
+        "translation": "Yesterday at %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_january",
+        "source_string": "January",
+        "translation": "Afteryule",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_february",
+        "source_string": "February",
+        "translation": "Soalmonth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_march",
+        "source_string": "March",
+        "translation": "Reethmonth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_april",
+        "source_string": "April",
+        "translation": "Eastermonth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_may",
+        "source_string": "May",
+        "translation": "Thrimilk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_june",
+        "source_string": "June",
+        "translation": "Erelithe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_july",
+        "source_string": "July",
+        "translation": "Afterlithe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_august",
+        "source_string": "August",
+        "translation": "Weedmonth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_september",
+        "source_string": "September",
+        "translation": "Holimonth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_october",
+        "source_string": "October",
+        "translation": "Winterfulth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_november",
+        "source_string": "November",
+        "translation": "Blootmonth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.full_december",
+        "source_string": "December",
+        "translation": "Ereyule",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.daysAbbreviated3Char",
+        "source_string": "%sd",
+        "translation": "%sd",
+        "context": "It needs to be abbreviated with no more than 3 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.secondsAbbreviated3Char",
+        "source_string": "%ssec",
+        "translation": "%s braid",
+        "context": "It needs to be abbreviated with no more than 3 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.daysAbbreviated1Char",
+        "source_string": "%sd",
+        "translation": "%sd",
+        "context": "It needs to be abbreviated with no more than 1 characters",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6579,6 +6843,14 @@
         "identifier": "enchantment.lootBonusDigger",
         "source_string": "Fortune",
         "translation": "Hap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonusFishing",
+        "source_string": "Luck of the Sea",
+        "translation": "Luck of the Sea",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16488,6 +16760,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.spruce_sign.name",
+        "source_string": "Spruce Sign",
+        "translation": "Harttartree Token",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.birch_sign.name",
         "source_string": "Birch Sign",
         "translation": "Birch Token",
@@ -18832,6 +19112,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.autoUpdateMode.off",
+        "source_string": "Off",
+        "translation": "Off",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.turnOffAchievements",
         "source_string": "Turn off achievements?",
         "translation": "Lay off fulfillings?",
@@ -20232,6 +20520,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.chest_boat.spruce.name",
+        "source_string": "Spruce Boat with Chest",
+        "translation": "Harttartree Boat with Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.chest_boat.birch.name",
         "source_string": "Birch Boat with Chest",
         "translation": "Birch Boat with Chest",
@@ -20395,6 +20691,14 @@
         "identifier": "item.scrape_pottery_sherd.name",
         "source_string": "Scrape Pottery Sherd",
         "translation": "Shrape Pot Sherd",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spruce_hanging_sign.name",
+        "source_string": "Spruce Hanging Sign",
+        "translation": "Harttartree Hanging Token",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20736,9 +21040,145 @@
         "max_length": null
     },
     {
+        "identifier": "store.addon.update.realms.buttonContinue",
+        "source_string": "Continue",
+        "translation": "Go On",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.mashup.bundle",
         "source_string": "Bundle",
         "translation": "Bundle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.featured.createdBy",
+        "source_string": "Created by %s",
+        "translation": "Made by %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.downloading",
+        "source_string": "Downloading...",
+        "translation": "Downloading...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.downloading.title",
+        "source_string": "Downloading: %s",
+        "translation": "Downloading: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.showMore",
+        "source_string": "See All",
+        "translation": "See All",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.jan",
+        "source_string": "Jan. %s",
+        "translation": "Afteryule %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.feb",
+        "source_string": "Feb. %s",
+        "translation": "Soalmonth %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.mar",
+        "source_string": "Mar. %s",
+        "translation": "Reethmonth %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.apr",
+        "source_string": "Apr. %s",
+        "translation": "Eastermonth %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.may",
+        "source_string": "May %s",
+        "translation": "Thrimilk %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.jun",
+        "source_string": "Jun. %s",
+        "translation": "Erelithe %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.july",
+        "source_string": "July %s",
+        "translation": "Afterlithe %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.aug",
+        "source_string": "Aug. %s",
+        "translation": "Weedmonth %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.sep",
+        "source_string": "Sep. %s",
+        "translation": "Holimonth %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.oct",
+        "source_string": "Oct. %s",
+        "translation": "Winterfulth %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.nov",
+        "source_string": "Nov. %s",
+        "translation": "Blootmonth %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.promo.date.dec",
+        "source_string": "Dec. %s",
+        "translation": "Ereyule %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21795,6 +22235,14 @@
         "identifier": "tile.respawn_anchor.respawnSet",
         "source_string": "Respawn point set",
         "translation": "Edstart ord set",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.spruce_button.name",
+        "source_string": "Spruce Button",
+        "translation": "Harttartree Knap",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23368,6 +23816,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.yellow_flower.dandelion.name",
+        "source_string": "Dandelion",
+        "translation": "Eywort",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.yellow_flower.name",
         "source_string": "Flower",
         "translation": "Blossom",
@@ -23672,6 +24128,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.leaves.spruce.name",
+        "source_string": "Spruce Leaves",
+        "translation": "Harttartree Leaves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.lever.name",
         "source_string": "Lever",
         "translation": "Heaver",
@@ -23760,6 +24224,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.log.spruce.name",
+        "source_string": "Spruce Log",
+        "translation": "Harttartree Stock",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.magma.name",
         "source_string": "Magma Block",
         "translation": "Moltenstone Clot",
@@ -23771,6 +24243,14 @@
         "identifier": "tile.melon_block.name",
         "source_string": "Melon",
         "translation": "Entapple",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.mob_spawner.name",
+        "source_string": "Monster Spawner",
+        "translation": "Fiend Beyetter",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24000,6 +24480,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.spruce_pressure_plate.name",
+        "source_string": "Spruce Pressure Plate",
+        "translation": "Harttartree Thrutch Tile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.prismarine.bricks.name",
         "source_string": "Prismarine Bricks",
         "translation": "Prismarine Woughstones",
@@ -24216,9 +24704,25 @@
         "max_length": null
     },
     {
+        "identifier": "tile.sapling.spruce.name",
+        "source_string": "Spruce Sapling",
+        "translation": "Harttartree Sprout",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.standing_sign.name",
         "source_string": "Sign",
         "translation": "Token",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.spruce_standing_sign.name",
+        "source_string": "Spruce Sign",
+        "translation": "Harttartree Token",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24275,6 +24779,22 @@
         "identifier": "tile.sponge.wet.name",
         "source_string": "Wet Sponge",
         "translation": "Wet Seaswamb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.spruceFence.name",
+        "source_string": "Spruce Fence",
+        "translation": "Harttartree Edder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.spruce_fence_gate.name",
+        "source_string": "Spruce Fence Gate",
+        "translation": "Harttartree Edder Gate",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24360,6 +24880,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.spruce_stairs.name",
+        "source_string": "Spruce Stairs",
+        "translation": "Harttartree Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.purpur_stairs.name",
         "source_string": "Purpur Stairs",
         "translation": "Purpur Stairs",
@@ -24379,6 +24907,14 @@
         "identifier": "tile.dark_prismarine_stairs.name",
         "source_string": "Dark Prismarine Stairs",
         "translation": "Dark Prismarine Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.prismarine_bricks_stairs.name",
+        "source_string": "Prismarine Brick Stairs",
+        "translation": "Prismarine Woughstone Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24984,6 +25520,70 @@
         "max_length": null
     },
     {
+        "identifier": "tile.tallgrass.shrub.name",
+        "source_string": "Shrub",
+        "translation": "Shrub",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tuff_brick_slab.name",
+        "source_string": "Tuff Brick Slab",
+        "translation": "Ashstone Woughstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tuff_brick_stairs.name",
+        "source_string": "Tuff Brick Stairs",
+        "translation": "Ashstone Woughstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tuff_brick_wall.name",
+        "source_string": "Tuff Brick Wall",
+        "translation": "Ashstone Woughstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tuff_bricks.name",
+        "source_string": "Tuff Bricks",
+        "translation": "Ashstone Woughstones",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tuff_slab.name",
+        "source_string": "Tuff Slab",
+        "translation": "Ashstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tuff_stairs.name",
+        "source_string": "Tuff Stairs",
+        "translation": "Ashstone Stairs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.tuff_wall.name",
+        "source_string": "Tuff Wall",
+        "translation": "Ashstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.seagrass.seagrass.name",
         "source_string": "Seagrass",
         "translation": "Seagrass",
@@ -25003,6 +25603,14 @@
         "identifier": "tile.turtle_egg.name",
         "source_string": "Turtle Egg",
         "translation": "Shellpad Ey",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.glass_pane.name",
+        "source_string": "Glass Pane",
+        "translation": "Glass Sheet",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25064,6 +25672,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.spruce_trapdoor.name",
+        "source_string": "Spruce Trapdoor",
+        "translation": "Harttartree Trapdoor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.flowing_water.name",
         "source_string": "Water",
         "translation": "Water",
@@ -25083,6 +25699,22 @@
         "identifier": "tile.web.name",
         "source_string": "Cobweb",
         "translation": "Cobweb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.heavy_weighted_pressure_plate.name",
+        "source_string": "Heavy Weighted Pressure Plate",
+        "translation": "Heavy Weighted Thrutch Tile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.light_weighted_pressure_plate.name",
+        "source_string": "Light Weighted Pressure Plate",
+        "translation": "Light Weighted Thrutch Tile",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25139,6 +25771,14 @@
         "identifier": "tile.planks.oak.name",
         "source_string": "Oak Planks",
         "translation": "Oak Boards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.planks.spruce.name",
+        "source_string": "Spruce Planks",
+        "translation": "Harttartree Boards",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25688,6 +26328,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.stripped_spruce_log.name",
+        "source_string": "Stripped Spruce Log",
+        "translation": "Stripped Harttartree Stock",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.stripped_dark_oak_log.name",
         "source_string": "Stripped Dark Oak Log",
         "translation": "Stripped Dark Oak Stock",
@@ -25808,6 +26456,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.wood.spruce.name",
+        "source_string": "Spruce Wood",
+        "translation": "Harttartree Wood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.wood.birch.name",
         "source_string": "Birch Wood",
         "translation": "Birch Wood",
@@ -25835,6 +26491,14 @@
         "identifier": "tile.wood.stripped.oak.name",
         "source_string": "Stripped Oak Wood",
         "translation": "Stripped Oak Wood",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wood.stripped.spruce.name",
+        "source_string": "Stripped Spruce Wood",
+        "translation": "Stripped Harttartree Wood",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25915,6 +26579,14 @@
         "identifier": "tile.pointed_dripstone.name",
         "source_string": "Pointed Dripstone",
         "translation": "Orded Dripstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pitcher_plant.name",
+        "source_string": "Pitcher Plant",
+        "translation": "Vatleaf Wort",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27024,6 +27696,22 @@
         "max_length": null
     },
     {
+        "identifier": "trial.upsell.expiredTitle",
+        "source_string": "Time's Up!",
+        "translation": "Time's Up!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.upsell.expiredViewWorld",
+        "source_string": "View World",
+        "translation": "Show World",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.upsell.cb.startNew",
         "source_string": "Start New World",
         "translation": "Start New World",
@@ -27048,6 +27736,22 @@
         "max_length": null
     },
     {
+        "identifier": "trial.tabbed_upsell.minecraft.title",
+        "source_string": "MINECRAFT ",
+        "translation": "MINECRAFT ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.xbl.title",
+        "source_string": "MICROSOFT ACCOUNT",
+        "translation": "MICROSOFT RECKONING",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.tabbed_upsell.xbl.description.line2",
         "source_string": "*(in versions with Marketplace)",
         "translation": "*(in wharves with Chapstow)",
@@ -27064,9 +27768,41 @@
         "max_length": null
     },
     {
+        "identifier": "trial.tabbed_upsell.multiplayer.title",
+        "source_string": "MULTIPLAYER",
+        "translation": "MANIPLAYER",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.server.title",
+        "source_string": "SERVERS",
+        "translation": "OUTRECKONERS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.store.title",
+        "source_string": "STORE",
+        "translation": "STOW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.tabbed_upsell.store.description",
         "source_string": "Get access to Minecraft Marketplace, our in-game store. Switch up your look with new skins, change your world, or explore incredible new maps from the best community creators! Get the full game today!",
         "translation": "Reach Minecraft Chapstow, our in-game stow. Switch up your look with new hides, wend your world, or seek awesome new draughts from the best fellowship makers! Reap the full game today!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.addon.title",
+        "source_string": "ADD-ONS",
+        "translation": "EKE-ONS",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27080,9 +27816,65 @@
         "max_length": null
     },
     {
+        "identifier": "trial.thanks_for_testing.minecraft.title",
+        "source_string": "MINECRAFT TRIAL",
+        "translation": "MINECRAFT FAND",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.thanks_for_testing.xbl.description.line2",
         "source_string": "*(in versions with Marketplace)",
         "translation": "*(in wharves with Chapstow)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.starter.collection.title",
+        "source_string": "Minecraft Starter Collection",
+        "translation": "Minecraft Starter Gathering",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.master.collection.title",
+        "source_string": "Minecraft Master Collection",
+        "translation": "Minecraft Lord Gathering",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.starter.collection.button",
+        "source_string": "Buy Starter Collection",
+        "translation": "Buy Starter Gathering",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.master.collection.button",
+        "source_string": "Buy Master Collection",
+        "translation": "Buy Lord Gathering",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.starter.offer",
+        "source_string": "Get Minecraft, 700 Minecoins, 2 skin packs, 1 texture pack and 1 mash-up",
+        "translation": "Reap Minecraft, 700 Minecoins, 2 hide packs, 1 lode pack and 1 mash-up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.master.offer",
+        "source_string": "Get Minecraft, 1000 Minecoins, 4 skin packs, 2 texture packs, 3 maps, and 1 mash-up",
+        "translation": "Reap Minecraft, 1000 Minecoins, 4 hide packs, 2 lode packs, 3 draughts, and 1 mash-up",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27096,9 +27888,281 @@
         "max_length": null
     },
     {
+        "identifier": "trial.collection.1.description",
+        "source_string": "Buy skins, textures and worlds in the Marketplace!",
+        "translation": "Buy hides, lodes and worlds in the Chapstow!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.collection.2.title",
         "source_string": "700 Minecoins",
         "translation": "700 Minecoins",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.2.description",
+        "source_string": "Buy skins, textures and worlds in the Marketplace!",
+        "translation": "Buy hides, lodes and worlds in the Chapstow!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.3.title",
+        "source_string": "Wildlife: Savanna",
+        "translation": "Wildlife: Bareland",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.3.description",
+        "source_string": "Go on safari in a rugged off-road vehicle that seats 4!",
+        "translation": "Go on a hunting fare in a great off-road wain that seats 4!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.4.description",
+        "source_string": "Explore Noxcrew's magical world full of ancient castles!",
+        "translation": "Seek Noxcrew's drycrafty world full of fern strongholds!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.5.title",
+        "source_string": "PureBDcraft Pack",
+        "translation": "PureBDcraft Pack",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.5.description",
+        "source_string": "Transform your Minecraft world into a comic!",
+        "translation": "Wharve your Minecraft world into a stripbook!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.6.title",
+        "source_string": "Relics of Privateers",
+        "translation": "Laves of Reavers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.6.description",
+        "source_string": "Vast tropical wilderness on a whirlwind hunt for treasure!",
+        "translation": "Widegale hot wilderness on a thode hunt for hoard!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.7.title",
+        "source_string": "Greek Mythology Mash-up",
+        "translation": "Greek Folklore Mash-up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.7.description",
+        "source_string": "Explore an ancient world, texture pack and skins!",
+        "translation": "Seek a fern world, lode pack and hides!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.8.title",
+        "source_string": "Winter Mini-Games Festival",
+        "translation": "Winter Smallgames Merrymeeting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.8.description",
+        "source_string": "Playgrounds filled with games and challenges!",
+        "translation": "Playgrounds filled with games and dares!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.9.title",
+        "source_string": "Pastel Skin Pack",
+        "translation": "Softshaded Hide Pack",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.9.description",
+        "source_string": "Get ready for an explosion of rainbow pastel happiness!",
+        "translation": "Be ready for a blast of rainbow softshaded bliss!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.10.description",
+        "source_string": "Make your worlds simple, colorful and vibrant!",
+        "translation": "Make your worlds onefold, hueful and lively!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.11.title",
+        "source_string": "Skin Pack 1",
+        "translation": "Hide Pack 1",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.11.description",
+        "source_string": "Customize your character with this selection of skins!",
+        "translation": "Bespeak your hoad with the choosing of hides!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.12.title",
+        "source_string": "Villains Skin Pack",
+        "translation": "Knaves Hide Pack",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.collection.12.description",
+        "source_string": "Dress as a Cake Maniac, Frankencrafter, or Worse!",
+        "translation": "Clothe as a Kitch Madman, Frankencrafter, or Worse!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.includes",
+        "source_string": "Includes",
+        "translation": "Ins",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.survival.mode.title",
+        "source_string": "SURVIVAL",
+        "translation": "OVERLIVE",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.creative.mode.title",
+        "source_string": "CREATIVE",
+        "translation": "MAKERLY",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tour.marketplace",
+        "source_string": "TOUR THE MARKETPLACE",
+        "translation": "FARE THE CHAPSTOW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.world.title",
+        "source_string": "Which Trial World?",
+        "translation": "Which Fand World?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tutorial.edu.menuTitle",
+        "source_string": "Learn to Play",
+        "translation": "Learn to Play",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tutorial.edu.title",
+        "source_string": "Tutorials",
+        "translation": "Teachings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "verification.nolicense.title",
+        "source_string": "License Error",
+        "translation": "Leave Dwale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.error.pocket.line2",
+        "source_string": "#empty#",
+        "translation": "#",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.qr.right.header",
+        "source_string": "Or visit the website",
+        "translation": "Or go to the webstead",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.letsPlay",
+        "source_string": "Let's Play!",
+        "translation": "Let's Play!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.url",
+        "source_string": "https://microsoft.com/link",
+        "translation": "https://microsoft.com/link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.welcome",
+        "source_string": "Welcome!",
+        "translation": "Welcome!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.newaccount.welcome",
+        "source_string": "Welcome!",
+        "translation": "Welcome!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null

@@ -408,6 +408,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.button.filter.appliedCount",
+        "source_string": " %s Applied",
+        "translation": " %sАплицирано",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.button.sort",
         "source_string": "Sort",
         "translation": "Подреди",
@@ -419,6 +427,14 @@
         "identifier": "accessibility.button.survival.layout",
         "source_string": "Inventory view",
         "translation": "Преглед на инвентар",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.recipebook.layout",
+        "source_string": "Recipe book and inventory view",
+        "translation": "Книга со Рецепти и Преглед на Инвентар",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -440,6 +456,54 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.minecoin",
+        "source_string": "Minecoin",
+        "translation": "Минекоин",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoins",
+        "source_string": "Minecoins",
+        "translation": "Минекоинс",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.fullprice",
+        "source_string": "Full Price %s Minecoins",
+        "translation": "Минекоинс%s со ненамалена цена",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.price",
+        "source_string": "Discounted Price %s Minecoins",
+        "translation": "Минекоинс %sсо намалена цена",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.percent",
+        "source_string": "%s percent discount",
+        "translation": "%sпроцент на попуст",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.sectionName",
+        "source_string": "Section %s: ",
+        "translation": "Секција%s ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.state.on",
         "source_string": ": on",
         "translation": ": Вклучено",
@@ -451,6 +515,22 @@
         "identifier": "accessibility.state.off",
         "source_string": ": off",
         "translation": ": Исклучено",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.checked",
+        "source_string": ": checked",
+        "translation": "проверено",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.unchecked",
+        "source_string": ": unchecked",
+        "translation": "непроверено",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -484,6 +564,14 @@
         "source_string": "Wish List",
         "translation": "Листа на желби",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.index",
+        "source_string": " %s of %s",
+        "translation": " %sод%s",
+        "context": "This is numbering, which number out of the total number of objects is available for interaction. Example: 1 of 3",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -536,6 +624,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.play.realmFeed",
+        "source_string": "Realm Feed",
+        "translation": "Феед на Предел",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.play.noNewPosts",
         "source_string": "No new posts",
         "translation": "Нема нови објави",
@@ -576,6 +672,22 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.play.legacyWorldsDelete",
+        "source_string": "Delete Legacy World",
+        "translation": "Избриши Наследен Свет",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.uploadWorld",
+        "source_string": "Upload World",
+        "translation": "Уплодирај Свет",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.pause.permissions",
         "source_string": "Permissions",
         "translation": "Дозволи",
@@ -600,9 +712,265 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.screenName.achievements",
+        "source_string": "Achievements Screen",
+        "translation": "Екран за Постигнувања",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chat",
+        "source_string": "Chat Screen",
+        "translation": "Чет Екран",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chatSettings",
+        "source_string": "Chat Settings Screen",
+        "translation": "Чет Поставки Екран",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.createNew",
+        "source_string": "Create New Screen",
+        "translation": "Создади Нов Екран",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.createWorld",
+        "source_string": "Create World Settings Screen",
+        "translation": "Екран за Поставки за Креација на Свет",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editCharacter",
+        "source_string": "Character Creator",
+        "translation": "Креација на Карактер",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editWorldSettings",
+        "source_string": "Edit World Settings Screen",
+        "translation": "Екран за Едитирање на Светови",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.error",
+        "source_string": "Error Screen",
+        "translation": "Екран за Грешка",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.encyclopedia",
+        "source_string": "Encyclopedia Screen",
+        "translation": "Енциклопедиски Екран",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.howToPlay",
+        "source_string": "How To Play Screen",
+        "translation": "Начин на Играње екран",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.inviteToGame",
+        "source_string": "Invite To Game Screen",
+        "translation": "Екран за Покана за Игра",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.joinByIP",
+        "source_string": "Join by IP dialog",
+        "translation": "Приклучување преку ИП дијалог",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.joinByConnectionID",
+        "source_string": "Join by connection I D dialog",
+        "translation": "Приклучување преку конекција Ид дијалог",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.joinCode",
+        "source_string": "Join Code dialog",
+        "translation": "Дијалог со Код за Приклучување",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.library",
+        "source_string": "Library Screen",
+        "translation": "Екран со Библиотека",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.modalDialog",
+        "source_string": "Popup dialog",
+        "translation": "Поп-ап Дијалог",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.myTemplates",
+        "source_string": "My Templates Screen",
+        "translation": "Екран „Мои Шаблони“",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.myWorlds",
+        "source_string": "My Worlds Screen",
+        "translation": "Екран „Мои Светови“",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.myServers",
+        "source_string": "My Servers Screen",
+        "translation": "Екран „Мои Сервери“",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.patchNotes",
+        "source_string": "Patch Notes Screen",
+        "translation": "Екран за Забелешки за Корекции",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.pause",
+        "source_string": "Game menu",
+        "translation": "Мени за Игра",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.permissions",
+        "source_string": "Permissions Screen",
+        "translation": "Екран со Дозволи",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.play",
+        "source_string": "Play Screen",
+        "translation": "Екран за Игра",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.profile",
+        "source_string": "Profile Screen",
+        "translation": "Екран на Профил",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.realmInviteLinkSettings",
+        "source_string": "Realm Invite Link Settings Screen",
+        "translation": "Екран за Поставки за Покана во Предел",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.realmSettings",
+        "source_string": "Realm Settings Screen",
+        "translation": "Екран со Поставки за Предел",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.settings",
+        "source_string": "Game Settings Screen",
+        "translation": "Екран со Поставки за Игра",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.skinPicker",
+        "source_string": "Choose Skin Screen",
+        "translation": "Екран за Избор на Кожа",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.screenName.start",
         "source_string": "Main Menu",
         "translation": "Главно мени",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.vrAlignment",
+        "source_string": "VR Alignment Screen ",
+        "translation": "Екран за ВР Порамнување ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.emoteWheel",
+        "source_string": "Emotes Screen",
+        "translation": "Екран за изразување на емоции",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.addExternalServer",
+        "source_string": "Add External Server Screen",
+        "translation": "Екран за Додавање на Надворешен Сервер",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.editExternalServer",
+        "source_string": "Edit External Server Screen",
+        "translation": "Екран за Едитирање на Надворешен Сервер",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -632,9 +1000,41 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.settings.chooseSeed",
+        "source_string": "Choose Seed",
+        "translation": "Избери Семе",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.feedback",
+        "source_string": "Submit Feedback Link to Website",
+        "translation": "Испрати Повратен Линк до Вебсајт",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.start.new",
         "source_string": "New",
         "translation": "Ново",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.skinPicker",
+        "source_string": "Choose Skin",
+        "translation": "Избери Кожа",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.store.tag",
+        "source_string": "Tag",
+        "translation": "Етикета",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
