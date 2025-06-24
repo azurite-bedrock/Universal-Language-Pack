@@ -1040,6 +1040,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.textbox.editing",
+        "source_string": "Editing",
+        "translation": "Едитирање",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.text.period",
         "source_string": "Period",
         "translation": "Точка",
@@ -1139,6 +1147,22 @@
         "identifier": "accessibility.text.rightBrace",
         "source_string": "Right Brace",
         "translation": "Десна заграда",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.rightBracket",
+        "source_string": "Right Bracket",
+        "translation": "Десна Заграда",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.leftBracket",
+        "source_string": "Left Bracket",
+        "translation": "Лева Заграда",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1256,6 +1280,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.text.unsupported",
+        "source_string": "Unknown Character",
+        "translation": "Непознат Карактер",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.text.PLN",
         "source_string": "Polish Zloty:Groszy:.",
         "translation": "Полски злоти:Groszy:.",
@@ -1272,9 +1304,25 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.toast",
+        "source_string": "Notification",
+        "translation": "Нотификација",
+        "context": "This is the name of the popup that appears when a player gets a notification for a game invite or achievement unlocked",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.worldTemplates.help",
         "source_string": "Help",
         "translation": "Помош",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.title",
+        "source_string": "Turn Off Screen Reader?",
+        "translation": "Исклучи Читач на Екран?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1288,9 +1336,49 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.popup.message.default",
+        "source_string": "On your device, screen reader support is enabled by default.",
+        "translation": "На твојот уред, поддршка на читач на екран е вклучена по дефаулт.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.platform",
+        "source_string": "We've detected that your system has a screen reader enabled and have automatically enabled Minecraft's screen reader.",
+        "translation": "Детектиравме дека твојот систем има вклучено читач на екран и автоматски го вклучивме читачот на екран на Минекрафт.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.touch",
+        "source_string": "Touch and drag to find controls on the screen, and double tap controls to select. To scroll on a screen, double tap and hold while swiping up or down.",
+        "translation": "Допри и влечи за да ги најдеш контролите на екранот, стисни два пати за да ги селектираш. За да скролаш по екранот, стисни два пати и држи додека влечеше нагоре или надоле.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.message.line3",
+        "source_string": "Would you like to turn this off?",
+        "translation": "Дали би сакал да го исклучиш ова?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.popup.left_button_text",
         "source_string": "Turn Off",
         "translation": "Исклучи",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.right_button_text",
+        "source_string": "Leave On",
+        "translation": "Остави го вклучено",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1416,6 +1504,14 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.bakeCake",
+        "source_string": "The Lie",
+        "translation": "Лагата",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.bakeCake.desc",
         "source_string": "Wheat, sugar, milk and eggs!",
         "translation": "Жито, шеќер, млеко и јајца!",
@@ -1424,9 +1520,65 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.blaze_rod",
+        "source_string": "Into Fire",
+        "translation": "Во Оган",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.bookcase",
         "source_string": "Librarian",
         "translation": "Библиотекар",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.bookcase.desc",
+        "source_string": "Build some bookshelves to improve your enchantment table",
+        "translation": "Изградете полица за книги, за да ја подобрите вашата волшебна табела",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.breedCow",
+        "source_string": "Repopulation",
+        "translation": "Репопулација",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.breedCow.desc",
+        "source_string": "Breed two cows with wheat",
+        "translation": "Одгледај две крави со пченица",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildBetterPickaxe",
+        "source_string": "Getting an Upgrade",
+        "translation": "Добивање упгрејд",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildBetterPickaxe.desc",
+        "source_string": "Construct a better pickaxe",
+        "translation": "Изгради подобра секира",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildFurnace.desc",
+        "source_string": "Construct a furnace out of eight stone blocks",
+        "translation": "Изгради печка од осум камени блокови",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1443,6 +1595,54 @@
         "identifier": "achievement.buildHoe.desc",
         "source_string": "Use planks and sticks to make a hoe",
         "translation": "Искористи даски и стапови да направиш мотика",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildPickaxe",
+        "source_string": "Time to Mine!",
+        "translation": "Време за рударство!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildPickaxe.desc",
+        "source_string": "Use planks and sticks to make a pickaxe",
+        "translation": "Користи даски и стапови за да направиш секира",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildSword",
+        "source_string": "Time to Strike!",
+        "translation": "Време за Напад!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildSword.desc",
+        "source_string": "Use planks and sticks to make a sword",
+        "translation": "Користи даски и стапови за да направиш меч",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildWorkBench",
+        "source_string": "Benchmarking",
+        "translation": "Репер",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildWorkBench.desc",
+        "source_string": "Craft a workbench with four blocks of planks",
+        "translation": "Изработи работна маса од четири блока даски",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1520,6 +1720,14 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.exploreAllBiomes.desc",
+        "source_string": "Discover all biomes",
+        "translation": "Откриј ги сите биоми",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.flyPig",
         "source_string": "When Pigs Fly",
         "translation": "Кога прасиња летаат",
@@ -1531,6 +1739,30 @@
         "identifier": "achievement.flyPig.desc",
         "source_string": "Fly a pig off a cliff",
         "translation": "Летни од рид со прасе",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.fullBeacon",
+        "source_string": "Beaconator",
+        "translation": "Светилнатор",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.fullBeacon.desc",
+        "source_string": "Create a full beacon",
+        "translation": "Создади целосен Светилник",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.get",
+        "source_string": "Achievement get!",
+        "translation": "Постигнување!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1595,6 +1827,38 @@
         "identifier": "achievement.onARail",
         "source_string": "On A Rail",
         "translation": "На Шина",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.onARail.desc",
+        "source_string": "Travel by minecart at least 1 km from where you started",
+        "translation": "Движи се со минекарт најмалку 1 км од кадешто почна",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.openInventory",
+        "source_string": "Taking Inventory",
+        "translation": "Земање инвентар",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.openInventory.desc",
+        "source_string": "Press '%1$s' to open your inventory.",
+        "translation": "Стисни%1$sза да го отвориш својот инвентар.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.overpowered",
+        "source_string": "Overpowered",
+        "translation": "Премоќен",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
