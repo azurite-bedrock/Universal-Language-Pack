@@ -298,7 +298,7 @@
     {
         "identifier": "accessibility.dropdown.tts.title",
         "source_string": "Dropdown",
-        "translation": "Dropdown",
+        "translation": "Meniu derulant",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -450,7 +450,7 @@
     {
         "identifier": "accessibility.dropdown.listItem",
         "source_string": "List item",
-        "translation": "Listare obiecte",
+        "translation": "Element listă",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10338,7 +10338,7 @@
     {
         "identifier": "commands.setworldspawn.description",
         "source_string": "Sets the world spawn.",
-        "translation": "Setează generarea lumii.",
+        "translation": "Setează punctul de generare al lumii.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10354,7 +10354,7 @@
     {
         "identifier": "commands.setworldspawn.wrongDimension",
         "source_string": "The world spawn can not be set in this dimension",
-        "translation": "Generarea lumii nu poate fi setată în această dimensiune",
+        "translation": "Punctul de generare al lumii nu poate fi setat în această dimensiune",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10362,7 +10362,7 @@
     {
         "identifier": "commands.setworldspawn.notAllowedInLegacyWorlds",
         "source_string": "The world spawn can not be set in legacy worlds",
-        "translation": "Generarea lumii nu poate fi setată în lumile tip vechi",
+        "translation": "Punctul de generare al lumii nu poate fi setat în lumile tip vechi",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11762,7 +11762,7 @@
     {
         "identifier": "commands.weather.disabled",
         "source_string": "Weather Cycle isn't enabled in this world.",
-        "translation": "Ciclul de vreme nu este activat în această lume.",
+        "translation": "Ciclul meteo nu este activat în această lume.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14458,7 +14458,7 @@
     {
         "identifier": "createWorldScreen.action.editLocal",
         "source_string": "Make Infinite!",
-        "translation": "Faceți infinit!",
+        "translation": "Faceți infinită!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25858,7 +25858,7 @@
     {
         "identifier": "hostOption.setWorldSpawn",
         "source_string": "Set World Spawn",
-        "translation": "Setare punct de generare al lumii",
+        "translation": "Setează pct. de gen. al lumii",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29024,6 +29024,238 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.gameSettings",
+        "source_string": "Game Settings",
+        "translation": "Setările jocului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.1",
+        "source_string": "When creating a world, you have many options. Below are the various settings that can be used to fine tune your experience. Don't worry if you didn't set them when you created the world, they can be changed at any time.",
+        "translation": "Atunci când creezi o lume, ai multe opțiuni. Mai jos sunt diferitele setări care pot fi folosite pentru a-ți regla experiența. Nu-ți face griji dacă nu le-ai setat când ai creat lumea, ele pot fi schimbate oricând.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.2",
+        "source_string": "§eWorld Name§f: This is where you can name your world.",
+        "translation": "§eNumele lumii§f: Aici poți denumi lumea ta.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.3",
+        "source_string": "§eDefault Game Mode§f: This is the gamemode that all new players to the world will start with. You can have players start in either survival or creative mode. Selecting creative mode will turn cheats on.",
+        "translation": "§eModul de joc implicit§f: Acesta este modul de joc cu care toți jucătorii noi in lume vor începe. Poți avea jucători să înceapă în modul supraviețuire sau creativ. Selectarea modului creativ va porni comenzile.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.4",
+        "source_string": "§eDifficulty§f: This setting affects how difficult the world will be. You can choose Peaceful, Easy, Normal, or Hard.",
+        "translation": "§eDificultatea§f: Această setare afectează greutatea va fi lumea. Poți alege Pașnic, Ușor, Normal, sau Greu.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.header.1",
+        "source_string": "World Preferences ",
+        "translation": "Preferințe lume ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.5",
+        "source_string": "§eStarting Map§f: If this setting is turned on, every player will start with a map in their hotbar.",
+        "translation": "§eHartă pornire§f: Dacă această setare este activată, fiecare jucător va începe cu o harta in bara de acțiune.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.6",
+        "source_string": "§eBonus Chest§f: If this setting is turned on, there will be a chest with some starting loot near your initial spawn location.",
+        "translation": "§eCufăr bonus§f: Dacă această setare este activată, va apărea un cufăr cu niște recompense de început în apropierea punctului de generare inițial.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.7",
+        "source_string": "§eWorld Type§f: This setting controls the way the world is created. Select Infinite or Flat from the drop down menu to change the world type.",
+        "translation": "§eTip lume§f: Această setare controlează modul în care este creată lumea. Selectează Infinită sau Plată din meniul derulant pentru a schimba tipul lumii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.7.1",
+        "source_string": "  §eInfinite worlds§f go on and on forever.",
+        "translation": "  §eLumile infinite§f continuă la nesfârșit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.7.2",
+        "source_string": "  §eFlat worlds§f do not have any hills or trees, just an infinite flat area to fill with your creations.",
+        "translation": "  §eLumile plate§f nu au nici un fel de dealuri sau copaci, ci doar o zonă plată infinită pentru a umple cu creațiile tale.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.8",
+        "source_string": "§eSeed§f: This is a unique number for the world. By entering a seed when you make a new world, you can control how it is created. You can also use a word or phrase for the seed and the game will convert it to a number for you.",
+        "translation": "§eSămânța§f: Aceasta este un număr unic pentru lume. Introducând o sămânță atunci când faci o lume nouă, poți controla cum este creată. De asemenea, poți folosi un cuvânt sau o frază pentru sămânță și jocul le va converti la un număr pentru tine.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.header.2",
+        "source_string": "Cheats and Gamerules",
+        "translation": "Comenzi și Reguli de joc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.9",
+        "source_string": "§eActivate Cheats§f: This setting allows players to use commands. When a world is created with this setting on, all achievements are disabled.",
+        "translation": "§eActivează comenzile§f: Această setare permite jucătorilor să utilizeze comenzi. Când o lume este creată cu această setare, toate realizările sunt dezactivate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.10",
+        "source_string": "Below are gamerules, cheats must be turned on to use them:",
+        "translation": "Mai jos sunt reguli de joc, comenzile trebuiesc activate pentru a le utiliza:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.11",
+        "source_string": "§eAlways Day§f: Night will never fall when this setting is turned on.",
+        "translation": "§eMereu ziuă§f: Noaptea nu va veni niciodată când această setare este activată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.12",
+        "source_string": "§eDaylight Cycle§f: The time will not advance when this setting is turned off.",
+        "translation": "§eCiclu Zi-Noapte§f: Timpul nu va trece când această setare este oprită.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.13",
+        "source_string": "§eKeep Inventory§f: This setting allows players to keep their inventory when they die.",
+        "translation": "§ePăstrează inventarul§f: Această setare permite jucătorilor să își păstreze inventarul atunci când mor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.14",
+        "source_string": "§eMob Spawning§f: This prevents all mobs from spawning when this setting is off.",
+        "translation": "§eSe generează creaturi§f: Aceasta nu le permite creaturilor să apară când este oprita.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.15",
+        "source_string": "§eMob Griefing§f: Prevents mobs from destroying the world.",
+        "translation": "§eCreaturile pot distruge blocuri§f: Nu le permite creaturilor să distrugă lumea.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.16",
+        "source_string": "§eEntities Drop Loot§f: Controls whether things like minecarts and armor stands will drop themselves when they are broken.",
+        "translation": "§eEntitățile scapă recompense§f: Controlează dacă lucruri ca vagonetele și suporturile de armură se vor scăpa când sunt sparte.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.17",
+        "source_string": "§eWeather Cycle§f: The weather will not change when this setting is turned off.",
+        "translation": "§eCiclu meteo§f: Vremea nu se va schimba când această setare este oprită.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hoppers",
+        "source_string": "Hoppers",
+        "translation": "Pâlnii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hoppers.text.1",
+        "source_string": "Hoppers are used to automatically move items. Hoppers can be attached to some other items like containers such as Chests or Jukeboxes. ",
+        "translation": "Pâlniile sunt folosite pentru mutarea automată a obiectelor. Pâlniile pot fi atașate la alte obiecte precum containerele, de exemplu cuferele sau tonomatele. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hoppers.text.2",
+        "source_string": "Hoppers will continuously remove items out of a container placed above them and move them into the container they are pointing to.",
+        "translation": "Pâlniile vor îndepărta în mod continuu obiectele dintr-un container plasat deasupra lor și le vor muta în containerul spre care sunt îndreptate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hoppers.header.1",
+        "source_string": "Usage",
+        "translation": "Utilizare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hoppers.text.3",
+        "source_string": "To make a Hopper point to a particular block, place the Hopper against that block while sneaking.",
+        "translation": "Pentru a face o pâlnie să se îndrepte spre un anumit bloc, plasează pâlnia pe acel bloc în timp ce te furișezi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hoppers.text.4",
+        "source_string": "If a Hopper is powered by Redstone, it will become inactive and stop moving items.",
+        "translation": "Dacă o pâlnie este alimentată de Redstone, va deveni inactivă și va opri mutarea obiectelor.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hostAndPlayerOptions",
+        "source_string": "Host and Player Options",
+        "translation": "Opțiuni Gazdă și Jucător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.hostAndPlayerOptions.text.1.notTouch",
         "source_string": "When playing with cheats on, host options will allow you to teleport yourself or friends, change the weather, set the time of day, and change the entry point or world spawn of your game. Once cheats have been enabled, you can find these options in the chat window by pressing the [/] button next to the chat bar.",
         "translation": "Când te joci cu comenzile pornite, opțiunile de gazdă îți vor permite să te teleportezi sau să-ți teleportezi prietenii, să schimbi vremea, să setezi ora zilei și să schimbi punctul de intrare sau reînviere al lumii tale. Odată ce comenzile au fost activate, poți găsi aceste opțiuni în fereastra de discuție apăsând butonul [/] de lângă bara de introducere text.",
@@ -29035,6 +29267,134 @@
         "identifier": "howtoplay.hostAndPlayerOptions.text.1.touch",
         "source_string": "When playing with cheats on, host options will allow you to teleport yourself or friends, change the weather, set the time of day, and change the entry point or world spawn of your game. Once cheats have been enabled, you can find these options in the chat window by tapping the chat button.",
         "translation": "Când te joci cu comenzile pornite, opțiunile de gazdă îți vor permite să te teleportezi sau să-ți teleportezi prietenii, să schimbi vremea, să setezi ora zilei și să schimbi punctul de intrare sau reînviere al lumii tale. Odată ce comenzile au fost activate, poți găsi aceste opțiuni în fereastra de discuție apăsând butonul de discuție.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.improvedTools",
+        "source_string": "Improved tools",
+        "translation": "Unelte îmbunătățite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.improvedTools.title",
+        "source_string": "How to Play: Improved tools",
+        "translation": "Cum să joci: Unelte îmbunătățite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.improvedTools.text.1",
+        "source_string": "Use your tools a lot and they'll eventually break. As you gather new materials, such as stone, you'll be able to craft better tools.",
+        "translation": "Folosește-ți uneltele pentru mult timp și în cele din urmă se vor rupe. Pe măsură ce colectezi materiale noi, cum ar fi piatra, vei putea crea unelte mai bune.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.improvedTools.text.2",
+        "source_string": "Tools of higher tiers are more durable, more efficient, and able to gather more valuable resources. Go out into the world and find out for yourself!",
+        "translation": "Uneltele de nivel superior sunt mai durabile, mai eficiente și capabile să colecteze resurse mai valoroase. Mergi în lume și află singur!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory",
+        "source_string": "Inventory",
+        "translation": "Inventarul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.title",
+        "source_string": "How to Play: Inventory",
+        "translation": "Cum să joci: Inventarul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.header.1",
+        "source_string": "1. Inventory",
+        "translation": "1. Inventarul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.header.2",
+        "source_string": "2. Hotbar",
+        "translation": "2. Bara de acțiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.1.pc_console",
+        "source_string": "Your hotbar will fill up as you gather more resources. Press :_input_key.inventory: to access your §einventory§f, where you'll have more space for everything you've collected.",
+        "translation": "Bara ta de acțiune se va umple pe măsură ce colectezi mai multe resurse. Apasă pe :_input_key.inventory: pentru a-ți accesa §einventarul§f, unde vei avea mai mult spațiu pentru tot ce ai colectat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.1.touch",
+        "source_string": "Your hotbar will fill up as you gather more resources. Tap :tip_touch_inventory: to access your §einventory§f, where you'll have more space for everything you've collected.",
+        "translation": "Bara ta de acțiune se va umple pe măsură ce colectezi mai multe resurse. Apasă :tip_touch_inventory: pentru a-ți accesa §einventarul§f, unde vei avea mai mult spațiu pentru tot ce ai colectat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.1.rift",
+        "source_string": "Your hotbar will fill up as you gather more resources. Press :rift_B: to access your §einventory§f, where you'll have more space for everything you've collected.",
+        "translation": "Bara ta de acțiune se va umple pe măsură ce colectezi mai multe resurse. Apasă pe :rift_B: pentru a-ți accesa §einventarul§f, unde vei avea mai mult spațiu pentru tot ce ai colectat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.1.windowsmr",
+        "source_string": "Your hotbar will fill up as you gather more resources. Press :windowsmr_left_grab: to access your §einventory§f, where you'll have more space for everything you've collected.",
+        "translation": "Bara ta de acțiune se va umple pe măsură ce colectezi mai multe resurse. Apasă pe :windowsmr_left_grab: pentru a-ți accesa §einventarul§f, unde vei avea mai mult spațiu pentru tot ce ai colectat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.2.keyboard",
+        "source_string": "Want to move something between your §ehotbar§f and your inventory? Open your inventory, click the item of your choice, then drag it to the empty item slot you'd like to move it to.",
+        "translation": "Vrei să muți ceva între §ebara de acțiune§f și inventar? Deschide inventarul, fă clic pe un obiect la alegere, apoi trage-l la slotul de obiect gol în care dorești să îl muți.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.2.gamepad",
+        "source_string": "Want to move something between your §ehotbar§f and your inventory? Use the cursor to select an item and press :_gamepad_face_button_down:. Then, move your cursor to an empty item slot and press again to drop the item.",
+        "translation": "Vrei să muți ceva între §ebara de acțiune§f și inventar? Folosește cursorul pentru a selecta un obiect și apasă pe :_gamepad_face_button_down:. Apoi muți cursorul pe un slot de obiect gol și apeși din nou pentru a plasa elementul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.2.touch",
+        "source_string": "Want to move something between your §ehotbar§f and your inventory? Tap the item of your choice, then tap the empty item slot that you'd like to move it to.",
+        "translation": "Vrei să muți ceva între §ebara de acțiune§f și inventar? Apasă pe un obiect la alegere, apoi apasă pe slotul de obiect gol în care dorești să îl muți.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.inventory.text.2.vr",
+        "source_string": "Want to move something between your §ehotbar§f and your inventory? Use the cursor to select an item and press :_input_key.use:. Then, move your cursor to an empty item slot and press again to drop the item.",
+        "translation": "Vrei să muți ceva între §ebara de acțiune§f și inventar? Folosește cursorul pentru a selecta un obiect și apasă pe :_input_key.use:. Apoi muți cursorul pe un slot de obiect gol și apeși din nou pentru a plasa elementul.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
