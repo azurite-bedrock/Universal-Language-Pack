@@ -362,7 +362,7 @@
     {
         "identifier": "accessibility.button.navigateLeft",
         "source_string": "Left Arrow",
-        "translation": "Left Flone",
+        "translation": "Left Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -370,7 +370,7 @@
     {
         "identifier": "accessibility.button.navigateRight",
         "source_string": "Right Arrow",
-        "translation": "Right Flone",
+        "translation": "Right Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -770,7 +770,7 @@
     {
         "identifier": "accessibility.screenName.inviteToGame",
         "source_string": "Invite To Game Screen",
-        "translation": "Welcome To Game Shirm",
+        "translation": "Lathe To Game Shirm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1554,7 +1554,7 @@
     {
         "identifier": "accessibility.emotes.keyboard.arrow",
         "source_string": "arrow",
-        "translation": "flone",
+        "translation": "arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2178,7 +2178,7 @@
     {
         "identifier": "achievement.snipeSkeleton.desc",
         "source_string": "Kill a skeleton with an arrow from more than 50 meters",
-        "translation": "Kill a boneframe with a flone from more than 50 meters",
+        "translation": "Kill a boneframe with a arrow from more than 50 meters",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3040,9 +3040,41 @@
         "max_length": null
     },
     {
+        "identifier": "authentication.finalTrialWarning",
+        "source_string": "This is your final trial of Minecraft Education.%1%1After this session, your school or organization will need to purchase a license for you to continue to use all the features of Minecraft Education.",
+        "translation": "This is your last fand of Minecraft Education.%1%1After this besitting, your learninghouse or dighting will need to buy a leave for you to go on brooking all the marks of Minecraft Education.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.oneTrialWarning",
+        "source_string": "You have 1 trial of Minecraft Education remaining before your school or organization will need to purchase a license.%1%1Every time you open Minecraft Education, you will use one trial. ",
+        "translation": "You have 1 fand of Minecraft Education left before your learninghouse or dighting will need to buy a leave.%1%1Every time you open Minecraft Education, you will brook one fand. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "authentication.trialMessageTitle",
         "source_string": "Free Trial",
         "translation": "Free Fand",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialWelcome",
+        "source_string": "Welcome!%1%1You have %2 trials of Minecraft Education available before your school or organization will need to purchase a license.%1%1Every time you open Minecraft Education, you will use one trial. Enjoy!",
+        "translation": "Welcome!%1%1You have %2 fands of Minecraft Education forthcoming before your learninghouse or dighting will need to buy a leave.%1%1Every time you open Minecraft Education, you will brook one fand. Do your best!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "authentication.trialWarning",
+        "source_string": "You have %2 trials of Minecraft Education remaining before your school or organization will need to purchase a license.%1%1Every time you open Minecraft Education, you will use one trial. ",
+        "translation": "You have %2 fands of Minecraft Education left before your learninghouse or dighting will need to buy a leave.%1%1Every time you open Minecraft Education, you will brook one fand. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4912,6 +4944,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.blockdata.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Lore token understanding trucked: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.blockstate.invalidState",
         "source_string": "'%1$s' is not a valid Block State.",
         "translation": "'%1$s' is not a right Clot Hoad.",
@@ -4939,6 +4979,14 @@
         "identifier": "commands.blockstate.valueError",
         "source_string": "Invalid value for Block State: '%1$s'.",
         "translation": "Unright worth for Clot Hoad: '%1$s'.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.change-setting.success",
+        "source_string": "%1$s has been changed",
+        "translation": "%1$s has been wended",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5003,6 +5051,22 @@
         "identifier": "commands.clone.tooManyBlocks",
         "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
         "translation": "Too many clots in the narrowed stead (%1$d > %2$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.closechat.success",
+        "source_string": "Chat closed",
+        "translation": "Chat shut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.closechat.failure",
+        "source_string": "Chat was not open",
+        "translation": "Chat was not open",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6024,6 +6088,198 @@
         "max_length": null
     },
     {
+        "identifier": "crossPlatformToggle.crossPlatformDisabled.invite",
+        "source_string": "Enable cross-platform play in the main menu to invite friends on other platforms.",
+        "translation": "Lay on thwares-hardware play in the main list to lathe friends on other hardwares.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsPendingInvitationsScreen.pendingInvitations",
+        "source_string": "Realms Membership Invites",
+        "translation": "Realms Belongership Lathings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsPendingInvitationsScreen.noInvites",
+        "source_string": "You have no pending invites.",
+        "translation": "You have no ongoing lathings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsPendingInvitationsScreen.fetchingInvites",
+        "source_string": "Fetching invites...",
+        "translation": "Fetching lathings...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsPendingInvitationsScreen.decline",
+        "source_string": "Decline",
+        "translation": "Forbear",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsPendingInvitationsScreen.accepted",
+        "source_string": "Accepted",
+        "translation": "Borne",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsPendingInvitationsScreen.declined",
+        "source_string": "Declined",
+        "translation": "Forborne",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsPendingInvitationsScreen.showFriendInvites",
+        "source_string": "Only show invites from Friends.",
+        "translation": "Only show lathings from Friends.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.addingPlayers",
+        "source_string": "Adding Players...",
+        "translation": "Eking Players...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.findFriends",
+        "source_string": "Find friends",
+        "translation": "Find friends",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.continue",
+        "source_string": "Continue",
+        "translation": "Go On",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.done",
+        "source_string": "Done, Let's Play!",
+        "translation": "Done, Let's Play!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.friends",
+        "source_string": "Friends",
+        "translation": "Friends",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.invitedPlayers",
+        "source_string": "Invited Players",
+        "translation": "Lathed Players",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.members",
+        "source_string": "Members",
+        "translation": "Belongers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.unableToAddPlayers",
+        "source_string": "Could Not Add Players",
+        "translation": "Could Not Eke Players",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.loadingFriends",
+        "source_string": "Loading Friends and Members...",
+        "translation": "Loading Friends and Belongers...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.loadingProfiles",
+        "source_string": "Loading Profiles (%s / %s)",
+        "translation": "Loading Selfleaves (%s / %s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.noInvites",
+        "source_string": "No players could be found.",
+        "translation": "No players could be found.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.savingChanges",
+        "source_string": "Saving Changes...",
+        "translation": "Keeping Wends...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.sendingInvitesFailed",
+        "source_string": "Something went wrong. We could not add the players you selected to your Realm. Please try again later.",
+        "translation": "Something went wough. We could not eke the players you chose to your Realm. Kindly fand ayen later.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.title",
+        "source_string": "Add Members",
+        "translation": "Eke Belongers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.undo",
+        "source_string": "Undo",
+        "translation": "Undo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.removeRealmMember",
+        "source_string": "Remove player from the Realm",
+        "translation": "Fornim player from the Realm",
+        "context": "{StrContains=\"Realm\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsInvitationScreen.unblock",
         "source_string": "Unblock",
         "translation": "Undit",
@@ -6048,9 +6304,201 @@
         "max_length": null
     },
     {
+        "identifier": "realmsInvitationScreen.myRealm",
+        "source_string": "My Realm",
+        "translation": "My Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.fetchingLink",
+        "source_string": "Fetching new link...",
+        "translation": "Fetching new link...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.fetchingCode",
+        "source_string": "Fetching new invite code...",
+        "translation": "Fetching new lathe dern...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareTitle",
+        "source_string": "Realms Invitation",
+        "translation": "Realms Lathing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareText",
+        "source_string": "Come join me in this realm!",
+        "translation": "Come fay me in this realm!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.refreshDialogTitle",
+        "source_string": "Disable Current Link?",
+        "translation": "Lay Off Anward Link?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.refreshDialogLabel",
+        "source_string": "This will disable the current link and generate a new one. Anyone who became a member already will still be able to join your Realm.",
+        "translation": "This will lay off the anward link and beyet a new one. Anyone who became a belonger already will still be fit to fay your Realm.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.createLinkDialogTitle",
+        "source_string": "Generate Realm Link?",
+        "translation": "Beyet Realm Link?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.createLinkDialogLabel",
+        "source_string": "Anyone who opens this link will become a member of your Realm. You can disable a link by generating a new one.",
+        "translation": "Anyone who opens this link will become a belonger of your Realm. You can lay off a link by beyetting a new one.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareDialogTitle",
+        "source_string": "Download Backup Before Sharing?",
+        "translation": "Download Backup Before Sharing?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareDialogLabel",
+        "source_string": "Anyone with this link can become a member of your Realm. Be careful who you share it with. You may want to download a backup of your world first. You can remove members from Realm settings.",
+        "translation": "Anyone with this link can become a belonger of your Realm. Be careful who you share it with. You may wish to download a backup of your world first. You can fornim belongers from Realm settings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareDialogShareButton",
+        "source_string": "Share",
+        "translation": "Share",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.shareDialogCopyButton",
+        "source_string": "Copy",
+        "translation": "Clove",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.closedRealmWarning",
+        "source_string": "Your Realm is closed. Members cannot join.",
+        "translation": "Your Realm is shut. Belongers cannot fay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.generate",
+        "source_string": "Generate",
+        "translation": "Beyet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.disable",
+        "source_string": "Disable",
+        "translation": "Lay Off",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.backup",
+        "source_string": "Download",
+        "translation": "Download",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.kick",
+        "source_string": "Remove",
+        "translation": "Fornim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsInvitationScreen.kickAndBlock",
         "source_string": "Block",
         "translation": "Dit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.kickPopupTitle",
+        "source_string": "Revoke Access?",
+        "translation": "Fornim Reach?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.kickPopupText",
+        "source_string": "Do you want to revoke access for this player? You can undo this at any time.",
+        "translation": "Do you wish to fornim reach for this player? You can undo this at any time.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.copyToastMessage",
+        "source_string": "Link to your realm copied to clipboard!",
+        "translation": "Link to your Realm cloved to shearboard!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.playerFilterTitle",
+        "source_string": "Filter players",
+        "translation": "Sieve players",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.setPermissionFail",
+        "source_string": "Failed to set permission for user %s.",
+        "translation": "Could not set thaving for brooker %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.setDefaultPermissionFail",
+        "source_string": "Failed to set default permissions.",
+        "translation": "Could not set stock thavings.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6064,10 +6512,106 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSharingScreen.blockedInviteMessage",
+        "source_string": "Sorry, you've been blocked! Ask the Realm's owner to remove you from the Blocked list.",
+        "translation": "Sorry, you've been ditted! Ask the Realm's owner to fornim you from the Ditted list.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSharingScreen.badInviteTitle",
+        "source_string": "Invalid Realm Link",
+        "translation": "Unright Realm Link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSharingScreen.badInviteMessage",
+        "source_string": "The invite link is either incorrect or deactivated. Ask the Realm's owner for an updated link and make sure you've entered it correctly.",
+        "translation": "The lathing link is either wough or unastirred. Ask the Realm's owner for an anwardened link and make wis you've input it right.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSharingScreen.regenerateLinkFailed",
+        "source_string": "Failed to generate new invite link",
+        "translation": "Could not beyet new lathing link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSharingScreen.inviteLinkNotFoundTitle",
+        "source_string": "Realms Error",
+        "translation": "Realms Dwale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSharingScreen.inviteLinkNotFoundMessage",
+        "source_string": "This invite link is invalid.",
+        "translation": "This lathing link is unright.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsCreateScreen.playNowMessage1",
+        "source_string": "You can invite friends to your Realm and start playing now.",
+        "translation": "You can lathe friends to your Realm and start playing now.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "csbCreateScreen.popupTitle",
         "source_string": "Marketplace Pass",
         "translation": "Chapstow Path",
         "context": "{StrContains=\"Marketplace Pass\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "network.onlinePlay.msg",
+        "source_string": "You can invite friends to your worlds, view your friends' creations, and craft in each other's worlds.",
+        "translation": "You can lathe friends to your worlds, see your friends' makings, and craft in each other's worlds.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "network.onlinePlay.instruction",
+        "source_string": "From the Play menu, you can join your friends' worlds or invite them to your worlds and Realms.",
+        "translation": "From the Play list, you can fay your friends' worlds or lathe hem to your worlds and Realms.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "network.thirdparty.connect.achievements",
+        "source_string": "You will need a %s to earn achievements.",
+        "translation": "You will need a %s to earn fulfillings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "networkWorld.realmsHashPlaceholder",
+        "source_string": "Invite Code...",
+        "translation": "Lathing Dern...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "networkWold.joinByCodeHelpText",
+        "source_string": "If you have received a Realm Invite Link, enter the code to join.",
+        "translation": "If you have reaped a Realm Lathing Link, input the dern to fay.",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6160,6 +6704,14 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.failedUploadPack",
+        "source_string": "Failed to upload pack %s.",
+        "translation": "Could not upload pack %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.realmDurationLabel",
         "source_string": "Duration",
         "translation": "Lastingness",
@@ -6187,6 +6739,14 @@
         "identifier": "realmsSettingsScreen.renewRealmButton",
         "source_string": "Renew Realm",
         "translation": "Ednew Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.extendRealmButton",
+        "source_string": "Extend Realm",
+        "translation": "Lengthen Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6248,6 +6808,14 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.selectorSectionLabel",
+        "source_string": "Edit \"%s\"",
+        "translation": "Bework \"%s\"",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.selectorSectionLabelRealm",
         "source_string": "Realm",
         "translation": "Realm",
@@ -6291,6 +6859,14 @@
         "identifier": "realmsSettingsScreen.subscriptionSectionTitle",
         "source_string": "Subscription",
         "translation": "Underwriting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinksSectionTitle",
+        "source_string": "Invite Links",
+        "translation": "Lathing Links",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6504,6 +7080,22 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.fetchingWorldInfo",
+        "source_string": "Fetching Realm Information...",
+        "translation": "Fetching Realm Abreasting...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.updatingWorldInfo",
+        "source_string": "Updating Realm Information...",
+        "translation": "Anwardening Realm Abreasting...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.resettingRealm",
         "source_string": "Resetting Realm...",
         "translation": "Edsetting Realm...",
@@ -6536,9 +7128,57 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.realmInfoError",
+        "source_string": "Failed to retrieve realm information. Please try again later.",
+        "translation": "Could not find Realm abreasting. Kindly fand ayen later.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.realmJoinError",
+        "source_string": "Failed attempting to join realm. Please try again later.",
+        "translation": "Could not fand faying Realm. Kindly fand ayen later.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.realmResetError",
+        "source_string": "Failed to reset the realm. Please try again later.",
+        "translation": "Could not edset the Realm. Kindly fand ayen later.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.realmOpenError",
+        "source_string": "Failed to open realm.",
+        "translation": "Could not open Realm.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.realmCloseError",
+        "source_string": "Failed to close realm.",
+        "translation": "Could not shut Realm.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.reset",
         "source_string": "Reset",
         "translation": "Edset",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.resetRealm",
+        "source_string": "This will remove your current world from your Realm's active slot and let you replace it with a brand new world. Your Realm's members will have access to your new world. Select \"Cancel\" and then \"Download World\" to go and download a copy of the current world to prevent data loss, or select \"Confirm\" to continue and replace your world.",
+        "translation": "This will fornim your anward world from your Realm's astirred groovestead and let you swap it out with a brand new world. Your Realm's belongers will have reach to your new world. Choose \"Belay\" and then \"Download World\" to go and download a clove of the anward world to forestall lore loss, or choose \"Sicker\" to go on and swap out your world.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6568,6 +7208,142 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.LoadingSubscription",
+        "source_string": "Loading subscription...",
+        "translation": "Loading underwriting...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.LoadingInviteLinks",
+        "source_string": "Loading invite links...",
+        "translation": "Loading lathing links...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.failedLoadingSubscription",
+        "source_string": "Failed Loading subscription",
+        "translation": "Could not load underwriting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.failedLoadingInviteLinks",
+        "source_string": "Failed Loading Invite Links",
+        "translation": "Could Not Load Lathing Links",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.matchingPurchasePlatformFormat",
+        "source_string": "You purchased your subscription in the %s",
+        "translation": "You bought your underwriting in the %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.nonMatchingPurchasePlatformFormat",
+        "source_string": "You started your subscription in the %s. You can only extend your subscription there.",
+        "translation": "You started your underwriting in the %s. You can only lengthen your underwriting there.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.nonMatchingPurchasePlatformGeneric",
+        "source_string": "You can manage your Realm subscription in the platform store where you originally purchased it.",
+        "translation": "You can handle your Realm underwriting in the hardware stow where you formerly bought it.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkLabel",
+        "source_string": "Invite links:",
+        "translation": "Lathing links:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkLabelDescription",
+        "source_string": "You can add up to 5 invite links and share them so people can join your Realm.",
+        "translation": "You can eke up to 5 lathing links and share hem so folk can fay your Realm.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkLabelDescriptionFull",
+        "source_string": "You have reached the maximum number of invite links. You must remove an existing link before adding a new one.",
+        "translation": "You have reached the greatest rime of lathing links. You must fornim a bestanding link before eking a new one.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkNameTTS",
+        "source_string": "Invite Link titled %s.",
+        "translation": "Lathing Link named %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkExpiryTTS",
+        "source_string": "%s. %s. Click the button to change the settings.",
+        "translation": "%s. %s. Click the key to wend the settings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkAddButton",
+        "source_string": "Add new invite link",
+        "translation": "Eke new lathing link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkCopyTTS",
+        "source_string": "Copy invite link",
+        "translation": "Clove lathing link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkActivate",
+        "source_string": "Activate link",
+        "translation": "Astir link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkActivateTTS",
+        "source_string": "Activate link. Activate this link to allow people to join with it.",
+        "translation": "Astir link. Astir this link to aleave folk to fay with it.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkActivateDescription",
+        "source_string": "Activate this link to allow people to join with it.",
+        "translation": "Astir this link to aleave folk to fay with it.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.inviteLinkActive",
         "source_string": "Active",
         "translation": "Astirred",
@@ -6579,6 +7355,62 @@
         "identifier": "realmsSettingsScreen.inviteLinkInactive",
         "source_string": "Inactive",
         "translation": "Unastirred",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkInactiveExpiry",
+        "source_string": "No one can join with this link",
+        "translation": "No one can fay with this link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkExpiryTime",
+        "source_string": "Expires %s at %s",
+        "translation": "Quenches %s at %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkExpiredTime",
+        "source_string": "Expired %s at %s",
+        "translation": "Quenched %s at %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkExpired",
+        "source_string": "Expired",
+        "translation": "Quenched",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkInfinite",
+        "source_string": "Never expires",
+        "translation": "Never quenches",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkInfiniteToggle",
+        "source_string": "Set link to never expire",
+        "translation": "Set link to never quench",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkTitle",
+        "source_string": "Invite link: %s",
+        "translation": "Lathing link: %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6640,9 +7472,57 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.inviteLinkCopiedToast",
+        "source_string": "Invite link copied in your clipboard.",
+        "translation": "Lathing link cloved in your shearboard.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkRemoveModalTitle",
+        "source_string": "Remove invite link?",
+        "translation": "Fornim lathing link?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkRemoveModalConfirm",
+        "source_string": "Yes, remove link",
+        "translation": "Yes, fornim link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.inviteLinkExpirationLabel",
         "source_string": "Expiration date",
         "translation": "Quenching talemark",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkExpirationDescription",
+        "source_string": "Set when this link will expire.",
+        "translation": "Set when this link will quench.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLink.errorLinkAddingTitle",
+        "source_string": "Error Adding Link",
+        "translation": "Dwale Eking Link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLink.errorLinkDeleteTitle",
+        "source_string": "Error Deleting Link",
+        "translation": "Dwale Adwashing Link",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6656,9 +7536,73 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.expiration.unset",
+        "source_string": "Set Expiration",
+        "translation": "Set Quenching",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.expiration.never",
         "source_string": "Never",
         "translation": "Never",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.halfHour",
+        "source_string": "30 min",
+        "translation": "30 stoundles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.hour",
+        "source_string": "1 hour",
+        "translation": "1 stound",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.quarterDay",
+        "source_string": "6 hours",
+        "translation": "6 stounds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.halfDay",
+        "source_string": "12 hours",
+        "translation": "12 stounds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.day",
+        "source_string": "1 day",
+        "translation": "1 day",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.week",
+        "source_string": "7 days",
+        "translation": "7 days",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.never.full",
+        "source_string": "Never Expires",
+        "translation": "Never Quenches",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6720,9 +7664,105 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.switchStoreDisplayName",
+        "source_string": "Nintendo eShop",
+        "translation": "Nintendo eShop",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.iosStoreDisplayName",
+        "source_string": "App Store",
+        "translation": "App Store",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.googlePlayStoreDisplayName",
+        "source_string": "Google Play store",
+        "translation": "Google Play stow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.windowsStoreDisplayName",
+        "source_string": "Windows Store",
+        "translation": "Windows Stow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.xboxOneStoreDisplayName",
+        "source_string": "Xbox Store",
+        "translation": "Xbox Stow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.amazonStoreDisplayName",
+        "source_string": "Amazon Appstore",
+        "translation": "Amazon Appstore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.oculusStoreDisplayName",
+        "source_string": "Oculus Store",
+        "translation": "Oculus Stow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.berwickStoreDisplayName",
+        "source_string": "PlayStation®Store",
+        "translation": "PlayStation®Store",
+        "context": "CertRequirement: [PlayStation®Store]",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.SonyStoreDisplayName",
+        "source_string": "PlayStation®Store",
+        "translation": "PlayStation®Store",
+        "context": "### CertRequirement: [PlayStation®Store]",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.unknownStoreDisplayName",
         "source_string": "unknown store",
         "translation": "unknown stow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.extendingRealm",
+        "source_string": "Extending Realm...",
+        "translation": "Lengthening Realm...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.dev_current_version_label",
+        "source_string": "Current Version:",
+        "translation": "Anward Wharve:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.dev_no_matching_version_message",
+        "source_string": "NO MATCH FOR '%s'",
+        "translation": "NO MATCH FOR '%s'",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6752,6 +7792,14 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.allowlist_invite",
+        "source_string": "Invite",
+        "translation": "Lathe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.searchBox",
         "source_string": "Search...",
         "translation": "Seek...",
@@ -6776,9 +7824,49 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.extendConsumableButton",
+        "source_string": "Extend Subscription",
+        "translation": "Lengthen Underwriting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.extendConsumableButton.30",
+        "source_string": "Extend by 30 Days",
+        "translation": "Lengthen by 30 Days",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.extendConsumableButton.180",
+        "source_string": "Extend by 180 Days",
+        "translation": "Lengthen by 180 Days",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xblLogin.LoginMessageTitle",
+        "source_string": "Microsoft account",
+        "translation": "Microsoft reckoning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "xblLogin.LoginMessage",
         "source_string": "Connecting…",
         "translation": "Binding…",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbl.savePurchase.saveButton",
+        "source_string": "Save to Microsoft account",
+        "translation": "Keep to Microsoft reckoning",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7120,9 +8208,33 @@
         "max_length": null
     },
     {
+        "identifier": "dayOneExperience.next",
+        "source_string": "Next",
+        "translation": "Next",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "dayOneExperience.intro_title",
         "source_string": "Minecraft has Updated!",
         "translation": "Minecraft has Anwardened!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dayOneExperience.skin_current",
+        "source_string": "Current Skin",
+        "translation": "Anward Hide",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dayOneExperience.skin_default",
+        "source_string": "Default Skin",
+        "translation": "Stock Hide",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7296,6 +8408,14 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.inWall",
+        "source_string": "%1$s suffocated in a wall",
+        "translation": "%1$s was buried alive",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.lava",
         "source_string": "%1$s tried to swim in lava",
         "translation": "%1$s fanded to swim in moltenstone",
@@ -7384,6 +8504,14 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.onFire.player",
+        "source_string": "%1$s was burnt to a crisp whilst fighting %2$s",
+        "translation": "%1$s was burnt to ashes while fighting %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.outOfWorld",
         "source_string": "%1$s fell out of the world",
         "translation": "%1$s fell out of the world",
@@ -7440,9 +8568,57 @@
         "max_length": null
     },
     {
+        "identifier": "death.attack.wither",
+        "source_string": "%1$s withered away",
+        "translation": "%1$s withered away",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.attack.freeze",
+        "source_string": "%1$s froze to death",
+        "translation": "%1$s froze to death",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.attack.stalagmite",
         "source_string": "%1$s was impaled on a stalagmite",
         "translation": "%1$s was sticked on a dripstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.fell.accident.generic",
+        "source_string": "%1$s fell from a high place",
+        "translation": "%1$s fell from a high stead",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.fell.accident.ladder",
+        "source_string": "%1$s fell off a ladder",
+        "translation": "%1$s fell off a ladder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.fell.accident.water",
+        "source_string": "%1$s fell out of the water",
+        "translation": "%1$s fell out of the water",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "death.fell.assist",
+        "source_string": "%1$s was doomed to fall by %2$s",
+        "translation": "%1$s was doomed to fall by %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7456,6 +8632,14 @@
         "max_length": null
     },
     {
+        "identifier": "death.fell.finish",
+        "source_string": "%1$s fell too far and was finished by %2$s",
+        "translation": "%1$s fell too far and was ended by %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "death.fell.finish.item",
         "source_string": "%1$s fell too far and was finished by %2$s using %3$s",
         "translation": "%1$s fell too far and was ended by %2$s brooking %3$s",
@@ -7464,9 +8648,25 @@
         "max_length": null
     },
     {
+        "identifier": "death.fell.killer",
+        "source_string": "%1$s was doomed to fall",
+        "translation": "%1$s was doomed to fall",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "deathScreen.deleteWorld",
         "source_string": "Delete world",
         "translation": "Adwash world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.leaveServer",
+        "source_string": "Leave server",
+        "translation": "Leave outreckoner",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7491,6 +8691,206 @@
         "identifier": "deathScreen.quit.confirm",
         "source_string": "Are you sure you want to quit?",
         "translation": "Are you wis you wish to yield?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.quit.confirmToMainMenuTitleWarning",
+        "source_string": "Quit to Main Menu?",
+        "translation": "Yield to Main List?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.quit.secondaryClient",
+        "source_string": "Save and Leave",
+        "translation": "Keep and Leave",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.quit.secondaryClient.confirmLeaveWarning",
+        "source_string": "Are you sure you want to save and leave the game?",
+        "translation": "Are you wis you wish to keep and leave the game?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.quit.secondaryClient.confirmLeaveTitleWarning",
+        "source_string": "Save and Leave",
+        "translation": "Keep and Leave",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.respawn",
+        "source_string": "Respawn",
+        "translation": "Edstart",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.score",
+        "source_string": "Score",
+        "translation": "Stand",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.title",
+        "source_string": "You died!",
+        "translation": "You swelted!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.title.hardcore",
+        "source_string": "Game over!",
+        "translation": "Game over!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.titleScreen",
+        "source_string": "Title screen",
+        "translation": "Main shirm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.day.2",
+        "source_string": "Day Two",
+        "translation": "Day Two",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.day.3",
+        "source_string": "Day Three",
+        "translation": "Day Three",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.day.4",
+        "source_string": "Day Four",
+        "translation": "Day Four",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.day.5",
+        "source_string": "This is your last day!",
+        "translation": "This is your last day!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.day.warning",
+        "source_string": "Your time is almost up!",
+        "translation": "Your time is almost up!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.help.buy",
+        "source_string": "Purchase Now!",
+        "translation": "Buy Now!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.help.jump",
+        "source_string": "Jump by pressing %1$s",
+        "translation": "Leap by thringing %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.help.later",
+        "source_string": "Continue Playing!",
+        "translation": "Go On Playing!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.help.movementMouse",
+        "source_string": "Look around using the mouse",
+        "translation": "Look umb brooking the mouse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.help.movementShort",
+        "source_string": "Move by pressing %1$s, %2$s, %3$s, %4$s",
+        "translation": "Shrithe by thringing %1$s, %2$s, %3$s, %4$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.remainingTime",
+        "source_string": "Remaining time: %s",
+        "translation": "Time left: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dimension.dimensionName0",
+        "source_string": "Overworld",
+        "translation": "Overworld",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dimension.dimensionName1",
+        "source_string": "Nether",
+        "translation": "Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dimension.dimensionName2",
+        "source_string": "The End",
+        "translation": "The End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.header.realms_hidden",
+        "source_string": "Multiplayer Invitation",
+        "translation": "Maniplayer Lathing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.notAllowed",
+        "source_string": "You're not invited to play on this server.",
+        "translation": "You're not lathed to play on this outreckoner.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8834,7 +10234,7 @@
     {
         "identifier": "howtoplay.commandBlocks.text.3",
         "source_string": "When a Command Block has either executed or failed to execute its stored command, it sends a Redstone signal from the side where the arrow is pointing.",
-        "translation": "When a Hest Clot has either run or trucked to run its stowed hest, it sends a Redstone strength from the side where the flone is ording.",
+        "translation": "When a Hest Clot has either run or trucked to run its stowed hest, it sends a Redstone strength from the side where the arrow is ording.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9698,7 +11098,7 @@
     {
         "identifier": "howtoplay.weapons.text.7",
         "source_string": "The Sword, Bow, Crossbow, and Trident have specific enchantments that you can get from the Enchanting Table or Anvil that will improve damage, durability and even light mobs on fire!",
-        "translation": "The Sword, Bow, Roodbow, and Leister have narrowed galders that you can reap from the Galdercraft Bench or Anvil that will better harm, lastingness and even light wights on fire!",
+        "translation": "The Sword, Bow, Steel Bow, and Leister have narrowed galders that you can reap from the Galdercraft Bench or Anvil that will better harm, lastingness and even light wights on fire!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9792,6 +11192,70 @@
         "max_length": null
     },
     {
+        "identifier": "inbox.realmInvite.title",
+        "source_string": "Realm invite to %s",
+        "translation": "Realm lathing to %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "inbox.gameInvite.title",
+        "source_string": "Game Invite from %s",
+        "translation": "Game Lathing from %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.clear",
+        "source_string": "Clear Selection",
+        "translation": "Empty Choosing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.send",
+        "source_string": "Send %d Invites",
+        "translation": "Send %d Lathings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.sendOne",
+        "source_string": "Send 1 Invite",
+        "translation": "Send 1 Lathing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.sendUnnumbered",
+        "source_string": "Send Invites",
+        "translation": "Send Lathings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.title",
+        "source_string": "Invite Friends to your Game",
+        "translation": "Lathe Friends to your Game",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.titleRealms",
+        "source_string": "Invite Members to your Realm Server",
+        "translation": "Lathe Belongers to your Realm Outreckoner",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "invite.notification.title",
         "source_string": "Game Invite",
         "translation": "Game Lathing",
@@ -9810,7 +11274,15 @@
     {
         "identifier": "invite.notification.description",
         "source_string": "%s has invited you to play Minecraft",
-        "translation": "%s has welcome you to play Minecraft",
+        "translation": "%s has lathed you to play Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "invite.pageCounter",
+        "source_string": "%d/%d",
+        "translation": "%d/%d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9930,7 +11402,7 @@
     {
         "identifier": "item.arrow.name",
         "source_string": "Arrow",
-        "translation": "Flone",
+        "translation": "Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9938,7 +11410,7 @@
     {
         "identifier": "item.tipped_arrow.name",
         "source_string": "Tipped Arrow",
-        "translation": "Tipped Flone",
+        "translation": "Tipped Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16522,7 +17994,7 @@
     {
         "identifier": "item.crossbow.name",
         "source_string": "Crossbow",
-        "translation": "Roodbow",
+        "translation": "Steel Bow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20234,7 +21706,7 @@
     {
         "identifier": "sunsetting.popup.pendingSunset.device",
         "source_string": "Our ability to support this device is coming to an end. You will continue to receive updates until March of 2025, when you will receive your final update for this device.%sAfter you receive the final update, you will still be able to play on your worlds, and access Marketplace purchases (including Minecoins). Realms managed with this device will continue to work for 6 months unless they are updated by the Realm owner on a different device.%sTo cancel your Realm subscription, you will need to do so in the Settings menu for Subscriptions on the device the Realm was created with.%sYou will no longer receive the latest updates and will be unable to play multiplayer with devices or Realms which are continuing to receive updates. You will also not be able to connect to certain servers.%sClick on the button for more information.",
-        "translation": "Our might to uphold this sare is ending. You will go on reaping anwardenings until Reethmonth of 2025, when you will reap your last anwardening for this sare.%sAfter you reap the last anwardening, you will still be fit to play on your worlds, and reach Chapstow buys (inning Minecoins). Realms handled with this sare will go on to work for 6 months unless they are anwardened by the Realm owner on a sunder sare.%sTo belay your Realm underwriting, you will need to do so in the Settings list for Underwritings on the sare the Realm was made with.%sYou will no longer reap the latest anwardenings and will be unfit to play maniplayer with sares or Realms which are going on reaping anwardenings. You will also not be fit to bind to some outreckoners.%sClick on the key for more abreasting.",
+        "translation": "Our might to uphold this sare is ending. You will go on reaping anwardenings until Reethmonth of 2025, when you will reap your last anwardening for this sare.%sAfter you reap the last anwardening, you will still be fit to play on your worlds, and reach Chapstow buys (inning Minecoins). Realms handled with this sare will go on to work for 6 months unless hie are anwardened by the Realm owner on a sunder sare.%sTo belay your Realm underwriting, you will need to do so in the Settings list for Underwritings on the sare the Realm was made with.%sYou will no longer reap the latest anwardenings and will be unfit to play maniplayer with sares or Realms which are going on reaping anwardenings. You will also not be fit to bind to some outreckoners.%sClick on the key for more abreasting.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20242,7 +21714,7 @@
     {
         "identifier": "sunsetting.popup.sunset.device",
         "source_string": "Our ability to support this device has come to an end. You will no longer receive updates as of March of 2025, and this is your final update for this device.%sYou will still be able to play on your worlds, and access Marketplace purchases (including Minecoins). Realms managed with this device will continue to work for 6 months from March of 2025 unless they are updated by the Realm owner on a different device.%sTo cancel your Realm subscription, you will need to do so in the Settings menu for Subscriptions on the device the Realm was created with.%sYou will no longer receive the latest updates and will be unable to play multiplayer with devices or Realms which are continuing to receive updates. You will also not be able to connect to certain servers.%sClick on the button for more information.",
-        "translation": "Our might to uphold this sare has ended. You will no longer reap anwardenings as of Reethmonth of 2025, when you will reap your last anwardening for this sare.%sYou will still be fit to play on your worlds, and reach Chapstow buys (inning Minecoins). Realms handled with this sare will go on to work for 6 months from Reethmonth of 2025 unless they are anwardened by the Realm owner on a sunder sare.%sTo belay your Realm underwriting, you will need to do so in the Settings list for Underwritings on the sare the Realm was made with.%sYou will no longer reap the latest anwardenings and will be unfit to play maniplayer with sares or Realms which are going on reaping anwardenings. You will also not be fit to bind to some outreckoners.%sClick on the key for more abreasting.",
+        "translation": "Our might to uphold this sare has ended. You will no longer reap anwardenings as of Reethmonth of 2025, when you will reap your last anwardening for this sare.%sYou will still be fit to play on your worlds, and reach Chapstow buys (inning Minecoins). Realms handled with this sare will go on to work for 6 months from Reethmonth of 2025 unless hie are anwardened by the Realm owner on a sunder sare.%sTo belay your Realm underwriting, you will need to do so in the Settings list for Underwritings on the sare the Realm was made with.%sYou will no longer reap the latest anwardenings and will be unfit to play maniplayer with sares or Realms which are going on reaping anwardenings. You will also not be fit to bind to some outreckoners.%sClick on the key for more abreasting.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20283,6 +21755,14 @@
         "identifier": "pauseScreen.feed",
         "source_string": "Feed",
         "translation": "Feed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "pauseScreen.invite",
+        "source_string": "Invite to Game",
+        "translation": "Lathe to Game",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27962,7 +29442,7 @@
     {
         "identifier": "tipped_arrow.effect.empty",
         "source_string": "Tipped Arrow",
-        "translation": "Tipped Flone",
+        "translation": "Tipped Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27970,7 +29450,7 @@
     {
         "identifier": "tipped_arrow.effect.mundane",
         "source_string": "Tipped Arrow",
-        "translation": "Tipped Flone",
+        "translation": "Tipped Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27978,7 +29458,7 @@
     {
         "identifier": "tipped_arrow.effect.thick",
         "source_string": "Tipped Arrow",
-        "translation": "Tipped Flone",
+        "translation": "Tipped Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27986,7 +29466,7 @@
     {
         "identifier": "tipped_arrow.effect.awkward",
         "source_string": "Tipped Arrow",
-        "translation": "Tipped Flone",
+        "translation": "Tipped Arrow",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27994,7 +29474,7 @@
     {
         "identifier": "tipped_arrow.effect.nightVision",
         "source_string": "Arrow of Night Vision",
-        "translation": "Flone of Nightsight",
+        "translation": "Arrow of Nightsight",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28002,7 +29482,7 @@
     {
         "identifier": "tipped_arrow.effect.invisibility",
         "source_string": "Arrow of Invisibility",
-        "translation": "Flone of Unseenliness",
+        "translation": "Arrow of Unseenliness",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28010,7 +29490,7 @@
     {
         "identifier": "tipped_arrow.effect.jump",
         "source_string": "Arrow of Leaping",
-        "translation": "Flone of Leaping",
+        "translation": "Arrow of Leaping",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28018,7 +29498,7 @@
     {
         "identifier": "tipped_arrow.effect.fireResistance",
         "source_string": "Arrow of Fire Resistance",
-        "translation": "Flone of Fire Withstanding",
+        "translation": "Arrow of Fire Withstanding",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28026,7 +29506,7 @@
     {
         "identifier": "tipped_arrow.effect.moveSpeed",
         "source_string": "Arrow of Swiftness",
-        "translation": "Flone of Swiftness",
+        "translation": "Arrow of Swiftness",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28034,7 +29514,7 @@
     {
         "identifier": "tipped_arrow.effect.moveSlowdown",
         "source_string": "Arrow of Slowness",
-        "translation": "Flone of Slowness",
+        "translation": "Arrow of Slowness",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28042,7 +29522,7 @@
     {
         "identifier": "tipped_arrow.effect.water",
         "source_string": "Arrow of Splashing",
-        "translation": "Flone of Splashing",
+        "translation": "Arrow of Splashing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28050,7 +29530,7 @@
     {
         "identifier": "tipped_arrow.effect.waterBreathing",
         "source_string": "Arrow of Water Breathing",
-        "translation": "Flone of Water Breathing",
+        "translation": "Arrow of Water Breathing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28058,7 +29538,7 @@
     {
         "identifier": "tipped_arrow.effect.heal",
         "source_string": "Arrow of Healing",
-        "translation": "Flone of Healing",
+        "translation": "Arrow of Healing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28066,7 +29546,7 @@
     {
         "identifier": "tipped_arrow.effect.harm",
         "source_string": "Arrow of Harming",
-        "translation": "Flone of Harming",
+        "translation": "Arrow of Harming",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28074,7 +29554,7 @@
     {
         "identifier": "tipped_arrow.effect.poison",
         "source_string": "Arrow of Poison",
-        "translation": "Flone of Atter",
+        "translation": "Arrow of Atter",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28082,7 +29562,7 @@
     {
         "identifier": "tipped_arrow.effect.regeneration",
         "source_string": "Arrow of Regeneration",
-        "translation": "Flone of Edhealing",
+        "translation": "Arrow of Edhealing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28090,7 +29570,7 @@
     {
         "identifier": "tipped_arrow.effect.damageBoost",
         "source_string": "Arrow of Strength",
-        "translation": "Flone of Strength",
+        "translation": "Arrow of Strength",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28098,7 +29578,7 @@
     {
         "identifier": "tipped_arrow.effect.weakness",
         "source_string": "Arrow of Weakness",
-        "translation": "Flone of Woakness",
+        "translation": "Arrow of Woakness",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28106,7 +29586,7 @@
     {
         "identifier": "tipped_arrow.effect.levitation",
         "source_string": "Arrow of Levitation",
-        "translation": "Flone of Hovering",
+        "translation": "Arrow of Hovering",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28114,7 +29594,7 @@
     {
         "identifier": "tipped_arrow.effect.luck",
         "source_string": "Arrow of Luck",
-        "translation": "Flone of Luck",
+        "translation": "Arrow of Luck",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28122,7 +29602,7 @@
     {
         "identifier": "tipped_arrow.effect.wither",
         "source_string": "Arrow of Decay",
-        "translation": "Flone of Wanthriving",
+        "translation": "Arrow of Wanthriving",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28130,7 +29610,7 @@
     {
         "identifier": "tipped_arrow.effect.turtleMaster",
         "source_string": "Arrow of the Turtle Master",
-        "translation": "Flone of Shellpad Lord",
+        "translation": "Arrow of Shellpad Lord",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28138,7 +29618,7 @@
     {
         "identifier": "tipped_arrow.effect.slowFalling",
         "source_string": "Arrow of Slow Falling",
-        "translation": "Flone of Slow Falling",
+        "translation": "Arrow of Slow Falling",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28146,7 +29626,7 @@
     {
         "identifier": "tipped_arrow.effect.infested",
         "source_string": "Arrow of Infestation",
-        "translation": "Flone of Incoathing",
+        "translation": "Arrow of Incoathing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28154,7 +29634,7 @@
     {
         "identifier": "tipped_arrow.effect.oozing",
         "source_string": "Arrow of Oozing",
-        "translation": "Flone of Oozing",
+        "translation": "Arrow of Oozing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28162,7 +29642,7 @@
     {
         "identifier": "tipped_arrow.effect.weaving",
         "source_string": "Arrow of Weaving",
-        "translation": "Flone of Weaving",
+        "translation": "Arrow of Weaving",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -28170,7 +29650,7 @@
     {
         "identifier": "tipped_arrow.effect.windCharged",
         "source_string": "Arrow of Wind Charging",
-        "translation": "Flone of Wind Loading",
+        "translation": "Arrow of Wind Loading",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31416,9 +32896,97 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.closeButton",
+        "source_string": "Close  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "translation": "Shut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway  ###Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "translation": "Make anyway",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
+        "source_string": "Continue anyway  ###Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "translation": "Go on anyway",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.creativeMode",
+        "source_string": "The world is created in creative mode   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "translation": "The world is made in makerly wayset",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "translation": "Making a world brooking any of the following marks will mean you won't be fit to earn fulfillings in this world. Even if you lay these kires off later, you'll need to go to a sunder world to earn fulfillings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason {MaxLength=300}",
+        "translation": "Making a world brooking  following mark will mean you won't be fit to earn fulfillings in that world. Even if you lay this kires off later, you'll need to go to a sunder world to earn fulfillings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "translation": "The way this world has been set up means that you won’t be fit to earn fulfillings while playing in it. Beworking the world’s settings now can’t wend this. You’ll need to go to a sunder world to earn fulfillings.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "translation": "The world is made as a flat world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
         "source_string": "Go back  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
         "translation": "Go back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "translation": "The world maker has Overseer sunderrights",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:   ###Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=150}",
+        "translation": "Fulfillings can't be earned in this world if:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "translation": "The world is built from a forelay",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31432,9 +33000,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "translation": "The world maker is brooking the fand wharve of Minecraft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementListItem.completed",
         "source_string": "Completed",
         "translation": "Fuldone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.gamerscoreNarration",
+        "source_string": "gamerscore %1$s",
+        "translation": "gamerscore %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.groupNarration",
+        "source_string": "Group %1$s of %2$s",
+        "translation": "Team %1$s of %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
