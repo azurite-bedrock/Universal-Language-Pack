@@ -1586,7 +1586,7 @@
     {
         "identifier": "accounts.switchConfirmation",
         "source_string": "Do you want to switch accounts? Your current account will stay signed in.",
-        "translation": "Do you wish to wend reckonings? Your anward reckoning will stay gone in.",
+        "translation": "Do you wish to wend reckonings? Your anward reckoning will keep gone in.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4920,6 +4920,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.blockdata.description",
+        "source_string": "Modifies the data tag of a block.",
+        "translation": "Tweaks the lore token of a clot.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.blockdata.placeFailed",
         "source_string": "You cannot place blocks here",
         "translation": "You cannot lay clots here",
@@ -4931,6 +4939,14 @@
         "identifier": "commands.blockdata.destroyFailed",
         "source_string": "You cannot dig here",
         "translation": "You cannot dig here",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.failed",
+        "source_string": "The data tag did not change: %1$s",
+        "translation": "The lore token did not wend: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5096,6 +5112,22 @@
         "max_length": null
     },
     {
+        "identifier": "commands.effect.failure.notAMob",
+        "source_string": "%1$s cannot have effects",
+        "translation": "%1$s cannot have rines",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.effect.notFound",
+        "source_string": "There is no such mob effect with ID %s",
+        "translation": "There is no such wight rine with IHOOD %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.effect.success",
         "source_string": "Gave %1$s * %2$d to %3$s for %4$d seconds",
         "translation": "Yave %1$s * %2$d to %3$s for %4$d braids",
@@ -5243,6 +5275,78 @@
         "identifier": "commands.gamerule.success",
         "source_string": "Game rule %1$s has been updated to %2$s",
         "translation": "Game wield %1$s has been anwardened to %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips.description",
+        "source_string": "Enable or disable the game tips on this device",
+        "translation": "Lay on or lay off the game tips on this sare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips.enabled",
+        "source_string": "Game tips are now enabled",
+        "translation": "Game tips are now on",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips.disabled",
+        "source_string": "Game tips are now disabled",
+        "translation": "Game tips are now off",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-off.description",
+        "source_string": "Disable game tips on this device",
+        "translation": "Lay off game tips on this sare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-off.success",
+        "source_string": "Game tips are now disabled",
+        "translation": "Game tips are now off",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-on.description",
+        "source_string": "Enable game tips on this device",
+        "translation": "Lay on game tips on this sare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-on.success",
+        "source_string": "Game tips are now enabled",
+        "translation": "Game tips are now on",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-reset.description",
+        "source_string": "Reset game tips on this device",
+        "translation": "Edset game tips on this sare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gametips-reset.success",
+        "source_string": "Game tips are now reset",
+        "translation": "Game tips are now edset",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5456,6 +5560,22 @@
         "max_length": null
     },
     {
+        "identifier": "commands.kill.description.edu",
+        "source_string": "Removes entities (players, mobs, etc.).",
+        "translation": "Fornims ansens (players, wights, asf.).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.description",
+        "source_string": "Kills entities (players, mobs, etc.).",
+        "translation": "Kills ansens (players, wights, asf.).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.lesson.success",
         "source_string": "Success",
         "translation": "Speedful",
@@ -5571,6 +5691,94 @@
         "identifier": "commands.tagsfromitem.fail.notagsfound",
         "source_string": "No tags found on the item: %s.",
         "translation": "No tokens found on the thing: %s.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.description",
+        "source_string": "Controls what mob events are allowed to run.",
+        "translation": "Wields what wight befallings are aleaved to run.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToTrue",
+        "source_string": "Mob Events are now enabled. Individual events which are set to false will not run.",
+        "translation": "Wight Befallings are now on. Sundrily befallings which are set to false will not run.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToFalse",
+        "source_string": "Mob Events are now disabled. Individual events will not run.",
+        "translation": "Wight Befallings are now off. Sundrily befallings will not run.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsTrue",
+        "source_string": "Mob Events are enabled. Individual events which are set to false will not run.",
+        "translation": "Wight Befallings are on. Sundrily befallings which are set to false will not run.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsFalse",
+        "source_string": "Mob Events are disabled. Individual events will not run.",
+        "translation": "Wight Befallings are off. Sundrily befallings will not run.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrue",
+        "source_string": "Mob Event %s (id: %s) set to true.",
+        "translation": "Wight Befallings %s (ihood: %s) set to true.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) set to true, but Mob Events are disabled.",
+        "translation": "Wight Befallings %s (ihood: %s) set to true, but Wight Befallings are off.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToFalse",
+        "source_string": "Mob Event %s (id: %s) set to false.",
+        "translation": "Wight Befallings %s (ihood: %s) set to false.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrue",
+        "source_string": "Mob Event %s (id: %s) is set to true.",
+        "translation": "Wight Befallings %s (ihood: %s) is set to true.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) is set to true, but Mob Events are disabled.",
+        "translation": "Wight Befallings %s (ihood: %s) is set to true, but Wight Befallings are off.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsFalse",
+        "source_string": "Mob Event %s (id: %s) is set to false.",
+        "translation": "Wight Befallings %s (ihood: %s) is set to false.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5779,6 +5987,14 @@
         "identifier": "commands.tickingarea-preload.success",
         "source_string": "Updated ticking area(s)",
         "translation": "Anwardened ticking spot(s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tp.description",
+        "source_string": "Teleports entities (players, mobs, etc.).",
+        "translation": "Farferries ansens (players, wights, asf.).",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6016,9 +6232,33 @@
         "max_length": null
     },
     {
+        "identifier": "createWorldScreen.mobLoot",
+        "source_string": "Mob Loot",
+        "translation": "Wight Meeds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "createWorldScreen.respawnblocksexplode",
         "source_string": "Respawn Blocks Explode",
         "translation": "Edstart Clots Blast",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.mobSpawn",
+        "source_string": "Mob Spawning",
+        "translation": "Wight Springing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.mobgriefing",
+        "source_string": "Mob Griefing",
+        "translation": "Wight Quenching",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6043,6 +6283,14 @@
         "identifier": "createWorldScreen.experimentalUpdateAnnounced2023Description",
         "source_string": "New features and content for Minecraft 1.21",
         "translation": "New marks and inholding for Minecraft 1.21",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.experimentalY2025Drop1Description",
+        "source_string": "Explore new biome improvements and mob variants coming in the first game drop of 2025",
+        "translation": "Seek new lifeheap betterings and wight sundries coming in the first game drop of 2025",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8200,6 +8448,14 @@
         "max_length": null
     },
     {
+        "identifier": "dayOneExperience.carousel.villager",
+        "source_string": "New Minecraft is the only place to receive future updates containing new features, mobs, items, blocks and much more!",
+        "translation": "You can only reap future updates with new marks, wights, things, clots and much more through new Minecraft!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "dayOneExperience.tab.marketplace",
         "source_string": "Marketplace",
         "translation": "Chapstow",
@@ -8992,6 +9248,14 @@
         "max_length": null
     },
     {
+        "identifier": "enchantment.damage.arthropods",
+        "source_string": "Bane of Arthropods",
+        "translation": "Bane of Spiderlikes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "enchantment.damage.undead",
         "source_string": "Smite",
         "translation": "Smite",
@@ -9184,6 +9448,14 @@
         "max_length": null
     },
     {
+        "identifier": "enchantment.oxygen",
+        "source_string": "Respiration",
+        "translation": "Underwater Breathing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "enchantment.protect.all",
         "source_string": "Protection",
         "translation": "Shielding",
@@ -9248,6 +9520,22 @@
         "max_length": null
     },
     {
+        "identifier": "enchantment.untouching",
+        "source_string": "Silk Touch",
+        "translation": "Soft Rine",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.waterWalker",
+        "source_string": "Depth Strider",
+        "translation": "Depth Strider",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "enchantment.waterWorker",
         "source_string": "Aqua Affinity",
         "translation": "Water Kinship",
@@ -9259,6 +9547,14 @@
         "identifier": "enchantment.tridentLoyalty",
         "source_string": "Loyalty",
         "translation": "Troth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentRiptide",
+        "source_string": "Riptide",
+        "translation": "Riptide",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10672,6 +10968,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.creativeMode.text.1",
+        "source_string": "Creative Mode is there so you can build the land of your dreams mob free!",
+        "translation": "Makerly Wayset leaves you to build the land of your swevens freely!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.creativeMode.header.2",
         "source_string": "Flying",
         "translation": "Flying",
@@ -10688,9 +10992,41 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.difficulty.text.2",
+        "source_string": "No hostile mobs will spawn except for shulkers and the Ender Dragon, but they won't do any damage to you.",
+        "translation": "No foe wights will spring but for shulkers and the Ender Worm, but they won't do any harm to you.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.3",
+        "source_string": "Hostile mobs spawn but deal less damage. Hunger bar depletes and drains health down to 5 hearts.",
+        "translation": "Foe wights spring but deal less harm. Hunger band goes down and drains health down to 5 hearts.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.4",
+        "source_string": "Hostile mobs will do normal damage, and if your hunger level drops to zero your health will begin to drop, but you won't die.",
+        "translation": "Foe wights will deal stock harm, and if your hunger layer drops to naught your health will begin to drop, but you won't swelt.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.difficulty.header.4",
         "source_string": "Hard",
         "translation": "Hard",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.difficulty.text.5",
+        "source_string": "Hostile mobs will do more damage, zombies will break through doors, and if your hunger level drops to zero, your health will drop and you could die.",
+        "translation": "Foe wights will do more harm, undead liches will break through doors, and if your hunger layer drops to naught, your health will drop and you could swelt.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10912,6 +11248,22 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.gameSettings.text.14",
+        "source_string": "§eMob Spawning§f: This prevents all mobs from spawning when this setting is off.",
+        "translation": "§eWight Springing§f: This forestalls all wights from springing when this setting is off.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gameSettings.text.15",
+        "source_string": "§eMob Griefing§f: Prevents mobs from destroying the world.",
+        "translation": "§eWight Quenching§f: Forestalls wights from forspill the world.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.hoppers.text.1",
         "source_string": "Hoppers are used to automatically move items. Hoppers can be attached to some other items like containers such as Chests or Jukeboxes. ",
         "translation": "Hoppers are brooked to selfshrithingly shrithe things. Hoppers can be fayed to some other things like inholders such as Chests or Song Packs. ",
@@ -11024,6 +11376,46 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.nightfall.new.text.2",
+        "source_string": "At night, the Overworld is home to zombies, spiders, skeletons, and other dangerous creatures we call §ehostile mobs§f.",
+        "translation": "At night, the Overworld is home to undead liches, spiders, boneframes, and other baneful wights we call §efoe wights§f.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall.new.text.3",
+        "source_string": "Crafting some §etorches§f can help you see in the dark, while also keeping mobs from spawning too close.",
+        "translation": "Crafting some §ebrands§f can help you see in the dark, while also keeping wights from springing too near.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.pets.text.2",
+        "source_string": "Wolves are a neutral mob that hunt in the colder climates. They will attack Rabbits, Skeletons, and Sheep but run away from Llamas. They won't attack you unless you provoke them. You can tame them by giving them Bones.",
+        "translation": "Wolves are an unsidey wight that hunt in the colder weathers. Hie will strike Hares, Boneframes, and Sheep but run away from Drylandersheeps. Hie won't strike you unless you grill hem. You can tame hem by yeaving hem Bones.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.pets.text.3",
+        "source_string": "Cats are a neutral mob that can be found in villages. They will attack Rabbits and Baby Turtles. They will also keep Phantoms and Creepers away. They will try to run from you so taming them can be tough. They like fish so give them Raw Cod or Salmon to tame them.",
+        "translation": "Cats are an unsidey wight that can be found in thorps. Hie will strike Hares and Baby Shellpads. Hie will also keep Nightgosts and Creepers away. Hie will fand to flee from you so taming hem can be tough. Hie like fish so yeave hem Raw Cod or Lax to tame hem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.ranching.header.2",
+        "source_string": "What Do Mobs Eat?",
+        "translation": "What Do Wights Eat?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.ranching.text.5",
         "source_string": "Animals will follow you when you hold their desired food item. This will help you lead them to your ranch or another animal.",
         "translation": "Deer will follow you when you hold her listed food thing. This will help you lead hem to your feeland or another deer.",
@@ -11088,6 +11480,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.weapons.header.3",
+        "source_string": "Crossbow",
+        "translation": "Steel Bow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.weapons.header.5",
         "source_string": "Enchanted Weapons",
         "translation": "Galed Weapons",
@@ -11099,6 +11499,30 @@
         "identifier": "howtoplay.weapons.text.7",
         "source_string": "The Sword, Bow, Crossbow, and Trident have specific enchantments that you can get from the Enchanting Table or Anvil that will improve damage, durability and even light mobs on fire!",
         "translation": "The Sword, Bow, Steel Bow, and Leister have narrowed galders that you can reap from the Galdercraft Bench or Anvil that will better harm, lastingness and even light wights on fire!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worlds",
+        "source_string": "Worlds",
+        "translation": "Worlds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.yourFirstCraft",
+        "source_string": "Your first craft",
+        "translation": "Your first craft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.yourFirstCraft.title",
+        "source_string": "How to Play: Your First Craft",
+        "translation": "How to Play: Your First Craft",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -19520,6 +19944,22 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.mobEgg",
+        "source_string": "Mob Eggs",
+        "translation": "Wight Eyren",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.skull",
+        "source_string": "Mob Skulls",
+        "translation": "Wight Headbones",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.enchantedBook",
         "source_string": "Enchanted Books",
         "translation": "Galed Books",
@@ -19619,6 +20059,14 @@
         "identifier": "key.right",
         "source_string": "Strafe Right",
         "translation": "Sidestep Right",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.toggleControlTips",
+        "source_string": "Control Tips",
+        "translation": "Wield Tips",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20715,6 +21163,14 @@
         "identifier": "options.delete_account.confirm.button",
         "source_string": "Delete",
         "translation": "Adwash",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_game_tip",
+        "source_string": "Gameplay Tips",
+        "translation": "Gameplay Tips",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23331,6 +23787,14 @@
         "identifier": "storageManager.delete.content.redownload",
         "source_string": "You can redownload content you've bought from the Marketplace.",
         "translation": "You can eddownload inholding you've bought from the Chapstow.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.GreekMythology.description",
+        "source_string": "It's mythical Greece at your fingertips. ",
+        "translation": "It's folklored Greekland at your fingertips. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31072,6 +31536,14 @@
         "max_length": null
     },
     {
+        "identifier": "xbox.statistics.mobsDefeated",
+        "source_string": "Mobs defeated",
+        "translation": "Wights slain",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "eduTemplateWorld.blocksOfGrass.name",
         "source_string": "Blocks of Grass",
         "translation": "Grass Clots",
@@ -31091,6 +31563,46 @@
         "identifier": "tips.edu.13",
         "source_string": "In Creative Mode, players can freely choose to build from any of the blocks in Minecraft.",
         "translation": "In Makerly Wayset, players can freely choose to build from any of the clots in Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "beginnerTips.8",
+        "source_string": "Monsters spawn in the dark. Craft a torch to brighten up any space.",
+        "translation": "Fiends spring in the dark. Craft a brand to brighten up any roomth.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "beginnerTips.9",
+        "source_string": "Beds are great! Craft one to quickly pass the night and set your respawn point.",
+        "translation": "Beds are great! Craft one to quickly byfare the night and set your edstart ord.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "beginnerTips.10",
+        "source_string": "Be careful when you swim. Stay under water for too long and you'll run out of air.",
+        "translation": "Be careful when you swim. Be under water for too long and you'll run out of lift.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.4",
+        "source_string": "Harvest leather from cows, and use it to make armor and books.",
+        "translation": "Harvest leather from cows, and brook it to make hirsting and books.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.5",
+        "source_string": "You can fill an empty bucket with water, lava, milk, powdered snow... and even some mobs.",
+        "translation": "You can fill an empty stop with water, moltenstone, milk, dust snow... and even some wights.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31216,6 +31728,14 @@
         "max_length": null
     },
     {
+        "identifier": "midgameTips.35",
+        "source_string": "Use hay bales to breed Llamas!",
+        "translation": "Brook hay clots to breed Drylandersheeps!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "midgameTips.39",
         "source_string": "Leads can be used on boats.",
         "translation": "Leads can be brooked on boats.",
@@ -31235,6 +31755,14 @@
         "identifier": "midgameTips.41",
         "source_string": "You can gather cobwebs using shears.",
         "translation": "You can gather cobwebs brooking shears.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.45",
+        "source_string": "Phantoms are dangerous mobs that appear during the night. Make sure to sleep regularly!",
+        "translation": "Nightgosts are baneful wights that show up during the night. Make wis to sleep every night!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31368,6 +31896,14 @@
         "max_length": null
     },
     {
+        "identifier": "lategameTips.19",
+        "source_string": "Riptide enchantment will propel you through the air in the rain.",
+        "translation": "Riptide galder will shove you through the lift in the rain.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "lategameTips.22",
         "source_string": "You can barter with piglins.",
         "translation": "You can cheap with piglins.",
@@ -31392,6 +31928,14 @@
         "max_length": null
     },
     {
+        "identifier": "tips.creative.2",
+        "source_string": "Summon mobs in an instant with spawn eggs.",
+        "translation": "Beckon wights anon with making eyren.",
+        "context": "Players can use an item called Sawn Egg to summon animals and monsters.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tips.creative.4",
         "source_string": "Combine flint and steel with a TNT block for explosive results.",
         "translation": "Bind flint and steel with a Blastle clot for blasting outcomes.",
@@ -31400,10 +31944,50 @@
         "max_length": null
     },
     {
+        "identifier": "tips.creative.7",
+        "source_string": "Seeking a little more danger? Survival mode has plenty.",
+        "translation": "Seeking a little more dares? Overlive wayset has many.",
+        "context": "In the Game mode Survival mode you can die. In Creative you can’t.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tips.creative.14",
         "source_string": "Move through solid objects using spectator mode.",
         "translation": "Shrithe through fast things brooking onlooker wayset.",
         "context": "There is a Game mode called Spectator Mode. It allows you to fly through walls and blocks and everything.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.creative.17",
+        "source_string": "Get there now with the /tp command.",
+        "translation": "Go to there now with the /tp hest.",
+        "context": "You can teleport yourself in Creative. You use the /tp command in the chat.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.creative.18",
+        "source_string": "Mobs won't notice you in creative mode, but they'll still notice each other… ",
+        "translation": "Wights won't heed you in makerly wayset, but hie will still heed each other… ",
+        "context": "Mobs(animals & monsters) won’t notice you in creative mode, but they’ll still notice each other… meaning that they can still kill each other.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.creative.19",
+        "source_string": "A warden a day keeps the… well, everything away. ",
+        "translation": "A holdend a day keeps the… well, everything away. ",
+        "context": "The Warden is a scary monster that live in underground cities.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.creative.22",
+        "source_string": "Phantoms can't hurt you, but you can still shoo them off by using a bed. Just...not literally. You sleep in it.",
+        "translation": "Nightgosts can't harm you, but you can still drive hem away by brooking a bed. But...not staffly. You sleep in it.",
+        "context": "Phantoms are flying mobs(monsters) that spawn when you havn't slept for a few days. They won't hurt you in Creative Mode. To get rid of them you sleep in a bed.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
     },
