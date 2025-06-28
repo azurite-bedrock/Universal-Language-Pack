@@ -11,7 +11,7 @@
 </div>
 
 Universal Language Pack is a Bedrock Resource Pack that expands language support by including numerous missing languages.
-Join our Crowdin project to help refine current translations and contribute new ones!
+Join our [Crowdin project](https://crowdin.com/project/universal-language-pack) to help refine current translations and contribute new ones!
 
 ## Features
 
@@ -22,7 +22,7 @@ Join our Crowdin project to help refine current translations and contribute new 
 ## Getting Started
 
 1. **Installation:** Check out the [Setup Guide](#setup-guide) for installation instructions.
-2. **Help Translate:** Join us on Crowdin to contribute translations.
+2. **Help Translate:** Join us on [Crowdin](https://crowdin.com/project/universal-language-pack) to contribute translations.
 3. **Join the Community:** Come hang out or ask questions on [Discord](https://discord.gg/rPNcYYNN6p).
 
 ## Setup Guide
