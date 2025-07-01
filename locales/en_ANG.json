@@ -10986,7 +10986,7 @@
     {
         "identifier": "howtoplay.buildingAShelter.text.1",
         "source_string": "When danger comes lurking, a sturdy §eshelter§f can protect you from the threats outside.",
-        "translation": "When bane comes near, a burly §eshelter§f can shield you from the threats outside.",
+        "translation": "When bane comes near, a stocky §eshelter§f can shield you from the threats outside.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11400,6 +11400,38 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.permissionBlocks.text.2",
+        "source_string": "Allow and Deny blocks control where players can build in a world.",
+        "translation": "Aleave and Atsake clots wield where players can build in a world.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.3",
+        "source_string": "Players can place or destroy blocks above Allow blocks. Players cannot place or destroy blocks above Deny blocks.",
+        "translation": "Players can lay or break clots above Aleave clots. Players cannot lay or break clots above Atsake clots.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.4",
+        "source_string": "Allow and Deny blocks do not affect the area below them.",
+        "translation": "Aleave and Atsake clots do not rine the spot beneath hem.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.5",
+        "source_string": "An Allow block with a Deny block somewhere below it prevents players from building in the space between the two blocks. Above the Allow block, players can place and destroy blocks.",
+        "translation": "An Aleave clot with an Atsake clot somewhere beneath it forestalls players from building in the gap between the two clots. Above the Aleave clot, players can lay and break clots.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.permissionBlocks.title.2",
         "source_string": "Border",
         "translation": "Rim",
@@ -11515,6 +11547,14 @@
         "identifier": "howtoplay.chalkboard.title",
         "source_string": "How to Play: Chalkboards",
         "translation": "How to Play: Chalkboards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chalkboard.text.1",
+        "source_string": "Chalkboards are used to display text in the world. Chalkboards display more text than Signs, can be edited after they have been placed, and come in three sizes: Slate, Poster, and Board. The lock toggle allows you to prevent non-World Builders from destroying or editing your chalkboards. Press :_input_key.use: on an existing chalkboard to edit it.",
+        "translation": "Chalkboards are brooked to show writ in the world. Chalkboards show more writ than Tokens, can be beworked after hie have been laid, and come in three breadths: Shindlestone, Woughleaf, and Board. The lock toggle leaves you to forestall not-World Builders from forspilling or beworking your chalkboards. Thring :_input_key.use: on a bestanding chalkboard to bework it.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11792,6 +11832,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.dyes.text.2",
+        "source_string": "Some Dye materials are harder to find than others. Most Dyes can be crafted from flowers, like §eRed Dye§f from a Poppy, but some Dyes are found or created in more obscure ways such as:",
+        "translation": "Some Dye anworks are harder to find than others. Most Dyes can be crafted from blossoms, like §eRed Dye§f from a Poppy, but some Dyes are found or made in tharker ways like:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.dyes.text.3",
         "source_string": "§eBlue Dye§f - Mining Lapis Lazuli deep underground",
         "translation": "§eHewn Dye§f - Delving Hewnstone deep underground",
@@ -11824,9 +11872,65 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.elytra",
+        "source_string": "Elytra",
+        "translation": "Enderglider",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.1",
+        "source_string": "Elytra are an item that can be equipped to allow gliding. Elytra are equipped in the chest armor slot.",
+        "translation": "Enderglider are a thing that can be bedighted to glide. Enderglider are bedighted in the chest hirsting groovestead.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.2",
+        "source_string": "Elytra cannot be crafted, but are found in Item Frames in rare End Ships, guarded by fearsome Shulkers.",
+        "translation": "Enderglider cannot be crafted, but are found in Thing Frames in seld End Ships, manned by fearsome Shulkers.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.elytra.header.1",
         "source_string": "Learn to Fly",
         "translation": "Learn to Fly",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.3.notTouch",
+        "source_string": "When equipped with Elytra, a player can press :_input_key.jump: while falling to start gliding. Note that you need to be quite high to really get the full effect!",
+        "translation": "When bedighted with Enderglider, a player can thring :_input_key.jump: while falling to glide. Heed that you need to be alsuch high to truly fetch the full rine!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.4",
+        "source_string": "While gliding, you can steer by looking around. If you look downwards, you'll move faster - but you'll also hit the ground sooner. If you look upwards, you'll gain some height - but do it for too long and you'll stall, falling instead of rising!",
+        "translation": "While gliding, you can steer by looking umb. If you look downwards, you'll shrithe faster - but you'll also strike the ground sooner. If you look upwards, you'll gain some height - but do it for too long and you'll stall, falling instead of rising!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.4.touch",
+        "source_string": "You can steer while gliding by looking around. If you look downwards, you'll gain some speed, but you'll also hit the ground faster. If you look upward, you'll gain some height, but do it for too long and you'll stall - which means you'll start falling.",
+        "translation": "You can steer while gliding by looking umb. If you look downwards, you'll gain some speed, but you'll also strike the ground faster. If you look upward, you'll gain some height, but do it for too long and you'll stall - which means you'll start falling.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.elytra.text.5",
+        "source_string": "Your Elytra will slowly lose durability while flying, and if they break mid-flight you'll fall. You can repair them by combining them with Phantom Membrane at an Anvil.",
+        "translation": "Your Enderglider will slowly become less stark while flying, and if hie break mid-flight you'll fall. You can fettle hem by faying hem with Nightgost Hame at an Anvil.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11928,6 +12032,30 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.endCities",
+        "source_string": "End Cities",
+        "translation": "End Boroughs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.endCities.text.1",
+        "source_string": "After killing the Ender Dragon, an End Gateway will appear. Throwing an Ender Pearl into the portal will teleport you to the outer islands.",
+        "translation": "After killing the Ender Worm, an End Gateway will show up. Throwing an Ender Pearl into the ingang will shrithe you to the outer ilands.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.endCities.text.2",
+        "source_string": "This alien new landscape must hide something interesting, and maybe something to bring back with you.",
+        "translation": "This outkind new landship must hide something gripping, and maybe something to bring back with you.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.enderChest",
         "source_string": "Ender Chest",
         "translation": "Ender Chest",
@@ -11955,6 +12083,54 @@
         "identifier": "howtoplay.eyeOfEnder.text.1",
         "source_string": "Eyes of Ender are mysteriously connected to the End and will behave strangely when used.",
         "translation": "Eyes of Ender are rowny linked to the End and will behave ferly when brooked.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming",
+        "source_string": "Farming",
+        "translation": "Earthtilth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.header.2",
+        "source_string": "Planting and Harvesting",
+        "translation": "Sowing and Harvesting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.text.4",
+        "source_string": "Now you can plant your seeds. Make sure your crops are protected as they can easily die from being trampled or lack of water or light.",
+        "translation": "Now you can sow your seeds. Make wis your crops are shielded as hie can eath swelt from being stepped or lacking water or light.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.text.5",
+        "source_string": "Fences can help protect your crops from hungry rabbits or trampling toes!",
+        "translation": "Edders can help shield your crops from hungry hares or steps!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.fireworks",
+        "source_string": "Fireworks",
+        "translation": "Fireworks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.fireworks.header.2",
+        "source_string": "Firework Stars",
+        "translation": "Firework Stars",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12027,6 +12203,38 @@
         "identifier": "howtoplay.jigsawBlocks.header.2",
         "source_string": " Settings",
         "translation": " Settings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mining",
+        "source_string": "Mining",
+        "translation": "Delving",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mining.title",
+        "source_string": "How to Play: Mining",
+        "translation": "How to Play: Delving",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mining.text.1",
+        "source_string": "Not all crafting materials are on the surface - some may require you to dig underground or into a mountain.",
+        "translation": "Not all crafting anworks are on the bred - some may need you to dig underground or into a barrow.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mining.text.2",
+        "source_string": "A §epickaxe§f:wood_pickaxe: helps you uncover all sorts of materials, such as stone, coal, iron, and precious ore - though you may need extra sturdy tools for some rarer materials!",
+        "translation": "A §epike§f:wood_pickaxe: helps you unwry all kinds of anworks, such as stone, coal, iron, and dearsome ore - thaugh you may need more stocky tools for some more seld anworks!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26184,6 +26392,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.chalkboard.twoByOne.name",
+        "source_string": "Poster",
+        "translation": "Woughleaf",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.chalkboard.threeByTwo.name",
         "source_string": "Board",
         "translation": "Board",
@@ -33275,6 +33491,14 @@
         "identifier": "dr.emotes.key",
         "source_string": "Key %d",
         "translation": "Key %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.character_creator_getting_started_title",
+        "source_string": "Getting Started",
+        "translation": "Starting",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
