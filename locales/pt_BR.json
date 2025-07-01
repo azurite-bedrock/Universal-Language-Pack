@@ -6602,7 +6602,7 @@
     {
         "identifier": "commands.enchant.invalidLevel",
         "source_string": "%1$s does not support level %2$d",
-        "translation": "%1$s não suporta o nível %2$d",
+        "translation": "%1$s não possui o nível %2$d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6610,7 +6610,7 @@
     {
         "identifier": "commands.enchant.cantEnchant",
         "source_string": "The selected enchantment can't be added to the target item: %1$s",
-        "translation": "O encantamento selecionado não pode ser adicionado ao item de destino: %1$s",
+        "translation": "O encantamento selecionado não pôde ser aplicado ao item: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6618,7 +6618,7 @@
     {
         "identifier": "commands.enchant.description",
         "source_string": "Adds an enchantment to a player's selected item.",
-        "translation": "Adiciona um encantamento ao item selecionado de um jogador.",
+        "translation": "Adiciona um encantamento ao item desejado.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6626,7 +6626,7 @@
     {
         "identifier": "commands.enchant.noItem",
         "source_string": "The target doesn't hold an item: %1$s",
-        "translation": "O alvo não está segurando um item: %1$s",
+        "translation": "O alvo não está com item em mãos: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6642,7 +6642,7 @@
     {
         "identifier": "commands.enchant.success",
         "source_string": "Enchanting succeeded for %1$s",
-        "translation": "Encantado com sucesso por %1$s",
+        "translation": "Encantado com sucesso para %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6650,7 +6650,7 @@
     {
         "identifier": "commands.entitydata.description",
         "source_string": "Modifies the data tag of an entity.",
-        "translation": "Modifica a marca de dados de uma entidade.",
+        "translation": "Modifica a etiqueta de dados de uma entidade.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6658,7 +6658,7 @@
     {
         "identifier": "commands.entitydata.failed",
         "source_string": "The data tag did not change: %1$s",
-        "translation": "A tag de dados não mudou: %1$s",
+        "translation": "A etiqueta de dados não mudou: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6666,7 +6666,7 @@
     {
         "identifier": "commands.entitydata.noPlayers",
         "source_string": "%1$s is a player and cannot be changed",
-        "translation": "%1$s é um(a) jogador(a) e não pode ser alterado(a)",
+        "translation": "%1$s é um jogador e é incapaz de ser alterado",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6674,7 +6674,7 @@
     {
         "identifier": "commands.entitydata.success",
         "source_string": "Entity data updated to: %1$s",
-        "translation": "Dados da entidade atualizados para: %1$s",
+        "translation": "Dados de entidade atualizados para: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6682,7 +6682,7 @@
     {
         "identifier": "commands.entitydata.tagError",
         "source_string": "Data tag parsing failed: %1$s",
-        "translation": "Análise da tag de dados falhou: %1$s",
+        "translation": "Falhou ao analisar etiqueta de dados: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6690,7 +6690,7 @@
     {
         "identifier": "commands.event.description",
         "source_string": "Triggers an event for the specified object(s)",
-        "translation": "Aciona um evento para os objetos especificados",
+        "translation": "Aciona um evento para objeto(s) específico(s)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6698,7 +6698,7 @@
     {
         "identifier": "commands.event.error.empty",
         "source_string": "Event name cannot be empty",
-        "translation": "O nome do evento não pode estar vazio",
+        "translation": "O evento não pode estar vazio",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6706,7 +6706,7 @@
     {
         "identifier": "commands.event.error.failed",
         "source_string": "%1$s could not be executed on: %2$s",
-        "translation": "%1$s não pôde ser executado em: %2$s",
+        "translation": "%1$s não podia ser executado em: %2$s",
         "context": "1: Event Name ##2: List of failed entities for which the event could not be executed",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6722,7 +6722,7 @@
     {
         "identifier": "commands.execute.align.invalidInput",
         "source_string": "Invalid swizzle, expected combination of 'x', 'y', and 'z'",
-        "translation": "Balanço inválido, combinação esperada de 'x', 'y' e 'z'",
+        "translation": "Balanço inválido, combinação esperada de 'x', 'y', e 'z'",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6738,7 +6738,7 @@
     {
         "identifier": "commands.execute.failed",
         "source_string": "Failed to execute '%1$s' as %2$s",
-        "translation": "Falha ao executar '%1$s' como %2$s",
+        "translation": "Falhou ao executar '%1$s' como %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6746,7 +6746,7 @@
     {
         "identifier": "commands.execute.description",
         "source_string": "Executes a command on behalf of one or more entities.",
-        "translation": "Executa um comando por uma ou mais entidades.",
+        "translation": "Executa um comando em uma ou mais entidades.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6754,7 +6754,7 @@
     {
         "identifier": "commands.execute.outRangedDetectPosition",
         "source_string": "Detect position: %1$s %2$s %3$s is out of range.",
-        "translation": "Detectar posição: %1$s %2$s %3$s fora de alcance.",
+        "translation": "Detectar posição: %1$s %2$s %3$s está fora de alcance.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6762,7 +6762,7 @@
     {
         "identifier": "commands.execute.falseCondition",
         "source_string": "Execute subcommand %1$s %2$s test failed.",
-        "translation": "Falha no teste de execução do subcomando %1$s %2$s.",
+        "translation": "O teste de execução do subcomando %1$s %2$s falhou.",
         "context": "1: Subcommand ##2: ConditionSubcommand",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6770,7 +6770,7 @@
     {
         "identifier": "commands.execute.falseConditionWithCount",
         "source_string": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
-        "translation": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
+        "translation": "Falhou o teste de execução do subcomando %1$s %2$s, contagem: %3$s.",
         "context": "1: Subcommand ##2: ConditionSubcommand ##3: Test passed count",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6778,7 +6778,7 @@
     {
         "identifier": "commands.execute.trueCondition",
         "source_string": "Test passed.",
-        "translation": "O teste passou.",
+        "translation": "Teste passado.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6786,7 +6786,7 @@
     {
         "identifier": "commands.execute.trueConditionWithCount",
         "source_string": "Test passed, count: %1$s.",
-        "translation": "O teste passou. Contagem: %1$s.",
+        "translation": "Teste passado. Contagem: %1$s.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6794,7 +6794,7 @@
     {
         "identifier": "commands.execute.ifUnlessBlocks.tooManyBlocks",
         "source_string": "Checking too many blocks. Max block count: %1$s. Current block count: %2$s.",
-        "translation": "Excesso de verificações de blocos. Contagem máx. de blocos: %1$s. Contagem atual de blocos: %2$s.",
+        "translation": "Verificação excessiva de blocos. Contagem máxima de blocos: %1$s. Contagem de blocos atual: %2$s.",
         "context": "1: Max number of blocks that are checked ##2: Current number of blocks that are checked",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6802,7 +6802,7 @@
     {
         "identifier": "commands.execute.ifUnlessScore.score.notFound",
         "source_string": "No %1$s score for %2$s found",
-        "translation": "Pontuação %1$s não encontrada para %2$s",
+        "translation": "Não foi encontrada pontuação %1$s para %2$s",
         "context": "1: Objective Name ##2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6810,7 +6810,7 @@
     {
         "identifier": "commands.execute.ifUnlessScore.targets.tooMany",
         "source_string": "%1$s targets matched the selector. Only 1 target is allowed.",
-        "translation": "%1$s alvos coincidiram com o seletor. Apenas 1 alvo é permitido.",
+        "translation": "%1$s alvos correspondem ao seletor. Só 1 alvo é permitido.",
         "context": "Number of targets that are matching with selector",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6818,7 +6818,7 @@
     {
         "identifier": "commands.execute.ifUnlessScore.targets.empty",
         "source_string": "There is no tracked player '%1$s' on the scoreboard",
-        "translation": "Jogador \"%1$s\" não registrado no quadro de pontuação",
+        "translation": "Não há nenhum jogador \"%1$s\" registrado no placar de pontuação",
         "context": "1: Player name",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6826,7 +6826,7 @@
     {
         "identifier": "commands.execute.ifUnlessScore.objectiveNotFound",
         "source_string": "No objective was found by the name '%1$s'",
-        "translation": "Nenhum objetivo foi encontrado com o nome \"%1$s\"",
+        "translation": "Nenhum objetivo encontrado com o nome \"%1$s\"",
         "context": "1: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6842,7 +6842,7 @@
     {
         "identifier": "commands.fill.description",
         "source_string": "Fills all or parts of a region with a specific block.",
-        "translation": "Preenche toda uma região ou partes dela com um bloco específico.",
+        "translation": "Preenche todas ou algumas partes de uma região usando blocos específicos.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6858,7 +6858,7 @@
     {
         "identifier": "commands.fill.outOfWorld",
         "source_string": "Cannot place blocks outside of the world",
-        "translation": "Impossível colocar blocos fora do mundo",
+        "translation": "Incapaz de pôr blocos fora do mundo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6874,7 +6874,7 @@
     {
         "identifier": "commands.fill.tagError",
         "source_string": "Data tag parsing failed: %1$s",
-        "translation": "Análise da tag de dados falhou: %1$s",
+        "translation": "Falhou ao analisar etiqueta de dados: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6882,7 +6882,7 @@
     {
         "identifier": "commands.fill.tooManyBlocks",
         "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
-        "translation": "Blocos demais na área especificada (%1$d > %2$d)",
+        "translation": "Diversos blocos na área especificada (%1$d > %2$d)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6890,7 +6890,7 @@
     {
         "identifier": "commands.fill.replace.auxvalue.invalid",
         "source_string": "Invalid replace data value for block %1$s",
-        "translation": "Valor de substituição de dados inválido para o bloco %1$s",
+        "translation": "Valor inválido de substituição de dados para o bloco %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6898,7 +6898,7 @@
     {
         "identifier": "commands.fog.description",
         "source_string": "Add or remove fog settings file",
-        "translation": "Adicionar ou remover o arquivo de configurações de neblina",
+        "translation": "Adiciona ou remove o arquivo de ajustes de névoa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6906,7 +6906,7 @@
     {
         "identifier": "commands.fog.invalidFogId",
         "source_string": "Invalid Fog Setting Id : %1$s",
-        "translation": "ID de configuração de neblina inválida: %1$s",
+        "translation": "ID inválido de Ajustes de Névoa: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6914,7 +6914,7 @@
     {
         "identifier": "commands.fog.invalidUserId",
         "source_string": "No fog settings with the id were found for %1$s",
-        "translation": "Não foram encontrados ajustes de neblina com essa ID para %1$s",
+        "translation": "Nenhum ajuste de névoa com o ID foram encontrados para %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6922,7 +6922,7 @@
     {
         "identifier": "commands.fog.limitReached",
         "source_string": "Size limit reached for fog identifiers for %1$s",
-        "translation": "Limite de tamanho alcançado para identificadores de neblina para %1$s",
+        "translation": "Limite de tamanho alcançado para identificadores de névoa para %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6930,7 +6930,7 @@
     {
         "identifier": "commands.fog.success.pop",
         "source_string": "Last pushed fog setting with id %2$s was successfully removed from %1$s",
-        "translation": "Última configuração de neblina enviada com ID %2$s removida de %1$s",
+        "translation": "Último ajuste de névoa enviado com o ID %2$s foi removido com sucesso de %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6938,7 +6938,7 @@
     {
         "identifier": "commands.fog.success.push",
         "source_string": "Fog setting was successfully added for %1$s with id %2$s",
-        "translation": "Configuração de neblina adicionada para %1$s com ID %2$s",
+        "translation": "Ajuste de névoa adicionada para %1$s com o ID %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6946,7 +6946,7 @@
     {
         "identifier": "commands.fog.success.remove",
         "source_string": "Fog settings with id %2$s were successfully removed from %1$s",
-        "translation": "Configurações de neblina com ID %2$s removidas de %1$s",
+        "translation": "Ajustes de névoa com ID %2$s removidos de %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6954,7 +6954,7 @@
     {
         "identifier": "commands.function.description",
         "source_string": "Runs commands found in the corresponding function file.",
-        "translation": "Executa comandos encontrados no arquivo de função correspondente.",
+        "translation": "Roda comandos encontrados no arquivo de função correspondente.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6970,7 +6970,7 @@
     {
         "identifier": "commands.function.invalidCharacters",
         "source_string": "Function with title '%s' is invalid, character '%s' is not allowed in function names.",
-        "translation": "Função com título '%s' inválida, o caractere '%s' não é permitido em nomes de funções.",
+        "translation": "Função com o nome \"%s\" inválido, o caractere \"%s\" não é permitido em funções.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6978,7 +6978,7 @@
     {
         "identifier": "commands.function.noEngineVersionSpecified",
         "source_string": "Function %s could not be run. You must specify a min_engine_version in the behavior pack's manifest.json.",
-        "translation": "A função %s não pode ser executada. Você precisa especificar uma min_engine_version no manifest.json do pacote de comportamento.",
+        "translation": "A função %s não pôde ser executada. Você precisa especificar um min_engine_version no manifest.json do pacote de comportamento.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6986,7 +6986,7 @@
     {
         "identifier": "commands.function.success",
         "source_string": "Successfully executed %1$d function entries.",
-        "translation": "Entradas da função %1$d executadas com êxito.",
+        "translation": "Executado as entradas da função %1$d com sucesso.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
