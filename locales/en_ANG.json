@@ -4001,7 +4001,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.title",
-        "source_string": "Code Editor Changes###{MaxLength=27}",
+        "source_string": "Code Editor Changes",
         "translation": "Dern Beworker Wends",
         "context": null,
         "labels": "unassigned, lang",
@@ -4009,7 +4009,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.learnMore",
-        "source_string": "Learn more###{MaxLength=27}",
+        "source_string": "Learn more",
         "translation": "Learn more",
         "context": null,
         "labels": "unassigned, lang",
@@ -4017,7 +4017,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.close",
-        "source_string": "Close###{MaxLength=27}",
+        "source_string": "Close",
         "translation": "Shut",
         "context": null,
         "labels": "unassigned, lang",
@@ -5441,9 +5441,9 @@
     },
     {
         "identifier": "commands.inputpermission.move_forward",
-        "source_string": "Move Forward ## Movement from pushing joystick forward (or pressing W on keyboard)",
+        "source_string": "Move Forward",
         "translation": "Shrithe Forward",
-        "context": null,
+        "context": "Movement from pushing joystick forward (or pressing W on keyboard)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -5867,7 +5867,7 @@
         "identifier": "commands.scoreboard.players.operation.success",
         "source_string": "Updated [%1$s] for %2$d entities",
         "translation": "Anwardened [%1$s] for %2$d ansens",
-        "context": "1: Objective Name ##2: Player Count",
+        "context": "1: Objective Name, 2: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -5939,7 +5939,7 @@
         "identifier": "commands.tag.add.success.single",
         "source_string": "Added tag '%1$s' to %2$s",
         "translation": "Eked token '%1$s' to %2$s",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -5955,7 +5955,7 @@
         "identifier": "commands.tag.list.single.success",
         "source_string": "%1$s has %2$d tags: %3$s",
         "translation": "%1$s has %2$d tokens: %3$s",
-        "context": "1: Entity/Player/Item name   ##2: Number of tags   ##3: Comma separated list of tags",
+        "context": "1: Entity/Player/Item name, 2: Number of tags, 3: Comma separated list of tags",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -5963,7 +5963,7 @@
         "identifier": "commands.tag.remove.success.single",
         "source_string": "Removed tag '%1$s' from %2$s",
         "translation": "Fornimmed token '%1$s' from %2$s",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7995,7 +7995,7 @@
         "identifier": "realmsSettingsScreen.SonyStoreDisplayName",
         "source_string": "PlayStation®Store",
         "translation": "PlayStation®Store",
-        "context": "### CertRequirement: [PlayStation®Store]",
+        "context": "CertRequirement: [PlayStation®Store]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -11632,6 +11632,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.creativeMode.header.1",
+        "source_string": "Unlimited Building",
+        "translation": "Boundless Building",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.creativeMode.header.2",
         "source_string": "Flying",
         "translation": "Flying",
@@ -11827,6 +11835,14 @@
         "identifier": "howtoplay.dyes",
         "source_string": "Dyes",
         "translation": "Dyes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.dyes.text.1",
+        "source_string": "Dye is used to change the color of many things in Minecraft.",
+        "translation": "Dye is brooked to wend the hue of many things in Minecraft.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12096,6 +12112,38 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.farming.text.1",
+        "source_string": "There are a variety of different crops that you can farm in Minecraft. Farming, while challenging, can provide an infinite food source.",
+        "translation": "There are lots of sunder crops that you can sow in Minecraft. Sowing can yeave an unendly food from, althaugh it's sometimes hard.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.header.1",
+        "source_string": "Plan Ahead",
+        "translation": "Plot Ahead",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.text.2",
+        "source_string": "Crops require light, water, and farmland to grow. You need a hoe, a water source, and seeds to farm.",
+        "translation": "Crops need light, water, and cropland to grow. You need a tiller, a water from, and seeds to sow.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.text.3",
+        "source_string": "The Blocks next to the water need to be converted to farmland, do this with the hoe. Water will saturate up to four block away.",
+        "translation": "The Clots next to the water need to be wharved to cropland, do this with the tiller. Water will fill up to four clot away.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.farming.header.2",
         "source_string": "Planting and Harvesting",
         "translation": "Sowing and Harvesting",
@@ -12115,6 +12163,22 @@
         "identifier": "howtoplay.farming.text.5",
         "source_string": "Fences can help protect your crops from hungry rabbits or trampling toes!",
         "translation": "Edders can help shield your crops from hungry hares or steps!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.text.6",
+        "source_string": "When the crops are fully grown they change in appearance and can be harvested.",
+        "translation": "When the crops are fully grown they look sunder and can be harvested.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.farming.text.7",
+        "source_string": "Some plants like pumpkins and melons grow on stalks. Be careful not to harvest the stalks!",
+        "translation": "Some worts like harvestovets and entapples grow on stalks. Be careful not to harvest the stalks!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20968,9 +21032,81 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.sandstone",
+        "source_string": "Sandstone",
+        "translation": "Sandstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.wool",
+        "source_string": "Wool",
+        "translation": "Wool",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.woolCarpet",
         "source_string": "Wool Carpet",
         "translation": "Wool Stepcloth",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concretePowder",
+        "source_string": "Concrete Powder",
+        "translation": "Stonelime Dust",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concrete",
+        "source_string": "Concrete",
+        "translation": "Stonelime",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.dye",
+        "source_string": "Dyes",
+        "translation": "Dyes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.ore",
+        "source_string": "Ores",
+        "translation": "Ores",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stone",
+        "source_string": "Stone",
+        "translation": "Stone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.log",
+        "source_string": "Logs",
+        "translation": "Stocks",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.leaves",
+        "source_string": "Leaves",
+        "translation": "Leaves",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20984,9 +21120,233 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.seed",
+        "source_string": "Seeds",
+        "translation": "Seeds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.crop",
+        "source_string": "Crops",
+        "translation": "Crops",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.grass",
+        "source_string": "Ground Cover",
+        "translation": "Ground Wry",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.flower",
+        "source_string": "Flowers",
+        "translation": "Blossoms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rawFood",
+        "source_string": "Raw Food",
+        "translation": "Raw Food",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.cookedFood",
+        "source_string": "Cooked Food",
+        "translation": "Cooked Food",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.miscFood",
+        "source_string": "Miscellaneous Foods",
+        "translation": "Other Foods",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.mushroom",
+        "source_string": "Mushrooms",
+        "translation": "Toadstools",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.mobEgg",
         "source_string": "Mob Eggs",
         "translation": "Wight Eyren",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.helmet",
+        "source_string": "Helmets",
+        "translation": "Helms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestplate",
+        "source_string": "Chestplates",
+        "translation": "Chestshields",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.leggings",
+        "source_string": "Leggings",
+        "translation": "Hoses",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.boots",
+        "source_string": "Boots",
+        "translation": "Shoes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.horseArmor",
+        "source_string": "Horse Armor",
+        "translation": "Horse Hirsting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sword",
+        "source_string": "Swords",
+        "translation": "Swords",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.axe",
+        "source_string": "Axes",
+        "translation": "Axes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.pickaxe",
+        "source_string": "Pickaxes",
+        "translation": "Pikes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.shovel",
+        "source_string": "Shovels",
+        "translation": "Shovels",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.hoe",
+        "source_string": "Hoes",
+        "translation": "Tillers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.arrow",
+        "source_string": "Arrows",
+        "translation": "Arrows",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.potion",
+        "source_string": "Potions",
+        "translation": "Libs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.splashPotion",
+        "source_string": "Splash Potions",
+        "translation": "Splash Libs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.lingeringPotion",
+        "source_string": "Lingering Potions",
+        "translation": "Lingering Libs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.bed",
+        "source_string": "Beds",
+        "translation": "Beds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chalkboard",
+        "source_string": "Chalkboards",
+        "translation": "Chalkboards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.anvil",
+        "source_string": "Anvils",
+        "translation": "Anvils",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chest",
+        "source_string": "Chests",
+        "translation": "Chests",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.shulkerBox",
+        "source_string": "Shulker Boxes",
+        "translation": "Shulker Boxes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.record",
+        "source_string": "Records",
+        "translation": "Longplayers",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21000,9 +21360,73 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.boat",
+        "source_string": "Boats",
+        "translation": "Boats",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestboat",
+        "source_string": "Boats with Chest",
+        "translation": "Boats with Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rail",
+        "source_string": "Rails",
+        "translation": "Ironroads",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.minecart",
+        "source_string": "Minecarts",
+        "translation": "Delvewains",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.pressurePlate",
+        "source_string": "Pressure Plates",
+        "translation": "Thrutch Tiles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.trapdoor",
+        "source_string": "Trapdoors",
+        "translation": "Trapdoors",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.enchantedBook",
         "source_string": "Enchanted Books",
         "translation": "Galed Books",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner",
+        "source_string": "Banners",
+        "translation": "Streamers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.firework",
+        "source_string": "Fireworks",
+        "translation": "Fireworks",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21016,9 +21440,57 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.buttons",
+        "source_string": "Buttons",
+        "translation": "Knaps",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sign",
+        "source_string": "Signs",
+        "translation": "Tokens",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.wood",
+        "source_string": "Woods",
+        "translation": "Woods",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner_pattern",
+        "source_string": "Banner Patterns",
+        "translation": "Streamer Twills",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.netherWartBlock",
+        "source_string": "Nether Warts",
+        "translation": "Nether Warts",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.candles",
         "source_string": "Candles",
         "translation": "Waxlights",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.goatHorn",
+        "source_string": "Goat Horns",
+        "translation": "Goat Horns",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22177,7 +22649,7 @@
     },
     {
         "identifier": "options.csbInfoLine01",
-        "source_string": "Catalog of 150+ Marketplace packs and items ### {MaxLength=\"100\"}",
+        "source_string": "Catalog of 150+ Marketplace packs and items",
         "translation": "Atell of 150+ Chapstow packs and things",
         "context": null,
         "labels": "unassigned, lang",
@@ -23009,7 +23481,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.button.addMarketplacePass",
-        "source_string": "Add Marketplace Pass ### {MaxLength=\"80\"} {StrContains=\"Marketplace Pass\"}",
+        "source_string": "Add Marketplace Pass",
         "translation": "Eke Chapstow Path",
         "context": null,
         "labels": "unassigned, lang",
@@ -23017,7 +23489,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.addRealmsServer.button",
-        "source_string": "Add a Realm ### {MaxLength=\"80\"} {StrContains=\"Realm\"}",
+        "source_string": "Add a Realm",
         "translation": "Eke a Realm",
         "context": null,
         "labels": "unassigned, lang",
@@ -34025,9 +34497,9 @@
     },
     {
         "identifier": "gameTest.report.tickCount",
-        "source_string": "Tick: %s                                              ## This appears right below the gameTest.report.testLocation line",
+        "source_string": "Tick: %s",
         "translation": "Tick: %s",
-        "context": null,
+        "context": "This appears right below the gameTest.report.testLocation line",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -34057,9 +34529,9 @@
     },
     {
         "identifier": "gameTest.report.bookTitle",
-        "source_string": "Game Test Report                                      ## A book with this title is placed next to each test with the test results inside",
+        "source_string": "Game Test Report",
         "translation": "Game Fand Mield",
-        "context": null,
+        "context": "A book with this title is placed next to each test with the test results inside",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -34633,121 +35105,121 @@
     },
     {
         "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
-        "source_string": "A behaviour pack is activated   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "A behaviour pack is activated",
         "translation": "A behaving pack is astirred",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.closeButton",
-        "source_string": "Close  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Close",
         "translation": "Shut",
-        "context": null,
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButton",
-        "source_string": "Create anyway  ###Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Create anyway",
         "translation": "Make anyway",
-        "context": null,
+        "context": "Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
-        "source_string": "Continue anyway  ###Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Continue anyway",
         "translation": "Go on anyway",
-        "context": null,
+        "context": "Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.creativeMode",
-        "source_string": "The world is created in creative mode   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is created in creative mode",
         "translation": "The world is made in makerly wayset",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph",
-        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
         "translation": "Making a world brooking any of the following marks will mean you won't be fit to earn fulfillings in this world. Even if you lay these kires off later, you'll need to go to a sunder world to earn fulfillings.",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
-        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason {MaxLength=300}",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
         "translation": "Making a world brooking  following mark will mean you won't be fit to earn fulfillings in that world. Even if you lay this kires off later, you'll need to go to a sunder world to earn fulfillings.",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
-        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
         "translation": "The way this world has been set up means that you won’t be fit to earn fulfillings while playing in it. Beworking the world’s settings now can’t wend this. You’ll need to go to a sunder world to earn fulfillings.",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements ",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.flatWorld",
-        "source_string": "The world is created as a flat world   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is created as a flat world",
         "translation": "The world is made as a flat world",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
-        "source_string": "Go back  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Go back",
         "translation": "Go back",
-        "context": null,
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.operator",
-        "source_string": "The world creator has Operator privileges   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world creator has Operator privileges",
         "translation": "The world maker has Overseer sunderrights",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.secondParagraph",
-        "source_string": "Achievements can't be earned in this world if:   ###Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=150}",
+        "source_string": "Achievements can't be earned in this world if:",
         "translation": "Fulfillings can't be earned in this world if:",
-        "context": null,
+        "context": "Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.template",
-        "source_string": "The world is built from a template   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is built from a template",
         "translation": "The world is built from a forelay",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.title",
-        "source_string": "You can’t earn achievements   ###Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "You can’t earn achievements",
         "translation": "You can’t earn fulfillings",
-        "context": null,
+        "context": "Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.trial",
-        "source_string": "The world creator is using the trial version of Minecraft   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world creator is using the trial version of Minecraft",
         "translation": "The world maker is brooking the fand wharve of Minecraft",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
