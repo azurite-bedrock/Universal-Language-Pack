@@ -7482,7 +7482,7 @@
     {
         "identifier": "commands.generic.protocol.mismatch",
         "source_string": "Provided protocol version doesn't match Minecraft's protocol version",
-        "translation": "Versão de protocolo fornecida não combina com a versão de protocolo do Minecraft",
+        "translation": "A versão de protocolo fornecida não coincide com a versão de protocolo do Minecraft",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7490,7 +7490,7 @@
     {
         "identifier": "commands.generic.radiusError",
         "source_string": "Minimum selector radius must be smaller than maximum",
-        "translation": "O raio mínimo do seletor deve ser",
+        "translation": "O raio mínimo do seletor deve ser menor que o máximo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7506,7 +7506,7 @@
     {
         "identifier": "commands.generic.rotationError",
         "source_string": "Rotation out of range",
-        "translation": "Rotação fora de abrangência",
+        "translation": "Rotação fora do alcance",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7514,7 +7514,7 @@
     {
         "identifier": "commands.generic.running",
         "source_string": "The command is already running",
-        "translation": "O comando já está sendo executado",
+        "translation": "O comando já está em execução",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7522,7 +7522,7 @@
     {
         "identifier": "commands.generic.step.failed",
         "source_string": "Command step failed",
-        "translation": "Falha no passo de comando",
+        "translation": "Falhou na etapa de comando",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7530,7 +7530,7 @@
     {
         "identifier": "commands.generic.syntax",
         "source_string": "Syntax error: Unexpected \"%2$s\": at \"%1$s>>%2$s<<%3$s\"",
-        "translation": "Erro de sintaxe: \"%2$s\": inesperado em \"%1$s»%2$s«%3$s\"",
+        "translation": "Erro de sintaxe: Inesperado \"%2$s\": em \"%1$s>>%2$s<<%3$s\"",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7538,7 +7538,7 @@
     {
         "identifier": "commands.generic.noTargetMatch",
         "source_string": "No targets matched selector",
-        "translation": "Sem resultados para a busca",
+        "translation": "Sem resultados",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7546,7 +7546,7 @@
     {
         "identifier": "commands.generic.targetNotPlayer",
         "source_string": "Selector must be player-type",
-        "translation": "Seletor deve ser tipo de jogador",
+        "translation": "O seletor deve ser tipo jogador",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7554,7 +7554,7 @@
     {
         "identifier": "commands.generic.tooManyNames",
         "source_string": "Too many target name arguments",
-        "translation": "Muitos nomes de argumentos de destino",
+        "translation": "Muitos nome de argumentos-alvo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7562,7 +7562,7 @@
     {
         "identifier": "commands.generic.tooManyTargets",
         "source_string": "Too many targets matched selector",
-        "translation": "Muitos destinos combinam com co seletor",
+        "translation": "Muitos alvos coincidem com o seletor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7570,7 +7570,7 @@
     {
         "identifier": "commands.generic.too.many.requests",
         "source_string": "Too many commands have been requested, wait for one to be done",
-        "translation": "Comandos excessivos na fila, aguarde a conclusão do próximo",
+        "translation": "Há muitos comandos solicitados, espere até o próximo finalizar",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7578,7 +7578,7 @@
     {
         "identifier": "commands.generic.unknown",
         "source_string": "Unknown command: %s. Please check that the command exists and that you have permission to use it.",
-        "translation": "Comando desconhecido: %s. Verifique se o comando existe e se você tem permissão para usá-lo.",
+        "translation": "Comando desconhecido: %s. Confira se o comando existe e se você possui permissão de uso.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7594,7 +7594,7 @@
     {
         "identifier": "commands.generic.blocked_edu",
         "source_string": "Sorry! The %s command is not available in this world.",
-        "translation": "Desculpe! O comando %s não está disponível neste mundo.",
+        "translation": "Perdão, o comando %s não está disponível neste mundo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7618,7 +7618,7 @@
     {
         "identifier": "commands.generic.version.missing",
         "source_string": "Command calls not from chat should specify the command's version",
-        "translation": "As chamadas de comando que não são do chat devem especificar a versão do comando",
+        "translation": "As chamadas de comando que não vem do chat devem especificar a versão",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7626,7 +7626,7 @@
     {
         "identifier": "commands.generic.wrongTargetCamera",
         "source_string": "Active camera has to be a free camera to target an entity",
-        "translation": "A câmera ativa deve ser uma câmera livre para acionar uma entidade",
+        "translation": "A câmera ativa deve ser uma câmera livre para visualizar uma entidade",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7634,7 +7634,7 @@
     {
         "identifier": "commands.getchunkdata.description",
         "source_string": "Gets pixels for a specific chunk.",
-        "translation": "Retorna pixels para um pedaço específico.",
+        "translation": "Obtém píxeis de uma parte específica.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7642,7 +7642,7 @@
     {
         "identifier": "commands.getchunkdata.success",
         "source_string": "Chunk data received",
-        "translation": "Dados de pedaços recebidos",
+        "translation": "Dados recebidos de partes",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7650,7 +7650,7 @@
     {
         "identifier": "commands.getchunks.description",
         "source_string": "Gets list of chunks that are loaded.",
-        "translation": "Retorna lista de pedaços carregados.",
+        "translation": "Obtém uma lista de partes carregadas.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7658,7 +7658,7 @@
     {
         "identifier": "commands.getchunks.success",
         "source_string": "Chunk list received",
-        "translation": "Lista de pedaços recebida",
+        "translation": "Lista de partes recebida",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7666,7 +7666,7 @@
     {
         "identifier": "commands.getlocalplayername.description",
         "source_string": "Returns the local player name.",
-        "translation": "Retorna o nome do(a) jogador(a) local.",
+        "translation": "Retorna o nome do jogador local.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7674,7 +7674,7 @@
     {
         "identifier": "commands.getspawnpoint.description",
         "source_string": "Gets the spawn position of the specified player(s).",
-        "translation": "Retorna a posição de renascimento do(s) jogador(es) especificado(s).",
+        "translation": "Retorna a posição de renascimento de jogador(es) específico(s).",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7682,7 +7682,7 @@
     {
         "identifier": "commands.gettopsolidblock.description",
         "source_string": "Gets the position of the top non-air block below the specified position",
-        "translation": "Pega a posição do primeiro bloco não aéreo abaixo da posição especificada",
+        "translation": "Obtém a posição do bloco não suspenso abaixo da posição específica",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7690,7 +7690,7 @@
     {
         "identifier": "commands.gettopsolidblock.notfound",
         "source_string": "No solid blocks under specified position",
-        "translation": "Não há blocos sólidos abaixo da posição especificada",
+        "translation": "Não há blocos sólidos abaixo da posição",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7706,7 +7706,7 @@
     {
         "identifier": "commands.give.description",
         "source_string": "Gives an item to a player.",
-        "translation": "Dá um item a um jogador.",
+        "translation": "Concede um item ao jogador.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7714,7 +7714,7 @@
     {
         "identifier": "commands.give.item.invalid",
         "source_string": "Invalid command syntax: no such %s exists with that data value",
-        "translation": "Sintaxe de comando inválida: não existe %s com esse valor de dados",
+        "translation": "Sintaxe de comando inválida: Não existe %s com este valor de dados",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7730,7 +7730,7 @@
     {
         "identifier": "commands.give.map.invalidData",
         "source_string": "Invalid map data provided",
-        "translation": "O mapa de dados fornecido é inválido",
+        "translation": "Mapa de dados inválido",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7738,7 +7738,7 @@
     {
         "identifier": "commands.give.map.featureNotFound",
         "source_string": "Could not make exploration map. Feature not found on this dimension",
-        "translation": "Não foi possível criar o mapa de exploração. Recurso não disponível nesta dimensão",
+        "translation": "Incapaz de criar mapa de explorador. Recurso não encontrado nesta dimensão",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7746,7 +7746,7 @@
     {
         "identifier": "commands.give.success",
         "source_string": "Gave %1$s * %2$d to %3$s",
-        "translation": "Deu %1$s * %2$d para %3$s",
+        "translation": "Deu %1$s * %2$d a %3$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7754,7 +7754,7 @@
     {
         "identifier": "commands.give.successRecipient",
         "source_string": "You have been given %1$s * %2$d",
-        "translation": "Você recebeu %1$s * %2$d",
+        "translation": "Você obteve %1$s * %2$d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7762,7 +7762,7 @@
     {
         "identifier": "commands.give.tagError",
         "source_string": "Data tag parsing failed: %1$s",
-        "translation": "Análise da tag de dados falhou: %1$s",
+        "translation": "Falhou o análise de rótulo de dados: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7770,7 +7770,7 @@
     {
         "identifier": "commands.hasitem.fail.invalidData",
         "source_string": "\"data\" has an invalid input, must be an integer.",
-        "translation": "\"data\" tem uma entrada inválida, deve ser um número inteiro.",
+        "translation": "O \"data\" possui uma entrada inválida, deve ser número inteiro.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7778,7 +7778,7 @@
     {
         "identifier": "commands.hasitem.fail.invalidQuantity",
         "source_string": "\"quantity\" has an invalid input, must be an integer or range of integers.",
-        "translation": "\"quantity\" tem uma entrada inválida, deve ser um número inteiro ou um intervalo de números inteiros.",
+        "translation": "O \"quantity\" possui uma entrada inválida, deve ser número inteiro ou intervalo de números inteiros.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7786,7 +7786,7 @@
     {
         "identifier": "commands.hasitem.fail.invalidSlot",
         "source_string": "\"slot\" has an invalid input, must be an integer or range of integers.",
-        "translation": "\"slot\" tem uma entrada inválida, deve ser um número inteiro ou um intervalo de números inteiros.",
+        "translation": "O \"slot\" possui uma entrada inválida, deve ser número inteiro ou intervalo de números inteiros.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7794,7 +7794,7 @@
     {
         "identifier": "commands.hasitem.fail.noItem",
         "source_string": "\"item\" missing, required for \"hasitem\" filter.",
-        "translation": "\"item\" ausente, necessário para o filtro \"hasitem\".",
+        "translation": "\"item\" em falta, requerido para o filtro \"hasitem\".",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7802,7 +7802,7 @@
     {
         "identifier": "commands.hasitem.fail.slotNoLocation",
         "source_string": "Specifying a \"slot\" is invalid if a \"location\" is not given.",
-        "translation": "A especificação de um \"slot\" é inválida se um \"location\" não for fornecido.",
+        "translation": "Especificar um \"slot\" é inválido se um \"location\" não é entregue.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7818,7 +7818,7 @@
     {
         "identifier": "commands.help.footer",
         "source_string": "Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments",
-        "translation": "Dica: Use a tecla <tab> enquanto digita um comando para autocompletar o comando ou seus argumentos",
+        "translation": "Dica: Use a tecla <tab> enquanto insere um comando para auto-concluir o comando ou seus argumentos",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7826,7 +7826,7 @@
     {
         "identifier": "commands.help.header",
         "source_string": "--- Showing help page %1$d of %2$d (/help <page>) ---",
-        "translation": "--- Mostrando página %1$d de %2$d (/help <página>) ---",
+        "translation": "--- Exibindo página de ajuda %1$d de %2$d (/help <page>) ---",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7842,7 +7842,7 @@
     {
         "identifier": "commands.hud.description",
         "source_string": "Changes the visibility of hud elements.",
-        "translation": "Altera a visibilidade dos elementos HUD.",
+        "translation": "Muda a visibilidade dos elementos da tela.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7850,7 +7850,7 @@
     {
         "identifier": "commands.hud.success",
         "source_string": "Hud command successfully executed",
-        "translation": "Comando de HUD executado com sucesso",
+        "translation": "Comando de tela executado com sucesso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7874,7 +7874,7 @@
     {
         "identifier": "commands.inputpermission.description",
         "source_string": "Sets whether or not a player's input can affect their character.",
-        "translation": "Define se a entrada de um jogador pode afetar o personagem.",
+        "translation": "Define se a entrada do jogador pode afetar seu personagem.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7906,7 +7906,7 @@
     {
         "identifier": "commands.inputpermission.sneak",
         "source_string": "Sneak",
-        "translation": "Agachar",
+        "translation": "Esgueirar",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7994,7 +7994,7 @@
     {
         "identifier": "commands.inputpermission.set.missingpermission",
         "source_string": "'permission' has an invalid input",
-        "translation": "''permissão'' tem uma entrada inválida",
+        "translation": "O \"permission\" possui uma entrada inválida",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8002,7 +8002,7 @@
     {
         "identifier": "commands.inputpermission.set.missingstate",
         "source_string": "'state' has an invalid input",
-        "translation": "''estado'' tem uma entrada inválida",
+        "translation": "O \"state\" possui uma entrada inválida",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8010,7 +8010,7 @@
     {
         "identifier": "commands.inputpermission.set.outputoneplayer",
         "source_string": "%s input %s for %s ",
-        "translation": "%s entrada %s para %s  ",
+        "translation": "%s entrada %s para %s ",
         "context": "1: Input lock category (camera/movement/jump/sneak/mount/etc.), 2: State (enabled/disabled), 3: Player name",
         "labels": "unassigned, lang",
         "max_length": null
@@ -8018,7 +8018,7 @@
     {
         "identifier": "commands.inputpermission.set.outputmultipleplayers",
         "source_string": "%s input %s for %d players ",
-        "translation": "%s entrada %s para %d jogadores  ",
+        "translation": "%s entrada %s para %d jogadores ",
         "context": "1: Input lock category (camera/movement), 2: State (enabled/disabled), 3: Player count",
         "labels": "unassigned, lang",
         "max_length": null
@@ -8042,7 +8042,7 @@
     {
         "identifier": "commands.itemswithtag.description",
         "source_string": "Lists all items with the given tag.",
-        "translation": "Lista todos os itens com a tag fornecida.",
+        "translation": "Lista os itens com o rótulo fornecido.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8050,7 +8050,7 @@
     {
         "identifier": "commands.itemswithtag.success.single",
         "source_string": "There is %d item with the tag %s:",
-        "translation": "Há %d item com a tag %s:",
+        "translation": "Há %d item com o rótulo %s:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8058,7 +8058,7 @@
     {
         "identifier": "commands.itemswithtag.success.multiple",
         "source_string": "There are %d items with the tag %s:",
-        "translation": "Há %d itens com a tag %s:",
+        "translation": "Há %d itens com o rótulo %s:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8074,7 +8074,7 @@
     {
         "identifier": "commands.itemswithtag.fail.noitemsfound",
         "source_string": "No items contain the tag %s.",
-        "translation": "Nenhum item contém a tag %s.",
+        "translation": "Não há item(ns) com o rótulo %s.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8098,7 +8098,7 @@
     {
         "identifier": "commands.kick.no.player",
         "source_string": "Please provide the name of the player you want to kick",
-        "translation": "Forneça o nome do jogador que você deseja excluir",
+        "translation": "Forneça o nome do jogador que deseja expulsar",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8106,7 +8106,7 @@
     {
         "identifier": "commands.kick.not.found",
         "source_string": "Could not find player %1$s",
-        "translation": "Não foi possível encontrar o(a) jogador(a) %1$s",
+        "translation": "Não encontrou o jogador %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8114,7 +8114,7 @@
     {
         "identifier": "commands.kick.not.yourself",
         "source_string": "You may not remove yourself from the game",
-        "translation": "Você não pode se remover do jogo",
+        "translation": "Você não pode se auto-remover do jogo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8122,7 +8122,7 @@
     {
         "identifier": "commands.kick.success",
         "source_string": "Kicked %1$s from the game",
-        "translation": "%1$s foi expulso(a) do jogo",
+        "translation": "%1$s expulso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8130,7 +8130,7 @@
     {
         "identifier": "commands.kick.success.reason",
         "source_string": "Kicked %1$s from the game: '%2$s'",
-        "translation": "%1$s foi expulso(a) do jogo: '%2$s'",
+        "translation": "%1$s expulso de \"%2$s\"",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8138,7 +8138,7 @@
     {
         "identifier": "commands.kick.success.reasonedu",
         "source_string": "Removed %1$s from the game: '%2$s'",
-        "translation": "Removeu %1$s do jogo: \"%2$s\"",
+        "translation": "%1$s removido do jogo \"%2$s\"",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8146,7 +8146,7 @@
     {
         "identifier": "commands.kick.no.host",
         "source_string": "The host may not be kicked from the game.",
-        "translation": "O anfitrião não pode ser expulso do jogo.",
+        "translation": "Não pode expulsar o hóspede do jogo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8154,7 +8154,7 @@
     {
         "identifier": "commands.kick.no.teacher",
         "source_string": "Teachers may not be removed from the game.",
-        "translation": "Os professores não podem ser removidos do jogo.",
+        "translation": "Não pode remover os professores do jogo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8162,7 +8162,7 @@
     {
         "identifier": "commands.kill.attemptKillPlayerCreative.edu",
         "source_string": "Players cannot be removed while they are in Creative mode.",
-        "translation": "Os jogadores não podem ser removidos enquanto estiverem no Modo Criativo.",
+        "translation": "Não pode remover os jogadores enquanto estão no Modo Criativo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8170,7 +8170,7 @@
     {
         "identifier": "commands.kill.attemptKillPlayerCreative",
         "source_string": "Players cannot be killed while they are in Creative mode.",
-        "translation": "Os jogadores não podem ser eliminados enquanto estiverem no modo Criativo.",
+        "translation": "Não pode eliminar jogadores enquanto estão no Modo Criativo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8178,7 +8178,7 @@
     {
         "identifier": "commands.kill.successful.edu",
         "source_string": "Removed %1$s",
-        "translation": "Removeu %1$s",
+        "translation": "%1$s removido",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8186,7 +8186,7 @@
     {
         "identifier": "commands.kill.successful",
         "source_string": "Killed %1$s",
-        "translation": "%1$s eliminado(a)",
+        "translation": "%1$s eliminado",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8202,7 +8202,7 @@
     {
         "identifier": "commands.kill.description",
         "source_string": "Kills entities (players, mobs, etc.).",
-        "translation": "Mata entidades (jogadores, criaturas, etc.).",
+        "translation": "Elimina entidades (jogadores, criaturas, etc.).",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8210,7 +8210,7 @@
     {
         "identifier": "commands.lesson.description",
         "source_string": "Handle Educational Lesson reporting.",
-        "translation": "Trabalhe com relatórios de aulas educacionais.",
+        "translation": "Operar com o relatório de Aulas Educacionais.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8234,7 +8234,7 @@
     {
         "identifier": "commands.locate.description",
         "source_string": "Displays the coordinates for the closest structure or biome of a given type.",
-        "translation": "Exibe as coordenadas para a estrutura ou bioma mais próximo de um determinado tipo.",
+        "translation": "Exibe as coordenadas do bioma/estrutura mais próxima do tipo fornecido.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8242,7 +8242,7 @@
     {
         "identifier": "commands.locate.biome.fail",
         "source_string": "Could not find a biome of type %1$s within a reasonable distance",
-        "translation": "Não foi possível localizar o bioma %1$s a uma distância razoável",
+        "translation": "Incapaz de encontrar um bioma do tipo %1$s em uma distância razoável",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8250,7 +8250,7 @@
     {
         "identifier": "commands.locate.biome.success",
         "source_string": "The nearest %1$s is at block %2$s, %3$s, %4$s (%5 blocks away)",
-        "translation": "O(a) %1$s mais próximo(a) está no bloco %2$s, %3$s e %4$s (a %5 blocos de distância)",
+        "translation": "O %1$s mais próximo está em: %2$s, %3$s, %4$s (%5 blocos de distância)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8258,7 +8258,7 @@
     {
         "identifier": "commands.locate.structure.fail.noplayer",
         "source_string": "The command can only be used by a valid player",
-        "translation": "O comando só pode ser usado por um jogador válido",
+        "translation": "O comando só pode ser utilizado por jogadores válidos",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8266,7 +8266,7 @@
     {
         "identifier": "commands.locate.structure.fail.nostructurefound",
         "source_string": "No valid structure found within a reasonable distance",
-        "translation": "Nenhuma estrutura válida encontrada a uma distância razoável",
+        "translation": "Incapaz de encontrar uma estrutura válida em uma distância razoável",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8274,7 +8274,7 @@
     {
         "identifier": "commands.locate.structure.success",
         "source_string": "The nearest %1$s is at block %2$s, (y?), %3$s (%4 blocks away)",
-        "translation": "O %1$s mais próximo está no bloco %2$s, (y?), %3$s (a %4 blocos de distância)",
+        "translation": "O %1$s mais próximo está em: %2$s, (y?), %3$s (%4 blocos de distância)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
