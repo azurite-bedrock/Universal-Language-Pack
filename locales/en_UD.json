@@ -4361,7 +4361,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.title",
-        "source_string": "Code Editor Changes###{MaxLength=27}",
+        "source_string": "Code Editor Changes",
         "translation": "sǝᵷuɐɥƆ ɹoʇᴉpƎ ǝpoƆ",
         "context": null,
         "labels": "unassigned, lang",
@@ -4369,7 +4369,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.body",
-        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.###{MaxLength=1000}",
+        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.",
         "translation": "˙sʇɔǝɾoɹd ᵷuᴉpoɔ ɹnoʎ ɟo dn ʞɔɐq ɐ ǝʞɐɯ oʇ ʍoɥ puɐ ᵷuᴉɯᴉʇ ǝʞᴉꞁ ǝᵷuɐɥɔ sᴉɥʇ ʇnoqɐ sꞁᴉɐʇǝp ɹoɟ ,ǝɹoɯ uɹɐǝꞀ, ʞɔᴉꞁƆ ˙ǝpoƆǝʞɐW ɥʇᴉʍ sǝɹnʇuǝʌpɐ ᵷuᴉpoɔ uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ɹnoʎ ǝnuᴉʇuoɔ uɐɔ no⅄ ˙uoos uoᴉʇɐɔnpƎ ʇɟɐɹɔǝuᴉW ᵷuᴉʌɐǝꞁ ǝq ꞁꞁᴉʍ ɹoʇᴉpǝ ᵷuᴉpoɔ sᴉɥ⟘",
         "context": null,
         "labels": "unassigned, lang",
@@ -4377,7 +4377,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.learnMore",
-        "source_string": "Learn more###{MaxLength=27}",
+        "source_string": "Learn more",
         "translation": "ǝɹoɯ uɹɐǝꞀ",
         "context": null,
         "labels": "unassigned, lang",
@@ -4385,7 +4385,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.close",
-        "source_string": "Close###{MaxLength=27}",
+        "source_string": "Close",
         "translation": "ǝsoꞁƆ",
         "context": null,
         "labels": "unassigned, lang",
@@ -6387,7 +6387,7 @@
         "identifier": "commands.event.error.failed",
         "source_string": "%1$s could not be executed on: %2$s",
         "translation": "%2$s :uo pǝʇnɔǝxǝ ǝq ʇou pꞁnoɔ %1$s",
-        "context": "1: Event Name ##2: List of failed entities for which the event could not be executed",
+        "context": "1: Event Name, 2: List of failed entities for which the event could not be executed",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6395,7 +6395,7 @@
         "identifier": "commands.event.success",
         "source_string": "%1$s successfully executed on: %2$s",
         "translation": "%2$s :uo pǝʇnɔǝxǝ ʎꞁꞁnɟssǝɔɔns %1$s",
-        "context": "1: Event Name ##2: List of entities",
+        "context": "1: Event Name, 2: List of entities",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6443,7 +6443,7 @@
         "identifier": "commands.execute.falseCondition",
         "source_string": "Execute subcommand %1$s %2$s test failed.",
         "translation": "˙pǝꞁᴉɐɟ ʇsǝʇ %2$s %1$s puɐɯɯoɔqns ǝʇnɔǝxƎ",
-        "context": "1: Subcommand ##2: ConditionSubcommand",
+        "context": "1: Subcommand, 2: ConditionSubcommand",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6451,7 +6451,7 @@
         "identifier": "commands.execute.falseConditionWithCount",
         "source_string": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
         "translation": "˙%3$s :ʇunoɔ 'pǝꞁᴉɐɟ ʇsǝʇ %2$s %1$s puɐɯɯoɔqns ǝʇnɔǝxƎ",
-        "context": "1: Subcommand ##2: ConditionSubcommand ##3: Test passed count",
+        "context": "1: Subcommand, 2: ConditionSubcommand, 3: Test passed count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6475,7 +6475,7 @@
         "identifier": "commands.execute.ifUnlessBlocks.tooManyBlocks",
         "source_string": "Checking too many blocks. Max block count: %1$s. Current block count: %2$s.",
         "translation": "˙%2$s :ʇunoɔ ʞɔoꞁq ʇuǝɹɹnƆ ˙%1$s :ʇunoɔ ʞɔoꞁq xɐW ˙sʞɔoꞁq ʎuɐɯ ooʇ ᵷuᴉʞɔǝɥƆ",
-        "context": "1: Max number of blocks that are checked ##2: Current number of blocks that are checked",
+        "context": "1: Max number of blocks that are checked, 2: Current number of blocks that are checked",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6483,7 +6483,7 @@
         "identifier": "commands.execute.ifUnlessScore.score.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "punoɟ %2$s ɹoɟ ǝɹoɔs %1$s oN",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6977,9 +6977,9 @@
     },
     {
         "identifier": "commands.generic.error.permissions",
-        "source_string": "Incorrect permission level for command: %s.  ##1: command name",
+        "source_string": "Incorrect permission level for command: %s.  ",
         "translation": "˙%s :puɐɯɯoɔ ɹoɟ ꞁǝʌǝꞁ uoᴉssᴉɯɹǝd ʇɔǝɹɹoɔuI",
-        "context": null,
+        "context": "1: command name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7459,7 +7459,7 @@
         "identifier": "commands.schedule.functionRan",
         "source_string": "Successfully executed %1$d function entries in function %2$s.",
         "translation": "˙%2$s uoᴉʇɔunɟ uᴉ sǝᴉɹʇuǝ uoᴉʇɔunɟ %1$d pǝʇnɔǝxǝ ʎꞁꞁnɟssǝɔɔnS",
-        "context": "1: Number of functions that were ran ##2: Name of the mcfunction",
+        "context": "1: Number of functions that were ran, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7467,7 +7467,7 @@
         "identifier": "commands.schedule.clear.success",
         "source_string": "Removed %1$d functions with the name %2$s.",
         "translation": "˙%2$s ǝɯɐu ǝɥʇ ɥʇᴉʍ suoᴉʇɔunɟ %1$d pǝʌoɯǝᴚ",
-        "context": "1: Number of functions cleared ##2: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7475,7 +7475,7 @@
         "identifier": "commands.schedule.tickingarea.func.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
         "translation": "˙%3$s ǝɯɐu ɥʇᴉʍ puɐ %2$s ǝɯɐu ɐǝɹɐ ᵷuᴉʞɔᴉʇ ǝɥʇ ɥʇᴉʍ suoᴉʇɔunɟ %1$d pǝʌoɯǝᴚ",
-        "context": "1: Number of functions cleared ##2: Name of selected ticking area ##3: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of selected ticking area, 3: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7499,7 +7499,7 @@
         "identifier": "commands.scoreboard.teams.leave.failure",
         "source_string": "Could not remove %1$d player(s) from their teams: %2$s",
         "translation": "%2$s :sɯɐǝʇ ɹᴉǝɥʇ ɯoɹɟ (s)ɹǝʎɐꞁd %1$d ǝʌoɯǝɹ ʇou pꞁnoƆ",
-        "context": "1: Number of Players ##2: Team Name",
+        "context": "1: Number of Players, 2: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7507,7 +7507,7 @@
         "identifier": "commands.scoreboard.teams.leave.success",
         "source_string": "Removed %1$d player(s) from their teams: %2$s",
         "translation": "%2$s :sɯɐǝʇ ɹᴉǝɥʇ ɯoɹɟ (s)ɹǝʎɐꞁd %1$d pǝʌoɯǝᴚ",
-        "context": "1: Number of Players ##2: List of Players",
+        "context": "1: Number of Players, 2: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },

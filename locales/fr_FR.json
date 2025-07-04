@@ -4617,7 +4617,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.title",
-        "source_string": "Code Editor Changes###{MaxLength=27}",
+        "source_string": "Code Editor Changes",
         "translation": "MàJ de l'éditeur de code",
         "context": null,
         "labels": "unassigned, lang",
@@ -4625,7 +4625,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.body",
-        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.###{MaxLength=1000}",
+        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.",
         "translation": "Cet éditeur de code est sur le point de quitter Minecraft Education. Vous pourrez poursuivre vos aventures de codage sur Minecraft Education avec MakeCode. Cliquez sur « En savoir plus » pour découvrir tous les détails de ce changement, y compris le calendrier et la procédure pour sauvegarder vos projets de codage.",
         "context": null,
         "labels": "unassigned, lang",
@@ -4633,7 +4633,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.learnMore",
-        "source_string": "Learn more###{MaxLength=27}",
+        "source_string": "Learn more",
         "translation": "En savoir plus",
         "context": null,
         "labels": "unassigned, lang",
@@ -4641,7 +4641,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.close",
-        "source_string": "Close###{MaxLength=27}",
+        "source_string": "Close",
         "translation": "Fermer",
         "context": null,
         "labels": "unassigned, lang",
@@ -6691,7 +6691,7 @@
         "identifier": "commands.event.error.failed",
         "source_string": "%1$s could not be executed on: %2$s",
         "translation": "%1$s n'a pas pu être exécuté(e) sur : %2$s",
-        "context": "1: Event Name ##2: List of failed entities for which the event could not be executed",
+        "context": "1: Event Name, 2: List of failed entities for which the event could not be executed",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6699,7 +6699,7 @@
         "identifier": "commands.event.success",
         "source_string": "%1$s successfully executed on: %2$s",
         "translation": "%1$s a été exécuté(e) avec succès sur : %2$s",
-        "context": "1: Event Name ##2: List of entities",
+        "context": "1: Event Name, 2: List of entities",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6747,7 +6747,7 @@
         "identifier": "commands.execute.falseCondition",
         "source_string": "Execute subcommand %1$s %2$s test failed.",
         "translation": "Le test d'exécution de la sous-commande %1$s %2$s a échoué.",
-        "context": "1: Subcommand ##2: ConditionSubcommand",
+        "context": "1: Subcommand, 2: ConditionSubcommand",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6755,7 +6755,7 @@
         "identifier": "commands.execute.falseConditionWithCount",
         "source_string": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
         "translation": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
-        "context": "1: Subcommand ##2: ConditionSubcommand ##3: Test passed count",
+        "context": "1: Subcommand, 2: ConditionSubcommand, 3: Test passed count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6779,7 +6779,7 @@
         "identifier": "commands.execute.ifUnlessBlocks.tooManyBlocks",
         "source_string": "Checking too many blocks. Max block count: %1$s. Current block count: %2$s.",
         "translation": "Vérification d'un trop grand nombre de blocs. Nombre maximal de blocs : %1$s. Nombre de blocs actuel : %2$s.",
-        "context": "1: Max number of blocks that are checked ##2: Current number of blocks that are checked",
+        "context": "1: Max number of blocks that are checked, 2: Current number of blocks that are checked",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6787,7 +6787,7 @@
         "identifier": "commands.execute.ifUnlessScore.score.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "Pas de score %1$s trouvé pour %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7281,9 +7281,9 @@
     },
     {
         "identifier": "commands.generic.error.permissions",
-        "source_string": "Incorrect permission level for command: %s.  ##1: command name",
+        "source_string": "Incorrect permission level for command: %s.  ",
         "translation": "Niveau d'autorisation incorrect pour la commande : %s.  ",
-        "context": null,
+        "context": "1: command name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7897,33 +7897,33 @@
     },
     {
         "identifier": "commands.inputpermission.mount",
-        "source_string": "Mount ## Board a boat / get on a horse",
+        "source_string": "Mount",
         "translation": "Monter ",
-        "context": null,
+        "context": "Board a boat / get on a horse",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.dismount",
-        "source_string": "Dismount ## Leave a boat / get off a horse",
+        "source_string": "Dismount",
         "translation": "Descendre ",
-        "context": null,
+        "context": "Leave a boat / get off a horse",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.lateral_movement",
-        "source_string": "Lateral Movement ## All movement that you do with a joystick/WASD on keyboard. ",
+        "source_string": "Lateral Movement",
         "translation": "Mouvement latéral ",
-        "context": null,
+        "context": "All movement that you do with a joystick/WASD on keyboard. ",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.move_forward",
-        "source_string": "Move Forward ## Movement from pushing joystick forward (or pressing W on keyboard)",
+        "source_string": "Move Forward",
         "translation": "Avancer ",
-        "context": null,
+        "context": "Movement from pushing joystick forward (or pressing W on keyboard)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7993,17 +7993,17 @@
     },
     {
         "identifier": "commands.inputpermission.set.outputoneplayer",
-        "source_string": "%s input %s for %s  ##1: Input lock category (camera/movement/jump/sneak/mount/etc.) ##2: State (enabled/disabled) ##3: Player name",
+        "source_string": "%s input %s for %s ",
         "translation": "%s saisie %s pour %s  ",
-        "context": null,
+        "context": "1: Input lock category (camera/movement/jump/sneak/mount/etc.), 2: State (enabled/disabled), 3: Player name",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.set.outputmultipleplayers",
-        "source_string": "%s input %s for %d players  ##1: Input lock category (camera/movement) ##2: State (enabled/disabled) ##3: Player count",
+        "source_string": "%s input %s for %d players ",
         "translation": "%s saisie %s pour %d joueurs  ",
-        "context": null,
+        "context": "1: Input lock category (camera/movement), 2: State (enabled/disabled), 3: Player count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9467,7 +9467,7 @@
         "identifier": "commands.schedule.delay.functionQueued",
         "source_string": "Scheduled function %1$s in %2$d ticks at gametime %3$d.",
         "translation": "Fonction planifiée %1$s dans %2$d ticks à l'heure de jeu %3$d.",
-        "context": "1: Name of the mcfunction ##2: Duration (in game ticks) of the delay length ##3: The end game time (in ticks) when the function will run",
+        "context": "1: Name of the mcfunction, 2: Duration (in game ticks) of the delay length, 3: The end game time (in ticks) when the function will run",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9499,7 +9499,7 @@
         "identifier": "commands.schedule.functionRan",
         "source_string": "Successfully executed %1$d function entries in function %2$s.",
         "translation": "Les entrées de la fonction %1$d ont été exécutées avec succès dans la fonction %2$s.",
-        "context": "1: Number of functions that were ran ##2: Name of the mcfunction",
+        "context": "1: Number of functions that were ran, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9539,7 +9539,7 @@
         "identifier": "commands.schedule.clear.success",
         "source_string": "Removed %1$d functions with the name %2$s.",
         "translation": "%1$d fonctions portant le nom %2$s ont été supprimées.",
-        "context": "1: Number of functions cleared ##2: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9547,7 +9547,7 @@
         "identifier": "commands.schedule.tickingarea.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s.",
         "translation": "%1$d fonctions dont le nom de la zone persistante est %2$s ont été supprimées.",
-        "context": "1: Name of selected ticking area ##2: Name of selected ticking area",
+        "context": "1: Name of selected ticking area, 2: Name of selected ticking area",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9563,7 +9563,7 @@
         "identifier": "commands.schedule.tickingarea.func.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
         "translation": "%1$d fonctions dont le nom de la zone persistante est %2$s et le nom %3$s ont été supprimées.",
-        "context": "1: Number of functions cleared ##2: Name of selected ticking area ##3: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of selected ticking area, 3: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9571,7 +9571,7 @@
         "identifier": "commands.schedule.tickingarea.func.clear.failure",
         "source_string": "No functions were removed with the ticking area name %1$s and with name %2$s.",
         "translation": "Aucune fonction dont le nom de la zone persistante est %1$s et le nom %2$s n'a été supprimée.",
-        "context": "1: Name of selected ticking area ##2: Name of the mcfunction",
+        "context": "1: Name of selected ticking area, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9627,7 +9627,7 @@
         "identifier": "commands.scoreboard.objectives.add.displayTooLong",
         "source_string": "The display name '%1$s' is too long for an objective, it can be at most %2$d characters long",
         "translation": "Le nom d'affichage \"%1$s\" est trop long pour un objectif, il peut contenir au maximum %2$d caractères",
-        "context": "1: Objective Display Name ##2: Name Length Limit",
+        "context": "1: Objective Display Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9643,7 +9643,7 @@
         "identifier": "commands.scoreboard.objectives.add.tooLong",
         "source_string": "The name '%1$s' is too long for an objective, it can be at most %2$d characters long",
         "translation": "Le nom \"%1$s\" est trop long pour un objectif, il peut contenir au maximum %2$d caractères",
-        "context": "1: Objective Name ##2: Name Length Limit",
+        "context": "1: Objective Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9691,7 +9691,7 @@
         "identifier": "commands.scoreboard.objectives.list.entry",
         "source_string": "- %1$s: displays as '%2$s' and is type '%3$s'",
         "translation": "- %1$s : s'affiche en tant que \"%2$s\" et est de type \"%3$s\"",
-        "context": "1: Objective Name ##2: Objective Display Name ##3: Criteria Name",
+        "context": "1: Objective Name, 2: Objective Display Name, 3: Criteria Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9723,7 +9723,7 @@
         "identifier": "commands.scoreboard.objectives.setdisplay.successSet",
         "source_string": "Set the display objective in slot '%1$s' to '%2$s'",
         "translation": "L'objectif dans l'emplacement \"%1$s\" a été défini à \"%2$s\"",
-        "context": "1: Display Slot ##2: Objective Name",
+        "context": "1: Display Slot, 2: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9731,7 +9731,7 @@
         "identifier": "commands.scoreboard.players.add.success",
         "source_string": "Added %1$d to [%2$s] for %3$s (now %4$d)",
         "translation": "Score de %1$d ajouté à [%2$s] pour %3$s (désormais : %4$d)",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9739,7 +9739,7 @@
         "identifier": "commands.scoreboard.players.add.multiple.success",
         "source_string": "Added %1$d to [%2$s] for %3$d entities",
         "translation": "Score de %1$d ajouté à [%2$s] pour %3$d entités",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9763,7 +9763,7 @@
         "identifier": "commands.scoreboard.players.enable.success",
         "source_string": "Enabled trigger %1$s for %2$s",
         "translation": "Déclencheur %1$s activé pour %2$s",
-        "context": "1: Trigger Name ##2: Objective Name",
+        "context": "1: Trigger Name, 2: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9787,7 +9787,7 @@
         "identifier": "commands.scoreboard.players.list.player.count",
         "source_string": "Showing %1$d tracked objective(s) for %2$s:",
         "translation": "Affichage de %1$d objectif(s) ciblé(s) pour %2$s :",
-        "context": "1: Objective Count ##2: Player Name",
+        "context": "1: Objective Count, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9803,7 +9803,7 @@
         "identifier": "commands.scoreboard.players.list.player.entry",
         "source_string": "- %2$s: %1$d (%3$s)",
         "translation": "- %2$s : %1$d (%3$s)",
-        "context": "1: Score Value ##2: Objective Display Name ##3: Objective Name",
+        "context": "1: Score Value, 2: Objective Display Name, 3: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9819,7 +9819,7 @@
         "identifier": "commands.scoreboard.players.operation.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "Pas de score %1$s trouvé pour %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9827,7 +9827,7 @@
         "identifier": "commands.scoreboard.players.operation.success",
         "source_string": "Updated [%1$s] for %2$d entities",
         "translation": "[%1$s] mis à jour pour %2$d entités",
-        "context": "1: Objective Name ##2: Player Count",
+        "context": "1: Objective Name, 2: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9843,7 +9843,7 @@
         "identifier": "commands.scoreboard.players.random.invalidRange",
         "source_string": "Min %1$d is not less than max %2$d",
         "translation": "La valeur minimum %1$d est supérieure ou égale au maximum %2$d",
-        "context": "1: Min Range Value ##2: Max Range Value",
+        "context": "1: Min Range Value, 2: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9851,7 +9851,7 @@
         "identifier": "commands.scoreboard.players.remove.success",
         "source_string": "Removed %1$d from [%2$s] for %3$s (now %4$d)",
         "translation": "Score de %1$d supprimé de [%2$s] pour %3$s (désormais : %4$d)",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9859,7 +9859,7 @@
         "identifier": "commands.scoreboard.players.remove.multiple.success",
         "source_string": "Removed %1$d from [%2$s] for %3$d entities",
         "translation": "Score de %1$d supprimé de [%2$s] pour %3$d entités",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9875,7 +9875,7 @@
         "identifier": "commands.scoreboard.players.resetscore.success",
         "source_string": "Reset score %1$s of player %2$s",
         "translation": "Score %1$s du joueur %2$s réinitialisé",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9883,7 +9883,7 @@
         "identifier": "commands.scoreboard.players.set.success",
         "source_string": "Set [%1$s] for %2$s to %3$d",
         "translation": "[%1$s] défini pour %2$s à %3$d",
-        "context": "1: Objective Name ##2: Player Name ##3: Score Value",
+        "context": "1: Objective Name, 2: Player Name, 3: Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9891,7 +9891,7 @@
         "identifier": "commands.scoreboard.players.set.multiple.success",
         "source_string": "Set [%1$s] for %2$d entities to %3$d",
         "translation": "[%1$s] défini pour %2$d entités à %3$d",
-        "context": "1: Objective Name ##2: Player Count ##3: Score Value",
+        "context": "1: Objective Name, 2: Player Count, 3: Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9915,7 +9915,7 @@
         "identifier": "commands.scoreboard.players.score.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "Pas de résultat %1$s trouvé pour %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9923,7 +9923,7 @@
         "identifier": "commands.scoreboard.players.test.failed",
         "source_string": "Score %1$d is NOT in range %2$d to %3$d",
         "translation": "Le score de %1$d n'est PAS dans l'intervalle %2$d à %3$d",
-        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9931,7 +9931,7 @@
         "identifier": "commands.scoreboard.players.test.success",
         "source_string": "Score %1$d is in range %2$d to %3$d",
         "translation": "Le score de %1$d est dans l'intervalle %2$d à %3$d",
-        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9963,7 +9963,7 @@
         "identifier": "commands.scoreboard.teams.add.displayTooLong",
         "source_string": "The display name '%1$s' is too long for a team, it can be at most %2$d characters long",
         "translation": "Le nom d'affichage \"%1$s\" est trop long pour une équipe, il peut contenir au maximum %2$d caractères",
-        "context": "1: Team Display Name ##2: Name Length Limit",
+        "context": "1: Team Display Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9979,7 +9979,7 @@
         "identifier": "commands.scoreboard.teams.add.tooLong",
         "source_string": "The name '%1$s' is too long for a team, it can be at most %2$d characters long",
         "translation": "Le nom \"%1$s\" est trop long pour une équipe, il peut contenir au maximum %2$d caractères",
-        "context": "1: Team Name ##2: Name Length Limit",
+        "context": "1: Team Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9995,7 +9995,7 @@
         "identifier": "commands.scoreboard.teams.empty.success",
         "source_string": "Removed all %1$d player(s) from team %2$s",
         "translation": "%1$d joueur(s) a/ont été supprimé(s) de l'équipe %2$s",
-        "context": "1: Number of Players ##2: Team Name",
+        "context": "1: Number of Players, 2: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10003,7 +10003,7 @@
         "identifier": "commands.scoreboard.teams.join.failure",
         "source_string": "Could not add %1$d player(s) to team %2$s: %3$s",
         "translation": "Impossible d'ajouter %1$d joueur(s) à l'équipe %2$s : %3$s",
-        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10011,7 +10011,7 @@
         "identifier": "commands.scoreboard.teams.join.success",
         "source_string": "Added %1$d player(s) to team %2$s: %3$s",
         "translation": "%1$d joueur(s) a/ont été ajouté(s) à l'équipe %2$s : %3$s",
-        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10019,7 +10019,7 @@
         "identifier": "commands.scoreboard.teams.leave.failure",
         "source_string": "Could not remove %1$d player(s) from their teams: %2$s",
         "translation": "Impossible de supprimer %1$d joueur(s) de leur(s) équipe(s) : %2$s",
-        "context": "1: Number of Players ##2: Team Name",
+        "context": "1: Number of Players, 2: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10035,7 +10035,7 @@
         "identifier": "commands.scoreboard.teams.leave.success",
         "source_string": "Removed %1$d player(s) from their teams: %2$s",
         "translation": "%1$d joueur(s) a/ont été supprimé(s) de son/leur équipe : %2$s",
-        "context": "1: Number of Players ##2: List of Players",
+        "context": "1: Number of Players, 2: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10059,7 +10059,7 @@
         "identifier": "commands.scoreboard.teams.list.entry",
         "source_string": "- %1$s: '%2$s' has %3$d players",
         "translation": "- %1$s : \"%2$s\" a %3$d joueurs",
-        "context": "1: Team Name ##2: Team Display Name ##3: Number of Players",
+        "context": "1: Team Name, 2: Team Display Name, 3: Number of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10067,7 +10067,7 @@
         "identifier": "commands.scoreboard.teams.list.player.count",
         "source_string": "Showing %1$d player(s) in team %2$s:",
         "translation": "Affichage de %1$d joueur(s) dans l'équipe %2$s :",
-        "context": "1: Number of Players ##2 Team Name",
+        "context": "1: Number of Players, 2 Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10083,7 +10083,7 @@
         "identifier": "commands.scoreboard.teams.list.player.entry",
         "source_string": "- %2$s: %1$d (%3$s)",
         "translation": "- %2$s : %1$d (%3$s)",
-        "context": "1: Player Name ##2: Score Value ##3: Team Display Name",
+        "context": "1: Player Name, 2: Score Value, 3: Team Display Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10091,7 +10091,7 @@
         "identifier": "commands.scoreboard.teams.option.noValue",
         "source_string": "Valid values for option %1$s are: %2$s",
         "translation": "Les valeurs valides pour l'option %1$s sont : %2$s",
-        "context": "1: Option Name ##2: List of Option Values",
+        "context": "1: Option Name, 2: List of Option Values",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10099,7 +10099,7 @@
         "identifier": "commands.scoreboard.teams.option.success",
         "source_string": "Set option %1$s for team %2$s to %3$s",
         "translation": "L'option %1$s pour l'équipe %2$s a été définie à %3$s",
-        "context": "1: Option Name ##2: Team Name ##3: Option Value",
+        "context": "1: Option Name, 2: Team Name, 3: Option Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10787,7 +10787,7 @@
         "identifier": "commands.tag.add.success.single",
         "source_string": "Added tag '%1$s' to %2$s",
         "translation": "Étiquette \"%1$s\" ajoutée à %2$s",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10795,7 +10795,7 @@
         "identifier": "commands.tag.add.success.multiple",
         "source_string": "Added tag '%1$s' to %2$d entities",
         "translation": "Étiquette '%1$s' ajoutée à %2$d entités",
-        "context": "1: Tag string   ##2: Number of entities (numerals)",
+        "context": "1: Tag string, 2: Number of entities (numerals)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10811,7 +10811,7 @@
         "identifier": "commands.tag.list.single.success",
         "source_string": "%1$s has %2$d tags: %3$s",
         "translation": "%1$s a %2$d étiquettes : %3$s",
-        "context": "1: Entity/Player/Item name   ##2: Number of tags   ##3: Comma separated list of tags",
+        "context": "1: Entity/Player/Item name, 2: Number of tags, 3: Comma separated list of tags",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10827,7 +10827,7 @@
         "identifier": "commands.tag.list.multiple.success",
         "source_string": "The %1$d entities have %2$d total tags: %3$s",
         "translation": "Les %1$d entités ont un total de %2$d étiquettes : %3$s",
-        "context": "1: Number of entities matching the selector   ##2: Number of tags   ##3: Comma separated list of tags",
+        "context": "1: Number of entities matching the selector, 2: Number of tags, 3: Comma separated list of tags",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10843,7 +10843,7 @@
         "identifier": "commands.tag.remove.success.single",
         "source_string": "Removed tag '%1$s' from %2$s",
         "translation": "Étiquette '%1$s' retirée de %2$s",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10851,7 +10851,7 @@
         "identifier": "commands.tag.remove.success.multiple",
         "source_string": "Removed tag '%1$s' from %2$d entities",
         "translation": "Étiquette '%1$s' retirée de %2$d entités",
-        "context": "1: Tag string   ##2: Number of selector matches",
+        "context": "1: Tag string, 2: Number of selector matches",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -14593,9 +14593,9 @@
     },
     {
         "identifier": "createWorldScreen.playerSleep",
-        "source_string": "Beds Work ## In this case 'Beds work' means 'Beds function properly'.",
+        "source_string": "Beds Work",
         "translation": "Les lits fonctionnent ",
-        "context": null,
+        "context": "In this case 'Beds work' means 'Beds function properly'.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17113,9 +17113,9 @@
     },
     {
         "identifier": "raytracing.RTX.name",
-        "source_string": "RTX##Brand name, don't localize",
+        "source_string": "RTX",
         "translation": "RTX",
-        "context": null,
+        "context": "Brand name, don't localize",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17337,17 +17337,17 @@
     },
     {
         "identifier": "networkWorld.multiplayerPrivilegesBlockedOnConsole",
-        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up. Please ensure you have an active Xbox Live Gold subscription and your online safety settings allow Multiplayer. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up. Please ensure you have an active Xbox Live Gold subscription and your online safety settings allow Multiplayer. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.",
         "translation": "La configuration de votre compte Microsoft ne vous permet pas de jouer à des parties multijoueur en ligne. Assurez-vous que vos paramètres de sécurité en ligne vous permettent de jouer en multijoueur et que vous disposez d'un abonnement Xbox Live Gold actif. Rendez-vous sur aka.ms/MCMultiplayerHelp pour consulter et modifier vos paramètres.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "networkWorld.multiplayerPrivilegesBlockedOnConsoleGamecore",
-        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up.",
         "translation": "La configuration de votre compte Microsoft ne vous permet pas de jouer à des parties multijoueur en ligne.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -19003,7 +19003,7 @@
         "identifier": "realmsSettingsScreen.SonyStoreDisplayName",
         "source_string": "PlayStation®Store",
         "translation": "PlayStation®Store",
-        "context": "### CertRequirement: [PlayStation®Store]",
+        "context": "CertRequirement: [PlayStation®Store]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -21897,9 +21897,9 @@
     },
     {
         "identifier": "edu.worlds_screen.download",
-        "source_string": "DOWNLOAD ## It needs to be localized in its verb form, not as a noun",
+        "source_string": "DOWNLOAD",
         "translation": "TÉLÉCHARGER ",
-        "context": null,
+        "context": "It needs to be localized in its verb form, not as a noun",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -22049,73 +22049,73 @@
     },
     {
         "identifier": "edu.servers_screen.title",
-        "source_string": "Servers ### Title of the servers screen, {MaxLength=50}",
+        "source_string": "Servers",
         "translation": "Serveurs ",
-        "context": null,
+        "context": "Title of the servers screen",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.search_placeholder",
-        "source_string": "Search Servers ### Placeholder text in the search bar across the screen above the servers grid, {MaxLength=50}",
+        "source_string": "Search Servers",
         "translation": "Chercher des serveurs ",
-        "context": null,
+        "context": "Placeholder text in the search bar across the screen above the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.add_info_placeholder",
-        "source_string": "Server ID ### Placeholder text for the ID entry box in the popup for adding a server, {MaxLength=30}",
+        "source_string": "Server ID",
         "translation": "ID de serveur ",
-        "context": null,
+        "context": "Placeholder text for the ID entry box in the popup for adding a server",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.add_server",
-        "source_string": "Add Server ### Label on the first tile button in the servers grid, {MaxLength=15}",
+        "source_string": "Add Server",
         "translation": "Ajout serveur ",
-        "context": null,
+        "context": "Label on the first tile button in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.confirm_add_server",
-        "source_string": "Add ### Confirmation button text in the popup for adding a server, {MaxLength=10}",
+        "source_string": "Add",
         "translation": "Ajouter ",
-        "context": null,
+        "context": "Confirmation button text in the popup for adding a server",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.play",
-        "source_string": "PLAY ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "PLAY",
         "translation": "JOUER ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.back",
-        "source_string": "BACK ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "BACK",
         "translation": "RETOUR ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.share",
-        "source_string": "SHARE ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "SHARE",
         "translation": "PARTAGER ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.remove",
-        "source_string": "REMOVE ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "REMOVE",
         "translation": "SUPPRIMER ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -24633,9 +24633,9 @@
     },
     {
         "identifier": "gameTip.hotbar.selection.mouse",
-        "source_string": "Scroll or press %s to hold item    ## The added string will be a number between 1 and 9",
+        "source_string": "Scroll or press %s to hold item",
         "translation": "Faites défiler ou appuyez sur %s pour tenir l'élément    ",
-        "context": null,
+        "context": "The added string will be a number between 1 and 9",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -31177,7 +31177,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.4",
-        "source_string": "Save mode saves an area of the world as a structure. ##",
+        "source_string": "Save mode saves an area of the world as a structure.",
         "translation": "Le mode Sauvegarde permet de sauvegarder une zone du monde en tant que structure. ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31185,7 +31185,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.5",
-        "source_string": "Load mode loads a structure into the world. Only structures saved to the world or included in a behavior pack that is applied to the world can be loaded. ##",
+        "source_string": "Load mode loads a structure into the world. Only structures saved to the world or included in a behavior pack that is applied to the world can be loaded.",
         "translation": "Le mode Chargement permet de charger une structure dans le monde. Seules les structures enregistrées dans le monde ou incluses dans un pack de comportement appliqué au monde peuvent être chargées. ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31193,7 +31193,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.6",
-        "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.  ##",
+        "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.",
         "translation": "Le mode Coin est utilisé avec le bouton de détection du mode d’enregistrement pour définir automatiquement la zone que vous souhaitez enregistrer. Consultez la section Mode Coin ci-dessous pour plus de détails.  ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31201,7 +31201,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.7",
-        "source_string": "3D Export exports a 3D model file on supported platforms.  ##",
+        "source_string": "3D Export exports a 3D model file on supported platforms.",
         "translation": "Exportation 3D permet d'exporter un fichier de modèles 3D sur les plateformes prises en charge.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31281,7 +31281,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.12",
-        "source_string": "Integrity - the percentage of blocks to load in from the structure, accepted values are 0 to 100. Blocks will be chosen randomly if a Seed is not specified. ##",
+        "source_string": "Integrity - the percentage of blocks to load in from the structure, accepted values are 0 to 100. Blocks will be chosen randomly if a Seed is not specified.",
         "translation": "Intégrité : le pourcentage de blocs d'une structure à charger, acceptant des valeurs allant de 0 à 100. Si aucune graine n'est indiquée, les blocs seront choisis au hasard.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31289,7 +31289,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.13",
-        "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly. ##",
+        "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly.",
         "translation": "Graine : la valeur saisie ici déterminera quels blocs seront retirés en utilisant l'Intégrité. Laissez ce champ vide si vous voulez que les blocs soient choisis au hasard.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31313,7 +31313,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.15",
-        "source_string": "Example: loading an empty shipwreck into the bottom of the ocean will normally copy air over the water blocks. If the shipwreck was filled with structure void, then the water will stay, and you will have a shipwreck filled with water.  ##",
+        "source_string": "Example: loading an empty shipwreck into the bottom of the ocean will normally copy air over the water blocks. If the shipwreck was filled with structure void, then the water will stay, and you will have a shipwreck filled with water.",
         "translation": "Exemple : si vous chargez une épave vide au fond de l'océan, cela copiera normalement l'air à la place des blocs d'eau. Si l'épave est remplie avec des blocs de vide de structure, alors les blocs d'eau resteront et vous aurez une épave remplie d'eau.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31329,7 +31329,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.16",
-        "source_string": "To automatically select the area you want to save, you can place Corner Mode blocks around your structure and name them with the same name as the structure you want to save.  ##",
+        "source_string": "To automatically select the area you want to save, you can place Corner Mode blocks around your structure and name them with the same name as the structure you want to save.",
         "translation": "Pour automatiquement sélectionner la zone que vous voulez enregistrer, vous pouvez placer les blocs du mode Coin autour de votre structure, puis les nommer en utilisant le nom de la structure que vous voulez enregistrer.  ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31337,7 +31337,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.17",
-        "source_string": "Pressing the Detect button in Save mode will find all of the Corner Blocks with the same name and create a selection area so that it will save everything inside of the volume those Corner Blocks make. ##",
+        "source_string": "Pressing the Detect button in Save mode will find all of the Corner Blocks with the same name and create a selection area so that it will save everything inside of the volume those Corner Blocks make.",
         "translation": "Appuyer sur le bouton Détecter dans le mode Sauvegarde vous permet de trouver tous les blocs Coin avec le même nom et ainsi créer une zone de sélection qui sauvegardera tout ce qui se trouve à l'intérieur du volume formé par ces blocs Coin.",
         "context": null,
         "labels": "unassigned, lang",
@@ -47881,7 +47881,7 @@
     },
     {
         "identifier": "options.csbInfoLine01",
-        "source_string": "Catalog of 150+ Marketplace packs and items ### {MaxLength=\"100\"}",
+        "source_string": "Catalog of 150+ Marketplace packs and items",
         "translation": "Catalogue de plus de 150 packs et objets du magasin ",
         "context": null,
         "labels": "unassigned, lang",
@@ -48185,9 +48185,9 @@
     },
     {
         "identifier": "options.dev_storeOfferQueryRequiresXbl",
-        "source_string": "Require XBL for Store Offers##disable_3rd_party_console_resource_pack_check",
+        "source_string": "Require XBL for Store Offers",
         "translation": "XBL est requis pour les offres du magasin",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -48577,9 +48577,9 @@
     },
     {
         "identifier": "options.dev_enableDebugHudOverlay.cachestorageusage",
-        "source_string": "LRU Cache Usage ### refers to how cache (small high speed storage) is managed by the least recently used (LRU) algorithm.{MaxLength=39}",
+        "source_string": "LRU Cache Usage",
         "translation": "Utilisation du cache LRU ",
-        "context": null,
+        "context": "refers to how cache (small high speed storage) is managed by the least recently used (LRU) algorithm.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -52777,7 +52777,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.button.addMarketplacePass",
-        "source_string": "Add Marketplace Pass ### {MaxLength=\"80\"} {StrContains=\"Marketplace Pass\"}",
+        "source_string": "Add Marketplace Pass",
         "translation": "Ajouter le Marketplace Pass ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52785,7 +52785,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.addRealmsServer.button",
-        "source_string": "Add a Realm ### {MaxLength=\"80\"} {StrContains=\"Realm\"}",
+        "source_string": "Add a Realm",
         "translation": "Ajouter un Realm ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52793,7 +52793,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.addRealmsServer.Body",
-        "source_string": "Your own server, always online ### {MaxLength=\"80\"}",
+        "source_string": "Your own server, always online",
         "translation": "Votre propre serveur, toujours en ligne ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52825,7 +52825,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.additionalSubscriptions",
-        "source_string": "Additional Subscriptions ### {MaxLength=\"80\"}",
+        "source_string": "Additional Subscriptions",
         "translation": "Abonnements supplémentaires ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52913,7 +52913,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.realmsServer",
-        "source_string": "Realms Server ### {MaxLength=\"80\"} {StrContains=\"Realms\"}",
+        "source_string": "Realms Server",
         "translation": "Serveur Realms ",
         "context": null,
         "labels": "unassigned, lang",
@@ -53769,9 +53769,9 @@
     },
     {
         "identifier": "options.managePrivacy",
-        "source_string": "To manage privacy settings, please visit https://account.xbox.com/Settings in any web browser.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "To manage privacy settings, please visit https://account.xbox.com/Settings in any web browser.",
         "translation": "Pour gérer les paramètres de confidentialité, rendez-vous sur https://account.xbox.com/Settings à partir de votre navigateur.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -55881,25 +55881,25 @@
     },
     {
         "identifier": "permissions.CloudSave",
-        "source_string": "You cannot save your worlds to your Xbox profile because of how your account is set up. This can be changed in your privacy & online safety settings on Xbox.com.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot save your worlds to your Xbox profile because of how your account is set up. This can be changed in your privacy & online safety settings on Xbox.com.",
         "translation": "La configuration de votre compte Xbox ne vous permet pas de sauvegarder vos mondes sur votre profil Xbox. Vous pouvez modifier ce paramètre dans les paramètres de confidentialité et de sécurité en ligne sur Xbox.com.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "permissions.MultiplayerSessionsOnConsole",
-        "source_string": "You cannot play on Realms because of how your Microsoft account is set up. Please ensure your online safety settings allow Multiplayer and you have an active Xbox Live Gold subscription. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play on Realms because of how your Microsoft account is set up. Please ensure your online safety settings allow Multiplayer and you have an active Xbox Live Gold subscription. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.",
         "translation": "La configuration de votre compte Microsoft ne vous permet pas de jouer à Realms. Assurez-vous que vos paramètres de sécurité en ligne vous permettent de jouer en multijoueur et que vous disposez d'un abonnement Xbox Live Gold actif. Rendez-vous sur aka.ms/MCMultiplayerHelp pour consulter et modifier vos paramètres.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "permissions.MultiplayerSessionsOnConsoleGamecore",
-        "source_string": "You cannot play on Realms because of how your Microsoft account is set up.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play on Realms because of how your Microsoft account is set up.",
         "translation": "La configuration de votre compte Microsoft ne vous permet pas de jouer à Realms.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -62041,9 +62041,9 @@
     },
     {
         "identifier": "raycasting.purchase.error",
-        "source_string": "We have detected that your device does not meet the system requirements to run this pack so you are unable to download this pack. You can review the minimum system requirements below: %s+ GPU: Hardware ray tracing capable GPU such as NVIDIA GeForce RTX 2060 or better. See our FAQ on minecraft.net for more details. %s+ RAM: 8GB or better %s+ CPU: Intel Core i5 or equivalent ##the %s will be turned into linebreaks. Don't reorder.",
+        "source_string": "We have detected that your device does not meet the system requirements to run this pack so you are unable to download this pack. You can review the minimum system requirements below: %s+ GPU: Hardware ray tracing capable GPU such as NVIDIA GeForce RTX 2060 or better. See our FAQ on minecraft.net for more details. %s+ RAM: 8GB or better %s+ CPU: Intel Core i5 or equivalent",
         "translation": "Nous avons détecté que votre appareil ne répond pas aux exigences système requises pour exécuter ce pack, vous ne pouvez donc pas le télécharger. Consultez les exigences système minimales requises ci-dessous : %s+ carte graphique : CG compatible ray tracing comme les modèles NVIDIA GeForce RTX 2060 ou supérieur. Consultez notre FAQ sur minecraft.net pour plus de détails. %s+ RAM : 8 Go ou plus %s+ processeur : Intel Core i5 ou équivalent",
-        "context": null,
+        "context": "the %s will be turned into linebreaks. Don't reorder.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -64649,7 +64649,7 @@
     },
     {
         "identifier": "store.realmsPlus.buyNow",
-        "source_string": "SUBSCRIBE NOW ## Maximum 13 characters",
+        "source_string": "SUBSCRIBE NOW",
         "translation": "ABONNEZ-VOUS ",
         "context": null,
         "labels": "unassigned, lang",
@@ -64673,7 +64673,7 @@
     },
     {
         "identifier": "store.realmsPlus.buyNowTrialPerMonth",
-        "source_string": "Start Trial ## Maximum 25 characters",
+        "source_string": "Start Trial",
         "translation": "Commencer l'essai ",
         "context": null,
         "labels": "unassigned, lang",
@@ -65089,9 +65089,9 @@
     },
     {
         "identifier": "store.realmsPlus.faq.answer4",
-        "source_string": "Realms Plus is currently available on any platform where you can install Minecraft Bedrock Edition. You can play Realms and use any content from Realms Plus on any of these devices if you’re signed into your Microsoft account.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "Realms Plus is currently available on any platform where you can install Minecraft Bedrock Edition. You can play Realms and use any content from Realms Plus on any of these devices if you’re signed into your Microsoft account.",
         "translation": "Realms Plus est actuellement disponible sur toutes les plateformes où vous pouvez installer Minecraft: Bedrock Edition. Vous pouvez jouer à Realms et utiliser n'importe quel contenu de Realms Plus sur n'importe lequel de ces appareils si vous êtes connecté(e) à votre compte Microsoft.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -65433,7 +65433,7 @@
     },
     {
         "identifier": "store.csb.buyNow",
-        "source_string": "SUBSCRIBE NOW ## Maximum 13 characters",
+        "source_string": "SUBSCRIBE NOW",
         "translation": "ABONNEZ-VOUS ",
         "context": null,
         "labels": "unassigned, lang",
@@ -65457,7 +65457,7 @@
     },
     {
         "identifier": "store.csb.buyNowTrialPerMonth",
-        "source_string": "Start Trial ## Maximum 25 characters",
+        "source_string": "Start Trial",
         "translation": "Commencer l'essai ",
         "context": null,
         "labels": "unassigned, lang",
@@ -65529,9 +65529,9 @@
     },
     {
         "identifier": "store.csb.terms",
-        "source_string": "Marketplace Pass is a subscription for content to be used with supported versions of Minecraft (game sold separately) on Windows and other supported platforms on which you own the game (Minecraft Java & Amazon Kindle Fire Editions not supported); an active subscription is required to use Marketplace Pass content. Content varies over time and may not be available in all countries. After the free trial period, subscription continues to be charged at the then-current regular price (subject to change) plus applicable taxes unless cancelled. You can cancel your subscription by accessing Services & subscriptions in your Microsoft account. If your subscription terminates or a content item is removed from the catalog, you must reactivate your subscription or buy the content separately to continue using it. ISP fees may apply. We may occasionally provide content that remains available to you even after the end of your subscription, in which case we reserve the right to take down such content if it becomes incompatible or if our rights to the content expire. Subscription subject to change and/or retirement. Subject to the Microsoft Services Agreement (www.microsoft.com/msa) and the Minecraft EULA (https://www.minecraft.net/eula). Any translations of these terms are done for your convenience only, and in the event of a dispute between the English and any non-English versions, the English version of these terms shall govern. ### {StrContains=\"Marketplace Pass\"}, CertRequirement: [Amazon Kindle Fire Edition]",
+        "source_string": "Marketplace Pass is a subscription for content to be used with supported versions of Minecraft (game sold separately) on Windows and other supported platforms on which you own the game (Minecraft Java & Amazon Kindle Fire Editions not supported); an active subscription is required to use Marketplace Pass content. Content varies over time and may not be available in all countries. After the free trial period, subscription continues to be charged at the then-current regular price (subject to change) plus applicable taxes unless cancelled. You can cancel your subscription by accessing Services & subscriptions in your Microsoft account. If your subscription terminates or a content item is removed from the catalog, you must reactivate your subscription or buy the content separately to continue using it. ISP fees may apply. We may occasionally provide content that remains available to you even after the end of your subscription, in which case we reserve the right to take down such content if it becomes incompatible or if our rights to the content expire. Subscription subject to change and/or retirement. Subject to the Microsoft Services Agreement (www.microsoft.com/msa) and the Minecraft EULA (https://www.minecraft.net/eula). Any translations of these terms are done for your convenience only, and in the event of a dispute between the English and any non-English versions, the English version of these terms shall govern.",
         "translation": "Le Marketplace Pass est un abonnement lié au contenu utilisable de Minecraft (le jeu est vendu séparément) avec les versions prises en charge sur Windows et d'autres plateformes compatibles sur lesquelles vous possédez le jeu (les éditions Minecraft Java et Amazon Kindle Fire ne sont pas prises en charge). Un abonnement actif est requis pour utiliser le contenu du Marketplace Pass. Le contenu varie dans le temps et peut ne pas être disponible dans tous les pays. Après la période d'essai gratuite, l'abonnement continue d'être facturé au tarif normal en vigueur (sous réserve de modifications), majoré des taxes applicables, sauf en cas d'annulation. Vous pouvez annuler votre abonnement en accédant aux Services et abonnements de votre compte Microsoft. Si votre abonnement se termine ou qu'un élément de contenu est retiré du catalogue, vous devrez réactiver votre abonnement ou acheter le contenu séparément pour continuer à l'utiliser. Des frais de fournisseur d'accès à Internet peuvent s'appliquer. Nous nous réservons le droit de retirer un contenu disponible même après la fin de l'abonnement, auquel cas, nous pourrons le supprimer s'il devient incompatible ou si nos droits sur ce contenu expirent. L'abonnement est sujet à modification et/ou à suppression, sous réserve du Contrat de Services Microsoft (www.microsoft.com/msa) et du CLUF de Minecraft (https://www.minecraft.net/eula). Les traductions des présentes conditions ne sont fournies que pour votre commodité. En cas de litige entre la version anglaise et toute autre version, c'est la version anglaise de ces conditions qui prévaudra. ",
-        "context": null,
+        "context": "CertRequirement: [Amazon Kindle Fire Edition]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -81473,9 +81473,9 @@
     },
     {
         "identifier": "survey.line5",
-        "source_string": "I thought I needed a Xbox console##disable_3rd_party_console_resource_pack_check",
+        "source_string": "I thought I needed a Xbox console",
         "translation": "Je croyais qu'il me fallait une console Xbox",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -84233,9 +84233,9 @@
     },
     {
         "identifier": "dr.header.categoryFeaturedList",
-        "source_string": "%s Featured  ## %s is the category name (ie. Style or Body)",
+        "source_string": "%s Featured",
         "translation": "%s en vedette",
-        "context": null,
+        "context": "%s is the category name (ie. Style or Body)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86097,9 +86097,9 @@
     },
     {
         "identifier": "gameTest.error.structureNotSpawned",
-        "source_string": "Failed to spawn test structure with path '%s' ## %s is the file path of the structure",
+        "source_string": "Failed to spawn test structure with path '%s'",
         "translation": "Impossible de générer la structure de test depuis le chemin d’accès '%s' ",
-        "context": null,
+        "context": "%s is the file path of the structure",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86113,9 +86113,9 @@
     },
     {
         "identifier": "gameTest.error.flakyFailedShowSuccesses",
-        "source_string": ", successes: %s (%s required)           ## This appears right after gameTest.error.flakyFailed if multiple successes are required",
+        "source_string": ", successes: %s (%s required)",
         "translation": ", réussites : %s (%s requis)           ",
-        "context": null,
+        "context": "This appears right after gameTest.error.flakyFailed if multiple successes are required",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86465,17 +86465,17 @@
     },
     {
         "identifier": "gameTest.success.flakyPassedEnough",
-        "source_string": "%s passed %s times of %s attempts.           ## this is used when a test has passed a sufficient number of times",
+        "source_string": "%s passed %s times of %s attempts.",
         "translation": "%s réussi %s fois sur %s tentatives.           ",
-        "context": null,
+        "context": "this is used when a test has passed a sufficient number of times",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "gameTest.success.flakyPassed",
-        "source_string": "Flaky Test %s succeeded, attempt: %s successes: %s.## this one is used when a test has passed, but not yet reached the required number of times to succeed",
+        "source_string": "Flaky Test %s succeeded, attempt: %s successes: %s.",
         "translation": "Flaky test %s réussi, tentative : %s réussites : %s.",
-        "context": null,
+        "context": "this one is used when a test has passed, but not yet reached the required number of times to succeed",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86497,9 +86497,9 @@
     },
     {
         "identifier": "gameTest.report.tickCount",
-        "source_string": "Tick: %s                                              ## This appears right below the gameTest.report.testLocation line",
+        "source_string": "Tick: %s",
         "translation": "Tick : %s                                              ",
-        "context": null,
+        "context": "This appears right below the gameTest.report.testLocation line",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86537,9 +86537,9 @@
     },
     {
         "identifier": "gameTest.report.bookTitle",
-        "source_string": "Game Test Report                                      ## A book with this title is placed next to each test with the test results inside",
+        "source_string": "Game Test Report",
         "translation": "Rapport de test de jeu                                      ",
-        "context": null,
+        "context": "A book with this title is placed next to each test with the test results inside",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86633,9 +86633,9 @@
     },
     {
         "identifier": "script.success.profilerStopped",
-        "source_string": "Profiler stopped. Profile saved to '%s'          ## Full path to profile file",
+        "source_string": "Profiler stopped. Profile saved to '%s'",
         "translation": "Le profiler s'est arrêté. Le profil a été enregistré sur « %s »          ",
-        "context": null,
+        "context": "Full path to profile file",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86657,9 +86657,9 @@
     },
     {
         "identifier": "script.success.diagnosticsCaptureStopped",
-        "source_string": "Diagnostics capture stopped - saved to '%s'        ## Full path to diagnostics capture file",
+        "source_string": "Diagnostics capture stopped - saved to '%s'",
         "translation": "Arrêt de la capture des diagnostics - sauvegardée sur « %s »        ",
-        "context": null,
+        "context": "Full path to diagnostics capture file",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86721,9 +86721,9 @@
     },
     {
         "identifier": "world_recovery.description",
-        "source_string": "Click the button below to open a file picker you can use to locate and select your 'minecraftWorlds' folder.%1%1Look inside the 'games/com.mojang' folders, starting from the root of your device or SD card.%1%1Once selected, we will copy your worlds to the new external storage location.%1%1You must have enough space available on your device to hold copies of your worlds.   ## %1 is line breaks",
+        "source_string": "Click the button below to open a file picker you can use to locate and select your 'minecraftWorlds' folder.%1%1Look inside the 'games/com.mojang' folders, starting from the root of your device or SD card.%1%1Once selected, we will copy your worlds to the new external storage location.%1%1You must have enough space available on your device to hold copies of your worlds.",
         "translation": "Cliquez sur le bouton ci-dessous pour ouvrir un sélecteur de fichiers que vous pouvez utiliser pour localiser et sélectionner votre dossier « minecraftWorlds ».%1%1Regardez à l’intérieur des dossiers « games/com.mojang », en commençant par la racine de votre appareil ou de votre carte SD.%1%1Une fois vos mondes sélectionnés, nous les copierons vers le nouvel emplacement de stockage externe.%1%1Vous devez disposer de suffisamment d’espace sur votre appareil pour les copies de vos mondes.   ",
-        "context": null,
+        "context": "%1 is line breaks",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86793,9 +86793,9 @@
     },
     {
         "identifier": "world_recovery.progress",
-        "source_string": "Recovering %2 files (%3).%1%1Progress: %4%% complete%1Files copied: %5 / %2  ## %1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count",
+        "source_string": "Recovering %2 files (%3).%1%1Progress: %4%% complete%1Files copied: %5 / %2",
         "translation": "Récupération de %2 fichiers (%3).%1%1Progression : %4% % terminés%1Fichiers copiés : %5/%2  ",
-        "context": null,
+        "context": "%1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -87369,137 +87369,137 @@
     },
     {
         "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
-        "source_string": "A behaviour pack is activated   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "A behaviour pack is activated",
         "translation": "A behaviour pack is activated   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
-        "source_string": "Cheats are enabled   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "Cheats are enabled",
         "translation": "Cheats are enabled   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.closeButton",
-        "source_string": "Close  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Close",
         "translation": "Close  ",
-        "context": null,
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButton",
-        "source_string": "Create anyway  ###Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Create anyway",
         "translation": "Create anyway  ",
-        "context": null,
+        "context": "Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
-        "source_string": "Continue anyway  ###Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Continue anyway",
         "translation": "Continue anyway  ",
-        "context": null,
+        "context": "Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.creativeMode",
-        "source_string": "The world is created in creative mode   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is created in creative mode",
         "translation": "The world is created in creative mode   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.experiments",
-        "source_string": "Beta features are turned on   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "Beta features are turned on",
         "translation": "Beta features are turned on   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph",
-        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
         "translation": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
-        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason {MaxLength=300}",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
         "translation": "Creating a world using the following feature will mean you won't be able to earn achievements in that world. Even if you turn this option off later, you'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
-        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
         "translation": "The way this world has been set up means that you won't be able to earn achievements while playing in it. Editing the world's settings now can't change this. You'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements ",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.flatWorld",
-        "source_string": "The world is created as a flat world   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is created as a flat world",
         "translation": "The world is created as a flat world   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
-        "source_string": "Go back  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Go back",
         "translation": "Go back  ",
-        "context": null,
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.operator",
-        "source_string": "The world creator has Operator privileges   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world creator has Operator privileges",
         "translation": "The world creator has Operator privileges   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.secondParagraph",
-        "source_string": "Achievements can't be earned in this world if:   ###Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=150}",
+        "source_string": "Achievements can't be earned in this world if:",
         "translation": "Achievements can't be earned in this world if:   ",
-        "context": null,
+        "context": "Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.template",
-        "source_string": "The world is built from a template   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is built from a template",
         "translation": "The world is built from a template   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.title",
-        "source_string": "You can’t earn achievements   ###Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "You can’t earn achievements",
         "translation": "You can't earn achievements   ",
-        "context": null,
+        "context": "Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.trial",
-        "source_string": "The world creator is using the trial version of Minecraft   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world creator is using the trial version of Minecraft",
         "translation": "The world creator is using the trial version of Minecraft   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },

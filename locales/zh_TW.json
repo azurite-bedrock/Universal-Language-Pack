@@ -4633,7 +4633,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.title",
-        "source_string": "Code Editor Changes###{MaxLength=27}",
+        "source_string": "Code Editor Changes",
         "translation": "代碼編輯器變更",
         "context": null,
         "labels": "unassigned, lang",
@@ -4641,7 +4641,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.body",
-        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.###{MaxLength=1000}",
+        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.",
         "translation": "此代碼編輯器即將離開 Minecraft Education。你可以用 MakeCode 繼續進行 Minecraft Education 的編碼冒險。請按一下「了解更多」以取得關於此變更的詳細資訊，例如時機以及如何備份你的編碼作品。",
         "context": null,
         "labels": "unassigned, lang",
@@ -4649,7 +4649,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.learnMore",
-        "source_string": "Learn more###{MaxLength=27}",
+        "source_string": "Learn more",
         "translation": "深入了解",
         "context": null,
         "labels": "unassigned, lang",
@@ -4657,7 +4657,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.close",
-        "source_string": "Close###{MaxLength=27}",
+        "source_string": "Close",
         "translation": "關閉",
         "context": null,
         "labels": "unassigned, lang",
@@ -6707,7 +6707,7 @@
         "identifier": "commands.event.error.failed",
         "source_string": "%1$s could not be executed on: %2$s",
         "translation": "%1$s 無法執行於：%2$s",
-        "context": "1: Event Name ##2: List of failed entities for which the event could not be executed",
+        "context": "1: Event Name, 2: List of failed entities for which the event could not be executed",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6715,7 +6715,7 @@
         "identifier": "commands.event.success",
         "source_string": "%1$s successfully executed on: %2$s",
         "translation": "%1$s 已成功執行於：%2$s",
-        "context": "1: Event Name ##2: List of entities",
+        "context": "1: Event Name, 2: List of entities",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6763,7 +6763,7 @@
         "identifier": "commands.execute.falseCondition",
         "source_string": "Execute subcommand %1$s %2$s test failed.",
         "translation": "執行子命令 %1$s %2$s 測試失敗。",
-        "context": "1: Subcommand ##2: ConditionSubcommand",
+        "context": "1: Subcommand, 2: ConditionSubcommand",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6771,7 +6771,7 @@
         "identifier": "commands.execute.falseConditionWithCount",
         "source_string": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
         "translation": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
-        "context": "1: Subcommand ##2: ConditionSubcommand ##3: Test passed count",
+        "context": "1: Subcommand, 2: ConditionSubcommand, 3: Test passed count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6795,7 +6795,7 @@
         "identifier": "commands.execute.ifUnlessBlocks.tooManyBlocks",
         "source_string": "Checking too many blocks. Max block count: %1$s. Current block count: %2$s.",
         "translation": "檢查的方塊過多。最大方塊計數：%1$s。目前方塊計數：%2$s。",
-        "context": "1: Max number of blocks that are checked ##2: Current number of blocks that are checked",
+        "context": "1: Max number of blocks that are checked, 2: Current number of blocks that are checked",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6803,7 +6803,7 @@
         "identifier": "commands.execute.ifUnlessScore.score.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "未找到 %2$s 的 %1$s 分數",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7297,9 +7297,9 @@
     },
     {
         "identifier": "commands.generic.error.permissions",
-        "source_string": "Incorrect permission level for command: %s.  ##1: command name",
+        "source_string": "Incorrect permission level for command: %s.  ",
         "translation": "指令的權限等級不正確：%s。  ",
-        "context": null,
+        "context": "1: command name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7913,33 +7913,33 @@
     },
     {
         "identifier": "commands.inputpermission.mount",
-        "source_string": "Mount ## Board a boat / get on a horse",
+        "source_string": "Mount",
         "translation": "騎上 ",
-        "context": null,
+        "context": "Board a boat / get on a horse",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.dismount",
-        "source_string": "Dismount ## Leave a boat / get off a horse",
+        "source_string": "Dismount",
         "translation": "跳下 ",
-        "context": null,
+        "context": "Leave a boat / get off a horse",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.lateral_movement",
-        "source_string": "Lateral Movement ## All movement that you do with a joystick/WASD on keyboard. ",
+        "source_string": "Lateral Movement",
         "translation": "橫向移動 ",
-        "context": null,
+        "context": "All movement that you do with a joystick/WASD on keyboard. ",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.move_forward",
-        "source_string": "Move Forward ## Movement from pushing joystick forward (or pressing W on keyboard)",
+        "source_string": "Move Forward",
         "translation": "往前移動 ",
-        "context": null,
+        "context": "Movement from pushing joystick forward (or pressing W on keyboard)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -8009,17 +8009,17 @@
     },
     {
         "identifier": "commands.inputpermission.set.outputoneplayer",
-        "source_string": "%s input %s for %s  ##1: Input lock category (camera/movement/jump/sneak/mount/etc.) ##2: State (enabled/disabled) ##3: Player name",
+        "source_string": "%s input %s for %s ",
         "translation": "%s 的 %s 輸入 %s  ",
-        "context": null,
+        "context": "1: Input lock category (camera/movement/jump/sneak/mount/etc.), 2: State (enabled/disabled), 3: Player name",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.set.outputmultipleplayers",
-        "source_string": "%s input %s for %d players  ##1: Input lock category (camera/movement) ##2: State (enabled/disabled) ##3: Player count",
+        "source_string": "%s input %s for %d players ",
         "translation": "%d 玩家 的 %s 輸入 %s  ",
-        "context": null,
+        "context": "1: Input lock category (camera/movement), 2: State (enabled/disabled), 3: Player count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9483,7 +9483,7 @@
         "identifier": "commands.schedule.delay.functionQueued",
         "source_string": "Scheduled function %1$s in %2$d ticks at gametime %3$d.",
         "translation": "在遊戲時間 %3$d 排定了 %2$d 個刻度後執行函數 %1$s。",
-        "context": "1: Name of the mcfunction ##2: Duration (in game ticks) of the delay length ##3: The end game time (in ticks) when the function will run",
+        "context": "1: Name of the mcfunction, 2: Duration (in game ticks) of the delay length, 3: The end game time (in ticks) when the function will run",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9515,7 +9515,7 @@
         "identifier": "commands.schedule.functionRan",
         "source_string": "Successfully executed %1$d function entries in function %2$s.",
         "translation": "在函數 %1$d 中成功執行函數 %2$s。",
-        "context": "1: Number of functions that were ran ##2: Name of the mcfunction",
+        "context": "1: Number of functions that were ran, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9555,7 +9555,7 @@
         "identifier": "commands.schedule.clear.success",
         "source_string": "Removed %1$d functions with the name %2$s.",
         "translation": "已移除名稱為 %2$s 的 %1$d 函數。",
-        "context": "1: Number of functions cleared ##2: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9563,7 +9563,7 @@
         "identifier": "commands.schedule.tickingarea.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s.",
         "translation": "已移除自動刷新區域名稱為 %2$s 的 %1$d 函數。",
-        "context": "1: Name of selected ticking area ##2: Name of selected ticking area",
+        "context": "1: Name of selected ticking area, 2: Name of selected ticking area",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9579,7 +9579,7 @@
         "identifier": "commands.schedule.tickingarea.func.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
         "translation": "已移除自動刷新區域名稱為 %2$s 且名稱為 %3$s 的 %1$d 函數。",
-        "context": "1: Number of functions cleared ##2: Name of selected ticking area ##3: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of selected ticking area, 3: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9587,7 +9587,7 @@
         "identifier": "commands.schedule.tickingarea.func.clear.failure",
         "source_string": "No functions were removed with the ticking area name %1$s and with name %2$s.",
         "translation": "未移除自動刷新區域名稱為 %1$s 且名稱為 %2$s 的函數。",
-        "context": "1: Name of selected ticking area ##2: Name of the mcfunction",
+        "context": "1: Name of selected ticking area, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9643,7 +9643,7 @@
         "identifier": "commands.scoreboard.objectives.add.displayTooLong",
         "source_string": "The display name '%1$s' is too long for an objective, it can be at most %2$d characters long",
         "translation": "物件顯示名稱「%1$s」過長，最多只能有 %2$d 個字元",
-        "context": "1: Objective Display Name ##2: Name Length Limit",
+        "context": "1: Objective Display Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9659,7 +9659,7 @@
         "identifier": "commands.scoreboard.objectives.add.tooLong",
         "source_string": "The name '%1$s' is too long for an objective, it can be at most %2$d characters long",
         "translation": "物件名稱「%1$s」過長，最多只能有 %2$d 個字元",
-        "context": "1: Objective Name ##2: Name Length Limit",
+        "context": "1: Objective Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9707,7 +9707,7 @@
         "identifier": "commands.scoreboard.objectives.list.entry",
         "source_string": "- %1$s: displays as '%2$s' and is type '%3$s'",
         "translation": "- %1$s：顯示為「%2$s」，類型為「%3$s」",
-        "context": "1: Objective Name ##2: Objective Display Name ##3: Criteria Name",
+        "context": "1: Objective Name, 2: Objective Display Name, 3: Criteria Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9739,7 +9739,7 @@
         "identifier": "commands.scoreboard.objectives.setdisplay.successSet",
         "source_string": "Set the display objective in slot '%1$s' to '%2$s'",
         "translation": "已將物件顯示位置從「%1$s」設定為「%2$s」",
-        "context": "1: Display Slot ##2: Objective Name",
+        "context": "1: Display Slot, 2: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9747,7 +9747,7 @@
         "identifier": "commands.scoreboard.players.add.success",
         "source_string": "Added %1$d to [%2$s] for %3$s (now %4$d)",
         "translation": "已新增 %1$d 至 %3$s 的 [%2$s] (現為 %4$d)",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9755,7 +9755,7 @@
         "identifier": "commands.scoreboard.players.add.multiple.success",
         "source_string": "Added %1$d to [%2$s] for %3$d entities",
         "translation": "已新增 %1$d 至 %3$s 個實體的 [%2$s]",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9779,7 +9779,7 @@
         "identifier": "commands.scoreboard.players.enable.success",
         "source_string": "Enabled trigger %1$s for %2$s",
         "translation": "已為 %2$s 啟用觸發項目 %1$s",
-        "context": "1: Trigger Name ##2: Objective Name",
+        "context": "1: Trigger Name, 2: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9803,7 +9803,7 @@
         "identifier": "commands.scoreboard.players.list.player.count",
         "source_string": "Showing %1$d tracked objective(s) for %2$s:",
         "translation": "正為 %2$s 顯示 %1$d 個追蹤的物件：",
-        "context": "1: Objective Count ##2: Player Name",
+        "context": "1: Objective Count, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9819,7 +9819,7 @@
         "identifier": "commands.scoreboard.players.list.player.entry",
         "source_string": "- %2$s: %1$d (%3$s)",
         "translation": "- %2$s：%1$d (%3$s)",
-        "context": "1: Score Value ##2: Objective Display Name ##3: Objective Name",
+        "context": "1: Score Value, 2: Objective Display Name, 3: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9835,7 +9835,7 @@
         "identifier": "commands.scoreboard.players.operation.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "無法找到分數 %1$s，玩家為 %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9843,7 +9843,7 @@
         "identifier": "commands.scoreboard.players.operation.success",
         "source_string": "Updated [%1$s] for %2$d entities",
         "translation": "已更新 %2$d 個實體的 [%1$s]",
-        "context": "1: Objective Name ##2: Player Count",
+        "context": "1: Objective Name, 2: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9859,7 +9859,7 @@
         "identifier": "commands.scoreboard.players.random.invalidRange",
         "source_string": "Min %1$d is not less than max %2$d",
         "translation": "最少 %1$d 沒有少於最多 %2$d",
-        "context": "1: Min Range Value ##2: Max Range Value",
+        "context": "1: Min Range Value, 2: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9867,7 +9867,7 @@
         "identifier": "commands.scoreboard.players.remove.success",
         "source_string": "Removed %1$d from [%2$s] for %3$s (now %4$d)",
         "translation": "已從 [%2$s] 移除 %3$s 的 %1$d (現為 %4$d)",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9875,7 +9875,7 @@
         "identifier": "commands.scoreboard.players.remove.multiple.success",
         "source_string": "Removed %1$d from [%2$s] for %3$d entities",
         "translation": "已從 [%2$s] 移除 %3$d 個實體的 %1$d",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9891,7 +9891,7 @@
         "identifier": "commands.scoreboard.players.resetscore.success",
         "source_string": "Reset score %1$s of player %2$s",
         "translation": "已重置分數 %1$s，玩家為 %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9899,7 +9899,7 @@
         "identifier": "commands.scoreboard.players.set.success",
         "source_string": "Set [%1$s] for %2$s to %3$d",
         "translation": "設定 %2$s 的 [%1$s] 至 %3$d",
-        "context": "1: Objective Name ##2: Player Name ##3: Score Value",
+        "context": "1: Objective Name, 2: Player Name, 3: Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9907,7 +9907,7 @@
         "identifier": "commands.scoreboard.players.set.multiple.success",
         "source_string": "Set [%1$s] for %2$d entities to %3$d",
         "translation": "設定 %2$d 個實體的 [%1$s] 至 %3$d",
-        "context": "1: Objective Name ##2: Player Count ##3: Score Value",
+        "context": "1: Objective Name, 2: Player Count, 3: Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9931,7 +9931,7 @@
         "identifier": "commands.scoreboard.players.score.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "無法找到分數 %1$s，玩家為 %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9939,7 +9939,7 @@
         "identifier": "commands.scoreboard.players.test.failed",
         "source_string": "Score %1$d is NOT in range %2$d to %3$d",
         "translation": "分數 %1$d 並非介於 %2$d 至 %3$d 的範圍內",
-        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9947,7 +9947,7 @@
         "identifier": "commands.scoreboard.players.test.success",
         "source_string": "Score %1$d is in range %2$d to %3$d",
         "translation": "分數 %1$d 介於 %2$d 至 %3$d 的範圍內",
-        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9979,7 +9979,7 @@
         "identifier": "commands.scoreboard.teams.add.displayTooLong",
         "source_string": "The display name '%1$s' is too long for a team, it can be at most %2$d characters long",
         "translation": "隊伍顯示名稱「%1$s」過長，最多只能有 %2$d 個字元",
-        "context": "1: Team Display Name ##2: Name Length Limit",
+        "context": "1: Team Display Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9995,7 +9995,7 @@
         "identifier": "commands.scoreboard.teams.add.tooLong",
         "source_string": "The name '%1$s' is too long for a team, it can be at most %2$d characters long",
         "translation": "隊伍名稱「%1$s」過長，最多只能有 %2$d 個字元",
-        "context": "1: Team Name ##2: Name Length Limit",
+        "context": "1: Team Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10011,7 +10011,7 @@
         "identifier": "commands.scoreboard.teams.empty.success",
         "source_string": "Removed all %1$d player(s) from team %2$s",
         "translation": "移除了隊伍 %2$s 内的全部 %1$d 個玩家",
-        "context": "1: Number of Players ##2: Team Name",
+        "context": "1: Number of Players, 2: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10019,7 +10019,7 @@
         "identifier": "commands.scoreboard.teams.join.failure",
         "source_string": "Could not add %1$d player(s) to team %2$s: %3$s",
         "translation": "無法給隊伍 %2$s 添加 %1$d 個玩家：%3$s",
-        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10027,7 +10027,7 @@
         "identifier": "commands.scoreboard.teams.join.success",
         "source_string": "Added %1$d player(s) to team %2$s: %3$s",
         "translation": "已將 %1$d 個玩家添加到隊伍 %2$s：%3$s",
-        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10035,7 +10035,7 @@
         "identifier": "commands.scoreboard.teams.leave.failure",
         "source_string": "Could not remove %1$d player(s) from their teams: %2$s",
         "translation": "無法從他們的隊伍中移除 %1$d 個玩家：%2$s",
-        "context": "1: Number of Players ##2: Team Name",
+        "context": "1: Number of Players, 2: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10051,7 +10051,7 @@
         "identifier": "commands.scoreboard.teams.leave.success",
         "source_string": "Removed %1$d player(s) from their teams: %2$s",
         "translation": "已從他們的隊伍中移除 %1$d 個玩家：%2$s",
-        "context": "1: Number of Players ##2: List of Players",
+        "context": "1: Number of Players, 2: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10075,7 +10075,7 @@
         "identifier": "commands.scoreboard.teams.list.entry",
         "source_string": "- %1$s: '%2$s' has %3$d players",
         "translation": "- %1$s：「%2$s」有 %3$d 個玩家",
-        "context": "1: Team Name ##2: Team Display Name ##3: Number of Players",
+        "context": "1: Team Name, 2: Team Display Name, 3: Number of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10083,7 +10083,7 @@
         "identifier": "commands.scoreboard.teams.list.player.count",
         "source_string": "Showing %1$d player(s) in team %2$s:",
         "translation": "顯示隊伍 %2$s 中 %1$d 個玩家：",
-        "context": "1: Number of Players ##2 Team Name",
+        "context": "1: Number of Players, 2 Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10099,7 +10099,7 @@
         "identifier": "commands.scoreboard.teams.list.player.entry",
         "source_string": "- %2$s: %1$d (%3$s)",
         "translation": "- %2$s：%1$d (%3$s)",
-        "context": "1: Player Name ##2: Score Value ##3: Team Display Name",
+        "context": "1: Player Name, 2: Score Value, 3: Team Display Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10107,7 +10107,7 @@
         "identifier": "commands.scoreboard.teams.option.noValue",
         "source_string": "Valid values for option %1$s are: %2$s",
         "translation": "選項 %1$s 的有效數值為：%2$s",
-        "context": "1: Option Name ##2: List of Option Values",
+        "context": "1: Option Name, 2: List of Option Values",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10115,7 +10115,7 @@
         "identifier": "commands.scoreboard.teams.option.success",
         "source_string": "Set option %1$s for team %2$s to %3$s",
         "translation": "將選項 %1$s 在隊伍 %2$s 上設定為 %3$s",
-        "context": "1: Option Name ##2: Team Name ##3: Option Value",
+        "context": "1: Option Name, 2: Team Name, 3: Option Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10803,7 +10803,7 @@
         "identifier": "commands.tag.add.success.single",
         "source_string": "Added tag '%1$s' to %2$s",
         "translation": "已新增標籤「%1$s」至 %2$s",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10811,7 +10811,7 @@
         "identifier": "commands.tag.add.success.multiple",
         "source_string": "Added tag '%1$s' to %2$d entities",
         "translation": "已新增標籤「%1$s」至 %2$d 個實體",
-        "context": "1: Tag string   ##2: Number of entities (numerals)",
+        "context": "1: Tag string, 2: Number of entities (numerals)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10827,7 +10827,7 @@
         "identifier": "commands.tag.list.single.success",
         "source_string": "%1$s has %2$d tags: %3$s",
         "translation": "%1$s 有 %2$d 個標籤：%3$s",
-        "context": "1: Entity/Player/Item name   ##2: Number of tags   ##3: Comma separated list of tags",
+        "context": "1: Entity/Player/Item name, 2: Number of tags, 3: Comma separated list of tags",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10843,7 +10843,7 @@
         "identifier": "commands.tag.list.multiple.success",
         "source_string": "The %1$d entities have %2$d total tags: %3$s",
         "translation": "%1$d 個實體共有 %2$d 個標籤：%3$s",
-        "context": "1: Number of entities matching the selector   ##2: Number of tags   ##3: Comma separated list of tags",
+        "context": "1: Number of entities matching the selector, 2: Number of tags, 3: Comma separated list of tags",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10859,7 +10859,7 @@
         "identifier": "commands.tag.remove.success.single",
         "source_string": "Removed tag '%1$s' from %2$s",
         "translation": "已從 %2$s 移除標籤「%1$s」",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10867,7 +10867,7 @@
         "identifier": "commands.tag.remove.success.multiple",
         "source_string": "Removed tag '%1$s' from %2$d entities",
         "translation": "已從 %2$d 個實體移除標籤「%1$s」",
-        "context": "1: Tag string   ##2: Number of selector matches",
+        "context": "1: Tag string, 2: Number of selector matches",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -14609,9 +14609,9 @@
     },
     {
         "identifier": "createWorldScreen.playerSleep",
-        "source_string": "Beds Work ## In this case 'Beds work' means 'Beds function properly'.",
+        "source_string": "Beds Work",
         "translation": "床舖有效 ",
-        "context": null,
+        "context": "In this case 'Beds work' means 'Beds function properly'.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17129,9 +17129,9 @@
     },
     {
         "identifier": "raytracing.RTX.name",
-        "source_string": "RTX##Brand name, don't localize",
+        "source_string": "RTX",
         "translation": "RTX",
-        "context": null,
+        "context": "Brand name, don't localize",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17353,17 +17353,17 @@
     },
     {
         "identifier": "networkWorld.multiplayerPrivilegesBlockedOnConsole",
-        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up. Please ensure you have an active Xbox Live Gold subscription and your online safety settings allow Multiplayer. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up. Please ensure you have an active Xbox Live Gold subscription and your online safety settings allow Multiplayer. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.",
         "translation": "由於 Microsoft 帳號的設定方式，你無法進行線上多人遊戲。請確認你已有啟動的 Xbox Live 黃金訂閱服務，以及線上安全設定可進行多人遊戲。詳情請參閱 aka.ms/MCMultiplayerHelp 中的變更設定說明。",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "networkWorld.multiplayerPrivilegesBlockedOnConsoleGamecore",
-        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up.",
         "translation": "由於 Microsoft 帳戶的設定方式，因此你無法進行線上多人遊戲。",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -19019,7 +19019,7 @@
         "identifier": "realmsSettingsScreen.SonyStoreDisplayName",
         "source_string": "PlayStation®Store",
         "translation": "PlayStation®Store",
-        "context": "### CertRequirement: [PlayStation®Store]",
+        "context": "CertRequirement: [PlayStation®Store]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -21913,9 +21913,9 @@
     },
     {
         "identifier": "edu.worlds_screen.download",
-        "source_string": "DOWNLOAD ## It needs to be localized in its verb form, not as a noun",
+        "source_string": "DOWNLOAD",
         "translation": "下載 ",
-        "context": null,
+        "context": "It needs to be localized in its verb form, not as a noun",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -22065,73 +22065,73 @@
     },
     {
         "identifier": "edu.servers_screen.title",
-        "source_string": "Servers ### Title of the servers screen, {MaxLength=50}",
+        "source_string": "Servers",
         "translation": "伺服器 ",
-        "context": null,
+        "context": "Title of the servers screen",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.search_placeholder",
-        "source_string": "Search Servers ### Placeholder text in the search bar across the screen above the servers grid, {MaxLength=50}",
+        "source_string": "Search Servers",
         "translation": "搜尋伺服器 ",
-        "context": null,
+        "context": "Placeholder text in the search bar across the screen above the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.add_info_placeholder",
-        "source_string": "Server ID ### Placeholder text for the ID entry box in the popup for adding a server, {MaxLength=30}",
+        "source_string": "Server ID",
         "translation": "伺服器 ID ",
-        "context": null,
+        "context": "Placeholder text for the ID entry box in the popup for adding a server",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.add_server",
-        "source_string": "Add Server ### Label on the first tile button in the servers grid, {MaxLength=15}",
+        "source_string": "Add Server",
         "translation": "新增伺服器 ",
-        "context": null,
+        "context": "Label on the first tile button in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.confirm_add_server",
-        "source_string": "Add ### Confirmation button text in the popup for adding a server, {MaxLength=10}",
+        "source_string": "Add",
         "translation": "新增 ",
-        "context": null,
+        "context": "Confirmation button text in the popup for adding a server",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.play",
-        "source_string": "PLAY ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "PLAY",
         "translation": "播放 ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.back",
-        "source_string": "BACK ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "BACK",
         "translation": "返回 ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.share",
-        "source_string": "SHARE ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "SHARE",
         "translation": "分享 ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.remove",
-        "source_string": "REMOVE ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "REMOVE",
         "translation": "移除 ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -24649,9 +24649,9 @@
     },
     {
         "identifier": "gameTip.hotbar.selection.mouse",
-        "source_string": "Scroll or press %s to hold item    ## The added string will be a number between 1 and 9",
+        "source_string": "Scroll or press %s to hold item",
         "translation": "捲動或按 %s 握住物品    ",
-        "context": null,
+        "context": "The added string will be a number between 1 and 9",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -31193,7 +31193,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.4",
-        "source_string": "Save mode saves an area of the world as a structure. ##",
+        "source_string": "Save mode saves an area of the world as a structure.",
         "translation": "儲存模式可將世界的某個區域儲存為結構。 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31201,7 +31201,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.5",
-        "source_string": "Load mode loads a structure into the world. Only structures saved to the world or included in a behavior pack that is applied to the world can be loaded. ##",
+        "source_string": "Load mode loads a structure into the world. Only structures saved to the world or included in a behavior pack that is applied to the world can be loaded.",
         "translation": "載入模式可在世界中載入結構。只有在世界中儲存或在行為模式包中隨附且已套用至世界的結構可以載入。 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31209,7 +31209,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.6",
-        "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.  ##",
+        "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.",
         "translation": "角落模式與儲存模式的偵測按鈕一起使用，以自動設定要儲存的區域。有關詳細資料，請參閱下方的「角落模式」章節。",
         "context": null,
         "labels": "unassigned, lang",
@@ -31217,7 +31217,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.7",
-        "source_string": "3D Export exports a 3D model file on supported platforms.  ##",
+        "source_string": "3D Export exports a 3D model file on supported platforms.",
         "translation": "「3D 匯出」可在支援的平台中匯出 3D 模型。  ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31297,7 +31297,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.12",
-        "source_string": "Integrity - the percentage of blocks to load in from the structure, accepted values are 0 to 100. Blocks will be chosen randomly if a Seed is not specified. ##",
+        "source_string": "Integrity - the percentage of blocks to load in from the structure, accepted values are 0 to 100. Blocks will be chosen randomly if a Seed is not specified.",
         "translation": "整合 - 從結構中載入的方塊百分比，接受的值為 0 至 100。如果沒有指定「種子」，系統將隨機選擇方塊。 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31305,7 +31305,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.13",
-        "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly. ##",
+        "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly.",
         "translation": "種子 - 在此輸入的值將決定使用「整合」時要移除哪些方塊。如果要系統隨機選擇方塊，此欄請保留空白。 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31329,7 +31329,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.15",
-        "source_string": "Example: loading an empty shipwreck into the bottom of the ocean will normally copy air over the water blocks. If the shipwreck was filled with structure void, then the water will stay, and you will have a shipwreck filled with water.  ##",
+        "source_string": "Example: loading an empty shipwreck into the bottom of the ocean will normally copy air over the water blocks. If the shipwreck was filled with structure void, then the water will stay, and you will have a shipwreck filled with water.",
         "translation": "範例：通常在海洋底部載入空的沉船會在水方塊上複製空氣。如果沉船中裝滿結構空位，那麼水就會保留，因此沉船裡就會充滿水。  ",
         "context": null,
         "labels": "unassigned, lang",
@@ -31345,7 +31345,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.16",
-        "source_string": "To automatically select the area you want to save, you can place Corner Mode blocks around your structure and name them with the same name as the structure you want to save.  ##",
+        "source_string": "To automatically select the area you want to save, you can place Corner Mode blocks around your structure and name them with the same name as the structure you want to save.",
         "translation": "若要自動選取要儲存的區域，您可以在結構周圍放置「角落模式」方塊，並使用要儲存的結構名稱命名。",
         "context": null,
         "labels": "unassigned, lang",
@@ -31353,7 +31353,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.17",
-        "source_string": "Pressing the Detect button in Save mode will find all of the Corner Blocks with the same name and create a selection area so that it will save everything inside of the volume those Corner Blocks make. ##",
+        "source_string": "Pressing the Detect button in Save mode will find all of the Corner Blocks with the same name and create a selection area so that it will save everything inside of the volume those Corner Blocks make.",
         "translation": "在 [儲存模式] 下按下 [檢測] 按鈕將會尋找具有相同名稱的所有 [角落方塊]，並建立一個選取區域，以便儲存磁碟區中 [角落方塊] 製作的所有內容。",
         "context": null,
         "labels": "unassigned, lang",
@@ -47897,7 +47897,7 @@
     },
     {
         "identifier": "options.csbInfoLine01",
-        "source_string": "Catalog of 150+ Marketplace packs and items ### {MaxLength=\"100\"}",
+        "source_string": "Catalog of 150+ Marketplace packs and items",
         "translation": "包含 150+ 種市集套件和物品的目錄 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -48201,9 +48201,9 @@
     },
     {
         "identifier": "options.dev_storeOfferQueryRequiresXbl",
-        "source_string": "Require XBL for Store Offers##disable_3rd_party_console_resource_pack_check",
+        "source_string": "Require XBL for Store Offers",
         "translation": "商店優惠需要 XBL",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -48593,9 +48593,9 @@
     },
     {
         "identifier": "options.dev_enableDebugHudOverlay.cachestorageusage",
-        "source_string": "LRU Cache Usage ### refers to how cache (small high speed storage) is managed by the least recently used (LRU) algorithm.{MaxLength=39}",
+        "source_string": "LRU Cache Usage",
         "translation": "LRU 快取使用量 ",
-        "context": null,
+        "context": "refers to how cache (small high speed storage) is managed by the least recently used (LRU) algorithm.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -52793,7 +52793,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.button.addMarketplacePass",
-        "source_string": "Add Marketplace Pass ### {MaxLength=\"80\"} {StrContains=\"Marketplace Pass\"}",
+        "source_string": "Add Marketplace Pass",
         "translation": "新增 Marketplace Pass ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52801,7 +52801,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.addRealmsServer.button",
-        "source_string": "Add a Realm ### {MaxLength=\"80\"} {StrContains=\"Realm\"}",
+        "source_string": "Add a Realm",
         "translation": "新增 Realm ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52809,7 +52809,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.addRealmsServer.Body",
-        "source_string": "Your own server, always online ### {MaxLength=\"80\"}",
+        "source_string": "Your own server, always online",
         "translation": "你專屬的伺服器，隨時在線上 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52841,7 +52841,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.additionalSubscriptions",
-        "source_string": "Additional Subscriptions ### {MaxLength=\"80\"}",
+        "source_string": "Additional Subscriptions",
         "translation": "其他訂閱 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52929,7 +52929,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.realmsServer",
-        "source_string": "Realms Server ### {MaxLength=\"80\"} {StrContains=\"Realms\"}",
+        "source_string": "Realms Server",
         "translation": "Realms 伺服器 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -53785,9 +53785,9 @@
     },
     {
         "identifier": "options.managePrivacy",
-        "source_string": "To manage privacy settings, please visit https://account.xbox.com/Settings in any web browser.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "To manage privacy settings, please visit https://account.xbox.com/Settings in any web browser.",
         "translation": "若要管理隱私權設定，請使用任何網路瀏覽器造訪 https://account.xbox.com/Settings。",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -55897,25 +55897,25 @@
     },
     {
         "identifier": "permissions.CloudSave",
-        "source_string": "You cannot save your worlds to your Xbox profile because of how your account is set up. This can be changed in your privacy & online safety settings on Xbox.com.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot save your worlds to your Xbox profile because of how your account is set up. This can be changed in your privacy & online safety settings on Xbox.com.",
         "translation": "由於你的帳戶設定方式，你無法將世界保存到 Xbox 設定檔中。這可以在 Xbox.com 的隱私和線上安全設定中變更。",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "permissions.MultiplayerSessionsOnConsole",
-        "source_string": "You cannot play on Realms because of how your Microsoft account is set up. Please ensure your online safety settings allow Multiplayer and you have an active Xbox Live Gold subscription. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play on Realms because of how your Microsoft account is set up. Please ensure your online safety settings allow Multiplayer and you have an active Xbox Live Gold subscription. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.",
         "translation": "由於 Microsoft 帳號的設定方式，你無法在 Realms 中進行遊戲。請確認你的線上安全設定可進行多人遊戲，以及是否已有啟動的 Xbox Live 黃金訂閱服務。詳情請參閱 aka.ms/MCMultiplayerHelp 中的變更設定說明。",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "permissions.MultiplayerSessionsOnConsoleGamecore",
-        "source_string": "You cannot play on Realms because of how your Microsoft account is set up.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play on Realms because of how your Microsoft account is set up.",
         "translation": "由於 Microsoft 帳戶的設定方式，因此你無法在 Realms 上遊玩。",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -62057,9 +62057,9 @@
     },
     {
         "identifier": "raycasting.purchase.error",
-        "source_string": "We have detected that your device does not meet the system requirements to run this pack so you are unable to download this pack. You can review the minimum system requirements below: %s+ GPU: Hardware ray tracing capable GPU such as NVIDIA GeForce RTX 2060 or better. See our FAQ on minecraft.net for more details. %s+ RAM: 8GB or better %s+ CPU: Intel Core i5 or equivalent ##the %s will be turned into linebreaks. Don't reorder.",
+        "source_string": "We have detected that your device does not meet the system requirements to run this pack so you are unable to download this pack. You can review the minimum system requirements below: %s+ GPU: Hardware ray tracing capable GPU such as NVIDIA GeForce RTX 2060 or better. See our FAQ on minecraft.net for more details. %s+ RAM: 8GB or better %s+ CPU: Intel Core i5 or equivalent",
         "translation": "我們偵測到您的裝置不符合執行此套件的系統要求，因此您無法下載此套件。您可以在下方查看最低系統要求：%s+ GPU：具有硬體光線追蹤功能的 GPU，例如 NVIDIA GeForce RTX 2060 或更新版本。如需更多詳細資料，請參見 minecraft.net 上的常見問題集。%s+ RAM：8GB 或更高 %s+ CPU：Intel Core i5 或同等效能的產品",
-        "context": null,
+        "context": "the %s will be turned into linebreaks. Don't reorder.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -64665,7 +64665,7 @@
     },
     {
         "identifier": "store.realmsPlus.buyNow",
-        "source_string": "SUBSCRIBE NOW ## Maximum 13 characters",
+        "source_string": "SUBSCRIBE NOW",
         "translation": "立即訂閱 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -64689,7 +64689,7 @@
     },
     {
         "identifier": "store.realmsPlus.buyNowTrialPerMonth",
-        "source_string": "Start Trial ## Maximum 25 characters",
+        "source_string": "Start Trial",
         "translation": "啟動試用版",
         "context": null,
         "labels": "unassigned, lang",
@@ -65105,9 +65105,9 @@
     },
     {
         "identifier": "store.realmsPlus.faq.answer4",
-        "source_string": "Realms Plus is currently available on any platform where you can install Minecraft Bedrock Edition. You can play Realms and use any content from Realms Plus on any of these devices if you’re signed into your Microsoft account.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "Realms Plus is currently available on any platform where you can install Minecraft Bedrock Edition. You can play Realms and use any content from Realms Plus on any of these devices if you’re signed into your Microsoft account.",
         "translation": "Realms Plus 目前可在任何能安裝 Minecraft：基岩版的平台上使用。如果你已登入 Microsoft 帳戶，則可以在任何這些裝置上玩 Realms 並使用 Realms Plus 中的任何內容。",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -65449,7 +65449,7 @@
     },
     {
         "identifier": "store.csb.buyNow",
-        "source_string": "SUBSCRIBE NOW ## Maximum 13 characters",
+        "source_string": "SUBSCRIBE NOW",
         "translation": "立即訂閱 ",
         "context": null,
         "labels": "unassigned, lang",
@@ -65473,7 +65473,7 @@
     },
     {
         "identifier": "store.csb.buyNowTrialPerMonth",
-        "source_string": "Start Trial ## Maximum 25 characters",
+        "source_string": "Start Trial",
         "translation": "啟動試用版",
         "context": null,
         "labels": "unassigned, lang",
@@ -65545,9 +65545,9 @@
     },
     {
         "identifier": "store.csb.terms",
-        "source_string": "Marketplace Pass is a subscription for content to be used with supported versions of Minecraft (game sold separately) on Windows and other supported platforms on which you own the game (Minecraft Java & Amazon Kindle Fire Editions not supported); an active subscription is required to use Marketplace Pass content. Content varies over time and may not be available in all countries. After the free trial period, subscription continues to be charged at the then-current regular price (subject to change) plus applicable taxes unless cancelled. You can cancel your subscription by accessing Services & subscriptions in your Microsoft account. If your subscription terminates or a content item is removed from the catalog, you must reactivate your subscription or buy the content separately to continue using it. ISP fees may apply. We may occasionally provide content that remains available to you even after the end of your subscription, in which case we reserve the right to take down such content if it becomes incompatible or if our rights to the content expire. Subscription subject to change and/or retirement. Subject to the Microsoft Services Agreement (www.microsoft.com/msa) and the Minecraft EULA (https://www.minecraft.net/eula). Any translations of these terms are done for your convenience only, and in the event of a dispute between the English and any non-English versions, the English version of these terms shall govern. ### {StrContains=\"Marketplace Pass\"}, CertRequirement: [Amazon Kindle Fire Edition]",
+        "source_string": "Marketplace Pass is a subscription for content to be used with supported versions of Minecraft (game sold separately) on Windows and other supported platforms on which you own the game (Minecraft Java & Amazon Kindle Fire Editions not supported); an active subscription is required to use Marketplace Pass content. Content varies over time and may not be available in all countries. After the free trial period, subscription continues to be charged at the then-current regular price (subject to change) plus applicable taxes unless cancelled. You can cancel your subscription by accessing Services & subscriptions in your Microsoft account. If your subscription terminates or a content item is removed from the catalog, you must reactivate your subscription or buy the content separately to continue using it. ISP fees may apply. We may occasionally provide content that remains available to you even after the end of your subscription, in which case we reserve the right to take down such content if it becomes incompatible or if our rights to the content expire. Subscription subject to change and/or retirement. Subject to the Microsoft Services Agreement (www.microsoft.com/msa) and the Minecraft EULA (https://www.minecraft.net/eula). Any translations of these terms are done for your convenience only, and in the event of a dispute between the English and any non-English versions, the English version of these terms shall govern.",
         "translation": "Marketplace Pass 是內容定期服務，可在你擁有遊戲的 Windows 與其他受支援平台上，與支援的 Minecraft 版本 (遊戲需單獨購買) 搭配使用 (不支援 Minecraft Java 和 Amazon Kindle Fire 版)；需要有效的定期服務才能使用 Marketplace Pass 的內容。定期服務內容會隨著時間而改變，且未必能在所有國家/地區使用。除非取消定期服務，免費試用期結束後將會繼續依當時的一般價格 (可能會有變動) 加上相應稅金收費。你可以前往 Microsoft 帳戶中的 [服務與訂閱] 來取消定期服務。如果你已中止定期服務或移除目錄中的內容物品，則必須重新訂閱或單獨購買本內容，才能繼續使用，且可能會產生 ISP 費用。我們偶爾會提供在你的定期服務結束後仍能繼續使用的內容，在這種情況下，如果這些內容變得不相容或我們對這些內容的權利到期，我們保留刪除這些內容的權利。訂閱內容可能會有所變更或中止。訂閱受 Microsoft 服務協議 (www.microsoft.com/msa) 和 Minecraft 使用者授權合約 (https://www.minecraft.net/eula) 約束。上述條款的任何翻譯內容僅供你參考之便而提供，如英文版和非英文版之間發生衝突，應以英文版為準。 ",
-        "context": null,
+        "context": "CertRequirement: [Amazon Kindle Fire Edition]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -81489,9 +81489,9 @@
     },
     {
         "identifier": "survey.line5",
-        "source_string": "I thought I needed a Xbox console##disable_3rd_party_console_resource_pack_check",
+        "source_string": "I thought I needed a Xbox console",
         "translation": "我以為需要具備 Xbox 主機",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -84249,9 +84249,9 @@
     },
     {
         "identifier": "dr.header.categoryFeaturedList",
-        "source_string": "%s Featured  ## %s is the category name (ie. Style or Body)",
+        "source_string": "%s Featured",
         "translation": "%s 精選",
-        "context": null,
+        "context": "%s is the category name (ie. Style or Body)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86113,9 +86113,9 @@
     },
     {
         "identifier": "gameTest.error.structureNotSpawned",
-        "source_string": "Failed to spawn test structure with path '%s' ## %s is the file path of the structure",
+        "source_string": "Failed to spawn test structure with path '%s'",
         "translation": "無法生成帶有路徑 '%s' 的測試建築",
-        "context": null,
+        "context": "%s is the file path of the structure",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86129,9 +86129,9 @@
     },
     {
         "identifier": "gameTest.error.flakyFailedShowSuccesses",
-        "source_string": ", successes: %s (%s required)           ## This appears right after gameTest.error.flakyFailed if multiple successes are required",
+        "source_string": ", successes: %s (%s required)",
         "translation": "，成功：%s (需要 %s)           ",
-        "context": null,
+        "context": "This appears right after gameTest.error.flakyFailed if multiple successes are required",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86481,17 +86481,17 @@
     },
     {
         "identifier": "gameTest.success.flakyPassedEnough",
-        "source_string": "%s passed %s times of %s attempts.           ## this is used when a test has passed a sufficient number of times",
+        "source_string": "%s passed %s times of %s attempts.",
         "translation": "%s 通過 %s 次 %s 嘗試。",
-        "context": null,
+        "context": "this is used when a test has passed a sufficient number of times",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "gameTest.success.flakyPassed",
-        "source_string": "Flaky Test %s succeeded, attempt: %s successes: %s.## this one is used when a test has passed, but not yet reached the required number of times to succeed",
+        "source_string": "Flaky Test %s succeeded, attempt: %s successes: %s.",
         "translation": "片狀測試 %s 成功，嘗試：%s 成功：%s。",
-        "context": null,
+        "context": "this one is used when a test has passed, but not yet reached the required number of times to succeed",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86513,9 +86513,9 @@
     },
     {
         "identifier": "gameTest.report.tickCount",
-        "source_string": "Tick: %s                                              ## This appears right below the gameTest.report.testLocation line",
+        "source_string": "Tick: %s",
         "translation": "刻度：%s                                              ",
-        "context": null,
+        "context": "This appears right below the gameTest.report.testLocation line",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86553,9 +86553,9 @@
     },
     {
         "identifier": "gameTest.report.bookTitle",
-        "source_string": "Game Test Report                                      ## A book with this title is placed next to each test with the test results inside",
+        "source_string": "Game Test Report",
         "translation": "遊戲測試報告                                      ",
-        "context": null,
+        "context": "A book with this title is placed next to each test with the test results inside",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86649,9 +86649,9 @@
     },
     {
         "identifier": "script.success.profilerStopped",
-        "source_string": "Profiler stopped. Profile saved to '%s'          ## Full path to profile file",
+        "source_string": "Profiler stopped. Profile saved to '%s'",
         "translation": "分析程式已停止。設定檔已儲存至 '%s'          ",
-        "context": null,
+        "context": "Full path to profile file",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86673,9 +86673,9 @@
     },
     {
         "identifier": "script.success.diagnosticsCaptureStopped",
-        "source_string": "Diagnostics capture stopped - saved to '%s'        ## Full path to diagnostics capture file",
+        "source_string": "Diagnostics capture stopped - saved to '%s'",
         "translation": "診斷擷取已停止 - 儲存為 '%s'        ",
-        "context": null,
+        "context": "Full path to diagnostics capture file",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86737,9 +86737,9 @@
     },
     {
         "identifier": "world_recovery.description",
-        "source_string": "Click the button below to open a file picker you can use to locate and select your 'minecraftWorlds' folder.%1%1Look inside the 'games/com.mojang' folders, starting from the root of your device or SD card.%1%1Once selected, we will copy your worlds to the new external storage location.%1%1You must have enough space available on your device to hold copies of your worlds.   ## %1 is line breaks",
+        "source_string": "Click the button below to open a file picker you can use to locate and select your 'minecraftWorlds' folder.%1%1Look inside the 'games/com.mojang' folders, starting from the root of your device or SD card.%1%1Once selected, we will copy your worlds to the new external storage location.%1%1You must have enough space available on your device to hold copies of your worlds.",
         "translation": "按下下方的按鈕開啟一個文件選取器，你可以使用它來查找和選擇你的 'minecraftWorlds' 資料夾。%1%1從裝置或 SD 卡的根目錄開始，查看 'games/com.mojang' 資料夾。%1%1選擇後，我們會將你的世界複製到新的外部儲存位置。%1%1你必須擁有足夠的可用空間，來保存你的世界副本。",
-        "context": null,
+        "context": "%1 is line breaks",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86809,9 +86809,9 @@
     },
     {
         "identifier": "world_recovery.progress",
-        "source_string": "Recovering %2 files (%3).%1%1Progress: %4%% complete%1Files copied: %5 / %2  ## %1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count",
+        "source_string": "Recovering %2 files (%3).%1%1Progress: %4%% complete%1Files copied: %5 / %2",
         "translation": "正在恢復 %2 檔案 (%3)。%1%1進度：%4%% 完成%1檔案複製：%5 / %2",
-        "context": null,
+        "context": "%1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -87385,137 +87385,137 @@
     },
     {
         "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
-        "source_string": "A behaviour pack is activated   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "A behaviour pack is activated   ",
-        "context": null,
+        "source_string": "A behaviour pack is activated",
+        "translation": "已啟用行為包。 提示： 此世界將無法獲得成就",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
-        "source_string": "Cheats are enabled   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "Cheats are enabled   ",
-        "context": null,
+        "source_string": "Cheats are enabled",
+        "translation": "已啟用作弊 提示：此世界將永久停用成就功能",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.closeButton",
-        "source_string": "Close  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
-        "translation": "Close  ",
-        "context": null,
+        "source_string": "Close",
+        "translation": "取消建立",
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButton",
-        "source_string": "Create anyway  ###Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
-        "translation": "Create anyway  ",
-        "context": null,
+        "source_string": "Create anyway",
+        "translation": "仍要建立",
+        "context": "Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
-        "source_string": "Continue anyway  ###Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}",
-        "translation": "Continue anyway  ",
-        "context": null,
+        "source_string": "Continue anyway",
+        "translation": "仍要繼續",
+        "context": "Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.creativeMode",
-        "source_string": "The world is created in creative mode   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "The world is created in creative mode   ",
-        "context": null,
+        "source_string": "The world is created in creative mode",
+        "translation": "此世界在創造模式下建立。 提示：此世界將永久停用成就功能",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.experiments",
-        "source_string": "Beta features are turned on   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "Beta features are turned on   ",
-        "context": null,
+        "source_string": "Beta features are turned on",
+        "translation": "Beta 功能已開啟。 提示：此世界將永久停用成就功能",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph",
-        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=300}",
-        "translation": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "在建立世界時使用以下任何功能都將意味著您將無法在該世界中獲得成就。即使您在稍後關閉這些選項，您也需要訪問其他世界才可獲得成就。",
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
-        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason {MaxLength=300}",
-        "translation": "Creating a world using the following feature will mean you won't be able to earn achievements in that world. Even if you turn this option off later, you'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "在建立世界時使用以下任何功能都將意味著您將無法在該世界中獲得成就。即使您在稍後關閉這些選項，您也需要訪問其他世界才可獲得成就。",
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
-        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=300}",
-        "translation": "The way this world has been set up means that you won't be able to earn achievements while playing in it. Editing the world's settings now can't change this. You'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "由於此世界的設置方式，您將無法在遊玩此世界時獲得任何成就。即使編輯世界設定也無法改變這一點。您需要訪問其他世界才可獲得成就。",
+        "context": "First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements ",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.flatWorld",
-        "source_string": "The world is created as a flat world   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "The world is created as a flat world   ",
-        "context": null,
+        "source_string": "The world is created as a flat world",
+        "translation": "此世界被創造為一個平坦的世界",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
-        "source_string": "Go back  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
-        "translation": "Go back  ",
-        "context": null,
+        "source_string": "Go back",
+        "translation": "返回",
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.operator",
-        "source_string": "The world creator has Operator privileges   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "The world creator has Operator privileges   ",
-        "context": null,
+        "source_string": "The world creator has Operator privileges",
+        "translation": "世界創建者擁有操作員權限 提示：將永久停用成就功能",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.secondParagraph",
-        "source_string": "Achievements can't be earned in this world if:   ###Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=150}",
-        "translation": "Achievements can't be earned in this world if:   ",
-        "context": null,
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "如果出現以下情況，此世界將無法獲得成就：",
+        "context": "Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.template",
-        "source_string": "The world is built from a template   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "The world is built from a template   ",
-        "context": null,
+        "source_string": "The world is built from a template",
+        "translation": "此世界以範本建立 提示：此世界中將無法獲得成就",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.title",
-        "source_string": "You can’t earn achievements   ###Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
-        "translation": "You can't earn achievements   ",
-        "context": null,
+        "source_string": "You can’t earn achievements",
+        "translation": "無法獲得成就",
+        "context": "Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.trial",
-        "source_string": "The world creator is using the trial version of Minecraft   ###Reason world will have achievements permanently disabled {MaxLength=150}",
-        "translation": "The world creator is using the trial version of Minecraft   ",
-        "context": null,
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "此世界的創造者正在使用 Minecraft 試用版本",
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },

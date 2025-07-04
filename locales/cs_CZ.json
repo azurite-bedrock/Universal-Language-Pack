@@ -4633,7 +4633,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.title",
-        "source_string": "Code Editor Changes###{MaxLength=27}",
+        "source_string": "Code Editor Changes",
         "translation": "Změny editoru kódu",
         "context": null,
         "labels": "unassigned, lang",
@@ -4641,7 +4641,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.body",
-        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.###{MaxLength=1000}",
+        "source_string": "This coding editor will be leaving Minecraft Education soon. You can continue your Minecraft Education coding adventures with MakeCode. Click 'Learn more' for details about this change like timing and how to make a back up of your coding projects.",
         "translation": "Tento kódovací editor brzy v režimu Minecraft Education skončí. Ve vašich kódovacích dobrodružstvích z režimu Minecraft Education můžete pokračovat za pomocí nástroje MakeCode. Klikněte na „Dozvědět se více“ a zjistěte o této změně více informací, jako je třeba časování a to, jak zálohovat své kódovací projekty.",
         "context": null,
         "labels": "unassigned, lang",
@@ -4649,7 +4649,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.learnMore",
-        "source_string": "Learn more###{MaxLength=27}",
+        "source_string": "Learn more",
         "translation": "Další informace",
         "context": null,
         "labels": "unassigned, lang",
@@ -4657,7 +4657,7 @@
     },
     {
         "identifier": "codeScreen.deprecatedIDE.button.close",
-        "source_string": "Close###{MaxLength=27}",
+        "source_string": "Close",
         "translation": "Zavřít",
         "context": null,
         "labels": "unassigned, lang",
@@ -6707,7 +6707,7 @@
         "identifier": "commands.event.error.failed",
         "source_string": "%1$s could not be executed on: %2$s",
         "translation": "Událost %1$s nelze provést u: %2$s",
-        "context": "1: Event Name ##2: List of failed entities for which the event could not be executed",
+        "context": "1: Event Name, 2: List of failed entities for which the event could not be executed",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6715,7 +6715,7 @@
         "identifier": "commands.event.success",
         "source_string": "%1$s successfully executed on: %2$s",
         "translation": "Událost %1$s úspěšně provedena u: %2$s",
-        "context": "1: Event Name ##2: List of entities",
+        "context": "1: Event Name, 2: List of entities",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6763,7 +6763,7 @@
         "identifier": "commands.execute.falseCondition",
         "source_string": "Execute subcommand %1$s %2$s test failed.",
         "translation": "Test provedení dílčího příkazu %1$s %2$s se nezdařil.",
-        "context": "1: Subcommand ##2: ConditionSubcommand",
+        "context": "1: Subcommand, 2: ConditionSubcommand",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6771,7 +6771,7 @@
         "identifier": "commands.execute.falseConditionWithCount",
         "source_string": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
         "translation": "Execute subcommand %1$s %2$s test failed, count: %3$s.",
-        "context": "1: Subcommand ##2: ConditionSubcommand ##3: Test passed count",
+        "context": "1: Subcommand, 2: ConditionSubcommand, 3: Test passed count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6795,7 +6795,7 @@
         "identifier": "commands.execute.ifUnlessBlocks.tooManyBlocks",
         "source_string": "Checking too many blocks. Max block count: %1$s. Current block count: %2$s.",
         "translation": "Probíhá kontrola příliš mnoha bloků. Maximální počet bloků: %1$s. Aktuální počet bloků: %2$s.",
-        "context": "1: Max number of blocks that are checked ##2: Current number of blocks that are checked",
+        "context": "1: Max number of blocks that are checked, 2: Current number of blocks that are checked",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -6803,7 +6803,7 @@
         "identifier": "commands.execute.ifUnlessScore.score.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "Pro hráče %1$s nebylo nalezeno žádné skóre %2$s.",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7297,9 +7297,9 @@
     },
     {
         "identifier": "commands.generic.error.permissions",
-        "source_string": "Incorrect permission level for command: %s.  ##1: command name",
+        "source_string": "Incorrect permission level for command: %s.  ",
         "translation": "Nesprávná úroveň oprávnění pro příkaz: %s.  ",
-        "context": null,
+        "context": "1: command name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7913,33 +7913,33 @@
     },
     {
         "identifier": "commands.inputpermission.mount",
-        "source_string": "Mount ## Board a boat / get on a horse",
+        "source_string": "Mount",
         "translation": "Nasednout ",
-        "context": null,
+        "context": "Board a boat / get on a horse",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.dismount",
-        "source_string": "Dismount ## Leave a boat / get off a horse",
+        "source_string": "Dismount",
         "translation": "Sesednout ",
-        "context": null,
+        "context": "Leave a boat / get off a horse",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.lateral_movement",
-        "source_string": "Lateral Movement ## All movement that you do with a joystick/WASD on keyboard. ",
+        "source_string": "Lateral Movement",
         "translation": "Boční pohyb ",
-        "context": null,
+        "context": "All movement that you do with a joystick/WASD on keyboard. ",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.move_forward",
-        "source_string": "Move Forward ## Movement from pushing joystick forward (or pressing W on keyboard)",
+        "source_string": "Move Forward",
         "translation": "Pohyb dopředu ",
-        "context": null,
+        "context": "Movement from pushing joystick forward (or pressing W on keyboard)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -8009,17 +8009,17 @@
     },
     {
         "identifier": "commands.inputpermission.set.outputoneplayer",
-        "source_string": "%s input %s for %s  ##1: Input lock category (camera/movement/jump/sneak/mount/etc.) ##2: State (enabled/disabled) ##3: Player name",
+        "source_string": "%s input %s for %s ",
         "translation": "%s vstup %s pro %s  ",
-        "context": null,
+        "context": "1: Input lock category (camera/movement/jump/sneak/mount/etc.), 2: State (enabled/disabled), 3: Player name",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "commands.inputpermission.set.outputmultipleplayers",
-        "source_string": "%s input %s for %d players  ##1: Input lock category (camera/movement) ##2: State (enabled/disabled) ##3: Player count",
+        "source_string": "%s input %s for %d players ",
         "translation": "%s vstup %s pro %d hráče/hráčů  ",
-        "context": null,
+        "context": "1: Input lock category (camera/movement), 2: State (enabled/disabled), 3: Player count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9483,7 +9483,7 @@
         "identifier": "commands.schedule.delay.functionQueued",
         "source_string": "Scheduled function %1$s in %2$d ticks at gametime %3$d.",
         "translation": "Naplánovaná funkce %1$s se spustí za %2$d cyklů herního času %3$d.",
-        "context": "1: Name of the mcfunction ##2: Duration (in game ticks) of the delay length ##3: The end game time (in ticks) when the function will run",
+        "context": "1: Name of the mcfunction, 2: Duration (in game ticks) of the delay length, 3: The end game time (in ticks) when the function will run",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9515,7 +9515,7 @@
         "identifier": "commands.schedule.functionRan",
         "source_string": "Successfully executed %1$d function entries in function %2$s.",
         "translation": "Úspěšně provedeno %1$d položek funkcí ve funkci %2$s.",
-        "context": "1: Number of functions that were ran ##2: Name of the mcfunction",
+        "context": "1: Number of functions that were ran, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9555,7 +9555,7 @@
         "identifier": "commands.schedule.clear.success",
         "source_string": "Removed %1$d functions with the name %2$s.",
         "translation": "Odebráno %1$d funkcí s názvem %2$s.",
-        "context": "1: Number of functions cleared ##2: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9563,7 +9563,7 @@
         "identifier": "commands.schedule.tickingarea.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s.",
         "translation": "Odebráno %1$d funkcí s názvem z oblasti zaškrtnutí %2$s.",
-        "context": "1: Name of selected ticking area ##2: Name of selected ticking area",
+        "context": "1: Name of selected ticking area, 2: Name of selected ticking area",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9579,7 +9579,7 @@
         "identifier": "commands.schedule.tickingarea.func.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
         "translation": "Odebráno %1$d funkcí s názvem z oblasti zaškrtnutí %2$s a s názvem %3$s.",
-        "context": "1: Number of functions cleared ##2: Name of selected ticking area ##3: Name of the mcfunction",
+        "context": "1: Number of functions cleared, 2: Name of selected ticking area, 3: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9587,7 +9587,7 @@
         "identifier": "commands.schedule.tickingarea.func.clear.failure",
         "source_string": "No functions were removed with the ticking area name %1$s and with name %2$s.",
         "translation": "Nebyly odebrány žádné funkce s názvem z oblasti zaškrtnutí %1$s a s názvem %2$s.",
-        "context": "1: Name of selected ticking area ##2: Name of the mcfunction",
+        "context": "1: Name of selected ticking area, 2: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9643,7 +9643,7 @@
         "identifier": "commands.scoreboard.objectives.add.displayTooLong",
         "source_string": "The display name '%1$s' is too long for an objective, it can be at most %2$d characters long",
         "translation": "Zobrazovaný název cíle „%1$s“ je příliš dlouhý. Maximální povolený počet znaků je %2$d",
-        "context": "1: Objective Display Name ##2: Name Length Limit",
+        "context": "1: Objective Display Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9659,7 +9659,7 @@
         "identifier": "commands.scoreboard.objectives.add.tooLong",
         "source_string": "The name '%1$s' is too long for an objective, it can be at most %2$d characters long",
         "translation": "Název cíle „%1$s“ je příliš dlouhý. Maximální povolený počet znaků je %2$d",
-        "context": "1: Objective Name ##2: Name Length Limit",
+        "context": "1: Objective Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9707,7 +9707,7 @@
         "identifier": "commands.scoreboard.objectives.list.entry",
         "source_string": "- %1$s: displays as '%2$s' and is type '%3$s'",
         "translation": "- %1$s: zobrazuje se jako „%2$s“ a je typu „%3$s“",
-        "context": "1: Objective Name ##2: Objective Display Name ##3: Criteria Name",
+        "context": "1: Objective Name, 2: Objective Display Name, 3: Criteria Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9739,7 +9739,7 @@
         "identifier": "commands.scoreboard.objectives.setdisplay.successSet",
         "source_string": "Set the display objective in slot '%1$s' to '%2$s'",
         "translation": "Cíl zobrazení v pozici „%1$s“ byl nastaven na „%2$s“",
-        "context": "1: Display Slot ##2: Objective Name",
+        "context": "1: Display Slot, 2: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9747,7 +9747,7 @@
         "identifier": "commands.scoreboard.players.add.success",
         "source_string": "Added %1$d to [%2$s] for %3$s (now %4$d)",
         "translation": "Přidáno %1$d k [%2$s] hráči %3$s (nyní %4$d)",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9755,7 +9755,7 @@
         "identifier": "commands.scoreboard.players.add.multiple.success",
         "source_string": "Added %1$d to [%2$s] for %3$d entities",
         "translation": "Přidáno %1$d k [%2$s] %3$d entitám",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9779,7 +9779,7 @@
         "identifier": "commands.scoreboard.players.enable.success",
         "source_string": "Enabled trigger %1$s for %2$s",
         "translation": "Povolit spouštěč %1$s pro %2$s",
-        "context": "1: Trigger Name ##2: Objective Name",
+        "context": "1: Trigger Name, 2: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9803,7 +9803,7 @@
         "identifier": "commands.scoreboard.players.list.player.count",
         "source_string": "Showing %1$d tracked objective(s) for %2$s:",
         "translation": "Zobrazení %1$d sledovaných cílů pro %2$s:",
-        "context": "1: Objective Count ##2: Player Name",
+        "context": "1: Objective Count, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9819,7 +9819,7 @@
         "identifier": "commands.scoreboard.players.list.player.entry",
         "source_string": "- %2$s: %1$d (%3$s)",
         "translation": "- %2$s: %1$d (%3$s)",
-        "context": "1: Score Value ##2: Objective Display Name ##3: Objective Name",
+        "context": "1: Score Value, 2: Objective Display Name, 3: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9835,7 +9835,7 @@
         "identifier": "commands.scoreboard.players.operation.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "Pro hráče %1$s nebylo nalezeno žádné skóre %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9843,7 +9843,7 @@
         "identifier": "commands.scoreboard.players.operation.success",
         "source_string": "Updated [%1$s] for %2$d entities",
         "translation": "Aktualizováno [%1$s] %2$d entitám",
-        "context": "1: Objective Name ##2: Player Count",
+        "context": "1: Objective Name, 2: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9859,7 +9859,7 @@
         "identifier": "commands.scoreboard.players.random.invalidRange",
         "source_string": "Min %1$d is not less than max %2$d",
         "translation": "Minimum %1$d není nižší než maximum %2$d",
-        "context": "1: Min Range Value ##2: Max Range Value",
+        "context": "1: Min Range Value, 2: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9867,7 +9867,7 @@
         "identifier": "commands.scoreboard.players.remove.success",
         "source_string": "Removed %1$d from [%2$s] for %3$s (now %4$d)",
         "translation": "Odebráno %1$d z [%2$s] hráči %3$s (nyní %4$d)",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Name ##4: New Score Value",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9875,7 +9875,7 @@
         "identifier": "commands.scoreboard.players.remove.multiple.success",
         "source_string": "Removed %1$d from [%2$s] for %3$d entities",
         "translation": "Odebráno %1$d z [%2$s] %3$d entitám",
-        "context": "1: Score Value ##2: Objective Name ##3: Player Count",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9891,7 +9891,7 @@
         "identifier": "commands.scoreboard.players.resetscore.success",
         "source_string": "Reset score %1$s of player %2$s",
         "translation": "Resetovat skóre %1$s hráče %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9899,7 +9899,7 @@
         "identifier": "commands.scoreboard.players.set.success",
         "source_string": "Set [%1$s] for %2$s to %3$d",
         "translation": "Nastaveno [%1$s] hráči %2$s na %3$d",
-        "context": "1: Objective Name ##2: Player Name ##3: Score Value",
+        "context": "1: Objective Name, 2: Player Name, 3: Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9907,7 +9907,7 @@
         "identifier": "commands.scoreboard.players.set.multiple.success",
         "source_string": "Set [%1$s] for %2$d entities to %3$d",
         "translation": "Nastaveno [%1$s] %2$d entitám na %3$d",
-        "context": "1: Objective Name ##2: Player Count ##3: Score Value",
+        "context": "1: Objective Name, 2: Player Count, 3: Score Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9931,7 +9931,7 @@
         "identifier": "commands.scoreboard.players.score.notFound",
         "source_string": "No %1$s score for %2$s found",
         "translation": "Pro hráče %1$s nebylo nalezeno žádné skóre %2$s",
-        "context": "1: Objective Name ##2: Player Name",
+        "context": "1: Objective Name, 2: Player Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9939,7 +9939,7 @@
         "identifier": "commands.scoreboard.players.test.failed",
         "source_string": "Score %1$d is NOT in range %2$d to %3$d",
         "translation": "Skóre %1$d NENÍ v rozsahu %2$d až %3$d",
-        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9947,7 +9947,7 @@
         "identifier": "commands.scoreboard.players.test.success",
         "source_string": "Score %1$d is in range %2$d to %3$d",
         "translation": "Skóre %1$d je v rozsahu %2$d až %3$d",
-        "context": "1: Value ##2: Min Range Value ##3: Max Range Value",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9979,7 +9979,7 @@
         "identifier": "commands.scoreboard.teams.add.displayTooLong",
         "source_string": "The display name '%1$s' is too long for a team, it can be at most %2$d characters long",
         "translation": "Zobrazovaný název týmu „%1$s“ je příliš dlouhý. Maximální povolený počet znaků je %2$d",
-        "context": "1: Team Display Name ##2: Name Length Limit",
+        "context": "1: Team Display Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9995,7 +9995,7 @@
         "identifier": "commands.scoreboard.teams.add.tooLong",
         "source_string": "The name '%1$s' is too long for a team, it can be at most %2$d characters long",
         "translation": "Název týmu „%1$s“ je příliš dlouhý. Maximální povolený počet znaků je %2$d",
-        "context": "1: Team Name ##2: Name Length Limit",
+        "context": "1: Team Name, 2: Name Length Limit",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10011,7 +10011,7 @@
         "identifier": "commands.scoreboard.teams.empty.success",
         "source_string": "Removed all %1$d player(s) from team %2$s",
         "translation": "Všichni hráči (%1$d) byli z týmu %2$s odebráni",
-        "context": "1: Number of Players ##2: Team Name",
+        "context": "1: Number of Players, 2: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10019,7 +10019,7 @@
         "identifier": "commands.scoreboard.teams.join.failure",
         "source_string": "Could not add %1$d player(s) to team %2$s: %3$s",
         "translation": "Nelze přidat hráče (%1$d) do týmu %2$s: %3$s",
-        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10027,7 +10027,7 @@
         "identifier": "commands.scoreboard.teams.join.success",
         "source_string": "Added %1$d player(s) to team %2$s: %3$s",
         "translation": "Hráči (%1$d) byli přidáni do týmu %2$s: %3$s",
-        "context": "1: Number of Players ##2: Team Name ##3: List of Players",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10035,7 +10035,7 @@
         "identifier": "commands.scoreboard.teams.leave.failure",
         "source_string": "Could not remove %1$d player(s) from their teams: %2$s",
         "translation": "Nelze odebrat hráče (%1$d) z jejich týmů: %2$s",
-        "context": "1: Number of Players ##2: Team Name",
+        "context": "1: Number of Players, 2: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10051,7 +10051,7 @@
         "identifier": "commands.scoreboard.teams.leave.success",
         "source_string": "Removed %1$d player(s) from their teams: %2$s",
         "translation": "Hráči (%1$d) byli ze svých týmů odebráni: %2$s",
-        "context": "1: Number of Players ##2: List of Players",
+        "context": "1: Number of Players, 2: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10075,7 +10075,7 @@
         "identifier": "commands.scoreboard.teams.list.entry",
         "source_string": "- %1$s: '%2$s' has %3$d players",
         "translation": "- %1$s: „%2$s“ má %3$d hráčů",
-        "context": "1: Team Name ##2: Team Display Name ##3: Number of Players",
+        "context": "1: Team Name, 2: Team Display Name, 3: Number of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10083,7 +10083,7 @@
         "identifier": "commands.scoreboard.teams.list.player.count",
         "source_string": "Showing %1$d player(s) in team %2$s:",
         "translation": "Zobrazení %1$d hráčů týmu %2$s:",
-        "context": "1: Number of Players ##2 Team Name",
+        "context": "1: Number of Players, 2 Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10099,7 +10099,7 @@
         "identifier": "commands.scoreboard.teams.list.player.entry",
         "source_string": "- %2$s: %1$d (%3$s)",
         "translation": "- %2$s: %1$d (%3$s)",
-        "context": "1: Player Name ##2: Score Value ##3: Team Display Name",
+        "context": "1: Player Name, 2: Score Value, 3: Team Display Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10107,7 +10107,7 @@
         "identifier": "commands.scoreboard.teams.option.noValue",
         "source_string": "Valid values for option %1$s are: %2$s",
         "translation": "Platné hodnoty pro možnost %1$s jsou: %2$s",
-        "context": "1: Option Name ##2: List of Option Values",
+        "context": "1: Option Name, 2: List of Option Values",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10115,7 +10115,7 @@
         "identifier": "commands.scoreboard.teams.option.success",
         "source_string": "Set option %1$s for team %2$s to %3$s",
         "translation": "Nastavit možnost %1$s týmu %2$s na %3$s",
-        "context": "1: Option Name ##2: Team Name ##3: Option Value",
+        "context": "1: Option Name, 2: Team Name, 3: Option Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10803,7 +10803,7 @@
         "identifier": "commands.tag.add.success.single",
         "source_string": "Added tag '%1$s' to %2$s",
         "translation": "Značka „%1$s“ byla přidána %2$s",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10811,7 +10811,7 @@
         "identifier": "commands.tag.add.success.multiple",
         "source_string": "Added tag '%1$s' to %2$d entities",
         "translation": "Značka „%1$s“ byla přidána %2$d entitám",
-        "context": "1: Tag string   ##2: Number of entities (numerals)",
+        "context": "1: Tag string, 2: Number of entities (numerals)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10827,7 +10827,7 @@
         "identifier": "commands.tag.list.single.success",
         "source_string": "%1$s has %2$d tags: %3$s",
         "translation": "%1$s má %2$d značky: %3$s",
-        "context": "1: Entity/Player/Item name   ##2: Number of tags   ##3: Comma separated list of tags",
+        "context": "1: Entity/Player/Item name, 2: Number of tags, 3: Comma separated list of tags",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10843,7 +10843,7 @@
         "identifier": "commands.tag.list.multiple.success",
         "source_string": "The %1$d entities have %2$d total tags: %3$s",
         "translation": "%1$d entit mají celkově %2$d značky: %3$s",
-        "context": "1: Number of entities matching the selector   ##2: Number of tags   ##3: Comma separated list of tags",
+        "context": "1: Number of entities matching the selector, 2: Number of tags, 3: Comma separated list of tags",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10859,7 +10859,7 @@
         "identifier": "commands.tag.remove.success.single",
         "source_string": "Removed tag '%1$s' from %2$s",
         "translation": "Značka „%1$s“ byla odebrána %2$s",
-        "context": "1: Tag string   ##2: Entity/Player/Item name",
+        "context": "1: Tag string, 2: Entity/Player/Item name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -10867,7 +10867,7 @@
         "identifier": "commands.tag.remove.success.multiple",
         "source_string": "Removed tag '%1$s' from %2$d entities",
         "translation": "Značka „%1$s“ byla odebrána %2$d entitám",
-        "context": "1: Tag string   ##2: Number of selector matches",
+        "context": "1: Tag string, 2: Number of selector matches",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -14609,9 +14609,9 @@
     },
     {
         "identifier": "createWorldScreen.playerSleep",
-        "source_string": "Beds Work ## In this case 'Beds work' means 'Beds function properly'.",
+        "source_string": "Beds Work",
         "translation": "Postele fungují ",
-        "context": null,
+        "context": "In this case 'Beds work' means 'Beds function properly'.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17129,9 +17129,9 @@
     },
     {
         "identifier": "raytracing.RTX.name",
-        "source_string": "RTX##Brand name, don't localize",
+        "source_string": "RTX",
         "translation": "RTX",
-        "context": null,
+        "context": "Brand name, don't localize",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -17353,17 +17353,17 @@
     },
     {
         "identifier": "networkWorld.multiplayerPrivilegesBlockedOnConsole",
-        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up. Please ensure you have an active Xbox Live Gold subscription and your online safety settings allow Multiplayer. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up. Please ensure you have an active Xbox Live Gold subscription and your online safety settings allow Multiplayer. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.",
         "translation": "Nemůžete hrát online hru pro více hráčů kvůli způsobu nastavení vašeho účtu Microsoft. Prosím, zkontrolujte, zda vaše nastavení online bezpečnosti povoluje hru pro více hráčů a zda máte aktivní předplatné Xbox Live Gold. Pokyny pro změnu těchto nastavení naleznete na stránce aka.ms/MCMultiplayerHelp.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "networkWorld.multiplayerPrivilegesBlockedOnConsoleGamecore",
-        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play online multiplayer because of how your Microsoft account is set up.",
         "translation": "Nemůžete hrát online hru pro více hráčů kvůli způsobu nastavení vašeho účtu Microsoft.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -19019,7 +19019,7 @@
         "identifier": "realmsSettingsScreen.SonyStoreDisplayName",
         "source_string": "PlayStation®Store",
         "translation": "PlayStation®Store",
-        "context": "### CertRequirement: [PlayStation®Store]",
+        "context": "CertRequirement: [PlayStation®Store]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -21913,9 +21913,9 @@
     },
     {
         "identifier": "edu.worlds_screen.download",
-        "source_string": "DOWNLOAD ## It needs to be localized in its verb form, not as a noun",
+        "source_string": "DOWNLOAD",
         "translation": "STÁHNOUT ",
-        "context": null,
+        "context": "It needs to be localized in its verb form, not as a noun",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -22065,73 +22065,73 @@
     },
     {
         "identifier": "edu.servers_screen.title",
-        "source_string": "Servers ### Title of the servers screen, {MaxLength=50}",
+        "source_string": "Servers",
         "translation": "Servery ",
-        "context": null,
+        "context": "Title of the servers screen",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.search_placeholder",
-        "source_string": "Search Servers ### Placeholder text in the search bar across the screen above the servers grid, {MaxLength=50}",
+        "source_string": "Search Servers",
         "translation": "Prohledat servery ",
-        "context": null,
+        "context": "Placeholder text in the search bar across the screen above the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.add_info_placeholder",
-        "source_string": "Server ID ### Placeholder text for the ID entry box in the popup for adding a server, {MaxLength=30}",
+        "source_string": "Server ID",
         "translation": "ID serveru ",
-        "context": null,
+        "context": "Placeholder text for the ID entry box in the popup for adding a server",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.add_server",
-        "source_string": "Add Server ### Label on the first tile button in the servers grid, {MaxLength=15}",
+        "source_string": "Add Server",
         "translation": "Přidat server ",
-        "context": null,
+        "context": "Label on the first tile button in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.confirm_add_server",
-        "source_string": "Add ### Confirmation button text in the popup for adding a server, {MaxLength=10}",
+        "source_string": "Add",
         "translation": "Přidat ",
-        "context": null,
+        "context": "Confirmation button text in the popup for adding a server",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.play",
-        "source_string": "PLAY ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "PLAY",
         "translation": "HRÁT ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.back",
-        "source_string": "BACK ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "BACK",
         "translation": "ZPĚT ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.share",
-        "source_string": "SHARE ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "SHARE",
         "translation": "SDÍLET ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "edu.servers_screen.remove",
-        "source_string": "REMOVE ### Button text on a server tile in the servers grid, {MaxLength=10}",
+        "source_string": "REMOVE",
         "translation": "ODSTRANIT ",
-        "context": null,
+        "context": "Button text on a server tile in the servers grid",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -24649,9 +24649,9 @@
     },
     {
         "identifier": "gameTip.hotbar.selection.mouse",
-        "source_string": "Scroll or press %s to hold item    ## The added string will be a number between 1 and 9",
+        "source_string": "Scroll or press %s to hold item",
         "translation": "Rolujte nebo stiskněte %s k uchopení předmětu    ",
-        "context": null,
+        "context": "The added string will be a number between 1 and 9",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -31193,7 +31193,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.4",
-        "source_string": "Save mode saves an area of the world as a structure. ##",
+        "source_string": "Save mode saves an area of the world as a structure.",
         "translation": "Režim Uložení slouží k uložení oblasti světa v podobě struktury.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31201,7 +31201,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.5",
-        "source_string": "Load mode loads a structure into the world. Only structures saved to the world or included in a behavior pack that is applied to the world can be loaded. ##",
+        "source_string": "Load mode loads a structure into the world. Only structures saved to the world or included in a behavior pack that is applied to the world can be loaded.",
         "translation": "Režim Načtení slouží k načtení struktury do světa. Načítat lze pouze struktury, které byly uloženy ve světě nebo jsou součástí balíčku chování použitého pro daný svět.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31209,7 +31209,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.6",
-        "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.  ##",
+        "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.",
         "translation": "Rohový režim se používá s tlačítkem pro detekci režimu ukládání k automatickému nastavení oblasti, kterou chcete uložit. Další podrobnosti najdete v části Rohový režim níže.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31217,7 +31217,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.7",
-        "source_string": "3D Export exports a 3D model file on supported platforms.  ##",
+        "source_string": "3D Export exports a 3D model file on supported platforms.",
         "translation": "Režim 3D Export slouží k exportu souboru 3D modelu na podporovaných platformách.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31297,7 +31297,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.12",
-        "source_string": "Integrity - the percentage of blocks to load in from the structure, accepted values are 0 to 100. Blocks will be chosen randomly if a Seed is not specified. ##",
+        "source_string": "Integrity - the percentage of blocks to load in from the structure, accepted values are 0 to 100. Blocks will be chosen randomly if a Seed is not specified.",
         "translation": "Integrita představuje procento bloků k načtení ze struktury, přijatelné hodnoty jsou 0 až 100. Pokud není zadána počáteční hodnota, budou bloky vybrány náhodně.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31305,7 +31305,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.13",
-        "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly. ##",
+        "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly.",
         "translation": "Počáteční hodnota určuje, které bloky se mají odebrat při použití integrity. Pokud chcete, aby byly bloky vybrány náhodně, nechte toto pole prázdné.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31329,7 +31329,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.15",
-        "source_string": "Example: loading an empty shipwreck into the bottom of the ocean will normally copy air over the water blocks. If the shipwreck was filled with structure void, then the water will stay, and you will have a shipwreck filled with water.  ##",
+        "source_string": "Example: loading an empty shipwreck into the bottom of the ocean will normally copy air over the water blocks. If the shipwreck was filled with structure void, then the water will stay, and you will have a shipwreck filled with water.",
         "translation": "Příklad: Načtením prázdného vraku lodi na dno oceánu byste normálně přepsali bloky vody vzduchem. Pokud bude vrak lodi vyplněn prázdnými strukturálními bloky, voda zůstane na místě a vrak lodi bude vyplněn vodou.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31345,7 +31345,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.16",
-        "source_string": "To automatically select the area you want to save, you can place Corner Mode blocks around your structure and name them with the same name as the structure you want to save.  ##",
+        "source_string": "To automatically select the area you want to save, you can place Corner Mode blocks around your structure and name them with the same name as the structure you want to save.",
         "translation": "Chcete-li automaticky vybrat oblast pro uložení, můžete kolem své stavby umístit bloky rohového režimu a pojmenovat je stejně jako stavbu, kterou chcete uložit.",
         "context": null,
         "labels": "unassigned, lang",
@@ -31353,7 +31353,7 @@
     },
     {
         "identifier": "howtoplay.structureBlocks.text.17",
-        "source_string": "Pressing the Detect button in Save mode will find all of the Corner Blocks with the same name and create a selection area so that it will save everything inside of the volume those Corner Blocks make. ##",
+        "source_string": "Pressing the Detect button in Save mode will find all of the Corner Blocks with the same name and create a selection area so that it will save everything inside of the volume those Corner Blocks make.",
         "translation": "Stisknutím tlačítka Detekovat v režimu ukládání vyhledáte všechny rohové bloky se stejným názvem a vytvoříte oblast výběru, která slouží k uložení všeho v prostoru ohraničeného těmito rohovými bloky.",
         "context": null,
         "labels": "unassigned, lang",
@@ -47897,7 +47897,7 @@
     },
     {
         "identifier": "options.csbInfoLine01",
-        "source_string": "Catalog of 150+ Marketplace packs and items ### {MaxLength=\"100\"}",
+        "source_string": "Catalog of 150+ Marketplace packs and items",
         "translation": "Katalog s více než 150 sadami a předměty z Tržiště Marketplace ",
         "context": null,
         "labels": "unassigned, lang",
@@ -48201,9 +48201,9 @@
     },
     {
         "identifier": "options.dev_storeOfferQueryRequiresXbl",
-        "source_string": "Require XBL for Store Offers##disable_3rd_party_console_resource_pack_check",
+        "source_string": "Require XBL for Store Offers",
         "translation": "Požadovat XBL pro nabídky obchodu",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -48593,9 +48593,9 @@
     },
     {
         "identifier": "options.dev_enableDebugHudOverlay.cachestorageusage",
-        "source_string": "LRU Cache Usage ### refers to how cache (small high speed storage) is managed by the least recently used (LRU) algorithm.{MaxLength=39}",
+        "source_string": "LRU Cache Usage",
         "translation": "Využití mezipaměti LRU ",
-        "context": null,
+        "context": "refers to how cache (small high speed storage) is managed by the least recently used (LRU) algorithm.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -52793,7 +52793,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.button.addMarketplacePass",
-        "source_string": "Add Marketplace Pass ### {MaxLength=\"80\"} {StrContains=\"Marketplace Pass\"}",
+        "source_string": "Add Marketplace Pass",
         "translation": "Přidat předplatné Marketplace Pass ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52801,7 +52801,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.addRealmsServer.button",
-        "source_string": "Add a Realm ### {MaxLength=\"80\"} {StrContains=\"Realm\"}",
+        "source_string": "Add a Realm",
         "translation": "Přidat Realm ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52809,7 +52809,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.addRealmsServer.Body",
-        "source_string": "Your own server, always online ### {MaxLength=\"80\"}",
+        "source_string": "Your own server, always online",
         "translation": "Váš vlastní server, vždy online ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52841,7 +52841,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.additionalSubscriptions",
-        "source_string": "Additional Subscriptions ### {MaxLength=\"80\"}",
+        "source_string": "Additional Subscriptions",
         "translation": "Další předplatná ",
         "context": null,
         "labels": "unassigned, lang",
@@ -52929,7 +52929,7 @@
     },
     {
         "identifier": "options.viewSubscriptions.realmsServer",
-        "source_string": "Realms Server ### {MaxLength=\"80\"} {StrContains=\"Realms\"}",
+        "source_string": "Realms Server",
         "translation": "Server služby Realms ",
         "context": null,
         "labels": "unassigned, lang",
@@ -53785,9 +53785,9 @@
     },
     {
         "identifier": "options.managePrivacy",
-        "source_string": "To manage privacy settings, please visit https://account.xbox.com/Settings in any web browser.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "To manage privacy settings, please visit https://account.xbox.com/Settings in any web browser.",
         "translation": "Nastavení soukromí můžete spravovat na adrese https://account.xbox.com/Settings v libovolném prohlížeči.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -55897,25 +55897,25 @@
     },
     {
         "identifier": "permissions.CloudSave",
-        "source_string": "You cannot save your worlds to your Xbox profile because of how your account is set up. This can be changed in your privacy & online safety settings on Xbox.com.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot save your worlds to your Xbox profile because of how your account is set up. This can be changed in your privacy & online safety settings on Xbox.com.",
         "translation": "Nemůžete ukládat světy ve svém profilu Xbox kvůli způsobu nastavení vašeho účtu. Lze to změnit v nastaveních ochrany osobních údajů a bezpečnosti online na webu Xbox.com.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "permissions.MultiplayerSessionsOnConsole",
-        "source_string": "You cannot play on Realms because of how your Microsoft account is set up. Please ensure your online safety settings allow Multiplayer and you have an active Xbox Live Gold subscription. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play on Realms because of how your Microsoft account is set up. Please ensure your online safety settings allow Multiplayer and you have an active Xbox Live Gold subscription. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.",
         "translation": "Nemůžete hrát v Realms kvůli způsobu nastavení vašeho účtu Microsoft. Prosím, zkontrolujte, zda vaše nastavení online bezpečnosti povoluje hru pro více hráčů a zda máte aktivní předplatné Xbox Live Gold. Pokyny pro změnu těchto nastavení naleznete na stránce aka.ms/MCMultiplayerHelp.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "permissions.MultiplayerSessionsOnConsoleGamecore",
-        "source_string": "You cannot play on Realms because of how your Microsoft account is set up.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "You cannot play on Realms because of how your Microsoft account is set up.",
         "translation": "Nemůžete hrát v Realms kvůli způsobu nastavení vašeho účtu Microsoft.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -62057,9 +62057,9 @@
     },
     {
         "identifier": "raycasting.purchase.error",
-        "source_string": "We have detected that your device does not meet the system requirements to run this pack so you are unable to download this pack. You can review the minimum system requirements below: %s+ GPU: Hardware ray tracing capable GPU such as NVIDIA GeForce RTX 2060 or better. See our FAQ on minecraft.net for more details. %s+ RAM: 8GB or better %s+ CPU: Intel Core i5 or equivalent ##the %s will be turned into linebreaks. Don't reorder.",
+        "source_string": "We have detected that your device does not meet the system requirements to run this pack so you are unable to download this pack. You can review the minimum system requirements below: %s+ GPU: Hardware ray tracing capable GPU such as NVIDIA GeForce RTX 2060 or better. See our FAQ on minecraft.net for more details. %s+ RAM: 8GB or better %s+ CPU: Intel Core i5 or equivalent",
         "translation": "Zjistili jsme, že vaše zařízení nesplňuje systémové požadavky pro spuštění tohoto balíčku. Proto ho nelze stáhnout. Níže jsou uvedeny minimální systémové požadavky: %s+ Grafický procesor: grafický hardware podporující technologii sledování paprsku (např. NVIDIA GeForce RTX 2060 nebo lepší). Další informace najdete v častých dotazech na stránkách minecraft.net. %s+ Operační paměť: 8 GB nebo více. %s+ Procesor: Intel Core i5 nebo ekvivalentní.",
-        "context": null,
+        "context": "the %s will be turned into linebreaks. Don't reorder.",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -64665,7 +64665,7 @@
     },
     {
         "identifier": "store.realmsPlus.buyNow",
-        "source_string": "SUBSCRIBE NOW ## Maximum 13 characters",
+        "source_string": "SUBSCRIBE NOW",
         "translation": "PŘEDPLATIT",
         "context": null,
         "labels": "unassigned, lang",
@@ -64689,7 +64689,7 @@
     },
     {
         "identifier": "store.realmsPlus.buyNowTrialPerMonth",
-        "source_string": "Start Trial ## Maximum 25 characters",
+        "source_string": "Start Trial",
         "translation": "Zahájit zkušební období",
         "context": null,
         "labels": "unassigned, lang",
@@ -65105,9 +65105,9 @@
     },
     {
         "identifier": "store.realmsPlus.faq.answer4",
-        "source_string": "Realms Plus is currently available on any platform where you can install Minecraft Bedrock Edition. You can play Realms and use any content from Realms Plus on any of these devices if you’re signed into your Microsoft account.##disable_3rd_party_console_resource_pack_check",
+        "source_string": "Realms Plus is currently available on any platform where you can install Minecraft Bedrock Edition. You can play Realms and use any content from Realms Plus on any of these devices if you’re signed into your Microsoft account.",
         "translation": "Služba Realms Plus je v současné době k dispozici na všech platformách, na kterých je možné nainstalovat Minecraft Bedrock Edition. Pokud jste přihlášeni ke svému účtu Microsoft, můžete na každém z těchto zařízení hrát v Realms a používat libovolný obsah z Realms Plus.",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -65449,7 +65449,7 @@
     },
     {
         "identifier": "store.csb.buyNow",
-        "source_string": "SUBSCRIBE NOW ## Maximum 13 characters",
+        "source_string": "SUBSCRIBE NOW",
         "translation": "PŘEDPLATIT",
         "context": null,
         "labels": "unassigned, lang",
@@ -65473,7 +65473,7 @@
     },
     {
         "identifier": "store.csb.buyNowTrialPerMonth",
-        "source_string": "Start Trial ## Maximum 25 characters",
+        "source_string": "Start Trial",
         "translation": "Zahájit zkušební období",
         "context": null,
         "labels": "unassigned, lang",
@@ -65545,9 +65545,9 @@
     },
     {
         "identifier": "store.csb.terms",
-        "source_string": "Marketplace Pass is a subscription for content to be used with supported versions of Minecraft (game sold separately) on Windows and other supported platforms on which you own the game (Minecraft Java & Amazon Kindle Fire Editions not supported); an active subscription is required to use Marketplace Pass content. Content varies over time and may not be available in all countries. After the free trial period, subscription continues to be charged at the then-current regular price (subject to change) plus applicable taxes unless cancelled. You can cancel your subscription by accessing Services & subscriptions in your Microsoft account. If your subscription terminates or a content item is removed from the catalog, you must reactivate your subscription or buy the content separately to continue using it. ISP fees may apply. We may occasionally provide content that remains available to you even after the end of your subscription, in which case we reserve the right to take down such content if it becomes incompatible or if our rights to the content expire. Subscription subject to change and/or retirement. Subject to the Microsoft Services Agreement (www.microsoft.com/msa) and the Minecraft EULA (https://www.minecraft.net/eula). Any translations of these terms are done for your convenience only, and in the event of a dispute between the English and any non-English versions, the English version of these terms shall govern. ### {StrContains=\"Marketplace Pass\"}, CertRequirement: [Amazon Kindle Fire Edition]",
+        "source_string": "Marketplace Pass is a subscription for content to be used with supported versions of Minecraft (game sold separately) on Windows and other supported platforms on which you own the game (Minecraft Java & Amazon Kindle Fire Editions not supported); an active subscription is required to use Marketplace Pass content. Content varies over time and may not be available in all countries. After the free trial period, subscription continues to be charged at the then-current regular price (subject to change) plus applicable taxes unless cancelled. You can cancel your subscription by accessing Services & subscriptions in your Microsoft account. If your subscription terminates or a content item is removed from the catalog, you must reactivate your subscription or buy the content separately to continue using it. ISP fees may apply. We may occasionally provide content that remains available to you even after the end of your subscription, in which case we reserve the right to take down such content if it becomes incompatible or if our rights to the content expire. Subscription subject to change and/or retirement. Subject to the Microsoft Services Agreement (www.microsoft.com/msa) and the Minecraft EULA (https://www.minecraft.net/eula). Any translations of these terms are done for your convenience only, and in the event of a dispute between the English and any non-English versions, the English version of these terms shall govern.",
         "translation": "Marketplace Pass je předplatné obsahu, který lze používat s podporovanými verzemi Minecraftu (hra se prodává samostatně) na Windows a dalších podporovaných platformách, na kterých hru vlastníte (Minecraft Java a Amazon Kindle Fire Edice nejsou podporovány); pro používání obsahu Marketplace Pass je nutné aktivní předplatné. Obsah se v průběhu času může měnit a nemusí být dostupný ve všech zemích. Po skončení bezplatného zkušebního období je předplatné nadále obnovováno za aktuální běžnou cenu (může se změnit) a příslušné poplatky, dokud jej nezrušíte. Předplatné můžete zrušit v účtu Microsoft v záložce Služby a předplatné. Pokud vaše předplatné skončí nebo je položka obsahu odstraněna z katalogu, musíte předplatné znovu aktivovat nebo si obsah zakoupit samostatně, abyste jej mohli nadále používat. Mohou být účtovány poplatky poskytovatele internetových služeb. Příležitostně můžeme poskytovat obsah, který vám zůstane k dispozici i po skončení vašeho předplatného; v takovém případě si vyhrazujeme právo takový obsah stáhnout, pokud se stane nekompatibilním nebo pokud naše práva na obsah vyprší. Předplatné může být změněno, nebo ukončeno. Podléhá smlouvě o poskytování služeb společnosti Microsoft (www.microsoft.com/msa) a smlouvě Minecraft EULA (https://www.minecraft.net/eula). Jakékoli překlady těchto podmínek slouží pouze pro vaše pohodlí a v případě sporu mezi anglickou a neanglickou verzí platí anglická verze těchto podmínek. ",
-        "context": null,
+        "context": "CertRequirement: [Amazon Kindle Fire Edition]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -81489,9 +81489,9 @@
     },
     {
         "identifier": "survey.line5",
-        "source_string": "I thought I needed a Xbox console##disable_3rd_party_console_resource_pack_check",
+        "source_string": "I thought I needed a Xbox console",
         "translation": "Myslel(a) jsem, že potřebuji konzoli Xbox",
-        "context": null,
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -84249,9 +84249,9 @@
     },
     {
         "identifier": "dr.header.categoryFeaturedList",
-        "source_string": "%s Featured  ## %s is the category name (ie. Style or Body)",
+        "source_string": "%s Featured",
         "translation": "Vybrané %s",
-        "context": null,
+        "context": "%s is the category name (ie. Style or Body)",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86113,9 +86113,9 @@
     },
     {
         "identifier": "gameTest.error.structureNotSpawned",
-        "source_string": "Failed to spawn test structure with path '%s' ## %s is the file path of the structure",
+        "source_string": "Failed to spawn test structure with path '%s'",
         "translation": "Nepodařilo se vytvořit testovací stavbu s cestou „%s“.",
-        "context": null,
+        "context": "%s is the file path of the structure",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86129,9 +86129,9 @@
     },
     {
         "identifier": "gameTest.error.flakyFailedShowSuccesses",
-        "source_string": ", successes: %s (%s required)           ## This appears right after gameTest.error.flakyFailed if multiple successes are required",
+        "source_string": ", successes: %s (%s required)",
         "translation": ", úspěchy: %s (vyžadováno %s)",
-        "context": null,
+        "context": "This appears right after gameTest.error.flakyFailed if multiple successes are required",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86481,17 +86481,17 @@
     },
     {
         "identifier": "gameTest.success.flakyPassedEnough",
-        "source_string": "%s passed %s times of %s attempts.           ## this is used when a test has passed a sufficient number of times",
+        "source_string": "%s passed %s times of %s attempts.",
         "translation": "Test %s byl úspěšný %skrát z %s pokusů.",
-        "context": null,
+        "context": "this is used when a test has passed a sufficient number of times",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "gameTest.success.flakyPassed",
-        "source_string": "Flaky Test %s succeeded, attempt: %s successes: %s.## this one is used when a test has passed, but not yet reached the required number of times to succeed",
+        "source_string": "Flaky Test %s succeeded, attempt: %s successes: %s.",
         "translation": "Test s vločkami %s byl úspěšný, pokusů: %s úspěchů: %s.",
-        "context": null,
+        "context": "this one is used when a test has passed, but not yet reached the required number of times to succeed",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86513,9 +86513,9 @@
     },
     {
         "identifier": "gameTest.report.tickCount",
-        "source_string": "Tick: %s                                              ## This appears right below the gameTest.report.testLocation line",
+        "source_string": "Tick: %s",
         "translation": "Tiknutí: %s                                              ",
-        "context": null,
+        "context": "This appears right below the gameTest.report.testLocation line",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86553,9 +86553,9 @@
     },
     {
         "identifier": "gameTest.report.bookTitle",
-        "source_string": "Game Test Report                                      ## A book with this title is placed next to each test with the test results inside",
+        "source_string": "Game Test Report",
         "translation": "Zpráva o testování hry",
-        "context": null,
+        "context": "A book with this title is placed next to each test with the test results inside",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86649,9 +86649,9 @@
     },
     {
         "identifier": "script.success.profilerStopped",
-        "source_string": "Profiler stopped. Profile saved to '%s'          ## Full path to profile file",
+        "source_string": "Profiler stopped. Profile saved to '%s'",
         "translation": "Profilovač zastaven. Profil uložen do ‚%s‘          ",
-        "context": null,
+        "context": "Full path to profile file",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86673,9 +86673,9 @@
     },
     {
         "identifier": "script.success.diagnosticsCaptureStopped",
-        "source_string": "Diagnostics capture stopped - saved to '%s'        ## Full path to diagnostics capture file",
+        "source_string": "Diagnostics capture stopped - saved to '%s'",
         "translation": "Záznam diagnostiky zastaven - uložen do ‚%s‘        ",
-        "context": null,
+        "context": "Full path to diagnostics capture file",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86737,9 +86737,9 @@
     },
     {
         "identifier": "world_recovery.description",
-        "source_string": "Click the button below to open a file picker you can use to locate and select your 'minecraftWorlds' folder.%1%1Look inside the 'games/com.mojang' folders, starting from the root of your device or SD card.%1%1Once selected, we will copy your worlds to the new external storage location.%1%1You must have enough space available on your device to hold copies of your worlds.   ## %1 is line breaks",
+        "source_string": "Click the button below to open a file picker you can use to locate and select your 'minecraftWorlds' folder.%1%1Look inside the 'games/com.mojang' folders, starting from the root of your device or SD card.%1%1Once selected, we will copy your worlds to the new external storage location.%1%1You must have enough space available on your device to hold copies of your worlds.",
         "translation": "Kliknutím na tlačítko níže otevřete nástroj pro výběr souborů, který vám pomůže najít a vybrat složku „minecraftWorlds“.%1%1Podívejte se do složek „games/com.mojang“, začněte kořenovým adresářem zařízení nebo karty SD.%1%1Po výběru zkopírujeme vaše světy do nového umístění v externím úložišti.%1%1V zařízení musíte mít dostatek místa na uložení kopií vašich světů.",
-        "context": null,
+        "context": "%1 is line breaks",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -86809,9 +86809,9 @@
     },
     {
         "identifier": "world_recovery.progress",
-        "source_string": "Recovering %2 files (%3).%1%1Progress: %4%% complete%1Files copied: %5 / %2  ## %1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count",
+        "source_string": "Recovering %2 files (%3).%1%1Progress: %4%% complete%1Files copied: %5 / %2",
         "translation": "Obnovení %2 souborů (%3).%1%1Průběh: %4%% dokončeno%1Zkopírováno souborů: %5/%2",
-        "context": null,
+        "context": "%1 is line breaks, %2 is file count, %3 is total size, %4 is percent complete, %5 is current file count",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -87385,137 +87385,137 @@
     },
     {
         "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
-        "source_string": "A behaviour pack is activated   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "A behaviour pack is activated",
         "translation": "A behaviour pack is activated   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
-        "source_string": "Cheats are enabled   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "Cheats are enabled",
         "translation": "Cheats are enabled   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.closeButton",
-        "source_string": "Close  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Close",
         "translation": "Close  ",
-        "context": null,
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButton",
-        "source_string": "Create anyway  ###Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Create anyway",
         "translation": "Create anyway  ",
-        "context": null,
+        "context": "Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
-        "source_string": "Continue anyway  ###Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Continue anyway",
         "translation": "Continue anyway  ",
-        "context": null,
+        "context": "Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.creativeMode",
-        "source_string": "The world is created in creative mode   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is created in creative mode",
         "translation": "The world is created in creative mode   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.experiments",
-        "source_string": "Beta features are turned on   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "Beta features are turned on",
         "translation": "Beta features are turned on   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph",
-        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
         "translation": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
-        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason {MaxLength=300}",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
         "translation": "Creating a world using the following feature will mean you won't be able to earn achievements in that world. Even if you turn this option off later, you'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
-        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=300}",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
         "translation": "The way this world has been set up means that you won't be able to earn achievements while playing in it. Editing the world's settings now can't change this. You'll need to visit a different world to earn achievements.   ",
-        "context": null,
+        "context": "First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements ",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.flatWorld",
-        "source_string": "The world is created as a flat world   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is created as a flat world",
         "translation": "The world is created as a flat world   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
-        "source_string": "Go back  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "Go back",
         "translation": "Go back  ",
-        "context": null,
+        "context": "Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.operator",
-        "source_string": "The world creator has Operator privileges   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world creator has Operator privileges",
         "translation": "The world creator has Operator privileges   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.secondParagraph",
-        "source_string": "Achievements can't be earned in this world if:   ###Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=150}",
+        "source_string": "Achievements can't be earned in this world if:",
         "translation": "Achievements can't be earned in this world if:   ",
-        "context": null,
+        "context": "Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.template",
-        "source_string": "The world is built from a template   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world is built from a template",
         "translation": "The world is built from a template   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.title",
-        "source_string": "You can’t earn achievements   ###Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}",
+        "source_string": "You can’t earn achievements",
         "translation": "You can't earn achievements   ",
-        "context": null,
+        "context": "Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements",
         "labels": "unassigned, lang",
         "max_length": null
     },
     {
         "identifier": "hbui.AchievementDisabledModal.trial",
-        "source_string": "The world creator is using the trial version of Minecraft   ###Reason world will have achievements permanently disabled {MaxLength=150}",
+        "source_string": "The world creator is using the trial version of Minecraft",
         "translation": "The world creator is using the trial version of Minecraft   ",
-        "context": null,
+        "context": "Reason world will have achievements permanently disabled",
         "labels": "unassigned, lang",
         "max_length": null
     },
