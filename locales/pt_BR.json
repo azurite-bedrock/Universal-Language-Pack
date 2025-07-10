@@ -8282,7 +8282,7 @@
     {
         "identifier": "commands.loot.description",
         "source_string": "Drops the given loot table into the specified inventory or into the world.",
-        "translation": "Solta a tabela de itens no inventário especificado ou no mundo.",
+        "translation": "Solta a tabela de saques dados no inventário específico ou no mundo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8290,7 +8290,7 @@
     {
         "identifier": "commands.loot.failure.invalidLootTable",
         "source_string": "Loot table '%1$s' not found",
-        "translation": "Tabela de itens '%1$s' não encontrada",
+        "translation": "Tabela de saques '%1$s' não encontrada",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8298,7 +8298,7 @@
     {
         "identifier": "commands.loot.failure.mainhandOffhandOnNonEntity",
         "source_string": "Mainhand or offhand should not be used on non entity object.",
-        "translation": "A mão principal e mão secundária não devem ser usadas em objetos que não sejam de entidade.",
+        "translation": "A mão principal e secundária não deve ser usada num objeto não-entidade.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8306,7 +8306,7 @@
     {
         "identifier": "commands.loot.failure.entityNoLootTable",
         "source_string": "Entity %1$s has no loot table",
-        "translation": "A entidade %1$s não tem uma tabela de itens",
+        "translation": "A entidade %1$s não há tabela de saques",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8314,7 +8314,7 @@
     {
         "identifier": "commands.loot.failure.noContainer",
         "source_string": "Target position %s is not a container",
-        "translation": "A posição de destino %s não é um contêiner",
+        "translation": "A posição do alvo %s não é um contêiner",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8322,7 +8322,7 @@
     {
         "identifier": "commands.loot.failure.invalidSlotIdForSlotType",
         "source_string": "Could not replace slot %s, slot must be between %d and %d for %s",
-        "translation": "Não foi possível substituir o slot %s, o slot deve estar entre %d e %d para %s",
+        "translation": "Incapaz de substituir o espaço %s, o espaço deve estar entre %d e %d para %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8338,7 +8338,7 @@
     {
         "identifier": "commands.loot.failure.countExceedsContainerSize",
         "source_string": "slotId + count exceeds slot container size %d",
-        "translation": "slotId + count excede o tamanho do contêiner de slot %d",
+        "translation": "slotId + count excede o tamanho do contêiner do espaço %d",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8346,7 +8346,7 @@
     {
         "identifier": "commands.loot.failure.negativeCount",
         "source_string": "count cannot be negative a negative number",
-        "translation": "count não pode ser um número negativo",
+        "translation": "count não pode ser negativo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8354,7 +8354,7 @@
     {
         "identifier": "commands.loot.success",
         "source_string": "%1$s items were dropped.",
-        "translation": "%1$s itens foram soltos.",
+        "translation": "Soltou %1$s itens.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8362,7 +8362,7 @@
     {
         "identifier": "commands.loot.replaceSuccess",
         "source_string": "Replaced %s %d of %s with %d item(s) over %d slot(s)",
-        "translation": "Substituição de %s %d de %s por %d item(ns) em %d slot(s)",
+        "translation": "Substituiu %s %d de %s por %d item(na) em %d espaço(s)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8370,7 +8370,7 @@
     {
         "identifier": "commands.loot.replaceSuccess.block",
         "source_string": "Replaced %s slot %d with %d item(s) over %d slot(s)",
-        "translation": "%d de espaço %s substituído por %d(s) sobre %d espaço(s)",
+        "translation": "Substituiu %s espaço %s com %d item(ns) em %d espaço(s)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8378,7 +8378,7 @@
     {
         "identifier": "commands.selector.error.moreThanOne",
         "source_string": "Only one entity is allowed, but the provided selector allows more than one",
-        "translation": "Apenas uma entidade é permitida, mas o seletor fornecido permite mais de uma",
+        "translation": "Só uma entidade é permitida, mas o seletor permite várias",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8386,7 +8386,7 @@
     {
         "identifier": "commands.tagsfromitem.description",
         "source_string": "Lists all tags associated with the given item.",
-        "translation": "Lista todas as tags associadas ao item fornecido.",
+        "translation": "Lista todos os rótulos associados ao item.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8394,7 +8394,7 @@
     {
         "identifier": "commands.tagsfromitem.success.single",
         "source_string": "There is %d tag on the item %s:",
-        "translation": "Há %d tag no item %s:",
+        "translation": "Há %d rótulo no item %s:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8402,7 +8402,7 @@
     {
         "identifier": "commands.tagsfromitem.success.multiple",
         "source_string": "There are %d tags on the item %s:",
-        "translation": "Há %d tags no item %s:",
+        "translation": "Há %d rótulos no item %s:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8418,7 +8418,7 @@
     {
         "identifier": "commands.tagsfromitem.fail.notagsfound",
         "source_string": "No tags found on the item: %s.",
-        "translation": "Não foram encontradas tags no item: %s.",
+        "translation": "Nenhum rótulo encontrado no item: %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8426,7 +8426,7 @@
     {
         "identifier": "commands.togglecontentlog.toggle",
         "source_string": "Enables/Disables the content log command",
-        "translation": "Ativa/Desativa o comando de registro de conteúdo",
+        "translation": "Ativa/desativa o comando de registro de conteúdo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8434,7 +8434,7 @@
     {
         "identifier": "commands.togglecontentlog.enabled",
         "source_string": "Content Log Enabled",
-        "translation": "Registo de Conteúdo Ativado",
+        "translation": "Registro de Conteúdo Ativado",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8458,7 +8458,7 @@
     {
         "identifier": "commands.message.display.incoming",
         "source_string": "%1$s whispers to you: %2$s",
-        "translation": "%1$s sussurrou para você: %2$s",
+        "translation": "%1$s sussurrou: %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8466,7 +8466,7 @@
     {
         "identifier": "commands.message.display.outgoing",
         "source_string": "You whisper to %1$s: %2$s",
-        "translation": "Você sussurrou para %1$s: %2$s",
+        "translation": "Você sussurrou: %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8474,7 +8474,7 @@
     {
         "identifier": "commands.message.sameTarget",
         "source_string": "You can't send a private message to yourself!",
-        "translation": "Você não pode enviar uma mensagem privada para si mesmo!",
+        "translation": "Impossível mandar uma mensagem privada para si mesmo!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8490,7 +8490,7 @@
     {
         "identifier": "commands.mobevent.eventsEnabledSetToTrue",
         "source_string": "Mob Events are now enabled. Individual events which are set to false will not run.",
-        "translation": "Os eventos de criaturas agora estão ativados. Os eventos individuais que estão configurados como falsos não serão executados.",
+        "translation": "Eventos de Criatura ativados. Eventos individuais definidos para falso não serão executados.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8498,7 +8498,7 @@
     {
         "identifier": "commands.mobevent.eventsEnabledSetToFalse",
         "source_string": "Mob Events are now disabled. Individual events will not run.",
-        "translation": "Os eventos de criaturas agora estão desativados. Os eventos individuais não serão executados.",
+        "translation": "Eventos de Criatura desativados. Eventos individuais não executarão.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8506,7 +8506,7 @@
     {
         "identifier": "commands.mobevent.eventsEnabledIsTrue",
         "source_string": "Mob Events are enabled. Individual events which are set to false will not run.",
-        "translation": "Os eventos de criaturas estão ativados. Os eventos individuais que estão configurados como falsos não serão executados.",
+        "translation": "Eventos de Criatura estão ativados. Eventos individuais definidos para falso não serão executados.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8514,7 +8514,7 @@
     {
         "identifier": "commands.mobevent.eventsEnabledIsFalse",
         "source_string": "Mob Events are disabled. Individual events will not run.",
-        "translation": "Os eventos de criaturas estão desativados. Os eventos individuais não serão executados.",
+        "translation": "Eventos de Criatura estão desativados. Eventos individuais não serão executados.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8522,7 +8522,7 @@
     {
         "identifier": "commands.mobevent.eventSetToTrue",
         "source_string": "Mob Event %s (id: %s) set to true.",
-        "translation": "Evento de criatura %s (id: %s) configurado como verdadeiro.",
+        "translation": "Evento de criatura %s (id: %s) definido para verdade.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8530,7 +8530,7 @@
     {
         "identifier": "commands.mobevent.eventSetToTrueButEventsDisabled",
         "source_string": "Mob Event %s (id: %s) set to true, but Mob Events are disabled.",
-        "translation": "Evento de criatura %s (id: %s) configurado como verdadeiro, mas os eventos de criaturas estão desativados.",
+        "translation": "Evento de criatura %s (id: %s) definido para verdade, mas Eventos de Criatura estão desativados.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8538,7 +8538,7 @@
     {
         "identifier": "commands.mobevent.eventSetToFalse",
         "source_string": "Mob Event %s (id: %s) set to false.",
-        "translation": "Evento de criatura %s (id: %s) configurado como falso.",
+        "translation": "Evento de criatura %s (id: %s) definido para falso.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8546,7 +8546,7 @@
     {
         "identifier": "commands.mobevent.eventIsTrue",
         "source_string": "Mob Event %s (id: %s) is set to true.",
-        "translation": "O evento de criatura %s (id: %s) está configurado como verdadeiro.",
+        "translation": "Evento de criatura %s (id: %s) está definido para verdade.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8554,7 +8554,7 @@
     {
         "identifier": "commands.mobevent.eventIsTrueButEventsDisabled",
         "source_string": "Mob Event %s (id: %s) is set to true, but Mob Events are disabled.",
-        "translation": "O evento de criatura %s (id: %s) está configurado como verdadeiro, mas os eventos de criaturas estão desativados.",
+        "translation": "Evento de Criatura %s (id: %s) definido para verdade, mas Eventos de Criatura estão desativados.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8562,7 +8562,7 @@
     {
         "identifier": "commands.mobevent.eventIsFalse",
         "source_string": "Mob Event %s (id: %s) is set to false.",
-        "translation": "O evento de criatura %s (id: %s) está configurado como falso.",
+        "translation": "Evento de Criatura %s (id: %s) definido para falso.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8570,7 +8570,7 @@
     {
         "identifier": "commands.music.description",
         "source_string": "Allows you to control playing music tracks.",
-        "translation": "Permite que você controle as faixas de música em reprodução.",
+        "translation": "Permite que você controle as faixas musicais reproduzidas.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8578,7 +8578,7 @@
     {
         "identifier": "commands.music.failure.emptyTrackName",
         "source_string": "You must provide a non-empty track name.",
-        "translation": "Você precisa fornecer um nome de faixa que não esteja vazio.",
+        "translation": "Requer um nome de faixa não vazio.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8586,7 +8586,7 @@
     {
         "identifier": "commands.music.success.queueAction",
         "source_string": "%s has been queued and it will start playing when the current track stops.",
-        "translation": "%s entrou na fila e começará a tocar quando a faixa atual parar.",
+        "translation": "%s foi posto em fila e será reproduzido quando a atual parar.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8594,7 +8594,7 @@
     {
         "identifier": "commands.music.success.playAction",
         "source_string": "%s has been queued to start playing.",
-        "translation": "%s está na fila para começar a tocar.",
+        "translation": "%s foi posto na fila para ser reproduzido.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8610,7 +8610,7 @@
     {
         "identifier": "commands.music.success.volumeAction",
         "source_string": "Music volume will be updated to %d.",
-        "translation": "O volume de música será alterado para %d.",
+        "translation": "O volume da música será atualizado para %d.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8618,7 +8618,7 @@
     {
         "identifier": "commands.op.description",
         "source_string": "Grants operator status to a player.",
-        "translation": "Atribui o status do operador a um jogador.",
+        "translation": "Atribui o status de operador a um jogador.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8626,7 +8626,7 @@
     {
         "identifier": "commands.op.failed",
         "source_string": "Could not op (already op or higher): %s",
-        "translation": "Não foi possível definir operador (já é operador ou acima): %s",
+        "translation": "Incapaz de dar operador (já faz parte ou é superior): %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8634,7 +8634,7 @@
     {
         "identifier": "commands.op.success",
         "source_string": "Opped: %s",
-        "translation": "Operador definido: %s",
+        "translation": "%s agora é operador",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8642,7 +8642,7 @@
     {
         "identifier": "commands.op.message",
         "source_string": "You have been opped",
-        "translation": "Você foi listado como operador",
+        "translation": "Você é operador",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8658,7 +8658,7 @@
     {
         "identifier": "commands.origin.commandblock",
         "source_string": "CommandBlock",
-        "translation": "CommandBlock",
+        "translation": "Bloco de Comando",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87098,7 +87098,7 @@
     {
         "identifier": "hbui.Accordion.narrationComponentType",
         "source_string": "Accordion",
-        "translation": "Acordeão",
+        "translation": "Lista Expansiva",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87122,7 +87122,7 @@
     {
         "identifier": "hbui.Accordion.stateCollapsed",
         "source_string": "Collapsed",
-        "translation": "Recolhido",
+        "translation": "Encolhido",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87146,7 +87146,7 @@
     {
         "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
         "source_string": "Ok",
-        "translation": "Ok",
+        "translation": "OK",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87154,7 +87154,7 @@
     {
         "identifier": "hbui.AccountUnlinkRoute.failBody",
         "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
-        "translation": "Não foi possível desvincular suas contas. Talvez tente verificar sua conexão com a Internet?",
+        "translation": "Incapaz de desvincular contas. Talvez confira sua conexão com a Internet?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87186,7 +87186,7 @@
     {
         "identifier": "hbui.AccountUnlinkRoute.successBody",
         "source_string": "Your accounts have been unlinked",
-        "translation": "Suas contas foram desvinculadas",
+        "translation": "Contas desvinculadas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87194,7 +87194,7 @@
     {
         "identifier": "hbui.AccountUnlinkRoute.successHeader",
         "source_string": "Unlink successful",
-        "translation": "Desvinculo bem-sucedido",
+        "translation": "Desvinculado com sucesso",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87226,7 +87226,7 @@
     {
         "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
         "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
-        "translation": "Se você entendeu o aviso acima e deseja desvincular sua conta, selecione o botão \"Desvincular\".",
+        "translation": "Caso tenha compreendido e deseja mesmo assim desvincular a conta, clique em \"Desvincular\".",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87234,7 +87234,7 @@
     {
         "identifier": "hbui.AchievementDetails.anotherPlatform",
         "source_string": "Completed on another platform",
-        "translation": "Bem-sucedido noutra plataforma",
+        "translation": "Concluído em outra plataforma",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87274,7 +87274,7 @@
     {
         "identifier": "hbui.AchievementDetailsRoute.errorMessage",
         "source_string": "Achievement couldn’t load. Please try again or check your internet connection.",
-        "translation": "Não foi possível carregar a conquista. Tente novamente ou verifique sua conexão com a Internet.",
+        "translation": "Incapaz de carregar a conquista. Tente novamente ou verifique a conexão com a Internet.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87530,7 +87530,7 @@
     {
         "identifier": "hbui.AchievementListItem.gamerscoreNarration",
         "source_string": "gamerscore %1$s",
-        "translation": "pontuação de %1$s",
+        "translation": "pontuação %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87562,7 +87562,7 @@
     {
         "identifier": "hbui.AchievementListItem.narrationCompleted",
         "source_string": "%1$s of %2$s, unlocked, %3$s gamerscore",
-        "translation": "%1$s de %2$s, desbloqueado, pontuação: %3$s",
+        "translation": "Desbloqueado %1$s de %2$s, pontuação: %3$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87570,7 +87570,7 @@
     {
         "identifier": "hbui.AchievementListItem.narrationLocked",
         "source_string": "%1$s of %2$s, locked, %3$s gamerscore",
-        "translation": "%1$s de %2$s, bloqueado, pontuação: %3$s",
+        "translation": "Bloqueado %1$s de %2$s, pontuação: %3$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
