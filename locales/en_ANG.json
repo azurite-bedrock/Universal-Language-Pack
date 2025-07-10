@@ -6168,6 +6168,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.testforblock.failed.tile",
+        "source_string": "The block at %1$d,%2$d,%3$d is %4$s (expected: %5$s).",
+        "translation": "The clot at %1$d,%2$d,%3$d is %4$s (abode: %5$s).",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.testforblocks.description",
         "source_string": "Tests whether the blocks in two regions match.",
         "translation": "Fands whether the clots in two erds match.",
@@ -28096,6 +28104,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.respawn_anchor.notValid",
+        "source_string": "Your respawn anchor was out of charges, missing or obstructed",
+        "translation": "Your edstart holder was upbrooked, missing or hindered",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.spruce_button.name",
         "source_string": "Spruce Button",
         "translation": "Harttartree Knap",
@@ -29176,9 +29192,25 @@
         "max_length": null
     },
     {
+        "identifier": "tile.structure_block.name",
+        "source_string": "Structure Block",
+        "translation": "Framework Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "structure_block.waterlog_block",
         "source_string": "Waterlog Blocks",
         "translation": "Adrench Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.structure_void.name",
+        "source_string": "Structure Void",
+        "translation": "Framework Roomth",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29416,6 +29448,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.cobblestone_wall.prismarine.name",
+        "source_string": "Prismarine Wall",
+        "translation": "Prismarine Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cobblestone_wall.red_sandstone.name",
+        "source_string": "Red Sandstone Wall",
+        "translation": "Red Sandstone Wough",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.cobblestone_wall.red_nether_brick.name",
         "source_string": "Red Nether Brick Wall",
         "translation": "Red Nether Tile Wough",
@@ -29435,6 +29483,22 @@
         "identifier": "tile.light_block.name",
         "source_string": "Light",
         "translation": "Light",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.repeating_command_block.name",
+        "source_string": "Repeating Command Block",
+        "translation": "Edledging Hest Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.chain_command_block.name",
+        "source_string": "Chain Command Block",
+        "translation": "Rackent Hest Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29651,6 +29715,14 @@
         "identifier": "tile.farmland.name",
         "source_string": "Farmland",
         "translation": "Cropland",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.fletching_table.name",
+        "source_string": "Fletching Table",
+        "translation": "Arrowmaking Bench",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30176,6 +30248,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.quartz_ore.name",
+        "source_string": "Nether Quartz Ore",
+        "translation": "Nether Hardstone Ore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.netherreactor.active",
         "source_string": "Active!",
         "translation": "Astirred!",
@@ -30272,6 +30352,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.copper_ore.name",
+        "source_string": "Copper Ore",
+        "translation": "Are Ore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.lapis_ore.name",
         "source_string": "Lapis Lazuli Ore",
         "translation": "Hewnstone Ore",
@@ -30291,6 +30379,22 @@
         "identifier": "tile.observer.name",
         "source_string": "Observer",
         "translation": "Beholder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.piston.name",
+        "source_string": "Piston",
+        "translation": "Sucker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.sticky_piston.name",
+        "source_string": "Sticky Piston",
+        "translation": "Sticky Sucker",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30400,6 +30504,46 @@
         "max_length": null
     },
     {
+        "identifier": "tile.quartz_block.chiseled.name",
+        "source_string": "Chiseled Quartz Block",
+        "translation": "Graven Hardstone Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.quartz_block.default.name",
+        "source_string": "Block of Quartz",
+        "translation": "Hardstone Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.quartz_block.lines.name",
+        "source_string": "Quartz Pillar",
+        "translation": "Hardstone Staple",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.quartz_block.smooth.name",
+        "source_string": "Smooth Quartz Block",
+        "translation": "Smooth Hardstone Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.quartz_block.name",
+        "source_string": "Block of Quartz",
+        "translation": "Hardstone Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.rail.name",
         "source_string": "Rail",
         "translation": "Ironroad",
@@ -30464,9 +30608,33 @@
         "max_length": null
     },
     {
+        "identifier": "tile.red_sandstone.smooth.name",
+        "source_string": "Smooth Red Sandstone",
+        "translation": "Smooth Red Sandstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.red_sandstone.cut.name",
+        "source_string": "Cut Red Sandstone",
+        "translation": "Snithed Red Sandstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.redstone_wire.name",
         "source_string": "Redstone Dust",
         "translation": "Redstone Dust",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.redstone_lamp.name",
+        "source_string": "Redstone Lamp",
+        "translation": "Redstone Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30579,6 +30747,14 @@
         "identifier": "tile.sapling.spruce.name",
         "source_string": "Spruce Sapling",
         "translation": "Harttartree Sprout",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.seaLantern.name",
+        "source_string": "Sea Lantern",
+        "translation": "Sea Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31320,6 +31496,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.stone_slab3.andesite.name",
+        "source_string": "Andesite Slab",
+        "translation": "Andestone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.stone_slab3.diorite.name",
         "source_string": "Diorite Slab",
         "translation": "Shedstone Halfclot",
@@ -31360,9 +31544,25 @@
         "max_length": null
     },
     {
+        "identifier": "tile.stone_slab4.smooth_quartz.name",
+        "source_string": "Smooth Quartz Slab",
+        "translation": "Smooth Hardstone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.stone_slab4.stone.name",
         "source_string": "Stone Slab",
         "translation": "Stone Halfclot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.stone_slab4.cut_sandstone.name",
+        "source_string": "Cut Sandstone Slab",
+        "translation": "Snithed Sandstone Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
