@@ -52,7 +52,7 @@ const manifest = {
         description: 'pack.description',
         uuid: '64eb694b-5e34-4627-861e-a2289fa70934',
         version: version,
-        min_engine_version: [1, 8, 0],
+        min_engine_version: [1, 13, 0],
     },
     modules: [
         {
