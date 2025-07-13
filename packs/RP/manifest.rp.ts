@@ -1,10 +1,6 @@
 // Function to get git tag version
 async function getGitVersion() {
     try {
-        // Try to get version from environment variable (useful in CI)
-        const envVersion = Deno.env.get('GIT_TAG') || Deno.env.get('GITHUB_REF_NAME');
-        if (envVersion) return parseVersion(envVersion);
-
         // Get the latest git tag
         const command = new Deno.Command('git', {
             args: ['describe', '--tags', '--match', '[0-9]*', '--abbrev=0'],
@@ -56,7 +52,7 @@ const manifest = {
         description: 'pack.description',
         uuid: '64eb694b-5e34-4627-861e-a2289fa70934',
         version: version,
-        min_engine_version: [1, 21, 0],
+        min_engine_version: [1, 8, 0],
     },
     modules: [
         {
