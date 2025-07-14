@@ -818,7 +818,7 @@
     {
         "identifier": "accessibility.screenName.joinCode",
         "source_string": "Join Code dialog",
-        "translation": "Fay Dern talk opener",
+        "translation": "Fay Rown talk opener",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1650,7 +1650,7 @@
     {
         "identifier": "accounts.signOut.fail.body.line2",
         "source_string": "Error code: %s",
-        "translation": "Dwale dern: %s",
+        "translation": "Dwale rown: %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4058,7 +4058,7 @@
     {
         "identifier": "codeScreen.title",
         "source_string": "Code Builder",
-        "translation": "Dern Builder",
+        "translation": "Rown Builder",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4178,7 +4178,7 @@
     {
         "identifier": "codeScreen.deprecatedIDE.title",
         "source_string": "Code Editor Changes",
-        "translation": "Dern Beworker Wends",
+        "translation": "Rown Beworker Wends",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5232,6 +5232,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.clone.filtered.error",
+        "source_string": "Filtered usage requires a filter block to be specified",
+        "translation": "Sieved brooking needs a sieve clot to be narrowed",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.clone.success",
         "source_string": "%1$d blocks cloned",
         "translation": "%1$d clots twinned",
@@ -5264,6 +5272,30 @@
         "max_length": null
     },
     {
+        "identifier": "commands.code.description",
+        "source_string": "Launches Code Builder.",
+        "translation": "Starts Rown Builder.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.code.success",
+        "source_string": "Launched Code Builder.",
+        "translation": "Started Rown Builder.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compare.failed",
+        "source_string": "Source and destination are not identical",
+        "translation": "From and goal are not the same",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.compare.success",
         "source_string": "%1$d blocks compared",
         "translation": "%1$d clots bemeted",
@@ -5275,6 +5307,62 @@
         "identifier": "commands.compare.tooManyBlocks",
         "source_string": "Too many blocks in the specified area (%1$d > %2$d)",
         "translation": "Too many clots in the narrowed stead (%1$d > %2$d)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compactdb.description",
+        "source_string": "Explicitly compacts the levelDB log.",
+        "translation": "Redely wear the levelDB daybook.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.compactdb.success",
+        "source_string": "Successfully compacted levelDB log.",
+        "translation": "Speedfully wore the levelDB daybook.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.description",
+        "source_string": "Apply damage to the specified entities.",
+        "translation": "Beseech harm to the narrowed ansens.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.specify.damage",
+        "source_string": "Please specify a valid damage value.",
+        "translation": "Kindly say a right harm worth.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.success",
+        "source_string": "Applied damage to %1$s",
+        "translation": "Besought harm to %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.damage.failed",
+        "source_string": "Could not apply damage to %1$s",
+        "translation": "Could not beseech harm to %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.debug.description",
+        "source_string": "Starts or stops a debugging session.",
+        "translation": "Starts or stops a unbugging besitting.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5376,9 +5464,73 @@
         "max_length": null
     },
     {
+        "identifier": "commands.entitydata.noPlayers",
+        "source_string": "%1$s is a player and cannot be changed",
+        "translation": "%1$s is a player and cannot be wended",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.entitydata.success",
         "source_string": "Entity data updated to: %1$s",
         "translation": "Ansen lore anwardened to: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.entitydata.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Lore token understanding trucked: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.event.description",
+        "source_string": "Triggers an event for the specified object(s)",
+        "translation": "Triggers a befalling for the narrowed thing(s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.event.error.empty",
+        "source_string": "Event name cannot be empty",
+        "translation": "Befalling name cannot be empty",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.event.error.failed",
+        "source_string": "%1$s could not be executed on: %2$s",
+        "translation": "%1$s could not be run on: %2$s",
+        "context": "1: Event Name, 2: List of failed entities for which the event could not be executed",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.event.success",
+        "source_string": "%1$s successfully executed on: %2$s",
+        "translation": "%1$s successfully run on: %2$s",
+        "context": "1: Event Name, 2: List of entities",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.trueCondition",
+        "source_string": "Test passed.",
+        "translation": "Fand byfared.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.trueConditionWithCount",
+        "source_string": "Test passed, count: %1$s.",
+        "translation": "Fand byfared, rime: %1$s.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5531,6 +5683,22 @@
         "identifier": "commands.generic.outOfWorld",
         "source_string": "Cannot access blocks outside of the world",
         "translation": "Cannot reach clots outside of the world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage",
+        "source_string": "Usage: %1$s",
+        "translation": "Brooking: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.usage.noparam",
+        "source_string": "Usage:",
+        "translation": "Brooking:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6802,7 +6970,7 @@
     {
         "identifier": "realmsInvitationScreen.fetchingCode",
         "source_string": "Fetching new invite code...",
-        "translation": "Fetching new lathe dern...",
+        "translation": "Fetching new lathe rown...",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7082,7 +7250,7 @@
     {
         "identifier": "networkWorld.realmsHashPlaceholder",
         "source_string": "Invite Code...",
-        "translation": "Lathing Dern...",
+        "translation": "Lathing Rown...",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7090,7 +7258,7 @@
     {
         "identifier": "networkWold.joinByCodeHelpText",
         "source_string": "If you have received a Realm Invite Link, enter the code to join.",
-        "translation": "If you have reaped a Realm Lathing Link, input the dern to fay.",
+        "translation": "If you have reaped a Realm Lathing Link, input the rown to fay.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9952,6 +10120,14 @@
         "max_length": null
     },
     {
+        "identifier": "entity.iron_golem.name",
+        "source_string": "Iron Golem",
+        "translation": "Iron Livenedman",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "entity.item.name",
         "source_string": "Item",
         "translation": "Thing",
@@ -10474,7 +10650,7 @@
     {
         "identifier": "gui.submitFeedback.failure.status.unprocessableEntity",
         "source_string": "You do not own this item you are trying to provide feedback for. (Error Code: %d)",
-        "translation": "You do not own this thing you are fanding to yeave feedback for. (Dwale Dern: %d)",
+        "translation": "You do not own this thing you are fanding to yeave feedback for. (Dwale Rown: %d)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12066,7 +12242,7 @@
     {
         "identifier": "howtoplay.codeBuilder",
         "source_string": "Code Builder",
-        "translation": "Dern Builder",
+        "translation": "Rown Builder",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12074,7 +12250,7 @@
     {
         "identifier": "howtoplay.codeBuilder.title",
         "source_string": "How to Play: Code Builder",
-        "translation": "How to Play: Dern Builder",
+        "translation": "How to Play: Rown Builder",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12696,9 +12872,25 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.fireworks.text.6.6",
+        "source_string": "§eStar Shaped§f - Adding a Gold Nugget will make a star pattern in the sky.",
+        "translation": "§eStar Shaped§f - Eking a Gold Lumpling will make a star shape in the welkin.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.food.text.2.touch",
         "source_string": "To eat a food, select it in your hotbar, then tap the screen and hold. Keep the §ehunger bar§f:shank: full to regain health when you take damage.",
         "translation": "To eat a food, choose it in your hotband, then tick the shirm and hold. Keep the §ehunger band§f:shank: full to edgain health when you nim harm.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.furnace.text.1",
+        "source_string": "A Furnace allows you to cook or smelt items. For example, you can smelt Iron Ore into Iron Ingots.",
+        "translation": "An Oven leaves you to cook or smelt things. Say, you can smelt Iron Ore into Iron Ingots.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12747,6 +12939,14 @@
         "identifier": "howtoplay.hoppers.text.2",
         "source_string": "Hoppers will continuously remove items out of a container placed above them and move them into the container they are pointing to.",
         "translation": "Hoppers will simble fornim things out of an inholder stowed above hem and shrithe hem into the inholder hie are ording to.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.hoppers.header.1",
+        "source_string": "Usage",
+        "translation": "Brooking",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13211,6 +13411,14 @@
         "identifier": "howtoplay.tools.text.1",
         "source_string": "There are many tools in Minecraft that will allow you mine blocks faster than your fist. Tools can be crafted from Wood, Stone, Iron, Gold, Diamond, or Netherite.",
         "translation": "There are many tools in Minecraft that will leave you delve clots faster than your fist. Tools can be crafted from Wood, Stone, Iron, Gold, Kingstone, or Netherite.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.tools.text.3",
+        "source_string": "The Pickaxe is good at breaking hard blocks like Cobblestone, Iron, or Furnaces.",
+        "translation": "The Pike is good at breaking hard clots like Cobblestone, Iron, or Ovens.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20120,6 +20328,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.golden_chestplate.name",
+        "source_string": "Golden Chestplate",
+        "translation": "Golden Breastbour",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.iron_chestplate.name",
         "source_string": "Iron Chestplate",
         "translation": "Iron Breastbour",
@@ -20840,6 +21056,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.gold_nugget.name",
+        "source_string": "Gold Nugget",
+        "translation": "Golden Lumpling",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.iron_nugget.name",
         "source_string": "Iron Nugget",
         "translation": "Iron Lumpling",
@@ -20904,6 +21128,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.golden_helmet.name",
+        "source_string": "Golden Helmet",
+        "translation": "Golden Helm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.iron_helmet.name",
         "source_string": "Iron Helmet",
         "translation": "Iron Helm",
@@ -20915,6 +21147,14 @@
         "identifier": "item.diamond_hoe.name",
         "source_string": "Diamond Hoe",
         "translation": "Kingstone Tiller",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_hoe.name",
+        "source_string": "Golden Hoe",
+        "translation": "Golden Tiller",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21035,6 +21275,14 @@
         "identifier": "item.diamond_leggings.name",
         "source_string": "Diamond Leggings",
         "translation": "Kingstone Hoses",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_leggings.name",
+        "source_string": "Golden Leggings",
+        "translation": "Golden Hoses",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21504,6 +21752,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.spawn_egg.entity.iron_golem.name",
+        "source_string": "Iron Golem Spawn Egg",
+        "translation": "Iron Livenedman Making Ey",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.spawn_egg.entity.horse.name",
         "source_string": "Horse Spawn Egg",
         "translation": "Horse Making Ey",
@@ -21576,6 +21832,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.golden_pickaxe.name",
+        "source_string": "Golden Pickaxe",
+        "translation": "Golden Pike",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.iron_pickaxe.name",
         "source_string": "Iron Pickaxe",
         "translation": "Iron Pike",
@@ -21603,6 +21867,14 @@
         "identifier": "item.diamond_shovel.name",
         "source_string": "Diamond Shovel",
         "translation": "Kingstone Shovel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_shovel.name",
+        "source_string": "Golden Shovel",
+        "translation": "Golden Shovel",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21691,6 +21963,14 @@
         "identifier": "item.diamond_sword.name",
         "source_string": "Diamond Sword",
         "translation": "Kingstone Sword",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.golden_sword.name",
+        "source_string": "Golden Sword",
+        "translation": "Golden Sword",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22730,7 +23010,7 @@
     {
         "identifier": "key.codeBuilder",
         "source_string": "Code Builder",
-        "translation": "Dern Builder",
+        "translation": "Rown Builder",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24098,7 +24378,7 @@
     {
         "identifier": "options.codeBuilder",
         "source_string": "Code Builder",
-        "translation": "Dern Builder",
+        "translation": "Rown Builder",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24256,6 +24536,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.dev_enableDebugHudOverlay.cachestorageusage",
+        "source_string": "LRU Cache Usage",
+        "translation": "LNB Dern Brooking",
+        "context": "refers to how cache (small high speed storage) is managed by the least recently used (LRU) algorithm.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_nethernet_logging_verbosity.error",
         "source_string": "Error",
         "translation": "Dwale",
@@ -24312,6 +24600,22 @@
         "max_length": null
     },
     {
+        "identifier": "options.discoveryEnvironment.production",
+        "source_string": "Production",
+        "translation": "Output",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.discoveryEnvironment.staging",
+        "source_string": "Staging",
+        "translation": "Readying",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.discoveryEnvironment.local",
         "source_string": "Local",
         "translation": "Neigh",
@@ -24320,9 +24624,73 @@
         "max_length": null
     },
     {
+        "identifier": "options.discoveryEnvironment.perf",
+        "source_string": "Perf [Very Unstable]",
+        "translation": "Speed [Feel Shaky]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realmsEnvironment",
+        "source_string": "Realms Environment",
+        "translation": "Realms Umbworld",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realms_environment.production",
+        "source_string": "Production",
+        "translation": "Output",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realms_environment.staging",
+        "source_string": "Staging",
+        "translation": "Readying",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_realms_environment.local",
         "source_string": "Local",
         "translation": "Neigh",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_overrideXboxEnvironmentWindows",
+        "source_string": "Override Xbox Sandbox (OS controlled on Windows)",
+        "translation": "Override Xbox Sandbox (WL steered on Windows)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_overrideXboxEnvironment",
+        "source_string": "Override Xbox Sandbox (requires restart)",
+        "translation": "Override Xbox Sandbox (needs edstart)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_xboxEnvironment",
+        "source_string": "Xbox Sandbox Environment (requires restart)",
+        "translation": "Xbox Sandbox Umbworld (needs edstart)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_xbox_environment.retail",
+        "source_string": "Retail",
+        "translation": "Middleman",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24496,9 +24864,65 @@
         "max_length": null
     },
     {
+        "identifier": "options.dev_identity_environment.prod",
+        "source_string": "Production",
+        "translation": "Output",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_education_environment.staging",
+        "source_string": "Staging",
+        "translation": "Readying",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_education_environment.preprod",
+        "source_string": "Pre-Production",
+        "translation": "Fore Output",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_education_environment.prod",
+        "source_string": "Production",
+        "translation": "Output",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_education_environment.local",
         "source_string": "Local",
         "translation": "Neigh",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_azure_notebooks_environment",
+        "source_string": "Azure Notebooks (AZNB) Environment (requires editor restart)",
+        "translation": "Azure Notebooks (AZNB) Umbworld (needs beworker edstart)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_azure_notebooks_environment.prod",
+        "source_string": "Production",
+        "translation": "Output",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_azure_notebooks_environment.staging",
+        "source_string": "Staging",
+        "translation": "Readying",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24562,7 +24986,7 @@
     {
         "identifier": "options.forceUnicodeFont",
         "source_string": "Force Unicode Font",
-        "translation": "Fordrive Unicode Staffkind",
+        "translation": "Thrutch Unicode Staffkind",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26688,6 +27112,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.smithing_table.text.9",
+        "source_string": "Only certain crystals and ingots can be used for Armor Trims. Try different kinds like Iron, Gold, or Lapis to create unique designs!",
+        "translation": "Only some imms and ingots can be brooked for Hirst Trims. Fand sunder kinds like Iron, Gold, or Hewnstone to make one of a kind layouts!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.birch_hanging_sign.name",
         "source_string": "Birch Hanging Sign",
         "translation": "Birch Hanging Token",
@@ -26944,6 +27376,14 @@
         "max_length": null
     },
     {
+        "identifier": "trim_material.gold.name",
+        "source_string": "Gold Material",
+        "translation": "Gold Anwork",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trim_material.iron.name",
         "source_string": "Iron Material",
         "translation": "Iron Anwork",
@@ -26971,6 +27411,22 @@
         "identifier": "review.item.post.rating.submit.button",
         "source_string": "Rate this pack",
         "translation": "Deem this pack",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "roaming.status_brief.limited_usage",
+        "source_string": "Limited usage",
+        "translation": "Fettered brooking",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "roaming.status_hover.limited_usage",
+        "source_string": "Only available on specific platforms.",
+        "translation": "Only forthcoming on narrowed hardwares.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33064,6 +33520,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.deepslate_gold_ore.name",
+        "source_string": "Deepslate Gold Ore",
+        "translation": "Deepstone Gold Ore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.deepslate_diamond_ore.name",
         "source_string": "Deepslate Diamond Ore",
         "translation": "Deepstone Kingstone Ore",
@@ -33731,6 +34195,14 @@
         "identifier": "tile.raw_iron_block.name",
         "source_string": "Block of Raw Iron",
         "translation": "Raw Iron Clot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.raw_gold_block.name",
+        "source_string": "Block of Raw Gold",
+        "translation": "Raw Gold Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35704,6 +36176,14 @@
         "max_length": null
     },
     {
+        "identifier": "midgameTips.1",
+        "source_string": "Iron golems will fight for you!",
+        "translation": "Iron livenedman will fight for you!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "midgameTips.2",
         "source_string": "Feed a bone to a wolf to tame it. You can then make it sit or follow you.",
         "translation": "Feed a bone to a wolf to tame it. You can then make it sit or follow you.",
@@ -35800,6 +36280,14 @@
         "max_length": null
     },
     {
+        "identifier": "midgameTips.17",
+        "source_string": "Wolves and iron golems won't attack creepers.",
+        "translation": "Wolves and iron livenedman won't strike creepers.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "midgameTips.18",
         "source_string": "Chickens lay an egg every 5 to 10 minutes.",
         "translation": "Chickens lay an ey every 5 to 10 stoundles.",
@@ -35843,6 +36331,14 @@
         "identifier": "midgameTips.24",
         "source_string": "Endermen hate bath time!",
         "translation": "Endermen hate bath time!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.25",
+        "source_string": "Sometimes iron golems give flowers to the villager children!",
+        "translation": "Sometimes iron livenedmen yeave blossoms to the thorpsman children!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -36155,6 +36651,14 @@
         "identifier": "lategameTips.25",
         "source_string": "You can breed hoglins with crimson fungus, but be careful.",
         "translation": "You can breed hoglins with fellred swamb, but be careful.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "lategameTips.26",
+        "source_string": "Gold is most common in the Nether and in the badlands biome.",
+        "translation": "Gold is most couth in the Nether and in the badlands lifeheap.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -36491,6 +36995,30 @@
         "identifier": "client.version.1.2",
         "source_string": "Better Together Update (%s)",
         "translation": "Better Together Anwardening (%s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.classic_skins.right_side.limited_usage",
+        "source_string": "Limited usage",
+        "translation": "Fettered brooking",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.classic_skins.right_side.limited_usage.tooltip",
+        "source_string": "This skin can be used here, but may not roam.",
+        "translation": "This hide can be brooked here, but may not roam.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.classic_skins.right_side.free_usage",
+        "source_string": "Usable everywhere",
+        "translation": "Brookenly everywhere",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
