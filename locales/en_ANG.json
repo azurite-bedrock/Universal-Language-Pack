@@ -282,7 +282,7 @@
     {
         "identifier": "accessibility.checkbox.tts.title",
         "source_string": "Checkbox",
-        "translation": "Tickset",
+        "translation": "Tickbox",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10176,6 +10176,14 @@
         "max_length": null
     },
     {
+        "identifier": "entity.pillager.name",
+        "source_string": "Pillager",
+        "translation": "Harrier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "entity.skeleton_horse.name",
         "source_string": "Skeleton Horse",
         "translation": "Boneframe Horse",
@@ -10219,6 +10227,14 @@
         "identifier": "feature.mansion",
         "source_string": "Woodland Mansion",
         "translation": "Woodland House",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feature.pillager_outpost",
+        "source_string": "Pillager Outpost",
+        "translation": "Harrier Outpost",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -20786,7 +20802,7 @@
     {
         "identifier": "item.fireworksCharge.customColor",
         "source_string": "Custom",
-        "translation": "Bespoken",
+        "translation": "Bespoke",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21883,6 +21899,14 @@
         "identifier": "item.spawn_egg.entity.zombie_pigman.name",
         "source_string": "Zombified Piglin Spawn Egg",
         "translation": "Undead Piglin Making Ey",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.pillager.name",
+        "source_string": "Pillager Spawn Egg",
+        "translation": "Harrier Making Ey",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -37168,6 +37192,14 @@
         "max_length": null
     },
     {
+        "identifier": "client.version.1.11",
+        "source_string": "Village & Pillage (%s)",
+        "translation": "Thorps & Thorns (%s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "dr.classic_skins.right_side.limited_usage",
         "source_string": "Limited usage",
         "translation": "Fettered brooking",
@@ -38186,7 +38218,7 @@
     {
         "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
         "source_string": "Ok",
-        "translation": "Bear",
+        "translation": "Alright",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38544,9 +38576,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.release.villageandpillage",
+        "source_string": "Village & Pillage, 2019",
+        "translation": "Thorps & Thorns, 2019",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.theend",
         "source_string": "The End",
         "translation": "The End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.villageandpillage",
+        "source_string": "Village & Pillage",
+        "translation": "Thorps & Thorns",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39354,7 +39402,7 @@
     {
         "identifier": "hbui.CreateNewWorld.resourcePacks.initializationTimeoutButton",
         "source_string": "Ok",
-        "translation": "Bear",
+        "translation": "Alright",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40802,7 +40850,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.role.custom",
         "source_string": "Custom",
-        "translation": "Bespoken",
+        "translation": "Bespoke",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40850,7 +40898,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.custom",
         "source_string": "Custom",
-        "translation": "Bespoken",
+        "translation": "Bespoke",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41698,7 +41746,7 @@
     {
         "identifier": "hbui.Realms.InviteExpiredModals.ok",
         "source_string": "Ok",
-        "translation": "Bear",
+        "translation": "Alright",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41866,7 +41914,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.checkRealmsPaymentServiceFailed.cancel",
         "source_string": "Ok",
-        "translation": "Bear",
+        "translation": "Alright",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41938,7 +41986,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.ok",
         "source_string": "Ok",
-        "translation": "Bear",
+        "translation": "Alright",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42019,6 +42067,22 @@
         "identifier": "hbui.RealmsStories.feedEvent.enumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.feedEvent.medium.FirstPillagerOutpostFound",
+        "source_string": "%1$s discovered a Pillager Outpost",
+        "translation": "%1$s found a Harrier Outpost",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.feedEvent.medium.PillagerCaptainDefeated",
+        "source_string": "%1$s defeated a Pillager Captain",
+        "translation": "%1$s overlaid a Harrier Outpost",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42738,7 +42802,7 @@
     {
         "identifier": "hbui.ScreenshotGalleryItem.narration.checkboxRole",
         "source_string": "Checkbox",
-        "translation": "Tickset",
+        "translation": "Tickbox",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -43074,7 +43138,7 @@
     {
         "identifier": "hbui.Timeline.month04",
         "source_string": "May",
-        "translation": "Thr",
+        "translation": "Thrimilk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -43626,7 +43690,7 @@
     {
         "identifier": "hbui.EditorCheckbox.elementType",
         "source_string": "Checkbox",
-        "translation": "Tickset",
+        "translation": "Tickbox",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44594,7 +44658,7 @@
     {
         "identifier": "hbui.Checkbox.elementType",
         "source_string": "Checkbox",
-        "translation": "Tickset",
+        "translation": "Tickbox",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
