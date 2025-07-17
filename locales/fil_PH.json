@@ -2338,7 +2338,7 @@
     {
         "identifier": "achievement.snipeSkeleton.desc",
         "source_string": "Kill a skeleton with an arrow from more than 50 meters",
-        "translation": "Pumatay ng kalansay gamit ang pana na 50 na metro ang layo",
+        "translation": "Pumatay ng iskeleton gamit ang pana na 50 na metro ang layo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23290,7 +23290,7 @@
     {
         "identifier": "entity.skeleton.name",
         "source_string": "Skeleton",
-        "translation": "Kalansay",
+        "translation": "Iskeleton",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23298,7 +23298,7 @@
     {
         "identifier": "entity.skeleton_horse.name",
         "source_string": "Skeleton Horse",
-        "translation": "Kabayong Kalansay",
+        "translation": "Kabayong Iskeleton",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23602,7 +23602,7 @@
     {
         "identifier": "entity.wither_skeleton.name",
         "source_string": "Wither Skeleton",
-        "translation": "Kalansay na Wither",
+        "translation": "Iskeletong Wither",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26266,7 +26266,7 @@
     {
         "identifier": "howtoplay.armor.text.2",
         "source_string": "Armor can be crafted from Leather, Iron, Gold, or Diamond. Chainmail Armor can be obtained through villager trading and loot from zombies and skeletons.",
-        "translation": "Mayayari ang Armadura sa Katad, Bakal, Ginto, o Diyamante. Makukuha ang Armadurang Kutamaya sa pagpapalit sa taganayon o mula loot ng zombie at kalansay.",
+        "translation": "Mayayari ang Armadura sa Katad, Bakal, Ginto, o Diyamante. Makukuha ang Armadurang Kutamaya sa pagpapalit sa taganayon o mula loot ng zombie at iskeleton.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30578,7 +30578,7 @@
     {
         "identifier": "howtoplay.nightfall.new.text.2",
         "source_string": "At night, the Overworld is home to zombies, spiders, skeletons, and other dangerous creatures we call §ehostile mobs§f.",
-        "translation": "Kapag gabi, ang Overworld ay tahanan ng zombie, gagamba, kalansay, at iba pang mapanganib na nilalang na tinatawag nating §emabangis na mob§f.",
+        "translation": "Kapag gabi, ang Overworld ay magiging tahanan ng zombie, gagamba, iskeleton, at iba pang mapanganib na nilalang na tinatawag nating §emabangis na mob§f.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87442,7 +87442,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph",
         "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
-        "translation": "Kung gagawa ka ng mundo habang may nakabukas na alinman sa sumusunod na features, ang ibig sabihin nito ay hindi ka magkakatagumpay sa mundong ito, kahit tanggalin mo pa ang mga opsiyong ito. Kailangan mong bumisita ng ibang mundo para magkakatagumpay ka.",
+        "translation": "Kung gagawa ka ng mundo habang may nakabukas na alinman sa sumusunod na features, ang ibig sabihin nito ay hindi ka makakakuha ng tagumpay sa mundong ito, kahit tanggalin mo pa ang mga opsiyong ito. Kailangan mo na bumisita ng ibang mundo para magkakatagumpay ka.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87450,7 +87450,23 @@
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
         "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
-        "translation": "Kung gagawa ka ng mundo habang may nakabukas na alinman sa sumusunod na features, ang ibig sabihin nito ay hindi ka magkakatagumpay sa mundong iyon, kahit tanggalin mo pa ang mga opsiyong ito. Kailangan mong bumisita ng ibang mundo para magkakatagumpay ka.",
+        "translation": "Kung gagawa ka ng mundo habang may nakabukas na alinman sa sumusunod na features, ang ibig sabihin nito ay hindi ka makakakuha ng tagumpay sa mundong iyon, kahit tanggalin mo pa ang mga opsiyong ito. Kailangan mo na bumisita ng ibang mundo para makakakuha ka ng tagumpay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "Dahil sa paraang naka-set up ang mundong ito ay ibig sabihing hindi ka makakakuha ng tagumpay habang naglalaro ka rito. Hindi na talaga ito mababago sa pag-eedit lang ng settings ng mundo. Kailangan mong bumisita ng ibang mundo para magkakatagumpay ka.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "Ang mundo ay ginawa bilang isang patag na mundo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87459,6 +87475,46 @@
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
         "source_string": "Go back",
         "translation": "Bumalik",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "Ang tagagawa ng mundo ay may OP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Hindi makukuha ang tagumpay sa mundong ito kung:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "Binuo ang mundong ito galing sa template",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Hindi ka makakakuha ng tagumpay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "Ang tagagawa ng mundo ay gumagamit ng trial version ng Minecraft",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87528,6 +87584,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementListItem.rewardLockedNarration",
+        "source_string": "Reward locked",
+        "translation": "Naka-lock ang premyo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardUnlockedNarration",
+        "source_string": "Reward unlocked",
+        "translation": "Naka-unlock ang premyo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.siblingNarration",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "Button, %1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.view",
+        "source_string": "View details",
+        "translation": "Tingnan ang Detalye",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.cheats",
+        "source_string": "Cheats are enabled",
+        "translation": "Nakabukas ang cheats",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementPermanentlyDisabledModal.close",
         "source_string": "Close",
         "translation": "Isara",
@@ -87536,9 +87632,81 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.creative",
+        "source_string": "The world is created in creative mode",
+        "translation": "Ginawa ang mundo sa creative mode",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.description",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "Dahil sa paraang naka-set up ang mundong ito ay ibig sabihing hindi ka makakakuha ng tagumpay habang nilalaro mo ito. Hindi na talaga ito mababago sa pag-eedit lang ng settings ng mundo. Kailangang gumawa ka ng bagong mundo par makakakuha ng tagumpay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "Nakabukas ang mga beta features",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.flat",
+        "source_string": "The world is created as a flatworld",
+        "translation": "Ang mundo ay ginawa bilang isang flatworld",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
         "source_string": "A behavior pack is activated",
         "translation": "May isang aktibadong behavior pack",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.permissions",
+        "source_string": "The world creator has operator privileges",
+        "translation": "Ang tagagawa ng mundo ay may OP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.reasonText",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Hindi makukuha ang tagumpay sa mundong ito kung:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "Binuo ang mundo ito galing sa template",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Hindi ka makakakuha ng tagumpay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "Ang tagagawa ng mundo ay gumagamit ng trial version ng Minecraft",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87584,6 +87752,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.aquatic",
+        "source_string": "Aquatic",
+        "translation": "Pantubig",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.buildinganddecorating",
+        "source_string": "Building & Decorating",
+        "translation": "Pagtatayo at Pagdedekorasyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.gettingstarted",
         "source_string": "Getting started",
         "translation": "Pagsisimula",
@@ -87611,6 +87795,78 @@
         "identifier": "hbui.Achievements.category.redstone",
         "source_string": "Redstone",
         "translation": "Redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2015",
+        "source_string": "2015",
+        "translation": "2015",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2016",
+        "source_string": "2016",
+        "translation": "2016",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.buzzybees",
+        "source_string": "Buzzy Bees, 2019",
+        "translation": "Buzzy Bees, 2019",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.cavesandcliffs",
+        "source_string": "Caves & Cliffs, 2021",
+        "translation": "Caves & Cliffs, 2021",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.enderupdate",
+        "source_string": "Ender Update, 2016",
+        "translation": "Ender Update, 2016",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.holidayupdate",
+        "source_string": "Holiday Update, 2018",
+        "translation": "Holiday Update, 2018",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.netherupdate",
+        "source_string": "Nether Update, 2020",
+        "translation": "Nether Update, 2020",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thediscoveryupdate",
+        "source_string": "The Discovery Update, 2017",
+        "translation": "The Discovery Update, 2017",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thegardenawakens",
+        "source_string": "The Garden Awakens, 2024",
+        "translation": "The Garden Awakens, 2024",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88043,6 +88299,22 @@
         "identifier": "hbui.ConfirmDisableAchievementsModal.goBackButton",
         "source_string": "Go back",
         "translation": "Bumalik",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.achievementsDisabledMessages.flatWorld",
+        "source_string": "Turn off flat world",
+        "translation": "Patayin ang patag na mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.expandHintNarration",
+        "source_string": "More options for flat world expanded below",
+        "translation": "Ang iba pang mga opsiyon para sa patag na mundo ay pinalawak sa ibaba",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
