@@ -2338,7 +2338,7 @@
     {
         "identifier": "achievement.snipeSkeleton.desc",
         "source_string": "Kill a skeleton with an arrow from more than 50 meters",
-        "translation": "Pumatay ng iskeleton gamit ang pana na 50 na metro ang layo",
+        "translation": "Pumatay ng iskeleton gamit ang pana nang malayo (50 metro)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30666,7 +30666,7 @@
     {
         "identifier": "howtoplay.pets.text.2",
         "source_string": "Wolves are a neutral mob that hunt in the colder climates. They will attack Rabbits, Skeletons, and Sheep but run away from Llamas. They won't attack you unless you provoke them. You can tame them by giving them Bones.",
-        "translation": "Ang lobo ay neutral mob na nangangaso sa malamig na klima. Umaatake sila sa Kuneho, Kalansay, at Tupa pero tinatakbuhan ang mga Lama. Hindi ka nila aatakihin kung hindi mo sila gagalitin. Mapapaamo sila sa pagbigay ng Buto.",
+        "translation": "Ang lobo ay neutral mob na nangangaso sa malamig na klima. Umaatake sila sa Kuneho, Iskeleton, at Tupa pero tinatakbuhan ang mga Lama. Hindi ka nila aatakihin kung hindi mo sila gagalitin. Mapapaamo sila sa pagbigay ng Buto.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41074,7 +41074,7 @@
     {
         "identifier": "item.spawn_egg.entity.skeleton_horse.name",
         "source_string": "Skeleton Horse Spawn Egg",
-        "translation": "Panlikhaang Itlog ng Kabayong Kalansay",
+        "translation": "Panlikhaang Itlog ng Kabayong Iskeleton",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41114,7 +41114,7 @@
     {
         "identifier": "item.spawn_egg.entity.skeleton.name",
         "source_string": "Skeleton Spawn Egg",
-        "translation": "Panlikhaang Itlog ng Kalansay",
+        "translation": "Panlikhaang Itlog ng Iskeleton",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41242,7 +41242,7 @@
     {
         "identifier": "item.spawn_egg.entity.wither_skeleton.name",
         "source_string": "Wither Skeleton Spawn Egg",
-        "translation": "Panlikhaang Itlog ng Kalansay na Wither",
+        "translation": "Panlikhaang Itlog ng Iskeletong Wither",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42026,7 +42026,7 @@
     {
         "identifier": "item.skull.skeleton.name",
         "source_string": "Skeleton Skull",
-        "translation": "Bungo ng Kalansay",
+        "translation": "Bungo ng Iskeleton",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42034,7 +42034,7 @@
     {
         "identifier": "item.skull.wither.name",
         "source_string": "Wither Skeleton Skull",
-        "translation": "Bungo ng Kalansay na Wither",
+        "translation": "Bungo ng Iskeletong Wither",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -81914,7 +81914,7 @@
     {
         "identifier": "midgameTips.9",
         "source_string": "Bonemeal (crafted from a skeleton bone) can be used as a fertilizer and can make things grow instantly!",
-        "translation": "Mapang-aabono ang giniling na buto (gawa sa buto ng kalansay) at magagamit para agarang magpalaki ng halaman!",
+        "translation": "Mapang-aabono ang giniling na buto (gawa sa buto ng iskeleton) at magagamit para agarang magpalaki ng halaman!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82194,7 +82194,7 @@
     {
         "identifier": "midgameTips.44",
         "source_string": "Taming a skeleton horse doesn't require a saddle.",
-        "translation": "Hindi kailangan ng siya ang pagpapaamo ng kabayong kalansay.",
+        "translation": "Hindi kailangan ng siya ang pagpapaamo ng kabayong iskeleton.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82474,7 +82474,7 @@
     {
         "identifier": "lategameTips.10",
         "source_string": "A Spider Jockey is the rare appearance of a spider being ridden by a skeleton!",
-        "translation": "Ang Hineteng Gagamba ay madalang na paglabas ng gagamba na sinasakyan ng kalansay!",
+        "translation": "Ang Hineteng Gagamba ay madalang na paglabas ng gagamba na sinasakyan ng iskeleton!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82514,7 +82514,7 @@
     {
         "identifier": "lategameTips.15",
         "source_string": "Monsters that are killed by skeletons arrows have a chance of dropping music discs.",
-        "translation": "May tiyansa ang halimaw na pinatay ng tunod ng kalansay na maglaglag ng plaka ng musika.",
+        "translation": "May tiyansa ang halimaw na pinatay ng tunod ng iskeleton na maglaglag ng plaka ng musika.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -82762,7 +82762,7 @@
     {
         "identifier": "tips.creative.11",
         "source_string": "Wolves will attack skeletons to chew on their tasty bones.",
-        "translation": "Aatake ang lobo ng kalansay para ngumuya ng malinamnam nilang buto.",
+        "translation": "Aatake ang lobo ng iskeleton para ngumuya ng malinamnam nilang buto.",
         "context": "Wolves will attack skeletons. It’s also a discrete hint that you should feel wolves with bones to tame them.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -87763,6 +87763,14 @@
         "identifier": "hbui.Achievements.category.buildinganddecorating",
         "source_string": "Building & Decorating",
         "translation": "Pagtatayo at Pagdedekorasyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.combat",
+        "source_string": "Combat",
+        "translation": "Kombat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
