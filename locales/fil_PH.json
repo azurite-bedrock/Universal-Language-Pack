@@ -87450,7 +87450,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
         "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
-        "translation": "Kung gagawa ka ng mundo habang may nakabukas na alinman sa sumusunod na features, ang ibig sabihin nito ay hindi ka makakukuha ng tagumpay sa mundong iyon, kahit tanggalin mo pa ang mga opsiyong ito. Kailangan mo na bumisita ng ibang mundo para makakukuha ka ng tagumpay.",
+        "translation": "Sa paggawa ng mundo habang may nakabukas na sumusunod na feature, hindi ka makakukuha ng tagumpay sa mundong iyon. Kahit patayin mo man ang opsiyong ito, kakailanganin mo pa ring bumisita ng ibang mundo para magkatagumpay ka.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87466,7 +87466,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.flatWorld",
         "source_string": "The world is created as a flat world",
-        "translation": "Ang mundo ay ginawa bilang isang patag na mundo",
+        "translation": "Ang mundo ay ginawa bilang patag na mundo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87610,7 +87610,7 @@
     {
         "identifier": "hbui.AchievementListItem.view",
         "source_string": "View details",
-        "translation": "Tingnan ang Detalye",
+        "translation": "Tingnan ang detalye",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87650,7 +87650,7 @@
     {
         "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
         "source_string": "Beta features are turned on",
-        "translation": "Nakabukas ang mga beta features",
+        "translation": "Nakabukas ang mga beta feature",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87666,7 +87666,7 @@
     {
         "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
         "source_string": "A behavior pack is activated",
-        "translation": "May isang aktibadong behavior pack",
+        "translation": "May aktibadong behavior pack",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87776,6 +87776,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.culinaryexploits",
+        "source_string": "Culinary exploits",
+        "translation": "Katagumpayan sa pagluluto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.exploringyourworld",
+        "source_string": "Exploring your world",
+        "translation": "Pagtahak ng iyong mundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.farmingandhusbandry",
+        "source_string": "Farming & Husbandry",
+        "translation": "Pagsasaka at Paghahayop",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.feelslikemagic",
+        "source_string": "Feels like magic",
+        "translation": "Tila mahika",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gearup",
+        "source_string": "Gear up",
+        "translation": "Mag-armas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.gettingstarted",
         "source_string": "Getting started",
         "translation": "Pagsisimula",
@@ -87795,6 +87835,14 @@
         "identifier": "hbui.Achievements.category.nether",
         "source_string": "Nether",
         "translation": "Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.other",
+        "source_string": "Other",
+        "translation": "Iba pa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87880,9 +87928,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.release.thewildupdate",
+        "source_string": "The Wild Update, 2022",
+        "translation": "The Wild Update, 2022",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trailsandtales",
+        "source_string": "Trails & Tales, 2023",
+        "translation": "Trails & Tales, 2023",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trickytrials",
+        "source_string": "Tricky Trials, 2024",
+        "translation": "Tricky Trials, 2024",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.updateaquatic",
+        "source_string": "Update Aquatic, 2018",
+        "translation": "Update Aquatic, 2018",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.villageandpillage",
+        "source_string": "Village & Pillage, 2019",
+        "translation": "Village & Pillage, 2019",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.theend",
         "source_string": "The End",
         "translation": "Ang End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.villageandpillage",
+        "source_string": "Village & Pillage",
+        "translation": "Village & Pillage",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.zoology",
+        "source_string": "Zoology",
+        "translation": "Zoolohiya",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87896,9 +88000,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.completedEmptyText",
+        "source_string": "Complete achievements to admire them here.",
+        "translation": "Magkompleto ng tagumpay para pagmalasan dito.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyTitle",
+        "source_string": "Nothing to see here... yet!",
+        "translation": "Wala pang makikita rito... sa ngayon!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessage",
+        "source_string": "Please try again or check your internet connection.",
+        "translation": "Subukang muli o tingnan ang koneksiyon mo sa internet.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessageTitle",
+        "source_string": "Achievements couldn’t load.",
+        "translation": "Hindi mai-load ang tagumpay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.inProgress",
         "source_string": "In progress",
         "translation": "Isinasagawa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.loading",
+        "source_string": "Fetching achievements...",
+        "translation": "Kinukuha ang tagumpay...",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87912,9 +88056,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.lockedEmptyText",
+        "source_string": "You've completed all achievements.",
+        "translation": "Nakompleto mo na ang lahat ng tagumpay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyTitle",
+        "source_string": "Wow, you're amazing!",
+        "translation": "Wow, ang galing mo!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.narration.loadingMessage",
         "source_string": "Loading",
         "translation": "Inilo-load",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.selected",
+        "source_string": "selected",
+        "translation": "pinipili",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, tab %2$s ng %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.title",
+        "source_string": "Achievements screen",
+        "translation": "Screen ng tagumpay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessage",
+        "source_string": "You can only collect achievements in the release version of Minecraft.",
+        "translation": "Makakukuha ka lang ng tagumpay sa release version ng Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessageTitle",
+        "source_string": "Achievements are not available in Preview",
+        "translation": "Hindi available ang tagumpay sa Preview",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87936,6 +88136,38 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementsSummary.hoursPlayed",
+        "source_string": "%1$s hours",
+        "translation": "%1$s oras",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedAchievements",
+        "source_string": "completed %1$s of %2$s",
+        "translation": "nakompleto na ang %1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedRewards",
+        "source_string": "Rewards %1$s of %2$s",
+        "translation": "Premyo %1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorGamerscore",
+        "source_string": "Gamerscore %1$s of %2$s",
+        "translation": "Gamerscore %1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementsSummary.narratorIndex",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s ng %2$s",
@@ -87944,9 +88176,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementsSummary.narratorInProgress",
+        "source_string": "In progress %1$s",
+        "translation": "Pumoprogreso %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorPercentage",
+        "source_string": "%1$s percent progress",
+        "translation": "%1$s porsiyentong progreso",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorSummary",
+        "source_string": "Achievements summary",
+        "translation": "Buod ng tagumpay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTextBlock",
+        "source_string": "Text block",
+        "translation": "Bloke ng teksto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTimePlayed",
+        "source_string": "Time played %1$s hours",
+        "translation": "Oras na naglaro %1$s oras",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.percentage",
+        "source_string": "%1$s of %2$s completed",
+        "translation": "Kompleto na ang %1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementsSummary.progress",
         "source_string": "In progress",
-        "translation": "Isinasagawa",
+        "translation": "Pumoprogreso",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.rewards",
+        "source_string": "Rewards",
+        "translation": "Premyo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87960,9 +88248,185 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AddFriendAccordion.backToTop",
+        "source_string": "Back to top",
+        "translation": "Balik sa itaas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.followers",
+        "source_string": "Followers",
+        "translation": "Follower",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.gamertagSearch",
+        "source_string": "Search results",
+        "translation": "Resulta ng paghahanap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.genericOnExpandNarrationHint",
+        "source_string": "Navigate down to View List of Players",
+        "translation": "Pumunta sa baba para tingnan ang Listahan ng Manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.loadMoreResults",
+        "source_string": "Load more results",
+        "translation": "Mag-load pa ng resulta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AddFriendAccordion.narration.enumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.followersSuggestions",
+        "source_string": "%1$s Followers suggestions",
+        "translation": "%1$s Mungkahing follower",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.gamertagSearchSuggestions",
+        "source_string": "%1$s Search results",
+        "translation": "%1$s Resulta sa paghahanap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsFound",
+        "source_string": "No suggestions right now",
+        "translation": "Walang mungkahi ngayong sandali",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagefollowers",
+        "source_string": "You’ve already added all of your followers! Check back later.",
+        "translation": "Nakaibigan mo na lahat ng follower mo! Tingnan uli mamaya.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagegamertagSearch",
+        "source_string": "Please refine your search.",
+        "translation": "Gawing mas detalyado ang paghahanap.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecentlyPlayedWith",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Makipaglaro kasama ang iba sa Realms o server para makakuha pa ng mungkahi!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecommendedFriends",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Makipaglaro kasama ang iba sa Realms o server para makakuha pa ng mungkahi!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recentlyPlayedWithSuggestions",
+        "source_string": "%1$s Recently played with suggestions",
+        "translation": "%1$s Mungkahing kamakailan lang kinalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recommendedFriendsSuggestions",
+        "source_string": "%1$s Recommended friend suggestions",
+        "translation": "%1$s Inirerekomendang mungkahing kaibigan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recentlyPlayedWith",
+        "source_string": "Recently played with",
+        "translation": "Kamakailan lang kinalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recommendedFriends",
+        "source_string": "Recommended friends",
+        "translation": "Inirerekomendang kaibigan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.followers",
+        "source_string": "Your followers will appear here.",
+        "translation": "Lalabas dito ang mga follower mo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.noSuggestionsFound",
+        "source_string": "No suggestions found",
+        "translation": "Walang nakitang mungkahi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.recentlyPlayedWith",
+        "source_string": "Play with new people to get more suggestions!",
+        "translation": "Makipaglaro kasama ang bago para makakuha pa ng mungkahi!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.recommendedFriends",
+        "source_string": "Follow players and add friends for suggestions.",
+        "translation": "Mag-follow o magkaibigan para magkamungkahi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.blockedAddingFriendsMessage",
+        "source_string": "You cannot add friends because of an account settings restriction. View and manage your multiplayer settings with “Privacy & online safety” in the Account settings.",
+        "translation": "Hindi ka makapagkakaibigan gawa ng restriksiyon ng settings. Tingnan at pamahalaan ang settings mo sa multiplayer sa “Privacy at kaligtasan online” sa settings ng Akawnt.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.blockedAddingFriendsTitle",
+        "source_string": "You need permission!",
+        "translation": "Kailangan mo ng karapatan!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -87976,6 +88440,54 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AddFriendError.loadErrorMessage",
+        "source_string": "We encountered an unknown error, please try again.",
+        "translation": "May natagpuan kaming di-alam na error, pakisubukan uli.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.loadErrorTitle",
+        "source_string": "Search for players couldn't load!",
+        "translation": "Hindi ma-load ang paghahanap ng manlalaro!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.parentalControlBlockMessage",
+        "source_string": "You cannot add friends because of a parental control restriction. View and manage your multiplayer settings with “Online Safety” in the parental controls.",
+        "translation": "Hindi ka makapagkakaibigan gawa ng restriksiyon ng parental controls. Tingnan at pamahalaan ang settings mo sa multiplayer sa “Kaligtasan Online” sa parental controls.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.parentalControlBlockTitle",
+        "source_string": "You need permission!",
+        "translation": "Kailangan mo ng karapatan!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.searchErrorMessage",
+        "source_string": "Please refine your search.",
+        "translation": "Gawing mas detalyado ang paghahanap.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.searchErrorTitle",
+        "source_string": "No gamertag found :(",
+        "translation": "Walang nahanap na gamertag :(",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AddFriendError.tryAgain",
         "source_string": "Try again",
         "translation": "Subukang muli",
@@ -87984,9 +88496,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AddFriendRoute.emptyState",
+        "source_string": "Empty state",
+        "translation": "Empty state",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AddFriendRoute.error",
         "source_string": "Error",
         "translation": "Error",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.header",
+        "source_string": "Search For Players",
+        "translation": "Maghanap ng Manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.noGamertagFound",
+        "source_string": "No gamertag found",
+        "translation": "Walang nahanap na gamertag",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
