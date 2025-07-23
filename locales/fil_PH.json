@@ -88632,9 +88632,73 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.searchByQR",
+        "source_string": "Find friends using a QR Code",
+        "translation": "Maghanap ng kaibigan gamit QR Code",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.searchGamertagHint",
+        "source_string": "Find friends by searching for their Gamertag",
+        "translation": "Maghanap ng kaibigan sa paghanap ng Gamertag nila",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.singularResult",
+        "source_string": "1 gamertag Found",
+        "translation": "May 1 nahanap na gamertag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.scanQRCode",
+        "source_string": "Scan QR code",
+        "translation": "I-scan ang QR code",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AddFriendSearchByGamertag.search",
         "source_string": "Search",
         "translation": "Maghanap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.searchGamertag",
+        "source_string": "Search gamertag",
+        "translation": "Maghanap ng gamertag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.searchGamertagDescription",
+        "source_string": "Find players by gamertag",
+        "translation": "Maghanap ng manlalaro sa gamertag nila",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.copyGamertagButton",
+        "source_string": "Copy Gamertag",
+        "translation": "Kopyahin ang gamertag",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.gamertagCopied",
+        "source_string": "Gamertag Copied",
+        "translation": "Nakopya na ang gamertag",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88648,9 +88712,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AddFriendSideMenu.narration.group",
+        "source_string": "Group",
+        "translation": "I-group",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.narration.QRHint",
+        "source_string": "Scan QR code to view %1$s profile",
+        "translation": "I-scan ang QR code para makita ang profile ni %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AddFriendSideMenu.shareButton",
         "source_string": "Share",
         "translation": "Ibahagi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.shareButtonHint",
+        "source_string": "Press to share your profile link and gamertag",
+        "translation": "Pindutin para mabahagi ang profile link at gamertag mo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.shareText",
+        "source_string": "Add me as a friend in Minecraft!",
+        "translation": "Idagdag mo ako bilang kaibigan sa Minecraft!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88672,6 +88768,38 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AnnouncementModalRoute.errorInvalidTemplate",
+        "source_string": "Message had an invalid template and could not be displayed",
+        "translation": "May imbalidong template ang mensahe at hindi maipakita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.errorNoMessage",
+        "source_string": "Message not found",
+        "translation": "Hindi mahanap ang mensahe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.errorTitle",
+        "source_string": "Announcement error",
+        "translation": "Nagka-error sa anunsiyo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.errorUnsupportedTemplate",
+        "source_string": "Template not implemented",
+        "translation": "Hindi naimplementa ang template",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AnnouncementModalRoute.narration.enumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s ng %2$s",
@@ -88688,9 +88816,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.bodyFirstParagraph",
+        "source_string": "You’ve been permanently banned from Minecraft’s online services. This means you can’t play on servers, join Realms, host or join multiplayer games, or use Marketplace.",
+        "translation": "Permanente ka nang na-ban sa online services ng Minecraft. Ibig sabihin nito ay hindi ka na makakapaglaro sa mga servers, makasali sa Realms, makaka-host o makakalaro ng servers, o makakagmit ng Marketplace.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.bodySecondParagraph",
+        "source_string": "For more information or to submit a case review, use the button below.",
+        "translation": "Para sa karagdagang impormasyon o para makasomete ng case review, gamitin ang button sa ibaba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.helpButton",
         "source_string": "More info",
         "translation": "Alamin pa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.reasonsTitle",
+        "source_string": "Reason for ban:",
+        "translation": "Dahilan sa pag-ban:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.title",
+        "source_string": "You’ve been permanently banned",
+        "translation": "Permanente kang na-ban",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88704,9 +88864,57 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.bodyFirstParagraph",
+        "source_string": "You've been suspended from playing multiplayer in Minecraft. You won't be able to play on servers, join Realms, host or join multiplayer games, or use the Marketplace.",
+        "translation": "Sinuspende kang makapaglaro ng multiplayer sa Minecraft. Hindi ka makakalaro sa mga servers, makakasali sa Realms, makaka-host o makakalaro ng servers, o makakagmit ng Marketplace.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.bodySecondParagraph",
+        "source_string": "For more information or to request a case review, use the help button.",
+        "translation": "Para sa karagdagang impormasyon o para maka-request ng case review, gamitin ang button sa ibaba.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.helpButton",
         "source_string": "Help",
         "translation": "Tulong",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.reasonsTitle",
+        "source_string": "Reasons for suspension:",
+        "translation": "Dahilan ng suspensiyon:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.title",
+        "source_string": "Temporarily suspended",
+        "translation": "Pansamantalang sinuspende",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.timer",
+        "source_string": "%1$sd %2$sh %3$sm",
+        "translation": "%1$sa %2$so %3$sm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.reasonForBan",
+        "source_string": "Reason for ban:",
+        "translation": "Dahilan sa pag-ban:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88736,6 +88944,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.ingame",
+        "source_string": "In-game build",
+        "translation": "In-game build",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.other",
+        "source_string": "Other",
+        "translation": "Iba pa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.skin",
         "source_string": "Player skin",
         "translation": "Skin ng manlalaro",
@@ -88752,9 +88976,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationGrooming",
+        "source_string": "Violating community standards",
+        "translation": "Nilalabag ang community standards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Violating community standards",
+        "translation": "Nilalabag ang community standards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.controversial",
+        "source_string": "Controversial topic",
+        "translation": "Paksang kontrobersiyal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.cyberbullying",
         "source_string": "Cyberbullying",
         "translation": "Cyberbullying",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.defamation",
+        "source_string": "Impersonation or sharing information to exploit or mislead others",
+        "translation": "Impersonasyon, nagbabahagi para mag-exploit, o nagbabagi ng maling impormasyon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.drugs",
+        "source_string": "References to illegal drugs",
+        "translation": "Pagbanggit ng ilegal na droga",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88768,9 +89032,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.extremeViolence",
+        "source_string": "Depictions of real-life excessive violence or gore",
+        "translation": "Naglalarawan ng karahasan gaya nang sa totoong buhay o gore",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.falseReporting",
         "source_string": "Excessive false / inaccurate reports",
         "translation": "Masyadong maraming reportang mali/di-tama",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.fraud",
+        "source_string": "Fraudulent acquisition or use of content",
+        "translation": "Mapanlinlang na pagkuha o paggamit ng kontento",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.harassingComments",
+        "source_string": "Harassing or defamatory comments",
+        "translation": "Pagha-harrass o paninirang-puri na komento",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.harassment",
+        "source_string": "Abusive language used in a directed, harmful manner",
+        "translation": "Mapang-abusong lengguwahe na ginagamit sa direkta at mapanakit na paraan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.hateSpeech",
+        "source_string": "Hate Speech or discrimination",
+        "translation": "Hate Speech o diskriminasyon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88784,9 +89088,81 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.imminentHarm",
+        "source_string": "Intent to cause real-life harm to persons or property",
+        "translation": "May intensyong manakit ng tao o ari-arian sa totoong buhay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.impersonatingStaff",
+        "source_string": "Impersonating staff, player support, or community representatives",
+        "translation": "Nagpapanggap bulang staff, player support, o community representatives",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.inGameTrolling",
+        "source_string": "In-Game trolling & spamming",
+        "translation": "Pagto-troll o pags-spam sa laro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.modding",
         "source_string": "Modding",
         "translation": "Modding",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nameOrGamertag",
+        "source_string": "Player Name or gamertag",
+        "translation": "Pangalan o Gamertag ng Manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Violating community standards",
+        "translation": "Nilalabag ang community standards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.notoriousFigure",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "Pagbanggit ng hate groups, organisasyon ng terorista, o mga kontrobersiyal na personalidad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nudity",
+        "source_string": "Displaying lewd or pornographic material",
+        "translation": "Naglalarawan ng pornograpiya",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.obsceneLanguage",
+        "source_string": "Obscene or vulgar language",
+        "translation": "Mahalay o bulgar na pananalita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.policyViolation",
+        "source_string": "Policy violation",
+        "translation": "Paglabag sa patakaran",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88808,9 +89184,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.realLifeInfo",
+        "source_string": "Real life information and threats",
+        "translation": "Impormasyon sa totoong buhay at banta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.selfHarm",
+        "source_string": "Violating community standards",
+        "translation": "Nilalabag ang community standards",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.sexuallyInappropriate",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Mga seksuwal na kontento o paksa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.sexualReference",
+        "source_string": "References to sexual content & violence",
+        "translation": "Pagbanggit sa seksuwal na kontento at karahasan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.sexualViolence",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Mga seksuwal na kontento o paksa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.spam",
         "source_string": "Spamming for commercial purposes",
         "translation": "Pag-spam sa layuning komersiyal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.terrorismOrViolentExtremism",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "Pagbanggit ng hate groups, organisasyon ng terorista, o mga kontrobersiyal na personalidad",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.unconfirmedCSE",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Mga seksuwal na kontento o paksa",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88840,9 +89272,81 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Bedtime.chattingDisabled",
+        "source_string": "Chat with other players is currently disabled on this server",
+        "translation": "Ang pag-chat sa ibang manlalaro ay kasalukuyang sinara sa server na ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Bedtime.enumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.leaveBedButton",
+        "source_string": "Leave bed",
+        "translation": "Bumangon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageAllPlayersSleepingNight",
+        "source_string": "Sleeping through the night",
+        "translation": "Tinutulugan ang gabing ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageAllPlayersSleepingThunderstorm",
+        "source_string": "Sleeping through the thunderstorm",
+        "translation": "Tinutulugan ang bagyong ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersPluralNight",
+        "source_string": "Night will be skipped when %1$s more players sleep.",
+        "translation": "Tutulugan ang gabing ito kapag ang %1$s pang manlalaro ay natutulog na.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersPluralThunderstorm",
+        "source_string": "Thunderstorm will be skipped when %1$s more players sleep.",
+        "translation": "Tutulugan ang bagyong ito kapag %1$s pang manlalaro ay natutulog na.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersSingularNight",
+        "source_string": "Night will be skipped when one other player sleeps.",
+        "translation": "Tutulugan ang gabing ito kapag ang isa pang manlalaro ay natutulog na.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersSingularThunderstorm",
+        "source_string": "Thunderstorm will be skipped when one other player sleeps.",
+        "translation": "Tutulugan ang bagyong ito kapag ang isa pang manlalaro ay natutulog na.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.openChatButton",
+        "source_string": "Open chat",
+        "translation": "Buksan ang chat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -88987,6 +89491,14 @@
         "identifier": "hbui.CreateNewWorld.advanced.title",
         "source_string": "Advanced settings",
         "translation": "Advanced settings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.tntExplodesDescription",
+        "source_string": "Red box goes boom",
+        "translation": "Pula bloke sabog",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
