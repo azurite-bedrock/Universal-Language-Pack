@@ -89352,6 +89352,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Bedtime.sleepingNotPossibleNotWorldOwner",
+        "source_string": "The 'Skip night by sleeping' setting is turned off. The owner of this world needs to turn this setting on in edit world.",
+        "translation": "Ang setting na \"Laktawan ang gabi sa pagtulog\" ay nakapatay. Dapat buksan ng may-ari ng mundong ito ang setting na ito sa \"I-edit ang Mundo\".",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.sleepingNotPossibleWorldOwner",
+        "source_string": "The 'Skip night by sleeping' setting is turned off. Turn it on under advanced settings in edit world.",
+        "translation": "Ang setting na \"Laktawan ang gabi sa pagtulog lang\" ay nakapatay. Buksan ito sa advanced settings sa \"I-edit ang Mundo\".",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CapeIncentiveReceivedTransientRoute.buttonEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s ng %2$s",
@@ -89368,9 +89384,89 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CapeIncentiveReceivedTransientRoute.dressingRoomButton",
+        "source_string": "Go to Dressing Room",
+        "translation": "Pumunta sa Bihisan",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CapeIncentiveReceivedTransientRoute.text1",
+        "source_string": "You did it! You're all logged in, which means you have a fancy new Common Cape to show off. Or use it to hide among the foliage. The choice is yours.",
+        "translation": "Nagawa mo na! Logged in ka na, ibig sabihin magkakaroon ka ng Common Cape para mamuwestra mo ito. O gamitin ito sa pagbalatkayo sa mga dahon. Nasa iyo na iyan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CapeIncentiveReceivedTransientRoute.text2",
+        "source_string": "Go to the dressing room to equip now, or continue to play capeless. It's up to you.",
+        "translation": "Pumunta sa bihisan para magamit na ito, o tumuloy sa paglaro nang walang kapa. Nasa iyo na iyan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CapeIncentiveReceivedTransientRoute.title",
+        "source_string": "Nice cape you've got there",
+        "translation": "Ang ganda ng kapa mo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.addNewBetaRealm",
+        "source_string": "Add Beta Realm",
+        "translation": "Magdagdag ng Beta Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.addNewPreviewRealm",
+        "source_string": "Add Preview Realm",
+        "translation": "Magdagdag ng Preview Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ChooseRealmRoute.adventure",
         "source_string": "Adventure",
         "translation": "Adventure",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.backButtonHint",
+        "source_string": "This will take you back to the previous screen",
+        "translation": "Dadalhin ka nito pabalik sa nakaraang screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.chooseABetaRealm",
+        "source_string": "1. Choose a Beta Realm",
+        "translation": "1. Pumili ng Beta Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.chooseAPreviewRealm",
+        "source_string": "1. Choose a Preview Realm",
+        "translation": "1. Pumili ng Preview Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.chooseARealmSubscription",
+        "source_string": "1. Choose a subscription",
+        "translation": "1. Pumili ng subscription",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -89384,9 +89480,81 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ChooseRealmRoute.emptyState.message",
+        "source_string": "We encountered an unknown error. Please try again.",
+        "translation": "May nadiskubri kaming di-kilalang error. Mangyaring subukan ito uli.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.emptyState.noRealmsErrorTitle.beta",
+        "source_string": "Beta Realms couldn't load!",
+        "translation": "Hindi nalo-load ang Beta Realms!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.emptyState.noRealmsErrorTitle.preview",
+        "source_string": "Preview Realms couldn't load!",
+        "translation": "Hindi nalo-load ang Preview Realms!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.emptyState.noSubscriptionErrorTitle",
+        "source_string": "Subscriptions couldn't load!",
+        "translation": "Hindi nalo-load ang subscriptions!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ChooseRealmRoute.emptyState.tryAgain",
         "source_string": "Try again",
         "translation": "Subukang muli",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.pairedWith",
+        "source_string": "Paired with: %s",
+        "translation": "Ipinares sa: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.players",
+        "source_string": "%s Players",
+        "translation": "%s Manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.realmChoiceNumber",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "Button %1$s ng %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.realmSubscription",
+        "source_string": "Realm subscription %s",
+        "translation": "Subscription ng Realm %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.screen",
+        "source_string": "Step %s Screen",
+        "translation": "Step %s Screen",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -89408,6 +89576,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ChooseRealmRoute.typeOfSubscription",
+        "source_string": "Type of subscription: %1$s",
+        "translation": "Klase ng subscription: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.typeOfWorld",
+        "source_string": "Type of world: %1$s",
+        "translation": "Klase ng mundo: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.backHint",
+        "source_string": "This will take you back to the previous screen",
+        "translation": "Dadalhin ka nito pabalik sa nakaraang screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.chooseSlotHeader",
+        "source_string": "2. Choose a slot [%s]",
+        "translation": "2. Pumili ng slot [%s]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.emptySlotHint",
+        "source_string": "Select to use this slot",
+        "translation": "Pumili para gamitin ang slot",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ChooseSlotRoute.noSlotsErrorButton",
         "source_string": "Try again",
         "translation": "Subukang muli",
@@ -89416,9 +89624,89 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ChooseSlotRoute.noSlotsErrorMessage",
+        "source_string": "We encountered an unknown error. Please try again.",
+        "translation": "May nadiskubri kaming di-kilalang error. Mangyaring subukan ito uli.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.noSlotsErrorTitle",
+        "source_string": "Slots couldn't load!",
+        "translation": "Hindi nalo-load ang mga slots!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.screen",
+        "source_string": "Step %s screen",
+        "translation": "Step %s Screen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ChooseSlotRoute.select",
         "source_string": "Select",
         "translation": "Pumili",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.slotButton",
+        "source_string": "Button %1$s of 3.",
+        "translation": "Button %1$s ng 3.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.slotButtonNarration",
+        "source_string": "%1$s. Button %2$s of 3. %3$s",
+        "translation": "%1$s. Button %2$s ng 3. %3$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.slotEnumeration",
+        "source_string": "%1$s of 3. %2$s",
+        "translation": "%1$s ng 3. %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseSlotRoute.slotHint",
+        "source_string": "Select to replace this world",
+        "translation": "Pumili para mapalitan ang mundong ito",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ClaimPreviewOrBetaRealmBanner.link",
+        "source_string": "Claim Realm",
+        "translation": "Kunin ang Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ClaimPreviewOrBetaRealmBanner.text.beta",
+        "source_string": "You have a free Beta Realm available!",
+        "translation": "May libre kang Beta Realm available!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ClaimPreviewOrBetaRealmBanner.text.preview",
+        "source_string": "You have a free Preview Realm available!",
+        "translation": "May libre kang Preview Realm available!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -89440,9 +89728,737 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CompareStatsRoute.header",
+        "source_string": "Stat Comparison",
+        "translation": "Paghahambing ng stat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CompareStatsRoute.playerItemsListRole",
+        "source_string": "Horizontal List",
+        "translation": "Listang pahalang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CompareStatsRoute.playerItemsNarration",
+        "source_string": "Compare stats of two players",
+        "translation": "Paghambingin ang stats ng dalawang manlalaro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ConfirmDisableAchievementsModal.confirmButton",
+        "source_string": "Continue anyway",
+        "translation": "Ituloy na lang",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ConfirmDisableAchievementsModal.goBackButton",
         "source_string": "Go back",
         "translation": "Bumalik",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ConfirmDisableAchievementsModal.message",
+        "source_string": "Edits made to this world mean you will no longer be able to earn achievements in it, even if you update these settings later.",
+        "translation": "Hindi ka na makakukuha ng tagumpay dahil sa paraan ng pag-eedit ng mundo ito, kahit i-update mo pa ang mga settings nito at gawin sa dati.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ConfirmDisableAchievementsModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Hindi ka makakukuha ng tagumpay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ConnectionErrorRoute.backToMenu",
+        "source_string": "Back to menu",
+        "translation": "Bumalik sa menu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.A.KEYBOARD",
+        "source_string": "Press A",
+        "translation": "Pindutin ang A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.A.PS",
+        "source_string": "Press A",
+        "translation": "Pindutin ang A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.A.QUEST",
+        "source_string": "Press A",
+        "translation": "Pindutin ang A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.A.STEAM",
+        "source_string": "Press A",
+        "translation": "Pindutin ang A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.A.SWITCH",
+        "source_string": "Press A",
+        "translation": "Pindutin ang A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.A.XBOX",
+        "source_string": "Press A",
+        "translation": "Pindutin ang A",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.B.KEYBOARD",
+        "source_string": "Press B",
+        "translation": "Pindutin ang B",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.B.PS",
+        "source_string": "Press B",
+        "translation": "Pindutin ang B",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.B.QUEST",
+        "source_string": "Press B",
+        "translation": "Pindutin ang B",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.B.STEAM",
+        "source_string": "Press B",
+        "translation": "Pindutin ang B",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.B.SWITCH",
+        "source_string": "Press B",
+        "translation": "Pindutin ang B",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.B.XBOX",
+        "source_string": "Press B",
+        "translation": "Pindutin ang B",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.DOWN.KEYBOARD",
+        "source_string": "Press DOWN",
+        "translation": "Pindutin ang DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.DOWN.PS",
+        "source_string": "Press DOWN",
+        "translation": "Pindutin ang DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.DOWN.QUEST",
+        "source_string": "Press DOWN",
+        "translation": "Pindutin ang DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.DOWN.STEAM",
+        "source_string": "Press DOWN",
+        "translation": "Pindutin ang DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.DOWN.SWITCH",
+        "source_string": "Press DOWN",
+        "translation": "Pindutin ang DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.DOWN.XBOX",
+        "source_string": "Press DOWN",
+        "translation": "Pindutin ang DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L3.KEYBOARD",
+        "source_string": "Press L3",
+        "translation": "Pindutin ang L3",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L3.PS",
+        "source_string": "Press L3",
+        "translation": "Pindutin ang L3",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L3.QUEST",
+        "source_string": "Press L3",
+        "translation": "Pindutin ang L3",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L3.STEAM",
+        "source_string": "Press L3",
+        "translation": "Pindutin ang L3",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L3.SWITCH",
+        "source_string": "Press L3",
+        "translation": "Pindutin ang L3",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L3.XBOX",
+        "source_string": "Press L3",
+        "translation": "Pindutin ang L3",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_DOWN.KEYBOARD",
+        "source_string": "Press L_DOWN",
+        "translation": "Pindutin ang L_DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_DOWN.PS",
+        "source_string": "Press L_DOWN",
+        "translation": "Pindutin ang L_DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_DOWN.QUEST",
+        "source_string": "Press L_DOWN",
+        "translation": "Pindutin ang L_DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_DOWN.STEAM",
+        "source_string": "Press L_DOWN",
+        "translation": "Pindutin ang L_DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_DOWN.SWITCH",
+        "source_string": "Press L_DOWN",
+        "translation": "Pindutin ang L_DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_DOWN.XBOX",
+        "source_string": "Press L_DOWN",
+        "translation": "Pindutin ang L_DOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_LEFT.KEYBOARD",
+        "source_string": "Press L_LEFT",
+        "translation": "Pindutin ang L_LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_LEFT.PS",
+        "source_string": "Press L_LEFT",
+        "translation": "Pindutin ang L_LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_LEFT.QUEST",
+        "source_string": "Press L_LEFT",
+        "translation": "Pindutin ang L_LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_LEFT.STEAM",
+        "source_string": "Press L_LEFT",
+        "translation": "Pindutin ang L_LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_LEFT.SWITCH",
+        "source_string": "Press L_LEFT",
+        "translation": "Pindutin ang L_LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_LEFT.XBOX",
+        "source_string": "Press L_LEFT",
+        "translation": "Pindutin ang L_LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_RIGHT.KEYBOARD",
+        "source_string": "Press L_RIGHT",
+        "translation": "Pindutin ang L_RIGHT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_RIGHT.PS",
+        "source_string": "Press L_RIGHT",
+        "translation": "Pindutin ang L_RIGHT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_RIGHT.QUEST",
+        "source_string": "Press L_RIGHT",
+        "translation": "Pindutin ang L_RIGHT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_RIGHT.STEAM",
+        "source_string": "Press L_RIGHT",
+        "translation": "Pindutin ang L_RIGHT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_RIGHT.SWITCH",
+        "source_string": "Press L_RIGHT",
+        "translation": "Pindutin ang L_RIGHT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_RIGHT.XBOX",
+        "source_string": "Press L_RIGHT",
+        "translation": "Pindutin ang L_RIGHT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_UP.KEYBOARD",
+        "source_string": "Press L_UP",
+        "translation": "Pindutin ang L_UP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_UP.PS",
+        "source_string": "Press L_UP",
+        "translation": "Pindutin ang L_UP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_UP.QUEST",
+        "source_string": "Press L_UP",
+        "translation": "Pindutin ang L_UP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_UP.STEAM",
+        "source_string": "Press L_UP",
+        "translation": "Pindutin ang L_UP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_UP.SWITCH",
+        "source_string": "Press L_UP",
+        "translation": "Pindutin ang L_UP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.L_UP.XBOX",
+        "source_string": "Press L_UP",
+        "translation": "Pindutin ang L_UP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LB.KEYBOARD",
+        "source_string": "Press LB",
+        "translation": "Pindutin ang LB",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LB.PS",
+        "source_string": "Press LB",
+        "translation": "Pindutin ang LB",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LB.QUEST",
+        "source_string": "Press LB",
+        "translation": "Pindutin ang LB",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LB.STEAM",
+        "source_string": "Press LB",
+        "translation": "Pindutin ang LB",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LB.SWITCH",
+        "source_string": "Press LB",
+        "translation": "Pindutin ang LB",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LB.XBOX",
+        "source_string": "Press LB",
+        "translation": "Pindutin ang LB",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT.KEYBOARD",
+        "source_string": "Press LEFT",
+        "translation": "Pindutin ang LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT.PS",
+        "source_string": "Press LEFT",
+        "translation": "Pindutin ang LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT.QUEST",
+        "source_string": "Press LEFT",
+        "translation": "Pindutin ang LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT.STEAM",
+        "source_string": "Press LEFT",
+        "translation": "Pindutin ang LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT.SWITCH",
+        "source_string": "Press LEFT",
+        "translation": "Pindutin ang LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT.XBOX",
+        "source_string": "Press LEFT",
+        "translation": "Pindutin ang LEFT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_HORIZONTAL_AXIS.KEYBOARD",
+        "source_string": "Press LEFT_HORIZONTAL_AXIS",
+        "translation": "Pindutin ang LEFT_HORIZONTAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_HORIZONTAL_AXIS.PS",
+        "source_string": "Press LEFT_HORIZONTAL_AXIS",
+        "translation": "Pindutin ang LEFT_HORIZONTAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_HORIZONTAL_AXIS.QUEST",
+        "source_string": "Press LEFT_HORIZONTAL_AXIS",
+        "translation": "Pindutin ang LEFT_HORIZONTAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_HORIZONTAL_AXIS.STEAM",
+        "source_string": "Press LEFT_HORIZONTAL_AXIS",
+        "translation": "Pindutin ang LEFT_HORIZONTAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_HORIZONTAL_AXIS.SWITCH",
+        "source_string": "Press LEFT_HORIZONTAL_AXIS",
+        "translation": "Pindutin ang LEFT_HORIZONTAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_HORIZONTAL_AXIS.XBOX",
+        "source_string": "Press LEFT_HORIZONTAL_AXIS",
+        "translation": "Pindutin ang LEFT_HORIZONTAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_VERTICAL_AXIS.KEYBOARD",
+        "source_string": "Press LEFT_VERTICAL_AXIS",
+        "translation": "Pindutin ang LEFT_VERTICAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_VERTICAL_AXIS.PS",
+        "source_string": "Press LEFT_VERTICAL_AXIS",
+        "translation": "Pindutin ang LEFT_VERTICAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_VERTICAL_AXIS.QUEST",
+        "source_string": "Press LEFT_VERTICAL_AXIS",
+        "translation": "Pindutin ang LEFT_VERTICAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_VERTICAL_AXIS.STEAM",
+        "source_string": "Press LEFT_VERTICAL_AXIS",
+        "translation": "Pindutin ang LEFT_VERTICAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_VERTICAL_AXIS.SWITCH",
+        "source_string": "Press LEFT_VERTICAL_AXIS",
+        "translation": "Pindutin ang LEFT_VERTICAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LEFT_VERTICAL_AXIS.XBOX",
+        "source_string": "Press LEFT_VERTICAL_AXIS",
+        "translation": "Pindutin ang LEFT_VERTICAL_AXIS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LT.KEYBOARD",
+        "source_string": "Press LT",
+        "translation": "Pindutin ang LT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LT.PS",
+        "source_string": "Press LT",
+        "translation": "Pindutin ang LT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LT.QUEST",
+        "source_string": "Press LT",
+        "translation": "Pindutin ang LT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LT.STEAM",
+        "source_string": "Press LT",
+        "translation": "Pindutin ang LT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LT.SWITCH",
+        "source_string": "Press ZL",
+        "translation": "Pindutin ang ZL",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.LT.XBOX",
+        "source_string": "Press LT",
+        "translation": "Pindutin ang LT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.KEYBOARD",
+        "source_string": "Press NEXT",
+        "translation": "Pindutin ang NEXT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.PS",
+        "source_string": "Press NEXT",
+        "translation": "Pindutin ang NEXT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.QUEST",
+        "source_string": "Press NEXT",
+        "translation": "Pindutin ang NEXT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.STEAM",
+        "source_string": "Press NEXT",
+        "translation": "Pindutin ang NEXT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.SWITCH",
+        "source_string": "Press NEXT",
+        "translation": "Pindutin ang NEXT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.XBOX",
+        "source_string": "Press NEXT",
+        "translation": "Pindutin ang NEXT",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -89483,6 +90499,14 @@
         "identifier": "hbui.CreateNewWorld.advanced.sleepSlider.disabled",
         "source_string": "Disabled",
         "translation": "Nakapatay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.sleepToSkipNightTitle",
+        "source_string": "Skip night by sleeping",
+        "translation": "Laktawan ang gabi sa pagtulog",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
