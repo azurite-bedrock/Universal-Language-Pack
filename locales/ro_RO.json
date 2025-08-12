@@ -14874,7 +14874,7 @@
     {
         "identifier": "createWorldScreen.experimentalVillagerTradesRebalance",
         "source_string": "Villager Trade Rebalancing",
-        "translation": "Rebalansare comerț săteni",
+        "translation": "Reechilibrarea comerțului cu săteni",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29400,9 +29400,97 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.jigsawBlocks",
+        "source_string": "Jigsaw Blocks",
+        "translation": "Blocurile Jigsaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.1",
+        "source_string": "Jigsaw Blocks give creators the ability to generate large structures in the world by connecting multiple structure templates.",
+        "translation": "Blocurile Jigsaw oferă creatorilor capacitatea de a genera structuri mari în lume prin conectarea mai multor șabloane de structură.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.header.1",
+        "source_string": "How to Obtain",
+        "translation": "Cum se obține",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.2",
+        "source_string": "To get a Jigsaw Block you must use the /give slash command. To use a Jigsaw Block, you must have Operator permissions.",
+        "translation": "Pentru a obține un bloc Jigsaw trebuie să folosești comanda /give. Pentru a utiliza un bloc Jigsaw trebuie să aveți permisiuni de operator.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.jigsawBlocks.header.2",
         "source_string": " Settings",
         "translation": " Setări",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.3",
+        "source_string": "Jigsaw Blocks have multiple settings that control how they join together to form a larger structure.",
+        "translation": "Blocurile Jigsaw au setări multiple care controlează modul în care se unesc pentru a forma o structură mai mare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.4",
+        "source_string": "§eTarget Pool§f - The path of the template pool to search for a connecting structure template. The template pool should contain at least one structure that matches the Jigsaw's \"Target Name\" field.",
+        "translation": "§eGrup țintă§f - Calea grupului de șablonane pentru a căuta un șablon de conectare. Gruparea de șabloane trebuie să conțină cel puțin o structură care corespunde câmpului \"Nume țintă\" al blocului Jigsaw.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.5",
+        "source_string": "§eName§f - The name of the Jigsaw. This is used when connecting from Jigsaws with a matching \"Target Name\".",
+        "translation": "§eNume§f - Numele Jigsaw. Acest lucru este folosit la conectarea de la blocuri Jigsaw cu \"Numele țintă\" potrivit.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.6",
+        "source_string": "§eTurns Into§f - The type of block the Jigsaw Block will turn into when placed in the world during structure generation.",
+        "translation": "§eTransformă în§f - Tipul de bloc în care blocul Jigsaw se va transforma atunci când este plasat în lume în timpul generării structurii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.7",
+        "source_string": "§eSelection Priority§f - When the parent piece is being processed for connections, this is the order in which this Jigsaw block attempts to connect to its target piece. Jigsaws will be processed in descending priority with random ordering breaking ties.",
+        "translation": "§ePrioritate selecție§f - Când piesa părinte este procesata pentru conexiuni, aceasta este ordinea în care acest bloc Jigsaw încearcă să se conecteze la piesa sa țintă. Blocurile Jigsaw vor fi procesate în prioritate descrescătoare cu ordonarea aleatoare rupând legături.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.8",
+        "source_string": "§ePlacement Priority§f - When this Jigsaw block connects to a piece, this is the order in which that piece is processed for connections in the wider structure. Pieces will be processed in descending priority with insertion order breaking ties.",
+        "translation": "§ePrioritate plasament§f - Când acest bloc Jigsaw se conectează la o piesă, aceasta este ordinea în care piesa este procesată pentru conexiuni în cadrul structurii mai largi. Piesele vor fi procesate în prioritate descrescătoare cu ordinea inserării rupând legături.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.jigsawBlocks.text.9",
+        "source_string": "§eJoint Type§f - A joint can be either Rollable (default) or Aligned. If the joint type is Rollable, the target structure will be rotated randomly around the source Jigsaw Block. If the joint type is Aligned, the target structure will be placed such that the rotation of the target Jigsaw Block aligns with the rotation of the source Jigsaw Block. Note that this only applies when the Jigsaw Block is placed facing up or down.",
+        "translation": "§eTip articulație§f - O articulație poate fi rulabilă (implicit) sau aliniată. Dacă tipul de articulaţie este rulabilă, structura țintă va fi rotită aleatoriu în jurul blocului sursă Jigsaw. Dacă tipul articulaţiei este aliniat, structura ţintă va fi plasată astfel încât rotaţia blocului Jigsaw să se alinieze cu rotaţia blocului sursă. Reţineţi că acest lucru se aplică doar când blocul Jigsaw este plasat în sus sau în jos.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29832,6 +29920,646 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.mounts.text.14",
+        "source_string": "Equip a pig with a Saddle and point a Carrot on a Stick in the direction you want to go.",
+        "translation": "Echipează un porc cu o șa și orientează un morcov pe băț în direcția în care vrei să mergi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.header.5",
+        "source_string": "Dismount",
+        "translation": "Coborâtul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.text.15.notTouch",
+        "source_string": "Press :_input_key.sneak: to dismount.",
+        "translation": "Apasă :_input_key.sneak: pentru a coborî.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.text.15a.touch",
+        "source_string": "When using the D-Pad control scheme, tap :touch_jump: to dismount an animal.",
+        "translation": "Când folosești schema de control D-Pad, apasă :touch_jump: pentru a coborî de pe un animal.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.mounts.text.15b.touch",
+        "source_string": "When using a Joystick control scheme, tap :tip_virtual_button_dismount: to dismount an animal.",
+        "translation": "Când folosești schema de control Joystick, apasă :tip_virtual_button_dismount: pentru a coborî de pe un animal.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround",
+        "source_string": "Moving around",
+        "translation": "Deplasarea prin lume",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.title",
+        "source_string": "How to Play: Moving around",
+        "translation": "Cum să joci: Deplasarea prin lume",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.1",
+        "source_string": "Welcome to the Overworld, a blocky world full of adventure and possibility!",
+        "translation": "Bine ai venit la Suprafață, o lume din blocuri plină de aventură și posibilități!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.2.keyboard",
+        "source_string": "Look around with the mouse.",
+        "translation": "Uită-te folosind mouse-ul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.2.gamepad",
+        "source_string": "Look around with :_gamepad_stick_right:.",
+        "translation": "Uită-te folosind :_gamepad_stick_right:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.2.touch",
+        "source_string": "Look around by touching and dragging the screen.",
+        "translation": "Uită-te in jur apăsând și glisând pe ecran.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.2.rift_controller",
+        "source_string": "Look around with :rift_right_stick:.",
+        "translation": "Uită-te folosind :rift_right_stick:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.2.windowsmr_controller",
+        "source_string": "Look around with :windowsmr_right_stick:.",
+        "translation": "Uită-te folosind :windowsmr_right_stick:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3a.keyboard",
+        "source_string": "Move around the world using :_input_key.forward: :_input_key.left: :_input_key.back: :_input_key.right:.",
+        "translation": "Mișcă-te prin lume folosind :_input_key.forward:, :_input_key.left:, :_input_key.back: și :_input_key.right:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3b.keyboard",
+        "source_string": "Press :_input_key.jump: to jump.",
+        "translation": "Apasă :_input_key.jump: pentru a sări.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3.gamepad",
+        "source_string": "Move around the world using :_gamepad_stick_left:.",
+        "translation": "Mișcă-te prin lume folosind :_gamepad_stick_left:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3b.gamepad",
+        "source_string": "Press :_input_key.jump: to jump.",
+        "translation": "Apasă :_input_key.jump: pentru a sări.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3.touch.joystick_tap",
+        "source_string": "Move around the world using the on-screen joystick:tip_virtual_joystick: .",
+        "translation": "Mișcă-te prin lume folosind joystick-ul de pe ecran :tip_virtual_joystick:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3a.touch.classic_dpad",
+        "source_string": "Move around the world using the on-screen buttons.",
+        "translation": "Mișcă-te prin lume folosind butoanele de pe ecran.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3b.touch.classic_dpad",
+        "source_string": ":touch_forward: Walk forward",
+        "translation": ":touch_forward: Mergi înainte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3c.touch.classic_dpad",
+        "source_string": ":touch_left: Left",
+        "translation": ":touch_left: Stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3d.touch.classic_dpad",
+        "source_string": ":touch_right: Right",
+        "translation": ":touch_right: Dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3e.touch.classic_dpad",
+        "source_string": ":touch_back: Back",
+        "translation": ":touch_back: Înapoi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3.touch.joystick_crosshair",
+        "source_string": "Move around the world using the on-screen joystick:tip_virtual_joystick: .",
+        "translation": "Mișcă-te prin lume folosind joystick-ul de pe ecran :tip_virtual_joystick:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3.rift_controller",
+        "source_string": "Move around the world using :rift_left_stick:.",
+        "translation": "Mișcă-te prin lume folosind :rift_left_stick:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3b.rift_controller",
+        "source_string": "Press :rift_A: to jump.",
+        "translation": "Apasă :rift_A: pentru a sări.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3.windowsmr_controller",
+        "source_string": "Move around the world using :windowsmr_left_stick:.",
+        "translation": "Mișcă-te prin lume folosind :windowsmr_left_stick:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.movingAround.text.3b.windowsmr_controller",
+        "source_string": "Press :windowsmr_right_touchpad: to jump.",
+        "translation": "Apasă :windowsmr_right_touchpad: pentru a sări.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources",
+        "source_string": "Gathering resources",
+        "translation": "Colectarea resurselor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources.title",
+        "source_string": "How to Play: Gathering resources",
+        "translation": "Cum să joci: Colectarea resurselor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources.text.1",
+        "source_string": "The world is full of resources, including §ebuilding blocks§f, §ecrafting materials§f, and §efood§f.",
+        "translation": "Lumea este plină de resurse, inclusiv §eblocuri de construcție§f, §emateriale pentru fabricat§f și §emâncare§f.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources.text.2.nottouch",
+        "source_string": "You can §ebreak blocks§f with your bare hands to gather resources like dirt and wood. Aim at a block, then §epress and hold§f :_input_key.attack:  until it breaks and the resources drop. ",
+        "translation": "Poți §esparge blocuri§f cu mâinile tale goale pentru a colecta resurse precum pământ și lemn. Uită-te la un bloc, apoi §eapasă și ține apăsat§f pe :_input_key.attack: până se sparge și scapă resurse. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources.text.2.touch",
+        "source_string": "You can §ebreak blocks§f with your bare hands to gather resources like dirt and wood. §eTouch and hold§f on the block until it breaks and the resources drop.",
+        "translation": "Poți §esparge blocuri§f cu mâinile tale goale pentru a colecta resurse precum pământ și lemn. Uită-te la un bloc, apoi §eapasă și ține apăsat§f pe acel bloc până se sparge și scapă resurse.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources.text.2.touch.joystick_crosshair",
+        "source_string": "You can §ebreak blocks§f with your bare hands to gather resources like dirt and wood. Aim at a block, then §etouch and hold§f :tip_virtual_button_action_attack_or_destroy:  until it breaks and the resources drop. ",
+        "translation": "Poți §esparge blocuri§f cu mâinile tale goale pentru a colecta resurse precum pământ și lemn. Uită-te la un bloc, apoi §eapasă și ține apăsat§f pe :tip_virtual_button_action_attack_or_destroy: până se sparge și scapă resurse. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources.text.2.pc",
+        "source_string": "You can §ebreak blocks§f with your bare hands to gather resources like dirt and wood. Aim at a block, then §eclick and hold§f :_input_key.attack:  until it breaks and the resources drop. ",
+        "translation": "Poți §esparge blocuri§f cu mâinile tale goale pentru a colecta resurse precum pământ și lemn. Uită-te la un bloc, apoi §eapasă și ține apăsat§f pe :_input_key.attack: până se sparge și scapă resurse. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.gatheringResources.text.3",
+        "source_string": "Pick up any dropped resources by walking over the floating icons.",
+        "translation": "Ridicați orice resurse scăpate mergând peste pictogramele plutitoare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems",
+        "source_string": "Selecting items",
+        "translation": "Selectarea obiectelor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.title",
+        "source_string": "How to Play: Selecting items",
+        "translation": "Cum să joci: Selectarea obiectelor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.1",
+        "source_string": "Resources you pick up will appear in your §ehotbar§f, which you'll find at the bottom of the screen.",
+        "translation": "Resursele pe care le colectezi vor apărea în §ebara ta de acțiune§f, pe care o vei găsi în partea de jos a ecranului.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.keyboard",
+        "source_string": "To hold an item in your hand, scroll the mouse wheel to select the item. You can also use a number key: 1 is the first hotbar slot and 9 is the last. ",
+        "translation": "Pentru a ține un obiect în mână, derulează roata mouse-ului pentru a selecta obiectul. Poți folosi, de asemenea, un tastă numerică: 1 este primul slot din bara de acțiune și 9 este ultimul. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.gamepad",
+        "source_string": "To hold an item in your hand, use :_input_key.cycleItemLeft: and :_input_key.cycleItemRight: to select the item.",
+        "translation": "Pentru a ține un obiect în mână, folosește :_input_key.cycleItemLeft: și :_input_key.cycleItemRight: pentru a-l selecta.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.touch",
+        "source_string": "To hold an item in your hand, simply tap it in the hotbar.",
+        "translation": "Pentru a ține un obiect în mână, doar apeși pe el în bara de acțiune.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.rift",
+        "source_string": "To hold an item in your hand, use :rift_left_trigger: and :rift_left_grab: to select the item.",
+        "translation": "Pentru a ține un obiect în mână, folosește :rift_left_trigger: și :rift_left_grab: pentru a-l selecta.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.2.windowsmr",
+        "source_string": "To hold an item in your hand, use :windowsmr_left_touchpad_horizontal: to select the item.",
+        "translation": "Pentru a ține un obiect în mână, folosește :windowsmr_left_touchpad_horizontal: pentru a-l selecta.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.3.nottouch",
+        "source_string": "Some items, like buckets, fishing rods, and bows, can be used by tapping the build/use button :_input_key.use:.",
+        "translation": "Unele obiecte, cum ar fi gălețile, undițele și arcurile, pot fi utilizate apăsând pe butonului de plasare/utilizare :_input_key.use:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.3.touch",
+        "source_string": "Some items, like buckets, fishing rods, and bows, can be used by touching and holding anywhere on the screen.",
+        "translation": "Unele obiecte, cum ar fi gălețile, undițele și arcurile, pot fi utilizate apăsând și ținând apăsat oriunde pe ecran.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.text.3.touch.joystick_crosshair",
+        "source_string": "Some items, like buckets, fishing rods, and bows, can be used by tapping the build/use button :tip_virtual_button_action_build_or_use:.",
+        "translation": "Unele obiecte, cum ar fi gălețile, undițele și arcurile, pot fi utilizate apăsând pe butonului de plasare/utilizare :tip_virtual_button_action_build_or_use:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.selectingItems.header.1",
+        "source_string": "1. Hotbar",
+        "translation": "1. Bara de acțiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks",
+        "source_string": "Placing blocks",
+        "translation": "Plasarea blocurilor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks.title",
+        "source_string": "How to Play: Placing blocks",
+        "translation": "Cum să joci: Plasarea blocurilor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks.text.1",
+        "source_string": "Any block you've picked up can placed back into the world. This way you can build a cozy §eshelter§f or anything else you can imagine!",
+        "translation": "Orice bloc pe care l-ai luat poate fi plasat înapoi în lume. În acest fel poți construi un §eadăpost§f comod sau orice altceva îți poți imagina!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks.text.2.nottouch",
+        "source_string": "Choose a block in your hotbar, then press :_input_key.use: to place it.",
+        "translation": "Alege un bloc din bara de acțiune, apoi apasă pe :_input_key.use: pentru a-l plasa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks.text.2.touch",
+        "source_string": "Tap a block in your hotbar to select it, then tap somewhere in the world to place it.",
+        "translation": "Apasă pe un bloc din bara de acțiune pentru a-l selecta, apoi apasă undeva în lume pentru a-l plasa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks.text.2.touch.joystick_crosshair",
+        "source_string": "Tap a block in your hotbar to select it, then tap :tip_virtual_button_action_build_or_use: to place it.",
+        "translation": "Apasă pe un bloc în bara de acțiune pentru a-l selecta, apoi apasă pe :tip_virtual_button_action_build_or_use: pentru a-l plasa.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.placingBlocks.text.3",
+        "source_string": "Don't worry if you place something in the wrong spot - simply break it again, then pick it back up!",
+        "translation": "Nu-ți face griji dacă plasezi ceva în locul greșit - pur și simplu sparge-l din nou, apoi ia-l de pe jos din nou!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation",
+        "source_string": "Navigation",
+        "translation": "Navigarea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.1",
+        "source_string": "Navigation is an important skill that you will learn in Minecraft as it's not always easy to find your way home.",
+        "translation": "Navigarea este o abilitate importantă pe care o vei învăța în Minecraft pentru că nu este întotdeauna ușor să îți găsești drumul acasă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.2",
+        "source_string": "First of all, there are some basic tools that you should know about.",
+        "translation": "În primul rând, există câteva instrumente de bază despre care ar trebui să știi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.header.1",
+        "source_string": "Navigation Tools",
+        "translation": "Instrumente de navigare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.3",
+        "source_string": "A Compass will point in the direction of the first place you spawned into the world, an easy way to find where you started.",
+        "translation": "O busolă te va îndrepta în direcția primului loc în care ai apărut în lume, un mod ușor de a găsi unde ai început.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.4",
+        "source_string": "A Map lets you see the area you've explored. Put it in your offhand slot to use it like a mini-map. You can increase its size by adding more paper to the edges in a Crafting Table.",
+        "translation": "O hartă vă permite să vedeți zona pe care ați explorat-o. Pune-o în slotul mâinii secundare pentru a o folosi ca pe o mini-hartă. Poți să îi mărești dimensiunea adăugând mai multă hârtie la margini într-o masă de lucru.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.5",
+        "source_string": "A Locator Map will show you where you are and what direction you are facing in relation to the Locator Map's origin. It will also show you the location of other players in the same world.",
+        "translation": "O hartă cu localizare vă va arăta unde vă aflați și în ce direcție vă îndreptați în raport cu originea hărții. Va arăta si locația altor jucători din aceeași lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.6",
+        "source_string": "A Cartography Table can help you create, expand, copy and even name maps.",
+        "translation": "O masă de cartografie te poate ajuta să creezi, să extinzi, să copiezi și chiar să denumești hărți.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.7",
+        "source_string": "Place paper into the first slot to craft a Map. If you add a compass into the second slot you can craft a Locator Map. Adding Paper or a blank Map will let you expand or copy your Map.",
+        "translation": "Pune hârtie în primul slot pentru a crea o hartă. Dacă adaugi un compas în al doilea slot, vei crea o hartă cu localizare. Adăugând hârtie sau o hartă goală vei putea mări sau copia harta.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.header.2",
+        "source_string": "Navigation Techniques",
+        "translation": "Tehnici de navigare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.8",
+        "source_string": "Try to watch for landmarks as you explore. The more you play on a world, the more you will be able to remember where you are. Another good trick is to place Torches as you go so that you may find your way back home.",
+        "translation": "Încearcă să urmărești punctele de reper pe măsură ce explorezi. Cu cât te joci mai mult într-o lume, cu atât vei putea să îți amintești mai mult unde te afli. Un alt truc bun este să plasezi torțe pe măsură ce explorezi astfel încât să te poți întoarce acasă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.9",
+        "source_string": "The sun can also tell you what direction you are facing. Remember: the sun rises in the east and sets in the west!",
+        "translation": "Soarele îți poate spune de asemenea în ce direcție te îndrepți. Nu uita: soarele răsare la est și apune la vest!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.header.3",
+        "source_string": "Explorer Maps",
+        "translation": "Hărțile de explorare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.navigation.text.10",
+        "source_string": "There are several places for you to explore. Find a village and look for a Cartographer. He will trade you Explorer Maps that will lead you to strange places very far away.",
+        "translation": "Există mai multe locuri pe care să le explorezi. Găsește un sat și caută un sătean cartograf. El îți va vinde hărți de explorare care te vor duce în locuri ciudate foarte îndepărtate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.netherPortals",
+        "source_string": "Nether Portal",
+        "translation": "Portal de Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.netherPortals.text.1",
+        "source_string": "A Nether Portal allows you to travel to a different dimension.",
+        "translation": "Un portal de Nether îți permite să călătorești într-o altă dimensiune.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.netherPortals.text.2",
+        "source_string": "If constructed correctly the Nether Portal can be lit and activated.",
+        "translation": "Dacă este construit corect, Portalul de Nether poate fi aprins și activat.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.netherPortals.text.3",
+        "source_string": "Example of a portal construction shown here:",
+        "translation": "Exemplu de construcție a unui portal este afișată aici:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall",
+        "source_string": "Nightfall",
+        "translation": "Lăsarea nopții",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall.text.1",
+        "source_string": "In Minecraft, the sun rises and sets as you adventure in your world. As the sun sets, you must take precautions. There are many dangers at night!",
+        "translation": "În Minecraft, soarele răsare și apune ca aventură în lumea ta. Pe măsură ce soarele apune, trebuie să iei precauții. Există multe pericole noaptea!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall.header.1",
+        "source_string": "Take Shelter",
+        "translation": "Fă-ți un adăpost",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall.text.2",
+        "source_string": "If you have not already, you will need a place to take shelter from the dark and what lurks within it. This can be as simple as a hole in the side of a hill or a small cabin in the forest.",
+        "translation": "Dacă nu ai deja unul, vei avea nevoie de un loc pentru a te adăposti de întuneric și de ce găsești în el. Acesta poate fi la fel de simplu ca o gaură într-un deal sau o cabană mică în pădure.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall.new.text.4.gamepad",
+        "source_string": "While holding a torch, place it into the world by pressing :_input_key.use:.",
+        "translation": "În timp ce ții o torță, pune-o în lume apăsând pe :_input_key.use:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall.new.text.4.touch",
+        "source_string": "While holding a torch, place it into the world by tapping a nearby free surface.",
+        "translation": "În timp ce ții o torță, pune-o în lume apăsând pe o suprafață liberă din apropiere.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.nightfall.new.text.4.touch.crosshair",
+        "source_string": "While holding a torch, place it into the world by aiming at a nearby block and tapping :tip_virtual_button_action_build_or_use:.",
+        "translation": "În timp ce ții o torță, pune-o în lume uitându-te la un bloc din apropiere și apăsând pe :tip_virtual_button_action_build_or_use:.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.worlds.text.3",
         "source_string": "All of the content in the Marketplace is created by our professional commiunity creators.",
         "translation": "Tot conținutul din Piață este creat de creatorii noștri profesioniști.",
@@ -30227,6 +30955,38 @@
         "identifier": "key.toggleRenderer",
         "source_string": "Toggle Renderer",
         "translation": "Comutare randator",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.howToPlay",
+        "source_string": "How to Play",
+        "translation": "Cum să joci",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.howToPlay.caps",
+        "source_string": "HOW TO PLAY",
+        "translation": "CUM SĂ JOCI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.howToPlay.access",
+        "source_string": "Press :_gamepad_face_button_down: to open How to Play!",
+        "translation": "Apasă :_gamepad_face_button_down: pentru a deschide meniul Cum să joci!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.howToPlay.access.noicon",
+        "source_string": "Press [A] to open How to Play!",
+        "translation": "Apasă [A] pentru a deschide meniul Cum să joci!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30760,6 +31520,14 @@
         "max_length": null
     },
     {
+        "identifier": "permissions.RealmsAddFriends",
+        "source_string": "You will not be able to add new friends to play on your realm with you because of how your Xbox account is set up. This can be changed in your privacy & online safety settings on Xbox.com. Do you want to continue?",
+        "translation": "Nu veți putea adăuga prieteni noi pentru a juca pe realmul dvs. din cauza modului în care contul Xbox este configurat. Acest lucru poate fi schimbat în setările de confidențialitate și siguranță online pe Xbox.com. Doriți să continuați?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "permissions.chatmute",
         "source_string": "Chat is currently disabled",
         "translation": "Discuția este momentan dezactivată",
@@ -31064,6 +31832,14 @@
         "max_length": null
     },
     {
+        "identifier": "trial.tabbed_upsell.achievements.description",
+        "source_string": "In addition to the full Minecraft experience with Creative mode, Multiplayer, and more, you'll earn achievements and a Gamerscore to mark your Minecraft progress and show your Microsoft account friends your accomplishments. Get the full game to start earning them!",
+        "translation": "În plus față de experiența completă a Minecraft cu modul Creativ, Multiplayer și multe altele, vei câștiga realizări și un Gamerscore pentru a marca progresul tău în Minecraft și a arăta prietenii și realizările din contul tău Microsoft. Obține jocul complet pentru a începe să le câștigi!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.tabbed_upsell.addon.title",
         "source_string": "ADD-ONS",
         "translation": "EXTENSII",
@@ -31075,6 +31851,14 @@
         "identifier": "trial.tabbed_upsell.addon.description",
         "source_string": "Want to make wolves act like bunnies? Turn all the trees into cotton candy? You can alter everything in the full Minecraft experience with add-ons! Plus get access to Multiplayer, Creative mode, achievements and more! Buy Minecraft now for full access!",
         "translation": "Vrei să faci lupii să se comporte ca niște iepuri? Să transformi toți copacii în vată de zahăr? Poți modifica totul din experiența Minecraft cu extensii! Plus obții acces la multiplayer, modul creativ, realizări și multe altele! Cumpără Minecraft acum pentru acces deplin!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.thanks_for_testing.achievements.description",
+        "source_string": "In addition to the full Minecraft experience with Creative mode, Multiplayer, and more, you'll earn achievements and a Gamerscore to mark your Minecraft progress and show your Microsoft account friends your accomplishments.",
+        "translation": "În plus față de experiența completă a Minecraft cu modul Creativ, Multiplayer și multe altele, vei câștiga realizări și un Gamerscore pentru a marca progresul tău în Minecraft și a arăta prietenii și realizările din contul tău Microsoft.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
