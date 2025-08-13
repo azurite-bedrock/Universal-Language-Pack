@@ -1,1 +1,698 @@
-[]
+[
+    {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "אוניװערסאַלער שפּראַכפּאַק",
+        "context": "Name of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.description",
+        "source_string": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by theaddonn",
+        "translation": "רעסורספּאַק װאָס שטעלט פֿאָר ענדלעכע פֿעלנדיקע שפּראַכן צו Bedrock Edition. אַנטװיקלט פֿון theaddon",
+        "context": "Description of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "language.name",
+        "source_string": "Name (Location)",
+        "translation": "ייִדיש (ייִדישלאַנד)",
+        "context": "Name of the to be translated language",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.disableTTS",
+        "source_string": "Text To Speech disabled",
+        "translation": "טעכט־רײט־פּראָגראַם דעאַקטיװירט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.enableTTS",
+        "source_string": "Text To Speech enabled",
+        "translation": "טעכט־רײט־פּראָגראַם אַקטיװירט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.back",
+        "source_string": "Press the %s to go back",
+        "translation": "דריקט %s צו גײען צוריק",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.exitChat",
+        "source_string": "Press the %s to exit chat",
+        "translation": "דריקט %s צו אַרױסגײען פֿון שמועס",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.gamepad.sendMessage",
+        "source_string": "Press the %s to send message",
+        "translation": "דריקט %s צו שיקן אַן אָנזאָג",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.says",
+        "source_string": "%s says %s",
+        "translation": "%s זאָגט %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.hideChat",
+        "source_string": "Hide chat",
+        "translation": "באַהאַלטן שמועס",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.keyboard",
+        "source_string": "Keyboard",
+        "translation": "קלאַװיאַטור",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.muteChatToggle",
+        "source_string": "Mute All",
+        "translation": "אײַנשטומען אַלע",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.sendChatMessage",
+        "source_string": "Send",
+        "translation": "שיקן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.tts.textboxTitle",
+        "source_string": "Chat",
+        "translation": "שמועס",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.game.playerView",
+        "source_string": "Player view",
+        "translation": "שפּילער בליק",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.loading.done",
+        "source_string": "Done",
+        "translation": "געמאַכט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.saving.done",
+        "source_string": "Done",
+        "translation": "געמאַכט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.start",
+        "source_string": "Download begun",
+        "translation": "אַראָפּלאָד אָנגעהױבן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.Progress",
+        "source_string": "Downloading %s percent",
+        "translation": "אָנלאָד %s פּראָצענט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.canceled",
+        "source_string": "Download canceled",
+        "translation": "אָנלאָד אַנולירט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.downloading.complete",
+        "source_string": "Download complete",
+        "translation": "אָנלאָד אָפּגעטאָן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.start",
+        "source_string": "Import begun",
+        "translation": "אַרײַנפֿיר אָנגעהױבן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.Progress",
+        "source_string": "Importing %s percent",
+        "translation": "אַרײַנפֿיר %s פּראָצענט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.canceled",
+        "source_string": "Import canceled",
+        "translation": "אַרײַנפֿיר אַנולירט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.importing.complete",
+        "source_string": "Import complete",
+        "translation": "אַרײַנפֿיר אָפּגעטאָן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.signin.xbl",
+        "source_string": "Signing into X box live",
+        "translation": "אַרײַנשרײַבנדיק זיך אין Xbox Live",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.howtoopen",
+        "source_string": "Press %s to open chat",
+        "translation": "דריקט %s צו עפֿענען שמועס",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.howtoemote",
+        "source_string": "Press or Hold %s to Emote",
+        "translation": "דריקט אָדער האַלט %s צו רעאַגירן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.key.mouseButton",
+        "source_string": "Mouse Button %s",
+        "translation": "מײַזל־קנעפּל %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.key.gamepad",
+        "source_string": "Controller %s",
+        "translation": "קאָנטראָליר %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.two",
+        "source_string": "%s or %s",
+        "translation": "%s אָדער %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.first",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.inner",
+        "source_string": ", %s",
+        "translation": ", %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.three_or_more.last",
+        "source_string": ", or %s",
+        "translation": ", אָדער %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.tts.title",
+        "source_string": "Button",
+        "translation": "קנעפּל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.checkbox.tts.title",
+        "source_string": "Checkbox",
+        "translation": "פֿײגעלע־קעסטעלע",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.checkbox.tts.status",
+        "source_string": "status %s",
+        "translation": "סטאַטוס %s",
+        "context": "Status will be checked or unchecked",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.dropdown.tts.title",
+        "source_string": "Dropdown",
+        "translation": "אַראָפּצי־מעניו",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "בילד",
+        "context": "TTS spoken word for image types",
+        "labels": "unassigned, lang",
+        "max_length": 15
+    },
+    {
+        "identifier": "accessibility.screen.tts.title",
+        "source_string": "%s Screen",
+        "translation": "%s עקראַן",
+        "context": "%s will be replaced with the title of the screen (Example: Library Screen)",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.slider.tts.title",
+        "source_string": "Slider",
+        "translation": "קנאָפּ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.tab.tts.title",
+        "source_string": "Tab",
+        "translation": "אױערל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.textbox.tts.title",
+        "source_string": "Textbox",
+        "translation": "טעקסט־קעסטל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.toggle.tts.title",
+        "source_string": "Toggle",
+        "translation": "איבערשליסער",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.scrollbar.tts.title",
+        "source_string": "Scroll Bar",
+        "translation": "דורכבלעטערער",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.navigateLeft",
+        "source_string": "Left Arrow",
+        "translation": "לינקע פֿײַל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.navigateRight",
+        "source_string": "Right Arrow",
+        "translation": "רעכטע פֿײַל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.close",
+        "source_string": "close",
+        "translation": "פֿאַרמאַכן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.back",
+        "source_string": "back",
+        "translation": "צוריק",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.exit",
+        "source_string": "Exit",
+        "translation": "אַרױסגײען",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.filter",
+        "source_string": "Filter",
+        "translation": "פֿילטער",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.sort",
+        "source_string": "Sort",
+        "translation": "אױססאָרטירן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.survival.layout",
+        "source_string": "Inventory view",
+        "translation": "אינװענטאַר־בליק",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.recipebook.layout",
+        "source_string": "Recipe book and inventory view",
+        "translation": "רעצעפּט־ביכל און אינװענטאַר־בליק",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.button.creative.layout",
+        "source_string": "Recipe book view",
+        "translation": "רעצעפּט־ביכל בליק",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoin",
+        "source_string": "Minecoin",
+        "translation": "מײַנקױן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoins",
+        "source_string": "Minecoins",
+        "translation": "מײַנקױנס",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.fullprice",
+        "source_string": "Full Price %s Minecoins",
+        "translation": "גאַנץ פּרײַז %s מײַנקױנס",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.price",
+        "source_string": "Discounted Price %s Minecoins",
+        "translation": "פּרײַז מיט הנחה %s מײַנקױנס",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.percent",
+        "source_string": "%s percent discount",
+        "translation": "%s פּראָצענט הנחה",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.sectionName",
+        "source_string": "Section %s: ",
+        "translation": "אָפּטײל %s ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.on",
+        "source_string": ": on",
+        "translation": ": אָנגעשטעלט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.off",
+        "source_string": ": off",
+        "translation": "אָפּגעשטעלט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.store.offerDescription.share",
+        "source_string": "Share",
+        "translation": "מעלדן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.store.wishlist.button",
+        "source_string": "Wish List",
+        "translation": "הלװאַי־רשימה",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.index",
+        "source_string": " %s of %s",
+        "translation": " %s פֿון %s",
+        "context": "This is numbering, which number out of the total number of objects is available for interaction. Example: 1 of 3",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.slider.tts.percentValue",
+        "source_string": "%s percent",
+        "translation": "%s פּראָצענט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editWorld",
+        "source_string": "Edit World",
+        "translation": "רעדאַקטירן װעלט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editRealm",
+        "source_string": "Edit Realm",
+        "translation": "רעדאַקטירן Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editServer",
+        "source_string": "Edit Server",
+        "translation": "רעדאַקטירן צושטעלער",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.importWorld",
+        "source_string": "Import World",
+        "translation": "אַרײַנפֿירן װעלט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.leaveRealm",
+        "source_string": "Leave Realm",
+        "translation": "פֿאַרלאָזן Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.realmFeed",
+        "source_string": "Realm Feed",
+        "translation": "Realm-שטראָם",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.noNewPosts",
+        "source_string": "No new posts",
+        "translation": "נישט קײן נײַע מעלדונגען",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.singleNewPost",
+        "source_string": "1 new post",
+        "translation": "1 נײַע מעלדונג",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.multipleNewPosts",
+        "source_string": "%s new posts",
+        "translation": "%s נײַע מעלדונגען",
+        "context": "%s will be a number",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabLeft",
+        "source_string": "Press the %s to tab left",
+        "translation": "דריקט %s צו זען דאָס לינקע אױערל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabRight",
+        "source_string": "Press the %s to tab right",
+        "translation": "דריקט %s צו זען דאָס רעכטע אױערל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.legacyWorldsDelete",
+        "source_string": "Delete Legacy World",
+        "translation": "אױסמעקן ירושה־װעלט",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.uploadWorld",
+        "source_string": "Upload World",
+        "translation": "אַרױפֿלאָדן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.permissions",
+        "source_string": "Permissions",
+        "translation": "רשותן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.pause.profile",
+        "source_string": "Choose Profile",
+        "translation": "קלײַבן פּראָפֿיל",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.start.buttonHelper",
+        "source_string": "%s : %s",
+        "translation": "%s: %s",
+        "context": "Used for on-screen gamepad helpers (eg. \"Y Button : Change User\")",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chat",
+        "source_string": "Chat Screen",
+        "translation": "שמועס־עקראַן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.chatSettings",
+        "source_string": "Chat Settings Screen",
+        "translation": "שמועס־פֿיקסונגען עקראַן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.joinByIP",
+        "source_string": "Join by IP dialog",
+        "translation": "פֿאַראײניקן מיט IP Dialog",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.screenName.library",
+        "source_string": "Library Screen",
+        "translation": "ביבליאָטעק־עקראַן",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    }
+]
