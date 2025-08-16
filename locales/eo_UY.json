@@ -3202,7 +3202,7 @@
     {
         "identifier": "commands.ability.description",
         "source_string": "Sets a player's ability.",
-        "translation": "Determinas la kapablon de ludanto.",
+        "translation": "Determini la kapablon de ludanto.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3219,6 +3219,542 @@
         "identifier": "commands.ability.granted",
         "source_string": "The '%1$s' ability has been granted to you",
         "translation": "Vi ricevis la kapablon «%1$s»",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ability.revoked",
+        "source_string": "The '%1$s' ability has been revoked from you",
+        "translation": "Vi perdis la kapablon «%1$s»",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ability.success",
+        "source_string": "Ability has been updated",
+        "translation": "La kapablo ĝisdatiĝis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.alreadyHave",
+        "source_string": "Player %1$s already has achievement %2$s",
+        "translation": "La ludanto %1$s jam havas la atingon %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.description",
+        "source_string": "Gives or removes an achievement from a player.",
+        "translation": "Donas aŭ forigas atingon de ludanto.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.dontHave",
+        "source_string": "Player %1$s doesn't have achievement %2$s",
+        "translation": "La ludanto %1$s ne havas la atingon %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.give.success.all",
+        "source_string": "Successfully given all achievements to %1$s",
+        "translation": "La ludanto %1$s sukcese ricevis ĉiujn atingojn",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.give.success.one",
+        "source_string": "Successfully given %1$s the stat %2$s",
+        "translation": "La ludanto %1$s sukcese ricevis la statistikon %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.statTooLow",
+        "source_string": "Player %1$s does not have the stat %2$s",
+        "translation": "La ludanto %1$s ne havas la statistikon %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.take.success.all",
+        "source_string": "Successfully taken all achievements from %1$s",
+        "translation": "Ĉiuj atingoj de %1$s sukcese foriĝis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.take.success.one",
+        "source_string": "Successfully taken the stat %1$s from %2$s",
+        "translation": "La statistiko %1$s de %2$s sukcese foriĝis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.achievement.unknownAchievement",
+        "source_string": "Unknown achievement or statistic '%1$s'",
+        "translation": "Nekonataj atingo aŭ statistiko «%1$s»",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.attack.success",
+        "source_string": "Agent attack successful",
+        "translation": "Agento sukcesis ataki (ataki)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.attack.failed",
+        "source_string": "Agent failed to attack",
+        "translation": "Agento malsukcesis ataki (ataki)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.collect.success",
+        "source_string": "Agent collect successful",
+        "translation": "Agento sukcesis kolekti (collect)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.collect.failed",
+        "source_string": "Agent failed to collect",
+        "translation": "Agento malsukcesis kolekti (collect)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.createagent.success",
+        "source_string": "Created Agent",
+        "translation": "Agento kreiĝis (create)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.createagent.failed",
+        "source_string": "Unable to create Agent",
+        "translation": "Agento ne povis kreiĝi (create)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.destroy.success",
+        "source_string": "Agent destroyed a block",
+        "translation": "Agento detruis (destroy) blokon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.destroy.failed",
+        "source_string": "Agent destroy failed",
+        "translation": "Agento malsukcesis detrui (destroy)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detect.success",
+        "source_string": "Agent detect successful",
+        "translation": "Agento sukcesis detekti (detect)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detect.failed",
+        "source_string": "Agent failed to detect",
+        "translation": "Agento malsukcesis detekti (detect)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detectredstone.success",
+        "source_string": "Agent detectredstone successful",
+        "translation": "Agento sukcesis detekti Redstone'n (detectredstone)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.detectredstone.failed",
+        "source_string": "Agent failed to detectredstone",
+        "translation": "Agento malsukcesis detekti Redstone'n (detectredstone)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.drop.success",
+        "source_string": "Agent drop successful",
+        "translation": "Agento sukcesis faligi (drop)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.drop.failed",
+        "source_string": "Agent failed to drop",
+        "translation": "Agento malsukcesis faligi (drop)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.dropall.success",
+        "source_string": "Agent dropall successful",
+        "translation": "Agento sukcesis faligi ĉiujn (dropall)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.dropall.failed",
+        "source_string": "Agent failed to dropall",
+        "translation": "Agento malsukcesis faligi ĉiujn (dropall)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemcount.success",
+        "source_string": "Agent getitemcount successful",
+        "translation": "Agento sukcesis atingi la aĵnombron (getitemcount)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemcount.failed",
+        "source_string": "Agent failed to getitemcount",
+        "translation": "Agento malsukcesis atingi la aĵnombron (getitemcount)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemspace.success",
+        "source_string": "Agent getitemspace successful",
+        "translation": "Agento sukcesis atingi la aĵspacon (getitemspace)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemspace.failed",
+        "source_string": "Agent failed to getitemspace",
+        "translation": "Agento malsukcesis atinigi la aĵspacon (getitemspace)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemdetail.success",
+        "source_string": "Agent getitemdetail successful",
+        "translation": "Agento sukcesis atingi la aĵinformon (getitemdetail)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getitemdetail.failed",
+        "source_string": "Agent failed to getitemdetail",
+        "translation": "Agento malsukcesis atingi la aĵinformon (getitemdetail)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getposition.success",
+        "source_string": "Agent getposition successful",
+        "translation": "Agento sukcesis atingi la pozicion (getposition)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.getposition.failed",
+        "source_string": "Agent getposition failed",
+        "translation": "Agento malsukcesis atingi la pozicion (getposition)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.inspect.success",
+        "source_string": "Agent inspect successful",
+        "translation": "Agento sukcesis inspekti (inspect)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.inspect.failed",
+        "source_string": "Agent failed to inspect",
+        "translation": "Agento malsukcesis inspekti (inspect)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.inspectdata.success",
+        "source_string": "Agent inspect data successful",
+        "translation": "Agento sukcesis inspekti la datumon (inspectdata)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.inspectdata.failed",
+        "source_string": "Agent failed to inspect data",
+        "translation": "Agento malsukcesis inspekti la datumon (inspectdata)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.move.success",
+        "source_string": "Agent move successful",
+        "translation": "Agento sukcesis moviĝi (move)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.move.failed",
+        "source_string": "Unable to move Agent",
+        "translation": "Agento ne povis moviĝi (move)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.outofrange",
+        "source_string": "Cannot issue command, Agent is out of range",
+        "translation": "La komando ne sendeblas, Agento estas tro malproksima",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.place.success",
+        "source_string": "Agent place successful",
+        "translation": "Agento sukcesis meti (place)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.place.failed",
+        "source_string": "Agent failed to place",
+        "translation": "Agento malsukcesis meti (place)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.setitem.success",
+        "source_string": "Agent set item successful",
+        "translation": "Agento sukcesis meti aĵon (setitem)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.setitem.failed",
+        "source_string": "Agent failed to set item",
+        "translation": "Agento malsukcesis meti aĵon (setitem)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.turn.success",
+        "source_string": "Agent turn successful",
+        "translation": "Agento sukcesis turniĝi (turn)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.turn.failed",
+        "source_string": "Unable to turn Agent",
+        "translation": "Agento malsukcesis turniĝi (turn)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.till.success",
+        "source_string": "Agent till successful",
+        "translation": "Agento sukcesis sarki (till)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.till.failed",
+        "source_string": "Agent failed to till",
+        "translation": "Agento malsukcesis sarki (till)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.tpagent.description",
+        "source_string": "Teleport your Agent.",
+        "translation": "Teleporti vian Agenton.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.tpagent.success",
+        "source_string": "Agent teleported",
+        "translation": "Agento sukcesis teleportiĝi (tp)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.tpagent.failed",
+        "source_string": "Agent failed to teleport",
+        "translation": "Agento malsukcesis teleportiĝi (tp)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.transfer.success",
+        "source_string": "Agent transfer successful",
+        "translation": "Agento sukcesis transporti (transfer)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.agent.transfer.failed",
+        "source_string": "Agent failed to transfer",
+        "translation": "Agento malsukcesis transporti (transfer)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.description",
+        "source_string": "Enable Aim Assist",
+        "translation": "Ebligi celhelpilon.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.invalidxangle",
+        "source_string": "Aim assist X angle must be between 10 and 90",
+        "translation": "Angulo X de la celhelpilo devas esti inter 10 kaj 90",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.invalidyangle",
+        "source_string": "Aim assist Y angle must be between 10 and 90",
+        "translation": "Angulo Y de la celhelpilo devas esti inter 10 kaj 90",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.invaliddistance",
+        "source_string": "Aim assist distance must be between 1 and 16",
+        "translation": "Distanco de la celhelpilo devas esti inter 1 kaj 16",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.success",
+        "source_string": "Applied aim assist settings to the following players: %s",
+        "translation": "Agordoj de la celhelpilo aplikiĝis al la jenaj ludantoj: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.error.invalidNamespace",
+        "source_string": "Invalid aim assist preset name. Preset name should be in the format \"namespace:name\" or \"name\" (defaults to \"minecraft\" namespace)",
+        "translation": "Nevalida antaŭagorda nomo de celhelpilo. La antaŭagorda nomo devas akordi kun la aranĝo «namespace:name» aŭ «name» (defaŭlta nomspaco estas «minecraft»)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.error.unknownPreset",
+        "source_string": "Unknown aim assist preset name",
+        "translation": "Nekonata antaŭagorda nomo de celhelpilo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.aimassist.unsupportedCameraType",
+        "source_string": "Target player's camera type does not support aim assist: %s",
+        "translation": "Kameratipo de la celita ludanto ne subtenas celhelpilon: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.always.day",
+        "source_string": "Day-Night cycle %1$s",
+        "translation": "Tagnokta ciklo %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.always.day.locked",
+        "source_string": "Day-Night cycle locked",
+        "translation": "Tagnokta ciklo ŝlosita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.always.day.unlocked",
+        "source_string": "Day-Night cycle unlocked",
+        "translation": "Tagnokta ciklo malŝlosita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ban.description",
+        "source_string": "Adds player to banlist.",
+        "translation": "Aldoni ludanton al la forbar-listo.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3280,6 +3816,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.ban.failed",
+        "source_string": "Could not ban player %1$s",
+        "translation": "La ludanto %1$s ne povis esti forbarita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.ban.success",
         "source_string": "Banned player %1$s",
         "translation": "La ludanto %1$s estas forbarita",
@@ -3291,6 +3835,14 @@
         "identifier": "commands.banip.description",
         "source_string": "Adds IP address to banlist.",
         "translation": "Tio aldonas IP-adreson al la forbar-listo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.banip.invalid",
+        "source_string": "You have entered an invalid IP address or a player that is not online",
+        "translation": "Vi enigis nevalidan IP-adreson aŭ ludanton, kiu ne estas enreta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3323,6 +3875,102 @@
         "identifier": "commands.banlist.players",
         "source_string": "There are %1$d total banned players:",
         "translation": "Estas %1$d forbaritaj ludantoj:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.description",
+        "source_string": "Modifies the data tag of a block.",
+        "translation": "Modifi la datuman etikedon de bloko.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.placeFailed",
+        "source_string": "You cannot place blocks here",
+        "translation": "Vi ne povas meti blokojn ĉi tie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.destroyFailed",
+        "source_string": "You cannot dig here",
+        "translation": "Vi ne povas fosi ĉi tie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.failed",
+        "source_string": "The data tag did not change: %1$s",
+        "translation": "La datuma etikedo ne ŝanĝiĝis: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.notValid",
+        "source_string": "The target block is not a data holder block",
+        "translation": "La celita bloko ne povas teni datumon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.outOfWorld",
+        "source_string": "Cannot change block outside of the world",
+        "translation": "Ne eblas ŝanĝi blokon, kiu estas ekster la mondo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.success",
+        "source_string": "Block data updated to: %1$s",
+        "translation": "Bloka datumo ĝisdatiĝis al: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockdata.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "La analizo de la datuma etikedo malsukcesis: %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.invalidState",
+        "source_string": "'%1$s' is not a valid Block State.",
+        "translation": "«%1$s» ne estas valida bloka stato.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.stateError",
+        "source_string": "Block State: '%1$s' is invalid on Block: '%2$s'.",
+        "translation": "Bloka stato: «%1$s» ne estas valida por bloko: «%2$s».",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.typeError",
+        "source_string": "Invalid value type for Block State: '%1$s'.",
+        "translation": "Nevalida valora tipo por bloka stato: «%1$s».",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.blockstate.valueError",
+        "source_string": "Invalid value for Block State: '%1$s'.",
+        "translation": "Nevalida valoro por la bloka stato: «%1$s».",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3387,6 +4035,158 @@
         "identifier": "course.edu.join",
         "source_string": "Join",
         "translation": "Aliĝi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_january",
+        "source_string": "Jan",
+        "translation": "jan.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_february",
+        "source_string": "Feb",
+        "translation": "feb.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_march",
+        "source_string": "Mar",
+        "translation": "mar.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_april",
+        "source_string": "Apr",
+        "translation": "apr.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_may",
+        "source_string": "May",
+        "translation": "maj.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_june",
+        "source_string": "Jun",
+        "translation": "jun.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_july",
+        "source_string": "Jul",
+        "translation": "jul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_august",
+        "source_string": "Aug",
+        "translation": "aŭg.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_september",
+        "source_string": "Sep",
+        "translation": "sep.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_october",
+        "source_string": "Oct",
+        "translation": "okt.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_november",
+        "source_string": "Nov",
+        "translation": "nov.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.short_december",
+        "source_string": "Dec",
+        "translation": "dec.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formatted",
+        "source_string": "%s %d %d",
+        "translation": "%s %d %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formatted_alt",
+        "source_string": "%d %s %d",
+        "translation": "%d %s %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formattedSpecific",
+        "source_string": "%s at %s",
+        "translation": "%s je %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formattedSpecific.today",
+        "source_string": "Today at %s",
+        "translation": "Hodiaŭ je %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formattedSpecific.yesterday",
+        "source_string": "Yesterday at %s",
+        "translation": "Hieraŭ je %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formattedTimeAM",
+        "source_string": "%1$s:%2$sam",
+        "translation": "%1$s:%2$s atm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.formattedTimePm",
+        "source_string": "%1$s:%2$spm",
+        "translation": "%1$s:%2$s ptm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3483,6 +4283,142 @@
         "identifier": "date.full_december",
         "source_string": "December",
         "translation": "Decembro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.daysAbbreviated3Char",
+        "source_string": "%sd",
+        "translation": "%stag",
+        "context": "It needs to be abbreviated with no more than 3 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.hoursAbbreviated3Char",
+        "source_string": "%shr",
+        "translation": "%shor",
+        "context": "It needs to be abbreviated with no more than 3 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.minutesAbbreviated3Char",
+        "source_string": "%smin",
+        "translation": "%smin",
+        "context": "It needs to be abbreviated with no more than 3 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.secondsAbbreviated3Char",
+        "source_string": "%ssec",
+        "translation": "%ssek",
+        "context": "It needs to be abbreviated with no more than 3 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.daysAbbreviated1Char",
+        "source_string": "%sd",
+        "translation": "%st",
+        "context": "It needs to be abbreviated with no more than 1 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.hoursAbbreviated1Char",
+        "source_string": "%sh",
+        "translation": "%sh",
+        "context": "It needs to be abbreviated with no more than 1 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.minutesAbbreviated1Char",
+        "source_string": "%sm",
+        "translation": "%sm",
+        "context": "It needs to be abbreviated with no more than 1 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.secondsAbbreviated1Char",
+        "source_string": "%ss",
+        "translation": "%ss",
+        "context": "It needs to be abbreviated with no more than 1 characters",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.daysPlural",
+        "source_string": "%s days",
+        "translation": "%s tagoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.hoursPlural",
+        "source_string": "%s hours",
+        "translation": "%s horoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.minutesPlural",
+        "source_string": "%s minutes",
+        "translation": "%s minutoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.secondsPlural",
+        "source_string": "%s seconds",
+        "translation": "%s sekundoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.daySingular",
+        "source_string": "%s day",
+        "translation": "%s tago",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.hourSingular",
+        "source_string": "%s hour",
+        "translation": "%s horo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.minuteSingular",
+        "source_string": "%s minute",
+        "translation": "%s minuto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.secondSingular",
+        "source_string": "%s second",
+        "translation": "%s sekundo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "date.timeLeft",
+        "source_string": "%s left",
+        "translation": "%s restas",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3800,6 +4736,54 @@
         "max_length": null
     },
     {
+        "identifier": "gameMode.adventure",
+        "source_string": "Adventure Mode",
+        "translation": "Aventura reĝimo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.changed",
+        "source_string": "Your game mode has been updated to %s",
+        "translation": "Via ludreĝimo estis ŝanĝita al %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.creative",
+        "source_string": "Creative Mode",
+        "translation": "Krea reĝimo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.hardcore",
+        "source_string": "Hardcore Mode!",
+        "translation": "Malfacilega reĝimo!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.spectator",
+        "source_string": "Spectator Mode",
+        "translation": "Observa reĝimo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.survival",
+        "source_string": "Survival Mode",
+        "translation": "Traviva reĝimo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gui.done",
         "source_string": "Done",
         "translation": "Prete",
@@ -3883,6 +4867,14 @@
         "identifier": "howtoplay.weapons.header.3",
         "source_string": "Crossbow",
         "translation": "Arbalesto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "inventory.binSlot",
+        "source_string": "Destroy Item",
+        "translation": "Detrui aĵon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4744,6 +5736,30 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.search",
+        "source_string": "Search Items",
+        "translation": "Serĉi aĵojn",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.planks",
+        "source_string": "Planks",
+        "translation": "Tabularoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.walls",
+        "source_string": "Walls",
+        "translation": "Muroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.fence",
         "source_string": "Fences",
         "translation": "Bariloj",
@@ -4760,6 +5776,294 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.stairs",
+        "source_string": "Stairs",
+        "translation": "Ŝtuparoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.door",
+        "source_string": "Doors",
+        "translation": "Pordoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glass",
+        "source_string": "Glass",
+        "translation": "Vitro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glassPane",
+        "source_string": "Glass Panes",
+        "translation": "Glacoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.permission",
+        "source_string": "Permission Blocks",
+        "translation": "Permesblokoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.slab",
+        "source_string": "Slabs",
+        "translation": "Ŝtupoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stoneBrick",
+        "source_string": "Decorative Stone",
+        "translation": "Ornama ŝtono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sandstone",
+        "source_string": "Sandstone",
+        "translation": "Sabloŝtono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.wool",
+        "source_string": "Wool",
+        "translation": "Lano",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.woolCarpet",
+        "source_string": "Wool Carpet",
+        "translation": "Lanaj tapiŝoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concretePowder",
+        "source_string": "Concrete Powder",
+        "translation": "Cemento",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concrete",
+        "source_string": "Concrete",
+        "translation": "Konkreto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stainedClay",
+        "source_string": "Terracotta",
+        "translation": "Terakoto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glazedTerracotta",
+        "source_string": "Glazed Terracottas",
+        "translation": "Glazurita terakoto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.dye",
+        "source_string": "Dyes",
+        "translation": "Tinkturoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.ore",
+        "source_string": "Ores",
+        "translation": "Ercoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stone",
+        "source_string": "Stone",
+        "translation": "Ŝtono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.log",
+        "source_string": "Logs",
+        "translation": "Ŝtipoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.leaves",
+        "source_string": "Leaves",
+        "translation": "Foliaroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sapling",
+        "source_string": "Saplings",
+        "translation": "Arbidoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.seed",
+        "source_string": "Seeds",
+        "translation": "Semoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.crop",
+        "source_string": "Crops",
+        "translation": "Kultivaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.grass",
+        "source_string": "Ground Cover",
+        "translation": "Grundkovrantoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.flower",
+        "source_string": "Flowers",
+        "translation": "Floroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rawFood",
+        "source_string": "Raw Food",
+        "translation": "Krudaj manĝaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.cookedFood",
+        "source_string": "Cooked Food",
+        "translation": "Kuiritaj manĝaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.miscFood",
+        "source_string": "Miscellaneous Foods",
+        "translation": "Kromaj manĝaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.mushroom",
+        "source_string": "Mushrooms",
+        "translation": "Fungoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.monsterStoneEgg",
+        "source_string": "Infested Stone",
+        "translation": "Infestita ŝtono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.mobEgg",
+        "source_string": "Mob Eggs",
+        "translation": "Aperigovoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.helmet",
+        "source_string": "Helmets",
+        "translation": "Kaskoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestplate",
+        "source_string": "Chestplates",
+        "translation": "Kirasoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.leggings",
+        "source_string": "Leggings",
+        "translation": "Kruringoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.boots",
+        "source_string": "Boots",
+        "translation": "Botoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.horseArmor",
+        "source_string": "Horse Armor",
+        "translation": "Ĉevalaj armaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sword",
+        "source_string": "Swords",
+        "translation": "Glavoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.axe",
         "source_string": "Axes",
         "translation": "Hakiloj",
@@ -4771,6 +6075,294 @@
         "identifier": "itemGroup.name.pickaxe",
         "source_string": "Pickaxes",
         "translation": "Pioĉoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.shovel",
+        "source_string": "Shovels",
+        "translation": "Fosiloj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.hoe",
+        "source_string": "Hoes",
+        "translation": "Sarkiloj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.arrow",
+        "source_string": "Arrows",
+        "translation": "Sagoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.potion",
+        "source_string": "Potions",
+        "translation": "Eliksiroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.splashPotion",
+        "source_string": "Splash Potions",
+        "translation": "Ŝprucaj eliksiroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.lingeringPotion",
+        "source_string": "Lingering Potions",
+        "translation": "Restaj eliksiroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.ominousBottle",
+        "source_string": "Ominous Bottles",
+        "translation": "Makabraj boteloj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.bed",
+        "source_string": "Beds",
+        "translation": "Litoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chalkboard",
+        "source_string": "Chalkboards",
+        "translation": "Kretotabuloj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.anvil",
+        "source_string": "Anvils",
+        "translation": "Ambosoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chest",
+        "source_string": "Chests",
+        "translation": "Kofroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.shulkerBox",
+        "source_string": "Shulker Boxes",
+        "translation": "Shulkerskatoloj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.record",
+        "source_string": "Records",
+        "translation": "Sondiskoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.skull",
+        "source_string": "Mob Skulls",
+        "translation": "Mobaj kranioj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.boat",
+        "source_string": "Boats",
+        "translation": "Boatoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestboat",
+        "source_string": "Boats with Chest",
+        "translation": "Boatoj kun kofro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rail",
+        "source_string": "Rails",
+        "translation": "Reloj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.minecart",
+        "source_string": "Minecarts",
+        "translation": "Vagonetoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.pressurePlate",
+        "source_string": "Pressure Plates",
+        "translation": "Premplatoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.trapdoor",
+        "source_string": "Trapdoors",
+        "translation": "Klappordoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.enchantedBook",
+        "source_string": "Enchanted Books",
+        "translation": "Sorĉitaj libroj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner",
+        "source_string": "Banners",
+        "translation": "Standardoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.firework",
+        "source_string": "Fireworks",
+        "translation": "Artfajraĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.fireworkStars",
+        "source_string": "Firework Charges",
+        "translation": "Artfajraĵaj ŝargoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.coral",
+        "source_string": "Coral Blocks",
+        "translation": "Koralaj blokoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.coral_decorations",
+        "source_string": "Coral Decorations",
+        "translation": "Koralaj ornamaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.buttons",
+        "source_string": "Buttons",
+        "translation": "Butonoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sign",
+        "source_string": "Signs",
+        "translation": "Ŝildeto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.wood",
+        "source_string": "Woods",
+        "translation": "Ligno",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner_pattern",
+        "source_string": "Banner Patterns",
+        "translation": "Standardaj ŝablonoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.netherWartBlock",
+        "source_string": "Nether Warts",
+        "translation": "Netheraj verukoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.candles",
+        "source_string": "Candles",
+        "translation": "Kandeloj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.goatHorn",
+        "source_string": "Goat Horns",
+        "translation": "Kapraj kornoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.compounds",
+        "source_string": "Compounds",
+        "translation": "Kombinaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.products",
+        "source_string": "Products",
+        "translation": "Produktoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.bundles",
+        "source_string": "Bundles",
+        "translation": "Sakoj",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5096,6 +6688,238 @@
         "max_length": null
     },
     {
+        "identifier": "profileScreen.header",
+        "source_string": "Dressing Room",
+        "translation": "Vestejo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.reload",
+        "source_string": "Reload",
+        "translation": "Reŝargi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.manage_button_text",
+        "source_string": "Edit Character",
+        "translation": "Redakti personon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.manage_button_text_skin",
+        "source_string": "Change Classic Skin",
+        "translation": "Ŝanĝi klasikan haŭton",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.manage_button_create_text",
+        "source_string": "Create Character",
+        "translation": "Krei personon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.selectPrebuiltCharacter",
+        "source_string": "Select From Character List",
+        "translation": "Elekti el persona listo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.create_persona_confirm_skin",
+        "source_string": "Create Classic Skin",
+        "translation": "Krei klasikan haŭton",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.delete_button",
+        "source_string": "Delete Character",
+        "translation": "Forigi personon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.settings_button",
+        "source_string": "Game Settings",
+        "translation": "Ludaj agordoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.differences_information_button",
+        "source_string": "Differences between Character Creator and Classic Skins",
+        "translation": "Diferencoj inter la persona kreilo kaj klasikaj haŭtoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.differences_character_creator_title",
+        "source_string": "Character",
+        "translation": "Persono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.create_persona_character_details",
+        "source_string": "You make a custom character in Minecraft item by item.",
+        "translation": "Vi faras propran personon en Minecraft aĵon post aĵo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.difference_character_creator_description",
+        "source_string": "Create a custom character in Minecraft piece by piece. Personalize your character's body, eyes, mouth, hairstyles, clothing, and more!",
+        "translation": "Kreu propran personon en Minecraft pecon post peco. Tajloru la korpon, okulojn, buŝon, hararanĝojn, vestaĵojn, ktp. de via persono!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.differences_classic_skin_title",
+        "source_string": "Classic Skin",
+        "translation": "Klasika haŭto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.difference_classic_skin_description",
+        "source_string": "A full body skin that is placed on the character. Classic skins cannot be modified piece by piece. You can also import your own full body skin that you created or downloaded.",
+        "translation": "Tutkorpa haŭto, kiun la persono surportas. Klasikaj haŭtoj ne povas modifiĝi pecon post peco. Vi ankaŭ povas importi vian propran tutkorpan haŭton, kiun vi kreis aŭ elŝutis.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.create_persona_classic_skin_details",
+        "source_string": "A whole-body skin texture that is placed onto a character.",
+        "translation": "Tutkorpa haŭto, kiun la persono surportas.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "profileScreen.create_persona_title",
+        "source_string": "Select the Type",
+        "translation": "Elekti la tipon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.csb.see.subscription",
+        "source_string": "In Pass",
+        "translation": "En la Pass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.slim.title",
+        "source_string": "narrow",
+        "translation": "mallarĝa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.wide.title",
+        "source_string": "wide",
+        "translation": "larĝa",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.smaller.title",
+        "source_string": "smaller",
+        "translation": "malgrandega",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.small.title",
+        "source_string": "small",
+        "translation": "malgranda",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.medium.title",
+        "source_string": "medium",
+        "translation": "meza",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.tall.title",
+        "source_string": "tall",
+        "translation": "alta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.realms.see.subscription",
+        "source_string": "In Realms Plus",
+        "translation": "En Realms Plus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.realms.savings",
+        "source_string": "You save %s minecoins with your Realms Plus subscription!",
+        "translation": "Vi savos %s minecoin-ojn per via abono de Realms Plus!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.csb.savings",
+        "source_string": "You save %s minecoins with your Marketplace Pass subscription!",
+        "translation": "Vi savos %s minecoin-ojn per via abono de Marketplace Pass!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "record.nowPlaying",
+        "source_string": "Now playing: %s",
+        "translation": "Nun ludas: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sculk",
+        "source_string": "Sculk",
+        "translation": "Sculk",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.mud_brick_double_slab",
         "source_string": "Mud Brick Double Slab",
         "translation": "Fangobrika duobla ŝtupo",
@@ -5123,6 +6947,30 @@
         "identifier": "item.skull.piglin.name",
         "source_string": "Piglin Head",
         "translation": "Kapo de Piglin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.hanging_sign",
+        "source_string": "Hanging Signs",
+        "translation": "Elpendaĵoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.potterySherds",
+        "source_string": "Pottery Sherds",
+        "translation": "Potpecoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.smithing_templates",
+        "source_string": "Smithing Templates",
+        "translation": "Forĝaj ŝablonoj",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5731,6 +7579,54 @@
         "identifier": "tile.raw_iron_block.name",
         "source_string": "Block of Raw Iron",
         "translation": "Krudfera bloko",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.copper",
+        "source_string": "Copper",
+        "translation": "Kupro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.festivemashup2016.name",
+        "source_string": "Festive Mash-up 2016",
+        "translation": "Festa diverspako de 2016",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.redstonemansion.name",
+        "source_string": "Redstone Mansion",
+        "translation": "Redstone'a domego",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.chinesemythology.name",
+        "source_string": "Chinese Mythology Mash-up",
+        "translation": "Diverspako de ĉina mitologio",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.GreekMythology.name",
+        "source_string": "Greek Mythology Mash-up",
+        "translation": "Diverspako de greka mitologio",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.Skyrim.name",
+        "source_string": "Skyrim Mash-up",
+        "translation": "Diverspako de Skyrim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
