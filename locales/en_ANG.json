@@ -3338,7 +3338,7 @@
     {
         "identifier": "authentication.store.viewPrivacyPolicy",
         "source_string": "Privacy Policy",
-        "translation": "Sunderly Thew",
+        "translation": "Sundriness Thew",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6080,6 +6080,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.message.sameTarget",
+        "source_string": "You can't send a private message to yourself!",
+        "translation": "You can't send a sundry writ to yourself!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.mobevent.description",
         "source_string": "Controls what mob events are allowed to run.",
         "translation": "Wields what wight befallings are aleaved to run.",
@@ -6348,6 +6356,14 @@
         "source_string": "Removed tag '%1$s' from %2$s",
         "translation": "Fornimmed token '%1$s' from %2$s",
         "context": "1: Tag string, 2: Entity/Player/Item name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tell.description",
+        "source_string": "Sends a private message to one or more players.",
+        "translation": "Sends a sundry writ to one or more players.",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7256,6 +7272,22 @@
         "max_length": null
     },
     {
+        "identifier": "realmsCreateScreen.viewPrivacyPolicy",
+        "source_string": "View Privacy Policy",
+        "translation": "See Sundriness Thew",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsCreateScreen.viewPrivacyPolicyText",
+        "source_string": "To view the privacy policy for Minecraft Realms, please visit https://aka.ms/mcprivacy in any web browser.",
+        "translation": "To see the sundriness thew for Minecraft Realms, kindly go to https://aka.ms/mcprivacy in any web browser.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "realmsCreateScreen.playNowMessage1",
         "source_string": "You can invite friends to your Realm and start playing now.",
         "translation": "You can lathe friends to your Realm and start playing now.",
@@ -7264,9 +7296,25 @@
         "max_length": null
     },
     {
+        "identifier": "realmsWorld.realmsDescription",
+        "source_string": "Realms are private Minecraft worlds that are always available for you and your friends.",
+        "translation": "Realms are sundry Minecraft worlds that are always forthcoming for you and your friends.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "csbCreateScreen.popupTitle",
         "source_string": "Marketplace Pass",
         "translation": "Chapstow Path",
+        "context": "{StrContains=\"Marketplace Pass\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "csbCreateScreen.viewPrivacyPolicyText",
+        "source_string": "To view the privacy policy for Marketplace Pass, please visit https://aka.ms/mcprivacy in any web browser.",
+        "translation": "To see the sundriness thew for Chapstow Path, kindly go to https://aka.ms/mcprivacy in any web browser.",
         "context": "{StrContains=\"Marketplace Pass\"}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -27744,6 +27792,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.xboxLive.privacyControl",
+        "source_string": "Privacy & online safety",
+        "translation": "Sundriness & onweb soundness",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.notificationDuration.Toast",
         "source_string": "Toast notification duration",
         "translation": "Pop-up heedening time",
@@ -27876,6 +27932,14 @@
         "source_string": "Update and play",
         "translation": "Anwarden and play",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.managePrivacy",
+        "source_string": "To manage privacy settings, please visit https://account.xbox.com/Settings in any web browser.",
+        "translation": "To handle sundriness settings, kindly go to https://account.xbox.com/Settings in any web browser.",
+        "context": "disable_3rd_party_console_resource_pack_check",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -30170,7 +30234,7 @@
     {
         "identifier": "store.realmsPlus.buyNow.viewPrivacyPolicy",
         "source_string": "PRIVACY POLICY",
-        "translation": "SUNDERLY THEW",
+        "translation": "SUNDRINESS THEW",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30396,6 +30460,14 @@
         "source_string": "Marketplace Pass",
         "translation": "Chapstow Path",
         "context": "{StrContains=\"Marketplace Pass\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.csb.buyNow.viewPrivacyPolicy",
+        "source_string": "PRIVACY POLICY",
+        "translation": "SUNDRINESS THEW",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -39040,6 +39112,22 @@
         "max_length": null
     },
     {
+        "identifier": "typeface.mojangles",
+        "source_string": "Mojangles",
+        "translation": "Mojangles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "typeface.notoSans",
+        "source_string": "Noto Sans",
+        "translation": "Noto Sans",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "worldError.IO",
         "source_string": "can't be opened.",
         "translation": "can't be opened.",
@@ -39184,6 +39272,38 @@
         "max_length": null
     },
     {
+        "identifier": "trial.upsell.expiredDescription.line2",
+        "source_string": "-Explore limitless worlds",
+        "translation": "-Seek boundless worlds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.upsell.expiredDescription.line3",
+        "source_string": "-Play with your friends",
+        "translation": "-Play with your friends",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.upsell.expiredDescription.line4",
+        "source_string": "-Craft hundreds of items",
+        "translation": "-Craft hundreds of things",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.upsell.expiredDescription.line5",
+        "source_string": "-Discover mysterious structures and realms",
+        "translation": "-Find rowny frameworks and worlds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.upsell.expiredTitle",
         "source_string": "Time's Up!",
         "translation": "Time's Up!",
@@ -39219,6 +39339,14 @@
         "identifier": "trial.tabbed_upsell.button",
         "source_string": "Buy Minecraft!",
         "translation": "Buy Minecraft!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.buttonAlternate",
+        "source_string": "Unlock Minecraft Full Game",
+        "translation": "Unlock Minecraft Full Game",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39283,6 +39411,14 @@
         "identifier": "trial.tabbed_upsell.store.description",
         "source_string": "Get access to Minecraft Marketplace, our in-game store. Switch up your look with new skins, change your world, or explore incredible new maps from the best community creators! Get the full game today!",
         "translation": "Reach Minecraft Chapstow, our in-game stow. Switch up your look with new hides, wend your world, or seek awesome new draughts from the best fellowship makers! Reap the full game today!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.creative.title",
+        "source_string": "CREATIVE",
+        "translation": "MAKERLY",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39624,6 +39760,14 @@
         "max_length": null
     },
     {
+        "identifier": "autosave.title",
+        "source_string": "Autosave",
+        "translation": "Selfkeep",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "xbox.signin.error.pocket.line2",
         "source_string": "#empty#",
         "translation": "#",
@@ -39675,6 +39819,118 @@
         "identifier": "xbox.genericsignin.line2",
         "source_string": "It's FREE!",
         "translation": "It's FREE!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.genericsignin.line3",
+        "source_string": "You can use it anywhere you play Minecraft.",
+        "translation": "You can brook it anywhere you play Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.disconectionscreen.multiplayerNotAllowed",
+        "source_string": "This Microsoft account does not have permission to join multiplayer games.",
+        "translation": "This Microsoft reckoning does not have thaving to fay maniplayer games.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.disconectionscreen.accessDenied",
+        "source_string": "You must be friends with someone in this game in order to join.",
+        "translation": "You must be friends with someone in this game so as to fay.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.addFriend",
+        "source_string": "Add Friend",
+        "translation": "Eke Friend",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.addFriend.success",
+        "source_string": "Success! %s was added to your friend list.",
+        "translation": "Speed! %s was eked to your friend list.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.block",
+        "source_string": "Block",
+        "translation": "Dit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.currentlyPlaying",
+        "source_string": "Currently playing %s",
+        "translation": "Anwardly playing %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.favorite",
+        "source_string": "Favorite",
+        "translation": "Fondest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.favoriteHelperText",
+        "source_string": "Favorite friends go first on your friends list. You'll see when they go online or start broadcasting.",
+        "translation": "Fondest friends go first on your friends list. You'll see when hie go onweb or start broadcasting.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.friend",
+        "source_string": "Friend",
+        "translation": "Friend",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.friendHelperText",
+        "source_string": "Follow %s. After you both are friends, you can invite them to your game.",
+        "translation": "Follow %s. After you both are friends, you can lathe hem to your game.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.mute",
+        "source_string": "Mute",
+        "translation": "Deaden",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.realName",
+        "source_string": "Manage your privacy settings for sharing your real name in the Xbox app.",
+        "translation": "Handle your sundriness settings for sharing your true name in the Xbox bearing.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.profile.removeFriend",
+        "source_string": "Unfriend",
+        "translation": "Unfriend",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39808,9 +40064,25 @@
         "max_length": null
     },
     {
+        "identifier": "xbox.report.illegalDrugs",
+        "source_string": "Illegal drugs or activities",
+        "translation": "Unlawful drenches or deeds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "xbox.report.impersonatingStaff",
         "source_string": "Impersonating staff, Player Support, or Community representatives",
         "translation": "Makebelieving as staff, Player Upholding, or Fellowship spokesmen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.inGameTrolling",
+        "source_string": "In-Game Trolling & Spamming",
+        "translation": "In-Game Pratting & Overchatting",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39843,6 +40115,14 @@
         "identifier": "xbox.report.obsceneLanguage",
         "source_string": "Obscene or Vulgar language",
         "translation": "Smutty or Foul tongue",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.postLinkToInappropriateContent",
+        "source_string": "Posting links to inappropriate content or malicious software",
+        "translation": "Posting links to unseemly inholding or inwidful software",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39928,6 +40208,14 @@
         "max_length": null
     },
     {
+        "identifier": "xbox.report.childSexualExploitationGrooming",
+        "source_string": "Child Sexual Exploitation Grooming",
+        "translation": "Child Heamedy Misbidding Grooming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "xbox.report.controversial",
         "source_string": "Controversial Topic",
         "translation": "Withermood Antimber",
@@ -39955,6 +40243,14 @@
         "identifier": "xbox.report.defamation",
         "source_string": "Defamation, Impersonation, False Information",
         "translation": "Shending, Misleading and Untrue Abreasting",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.drugs",
+        "source_string": "Drugs",
+        "translation": "Drenches",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40016,6 +40312,22 @@
         "max_length": null
     },
     {
+        "identifier": "xbox.report.voiceCommunication",
+        "source_string": "Voice communication",
+        "translation": "Mingling by reard",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.statistics.timePlayed",
+        "source_string": "Time played",
+        "translation": "Time played",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "xbox.statistics.blocksBroken",
         "source_string": "Blocks broken",
         "translation": "Clots broken",
@@ -40024,9 +40336,105 @@
         "max_length": null
     },
     {
+        "identifier": "xbox.statistics.distanceTravelled",
+        "source_string": "Distance traveled",
+        "translation": "Length fared",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "xbox.statistics.mobsDefeated",
         "source_string": "Mobs defeated",
         "translation": "Wights slain",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "safety.bannedSkin.button",
+        "source_string": "Learn More",
+        "translation": "Learn More",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "safety.bannedSkin.continue",
+        "source_string": "Continue with default skin",
+        "translation": "Go on with stock hide",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "safety.bannedSkin",
+        "source_string": "Your current skin violates our Community Standards. Please select a different skin to join a multiplayer game. Click \"%s\" to view our Community Standards or submit a case review for your current skin.",
+        "translation": "Your anward hide goes ayenst our Fellowship Steer. Kindly choose a sunder hide to fay a maniplayer game. Click \"%s\" to see our Fellowship Steer or yeave a mield edlook for your anward hide.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "platform.model.unknown",
+        "source_string": "UNKNOWN",
+        "translation": "UNKNOWN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "packdiscoveryerror.manifest_pack_error",
+        "source_string": "Unable to open pack.",
+        "translation": "Could not open pack.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "packdiscoveryerror.incomplete_pack",
+        "source_string": "Incomplete pack.",
+        "translation": "Underdone pack.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.authors.label",
+        "source_string": "Author: %s",
+        "translation": "Booker: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.authors.none",
+        "source_string": "Unknown",
+        "translation": "Unknown",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.title",
+        "source_string": "Pack Info",
+        "translation": "Pack Abrst",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.delete.confirm_delete",
+        "source_string": "Delete",
+        "translation": "Adwash",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.delete.confirm_goBack",
+        "source_string": "Go Back",
+        "translation": "Go Back",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40963,6 +41371,14 @@
         "identifier": "client.version.1.11",
         "source_string": "Village & Pillage (%s)",
         "translation": "Thorps & Thorns (%s)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "cloud_upload.button.privacy_statement",
+        "source_string": "Privacy Statement",
+        "translation": "Sundriness Uttering",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44568,6 +44984,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.privacyAndSafety",
+        "source_string": "Privacy and online safety",
+        "translation": "Sundriness and onweb soundness",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerOptionsModal.report",
         "source_string": "Report",
         "translation": "Mield",
@@ -45456,9 +45880,89 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PrivacyAndOnlineSafetyModal.buttonAction",
+        "source_string": "Open Realms safety website",
+        "translation": "Open Realms soundness webstead",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetyModal.externalLinkText",
+        "source_string": "Help me fix this",
+        "translation": "Help me fettle this",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetyModal.fromOnlineSafety",
+        "source_string": "From online safety:",
+        "translation": "From onweb soundness:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetyModal.header",
+        "source_string": "Oops! You need permissions first",
+        "translation": "Oops! You need thavings first",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetyModal.linkButtonHint",
+        "source_string": "This will take you to a web page that will help solve this issue",
+        "translation": "This will nim you to a web sheet that will help heal this badbere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetyModal.toAccessRealms",
+        "source_string": "To access Realms, set:",
+        "translation": "To reach Realms, set:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetyModal.toAccessRealmsStories",
+        "source_string": "To access Realms Stories, set:",
+        "translation": "To reach Realms Spells, set:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PrivacyAndOnlineSafetyModal.tryAgain",
         "source_string": "Try again",
         "translation": "Fand ayen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetySuccessModal.buttonAction",
+        "source_string": "Get started",
+        "translation": "Start",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetySuccessModal.content",
+        "source_string": "All your permissions have been successfully enabled! Now you can have access to both Realms and Realms Stories.",
+        "translation": "All your thavings have been speedfully laid on! Now you can have reach to both Realms and Realms Spells.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PrivacyAndOnlineSafetySuccessModal.header",
+        "source_string": "Permissions enabled!",
+        "translation": "Thavings on!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -45811,6 +46315,14 @@
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.panelButton.enum",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.panelButton.privacyPolicy",
+        "source_string": "Privacy policy",
+        "translation": "Sundriness thew",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47195,6 +47707,22 @@
         "identifier": "hbui.TrialModeMessage.behaviorPacksTabMessage",
         "source_string": "With behavior packs from Minecraft Marketplace you can make zombies friendly, cows fly, or even create entirely new creatures and gameplay mechanics.",
         "translation": "With behaving packs from Minecraft Chapstow you can make liches friendly, cows fly, or even make brand new wights and gameplay wields.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.TrialModeMessage.realmsMessage",
+        "source_string": "Your own private Minecraft server. Members play for free, even when you’re offline. Easy to set up, manage, and access from any device.",
+        "translation": "Your own sundry Minecraft outreckoner. Belongers play for free, even when you’re offweb. Light to set up, handle, and reach from any sare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.TrialModeModal.secondParagraph",
+        "source_string": "Build without restrictions in Creative mode, set up private and persistent Realms with your friends and download content packs to make the game truly yours.",
+        "translation": "Build without bounds in Makerly hue, set up sundry and steadfast Realms with your friends and download inholding packs to make the game truly yours.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
