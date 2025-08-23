@@ -1402,7 +1402,7 @@
     {
         "identifier": "accessibility.popup.message.touch",
         "source_string": "Touch and drag to find controls on the screen, and double tap controls to select. To scroll on a screen, double tap and hold while swiping up or down.",
-        "translation": "Tuŝu kaj ŝovu por trovi regilojn en la ekrano, kaj dufoje tuŝetu regilojn por elekti. Por rolumi en la ekrano dufoje tuŝetu kaj detenu dum ŝovumi supren aŭ suben.",
+        "translation": "Tuŝu kaj ŝovu por trovi regilojn en la ekrano, kaj duoble tuŝetu regilojn por elekti. Por rolumi en la ekrano duoble tuŝetu kaj tuŝadu dum ŝovumi supren aŭ suben.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1515,6 +1515,22 @@
         "identifier": "accessibility.gamepad.button.systemRight",
         "source_string": "Menu Button",
         "translation": "Menu-butono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.unassigned",
+        "source_string": "Unassigned",
+        "translation": "Neasignata",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.playSuccess",
+        "source_string": "Play emote",
+        "translation": "Ludi reagon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2018,7 +2034,7 @@
     {
         "identifier": "action.hint.exit.console.pig",
         "source_string": "Press :_input_key.sneak: to dismount",
-        "translation": "Tuŝu :_input_key.sneak: por desalti",
+        "translation": "Premu :_input_key.sneak: por desalti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2026,7 +2042,7 @@
     {
         "identifier": "action.hint.exit.console.horse",
         "source_string": "Press :_input_key.sneak: to dismount",
-        "translation": "Tuŝu :_input_key.sneak: por desalti",
+        "translation": "Premu :_input_key.sneak: por desalti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2042,7 +2058,7 @@
     {
         "identifier": "action.hint.exit.console.donkey",
         "source_string": "Press :_input_key.sneak: to dismount",
-        "translation": "Tuŝu :_input_key.sneak: por desalti",
+        "translation": "Premu :_input_key.sneak: por desalti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2050,7 +2066,7 @@
     {
         "identifier": "action.hint.exit.console.mule",
         "source_string": "Press :_input_key.sneak: to dismount",
-        "translation": "Tuŝu :_input_key.sneak: por desalti",
+        "translation": "Premu :_input_key.sneak: por desalti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2058,7 +2074,7 @@
     {
         "identifier": "action.hint.exit.console.llama",
         "source_string": "Press :_input_key.sneak: to dismount",
-        "translation": "Tuŝu :_input_key.sneak: por desalti",
+        "translation": "Premu :_input_key.sneak: por desalti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2066,7 +2082,7 @@
     {
         "identifier": "action.hint.exit.console.trader_llama",
         "source_string": "Press :_input_key.sneak: to dismount",
-        "translation": "Tuŝu :_input_key.sneak: por desalti",
+        "translation": "Premu :_input_key.sneak: por desalti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2074,7 +2090,7 @@
     {
         "identifier": "action.hint.exit.console.skeleton_horse",
         "source_string": "Press :_input_key.sneak: to dismount",
-        "translation": "Tuŝu :_input_key.sneak: por desalti",
+        "translation": "Premu :_input_key.sneak: por desalti",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2394,7 +2410,7 @@
     {
         "identifier": "action.interact.use",
         "source_string": "Use Item",
-        "translation": "Uzi objekton",
+        "translation": "Uzi aĵon",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3458,7 +3474,7 @@
     {
         "identifier": "craftingScreen.tab.items",
         "source_string": "Items",
-        "translation": "Objektoj",
+        "translation": "Aĵoj",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3994,7 +4010,7 @@
     {
         "identifier": "commands.agent.attack.success",
         "source_string": "Agent attack successful",
-        "translation": "Agento sukcesis ataki (ataki)",
+        "translation": "Agento sukcesis ataki (attack)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4002,7 +4018,7 @@
     {
         "identifier": "commands.agent.attack.failed",
         "source_string": "Agent failed to attack",
-        "translation": "Agento malsukcesis ataki (ataki)",
+        "translation": "Agento malsukcesis ataki (attack)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4122,7 +4138,7 @@
     {
         "identifier": "commands.agent.getitemcount.success",
         "source_string": "Agent getitemcount successful",
-        "translation": "Agento sukcesis atingi la aĵnombron (getitemcount)",
+        "translation": "Agento sukcesis atingi la aĵ-nombron (getitemcount)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4130,7 +4146,7 @@
     {
         "identifier": "commands.agent.getitemcount.failed",
         "source_string": "Agent failed to getitemcount",
-        "translation": "Agento malsukcesis atingi la aĵnombron (getitemcount)",
+        "translation": "Agento malsukcesis atingi la aĵ-nombron (getitemcount)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4138,7 +4154,7 @@
     {
         "identifier": "commands.agent.getitemspace.success",
         "source_string": "Agent getitemspace successful",
-        "translation": "Agento sukcesis atingi la aĵspacon (getitemspace)",
+        "translation": "Agento sukcesis atingi la aĵ-spacon (getitemspace)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4146,7 +4162,7 @@
     {
         "identifier": "commands.agent.getitemspace.failed",
         "source_string": "Agent failed to getitemspace",
-        "translation": "Agento malsukcesis atinigi la aĵspacon (getitemspace)",
+        "translation": "Agento malsukcesis atinigi la aĵ-spacon (getitemspace)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4154,7 +4170,7 @@
     {
         "identifier": "commands.agent.getitemdetail.success",
         "source_string": "Agent getitemdetail successful",
-        "translation": "Agento sukcesis atingi la aĵinformon (getitemdetail)",
+        "translation": "Agento sukcesis atingi la aĵ-informon (getitemdetail)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4162,7 +4178,7 @@
     {
         "identifier": "commands.agent.getitemdetail.failed",
         "source_string": "Agent failed to getitemdetail",
-        "translation": "Agento malsukcesis atingi la aĵinformon (getitemdetail)",
+        "translation": "Agento malsukcesis atingi la aĵ-informon (getitemdetail)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4634,7 +4650,7 @@
     {
         "identifier": "commands.blockstate.stateError",
         "source_string": "Block State: '%1$s' is invalid on Block: '%2$s'.",
-        "translation": "Bloka stato: «%1$s» ne estas valida por bloko: «%2$s».",
+        "translation": "Bloka stato: «%1$s» ne estas valida por la bloko: «%2$s».",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4642,7 +4658,7 @@
     {
         "identifier": "commands.blockstate.typeError",
         "source_string": "Invalid value type for Block State: '%1$s'.",
-        "translation": "Nevalida valora tipo por bloka stato: «%1$s».",
+        "translation": "Nevalida valora tipo por la bloka stato: «%1$s».",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
