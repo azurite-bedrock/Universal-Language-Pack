@@ -658,7 +658,7 @@
     {
         "identifier": "accessibility.play.tabLeft",
         "source_string": "Press the %s to tab left",
-        "translation": "Premu la %s por iri al la maldekstra langeto",
+        "translation": "Premu %s por iri al la maldekstra langeto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -666,7 +666,7 @@
     {
         "identifier": "accessibility.play.tabRight",
         "source_string": "Press the %s to tab right",
-        "translation": "Premu la %s por iri al la dekstra langeto",
+        "translation": "Premu %s por iri al la dekstra langeto",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -786,7 +786,7 @@
     {
         "identifier": "accessibility.screenName.howToPlay",
         "source_string": "How To Play Screen",
-        "translation": "Ekrano de «Kiel oni ludas?»",
+        "translation": "Ekrano de «Kiel ludi»",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1466,7 +1466,7 @@
     {
         "identifier": "accessibility.controllerLayoutScreen.buttonRemapping",
         "source_string": "Select input to bind for %s",
-        "translation": "Elektu enigon por bindi kun %s",
+        "translation": "Elektu enigaĵon por bindi kun %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -1648,6 +1648,22 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.emotes.hovered",
+        "source_string": "%s, emote button %d, %d of %d",
+        "translation": "%s, butono de reagoj %d, %d el %d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.assigned",
+        "source_string": "The %s emote assigned",
+        "translation": "La reago %s estas asignita",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.emotes.unassigned",
         "source_string": "Unassigned",
         "translation": "Neasignata",
@@ -1683,6 +1699,14 @@
         "identifier": "accessibility.emotes.keyboard.arrow",
         "source_string": "arrow",
         "translation": "sago",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.instruction.keyboard",
+        "source_string": "Press right or left to cycle through emote buttons. Press the down arrow to access the Change Emotes button.",
+        "translation": "Premu la dekstran aŭ maldekstran sagon por serĉi butonojn de reagoj. Premu la suban sagon por atingi la butonon de ŝanĝi reagojn.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -2944,6 +2968,14 @@
         "max_length": null
     },
     {
+        "identifier": "authentication.store.viewTermsAndConditions",
+        "source_string": "Terms and Conditions",
+        "translation": "Reguloj kaj Kondiĉoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "authentication.store.viewPrivacyPolicy",
         "source_string": "Privacy Policy",
         "translation": "Politiko de privateco",
@@ -3034,7 +3066,7 @@
     {
         "identifier": "book.editTitle",
         "source_string": "Enter Book Title:",
-        "translation": "Entajpu titolo de la libro:",
+        "translation": "Tajpu titolon de la libro:",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3162,7 +3194,7 @@
     {
         "identifier": "chalkboardScreen.locked",
         "source_string": "Locked",
-        "translation": "Ŝlosata",
+        "translation": "Ŝlosita",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4098,7 +4130,7 @@
     {
         "identifier": "commands.achievement.description",
         "source_string": "Gives or removes an achievement from a player.",
-        "translation": "Donas aŭ forigas atingon de ludanto.",
+        "translation": "Doni aŭ forigas atingon de ludanto.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -4856,9 +4888,97 @@
         "max_length": null
     },
     {
+        "identifier": "connect.authorizing",
+        "source_string": "Logging in...",
+        "translation": "Ensalutado...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect.connecting",
+        "source_string": "Connecting to the server...",
+        "translation": "Konektiĝado al la servilo...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect.failed",
+        "source_string": "Failed to connect to the server",
+        "translation": "Konektiĝado al la servilo malsukcesis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect_gamepad.warning.controllerRequired",
+        "source_string": "Game controller required",
+        "translation": "Ludregilo necesas",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "connect_gamepad.pressButtonToContinue",
+        "source_string": "Please press the 'A' button on your controller to continue",
+        "translation": "Premu la butono A sur via ludregilo por daŭrigi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gamepad_disconnect",
+        "source_string": "Controller lost connection",
+        "translation": "Ludregilo malkonektiĝis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gamepad_disconnect.reconnectController",
+        "source_string": "Your controller has lost connection. Please reconnect your controller to continue.",
+        "translation": "Via ludregilo malkonektiĝis. Bonvolu rekonekti vian ludregilon por daŭrigi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.beacon",
+        "source_string": "Beacon",
+        "translation": "Lumstriilo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.brewing",
+        "source_string": "Brewing Stand",
+        "translation": "Eliksirfarilo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.chest",
         "source_string": "Chest",
         "translation": "Kofro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.chestDouble",
+        "source_string": "Large Chest",
+        "translation": "Granda kofro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.crafter",
+        "source_string": "Crafter",
+        "translation": "Tujkreilo",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5280,6 +5400,30 @@
         "max_length": null
     },
     {
+        "identifier": "dimension.dimensionName0",
+        "source_string": "Overworld",
+        "translation": "Supermondo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dimension.dimensionName1",
+        "source_string": "Nether",
+        "translation": "Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dimension.dimensionName2",
+        "source_string": "The End",
+        "translation": "La End",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "enchantment.crossbowMultishot",
         "source_string": "Multishot",
         "translation": "Multpafo",
@@ -5640,10 +5784,234 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.category.education",
+        "source_string": "Education",
+        "translation": "Edukado",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.armor.text.4",
         "source_string": "Iron, Chainmail, and Golden Armor can be smelted into Iron or Gold Nuggets in a Furnace.",
         "translation": "En forno eblas elfandi ferajn kaj orajn ingotojn el feraj, ĉenaj kaj oraj armaĵpecoj.",
         "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder",
+        "source_string": "World Builder",
+        "translation": "Monda Konstruisto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.title",
+        "source_string": "How to Play: World Builder",
+        "translation": "Kiel ludi: Monda konstruisto",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.1",
+        "source_string": "To place or use certain Minecraft Education blocks or items, a player must possess a special ability called 'World Builder'.",
+        "translation": "Por meti aŭ uzi certajn blokojn aŭ aĵojn de Minecraft Education, lundanto devas havi la specian kapablon «Monda konstruisto».",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.2",
+        "source_string": "With cheats activated, the host can enable or disable the World Builder ability for any players in the world.",
+        "translation": "Kun trompaĵoj ŝaltitaj, la gastiganto povas ebligi aŭ malebligi la kapablon «Monda konstruisto» de ajna ludanto en la mondo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.3",
+        "source_string": "To grant World Builder ability to all players in the world, run the following command:",
+        "translation": "Por doni la kapablon «Monda konstruisto» al ĉiuj ludantoj en la mondo, plenumu la jenan komandon:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.4",
+        "source_string": "/ability @a worldbuilder true",
+        "translation": "/ability @a worldbuilder true",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.5",
+        "source_string": "To quickly toggle your own World Builder ability, run either of the following commands:",
+        "translation": "Por rapide baskuligi vian propran kapablon «Monda konstruisto», plenumu ajnajn jenajn komandojn:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.6",
+        "source_string": "/worldbuilder",
+        "translation": "/worldbuilder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.7",
+        "source_string": "/wb",
+        "translation": "/wb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.8",
+        "source_string": "To query your World Builder ability, run the following command:",
+        "translation": "Por enketi vian kapablon «Monda konstruisto», plenumu la jenan komandon:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worldBuilder.text.9",
+        "source_string": "/ability @p worldbuilder",
+        "translation": "/ability @p worldbuilder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks",
+        "source_string": "Permission Blocks",
+        "translation": "Permesaj blokoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title",
+        "source_string": "How to Play: Permission Blocks",
+        "translation": "Kiel ludi: Permesaj blokoj",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.1",
+        "source_string": "Minecraft Education features several special blocks that make it easier for teachers to create and employ lessons. Only players with World Builder ability can place and destroy these blocks. Only players without World Builder ability are subject to the restrictions imposed by these blocks.",
+        "translation": "Minecraft Education havas pluraj specialaj blokoj, kiuj faciligas krei kaj uzi lecionojn por instruistoj. Nur ludantoj kun la kapablo «Monda konstruisto» povas meti kaj detrui ĉi tiujn blokojn. Nur ludantoj sen la kapablo «Mondo konstruisto» devas sekvi la limigojn de ĉiuj blokoj.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.1",
+        "source_string": "Allow/Deny",
+        "translation": "Rajtiga/Malrajtiga bloko",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.2",
+        "source_string": "Allow and Deny blocks control where players can build in a world.",
+        "translation": "La ratigaj kaj malrajtigaj blokoj regas, kie ludantoj povas konstrui en la mondo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.3",
+        "source_string": "Players can place or destroy blocks above Allow blocks. Players cannot place or destroy blocks above Deny blocks.",
+        "translation": "Ludantoj povas meti aŭ detrui blokoj super rajtigaj blokoj. Ludantoj ne povas meti aŭ detrui blokoj super malrajtigaj blokoj.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.4",
+        "source_string": "Allow and Deny blocks do not affect the area below them.",
+        "translation": "Rajtigaj kaj malrajtigaj blokoj ne influas la spacon sub ili.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.5",
+        "source_string": "An Allow block with a Deny block somewhere below it prevents players from building in the space between the two blocks. Above the Allow block, players can place and destroy blocks.",
+        "translation": "Rajtiga bloko kun malrajtiga bloko ie sube malebligas, ke ludantoj konstruas en la spaco inter la du blokoj. Super la ratiga bloko lundantoj povas meti kaj detrui blokojn.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.title.2",
+        "source_string": "Border",
+        "translation": "Limo",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.permissionBlocks.text.6",
+        "source_string": "Border blocks provide a force field that extends infinitely upward and downward, regardless of the presence of other blocks. Players cannot move through, over, or under a Border block. Players cannot place or destroy blocks that are above or below a Border block.",
+        "translation": "Limaj blokoj kreas fortokampon, kiu ampleksas senfine supren kaj suben malgraŭ la ekzisto de aliaj blokoj. Ludantoj ne povas moviĝi tra, super aŭ sub lima bloko. Ludantoj ne povas meti aŭ detrui blokojn, kiuj estas super aŭ sub lima bloko.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry",
+        "source_string": "Chemistry",
+        "translation": "Kemio",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry.title",
+        "source_string": "How to Play: Chemistry",
+        "translation": "Kiel ludi: Kemio",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry.text.1",
+        "source_string": "Students can simulate real world chemistry by using the Chemistry Equipment blocks. Build any of the 118 different elements by adjusting the sliders in the Element Constructor or view the composition of elements by placing them in the Element Constructor. Combine elements in the Compound Creator to produce chemical compounds. Put elements and compounds into the Lab Table to create Minecraft items. Reduce blocks to their component elements with the Material Reducer.",
+        "translation": "Studentoj povas simuli realmondan kemion per uzi la blokojn de kemiaj ekipoj. Konstruu ajnan el la 118 diferencaj elementoj per alĝustigi la ŝovilojn en la elementa konstruilo aŭ vidi la komponaĵojn de elementoj per meti ilin en la elementa konstruilo. Kombinu elementojn en la kombinaĵa kreilo por krei kemiajn kombinaĵojn. Metu elementojn aŭ kombinaĵojn en la laboratoria tablo por krei âjojn de Minecraft. Reduktu blokoj ĝis iliaj komponaj elementoj per la materiala reduktilo.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.chemistry.text.2",
+        "source_string": "Download the Chemistry Journal from the Minecraft Education website for a comprehensive guide to chemistry in Minecraft.",
+        "translation": "Alŝutu la Kemian Revuon (Chemistry Journal) de la retejo de Minecraft Education por ampleksa gvidilo pri kemio en Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc",
+        "source_string": "Non-Player Characters",
+        "translation": "Ne-ludanta persono",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.npc.title",
+        "source_string": "How to Play: Non-Player Characters",
+        "translation": "Kiel ludi: Ne-ludanta persono",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
