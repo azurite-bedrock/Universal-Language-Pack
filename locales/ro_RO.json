@@ -32192,6 +32192,70 @@
         "max_length": null
     },
     {
+        "identifier": "item.spawn_egg.entity.vindicator.name",
+        "source_string": "Vindicator Spawn Egg",
+        "translation": "Ou generator de apărător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.wither_skeleton.name",
+        "source_string": "Wither Skeleton Spawn Egg",
+        "translation": "Ou generator de schelet wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.wither.name",
+        "source_string": "Wither Spawn Egg",
+        "translation": "Ou generator de wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.skull.wither.name",
+        "source_string": "Wither Skeleton Skull",
+        "translation": "Craniu de schelet wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.potion",
+        "source_string": "Potions",
+        "translation": "Poțiuni",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.splashPotion",
+        "source_string": "Splash Potions",
+        "translation": "Poțiuni de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.lingeringPotion",
+        "source_string": "Lingering Potions",
+        "translation": "Poțiuni persistente",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.icon_text.16",
+        "source_string": "Potion",
+        "translation": "Poțiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "key.chat",
         "source_string": "Chat button",
         "translation": "Buton de discuție",
@@ -32856,6 +32920,14 @@
         "max_length": null
     },
     {
+        "identifier": "hudScreen.tooltip.potion",
+        "source_string": "Drink",
+        "translation": "Bea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "playscreen.realmsContent",
         "source_string": "Play 150+ marketplace packs",
         "translation": "Joacă peste 150 de pachete din piață",
@@ -32891,6 +32963,510 @@
         "identifier": "permissions.removeplayer.title",
         "source_string": "Remove Player Confirmation",
         "translation": "Elimină confirmarea jucătorilor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.absorption",
+        "source_string": "Absorption",
+        "translation": "Absorbție",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.blindness",
+        "source_string": "Blindness",
+        "translation": "Orbire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.conduitPower",
+        "source_string": "Conduit Power",
+        "translation": "Putere de conductă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.confusion",
+        "source_string": "Nausea",
+        "translation": "Greață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.damageBoost",
+        "source_string": "Strength",
+        "translation": "Forță",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.damageBoost.name",
+        "source_string": "Potion of Strength",
+        "translation": "Poțiune de forță",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.damageBoost.splash.name",
+        "source_string": "Splash Potion of Strength",
+        "translation": "Poțiune de forță de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.damageBoost.linger.name",
+        "source_string": "Lingering Potion of Strength",
+        "translation": "Poțiune de putere persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.digSlowDown",
+        "source_string": "Mining Fatigue",
+        "translation": "Istovire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.digSpeed",
+        "source_string": "Haste",
+        "translation": "Grabă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.effects.whenDrank",
+        "source_string": "When Applied:",
+        "translation": "La aplicare:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.empty",
+        "source_string": "No Effects",
+        "translation": "Niciun efect",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.emptyPotion.name",
+        "source_string": "Water Bottle",
+        "translation": "Sticluță cu apă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.emptyPotion.splash.name",
+        "source_string": "Splash Water Bottle",
+        "translation": "Sticluță cu apă de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.emptyPotion.linger.name",
+        "source_string": "Lingering Water Bottle",
+        "translation": "Sticluță cu apă persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.fireResistance",
+        "source_string": "Fire Resistance",
+        "translation": "Rezistență la foc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.fireResistance.name",
+        "source_string": "Potion of Fire Resistance",
+        "translation": "Poțiune de rezistență la foc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.fireResistance.splash.name",
+        "source_string": "Splash Potion of Fire Resistance",
+        "translation": "Poțiune de rezistență la foc de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.fireResistance.linger.name",
+        "source_string": "Lingering Potion of Fire Resistance",
+        "translation": "Poțiune de rezistență la foc persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.harm",
+        "source_string": "Instant Damage",
+        "translation": "Vătămare imediată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.harm.name",
+        "source_string": "Potion of Harming",
+        "translation": "Poțiune de vătămare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.harm.splash.name",
+        "source_string": "Splash Potion of Harming",
+        "translation": "Poțiune de vătămare de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.harm.linger.name",
+        "source_string": "Lingering Potion of Harming",
+        "translation": "Poțiune de vătămare persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.heal",
+        "source_string": "Instant Health",
+        "translation": "Sănătate imediată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.heal.name",
+        "source_string": "Potion of Healing",
+        "translation": "Poțiune de vindecare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.heal.splash.name",
+        "source_string": "Splash Potion of Healing",
+        "translation": "Poțiune de vindecare de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.heal.linger.name",
+        "source_string": "Lingering Potion of Healing",
+        "translation": "Poțiune de vindecare persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.healthBoost",
+        "source_string": "Health Boost",
+        "translation": "Bonus de viață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.hunger",
+        "source_string": "Hunger",
+        "translation": "Foame",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.infested.linger.name",
+        "source_string": "Lingering Potion of Infestation",
+        "translation": "Poțiune de infestare persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.infested.name",
+        "source_string": "Potion of Infestation",
+        "translation": "Poțiune de infestare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.infested.splash.name",
+        "source_string": "Splash Potion of Infestation",
+        "translation": "Poțiune de infestare de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.infested",
+        "source_string": "Infested",
+        "translation": "Infestat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.invisibility",
+        "source_string": "Invisibility",
+        "translation": "Invizibilitate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.invisibility.name",
+        "source_string": "Potion of Invisibility",
+        "translation": "Poțiune de invizibilitate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.invisibility.splash.name",
+        "source_string": "Splash Potion of Invisibility",
+        "translation": "Poțiune de invizibilitate de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.invisibility.linger.name",
+        "source_string": "Lingering Potion of Invisibility",
+        "translation": "Poțiune de invizibilitate persistentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.jump.splash.name",
+        "source_string": "Splash Potion of Leaping",
+        "translation": "Poțiune de sărit de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.moveSlowdown.splash.name",
+        "source_string": "Splash Potion of Slowness",
+        "translation": "Poțiune de încetineală de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.slowFalling.splash.name",
+        "source_string": "Splash Potion of Slow Falling",
+        "translation": "Poțiune de cădere lentă de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.moveSpeed.splash.name",
+        "source_string": "Splash Potion of Swiftness",
+        "translation": "Poțiune de viteză de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.nightVision.splash.name",
+        "source_string": "Splash Potion of Night Vision",
+        "translation": "Poțiune de vedere nocturnă de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.oozing.splash.name",
+        "source_string": "Splash Potion of Oozing",
+        "translation": "Poțiune de înmâzgare de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.poison.splash.name",
+        "source_string": "Splash Potion of Poison",
+        "translation": "Poțiune de otravă de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.potency.0",
+        "source_string": null,
+        "translation": null,
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.potency.1",
+        "source_string": "II",
+        "translation": "II",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.potency.2",
+        "source_string": "III",
+        "translation": "III",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.potency.3",
+        "source_string": "IV",
+        "translation": "IV",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.potency.4",
+        "source_string": "V",
+        "translation": "V",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.awkward.splash.name",
+        "source_string": "Splash Awkward Potion",
+        "translation": "Poțiune stingheră de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.mundane.splash.name",
+        "source_string": "Splash Mundane Potion",
+        "translation": "Poțiune banală de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.mundane.extended.splash.name",
+        "source_string": "Splash Long Mundane Potion",
+        "translation": "Poțiune banală lungă de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.thick.splash.name",
+        "source_string": "Splash Thick Potion",
+        "translation": "Poțiune groasă de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.regeneration.splash.name",
+        "source_string": "Splash Potion of Regeneration",
+        "translation": "Poțiune de regenerare de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.turtleMaster.splash.name",
+        "source_string": "Splash Potion of the Turtle Master",
+        "translation": "Poțiune a maestrului țestoaselor de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.waterBreathing.splash.name",
+        "source_string": "Splash Potion of Water Breathing",
+        "translation": "Poțiune de respirație subacvatică de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.weakness.splash.name",
+        "source_string": "Splash Potion of Weakness",
+        "translation": "Poțiune de slăbiciune de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.weaving.splash.name",
+        "source_string": "Splash Potion of Weaving",
+        "translation": "Poțiune de țesere de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.windCharged.splash.name",
+        "source_string": "Splash Potion of Wind Charging",
+        "translation": "Poțiune de încărcătura vântului de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.wither",
+        "source_string": "Wither",
+        "translation": "Wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.wither.name",
+        "source_string": "Potion of Decay",
+        "translation": "Poțiune de veștejire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.wither.splash.name",
+        "source_string": "Splash Potion of Decay",
+        "translation": "Poțiune de veștejire de aruncat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.wither.linger.name",
+        "source_string": "Lingering Potion of Decay",
+        "translation": "Poțiune de veștejire persistentă",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32947,6 +33523,22 @@
         "identifier": "sidebar.marketplace",
         "source_string": "Marketplace",
         "translation": "Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.warden.name",
+        "source_string": "Warden Spawn Egg",
+        "translation": "Ou generator de gardian",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.warden.name",
+        "source_string": "Warden",
+        "translation": "Gardian",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33368,6 +33960,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.wither_rose.name",
+        "source_string": "Wither Rose",
+        "translation": "Trandafir al witherului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tipped_arrow.effect.wither",
+        "source_string": "Arrow of Decay",
+        "translation": "Săgeată de veștejire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "trial.tabbed_upsell.xbl.description",
         "source_string": "With the full Minecraft experience you get Creative mode, achievements, and more, plus with a Microsoft account you can meet others in the Minecraft community! Join your friends' worlds, make new friends on Servers, and sync your Marketplace purchases to everywhere you play Minecraft.",
         "translation": "Cu experiența completă de Minecraft obții modul Creativ, realizări și multe altele, plus cu un cont Microsoft te poți întâlni cu alții din comunitatea Minecraft! Alătură-te lumilor prietenilor, fă-ți prieteni noi pe servere și sincronizează-ți achizițiile din Piață oriunde joci Minecraft.",
@@ -33524,6 +34132,14 @@
         "source_string": "Get there now with the /tp command.",
         "translation": "Mergi acolo acum cu comanda /tp.",
         "context": "You can teleport yourself in Creative. You use the /tp command in the chat.{MaxLength=\"200\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.creative.19",
+        "source_string": "A warden a day keeps the… well, everything away. ",
+        "translation": "Un gardian pe zi ține… ei bine, totul la distanță.",
+        "context": "The Warden is a scary monster that live in underground cities.{MaxLength=\"200\"}",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -55730,7 +56346,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.DefeatWither",
         "source_string": "%1$s defeated the Wither!... again",
-        "translation": "%1$s a învins Soția!... din nou",
+        "translation": "%1$s a învins wither-ul!... din nou",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
