@@ -464,6 +464,30 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.store.offerDescription.share",
+        "source_string": "Share",
+        "translation": "ǝɹɐɥS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.store.wishlist.button",
+        "source_string": "Wish List",
+        "translation": "ʇsᴉꞀ ɥsᴉM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.index",
+        "source_string": " %s of %s",
+        "translation": "%2$s ɟo %1$s ",
+        "context": "This is numbering, which number out of the total number of objects is available for interaction. Example: 1 of 3",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.slider.tts.percentValue",
         "source_string": "%s percent",
         "translation": "%s percent",
@@ -7312,6 +7336,86 @@
         "max_length": null
     },
     {
+        "identifier": "commands.getchunkdata.description",
+        "source_string": "Gets pixels for a specific chunk.",
+        "translation": "˙ʞunɥɔ ɔᴉɟᴉɔǝds ɐ ɹoɟ sꞁǝxᴉd sʇǝ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunkdata.success",
+        "source_string": "Chunk data received",
+        "translation": "pǝʌᴉǝɔǝɹ ɐʇɐp ʞunɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunks.description",
+        "source_string": "Gets list of chunks that are loaded.",
+        "translation": "˙pǝpɐoꞁ ǝɹɐ ʇɐɥʇ sʞunɥɔ ɟo ʇsᴉꞁ sʇǝ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getchunks.success",
+        "source_string": "Chunk list received",
+        "translation": "pǝʌᴉǝɔǝɹ ʇsᴉꞁ ʞunɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getlocalplayername.description",
+        "source_string": "Returns the local player name.",
+        "translation": "˙ǝɯɐu ɹǝʎɐꞁd ꞁɐɔoꞁ ǝɥʇ suɹnʇǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.getspawnpoint.description",
+        "source_string": "Gets the spawn position of the specified player(s).",
+        "translation": "˙(s)ɹǝʎɐꞁd pǝᴉɟᴉɔǝds ǝɥʇ ɟo uoᴉʇᴉsod uʍɐds ǝɥʇ sʇǝ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gettopsolidblock.description",
+        "source_string": "Gets the position of the top non-air block below the specified position",
+        "translation": "uoᴉʇᴉsod pǝᴉɟᴉɔǝds ǝɥʇ ʍoꞁǝq ʞɔoꞁq ɹᴉɐ-uou doʇ ǝɥʇ ɟo uoᴉʇᴉsod ǝɥʇ sʇǝ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.gettopsolidblock.notfound",
+        "source_string": "No solid blocks under specified position",
+        "translation": "uoᴉʇᴉsod pǝᴉɟᴉɔǝds ɹǝpun sʞɔoꞁq pᴉꞁos oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.block.notFound",
+        "source_string": "There is no such block with name %1$d",
+        "translation": "%1$d ǝɯɐu ɥʇᴉʍ ʞɔoꞁq ɥɔns ou sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.give.description",
+        "source_string": "Gives an item to a player.",
+        "translation": "˙ɹǝʎɐꞁd ɐ oʇ ɯǝʇᴉ uɐ sǝʌᴉ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.give.item.invalid",
         "source_string": "Invalid command syntax: no such %s exists with that data value",
         "translation": "ǝnꞁɐʌ ɐʇɐp ʇɐɥʇ ɥʇᴉʍ sʇsᴉxǝ %s ɥɔns ou :xɐʇuʎs puɐɯɯoɔ pᴉꞁɐʌuI",
@@ -7424,9 +7528,41 @@
         "max_length": null
     },
     {
+        "identifier": "commands.help.header",
+        "source_string": "--- Showing help page %1$d of %2$d (/help <page>) ---",
+        "translation": "--- (<ǝᵷɐd> dꞁǝɥ/) %2$d ɟo %1$d% ǝᵷɐd dꞁǝɥ ᵷuᴉʍoɥS ---",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.help.command.aliases",
         "source_string": "%s (also %s):",
         "translation": ":(%2$s osꞁɐ) %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hud.description",
+        "source_string": "Changes the visibility of hud elements.",
+        "translation": "˙sʇuǝɯǝꞁǝ pnɥ ɟo ʎʇᴉꞁᴉqᴉsᴉʌ ǝɥʇ sǝᵷuɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.hud.success",
+        "source_string": "Hud command successfully executed",
+        "translation": "pǝʇnɔǝxǝ ʎꞁꞁnɟssǝɔɔns puɐɯɯoɔ pnH",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.immutableworld.description",
+        "source_string": "Sets the immutable state of the world.",
+        "translation": "˙pꞁɹoʍ ǝɥʇ ɟo ǝʇɐʇs ǝꞁqɐʇnɯɯᴉ ǝɥʇ sʇǝS",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7440,9 +7576,161 @@
         "max_length": null
     },
     {
+        "identifier": "commands.inputpermission.description",
+        "source_string": "Sets whether or not a player's input can affect their character.",
+        "translation": "˙ɹǝʇɔɐɹɐɥɔ ɹᴉǝɥʇ ʇɔǝɟɟɐ uɐɔ ʇnduᴉ s,ɹǝʎɐꞁd ɐ ʇou ɹo ɹǝɥʇǝɥʍ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.camera",
+        "source_string": "Camera",
+        "translation": "ɐɹǝɯɐƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.movement",
+        "source_string": "Movement",
+        "translation": "ʇuǝɯǝʌoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.jump",
+        "source_string": "Jump",
+        "translation": "dɯnՐ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.sneak",
+        "source_string": "Sneak",
+        "translation": "ʞɐǝuS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.mount",
+        "source_string": "Mount",
+        "translation": "ʇunoW",
+        "context": "Board a boat / get on a horse",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.dismount",
+        "source_string": "Dismount",
+        "translation": "ʇunoɯsᴉᗡ",
+        "context": "Leave a boat / get off a horse",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.lateral_movement",
+        "source_string": "Lateral Movement",
+        "translation": "ʇuǝɯǝʌoW ꞁɐɹǝʇɐꞀ",
+        "context": "All movement that you do with a joystick/WASD on keyboard. ",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_forward",
+        "source_string": "Move Forward",
+        "translation": "pɹɐʍɹoℲ ǝʌoW",
+        "context": "Movement from pushing joystick forward (or pressing W on keyboard)",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_backward",
+        "source_string": "Move Backward",
+        "translation": "pɹɐʍʞɔɐᗺ ǝʌoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_left",
+        "source_string": "Move Left",
+        "translation": "ʇɟǝꞀ ǝʌoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.move_right",
+        "source_string": "Move Right",
+        "translation": "ʇɥᵷᴉᴚ ǝʌoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.inputpermission.set.invalidfilter",
         "source_string": "'%s' is an invalid filter argument",
         "translation": "ʇuǝɯnᵷɹɐ ɹǝʇꞁᴉɟ pᴉꞁɐʌuᴉ uɐ sᴉ ,%s,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.description",
+        "source_string": "Kicks a player from the server.",
+        "translation": "˙ɹǝʌɹǝs ǝɥʇ ɯoɹɟ ɹǝʎɐꞁd ɐ sʞɔᴉꞰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.description.edu",
+        "source_string": "Removes a player from the game.",
+        "translation": "˙ǝɯɐᵷ ǝɥʇ ɯoɹɟ ɹǝʎɐꞁd ɐ sǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.no.player",
+        "source_string": "Please provide the name of the player you want to kick",
+        "translation": "ʞɔᴉʞ oʇ ʇuɐʍ noʎ ɹǝʎɐꞁd ǝɥʇ ɟo ǝɯɐu ǝɥʇ ǝpᴉʌoɹd ǝsɐǝꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.not.found",
+        "source_string": "Could not find player %1$s",
+        "translation": "%1$s ɹǝʎɐꞁd puᴉɟ ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.not.yourself",
+        "source_string": "You may not remove yourself from the game",
+        "translation": "ǝɯɐᵷ ǝɥʇ ɯoɹɟ ɟꞁǝsɹnoʎ ǝʌoɯǝɹ ʇou ʎɐɯ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.success",
+        "source_string": "Kicked %1$s from the game",
+        "translation": "ǝɯɐᵷ ǝɥʇ ɯoɹɟ %1$s pǝʞɔᴉꞰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.success.reason",
+        "source_string": "Kicked %1$s from the game: '%2$s'",
+        "translation": ",%2$s, :ǝɯɐᵷ ǝɥʇ ɯoɹɟ %1$s pǝʞɔᴉꞰ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
