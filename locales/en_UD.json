@@ -242,7 +242,7 @@
     {
         "identifier": "accessibility.list.or.two",
         "source_string": "%s or %s",
-        "translation": "%s ɹo %s",
+        "translation": "%2$s ɹo %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -456,9 +456,97 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.minecoin",
+        "source_string": "Minecoin",
+        "translation": "Wᴉuǝɔoᴉu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoins",
+        "source_string": "Minecoins",
+        "translation": "Wᴉuǝɔoᴉus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.fullprice",
+        "source_string": "Full Price %s Minecoins",
+        "translation": "Ⅎnll Ԁɹᴉɔǝ %s Wᴉuǝɔoᴉus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.price",
+        "source_string": "Discounted Price %s Minecoins",
+        "translation": "ᗡᴉsɔonuʇǝp Ԁɹᴉɔǝ %s Wᴉuǝɔoᴉus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.percent",
+        "source_string": "%s percent discount",
+        "translation": "%s dǝɹɔǝuʇ pᴉsɔonuʇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.sectionName",
         "source_string": "Section %s: ",
         "translation": "Section %s: ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.on",
+        "source_string": ": on",
+        "translation": ": ou",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.off",
+        "source_string": ": off",
+        "translation": ": oɟɟ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.checked",
+        "source_string": ": checked",
+        "translation": ": ɔɥǝɔʞǝp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.unchecked",
+        "source_string": ": unchecked",
+        "translation": ": nuɔɥǝɔʞǝp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.selected",
+        "source_string": ": selected",
+        "translation": ": sǝlǝɔʇǝp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.state.unselected",
+        "source_string": ": unselected",
+        "translation": ": nusǝlǝɔʇǝp",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -496,6 +584,62 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.play.editWorld",
+        "source_string": "Edit World",
+        "translation": "Ǝpᴉʇ Moɹlp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editRealm",
+        "source_string": "Edit Realm",
+        "translation": "Ǝpᴉʇ ᴚǝɐlɯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.editServer",
+        "source_string": "Edit Server",
+        "translation": "Ǝpᴉʇ Sǝɹʌǝɹ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.importWorld",
+        "source_string": "Import World",
+        "translation": "Iɯdoɹʇ Moɹlp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.leaveRealm",
+        "source_string": "Leave Realm",
+        "translation": "⅂ǝɐʌǝ ᴚǝɐlɯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.realmFeed",
+        "source_string": "Realm Feed",
+        "translation": "ᴚǝɐlɯ Ⅎǝǝp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.noNewPosts",
+        "source_string": "No new posts",
+        "translation": "No uǝʍ dosʇs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.play.singleNewPost",
         "source_string": "1 new post",
         "translation": "ʇsod ʍǝu ⥝",
@@ -508,6 +652,22 @@
         "source_string": "%s new posts",
         "translation": "sʇsod ʍǝu %s",
         "context": "%s will be a number",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabLeft",
+        "source_string": "Press the %s to tab left",
+        "translation": "Ԁɹǝss ʇɥǝ %s ʇo ʇɐq lǝɟʇ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.play.tabRight",
+        "source_string": "Press the %s to tab right",
+        "translation": "Ԁɹǝss ʇɥǝ %s ʇo ʇɐq ɹᴉɓɥʇ",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7672,9 +7832,113 @@
         "max_length": null
     },
     {
+        "identifier": "commands.inputpermission.enabled",
+        "source_string": "enabled",
+        "translation": "pǝꞁqɐuǝ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.disabled",
+        "source_string": "disabled",
+        "translation": "pǝꞁqɐsᴉp",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.inputpermission.set.invalidfilter",
         "source_string": "'%s' is an invalid filter argument",
         "translation": "ʇuǝɯnᵷɹɐ ɹǝʇꞁᴉɟ pᴉꞁɐʌuᴉ uɐ sᴉ ,%s,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.missingpermission",
+        "source_string": "'permission' has an invalid input",
+        "translation": "ʇnduᴉ pᴉꞁɐʌuᴉ uɐ sɐɥ ,uoᴉssᴉɯɹǝd,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.missingstate",
+        "source_string": "'state' has an invalid input",
+        "translation": "ʇnduᴉ pᴉꞁɐʌuᴉ uɐ sɐɥ ,ǝʇɐʇs,",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.outputoneplayer",
+        "source_string": "%s input %s for %s ",
+        "translation": " %3$s ɹoɟ %2$s ʇnduᴉ %1$s",
+        "context": "1: Input lock category (camera/movement/jump/sneak/mount/etc.), 2: State (enabled/disabled), 3: Player name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.set.outputmultipleplayers",
+        "source_string": "%s input %s for %d players ",
+        "translation": " sɹǝʎɐꞁd %3$s ɹoɟ %2$s ʇnduᴉ %1$s",
+        "context": "1: Input lock category (camera/movement), 2: State (enabled/disabled), 3: Player count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.query",
+        "source_string": "<%s>: %d %s",
+        "translation": "%2$s %d :<%1$s>",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.inputpermission.queryverbose",
+        "source_string": "<%s>: %d enabled | %d disabled",
+        "translation": "pǝꞁqɐsᴉp %2$d | pǝꞁqɐuǝ %1$d :<%s>",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.description",
+        "source_string": "Lists all items with the given tag.",
+        "translation": "˙ᵷɐʇ uǝʌᴉᵷ ǝɥʇ ɥʇᴉʍ sɯǝʇᴉ ꞁꞁɐ sʇsᴉꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.single",
+        "source_string": "There is %d item with the tag %s:",
+        "translation": ":%s ᵷɐʇ ǝɥʇ ɥʇᴉʍ ɯǝʇᴉ %d sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.multiple",
+        "source_string": "There are %d items with the tag %s:",
+        "translation": ":%s ᵷɐʇ ǝɥʇ ɥʇᴉʍ sɯǝʇᴉ %d ǝɹɐ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.success.list.items",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.itemswithtag.fail.noitemsfound",
+        "source_string": "No items contain the tag %s.",
+        "translation": "˙%s ᵷɐʇ ǝɥʇ uᴉɐʇuoɔ sɯǝʇᴉ oN",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7731,6 +7995,446 @@
         "identifier": "commands.kick.success.reason",
         "source_string": "Kicked %1$s from the game: '%2$s'",
         "translation": ",%2$s, :ǝɯɐᵷ ǝɥʇ ɯoɹɟ %1$s pǝʞɔᴉꞰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.success.reasonedu",
+        "source_string": "Removed %1$s from the game: '%2$s'",
+        "translation": ",%2$s, :ǝɯɐᵷ ǝɥʇ ɯoɹɟ %1$s pǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.no.host",
+        "source_string": "The host may not be kicked from the game.",
+        "translation": "˙ǝɯɐᵷ ǝɥʇ ɯoɹɟ pǝʞɔᴉʞ ǝq ʇou ʎɐɯ ʇsoɥ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kick.no.teacher",
+        "source_string": "Teachers may not be removed from the game.",
+        "translation": "˙ǝɯɐᵷ ǝɥʇ ɯoɹɟ pǝʌoɯǝɹ ǝq ʇou ʎɐɯ sɹǝɥɔɐǝ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.attemptKillPlayerCreative.edu",
+        "source_string": "Players cannot be removed while they are in Creative mode.",
+        "translation": "˙ǝpoɯ ǝʌᴉʇɐǝɹƆ uᴉ ǝɹɐ ʎǝɥʇ ǝꞁᴉɥʍ pǝʌoɯǝɹ ǝq ʇouuɐɔ sɹǝʎɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.attemptKillPlayerCreative",
+        "source_string": "Players cannot be killed while they are in Creative mode.",
+        "translation": "˙ǝpoɯ ǝʌᴉʇɐǝɹƆ uᴉ ǝɹɐ ʎǝɥʇ ǝꞁᴉɥʍ pǝꞁꞁᴉʞ ǝq ʇouuɐɔ sɹǝʎɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.successful.edu",
+        "source_string": "Removed %1$s",
+        "translation": "%1$s pǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.successful",
+        "source_string": "Killed %1$s",
+        "translation": "%1$s pǝꞁꞁᴉꞰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.description.edu",
+        "source_string": "Removes entities (players, mobs, etc.).",
+        "translation": "˙(˙ɔʇǝ 'sqoɯ 'sɹǝʎɐꞁd) sǝᴉʇᴉʇuǝ sǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.kill.description",
+        "source_string": "Kills entities (players, mobs, etc.).",
+        "translation": "˙(˙ɔʇǝ 'sqoɯ 'sɹǝʎɐꞁd) sǝᴉʇᴉʇuǝ sꞁꞁᴉꞰ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.lesson.description",
+        "source_string": "Handle Educational Lesson reporting.",
+        "translation": "˙ᵷuᴉʇɹodǝɹ uossǝꞀ ꞁɐuoᴉʇɐɔnpƎ ǝꞁpuɐH",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.lesson.success",
+        "source_string": "Success",
+        "translation": "ssǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.list.description",
+        "source_string": "Lists players on the server.",
+        "translation": "˙ɹǝʌɹǝs ǝɥʇ uo sɹǝʎɐꞁd sʇsᴉꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.description",
+        "source_string": "Displays the coordinates for the closest structure or biome of a given type.",
+        "translation": "˙ǝdʎʇ uǝʌᴉᵷ ɐ ɟo ǝɯoᴉq ɹo ǝɹnʇɔnɹʇs ʇsǝsoꞁɔ ǝɥʇ ɹoɟ sǝʇɐuᴉpɹooɔ ǝɥʇ sʎɐꞁdsᴉᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.biome.fail",
+        "source_string": "Could not find a biome of type %1$s within a reasonable distance",
+        "translation": "ǝɔuɐʇsᴉp ǝꞁqɐuosɐǝɹ ɐ uᴉɥʇᴉʍ %1$s ǝdʎʇ ɟo ǝɯoᴉq ɐ puᴉɟ ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.biome.success",
+        "source_string": "The nearest %1$s is at block %2$s, %3$s, %4$s (%5 blocks away)",
+        "translation": "(ʎɐʍɐ sʞɔoꞁq %5) %4$s '%3$s '%2$s ʞɔoꞁq ʇɐ sᴉ %1$s ʇsǝɹɐǝu ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.fail.noplayer",
+        "source_string": "The command can only be used by a valid player",
+        "translation": "ɹǝʎɐꞁd pᴉꞁɐʌ ɐ ʎq pǝsn ǝq ʎꞁuo uɐɔ puɐɯɯoɔ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.fail.nostructurefound",
+        "source_string": "No valid structure found within a reasonable distance",
+        "translation": "ǝɔuɐʇsᴉp ǝꞁqɐuosɐǝɹ ɐ uᴉɥʇᴉʍ punoɟ ǝɹnʇɔnɹʇs pᴉꞁɐʌ oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.locate.structure.success",
+        "source_string": "The nearest %1$s is at block %2$s, (y?), %3$s (%4 blocks away)",
+        "translation": "(ʎɐʍɐ sʞɔoꞁq %4) %3$s '(¿ʎ) '%2$s ʞɔoꞁq ʇɐ sᴉ %1$s ʇsǝɹɐǝu ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.description",
+        "source_string": "Drops the given loot table into the specified inventory or into the world.",
+        "translation": "˙pꞁɹoʍ ǝɥʇ oʇuᴉ ɹo ʎɹoʇuǝʌuᴉ pǝᴉɟᴉɔǝds ǝɥʇ oʇuᴉ ǝꞁqɐʇ ʇooꞁ uǝʌᴉᵷ ǝɥʇ sdoɹᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidLootTable",
+        "source_string": "Loot table '%1$s' not found",
+        "translation": "punoɟ ʇou ,%1$s, ǝꞁqɐʇ ʇooꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.mainhandOffhandOnNonEntity",
+        "source_string": "Mainhand or offhand should not be used on non entity object.",
+        "translation": "˙ʇɔǝɾqo ʎʇᴉʇuǝ uou uo pǝsn ǝq ʇou pꞁnoɥs puɐɥɟɟo ɹo puɐɥuᴉɐW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.entityNoLootTable",
+        "source_string": "Entity %1$s has no loot table",
+        "translation": "ǝꞁqɐʇ ʇooꞁ ou sɐɥ %1$s ʎʇᴉʇuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.noContainer",
+        "source_string": "Target position %s is not a container",
+        "translation": "ɹǝuᴉɐʇuoɔ ɐ ʇou sᴉ %s uoᴉʇᴉsod ʇǝᵷɹɐ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidSlotIdForSlotType",
+        "source_string": "Could not replace slot %s, slot must be between %d and %d for %s",
+        "translation": "%2$s ɹoɟ %2$d puɐ %1$d uǝǝʍʇǝq ǝq ʇsnɯ ʇoꞁs '%1$s ʇoꞁs ǝɔɐꞁdǝɹ ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.invalidSlotTypeForEntity",
+        "source_string": "Entity %s does not have SlotType %s",
+        "translation": "%2$s ǝdʎ⟘ʇoꞁS ǝʌɐɥ ʇou sǝop %1$s ʎʇᴉʇuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.countExceedsContainerSize",
+        "source_string": "slotId + count exceeds slot container size %d",
+        "translation": "%d ǝzᴉs ɹǝuᴉɐʇuoɔ ʇoꞁs spǝǝɔxǝ ʇunoɔ + pIʇoꞁs",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.failure.negativeCount",
+        "source_string": "count cannot be negative a negative number",
+        "translation": "ɹǝqɯnu ǝʌᴉʇɐᵷǝu ɐ ǝʌᴉʇɐᵷǝu ǝq ʇouuɐɔ ʇunoɔ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.success",
+        "source_string": "%1$s items were dropped.",
+        "translation": "˙pǝddoɹp ǝɹǝʍ sɯǝʇᴉ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess",
+        "source_string": "Replaced %s %d of %s with %d item(s) over %d slot(s)",
+        "translation": "(s)ʇoꞁs %$3d ɹǝʌo (s)ɯǝʇᴉ %2$d ɥʇᴉʍ %2$s ɟo %1$d %1$s pǝɔɐꞁdǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.loot.replaceSuccess.block",
+        "source_string": "Replaced %s slot %d with %d item(s) over %d slot(s)",
+        "translation": "(s)ʇoꞁs %$3d ɹǝʌo (s)ɯǝʇᴉ %2$d ɥʇᴉʍ %1$d ʇoꞁs %1$s pǝɔɐꞁdǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.selector.error.moreThanOne",
+        "source_string": "Only one entity is allowed, but the provided selector allows more than one",
+        "translation": "ǝuo uɐɥʇ ǝɹoɯ sʍoꞁꞁɐ ɹoʇɔǝꞁǝs pǝpᴉʌoɹd ǝɥʇ ʇnq 'pǝʍoꞁꞁɐ sᴉ ʎʇᴉʇuǝ ǝuo ʎꞁuO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.description",
+        "source_string": "Lists all tags associated with the given item.",
+        "translation": "˙ɯǝʇᴉ uǝʌᴉᵷ ǝɥʇ ɥʇᴉʍ pǝʇɐᴉɔossɐ sᵷɐʇ ꞁꞁɐ sʇsᴉꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.single",
+        "source_string": "There is %d tag on the item %s:",
+        "translation": ":%s ɯǝʇᴉ ǝɥʇ uo ᵷɐʇ %d sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.multiple",
+        "source_string": "There are %d tags on the item %s:",
+        "translation": ":%s ɯǝʇᴉ ǝɥʇ uo sᵷɐʇ %d ǝɹɐ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.success.list.tags",
+        "source_string": "%s",
+        "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.tagsfromitem.fail.notagsfound",
+        "source_string": "No tags found on the item: %s.",
+        "translation": "˙%s :ɯǝʇᴉ ǝɥʇ uo punoɟ sᵷɐʇ oN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.toggle",
+        "source_string": "Enables/Disables the content log command",
+        "translation": "puɐɯɯoɔ ᵷoꞁ ʇuǝʇuoɔ ǝɥʇ sǝꞁqɐsᴉᗡ/sǝꞁqɐuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.enabled",
+        "source_string": "Content Log Enabled",
+        "translation": "pǝꞁqɐuƎ ᵷoꞀ ʇuǝʇuoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.togglecontentlog.disabled",
+        "source_string": "Content Log Disabled",
+        "translation": "pǝꞁqɐsᴉᗡ ᵷoꞀ ʇuǝʇuoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.me.description",
+        "source_string": "Displays a message about yourself.",
+        "translation": "˙ɟꞁǝsɹnoʎ ʇnoqɐ ǝᵷɐssǝɯ ɐ sʎɐꞁdsᴉᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.display.incoming",
+        "source_string": "%1$s whispers to you: %2$s",
+        "translation": "%2$s :noʎ oʇ sɹǝdsᴉɥʍ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.display.outgoing",
+        "source_string": "You whisper to %1$s: %2$s",
+        "translation": "%2$s :%1$s oʇ ɹǝdsᴉɥʍ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.message.sameTarget",
+        "source_string": "You can't send a private message to yourself!",
+        "translation": "¡ɟꞁǝsɹnoʎ oʇ ǝᵷɐssǝɯ ǝʇɐʌᴉɹd ɐ puǝs ʇ,uɐɔ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.description",
+        "source_string": "Controls what mob events are allowed to run.",
+        "translation": "˙unɹ oʇ pǝʍoꞁꞁɐ ǝɹɐ sʇuǝʌǝ qoɯ ʇɐɥʍ sꞁoɹʇuoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToTrue",
+        "source_string": "Mob Events are now enabled. Individual events which are set to false will not run.",
+        "translation": "˙unɹ ʇou ꞁꞁᴉʍ ǝsꞁɐɟ oʇ ʇǝs ǝɹɐ ɥɔᴉɥʍ sʇuǝʌǝ ꞁɐnpᴉʌᴉpuI ˙pǝꞁqɐuǝ ʍou ǝɹɐ sʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledSetToFalse",
+        "source_string": "Mob Events are now disabled. Individual events will not run.",
+        "translation": "˙unɹ ʇou ꞁꞁᴉʍ sʇuǝʌǝ ꞁɐnpᴉʌᴉpuI ˙pǝꞁqɐsᴉp ʍou ǝɹɐ sʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsTrue",
+        "source_string": "Mob Events are enabled. Individual events which are set to false will not run.",
+        "translation": "˙unɹ ʇou ꞁꞁᴉʍ ǝsꞁɐɟ oʇ ʇǝs ǝɹɐ ɥɔᴉɥʍ sʇuǝʌǝ ꞁɐnpᴉʌᴉpuI ˙pǝꞁqɐuǝ ǝɹɐ sʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventsEnabledIsFalse",
+        "source_string": "Mob Events are disabled. Individual events will not run.",
+        "translation": "˙unɹ ʇou ꞁꞁᴉʍ sʇuǝʌǝ ꞁɐnpᴉʌᴉpuI ˙pǝꞁqɐsᴉp ǝɹɐ sʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrue",
+        "source_string": "Mob Event %s (id: %s) set to true.",
+        "translation": "˙ǝnɹʇ oʇ ʇǝs (%2$s :pᴉ) %1$s ʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) set to true, but Mob Events are disabled.",
+        "translation": "˙pǝꞁqɐsᴉp ǝɹɐ sʇuǝʌƎ qoW ʇnq 'ǝnɹʇ oʇ ʇǝs sᴉ (%2$s :pᴉ) %1$s ʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventSetToFalse",
+        "source_string": "Mob Event %s (id: %s) set to false.",
+        "translation": "˙ǝsꞁɐɟ oʇ ʇǝs (%2$s :pᴉ) %1$s ʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrue",
+        "source_string": "Mob Event %s (id: %s) is set to true.",
+        "translation": "˙ǝnɹʇ oʇ ʇǝs sᴉ (%2$s :pᴉ) %1$s ʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsTrueButEventsDisabled",
+        "source_string": "Mob Event %s (id: %s) is set to true, but Mob Events are disabled.",
+        "translation": "˙pǝꞁqɐsᴉp ǝɹɐ sʇuǝʌƎ qoW ʇnq 'ǝnɹʇ oʇ ʇǝs (%2$s :pᴉ) %1$s ʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.mobevent.eventIsFalse",
+        "source_string": "Mob Event %s (id: %s) is set to false.",
+        "translation": "˙ǝsꞁɐɟ oʇ ʇǝs sᴉ (%2$s :pᴉ) %1$s ʇuǝʌƎ qoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.players.list.names",
+        "source_string": "%s",
+        "translation": "%s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7824,6 +8528,54 @@
         "max_length": null
     },
     {
+        "identifier": "createWorld.customize.custom.next",
+        "source_string": "Next Page",
+        "translation": "ǝᵷɐԀ ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.clearPlayerData.body1",
+        "source_string": "Select \"All Player Data\" to delete absolutely all player data from the world. The next time any player enters the world, they will start with fresh, default data.",
+        "translation": "˙ɐʇɐp ʇꞁnɐɟǝp 'ɥsǝɹɟ ɥʇᴉʍ ʇɹɐʇs ꞁꞁᴉʍ ʎǝɥʇ 'pꞁɹoʍ ǝɥʇ sɹǝʇuǝ ɹǝʎɐꞁd ʎuɐ ǝɯᴉʇ ʇxǝu ǝɥ⟘ ˙pꞁɹoʍ ǝɥʇ ɯoɹɟ ɐʇɐp ɹǝʎɐꞁd ꞁꞁɐ ʎꞁǝʇnꞁosqɐ ǝʇǝꞁǝp oʇ ,,ɐʇɐᗡ ɹǝʎɐꞁԀ ꞁꞁⱯ,, ʇɔǝꞁǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.SubscriptionTimeLeftRefresh",
+        "source_string": "Changes made to your Realms subscription such as stacking time or turning off recurring billing will not be reflected until your next billing date.",
+        "translation": "˙ǝʇɐp ᵷuᴉꞁꞁᴉq ʇxǝu ɹnoʎ ꞁᴉʇun pǝʇɔǝꞁɟǝɹ ǝq ʇou ꞁꞁᴉʍ ᵷuᴉꞁꞁᴉq ᵷuᴉɹɹnɔǝɹ ɟɟo ᵷuᴉuɹnʇ ɹo ǝɯᴉʇ ᵷuᴉʞɔɐʇs sɐ ɥɔns uoᴉʇdᴉɹɔsqns sɯꞁɐǝᴚ ɹnoʎ oʇ ǝpɐɯ sǝᵷuɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.dev_next_page_label",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "dayOneExperience.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "feed.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "gameTip.openChat.touch.tts",
         "source_string": "Tap the chat button to open chat",
         "translation": "Tap the chat button to open chat",
@@ -7840,9 +8592,121 @@
         "max_length": null
     },
     {
+        "identifier": "gui.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.bedsNew.text.2",
+        "source_string": "Sleeping in a bed will also set your §espawn point§f, meaning that if you die, you'll reappear right back home!",
+        "translation": "¡ǝɯoɥ ʞɔɐq ʇɥᵷᴉɹ ɹɐǝddɐǝɹ ꞁꞁ,noʎ 'ǝᴉp noʎ ɟᴉ ʇɐɥʇ ᵷuᴉuɐǝɯ '§eʇuᴉod uʍɐds§f ɹnoʎ ʇǝs osꞁɐ ꞁꞁᴉʍ pǝq ɐ uᴉ ᵷuᴉdǝǝꞁS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.5",
+        "source_string": "§eGlass§f - This is a transparent block that is made by smelting Sand in a Furnace.",
+        "translation": "˙ǝɔɐuɹnℲ ɐ uᴉ puɐS ᵷuᴉʇꞁǝɯs ʎq ǝpɐɯ sᴉ ʇɐɥʇ ʞɔoꞁq ʇuǝɹɐdsuɐɹʇ ɐ sᴉ sᴉɥ⟘ - §essɐꞁ⅁§f",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.6",
+        "source_string": "§eConcrete§f - This is made by dropping a Concrete Powder block into water.",
+        "translation": "˙ɹǝʇɐʍ oʇuᴉ ʞɔoꞁq ɹǝpʍoԀ ǝʇǝɹɔuoƆ ɐ ᵷuᴉddoɹp ʎq ǝpɐɯ sᴉ sᴉɥ⟘ - §eǝʇǝɹɔuoƆ§f",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.blocks.text.7",
+        "source_string": "§eTerracotta§f - This is found naturally in Badlands biomes or can be crafted and dyed from Clay that is found underwater. Terracotta can be made into Glazed Terracotta by smelting it in a Furnace.",
+        "translation": "˙ǝɔɐuɹnℲ ɐ uᴉ ʇᴉ ᵷuᴉʇꞁǝɯs ʎq ɐʇʇoɔɐɹɹǝ⟘ pǝzɐꞁ⅁ oʇuᴉ ǝpɐɯ ǝq uɐɔ ɐʇʇoɔɐɹɹǝ⟘ ˙ɹǝʇɐʍɹǝpun punoɟ sᴉ ʇɐɥʇ ʎɐꞁƆ ɯoɹɟ pǝʎp puɐ pǝʇɟɐɹɔ ǝq uɐɔ ɹo sǝɯoᴉq spuɐꞁpɐᗺ uᴉ ʎꞁꞁɐɹnʇɐu punoɟ sᴉ sᴉɥ⟘ - §eɐʇʇoɔɐɹɹǝ⟘§f",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.fireworks.text.6.5",
+        "source_string": "§eTrail§f - Adding a Diamond will give the explosion trails.",
+        "translation": "˙sꞁᴉɐɹʇ uoᴉsoꞁdxǝ ǝɥʇ ǝʌᴉᵷ ꞁꞁᴉʍ puoɯɐᴉᗡ ɐ ᵷuᴉppⱯ - §eꞁᴉɐɹ⟘§f",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.fishing.text.3",
+        "source_string": "Wait until you start to see a trail of bubbles coming for the lure.",
+        "translation": "˙ǝɹnꞁ ǝɥʇ ɹoɟ ᵷuᴉɯoɔ sǝꞁqqnq ɟo ꞁᴉɐɹʇ ɐ ǝǝs oʇ ʇɹɐʇs noʎ ꞁᴉʇun ʇᴉɐM",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.food.text.2.keyboard",
+        "source_string": "To eat a food, select it in your hotbar, then click and hold the right mouse button. Keep the §ehunger bar§f:shank: full to regain health when you take damage.",
+        "translation": "˙ǝᵷɐɯɐp ǝʞɐʇ noʎ uǝɥʍ ɥʇꞁɐǝɥ uᴉɐᵷǝɹ oʇ ꞁꞁnɟ :shank:§eɹɐq ɹǝᵷunɥ§f ǝɥʇ dǝǝꞰ ˙uoʇʇnq ǝsnoɯ ʇɥᵷᴉɹ ǝɥʇ pꞁoɥ puɐ ʞɔᴉꞁɔ uǝɥʇ 'ɹɐqʇoɥ ɹnoʎ uᴉ ʇᴉ ʇɔǝꞁǝs 'pooɟ ɐ ʇɐǝ o⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.food.text.2.gamepad",
+        "source_string": "To eat a food, select it in your hotbar, then press and hold :_input_key.use:. Keep the §ehunger bar§f:shank: full to regain health when you take damage.",
+        "translation": "˙ǝᵷɐɯɐp ǝʞɐʇ noʎ uǝɥʍ ɥʇꞁɐǝɥ uᴉɐᵷǝɹ oʇ ꞁꞁnɟ :shank:§eɹɐq ɹǝᵷunɥ§f ǝɥʇ dǝǝꞰ ˙:_input_key.use: pꞁoɥ puɐ ssǝɹd uǝɥʇ 'ɹɐqʇoɥ ɹnoʎ uᴉ ʇᴉ ʇɔǝꞁǝs 'pooɟ ɐ ʇɐǝ o⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.food.text.2.touch",
+        "source_string": "To eat a food, select it in your hotbar, then tap the screen and hold. Keep the §ehunger bar§f:shank: full to regain health when you take damage.",
+        "translation": "˙ǝᵷɐɯɐp ǝʞɐʇ noʎ uǝɥʍ ɥʇꞁɐǝɥ uᴉɐᵷǝɹ oʇ ꞁꞁnɟ :shank:§eɹɐq ɹǝᵷunɥ§f ǝɥʇ dǝǝꞰ ˙pꞁoɥ puɐ uǝǝɹɔs ǝɥʇ dɐʇ uǝɥʇ 'ɹɐqʇoɥ ɹnoʎ uᴉ ʇᴉ ʇɔǝꞁǝs 'pooɟ ɐ ʇɐǝ o⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.minecoins.text.1",
         "source_string": "Explore a world of possibility with Minecoins: Minecraft's in-game currency! Minecoins let you add variety to your gameplat across supported Minecraft games.",
         "translation": "˙sǝɯɐᵷ ʇɟɐɹɔǝuᴉW pǝʇɹoddns ssoɹɔɐ ʎɐꞁdǝɯɐᵷ ɹnoʎ oʇ ʎʇǝᴉɹɐʌ ppɐ noʎ ʇǝꞁ suᴉoɔǝuᴉW ¡ʎɔuǝɹɹnɔ ǝɯɐᵷ-uᴉ s,ʇɟɐɹɔǝuᴉW :suᴉoɔǝuᴉW ɥʇᴉʍ ʎʇᴉꞁᴉqᴉssod ɟo pꞁɹoʍ ɐ ǝɹoꞁdxƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.yourFirstCraft.text.2",
+        "source_string": "For example, put a single wood log anywhere on the crafting grid, and several planks will appear in the §eoutput slot§f.",
+        "translation": "˙§eʇoꞁs ʇndʇno§f ǝɥʇ uᴉ ɹɐǝddɐ ꞁꞁᴉʍ sʞuɐꞁd ꞁɐɹǝʌǝs puɐ 'pᴉɹᵷ ᵷuᴉʇɟɐɹɔ ǝɥʇ uo ǝɹǝɥʍʎuɐ ᵷoꞁ pooʍ ǝꞁᵷuᴉs ɐ ʇnd 'ǝꞁdɯɐxǝ ɹoℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.yourFirstCraft.text.4",
+        "source_string": "Some items require you to place your crafting ingredients in a certain shape - also called a §erecipe§f.",
+        "translation": "˙§eǝdᴉɔǝɹ§f ɐ pǝꞁꞁɐɔ osꞁɐ - ǝdɐɥs uᴉɐʇɹǝɔ ɐ uᴉ sʇuǝᴉpǝɹᵷuᴉ ᵷuᴉʇɟɐɹɔ ɹnoʎ ǝɔɐꞁd oʇ noʎ ǝɹᴉnbǝɹ sɯǝʇᴉ ǝɯoS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fireworksCharge.trail",
+        "source_string": "Trail",
+        "translation": "ꞁᴉɐɹ⟘",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7928,6 +8792,14 @@
         "max_length": null
     },
     {
+        "identifier": "feature.trail_ruins",
+        "source_string": "Trail Ruins",
+        "translation": "suᴉnᴚ ꞁᴉɐɹ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "selectWorld.convertInProgress.tts.msg",
         "source_string": "Converting World",
         "translation": "Converting World",
@@ -7952,6 +8824,46 @@
         "max_length": null
     },
     {
+        "identifier": "store.pagination.next",
+        "source_string": "Next >",
+        "translation": "< ʇxǝN",
+        "context": "Chevrons (< and >) should not be moved",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "safety.textProcessorOffline.message",
+        "source_string": "§eChat and other user generated text is not available on this realm right now. Please try again later.§f",
+        "translation": "§e˙ɹǝʇɐꞁ uᴉɐᵷɐ ʎɹʇ ǝsɐǝꞁԀ ˙ʍou ʇɥᵷᴉɹ ɯꞁɐǝɹ sᴉɥʇ uo ǝꞁqɐꞁᴉɐʌɐ ʇou sᴉ ʇxǝʇ pǝʇɐɹǝuǝᵷ ɹǝsn ɹǝɥʇo puɐ ʇɐɥƆ§f",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "beginnerTips.12",
+        "source_string": "The world of Minecraft is endlessly surprising. You'll find lots of different animals, plants, and even §f§k§a§b§r §f§k§a§b§r",
+        "translation": "§f§k§a§b§r §f§k§a§b§r uǝʌǝ puɐ 'sʇuɐꞁd 'sꞁɐɯᴉuɐ ʇuǝɹǝɟɟᴉp ɟo sʇoꞁ puᴉɟ ꞁꞁ,no⅄ ˙ᵷuᴉsᴉɹdɹns ʎꞁssǝꞁpuǝ sᴉ ʇɟɐɹɔǝuᴉW ɟo pꞁɹoʍ ǝɥ⟘",
+        "context": "please leave \"§f§k§a§b§r\" unchanged",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.31",
+        "source_string": "Dolphins can lead you to shipwrecks and underwater ruins, feed them cod and follow their trail!",
+        "translation": "¡ꞁᴉɐɹʇ ɹᴉǝɥʇ ʍoꞁꞁoɟ puɐ poɔ ɯǝɥʇ pǝǝɟ 'suᴉnɹ ɹǝʇɐʍɹǝpun puɐ sʞɔǝɹʍdᴉɥs oʇ noʎ pɐǝꞁ uɐɔ suᴉɥdꞁoᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "storage_migration.button.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "contentlog.history.copyToClipboard",
         "source_string": "Copy to Clipboard",
         "translation": "pɹɐoqdᴉꞁƆ oʇ ʎdoƆ",
@@ -7964,6 +8876,14 @@
         "source_string": "Uploading world files",
         "translation": "Uploading world files",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.bookTitle",
+        "source_string": "Game Test Report",
+        "translation": "ʇɹodǝᴚ ʇsǝ⟘ ǝɯɐ⅁",
+        "context": "A book with this title is placed next to each test with the test results inside",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -7995,6 +8915,14 @@
         "identifier": "hbui.Achievements.all",
         "source_string": "All",
         "translation": "ꞁꞁⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trailsandtales",
+        "source_string": "Trails & Tales, 2023",
+        "translation": "Ɛᘔ0ᘔ 'sǝꞁɐ⟘ ⅋ sꞁᴉɐɹ⟘",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8067,6 +8995,54 @@
         "identifier": "hbui.Common.narration.roles.button",
         "source_string": "Button",
         "translation": "Button",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.KEYBOARD",
+        "source_string": "Press NEXT",
+        "translation": "⟘XƎN ssǝɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.PS",
+        "source_string": "Press NEXT",
+        "translation": "⟘XƎN ssǝɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.QUEST",
+        "source_string": "Press NEXT",
+        "translation": "⟘XƎN ssǝɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.STEAM",
+        "source_string": "Press NEXT",
+        "translation": "⟘XƎN ssǝɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.SWITCH",
+        "source_string": "Press NEXT",
+        "translation": "⟘XƎN ssǝɹԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ControllerSpecificButtonNarration.Gamepad.NEXT.XBOX",
+        "source_string": "Press NEXT",
+        "translation": "⟘XƎN ssǝɹԀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8147,6 +9123,14 @@
         "identifier": "hbui.CreatePartyRoute.open",
         "source_string": "Open",
         "translation": "uǝdO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.clearPlayerDataModal.descriptionOne",
+        "source_string": "Select \"Delete all player data\" to delete absolutely all player data from the world. The next time any player enters the world, they will start with fresh, default data.",
+        "translation": "˙ɐʇɐp ʇꞁnɐɟǝp 'ɥsǝɹɟ ɥʇᴉʍ ʇɹɐʇs ꞁꞁᴉʍ ʎǝɥʇ 'pꞁɹoʍ ǝɥʇ sɹǝʇuǝ ɹǝʎɐꞁd ʎuɐ ǝɯᴉʇ ʇxǝu ǝɥ⟘ ˙pꞁɹoʍ ǝɥʇ ɯoɹɟ ɐʇɐp ɹǝʎɐꞁd ꞁꞁɐ ʎꞁǝʇnꞁosqɐ ǝʇǝꞁǝp oʇ ,,ɐʇɐp ɹǝʎɐꞁd ꞁꞁɐ ǝʇǝꞁǝᗡ,, ʇɔǝꞁǝS",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8307,6 +9291,22 @@
         "identifier": "hbui.multiplayerBlockedModal.learnMore",
         "source_string": "Learn more",
         "translation": "ǝɹoɯ uɹɐǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.NewPlayerPathRoute.CharacterSelector.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.NewPlayerPathRoute.Mode.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8704,6 +9704,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ScreenshotDetailsSideMenu.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ScreenshotGalleryContainer.confirmButtonText",
         "source_string": "Confirm",
         "translation": "ɯɹᴉɟuoƆ",
@@ -9016,6 +10024,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorTutorial.button.next",
+        "source_string": "Next",
+        "translation": "ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorTutorial.exit.confirm",
         "source_string": "Confirm",
         "translation": "ɯɹᴉɟuoƆ",
@@ -9147,6 +10163,22 @@
         "identifier": "hbui.NavigationBarLayout.MenuButton.narration",
         "source_string": "Menu Button",
         "translation": "uoʇʇnᗺ nuǝW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Pagination.next",
+        "source_string": "Next to, %1$s of %2$s",
+        "translation": "%2$s ɟo %1$s 'oʇ ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Pagination.nextPage",
+        "source_string": "Next Page, Go to page %1$s",
+        "translation": "%1$s ǝᵷɐd oʇ o⅁ 'ǝᵷɐԀ ʇxǝN",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
