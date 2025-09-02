@@ -29426,7 +29426,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.2",
         "source_string": "To get a Jigsaw Block you must use the /give slash command. To use a Jigsaw Block, you must have Operator permissions.",
-        "translation": "Pentru a obține un bloc Jigsaw trebuie să folosești comanda /give. Pentru a utiliza un bloc Jigsaw trebuie să aveți permisiuni de operator.",
+        "translation": "Pentru a obține un bloc Jigsaw trebuie să folosești comanda /give. Pentru a utiliza un bloc Jigsaw trebuie să ai permisiuni de operator.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31048,6 +31048,174 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.structureBlocks",
+        "source_string": "Structure Blocks",
+        "translation": "Blocuri de structură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.1",
+        "source_string": "Structure Blocks give creators the ability to copy and save out sections of their world into structures. Saved structures can then be pasted back into the world.",
+        "translation": "Blocurile de structură oferă creatorilor capacitatea de a copia și salva secțiuni din lumea lor în structuri. Structurile salvate pot fi apoi lipite înapoi în lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.1",
+        "source_string": "How to Obtain",
+        "translation": "Cum se obține",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.2",
+        "source_string": "To get a Structure Block you must use the /give slash command. To use a Structure Block, you must have Operator permissions.",
+        "translation": "Pentru a obține un bloc de structură trebuie să folosești comanda /give. Pentru a utiliza un bloc de structură trebuie să ai permisiuni de operator.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.2",
+        "source_string": " Modes",
+        "translation": " Moduri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.3",
+        "source_string": "Structure Blocks have 4 modes that can be switched between with the Mode dropdown: Save, Load, Corner, and 3D Export.",
+        "translation": "Blocurile de structură au 4 moduri care pot fi schimbate între ele cu meniul derulant Mod: Salvare, Încărcare, Colț, și Export 3D.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.4",
+        "source_string": "Save mode saves an area of the world as a structure.",
+        "translation": "Modul salvare salvează o zonă a lumii ca structură.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.5",
+        "source_string": "Load mode loads a structure into the world. Only structures saved to the world or included in a behavior pack that is applied to the world can be loaded.",
+        "translation": "Modul încărcare încarcă o structură în lume. Doar structurile salvate în lume sau incluse într-un pachet de comportament care este aplicat lumii pot fi încărcate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.6",
+        "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.",
+        "translation": "Modul colț este utilizat cu butonul de detectare al modului salvare pentru a seta automat zona pe care doriți să o salvați. Vezi secțiunea Modul colț de mai jos pentru mai multe detalii.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.7",
+        "source_string": "3D Export exports a 3D model file on supported platforms.",
+        "translation": "Export 3D exportă un fișier model 3D pe platformele suportate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.3",
+        "source_string": "Preview Window",
+        "translation": "Fereastră previzualizare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.8",
+        "source_string": "On the right side of the Structure Block screen, a preview of the area you have selected or the structure to load will appear depending on the mode the block is in.",
+        "translation": "În partea dreaptă a ecranului bloc de structură, o previzualizare a zonei pe care ai selectat-o sau structura de încărcat va apărea în funcție de modul în care se află blocul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.9.keyboard",
+        "source_string": "Press :_input_key.attack: and drag, to rotate the 3D preview. ",
+        "translation": "Apasă pe :_input_key.attack: și trage pentru a roti previzualizarea 3D. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.9.gamepad",
+        "source_string": "Use :_gamepad_stick_right: to rotate the 3D preview. ",
+        "translation": "Utilizează :_gamepad_stick_right: pentru a roti previzualizarea 3D. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.9.touch",
+        "source_string": "Touch and drag on the preview to rotate the 3D preview. ",
+        "translation": "Apasă și trage degetul pe previzualizare pentru a o roti. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.4",
+        "source_string": "Redstone Activation",
+        "translation": "Activare cu Redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.10",
+        "source_string": "Redstone can be used to activate a Structure Block. This will cause it to either save a structure out or load a structure into the world, depending on the mode of the block and its settings.",
+        "translation": "Redstone poate fi folosit pentru a activa un bloc de structură. Acest lucru îl va face să salveze o structură din sau să încarce o structură în lume, în funcție de modul blocului și de setările acestuia.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.5",
+        "source_string": "Integrity and Seed",
+        "translation": "Integritate și sămânță",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.11",
+        "source_string": "You can change how much of a structure is loaded in by changing the values for Integrity and Seed.",
+        "translation": "Poți schimba cât de mult dintr-o structură este încărcat prin schimbarea valorilor pentru integritate și sămânță.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.12",
+        "source_string": "Integrity - the percentage of blocks to load in from the structure, accepted values are 0 to 100. Blocks will be chosen randomly if a Seed is not specified.",
+        "translation": "Integritate - procentul de blocuri care să se încarce din structură, valorile acceptate sunt de la 0 la 100. Blocurile vor fi alese aleatoriu în cazul în care nu este specificată o sămânță.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.13",
+        "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly.",
+        "translation": "Sămânța - valoarea introdusă aici va determina care blocuri să fie eliminate atunci când se folosește Integritate. Lăsați acest câmp gol dacă doriți ca blocurile să fie alese aleatoriu.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.shulkerBoxes",
         "source_string": "Shulker Boxes",
         "translation": "Cutii de shulker",
@@ -31227,6 +31395,38 @@
         "identifier": "howtoplay.trading.text.4",
         "source_string": "Take care of your villagers, they need to rest, work, and eat to thrive.",
         "translation": "Ai grijă de sătenii tăi, au nevoie de odihnă, să lucreze și să mănânce pentru a prospera.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.text.3.notTouch",
+        "source_string": "The Bow is the primary ranged weapon in Minecraft. Press and hold :_input_key.use: to draw the bow back. Release :_input_key.use: to fire an arrow. The bow requires arrows to fire. ",
+        "translation": "Arcul este arma principală de distanță în Minecraft. Apasă și ține apăsat pe :_input_key.use: pentru a trage arcul înapoi. Eliberează :_input_key.use: pentru a trage o săgeată. Arcul necesită săgeți pentru a trage. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.text.3.touch",
+        "source_string": "The Bow is the primary ranged weapon in Minecraft. Press and hold the Screen to draw the bow back. Release the press to fire an arrow. The bow requires arrows to fire.",
+        "translation": "Arcul este arma principală de distanță în Minecraft. Apasă și ține apăsat pe ecran pentru a trage arcul înapoi. Ridică degetul pentru a trage o săgeată. Arcul necesită săgeți pentru a trage.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.text.6.notTouch",
+        "source_string": "The Trident is a dual-purpose melee and ranged weapon. Press :_input_key.attack: to attack. Press and hold :_input_key.use: to draw the trident back. Release :_input_key.use: to throw the trident. The Trident is the best weapon underwater.",
+        "translation": "Tridentul este o armă cu dublă întrebuințare (armă corp la corp și de distanță). Apasă :_input_key.attack: pentru a ataca. Apasă și ține apăsat pe :_input_key.use: pentru a trage tridentul înapoi. Eliberează :_input_key.use: pentru a arunca tridentul. Tridentul este cea mai bună armă sub apă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.text.6.touch",
+        "source_string": "The Trident is a dual-purpose melee and ranged weapon. Tap mobs to attack them. Press and hold the Screen to draw the trident back. Release the press to throw the trident. The Trident is the best weapon underwater.",
+        "translation": "Tridentul este o armă cu dublă întrebuințare (armă corp la corp și de distanță). Apasă pe creaturi pentru a le ataca. Apasă și ține apăsat pe ecran pentru a trage tridentul înapoi. Ridică degetul pentru a arunca tridentul. Tridentul este cea mai bună armă sub apă.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32800,6 +33000,38 @@
         "max_length": null
     },
     {
+        "identifier": "item.beef.name",
+        "source_string": "Raw Beef",
+        "translation": "Carne de vită crudă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.chicken.name",
+        "source_string": "Raw Chicken",
+        "translation": "Pui crud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.fish.name",
+        "source_string": "Raw Cod",
+        "translation": "Cod crud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.salmon.name",
+        "source_string": "Raw Salmon",
+        "translation": "Somon crud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.spawn_egg.entity.vindicator.name",
         "source_string": "Vindicator Spawn Egg",
         "translation": "Ou generator de apărător",
@@ -32824,6 +33056,30 @@
         "max_length": null
     },
     {
+        "identifier": "item.muttonRaw.name",
+        "source_string": "Raw Mutton",
+        "translation": "Carne de oaie crudă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.porkchop.name",
+        "source_string": "Raw Porkchop",
+        "translation": "Carne de porc crudă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.rabbit.name",
+        "source_string": "Raw Rabbit",
+        "translation": "Iepure crud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.skull.char.name",
         "source_string": "Player Head",
         "translation": "Cap de jucător",
@@ -32843,6 +33099,14 @@
         "identifier": "item.skull.wither.name",
         "source_string": "Wither Skeleton Skull",
         "translation": "Craniu de schelet wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rawFood",
+        "source_string": "Raw Food",
+        "translation": "Mâncare crudă",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33156,6 +33420,14 @@
         "source_string": "Resume",
         "translation": "Reia",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.onlinefriends",
+        "source_string": "Friends (%s)",
+        "translation": "Prieteni (%s)",
+        "context": "This is the text for the button used to open the friends drawer, used on the main menu and the ingame menu. {MaxLength=\"13\"} {StrContains=\"(%s)\"}",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -33499,6 +33771,78 @@
         "identifier": "options.dev_chunk_map_mode_server_chunk_debug_display_state",
         "source_string": "Server (DB State)",
         "translation": "Server (stare DB)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderTerrain",
+        "source_string": "Disable Terrain Drawing",
+        "translation": "Dezactivează randarea terenului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderEntities",
+        "source_string": "Disable Entities Drawing",
+        "translation": "Dezactivează randarea entităților",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderBlockEntities",
+        "source_string": "Disable Block Entities Drawing",
+        "translation": "Dezactivează randarea entităților de bloc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderParticles",
+        "source_string": "Disable Particles Drawing",
+        "translation": "Dezactivează randarea particulelor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderSky",
+        "source_string": "Disable Sky Drawing",
+        "translation": "Dezactivează randarea cerului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderWeather",
+        "source_string": "Disable Weather Drawing",
+        "translation": "Dezactivează randarea vremii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderHud",
+        "source_string": "Disable Hud Drawing",
+        "translation": "Dezactivează randarea Hud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderItemInHand",
+        "source_string": "Disable Item-in-Hand Drawing",
+        "translation": "Dezactivează randarea obiectului din mână",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_disableRenderMainMenuCubeMap",
+        "source_string": "Disable Main Menu CubeMap Drawing",
+        "translation": "Dezactivează randarea hărții cub din meniul principal",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35392,6 +35736,54 @@
         "max_length": null
     },
     {
+        "identifier": "item.raw_copper.name",
+        "source_string": "Raw Copper",
+        "translation": "Cupru brut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.raw_iron.name",
+        "source_string": "Raw Iron",
+        "translation": "Fier brut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.raw_gold.name",
+        "source_string": "Raw Gold",
+        "translation": "Aur brut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.raw_copper_block.name",
+        "source_string": "Block of Raw Copper",
+        "translation": "Bloc de cupru brut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.raw_iron_block.name",
+        "source_string": "Block of Raw Iron",
+        "translation": "Bloc de fier brut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.raw_gold_block.name",
+        "source_string": "Block of Raw Gold",
+        "translation": "Bloc de fier brut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tipped_arrow.effect.wither",
         "source_string": "Arrow of Decay",
         "translation": "Săgeată de veștejire",
@@ -35403,6 +35795,78 @@
         "identifier": "structure_block.animation_time_tip",
         "source_string": "In Seconds",
         "translation": "În secunde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.title",
+        "source_string": "3D Export",
+        "translation": "Export 3D",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.include_players",
+        "source_string": "Include Players:",
+        "translation": "Include jucători:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.remove_blocks",
+        "source_string": "Remove Blocks:",
+        "translation": "Elimină blocuri:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.off",
+        "source_string": "Off",
+        "translation": "Dezactivat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.show",
+        "source_string": "Show",
+        "translation": "Afișează",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.include",
+        "source_string": "Include",
+        "translation": "Include",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.remove",
+        "source_string": "Remove",
+        "translation": "Elimină",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.export",
+        "source_string": "Export",
+        "translation": "Exportare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.reset",
+        "source_string": "Reset",
+        "translation": "Resetare",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
