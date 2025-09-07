@@ -8650,7 +8650,7 @@
     {
         "identifier": "commands.operator.invalid",
         "source_string": "Invalid operation %1$s.",
-        "translation": "Operațiune invalidă %1$s.",
+        "translation": "Operație invalidă %1$s.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8986,7 +8986,7 @@
     {
         "identifier": "commands.position.description",
         "source_string": "Toggles on/off coordinates for player.",
-        "translation": "Activetază/dezactivează coordonatele pentru jucător.",
+        "translation": "Activează/dezactivează coordonatele pentru jucător.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8994,7 +8994,7 @@
     {
         "identifier": "commands.publish.failed",
         "source_string": "Unable to host local game",
-        "translation": "Nu se poate găzdui jocul local",
+        "translation": "Nu se poate găzdui un joc local",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9002,7 +9002,7 @@
     {
         "identifier": "commands.publish.started",
         "source_string": "Local game hosted on port %1$s",
-        "translation": "Joc local găzduit pe portul %1$s",
+        "translation": "Jocul local este găzduit pe portul %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9826,7 +9826,7 @@
     {
         "identifier": "commands.scoreboard.players.operation.invalidOperation",
         "source_string": "Invalid operation %1$s",
-        "translation": "Operațiune invalidă %1$s",
+        "translation": "Operație invalidă %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30928,6 +30928,102 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.realms_stories",
+        "source_string": "Realms Stories",
+        "translation": "Realms Stories",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.text.1",
+        "source_string": "A social hub for you and all the members of the Realm. Share your adventures and creations by posting stories to the Story Feed, like and comment to celebrate stories posted by other members.",
+        "translation": "Un centru social pentru tine și toți membrii realm-ului. Împărtășește-ți aventurile și creațiile prin postarea de povestiri în flux, apreciază și comentează pentru a sărbători povestirile postate de alți membri.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.header.1",
+        "source_string": "Tell your story",
+        "translation": "Spune-ți povestea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.text.2",
+        "source_string": "Clicking the ADD STORY button on the Story Feed will let you write a story of your own. You can choose to include a screenshot or text (or both!). Clicking the POST button will post your text/screenshot to the Story Feed for all the Realm's members to enjoy. If you don't have any screenshots to post, use the §ecamera§f:camera: on the game menu to capture the moment.",
+        "translation": "Făcând clic pe butonul de ADĂUGARE POVESTIRE din flux îți va permite să scrii propria povestire. Poți alege să incluzi o captură de ecran sau să scrii un text (sau ambele!). Apăsând pe butonul POSTEAZĂ vei posta textul/captura de ecran în flux pentru ca toți membrii realm-ului să o vadă. Dacă nu ai nici o captură de ecran de afișat, folosește §ecamera§f:camera: din meniul jocului pentru a captura momentul.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.header.2",
+        "source_string": "Stay up to date",
+        "translation": "Rămâi la curent",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.text.3",
+        "source_string": "Whenever there is a new story in the Feed that you haven't read yet, a number will appear on the REALMS STORIES button. You'll always know when there is something new to read from your Realm's community. If you like what someone shared, go ahead and leave them a like or comment on their story!",
+        "translation": "Ori de câte ori există o nouă povestire în flux pe care nu ai citit-o, un număr va apărea pe butonul REAMS STORIES. Vei ști mereu când e ceva nou de citit din comunitatea realm-ului tău. Dacă îți place ce a distribuit cineva, poți aprecia sau comenta la povestea lor!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.header.3",
+        "source_string": "Organize play",
+        "translation": "Organizează jocul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.text.4",
+        "source_string": "See who's playing and when in the Timeline. Scroll through the members of the Realm to see when they played last and who they played with. Use this information to set up times when you can all play together.",
+        "translation": "Vezi cine se joacă și când din Cronologie. Derulează prin membrii Realm-ului pentru a vedea când au jucat ultima dată și cu cine au jucat. Utilizați această informație pentru a vedea la ce ore vă puteți juca împreună.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.header.4",
+        "source_string": "Know who is on the Realm",
+        "translation": "Află cine e pe Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.text.5",
+        "source_string": "Get to know who is part of the Realm by using the Members tab. It's a list of all the players who can play here. You can see who the Realm owner is, who the operators are, and who has joined Realms Stories for this Realm. There are search, sort, and filter options to help you find exactly who you're looking for.",
+        "translation": "Află cine face parte din realm folosind fila Membri. Aici vei găsi o listă cu toți jucătorii care pot juca aici. Poți vedea cine este proprietarul realm-ului, cine sunt operatorii, și cine s-a alăturat Realms Stories pentru acest realm. Există opțiuni de căutare, sortare și filtrare pentru a te ajuta să găsești exact pe cine cauți.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.header.5",
+        "source_string": "Connect from anywhere",
+        "translation": "Conectează-te de oriunde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.realms_stories.text.6",
+        "source_string": "Realms Stories is available in the game menu when you're playing in the Realm and on the Realms Tab. You can keep up to date and tell your story from anywhere you are, even when you aren't playing. From your console, computer, and mobile device, Realms Stories is available everywhere.",
+        "translation": "Realms Stories sunt disponibile în meniul jocului când te joci în realm și în fila Realms. Poți rămâne la curent și să îți spui povestirea de oriunde ai fi, chiar și atunci când nu joci. De pe consolă, computer și dispozitiv mobil, Realms Stories este disponibil peste tot.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.scaffolding",
         "source_string": "Scaffolding",
         "translation": "Schele",
@@ -31114,7 +31210,7 @@
     {
         "identifier": "howtoplay.structureBlocks.text.6",
         "source_string": "Corner mode is used with save mode's detect button to automatically set the area you want to save. See the Corner Mode section below for more details.",
-        "translation": "Modul colț este utilizat cu butonul de detectare al modului salvare pentru a seta automat zona pe care doriți să o salvați. Vezi secțiunea Modul colț de mai jos pentru mai multe detalii.",
+        "translation": "Modul colț este utilizat cu butonul detectare al modului salvare pentru a seta automat zona pe care doriți să o salvați. Vezi secțiunea Modul colț de mai jos pentru mai multe detalii.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31211,6 +31307,54 @@
         "identifier": "howtoplay.structureBlocks.text.13",
         "source_string": "Seed - the value entered here will determine which blocks to remove when using Integrity. Leave this field blank if you want the blocks to be chosen randomly.",
         "translation": "Sămânța - valoarea introdusă aici va determina care blocuri să fie eliminate atunci când se folosește Integritate. Lăsați acest câmp gol dacă doriți ca blocurile să fie alese aleatoriu.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.6",
+        "source_string": "Structure Void Blocks",
+        "translation": "Blocurile vid de structură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.14",
+        "source_string": "When a structure with Structure Void blocks is loaded into the world, any block that would have been removed where the structure void block is loading into, will instead stay in the world.",
+        "translation": "Când o structură cu blocuri vid de structură este încărcată în lume, orice bloc care ar fi fost eliminat acolo unde se încarcă blocul, va rămâne în lume.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.15",
+        "source_string": "Example: loading an empty shipwreck into the bottom of the ocean will normally copy air over the water blocks. If the shipwreck was filled with structure void, then the water will stay, and you will have a shipwreck filled with water.",
+        "translation": "Exemplu: încărcarea unei epave goale pe fundul oceanului va copia în mod normal aer peste blocurile de apă. Dacă epava a fost umplută cu blocuri vid de structură, atunci apa va rămâne și vei avea o epavă umplută cu apă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.header.7",
+        "source_string": "Detect and Corner Mode",
+        "translation": "Detectare și Modul colț",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.16",
+        "source_string": "To automatically select the area you want to save, you can place Corner Mode blocks around your structure and name them with the same name as the structure you want to save.",
+        "translation": "Pentru a selecta automat zona pe care dorești să o salvezi, poți plasa blocuri cu modul colț selectat în jurul structurii tale și să le denumești cu același nume ca și structura pe care vrei să o salvezi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.structureBlocks.text.17",
+        "source_string": "Pressing the Detect button in Save mode will find all of the Corner Blocks with the same name and create a selection area so that it will save everything inside of the volume those Corner Blocks make.",
+        "translation": "Apăsând butonul Detectare din modul Salvare va căuta toate blocurile cu modul colț selectat și același nume și va crea o zonă de selecție astfel încât să salveze totul în interiorul volumului pe care îl fac blocurile cu modul colț selectat.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31611,6 +31755,22 @@
         "identifier": "howtoplay.yourFirstCraft.text.3.touch",
         "source_string": "Simply tap your shiny new planks and they will appear in your hotbar. Now you're ready to place them into the world!",
         "translation": "Pur și simplu apasă pe noile tale scânduri și vor apărea în bara ta de acțiune. Acum ești gata să le plasezi în lume!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.yourFirstCraft.text.3.keyboard",
+        "source_string": "Simply drag your shiny new planks to your hotbar. Now you're ready to place them into the world!",
+        "translation": "Pur și simplu trage de noile tale scânduri către bara ta de acțiune. Acum ești gata să le plasezi în lume!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.yourFirstCraft.text.3.gamepad",
+        "source_string": "Simply select your shiny new planks and they will appear in your hotbar. Now you're ready to place them into the world!",
+        "translation": "Pur și simplu selectează noile tale scânduri și vor apărea în bara ta de acțiune. Acum ești gata să le plasezi în lume!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32800,6 +32960,38 @@
         "max_length": null
     },
     {
+        "identifier": "item.banner.curly_border.gray",
+        "source_string": "Gray Bordure Indented",
+        "translation": "Bordură dințată gri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.green",
+        "source_string": "Green Bordure Indented",
+        "translation": "Bordură dințată verde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.lightBlue",
+        "source_string": "Light Blue Bordure Indented",
+        "translation": "Bordură dințată bleu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.curly_border.lime",
+        "source_string": "Lime Bordure Indented",
+        "translation": "Bordură dințată verde-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.banner.curly_border.magenta",
         "source_string": "Magenta Bordure Indented",
         "translation": "Bordură dințată magenta",
@@ -33267,6 +33459,14 @@
         "identifier": "lanServer.otherPlayers",
         "source_string": "Settings for Other Players",
         "translation": "Setări pentru alți jucători",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "lanServer.scanning",
+        "source_string": "Scanning for games on your local network",
+        "translation": "Se caută jocuri în rețeaua locală",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35728,6 +35928,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.structure_block.name",
+        "source_string": "Structure Block",
+        "translation": "Bloc de structură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.waterlog_block",
+        "source_string": "Waterlog Blocks",
+        "translation": "Umple blocurile cu apă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.wither_rose.name",
         "source_string": "Wither Rose",
         "translation": "Trandafir al witherului",
@@ -35792,9 +36008,489 @@
         "max_length": null
     },
     {
+        "identifier": "structure_block.title",
+        "source_string": "Structure Block",
+        "translation": "Bloc de structură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.structure_name",
+        "source_string": "Structure Name",
+        "translation": "Numele structurii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode",
+        "source_string": "Mode:",
+        "translation": "Mod:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.save",
+        "source_string": "Save",
+        "translation": "Salvare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.load",
+        "source_string": "Load",
+        "translation": "Încărcare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.corner",
+        "source_string": "Corner",
+        "translation": "Colț",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.data",
+        "source_string": "Data",
+        "translation": "Date",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.export",
+        "source_string": "3D Export",
+        "translation": "Export 3D",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mode.invalid",
+        "source_string": "Invalid mode",
+        "translation": "Mod invalid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.size",
+        "source_string": "Size:",
+        "translation": "Mărime:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.data_label",
+        "source_string": "Data:",
+        "translation": "Date:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.offset",
+        "source_string": "Offset:",
+        "translation": "Decalaj:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.invisible_blocks",
+        "source_string": "Invisible Blocks:",
+        "translation": "Blocuri invizibile:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.include_entities",
+        "source_string": "Include Entities:",
+        "translation": "Include entități:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.show_bounding_box",
+        "source_string": "Show Bounding Box:",
+        "translation": "Afișează caseta de încadrare:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mirror",
+        "source_string": "Mirror:",
+        "translation": "Oglindire:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.animation_mode",
+        "source_string": "Animation Mode:",
+        "translation": "Mod animație:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.animation_time",
+        "source_string": "Animation Time:",
+        "translation": "Timp animație:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "structure_block.animation_time_tip",
         "source_string": "In Seconds",
         "translation": "În secunde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.place_by_none",
+        "source_string": "None",
+        "translation": "Niciuna",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.place_by_layer",
+        "source_string": "Place by Layer",
+        "translation": "Plasare pe nivel",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.place_by_block",
+        "source_string": "Place by Block",
+        "translation": "Plasare după bloc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.rotation",
+        "source_string": "Rotation",
+        "translation": "Rotație",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.integrity",
+        "source_string": "Integrity:",
+        "translation": "Integritate:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.seed",
+        "source_string": "Seed:",
+        "translation": "Sămânță:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.off",
+        "source_string": "Off",
+        "translation": "Oprit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.show",
+        "source_string": "Show",
+        "translation": "Afișează",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.include",
+        "source_string": "Include",
+        "translation": "Include",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.detect",
+        "source_string": "Detect",
+        "translation": "Detectare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.export",
+        "source_string": "Export",
+        "translation": "Exportare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.import",
+        "source_string": "Import",
+        "translation": "Importare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.corner",
+        "source_string": "Corner",
+        "translation": "Colț",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.corner.text.1.title",
+        "source_string": "Corner Mode:",
+        "translation": "Modul colţ:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.corner.text.2.paragraph",
+        "source_string": "Corner Mode is used with the Detect button in Save Mode to define the area to save. It will only detect Corner Blocks with the same name as the structure being saved.",
+        "translation": "Modul colț este folosit cu butonul Detectare din modul salvare pentru a defini zona de salvat. Va detecta doar blocurile cu modul colț selectat și același nume ca și structura care este salvată.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.export.disabled_message",
+        "source_string": "Export is disabled on Minecraft Marketplace world templates.",
+        "translation": "Exportul este dezactivat pe șabloanele de lumi din Piața Minecraft.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.reset",
+        "source_string": "Reset",
+        "translation": "Resetare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.save",
+        "source_string": "Save",
+        "translation": "Salvează",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.redstone_save_mode",
+        "source_string": "Redstone Save Mode",
+        "translation": "Mod salvare redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.save_to_disk",
+        "source_string": "Save To Disk",
+        "translation": "Salvează pe disc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.save_to_memory",
+        "source_string": "Save In Memory",
+        "translation": "Salvează în memorie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.save.successful",
+        "source_string": "Structure Saved!",
+        "translation": "Structura s-a salvat!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.import.successful",
+        "source_string": "Structure Imported!",
+        "translation": "Structura s-a importat!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.import.failed",
+        "source_string": "Structure Import FAILED!",
+        "translation": "Importul structurii A EȘUAT!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.load",
+        "source_string": "Load",
+        "translation": "Încarcă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mirror.none",
+        "source_string": "None",
+        "translation": "Niciuna",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mirror.left_right",
+        "source_string": "Left Right",
+        "translation": "Stânga Dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.mirror.front_back",
+        "source_string": "Front Back",
+        "translation": "Față Spate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.rotation.none",
+        "source_string": "No Rotation",
+        "translation": "Nici o rotaţie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.rotation.90",
+        "source_string": "90",
+        "translation": "90",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.rotation.180",
+        "source_string": "180",
+        "translation": "180",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.rotation.270",
+        "source_string": "270",
+        "translation": "270",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.progress.generating",
+        "source_string": "Generating your model...",
+        "translation": "Se generează modelul...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.extensionDescription",
+        "source_string": "Structure File",
+        "translation": "Fișier structură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.exportFileTitle",
+        "source_string": "Export Structure",
+        "translation": "Exportare structură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.exportFailedTitle",
+        "source_string": "Export Failed",
+        "translation": "Exportul a eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.exportFailedDescription",
+        "source_string": "We failed to export the structure.",
+        "translation": "Nu am reușit să exportăm structura.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.exportProgressTitle",
+        "source_string": "Exporting Your Structure",
+        "translation": "Se face exportul structurii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.importFileTitle",
+        "source_string": "Import Structure",
+        "translation": "Importare structură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.importFailedTitle",
+        "source_string": "Import Failed",
+        "translation": "Importul a eșuat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.importFailedDescription",
+        "source_string": "We failed to import the structure.",
+        "translation": "Nu am reușit să importăm structura.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.importProgressTitle",
+        "source_string": "Importing Your Structure",
+        "translation": "Se face importul structurii",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35992,6 +36688,14 @@
         "max_length": null
     },
     {
+        "identifier": "uiPackError.invalidOperationName",
+        "source_string": "%s (%s): Invalid operation '%s'.",
+        "translation": "%s (%s): Operație invalidă „%s”.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tips.edu.3",
         "source_string": "Use Ctrl+B to turn on text-to-speech capabilities for in-game chat.",
         "translation": "Folosește Ctrl+B pentru a porni transformarea textului în vorbire pentru discuția din joc.",
@@ -36035,6 +36739,14 @@
         "identifier": "lategameTips.20",
         "source_string": "The Beacon is a powerful item that can only be crafted with a Nether star from the Wither!",
         "translation": "Farul este un obiect puternic care poate fi creat doar cu o stea de Nether de la Wither!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tips.realms.4",
+        "source_string": "Share your great moments with the other players on this Realm by adding a story to the Story Feed.",
+        "translation": "Împărtășește momentele minunate cu ceilalți jucători de pe acest realm prin adăugarea unei povestiri în flux.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
