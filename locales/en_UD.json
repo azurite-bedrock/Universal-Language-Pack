@@ -8186,7 +8186,7 @@
     {
         "identifier": "commands.loot.failure.invalidSlotIdForSlotType",
         "source_string": "Could not replace slot %s, slot must be between %d and %d for %s",
-        "translation": "%2$s ɹoɟ %2$d puɐ %1$d uǝǝʍʇǝq ǝq ʇsnɯ ʇoꞁs '%1$s ʇoꞁs ǝɔɐꞁdǝɹ ʇou pꞁnoƆ",
+        "translation": "%4$s ɹoɟ %3$d puɐ %2$d uǝǝʍʇǝq ǝq ʇsnɯ ʇoꞁs '%1$s ʇoꞁs ǝɔɐꞁdǝɹ ʇou pꞁnoƆ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8226,7 +8226,7 @@
     {
         "identifier": "commands.loot.replaceSuccess",
         "source_string": "Replaced %s %d of %s with %d item(s) over %d slot(s)",
-        "translation": "(s)ʇoꞁs %$3d ɹǝʌo (s)ɯǝʇᴉ %2$d ɥʇᴉʍ %2$s ɟo %1$d %1$s pǝɔɐꞁdǝᴚ",
+        "translation": "(s)ʇoꞁs %$5d ɹǝʌo (s)ɯǝʇᴉ %4$d ɥʇᴉʍ %3$s ɟo %2$d %1$s pǝɔɐꞁdǝᴚ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8234,7 +8234,7 @@
     {
         "identifier": "commands.loot.replaceSuccess.block",
         "source_string": "Replaced %s slot %d with %d item(s) over %d slot(s)",
-        "translation": "(s)ʇoꞁs %$3d ɹǝʌo (s)ɯǝʇᴉ %2$d ɥʇᴉʍ %1$d ʇoꞁs %1$s pǝɔɐꞁdǝᴚ",
+        "translation": "(s)ʇoꞁs %$4d ɹǝʌo (s)ɯǝʇᴉ %3$d ɥʇᴉʍ %2$d ʇoꞁs %1$s pǝɔɐꞁdǝᴚ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8432,9 +8432,633 @@
         "max_length": null
     },
     {
+        "identifier": "commands.music.description",
+        "source_string": "Allows you to control playing music tracks.",
+        "translation": "˙sʞɔɐɹʇ ɔᴉsnɯ ᵷuᴉʎɐꞁd ꞁoɹʇuoɔ oʇ noʎ sʍoꞁꞁⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.failure.emptyTrackName",
+        "source_string": "You must provide a non-empty track name.",
+        "translation": "˙ǝɯɐu ʞɔɐɹʇ ʎʇdɯǝ-uou ɐ ǝpᴉʌoɹd ʇsnɯ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.queueAction",
+        "source_string": "%s has been queued and it will start playing when the current track stops.",
+        "translation": "˙sdoʇs ʞɔɐɹʇ ʇuǝɹɹnɔ ǝɥʇ uǝɥʍ ᵷuᴉʎɐꞁd ʇɹɐʇs ꞁꞁᴉʍ ʇᴉ puɐ pǝnǝnb uǝǝq sɐɥ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.playAction",
+        "source_string": "%s has been queued to start playing.",
+        "translation": "˙ᵷuᴉʎɐꞁd ʇɹɐʇs oʇ pǝnǝnb uǝǝq sɐɥ %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.stopAction",
+        "source_string": "Custom music will stop now.",
+        "translation": "˙ʍou doʇs ꞁꞁᴉʍ ɔᴉsnɯ ɯoʇsnƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.music.success.volumeAction",
+        "source_string": "Music volume will be updated to %d.",
+        "translation": "˙%d oʇ pǝʇɐpdn ǝq ꞁꞁᴉʍ ǝɯnꞁoʌ ɔᴉsnW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.description",
+        "source_string": "Grants operator status to a player.",
+        "translation": "˙ɹǝʎɐꞁd ɐ oʇ snʇɐʇs ɹoʇɐɹǝdo sʇuɐɹ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.failed",
+        "source_string": "Could not op (already op or higher): %s",
+        "translation": "%s :(ɹǝɥᵷᴉɥ ɹo do ʎpɐǝɹꞁɐ) do ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.success",
+        "source_string": "Opped: %s",
+        "translation": "%s :pǝddO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.op.message",
+        "source_string": "You have been opped",
+        "translation": "pǝddo uǝǝq ǝʌɐɥ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.operator.invalid",
+        "source_string": "Invalid operation %1$s.",
+        "translation": "˙%1$s uoᴉʇɐɹǝdo pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.commandblock",
+        "source_string": "CommandBlock",
+        "translation": "ʞɔoꞁᗺpuɐɯɯoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.external",
+        "source_string": "External",
+        "translation": "ꞁɐuɹǝʇxƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.devconsole",
+        "source_string": "DevConsole",
+        "translation": "ǝꞁosuoƆʌǝᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.script",
+        "source_string": "Script Engine",
+        "translation": "ǝuᴉᵷuƎ ʇdᴉɹɔS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.scriptDebugger",
+        "source_string": "Script Debugger",
+        "translation": "ɹǝᵷᵷnqǝᗡ ʇdᴉɹɔS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.server",
+        "source_string": "Server",
+        "translation": "ɹǝʌɹǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.origin.teacher",
+        "source_string": "Teacher",
+        "translation": "ɹǝɥɔɐǝ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ops.description",
+        "source_string": "Reloads and applies Op permissions.",
+        "translation": "˙suoᴉssᴉɯɹǝd dO sǝᴉꞁddɐ puɐ spɐoꞁǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ops.reloaded",
+        "source_string": "Ops reloaded from file.",
+        "translation": "˙ǝꞁᴉɟ ɯoɹɟ pǝpɐoꞁǝɹ sdO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ops.set.success",
+        "source_string": "Succeeded in setting operator level for player %s.",
+        "translation": "˙%s ɹǝʎɐꞁd ɹoɟ ꞁǝʌǝꞁ ɹoʇɐɹǝdo ᵷuᴉʇʇǝs uᴉ pǝpǝǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.description",
+        "source_string": "Reloads and applies permissions.",
+        "translation": "˙suoᴉssᴉɯɹǝd sǝᴉꞁddɐ puɐ spɐoꞁǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "command.permissions.list.fail.filenotfound",
+        "source_string": "Failed to list permissions from file, file not found.",
+        "translation": "˙punoɟ ʇou ǝꞁᴉɟ 'ǝꞁᴉɟ ɯoɹɟ suoᴉssᴉɯɹǝd ʇsᴉꞁ oʇ pǝꞁᴉɐℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.reloaded",
+        "source_string": "Permissions reloaded from file.",
+        "translation": "˙ǝꞁᴉɟ ɯoɹɟ pǝpɐoꞁǝɹ suoᴉssᴉɯɹǝԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "command.permissions.reload.fail.filenotfound",
+        "source_string": "Failed to reload permissions from file, file not found.",
+        "translation": "˙punoɟ ʇou ǝꞁᴉɟ 'ǝꞁᴉɟ ɯoɹɟ suoᴉssᴉɯɹǝd pɐoꞁǝɹ oʇ pǝꞁᴉɐℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.set.failed",
+        "source_string": "Could not set permission level %s for player %s.",
+        "translation": "˙%2$s ɹǝʎɐꞁd ɹoɟ %1$s ꞁǝʌǝꞁ uoᴉssᴉɯɹǝd ʇǝs ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.set.success",
+        "source_string": "Succeeded in setting permission level %s for player %s.",
+        "translation": "˙%2$s ɹǝʎɐꞁd ɹoɟ %1$s ꞁǝʌǝꞁ uoᴉssᴉɯɹǝd ᵷuᴉʇʇǝs uᴉ pǝpǝǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.save.failed",
+        "source_string": "Could not save permission level %s for player %s.",
+        "translation": "˙%2$s ɹǝʎɐꞁd ɹoɟ %1$s ꞁǝʌǝꞁ uoᴉssᴉɯɹǝd ǝʌɐs ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.permissions.save.success",
+        "source_string": "Succeeded in saving permission level %s for player %s.",
+        "translation": "˙%2$s ɹǝʎɐꞁd ɹoɟ %1$s ꞁǝʌǝꞁ uoᴉssᴉɯɹǝd ᵷuᴉʌɐs uᴉ pǝpǝǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnParticleEmitter.description",
+        "source_string": "Creates a particle emitter",
+        "translation": "ɹǝʇʇᴉɯǝ ǝꞁɔᴉʇɹɐd ɐ sǝʇɐǝɹƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.spawnParticleEmitter.success",
+        "source_string": "Request to create %1$s sent to all players.",
+        "translation": "˙sɹǝʎɐꞁd ꞁꞁɐ oʇ ʇuǝs %1$s ǝʇɐǝɹɔ oʇ ʇsǝnbǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.particle.description",
+        "source_string": "Creates particles.",
+        "translation": "˙sǝꞁɔᴉʇɹɐd sǝʇɐǝɹƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.particle.notFound",
+        "source_string": "Unknown effect name (%1$s)",
+        "translation": "(%1$s) ǝɯɐu ʇɔǝɟɟǝ uʍouʞu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.particle.success",
+        "source_string": "Playing effect %1$s for %2$d times",
+        "translation": "sǝɯᴉʇ %2$d ɹoɟ %1$s ʇɔǝɟɟǝ ᵷuᴉʎɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.chunknotloaded.error",
+        "source_string": "Feature placement failed. Not all chunks are loaded.",
+        "translation": "˙pǝpɐoꞁ ǝɹɐ sʞunɥɔ ꞁꞁɐ ʇoN ˙pǝꞁᴉɐɟ ʇuǝɯǝɔɐꞁd ǝɹnʇɐǝℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.description",
+        "source_string": "Places a jigsaw structure, feature, or feature rule in the world.",
+        "translation": "˙pꞁɹoʍ ǝɥʇ uᴉ ǝꞁnɹ ǝɹnʇɐǝɟ ɹo 'ǝɹnʇɐǝɟ 'ǝɹnʇɔnɹʇs ʍɐsᵷᴉɾ ɐ sǝɔɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.error",
+        "source_string": "Place command failed.",
+        "translation": "˙pǝꞁᴉɐɟ puɐɯɯoɔ ǝɔɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.generation.error",
+        "source_string": "Jigsaw structure generation failed.",
+        "translation": "˙pǝꞁᴉɐɟ uoᴉʇɐɹǝuǝᵷ ǝɹnʇɔnɹʇs ʍɐsᵷᴉՐ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidfeature.error",
+        "source_string": "Invalid feature name.",
+        "translation": "˙ǝɯɐu ǝɹnʇɐǝɟ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidfeaturerule.error",
+        "source_string": "Invalid feature rule name.",
+        "translation": "˙ǝɯɐu ǝꞁnɹ ǝɹnʇɐǝɟ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidposition.error",
+        "source_string": "Feature could not be placed at this location.",
+        "translation": "˙uoᴉʇɐɔoꞁ sᴉɥʇ ʇɐ pǝɔɐꞁd ǝq ʇou pꞁnoɔ ǝɹnʇɐǝℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.invalidstructure.error",
+        "source_string": "Invalid structure name.",
+        "translation": "˙ǝɯɐu ǝɹnʇɔnɹʇs pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.maxdepth.error",
+        "source_string": "Invalid max depth. Value must be between 1 and 20.",
+        "translation": "˙0ᘔ puɐ ⥝ uǝǝʍʇǝq ǝq ʇsnɯ ǝnꞁɐɅ ˙ɥʇdǝp xɐɯ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.outofbounds.error",
+        "source_string": "Jigsaw structure generation failed. Structure placed out of bounds.",
+        "translation": "˙spunoq ɟo ʇno pǝɔɐꞁd ǝɹnʇɔnɹʇS ˙pǝꞁᴉɐɟ uoᴉʇɐɹǝuǝᵷ ǝɹnʇɔnɹʇs ʍɐsᵷᴉՐ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.place.success",
+        "source_string": "Place command succeeded.",
+        "translation": "˙pǝpǝǝɔɔns puɐɯɯoɔ ǝɔɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playanimation.description",
+        "source_string": "Makes one or more entities play a one-off animation. Assumes all variables are setup correctly.",
+        "translation": "˙ʎꞁʇɔǝɹɹoɔ dnʇǝs ǝɹɐ sǝꞁqɐᴉɹɐʌ ꞁꞁɐ sǝɯnssⱯ ˙uoᴉʇɐɯᴉuɐ ɟɟo-ǝuo ɐ ʎɐꞁd sǝᴉʇᴉʇuǝ ǝɹoɯ ɹo ǝuo sǝʞɐW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playanimation.success",
+        "source_string": "Animation request sent to clients for processing.",
+        "translation": "˙ᵷuᴉssǝɔoɹd ɹoɟ sʇuǝᴉꞁɔ oʇ ʇuǝs ʇsǝnbǝɹ uoᴉʇɐɯᴉuⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.players.list",
+        "source_string": "There are %1$d/%2$d players online:",
+        "translation": ":ǝuᴉꞁuo sɹǝʎɐꞁd %2$d/%1$d ǝɹɐ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.players.list.names",
         "source_string": "%s",
         "translation": "%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.description",
+        "source_string": "Plays a sound.",
+        "translation": "˙punos ɐ sʎɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.playerTooFar",
+        "source_string": "Player %1$s is too far away to hear the sound",
+        "translation": "punos ǝɥʇ ɹɐǝɥ oʇ ʎɐʍɐ ɹɐɟ ooʇ sᴉ %1$s ɹǝʎɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.playsound.success",
+        "source_string": "Played sound '%1$s' to %2$s",
+        "translation": "%2$s oʇ ,%1$s, punos pǝʎɐꞁԀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.position.description",
+        "source_string": "Toggles on/off coordinates for player.",
+        "translation": "˙ɹǝʎɐꞁd ɹoɟ sǝʇɐuᴉpɹooɔ ɟɟo/uo sǝꞁᵷᵷo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.publish.failed",
+        "source_string": "Unable to host local game",
+        "translation": "ǝɯɐᵷ ꞁɐɔoꞁ ʇsoɥ oʇ ǝꞁqɐu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.publish.started",
+        "source_string": "Local game hosted on port %1$s",
+        "translation": "%1$s ʇɹod uo pǝʇsoɥ ǝɯɐᵷ ꞁɐɔoꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.querytarget.description",
+        "source_string": "Gets transform, name, and id information about the given target entity or entities.",
+        "translation": "˙sǝᴉʇᴉʇuǝ ɹo ʎʇᴉʇuǝ ʇǝᵷɹɐʇ uǝʌᴉᵷ ǝɥʇ ʇnoqɐ uoᴉʇɐɯɹoɟuᴉ pᴉ puɐ 'ǝɯɐu 'ɯɹoɟsuɐɹʇ sʇǝ⅁",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.querytarget.success",
+        "source_string": "Target data: %1$s",
+        "translation": "%1$s :ɐʇɐp ʇǝᵷɹɐ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.description",
+        "source_string": "Unlocks recipe in the recipe book for a player.",
+        "translation": "˙ɹǝʎɐꞁd ɐ ɹoɟ ʞooq ǝdᴉɔǝɹ ǝɥʇ uᴉ ǝdᴉɔǝɹ sʞɔoꞁu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.unlockedAllRecipes",
+        "source_string": "Unlocked all recipes for %1$s.",
+        "translation": "˙%1$s ɹoɟ sǝdᴉɔǝɹ ꞁꞁɐ pǝʞɔoꞁu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.removedAllRecipes",
+        "source_string": "Removed all recipes for %1$s.",
+        "translation": "˙%1$s ɹoɟ sǝdᴉɔǝɹ ꞁꞁɐ pǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.unlockedRecipe",
+        "source_string": "Unlocked recipe for %1$s: %2$s",
+        "translation": "%2$s :%1$s ɹoɟ ǝdᴉɔǝɹ pǝʞɔoꞁu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.removedRecipe",
+        "source_string": "Removed recipe for %1$s: %2$s",
+        "translation": "%2$s :%1$s ɹoɟ ǝdᴉɔǝɹ pǝʌoɯǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.playerHasRecipe",
+        "source_string": "%1$s already has recipe unlocked: %2$s",
+        "translation": "%2$s :pǝʞɔoꞁun ǝdᴉɔǝɹ sɐɥ ʎpɐǝɹꞁɐ %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.playerDoesNotHaveRecipe",
+        "source_string": "%1$s does not have the recipe: %2$s",
+        "translation": "%2$s :ǝdᴉɔǝɹ ǝɥʇ ǝʌɐɥ ʇou sǝop %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.notFound",
+        "source_string": "The recipe could not be found.",
+        "translation": "˙punoɟ ǝq ʇou pꞁnoɔ ǝdᴉɔǝɹ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.recipes.notUnlockable",
+        "source_string": "The recipe is not unlockable in the recipe book.",
+        "translation": "˙ʞooq ǝdᴉɔǝɹ ǝɥʇ uᴉ ǝꞁqɐʞɔoꞁun ʇou sᴉ ǝdᴉɔǝɹ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.all.description",
+        "source_string": "Reloads all function and script files from all behavior packs, or optionally reloads the world and all resource and behavior packs.",
+        "translation": "˙sʞɔɐd ɹoᴉʌɐɥǝq puɐ ǝɔɹnosǝɹ ꞁꞁɐ puɐ pꞁɹoʍ ǝɥʇ spɐoꞁǝɹ ʎꞁꞁɐuoᴉʇdo ɹo 'sʞɔɐd ɹoᴉʌɐɥǝq ꞁꞁɐ ɯoɹɟ sǝꞁᴉɟ ʇdᴉɹɔs puɐ uoᴉʇɔunɟ ꞁꞁɐ spɐoꞁǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.description",
+        "source_string": "Reloads all function and script files from all behavior packs.",
+        "translation": "˙sʞɔɐd ɹoᴉʌɐɥǝq ꞁꞁɐ ɯoɹɟ sǝꞁᴉɟ ʇdᴉɹɔs puɐ uoᴉʇɔunɟ ꞁꞁɐ spɐoꞁǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.started",
+        "source_string": "Reloading the world has been started.",
+        "translation": "˙pǝʇɹɐʇs uǝǝq sɐɥ pꞁɹoʍ ǝɥʇ ᵷuᴉpɐoꞁǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.success",
+        "source_string": "Function and script files have been reloaded.",
+        "translation": "˙pǝpɐoꞁǝɹ uǝǝq ǝʌɐɥ sǝꞁᴉɟ ʇdᴉɹɔs puɐ uoᴉʇɔunℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.error",
+        "source_string": "An unexpected error occurred.",
+        "translation": "˙pǝɹɹnɔɔo ɹoɹɹǝ pǝʇɔǝdxǝun uⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.reload.onlyHost",
+        "source_string": "Only host player can reload the world.",
+        "translation": "˙pꞁɹoʍ ǝɥʇ pɐoꞁǝɹ uɐɔ ɹǝʎɐꞁd ʇsoɥ ʎꞁuO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.description",
+        "source_string": "Replaces items in inventories.",
+        "translation": "˙sǝᴉɹoʇuǝʌuᴉ uᴉ sɯǝʇᴉ sǝɔɐꞁdǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.failed",
+        "source_string": "Could not replace %s slot %d with %d * %s",
+        "translation": "%4$s * %3$d ɥʇᴉʍ %2$d ʇoꞁs %1$s ǝɔɐꞁdǝɹ ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.keepFailed",
+        "source_string": "There is already an item occupying %s slot %d.",
+        "translation": "˙%d ʇoꞁs %s ᵷuᴉʎdnɔɔo ɯǝʇᴉ uɐ ʎpɐǝɹꞁɐ sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.noContainer",
+        "source_string": "Block at %s is not a container",
+        "translation": "ɹǝuᴉɐʇuoɔ ɐ ʇou sᴉ %s ʇɐ ʞɔoꞁᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.badSlotNumber",
+        "source_string": "Could not replace slot %d, must be a value between %d and %d.",
+        "translation": "˙%3$d puɐ %2$d uǝǝʍʇǝq ǝnꞁɐʌ ɐ ǝq ʇsnɯ '%1$d ʇoꞁs ǝɔɐꞁdǝɹ ʇou pꞁnoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success",
+        "source_string": "Replaced %s slot %d with %d * %s",
+        "translation": "%4$s * %3$d ɥʇᴉʍ %2$d ʇoꞁs %1$s pǝɔɐꞁdǝᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.replaceitem.success.entity",
+        "source_string": "Replaced %s slot %d of %s with %d * %s",
+        "translation": "%5$s * %4$d ɥʇᴉʍ %3$s ɟo %2$d ʇoꞁs %1$s pǝɔɐꞁdǝᴚ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8448,10 +9072,346 @@
         "max_length": null
     },
     {
+        "identifier": "commands.ride.description",
+        "source_string": "Makes entities ride other entities, stops entities from riding, makes rides evict their riders, or summons rides or riders.",
+        "translation": "˙sɹǝpᴉɹ ɹo sǝpᴉɹ suoɯɯns ɹo 'sɹǝpᴉɹ ɹᴉǝɥʇ ʇɔᴉʌǝ sǝpᴉɹ sǝʞɐɯ 'ᵷuᴉpᴉɹ ɯoɹɟ sǝᴉʇᴉʇuǝ sdoʇs 'sǝᴉʇᴉʇuǝ ɹǝɥʇo ǝpᴉɹ sǝᴉʇᴉʇuǝ sǝʞɐW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.evictRiders.success",
+        "source_string": "Rides that have successfully evicted their riders: %1$s",
+        "translation": "%1$s :sɹǝpᴉɹ ɹᴉǝɥʇ pǝʇɔᴉʌǝ ʎꞁꞁnɟssǝɔɔns ǝʌɐɥ ʇɐɥʇ sǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.failure",
+        "source_string": "Riders that did not meet ride conditions: %1$s",
+        "translation": "%1$s :suoᴉʇᴉpuoɔ ǝpᴉɹ ʇǝǝɯ ʇou pᴉp ʇɐɥʇ sɹǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.groupDoesntFit",
+        "source_string": "The group of riders does not fit on the ride.",
+        "translation": "˙ǝpᴉɹ ǝɥʇ uo ʇᴉɟ ʇou sǝop sɹǝpᴉɹ ɟo dnoɹᵷ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.notRideable",
+        "source_string": "The selected entity is not rideable.",
+        "translation": "˙ǝꞁqɐǝpᴉɹ ʇou sᴉ ʎʇᴉʇuǝ pǝʇɔǝꞁǝs ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.rideFull",
+        "source_string": "This ride is already full.",
+        "translation": "˙ꞁꞁnɟ ʎpɐǝɹꞁɐ sᴉ ǝpᴉɹ sᴉɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.rideFullRidersLeft",
+        "source_string": "The ride is full, so some riders were not added.",
+        "translation": "˙pǝppɐ ʇou ǝɹǝʍ sɹǝpᴉɹ ǝɯos os 'ꞁꞁnɟ sᴉ ǝpᴉɹ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.success",
+        "source_string": "Riders successfully added to ride: %1$s",
+        "translation": "%1$s :ǝpᴉɹ oʇ pǝppɐ ʎꞁꞁnɟssǝɔɔns sɹǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.tooManyRiders",
+        "source_string": "Too many riders were specified. Only one is allowed at a time for teleport_ride.",
+        "translation": "˙ǝpᴉɹ_ʇɹodǝꞁǝʇ ɹoɟ ǝɯᴉʇ ɐ ʇɐ pǝʍoꞁꞁɐ sᴉ ǝuo ʎꞁuO ˙pǝᴉɟᴉɔǝds ǝɹǝʍ sɹǝpᴉɹ ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.startRiding.tooManyRides",
+        "source_string": "Too many rides were specified. Only one is allowed at a time.",
+        "translation": "˙ǝɯᴉʇ ɐ ʇɐ pǝʍoꞁꞁɐ sᴉ ǝuo ʎꞁuO ˙pǝᴉɟᴉɔǝds ǝɹǝʍ sǝpᴉɹ ʎuɐɯ oo⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.stopRiding.success",
+        "source_string": "Riders that have successfully stopped riding: %1$s",
+        "translation": "%1$s :ᵷuᴉpᴉɹ pǝddoʇs ʎꞁꞁnɟssǝɔɔns ǝʌɐɥ ʇɐɥʇ sɹǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.failed",
+        "source_string": "Rides were summoned, but these riders could not be added to them: %1$s",
+        "translation": "%1$s :ɯǝɥʇ oʇ pǝppɐ ǝq ʇou pꞁnoɔ sɹǝpᴉɹ ǝsǝɥʇ ʇnq 'pǝuoɯɯns ǝɹǝʍ sǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.notRideable",
+        "source_string": "Entity was summoned, but it is not rideable.",
+        "translation": "˙ǝꞁqɐǝpᴉɹ ʇou sᴉ ʇᴉ ʇnq 'pǝuoɯɯns sɐʍ ʎʇᴉʇuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.success",
+        "source_string": "Ride successfully summoned for these riders: %1$s",
+        "translation": "%1$s :sɹǝpᴉɹ ǝsǝɥʇ ɹoɟ pǝuoɯɯns ʎꞁꞁnɟssǝɔɔns ǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRide.skipped",
+        "source_string": "Rides were not summoned for the following entities that already have rides: %1$s",
+        "translation": "%1$s :sǝpᴉɹ ǝʌɐɥ ʎpɐǝɹꞁɐ ʇɐɥʇ sǝᴉʇᴉʇuǝ ᵷuᴉʍoꞁꞁoɟ ǝɥʇ ɹoɟ pǝuoɯɯns ʇou ǝɹǝʍ sǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.failed",
+        "source_string": "Riders were summoned, but could not be added to rides: %1$s",
+        "translation": "%1$s :sǝpᴉɹ oʇ pǝppɐ ǝq ʇou pꞁnoɔ ʇnq 'pǝuoɯɯns ǝɹǝʍ sɹǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.fullRides",
+        "source_string": "Riders could not ride these rides because they are full: %1$s",
+        "translation": "%1$s :ꞁꞁnɟ ǝɹɐ ʎǝɥʇ ǝsnɐɔǝq sǝpᴉɹ ǝsǝɥʇ ǝpᴉɹ ʇou pꞁnoɔ sɹǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.ridesWithNoRideableComp",
+        "source_string": "The following entities are not rideable: %1$s",
+        "translation": "%1$s :ǝꞁqɐǝpᴉɹ ʇou ǝɹɐ sǝᴉʇᴉʇuǝ ᵷuᴉʍoꞁꞁoɟ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.ride.summonRider.success",
+        "source_string": "Riders successfully summoned for rides: %1$s",
+        "translation": "%1$s :sǝpᴉɹ ɹoɟ pǝuoɯɯns ʎꞁꞁnɟssǝɔɔns sɹǝpᴉᴚ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.description",
+        "source_string": "Control or check how the game saves data to disk.",
+        "translation": "˙ʞsᴉp oʇ ɐʇɐp sǝʌɐs ǝɯɐᵷ ǝɥʇ ʍoɥ ʞɔǝɥɔ ɹo ꞁoɹʇuoƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.disabled",
+        "source_string": "Turned off world auto-saving",
+        "translation": "ᵷuᴉʌɐs-oʇnɐ pꞁɹoʍ ɟɟo pǝuɹn⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.enabled",
+        "source_string": "Turned on world auto-saving",
+        "translation": "ᵷuᴉʌɐs-oʇnɐ pꞁɹoʍ uo pǝuɹn⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.failed",
+        "source_string": "Saving failed: %1$s",
+        "translation": "%1$s :pǝꞁᴉɐɟ ᵷuᴉʌɐS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.start",
+        "source_string": "Saving...",
+        "translation": "˙˙˙ᵷuᴉʌɐS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save.success",
+        "source_string": "Saved the world",
+        "translation": "pꞁɹoʍ ǝɥʇ pǝʌɐS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-all.error",
+        "source_string": "An error occurred when trying to pause the world storage.",
+        "translation": "˙ǝᵷɐɹoʇs pꞁɹoʍ ǝɥʇ ǝsnɐd oʇ ᵷuᴉʎɹʇ uǝɥʍ pǝɹɹnɔɔo ɹoɹɹǝ uⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-all.success",
+        "source_string": "Data saved. Files are now ready to be copied.",
+        "translation": "˙pǝᴉdoɔ ǝq oʇ ʎpɐǝɹ ʍou ǝɹɐ sǝꞁᴉℲ ˙pǝʌɐs ɐʇɐᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-off.alreadyOff",
+        "source_string": "Saving is already turned off.",
+        "translation": "˙ɟɟo pǝuɹnʇ ʎpɐǝɹꞁɐ sᴉ ᵷuᴉʌɐS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.alreadyOn",
+        "source_string": "Saving is already turned on.",
+        "translation": "˙uo pǝuɹnʇ ʎpɐǝɹꞁɐ sᴉ ᵷuᴉʌɐS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.notDone",
+        "source_string": "A previous save has not been completed.",
+        "translation": "˙pǝʇǝꞁdɯoɔ uǝǝq ʇou sɐɥ ǝʌɐs snoᴉʌǝɹd Ɐ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.description",
+        "source_string": "Enables automatic server saves.",
+        "translation": "˙sǝʌɐs ɹǝʌɹǝs ɔᴉʇɐɯoʇnɐ sǝꞁqɐuƎ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.success",
+        "source_string": "Changes to the world are resumed.",
+        "translation": "˙pǝɯnsǝɹ ǝɹɐ pꞁɹoʍ ǝɥʇ oʇ sǝᵷuɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-state.description",
+        "source_string": "Checks if a previous save-all has finished and lists the files involved.",
+        "translation": "˙pǝʌꞁoʌuᴉ sǝꞁᴉɟ ǝɥʇ sʇsᴉꞁ puɐ pǝɥsᴉuᴉɟ sɐɥ ꞁꞁɐ-ǝʌɐs snoᴉʌǝɹd ɐ ɟᴉ sʞɔǝɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.say.description",
+        "source_string": "Sends a message in the chat to other players.",
+        "translation": "˙sɹǝʎɐꞁd ɹǝɥʇo oʇ ʇɐɥɔ ǝɥʇ uᴉ ǝᵷɐssǝɯ ɐ spuǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.delay.functionQueued",
+        "source_string": "Scheduled function %1$s in %2$d ticks at gametime %3$d.",
+        "translation": "˙%3$d ǝɯᴉʇǝɯɐᵷ ʇɐ sʞɔᴉʇ %2$d uᴉ %1$s uoᴉʇɔunɟ pǝꞁnpǝɥɔS",
+        "context": "1: Name of the mcfunction, 2: Duration (in game ticks) of the delay length, 3: The end game time (in ticks) when the function will run",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.delay.negativeTime",
+        "source_string": "Time cannot be negative.",
+        "translation": "˙ǝʌᴉʇɐᵷǝu ǝq ʇouuɐɔ ǝɯᴉ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.description",
+        "source_string": "Schedules an action to be executed once an area is loaded, or after a certain amount of time.",
+        "translation": "˙ǝɯᴉʇ ɟo ʇunoɯɐ uᴉɐʇɹǝɔ ɐ ɹǝʇɟɐ ɹo 'pǝpɐoꞁ sᴉ ɐǝɹɐ uɐ ǝɔuo pǝʇnɔǝxǝ ǝq oʇ uoᴉʇɔɐ uɐ sǝꞁnpǝɥɔS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.functionQueued",
+        "source_string": "Function has been queued and it will be executed when the specified area is fully loaded.",
+        "translation": "˙pǝpɐoꞁ ʎꞁꞁnɟ sᴉ ɐǝɹɐ pǝᴉɟᴉɔǝds ǝɥʇ uǝɥʍ pǝʇnɔǝxǝ ǝq ꞁꞁᴉʍ ʇᴉ puɐ pǝnǝnb uǝǝq sɐɥ uoᴉʇɔunℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.schedule.functionRan",
         "source_string": "Successfully executed %1$d function entries in function %2$s.",
         "translation": "˙%2$s uoᴉʇɔunɟ uᴉ sǝᴉɹʇuǝ uoᴉʇɔunɟ %1$d pǝʇnɔǝxǝ ʎꞁꞁnɟssǝɔɔnS",
         "context": "1: Number of functions that were ran, 2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.invalidOrigin",
+        "source_string": "The origin needed to execute this function was invalid.",
+        "translation": "˙pᴉꞁɐʌuᴉ sɐʍ uoᴉʇɔunɟ sᴉɥʇ ǝʇnɔǝxǝ oʇ pǝpǝǝu uᴉᵷᴉɹo ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.name.empty",
+        "source_string": "Ticking area name cannot be empty.",
+        "translation": "˙ʎʇdɯǝ ǝq ʇouuɐɔ ǝɯɐu ɐǝɹɐ ᵷuᴉʞɔᴉ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.too.many.areas",
+        "source_string": "More than one ticking areas were found with the name %s. Please use a single area.",
+        "translation": "˙ɐǝɹɐ ǝꞁᵷuᴉs ɐ ǝsn ǝsɐǝꞁԀ ˙%s ǝɯɐu ǝɥʇ ɥʇᴉʍ punoɟ ǝɹǝʍ sɐǝɹɐ ᵷuᴉʞɔᴉʇ ǝuo uɐɥʇ ǝɹoW",
+        "context": "1: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.clear.failure",
+        "source_string": "No functions were removed with the name %1$s.",
+        "translation": "˙%1$s ǝɯɐu ǝɥʇ ɥʇᴉʍ pǝʌoɯǝɹ ǝɹǝʍ suoᴉʇɔunɟ oN",
+        "context": "1: Name of the mcfunction",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -8464,6 +9424,22 @@
         "max_length": null
     },
     {
+        "identifier": "commands.schedule.tickingarea.clear.success",
+        "source_string": "Removed %1$d functions with the ticking area name %2$s.",
+        "translation": "˙%2$s ǝɯɐu ɐǝɹɐ ᵷuᴉʞɔᴉʇ ǝɥʇ ɥʇᴉʍ suoᴉʇɔunɟ %1$d pǝʌoɯǝᴚ",
+        "context": "1: Name of selected ticking area, 2: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.schedule.tickingarea.clear.failure",
+        "source_string": "No functions were removed with the ticking area name %1$s.",
+        "translation": "˙%1$s ǝɯɐu ɐǝɹɐ ᵷuᴉʞɔᴉʇ ǝɥʇ ɥʇᴉʍ pǝʌoɯǝɹ ǝɹǝʍ suoᴉʇɔunɟ oN",
+        "context": "1: Name of selected ticking area",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.schedule.tickingarea.func.clear.success",
         "source_string": "Removed %1$d functions with the ticking area name %2$s and with name %3$s.",
         "translation": "˙%3$s ǝɯɐu ɥʇᴉʍ puɐ %2$s ǝɯɐu ɐǝɹɐ ᵷuᴉʞɔᴉʇ ǝɥʇ ɥʇᴉʍ suoᴉʇɔunɟ %1$d pǝʌoɯǝᴚ",
@@ -8472,10 +9448,106 @@
         "max_length": null
     },
     {
+        "identifier": "commands.schedule.tickingarea.func.clear.failure",
+        "source_string": "No functions were removed with the ticking area name %1$s and with name %2$s.",
+        "translation": "˙%2$s ǝɯɐu ɥʇᴉʍ puɐ %1$s ǝɯɐu ɐǝɹɐ ᵷuᴉʞɔᴉʇ ǝɥʇ ɥʇᴉʍ pǝʌoɯǝɹ ǝɹǝʍ suoᴉʇɔunɟ oN",
+        "context": "1: Name of selected ticking area, 2: Name of the mcfunction",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.description",
+        "source_string": "Tracks and displays scores for various objectives.",
+        "translation": "˙sǝʌᴉʇɔǝɾqo snoᴉɹɐʌ ɹoɟ sǝɹoɔs sʎɐꞁdsᴉp puɐ sʞɔɐɹ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.allMatchesFailed",
+        "source_string": "All matches failed",
+        "translation": "pǝꞁᴉɐɟ sǝɥɔʇɐɯ ꞁꞁⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.noMultiWildcard",
+        "source_string": "Only one user wildcard allowed",
+        "translation": "pǝʍoꞁꞁɐ pɹɐɔpꞁᴉʍ ɹǝsn ǝuo ʎꞁuO",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectiveNotFound",
+        "source_string": "No objective was found by the name '%1$s'",
+        "translation": ",%1$s, ǝɯɐu ǝɥʇ ʎq punoɟ sɐʍ ǝʌᴉʇɔǝɾqo oN",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectiveReadOnly",
+        "source_string": "The objective '%1$s' is read-only and cannot be set",
+        "translation": "ʇǝs ǝq ʇouuɐɔ puɐ ʎꞁuo-pɐǝɹ sᴉ ,%1$s, ǝʌᴉʇɔǝɾqo ǝɥ⟘",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.alreadyExists",
+        "source_string": "An objective with the name '%1$s' already exists",
+        "translation": "sʇsᴉxǝ ʎpɐǝɹꞁɐ ,%1$s, ǝɯɐu ǝɥʇ ɥʇᴉʍ ǝʌᴉʇɔǝɾqo uⱯ",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.displayTooLong",
+        "source_string": "The display name '%1$s' is too long for an objective, it can be at most %2$d characters long",
+        "translation": "ᵷuoꞁ sɹǝʇɔɐɹɐɥɔ %2$d ʇsoɯ ʇɐ ǝq uɐɔ ʇᴉ 'ǝʌᴉʇɔǝɾqo uɐ ɹoɟ ᵷuoꞁ ooʇ sᴉ ,%1$s, ǝɯɐu ʎɐꞁdsᴉp ǝɥ⟘",
+        "context": "1: Objective Display Name, 2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.wrongType",
+        "source_string": "Invalid objective criteria type '%1$s'",
+        "translation": ",%1$s, ǝdʎʇ ɐᴉɹǝʇᴉɹɔ ǝʌᴉʇɔǝɾqo pᴉꞁɐʌuI",
+        "context": "1: Criteria Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.invalidSlot",
+        "source_string": "No such display slot '%1$s'",
+        "translation": ",%1$s, ʇoꞁs ʎɐꞁdsᴉp ɥɔns oN",
+        "context": "1: Display Slot",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.players.list.count",
         "source_string": "Showing %1$d tracked players on the scoreboard:",
         "translation": ":pɹɐoqǝɹoɔs ǝɥʇ uo sɹǝʎɐꞁd pǝʞɔɐɹʇ %1$d ᵷuᴉʍoɥS",
         "context": "1: Number of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.invalidOperation",
+        "source_string": "Invalid operation %1$s",
+        "translation": "%1$s uoᴉʇɐɹǝdo pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.random.invalidRange",
+        "source_string": "Min %1$d is not less than max %2$d",
+        "translation": "%2$d xɐɯ uɐɥʇ ssǝꞁ ʇou sᴉ %1$d uᴉW",
+        "context": "1: Min Range Value, 2: Max Range Value",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -8504,9 +9576,33 @@
         "max_length": null
     },
     {
+        "identifier": "commands.scriptevent.invalidNamespace",
+        "source_string": "Identifier must have a namespace that is not \"minecraft\"",
+        "translation": ",,ʇɟɐɹɔǝuᴉɯ,, ʇou sᴉ ʇɐɥʇ ǝɔɐdsǝɯɐu ɐ ǝʌɐɥ ʇsnɯ ɹǝᴉɟᴉʇuǝpI",
+        "context": "Don't translate the \"minecraft\"",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.setblock.tagError",
         "source_string": "Data tag parsing failed: %1$s",
         "translation": "%1$s :pǝꞁᴉɐɟ ᵷuᴉsɹɐd ᵷɐʇ ɐʇɐᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.error",
+        "source_string": "Invalid conditions for setting pause state",
+        "translation": "ǝʇɐʇs ǝsnɐd ᵷuᴉʇʇǝs ɹoɟ suoᴉʇᴉpuoɔ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.stats.failed",
+        "source_string": "Invalid parameters",
+        "translation": "sɹǝʇǝɯɐɹɐd pᴉꞁɐʌuI",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8712,6 +9808,22 @@
         "max_length": null
     },
     {
+        "identifier": "lanServer.scanning",
+        "source_string": "Scanning for games on your local network",
+        "translation": "ʞɹoʍʇǝu ꞁɐɔoꞁ ɹnoʎ uo sǝɯɐᵷ ɹoɟ ᵷuᴉuuɐɔS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_force_client_blob_cache",
+        "source_string": "Force Client Blob Cache On For Local Games",
+        "translation": "sǝɯɐ⅁ ꞁɐɔoꞀ ɹoℲ uO ǝɥɔɐƆ qoꞁᗺ ʇuǝᴉꞁƆ ǝɔɹoℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.swapGamepadAB.tts",
         "source_string": "A/B Button Swap",
         "translation": "A/B Button Swap",
@@ -8840,6 +9952,14 @@
         "max_length": null
     },
     {
+        "identifier": "uiPackError.invalidOperationName",
+        "source_string": "%s (%s): Invalid operation '%s'.",
+        "translation": "˙,%3$s, uoᴉʇɐɹǝdo pᴉꞁɐʌuI :(%2$s) %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "beginnerTips.12",
         "source_string": "The world of Minecraft is endlessly surprising. You'll find lots of different animals, plants, and even §f§k§a§b§r §f§k§a§b§r",
         "translation": "§f§k§a§b§r §f§k§a§b§r uǝʌǝ puɐ 'sʇuɐꞁd 'sꞁɐɯᴉuɐ ʇuǝɹǝɟɟᴉp ɟo sʇoꞁ puᴉɟ ꞁꞁ,no⅄ ˙ᵷuᴉsᴉɹdɹns ʎꞁssǝꞁpuǝ sᴉ ʇɟɐɹɔǝuᴉW ɟo pꞁɹoʍ ǝɥ⟘",
@@ -8851,6 +9971,14 @@
         "identifier": "midgameTips.31",
         "source_string": "Dolphins can lead you to shipwrecks and underwater ruins, feed them cod and follow their trail!",
         "translation": "¡ꞁᴉɐɹʇ ɹᴉǝɥʇ ʍoꞁꞁoɟ puɐ poɔ ɯǝɥʇ pǝǝɟ 'suᴉnɹ ɹǝʇɐʍɹǝpun puɐ sʞɔǝɹʍdᴉɥs oʇ noʎ pɐǝꞁ uɐɔ suᴉɥdꞁoᗡ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "splitscreen.joyconError.toastMessage",
+        "source_string": "You have too many controllers connected while in Local Network Mode to join this game.",
+        "translation": "˙ǝɯɐᵷ sᴉɥʇ uᴉoɾ oʇ ǝpoW ʞɹoʍʇǝN ꞁɐɔoꞀ uᴉ ǝꞁᴉɥʍ pǝʇɔǝuuoɔ sɹǝꞁꞁoɹʇuoɔ ʎuɐɯ ooʇ ǝʌɐɥ no⅄",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8876,6 +10004,14 @@
         "source_string": "Uploading world files",
         "translation": "Uploading world files",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.success.relativePosition",
+        "source_string": "Position relative to %s: %s",
+        "translation": "%2$s :%1$s oʇ ǝʌᴉʇɐꞁǝɹ uoᴉʇᴉsoԀ",
+        "context": "first %s is the name of the test and the second %s is the local location in the test structure",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9083,6 +10219,14 @@
         "identifier": "hbui.CreateNewWorld.resourcePacks.marketplacePassPromotionButtonLabel",
         "source_string": "Learn more",
         "translation": "ǝɹoɯ uɹɐǝꞀ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.sharedPacksDescription",
+        "source_string": "Players are asked to download all local packs in order to join the game.",
+        "translation": "˙ǝɯɐᵷ ǝɥʇ uᴉoɾ oʇ ɹǝpɹo uᴉ sʞɔɐd ꞁɐɔoꞁ ꞁꞁɐ pɐoꞁuʍop oʇ pǝʞsɐ ǝɹɐ sɹǝʎɐꞁԀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
