@@ -9512,10 +9512,74 @@
         "max_length": null
     },
     {
+        "identifier": "commands.scoreboard.objectives.add.success",
+        "source_string": "Added new objective '%1$s' successfully",
+        "translation": "ʎꞁꞁnɟssǝɔɔns ,%1$s, ǝʌᴉʇɔǝɾqo ʍǝu pǝppⱯ",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.tooLong",
+        "source_string": "The name '%1$s' is too long for an objective, it can be at most %2$d characters long",
+        "translation": "ᵷuoꞁ sɹǝʇɔɐɹɐɥɔ %2$d ʇsoɯ ʇɐ ǝq uɐɔ ʇᴉ 'ǝʌᴉʇɔǝɾqo uɐ ɹoɟ ᵷuoꞁ ooʇ sᴉ ,%1$s, ǝɯɐu ǝɥ⟘",
+        "context": "1: Objective Name, 2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.objectives.add.wrongType",
         "source_string": "Invalid objective criteria type '%1$s'",
         "translation": ",%1$s, ǝdʎʇ ɐᴉɹǝʇᴉɹɔ ǝʌᴉʇɔǝɾqo pᴉꞁɐʌuI",
         "context": "1: Criteria Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.add.needName",
+        "source_string": "An objective needs a name.",
+        "translation": "˙ǝɯɐu ɐ spǝǝu ǝʌᴉʇɔǝɾqo uⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.description",
+        "source_string": "Modify scoreboard objectives.",
+        "translation": "˙sǝʌᴉʇɔǝɾqo pɹɐoqǝɹoɔs ʎɟᴉpoW",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.count",
+        "source_string": "Showing %1$d objective(s) on scoreboard:",
+        "translation": ":pɹɐoqǝɹoɔs uo (s)ǝʌᴉʇɔǝɾqo %1$d ᵷuᴉʍoɥS",
+        "context": "1: Number of Objectives",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.empty",
+        "source_string": "There are no objectives on the scoreboard",
+        "translation": "pɹɐoqǝɹoɔs ǝɥʇ uo sǝʌᴉʇɔǝɾqo ou ǝɹɐ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.list.entry",
+        "source_string": "- %1$s: displays as '%2$s' and is type '%3$s'",
+        "translation": ",%3$s, ǝdʎʇ sᴉ puɐ ,%2$s, sɐ sʎɐꞁdsᴉp :%1$s -",
+        "context": "1: Objective Name, 2: Objective Display Name, 3: Criteria Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.remove.success",
+        "source_string": "Removed objective '%1$s' successfully",
+        "translation": "ʎꞁꞁnɟssǝɔɔns ,%1$s, ǝʌᴉʇɔǝɾqo ʍǝu pǝʌoɯǝᴚ",
+        "context": "1: Objective Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9528,6 +9592,62 @@
         "max_length": null
     },
     {
+        "identifier": "commands.scoreboard.objectives.setdisplay.successCleared",
+        "source_string": "Cleared objective display slot '%1$s'",
+        "translation": ",%1$s, ʇoꞁs ʎɐꞁdsᴉp ǝʌᴉʇɔǝɾqo pǝɹɐǝꞁƆ",
+        "context": "1: Display Slot",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.objectives.setdisplay.successSet",
+        "source_string": "Set the display objective in slot '%1$s' to '%2$s'",
+        "translation": ",%2$s, oʇ ,%1$s, ʇoꞁs uᴉ ǝʌᴉʇɔǝɾqo ʎɐꞁdsᴉp ǝɥʇ ʇǝS",
+        "context": "1: Display Slot, 2: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.add.success",
+        "source_string": "Added %1$d to [%2$s] for %3$s (now %4$d)",
+        "translation": "(%4$d ʍou) %3$s ɹoɟ [%2$s] oʇ %1$d pǝppⱯ",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.add.multiple.success",
+        "source_string": "Added %1$d to [%2$s] for %3$d entities",
+        "translation": "sǝᴉʇᴉʇuǝ %3$d ɹoɟ [%2$s] oʇ %1$d pǝppⱯ",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.nameNotFound",
+        "source_string": "A player name must be given.",
+        "translation": "˙uǝʌᴉᵷ ǝq ʇsnɯ ǝɯɐu ɹǝʎɐꞁd Ɐ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.enable.noTrigger",
+        "source_string": "Objective %1$s is not a trigger",
+        "translation": "ɹǝᵷᵷᴉɹʇ ɐ ʇou sᴉ %1$s ǝʌᴉʇɔǝɾqO",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.enable.success",
+        "source_string": "Enabled trigger %1$s for %2$s",
+        "translation": "%2$s ɹoɟ %1$s ɹǝᵷᵷᴉɹʇ pǝꞁqɐuƎ",
+        "context": "1: Trigger Name, 2: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.players.list.count",
         "source_string": "Showing %1$d tracked players on the scoreboard:",
         "translation": ":pɹɐoqǝɹoɔs ǝɥʇ uo sɹǝʎɐꞁd pǝʞɔɐɹʇ %1$d ᵷuᴉʍoɥS",
@@ -9536,9 +9656,65 @@
         "max_length": null
     },
     {
+        "identifier": "commands.scoreboard.players.list.empty",
+        "source_string": "There are no tracked players on the scoreboard",
+        "translation": "pɹɐoqǝɹoɔs ǝɥʇ uo sɹǝʎɐꞁd pǝʞɔɐɹʇ ou ǝɹɐ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.count",
+        "source_string": "Showing %1$d tracked objective(s) for %2$s:",
+        "translation": ":%2$s ɹoɟ (s)ǝʌᴉʇɔǝɾqo pǝʞɔɐɹʇ %1$d ᵷuᴉʍoɥS",
+        "context": "1: Objective Count, 2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.empty",
+        "source_string": "Player %1$s has no scores recorded",
+        "translation": "pǝpɹoɔǝɹ sǝɹoɔs ou sɐɥ %1$s ɹǝʎɐꞁԀ",
+        "context": "1: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.list.player.entry",
+        "source_string": "- %2$s: %1$d (%3$s)",
+        "translation": "(%3$s) %1$d :%2$s -",
+        "context": "1: Score Value, 2: Objective Display Name, 3: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.players.operation.invalidOperation",
         "source_string": "Invalid operation %1$s",
         "translation": "%1$s uoᴉʇɐɹǝdo pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.notFound",
+        "source_string": "No %1$s score for %2$s found",
+        "translation": "punoɟ %2$s ɹoɟ ǝɹoɔs %1$s oN",
+        "context": "1: Objective Name, 2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.operation.success",
+        "source_string": "Updated [%1$s] for %2$d entities",
+        "translation": "sǝᴉʇᴉʇuǝ %2$d ɹoɟ [%1$s] pǝʇɐpd∩",
+        "context": "1: Objective Name, 2: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.offlinePlayerName",
+        "source_string": "Player Offline",
+        "translation": "ǝuᴉꞁɟɟO ɹǝʎɐꞁԀ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9552,10 +9728,170 @@
         "max_length": null
     },
     {
+        "identifier": "commands.scoreboard.players.remove.success",
+        "source_string": "Removed %1$d from [%2$s] for %3$s (now %4$d)",
+        "translation": "(%4$d ʍou) %3$s ɹoɟ [%2$s] ɯoɹɟ %1$d pǝʌoɯǝᴚ",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Name, 4: New Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.remove.multiple.success",
+        "source_string": "Removed %1$d from [%2$s] for %3$d entities",
+        "translation": "sǝᴉʇᴉʇuǝ %3$d ɹoɟ [%2$s] ɯoɹɟ %1$d pǝʌoɯǝᴚ",
+        "context": "1: Score Value, 2: Objective Name, 3: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.reset.success",
+        "source_string": "Reset scores of player %1$s",
+        "translation": "%1$s ɹǝʎɐꞁd ɟo sǝɹoɔs ʇǝsǝᴚ",
+        "context": "1: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.resetscore.success",
+        "source_string": "Reset score %1$s of player %2$s",
+        "translation": "%2$s ɹǝʎɐꞁd ɟo %1$s ǝɹoɔs ʇǝsǝᴚ",
+        "context": "1: Objective Name, 2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.success",
+        "source_string": "Set [%1$s] for %2$s to %3$d",
+        "translation": "%3$d oʇ %2$s ɹoɟ [%1$s] ʇǝS",
+        "context": "1: Objective Name, 2: Player Name, 3: Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.multiple.success",
+        "source_string": "Set [%1$s] for %2$d entities to %3$d",
+        "translation": "%3$d oʇ sǝᴉʇᴉʇuǝ %2$d ɹoɟ [%1$s] ʇǝS",
+        "context": "1: Objective Name, 2: Player Count, 3: Score Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.players.set.tagError",
         "source_string": "Could not parse dataTag, reason: %1$s",
         "translation": "%1$s :uosɐǝɹ 'ᵷɐ⟘ɐʇɐp ǝsɹɐd ʇou pꞁnoƆ",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.set.tagMismatch",
+        "source_string": "The dataTag does not match for %1$s",
+        "translation": " %1$s ɹoɟ ɥɔʇɐɯ ʇou sǝop ᵷɐ⟘ɐʇɐp ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.score.notFound",
+        "source_string": "No %1$s score for %2$s found",
+        "translation": "punoɟ %2$s ɹoɟ ǝɹoɔs %1$s oN",
+        "context": "1: Objective Name, 2: Player Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.test.failed",
+        "source_string": "Score %1$d is NOT in range %2$d to %3$d",
+        "translation": "%3$d oʇ %2$d ǝᵷuɐɹ uᴉ ⟘ON sᴉ %1$d ǝɹoɔS",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.test.success",
+        "source_string": "Score %1$d is in range %2$d to %3$d",
+        "translation": "%3$d oʇ %2$d ǝᵷuɐɹ uᴉ sᴉ %1$d ǝɹoɔS",
+        "context": "1: Value, 2: Min Range Value, 3: Max Range Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.players.get.success",
+        "source_string": "%1$d",
+        "translation": "%1$d",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teamNotFound",
+        "source_string": "No team was found by the name '%1$s'",
+        "translation": ",%1$s, ǝɯɐu ǝɥʇ ʎq punoɟ sɐʍ ɯɐǝʇ oN",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.alreadyExists",
+        "source_string": "A team with the name '%1$s' already exists",
+        "translation": "sʇsᴉxǝ ʎpɐǝɹꞁɐ ,%1$s, ǝɯɐu ǝɥʇ ɥʇᴉʍ ɯɐǝʇ Ɐ",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.displayTooLong",
+        "source_string": "The display name '%1$s' is too long for a team, it can be at most %2$d characters long",
+        "translation": "ᵷuoꞁ sɹǝʇɔɐɹɐɥɔ %2$d ʇsoɯ ʇɐ ǝq uɐɔ ʇᴉ 'ɯɐǝʇ ɐ ɹoɟ ᵷuoꞁ ooʇ sᴉ ,%1$s, ǝɯɐu ʎɐꞁdsᴉp ǝɥ⟘",
+        "context": "1: Team Display Name, 2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.success",
+        "source_string": "Added new team '%1$s' successfully",
+        "translation": "ʎꞁꞁnɟssǝɔɔns ,%1$s, ɯɐǝʇ ʍǝu pǝppⱯ",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.tooLong",
+        "source_string": "The name '%1$s' is too long for a team, it can be at most %2$d characters long",
+        "translation": "ᵷuoꞁ sɹǝʇɔɐɹɐɥɔ %2$d ʇsoɯ ʇɐ ǝq uɐɔ ʇᴉ 'ɯɐǝʇ ɐ ɹoɟ ᵷuoꞁ ooʇ sᴉ ,%1$s, ǝɯɐu ǝɥ⟘",
+        "context": "1: Team Name, 2: Name Length Limit",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.empty.alreadyEmpty",
+        "source_string": "Team %1$s is already empty, cannot remove nonexistent players",
+        "translation": "sɹǝʎɐꞁd ʇuǝʇsᴉxǝuou ǝʌoɯǝɹ ʇouuɐɔ 'ʎʇdɯǝ ʎpɐǝɹꞁɐ sᴉ %1$s ɯɐǝ⟘",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.empty.success",
+        "source_string": "Removed all %1$d player(s) from team %2$s",
+        "translation": "%2$s ɯɐǝʇ ɯoɹɟ (s)ɹǝʎɐꞁd %1$d ꞁꞁɐ pǝʌoɯǝᴚ",
+        "context": "1: Number of Players, 2: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.join.failure",
+        "source_string": "Could not add %1$d player(s) to team %2$s: %3$s",
+        "translation": "%3$s :%2$s ɯɐǝʇ oʇ (s)ɹǝʎɐꞁd %1$d ppɐ ʇou pꞁnoƆ",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.join.success",
+        "source_string": "Added %1$d player(s) to team %2$s: %3$s",
+        "translation": "%3$s :%2$s ɯɐǝʇ oʇ (s)ɹǝʎɐꞁd %1$d pǝppⱯ",
+        "context": "1: Number of Players, 2: Team Name, 3: List of Players",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9568,10 +9904,130 @@
         "max_length": null
     },
     {
+        "identifier": "commands.scoreboard.teams.leave.noTeam",
+        "source_string": "You are not in a team",
+        "translation": "ɯɐǝʇ ɐ uᴉ ʇou ǝɹɐ no⅄",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.teams.leave.success",
         "source_string": "Removed %1$d player(s) from their teams: %2$s",
         "translation": "%2$s :sɯɐǝʇ ɹᴉǝɥʇ ɯoɹɟ (s)ɹǝʎɐꞁd %1$d pǝʌoɯǝᴚ",
         "context": "1: Number of Players, 2: List of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.count",
+        "source_string": "Showing %1$d teams on the scoreboard:",
+        "translation": ":pɹɐoqǝɹoɔs ǝɥʇ uo sɯɐǝʇ %1$d ᵷuᴉʍoɥS",
+        "context": "1: Number of Teams",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.empty",
+        "source_string": "There are no teams registered on the scoreboard",
+        "translation": "pɹɐoqǝɹoɔs ǝɥʇ uo pǝɹǝʇsᴉᵷǝɹ sɯɐǝʇ ou ǝɹɐ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.entry",
+        "source_string": "- %1$s: '%2$s' has %3$d players",
+        "translation": "sɹǝʎɐꞁd %3$d sɐɥ ,%2$s, :%1$s -",
+        "context": "1: Team Name, 2: Team Display Name, 3: Number of Players",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.count",
+        "source_string": "Showing %1$d player(s) in team %2$s:",
+        "translation": ":%2$s ɯɐǝʇ uᴉ (s)ɹǝʎɐꞁd %1$d ᵷuᴉʍoɥS",
+        "context": "1: Number of Players, 2 Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.empty",
+        "source_string": "Team %1$s has no players",
+        "translation": "sɹǝʎɐꞁd ou sɐɥ %1$s ɯɐǝ⟘",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.list.player.entry",
+        "source_string": "- %2$s: %1$d (%3$s)",
+        "translation": "(%3$s) %1$d :%2$s -",
+        "context": "1: Player Name, 2: Score Value, 3: Team Display Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.option.noValue",
+        "source_string": "Valid values for option %1$s are: %2$s",
+        "translation": "%2$s :ǝɹɐ %1$s uoᴉʇdo ɹoɟ sǝnꞁɐʌ pᴉꞁɐɅ",
+        "context": "1: Option Name, 2: List of Option Values",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.option.success",
+        "source_string": "Set option %1$s for team %2$s to %3$s",
+        "translation": "%3$s oʇ %2$s ɯɐǝʇ ɹoɟ %1$s uoᴉʇdo ʇǝS",
+        "context": "1: Option Name, 2: Team Name, 3: Option Value",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.remove.success",
+        "source_string": "Removed team %1$s",
+        "translation": "%1$s ɯɐǝʇ pǝʌoɯǝᴚ",
+        "context": "1: Team Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.description",
+        "source_string": "Applies shaking to the players' camera with a specified intensity and duration.",
+        "translation": "˙uoᴉʇɐɹnp puɐ ʎʇᴉsuǝʇuᴉ pǝᴉɟᴉɔǝds ɐ ɥʇᴉʍ ɐɹǝɯɐɔ ,sɹǝʎɐꞁd ǝɥʇ oʇ ᵷuᴉʞɐɥs sǝᴉꞁddⱯ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.success",
+        "source_string": "Sent a request to the following players for their camera to shake: %s",
+        "translation": "%s :ǝʞɐɥs oʇ ɐɹǝɯɐɔ ɹᴉǝɥʇ ɹoɟ sɹǝʎɐꞁd ᵷuᴉʍoꞁꞁoɟ ǝɥʇ oʇ ʇsǝnbǝɹ ɐ ʇuǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.screenshake.successStop",
+        "source_string": "Stopping camera shake for the following players: %s",
+        "translation": "%s :sɹǝʎɐꞁd ᵷuᴉʍoꞁꞁoɟ ǝɥʇ ɹoɟ ǝʞɐɥs ɐɹǝɯɐɔ ᵷuᴉddoʇS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.description",
+        "source_string": "Triggers a script event with an ID and message.",
+        "translation": "˙ǝᵷɐssǝɯ puɐ ᗡI uɐ ɥʇᴉʍ ʇuǝʌǝ ʇdᴉɹɔs ɐ sɹǝᵷᵷᴉɹ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scriptevent.messageSizeExceed",
+        "source_string": "Message length exceeds (%1$d) character limit!",
+        "translation": "¡ʇᴉɯᴉꞁ ɹǝʇɔɐɹɐɥɔ (%1$d) spǝǝɔxǝ ɥʇᵷuǝꞁ ǝᵷɐssǝW",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -9584,6 +10040,62 @@
         "max_length": null
     },
     {
+        "identifier": "commands.seed.success",
+        "source_string": "Seed: %1$s",
+        "translation": "%1$s :pǝǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.description",
+        "source_string": "Changes a block to another block.",
+        "translation": "˙ʞɔoꞁq ɹǝɥʇouɐ oʇ ʞɔoꞁq ɐ sǝᵷuɐɥƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.failed",
+        "source_string": "Unable to place block",
+        "translation": "ʞɔoꞁq ǝɔɐꞁd oʇ ǝꞁqɐu∩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.noChange",
+        "source_string": "The block couldn't be placed",
+        "translation": "pǝɔɐꞁd ǝq ʇ,upꞁnoɔ ʞɔoꞁq ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.notFound",
+        "source_string": "There is no such block with ID/name %1$s",
+        "translation": "%1$s ǝɯɐu/ᗡI ɥʇᴉʍ ʞɔoꞁq ɥɔns ou sᴉ ǝɹǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.outOfWorld",
+        "source_string": "Cannot place block outside of the world",
+        "translation": "pꞁɹoʍ ǝɥʇ ɟo ǝpᴉsʇno ʞɔoꞁq ǝɔɐꞁd ʇouuɐƆ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setblock.success",
+        "source_string": "Block placed",
+        "translation": "pǝɔɐꞁd ʞɔoꞁᗺ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.setblock.tagError",
         "source_string": "Data tag parsing failed: %1$s",
         "translation": "%1$s :pǝꞁᴉɐɟ ᵷuᴉsɹɐd ᵷɐʇ ɐʇɐᗡ",
@@ -9592,9 +10104,129 @@
         "max_length": null
     },
     {
+        "identifier": "commands.setidletimeout.success",
+        "source_string": "Successfully set the idle timeout to %1$d minutes.",
+        "translation": "˙sǝʇnuᴉɯ %1$d oʇ ʇnoǝɯᴉʇ ǝꞁpᴉ ǝɥʇ ʇǝs ʎꞁꞁnɟssǝɔɔnS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslots.description",
+        "source_string": "Sets the number of fixed inventory slots for the server.",
+        "translation": "˙ɹǝʌɹǝs ǝɥʇ ɹoɟ sʇoꞁs ʎɹoʇuǝʌuᴉ pǝxᴉɟ ɟo ɹǝqɯnu ǝɥʇ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslots.success",
+        "source_string": "Number of Fixed Inventory Slots set to %1$d",
+        "translation": "%1$d oʇ ʇǝs sʇoꞁS ʎɹoʇuǝʌuI pǝxᴉℲ ɟo ɹǝqɯnN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslot.description",
+        "source_string": "Sets a fixed slot to a specified item.",
+        "translation": "˙ɯǝʇᴉ pǝᴉɟᴉɔǝds ɐ oʇ ʇoꞁs pǝxᴉɟ ɐ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setfixedinvslot.success",
+        "source_string": "Fixed Inventory Slot %1$d set to %2$s",
+        "translation": "%2$s oʇ ʇǝs %1$d ʇoꞁS ʎɹoʇuǝʌuI pǝxᴉℲ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.description",
+        "source_string": "Sets or gets the paused state of the game for all players.",
+        "translation": "˙sɹǝʎɐꞁd ꞁꞁɐ ɹoɟ ǝɯɐᵷ ǝɥʇ ɟo ǝʇɐʇs pǝsnɐd ǝɥʇ sʇǝᵷ ɹo sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.globalpause.success",
+        "source_string": "Set or got pause state",
+        "translation": "ǝʇɐʇs ǝsnɐd ʇoᵷ ɹo ʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.globalpause.error",
         "source_string": "Invalid conditions for setting pause state",
         "translation": "ǝʇɐʇs ǝsnɐd ᵷuᴉʇʇǝs ɹoɟ suoᴉʇᴉpuoɔ pᴉꞁɐʌuI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.description",
+        "source_string": "Sets the maximum number of players for this game session.",
+        "translation": "˙uoᴉssǝs ǝɯɐᵷ sᴉɥʇ ɹoɟ sɹǝʎɐꞁd ɟo ɹǝqɯnu ɯnɯᴉxɐɯ ǝɥʇ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success",
+        "source_string": "Set max players to %1$d.",
+        "translation": "˙%1$d oʇ sɹǝʎɐꞁd xɐɯ ʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success.upperbound",
+        "source_string": "(Bound to maximum allowed connections)",
+        "translation": "(suoᴉʇɔǝuuoɔ pǝʍoꞁꞁɐ ɯnɯᴉxɐɯ oʇ punoᗺ)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setmaxplayers.success.lowerbound",
+        "source_string": "(Bound to current player count)",
+        "translation": "(ʇunoɔ ɹǝʎɐꞁd ʇuǝɹɹnɔ oʇ punoᗺ)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.description",
+        "source_string": "Sets the world spawn.",
+        "translation": "˙uʍɐds pꞁɹoʍ ǝɥʇ sʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.success",
+        "source_string": "Set the world spawn point to (%1$d, %2$d, %3$d)",
+        "translation": "(%3$d '%2$d '%1$d) oʇ ʇuᴉod uʍɐds pꞁɹoʍ ǝɥʇ ʇǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.wrongDimension",
+        "source_string": "The world spawn can not be set in this dimension",
+        "translation": "uoᴉsuǝɯᴉp sᴉɥʇ uᴉ ʇǝs ǝq ʇou uɐɔ uʍɐds pꞁɹoʍ ǝɥ⟘",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.setworldspawn.notAllowedInLegacyWorlds",
+        "source_string": "The world spawn can not be set in legacy worlds",
+        "translation": "spꞁɹoʍ ʎɔɐᵷǝꞁ uᴉ ʇǝs ǝq ʇou uɐɔ uʍɐds pꞁɹoʍ ǝɥ⟘",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9627,6 +10259,14 @@
         "identifier": "createWorld.customize.custom.next",
         "source_string": "Next Page",
         "translation": "ǝᵷɐԀ ʇxǝN",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.levelSeed",
+        "source_string": "Seed",
+        "translation": "pǝǝS",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -9808,6 +10448,14 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.seed",
+        "source_string": "Seeds",
+        "translation": "spǝǝS",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "lanServer.scanning",
         "source_string": "Scanning for games on your local network",
         "translation": "ʞɹoʍʇǝu ꞁɐɔoꞁ ɹnoʎ uo sǝɯɐᵷ ɹoɟ ᵷuᴉuuɐɔS",
@@ -9940,6 +10588,14 @@
         "source_string": "Next >",
         "translation": "< ʇxǝN",
         "context": "Chevrons (< and >) should not be moved",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.seed",
+        "source_string": "Seed:",
+        "translation": ":pǝǝS",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
