@@ -1330,7 +1330,7 @@
     {
         "identifier": "accessibility.text.PLN",
         "source_string": "Polish Zloty:Groszy:.",
-        "translation": "Zlotul polonez: Groszy:.",
+        "translation": "Zlotul polonez:Groszy:.",
         "context": "{Locked}",
         "labels": "unassigned, lang",
         "max_length": null
@@ -14770,7 +14770,7 @@
     {
         "identifier": "createWorldScreen.experimentalmoddingDescription",
         "source_string": "Doing a lot of repetitive things? This might help creating your add-on",
-        "translation": "Faci o mulțime de lucruri repetitive? Acest lucru ar putea ajuta la crearea adițiilor",
+        "translation": "Faci o mulțime de lucruri repetitive? Acest lucru ar putea ajuta la crearea propriilor tale extensii",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14834,7 +14834,7 @@
     {
         "identifier": "createWorldScreen.experimentalGameTestDescription",
         "source_string": "Use \"-beta\" versions of API modules in add-on packs",
-        "translation": "Folosește versiunile \"-beta\" ale modulelor API din pachetele add-on",
+        "translation": "Folosește versiunile \"-beta\" ale modulelor API din pachetele de extensii",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26146,7 +26146,7 @@
     {
         "identifier": "howtoplay.addons.button.text.1",
         "source_string": "Add-On FAQs",
-        "translation": "Întrebări frecvente despre extensii",
+        "translation": "Întreb. frecv. despre extensii",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33616,6 +33616,14 @@
         "max_length": null
     },
     {
+        "identifier": "menu.store.addons",
+        "source_string": "Browse Add-ons!",
+        "translation": "Răsfoiește extensii!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "menu.editor.play",
         "source_string": "Resume",
         "translation": "Reia",
@@ -35448,6 +35456,30 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.warning.multiple.addon",
+        "source_string": "Stacking multiple Add-Ons",
+        "translation": "Combini mai multe extensii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.warning.multiple.addon.message",
+        "source_string": "Stacking multiple Add-Ons may result in unpredictable experiences. World loading times could vary, and Add-Ons might behave unexpectedly.",
+        "translation": "Combinarea mai multor extensii poate duce la experiențe imprevizibile. Timpul de încărcare al lumii poate varia, iar extensiile se pot comporta în moduri neașteptate.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.warning.multiple.addon.title",
+        "source_string": "Using Add-Ons",
+        "translation": "Folosești extensii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.packSettingsTitle",
         "source_string": "%s Settings",
         "translation": "Setări %s",
@@ -35744,6 +35776,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.popup.downloadWorldTemplate.noSpace.msg",
+        "source_string": "You do not have enough space to download the template used to create this world. That template contained an Add-On pack that you need to continue playing this world. Clear up space on your device to continue.",
+        "translation": "Nu ai suficient spațiu pentru a descărca șablonul folosit pentru a crea această lume. Acel șablon conținea un pachet de extensie de care ai nevoie pentru a putea să te joci pe această lume. Mai curăță din spațiul de pe dispozitiv pentru a continua.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.popup.downloadWorldTemplate.msg",
         "source_string": "The template used to create this world is missing. That template contained an Add-On pack that you need to continue playing this world.",
         "translation": "Șablonul folosit pentru a crea această lume lipsește. Acel șablon conținea un pachet de extensie de care ai nevoie pentru a putea să te joci pe această lume.",
@@ -35851,6 +35891,22 @@
         "identifier": "store.progress.dialog.title",
         "source_string": "Loading Marketplace...",
         "translation": "Se încarcă piața...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.progress.dialog.tooltip.5",
+        "source_string": "Add-Ons can be used on both new and existing worlds.",
+        "translation": "Extensiile pot fi folosite atât în lumile noi, cât și în cele existente.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.progress.dialog.tooltip.6",
+        "source_string": "Try out all different types of content - worlds, skins, add-ons, textures.",
+        "translation": "Încearcă toate tipurile diferite de conținut - lumi, costume, extensii, texturi.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
