@@ -3690,7 +3690,7 @@
     {
         "identifier": "chat.mentions.autocomplete.allPlayers",
         "source_string": "mention all players",
-        "translation": "bring up all players",
+        "translation": "nem all players",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3795,6 +3795,22 @@
         "identifier": "chat.settings.lineSpacingNumber",
         "source_string": "x%s",
         "translation": "x%s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.mentions",
+        "source_string": "My Mentions",
+        "translation": "My Nemmings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.settings.mentionsColor",
+        "source_string": "My Mentions Color",
+        "translation": "My Nemmings Hue",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5890,7 +5906,7 @@
     {
         "identifier": "commands.give.item.invalid",
         "source_string": "Invalid command syntax: no such %s exists with that data value",
-        "translation": "Unright hest dighting: no such %s bestands with that lore worth",
+        "translation": "Unright hest dighting: no such %s stands with that lore worth",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -8170,7 +8186,7 @@
     {
         "identifier": "realmsSettingsScreen.inviteLinkLabelDescriptionFull",
         "source_string": "You have reached the maximum number of invite links. You must remove an existing link before adding a new one.",
-        "translation": "You have reached the greatest rime of lathing links. You must fornim a bestanding link before eking a new one.",
+        "translation": "You have reached the greatest rime of lathing links. You must fornim a standing link before eking a new one.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -11338,7 +11354,7 @@
     {
         "identifier": "howtoplay.addons.text.2",
         "source_string": "Add-Ons allow you to modify your existing worlds and Realms through the Edit World screen and the Create New World screen.",
-        "translation": "Eke-Ons aleave you to tweak your bestanding worlds and Realms through the Bework World shirm and the Make New World shirm.",
+        "translation": "Eke-Ons aleave you to tweak your standing worlds and Realms through the Bework World shirm and the Make New World shirm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12234,7 +12250,7 @@
     {
         "identifier": "howtoplay.commandBlocks.text.5.3",
         "source_string": "§eRepeat§f - Once activated, this Command Block will continue executing its stored command as long as it exists.",
-        "translation": "§eEdledge§f - Once astirred, this Hest Clot will go on running its stowed hest as long as it bestands.",
+        "translation": "§eEdledge§f - Once astirred, this Hest Clot will go on running its stowed hest as long as it stands.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12610,7 +12626,7 @@
     {
         "identifier": "howtoplay.chalkboard.text.1",
         "source_string": "Chalkboards are used to display text in the world. Chalkboards display more text than Signs, can be edited after they have been placed, and come in three sizes: Slate, Poster, and Board. The lock toggle allows you to prevent non-World Builders from destroying or editing your chalkboards. Press :_input_key.use: on an existing chalkboard to edit it.",
-        "translation": "Chalkboards are brooked to show writ in the world. Chalkboards show more writ than Tokens, can be beworked after hie have been laid, and come in three breadths: Shindlestone, Woughleaf, and Board. The lock toggle leaves you to forestall not-World Builders from forspilling or beworking your chalkboards. Thring :_input_key.use: on a bestanding chalkboard to bework it.",
+        "translation": "Chalkboards are brooked to show writ in the world. Chalkboards show more writ than Tokens, can be beworked after hie have been laid, and come in three breadths: Shindlestone, Woughleaf, and Board. The lock toggle leaves you to forestall not-World Builders from forspilling or beworking your chalkboards. Thring :_input_key.use: on a standing chalkboard to bework it.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30530,7 +30546,7 @@
     {
         "identifier": "store.realmsPlus.landing.info3.para3",
         "source_string": "All Realms screens and functions are available in %s except purchasing a new subscription or managing the subscriptions of existing Realms. ",
-        "translation": "All Realms shirms and workings are forthcoming in %s nimth buying a new underwriting or handling the underwritings of bestanding Realms. ",
+        "translation": "All Realms shirms and workings are forthcoming in %s nimth buying a new underwriting or handling the underwritings of standing Realms. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30987,6 +31003,14 @@
         "identifier": "store.addon.newOrExistingTitle",
         "source_string": "Where to add?",
         "translation": "Where to eke?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.addon.choseExistingWorld",
+        "source_string": "Existing",
+        "translation": "Standing",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -45624,6 +45648,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.realmsTab.joinRealmOptionsModalMenu.joinRealm",
+        "source_string": "Join an existing Realm",
+        "translation": "Fay a standing Realm",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.realmsTab.joinRealmOptionsModalMenu.learnMore",
         "source_string": "Learn more",
         "translation": "Learn more",
@@ -47563,6 +47595,14 @@
         "identifier": "hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.button.MalformedZip",
         "source_string": "Close",
         "translation": "Shut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.description.Duplicate",
+        "source_string": "The template already exists.",
+        "translation": "The forelay already stands.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
