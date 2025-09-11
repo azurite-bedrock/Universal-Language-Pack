@@ -5280,6 +5280,22 @@
         "max_length": null
     },
     {
+        "identifier": "commands.bossbar.add.failure.exists",
+        "source_string": "A bossbar already exists with the ID '%1$s'",
+        "translation": "A highfiendband already stands with the IHOOD '%1$s'",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.bossbar.notFound",
+        "source_string": "No bossbar exists with the ID '%1$s'",
+        "translation": "No highfiendband stands with the IHOOD '%1$s'",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.change-setting.success",
         "source_string": "%1$s has been changed",
         "translation": "%1$s has been wended",
@@ -5859,6 +5875,14 @@
         "identifier": "commands.generic.outOfWorld",
         "source_string": "Cannot access blocks outside of the world",
         "translation": "Cannot reach clots outside of the world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.generic.unknown",
+        "source_string": "Unknown command: %s. Please check that the command exists and that you have permission to use it.",
+        "translation": "Unknown hest: %s. Kindly sicker that the hest stands and that you have thaving to brook it.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
