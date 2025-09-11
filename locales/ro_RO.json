@@ -14602,7 +14602,7 @@
     {
         "identifier": "createWorldScreen.tileDrops",
         "source_string": "Tile Drops",
-        "translation": "Recompense entități bloc",
+        "translation": "Blocurile scapă obiecte",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33200,6 +33200,38 @@
         "max_length": null
     },
     {
+        "identifier": "item.itemLock.cantDrop",
+        "source_string": ":hollow_star: Can't Drop Items can't be:",
+        "translation": ":hollow_star: Nu se poate scăpa Elementele nu pot fi:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.itemLock.hoverText.cantBe.dropped",
+        "source_string": "dropped",
+        "translation": "aruncate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.itemLock.popupNotice.cantDrop",
+        "source_string": ":hollow_star: Can't Drop Items can't be: dropped, removed, crafted with",
+        "translation": ":hollow_star: Nu se poate scăpa Elementele nu pot fi: scăpate, eliminate, folosite pentru a fabrica",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.itemLock.popupNotice.cantMove",
+        "source_string": ":solid_star: Can't Move Items can't be: moved, dropped, removed, crafted with",
+        "translation": ":solid_star: Nu se poate muta Elementele nu pot fi: mutate, scăpate, eliminate, folosite pentru a fabrica",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.chicken.name",
         "source_string": "Raw Chicken",
         "translation": "Pui crud",
@@ -33347,6 +33379,14 @@
         "identifier": "key.chat",
         "source_string": "Chat button",
         "translation": "Buton de discuție",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.drop",
+        "source_string": "Drop Item",
+        "translation": "Aruncă obiect",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33696,6 +33736,14 @@
         "max_length": null
     },
     {
+        "identifier": "notification.lock.noDrop",
+        "source_string": "This item is locked and can't be dropped",
+        "translation": "Acest obiect este blocat și nu poate fi scăpat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "npcscreen.advancedsettings",
         "source_string": "Advanced Settings",
         "translation": "Setări avansate",
@@ -33904,9 +33952,41 @@
         "max_length": null
     },
     {
+        "identifier": "options.dev_show_display_logged_error",
+        "source_string": "Display logged errors",
+        "translation": "Afișare erori înregistrate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_show_display_logged_error_marketplace",
         "source_string": "Marketplace errors",
         "translation": "Erorile pieței",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_show_display_logged_error_ui",
+        "source_string": "UI errors",
+        "translation": "Erori UI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_show_display_logged_error_osi",
+        "source_string": "OSI errors",
+        "translation": "Erori OSI",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_show_display_logged_error_other",
+        "source_string": "Other errors",
+        "translation": "Alte erori",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34088,9 +34168,57 @@
         "max_length": null
     },
     {
+        "identifier": "options.dev_displayTreatmentsPanel",
+        "source_string": "Display Treatments",
+        "translation": "Afișare tratamente",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_displayProgressionsPanel",
+        "source_string": "Display Progressions",
+        "translation": "Afișare progresii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_displayRealmsFeaturesPanel",
+        "source_string": "Display Realms Features",
+        "translation": "Afişare caracteristici Realms",
+        "context": "Dev-only option to display Realms feature flags in the options menu",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_currentRealmsFeaturesTitle",
+        "source_string": "Enabled Realms Feature Flags",
+        "translation": "S-au activat flag-urile de caracteristici Realms",
+        "context": "Dev-only menu displaying enabled Realms feature flags",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_unusedRealmsFeaturesTitle",
+        "source_string": "Disabled Realms Feature Flags",
+        "translation": "S-au dezactivat flag-urile de caracteristici Realms",
+        "context": "Dev-only menu displaying disabled Realms feature flags",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_folders_portSettingsFolder",
         "source_string": "Export Settings Folder",
         "translation": "Exportă directorul cu setări",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_displayOverrideDatetime",
+        "source_string": "Display Datetime",
+        "translation": "Afișare dată și timp",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34840,6 +34968,14 @@
         "max_length": null
     },
     {
+        "identifier": "hudScreen.tooltip.dropItem",
+        "source_string": "Drop",
+        "translation": "Aruncă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hudScreen.tooltip.potion",
         "source_string": "Drink",
         "translation": "Bea",
@@ -34875,6 +35011,14 @@
         "identifier": "permissions.chatmute",
         "source_string": "Chat is currently disabled",
         "translation": "Discuția este momentan dezactivată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "permissions.dropdown.title",
+        "source_string": "Permissions Level for %s",
+        "translation": "Nivel de permisiuni pentru %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35544,6 +35688,22 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.invalid.description",
+        "source_string": "Couldn't parse pack successfully. Click to display errors.",
+        "translation": "Nu s-a putut analiza pachetul cu succes. Apasă pentru a afișa erori.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "review.item.post.rating.dropdown.label",
+        "source_string": "Choose a star rating",
+        "translation": "Alege o notă în stele",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "selectTemplate.marketplacePass",
         "source_string": "Featured Marketplace Pass Content",
         "translation": "Conținut din Pass-ul Pieței Recomandat",
@@ -35600,6 +35760,30 @@
         "max_length": null
     },
     {
+        "identifier": "stat.dispenserInspected",
+        "source_string": "Dispensers Searched",
+        "translation": "Distribuitoare căutate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stat.drop",
+        "source_string": "Items Dropped",
+        "translation": "Elemente scăpate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stat.dropperInspected",
+        "source_string": "Droppers Searched",
+        "translation": "Aruncătoare căutate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.title",
         "source_string": "Marketplace",
         "translation": "Piață",
@@ -35636,6 +35820,14 @@
         "source_string": "Realms Plus is an ongoing subscription with a recurring subscription fee which is charged automatically every month until the subscription is cancelled.%sYour Realm and the 150+ marketplace packs included in Marketplace Pass will be immediately available. Up to 10 players can play at one time, and they get access to the worlds in your Realm for free! You'll be billed %s/month and you can cancel your subscription to stop future charges by accessing subscriptions settings.",
         "translation": "Realms Plus este un abonament în curs cu o taxă de abonament recurentă, care se percepe automat în fiecare lună până la anularea abonamentului.%sRealm-ul dvs. și cele peste 150 de pachetele din Pass-ul Pieței vor fi disponibile imediat. Până la 10 jucători pot juca la un moment dat, și au acces gratuit la lumile din Realm-ul tău! Vei fi facturat %s/lună și îți poți anula abonamentul pentru a opri taxele viitoare accesând setările abonamentelor.",
         "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.csb.terms",
+        "source_string": "Marketplace Pass is a subscription for content to be used with supported versions of Minecraft (game sold separately) on Windows and other supported platforms on which you own the game (Minecraft Java & Amazon Kindle Fire Editions not supported); an active subscription is required to use Marketplace Pass content. Content varies over time and may not be available in all countries. After the free trial period, subscription continues to be charged at the then-current regular price (subject to change) plus applicable taxes unless cancelled. You can cancel your subscription by accessing Services & subscriptions in your Microsoft account. If your subscription terminates or a content item is removed from the catalog, you must reactivate your subscription or buy the content separately to continue using it. ISP fees may apply. We may occasionally provide content that remains available to you even after the end of your subscription, in which case we reserve the right to take down such content if it becomes incompatible or if our rights to the content expire. Subscription subject to change and/or retirement. Subject to the Microsoft Services Agreement (www.microsoft.com/msa) and the Minecraft EULA (https://www.minecraft.net/eula). Any translations of these terms are done for your convenience only, and in the event of a dispute between the English and any non-English versions, the English version of these terms shall govern.",
+        "translation": "Pass-ul pieței este un abonament pentru conținut folosit cu versiuni suportate de Minecraft (joc vândut separat) pe Windows și alte platforme suportate pe care deții jocul (Edițiile Java și Amazon Kindle Fire nu sunt suportate); un abonament activ este necesar pentru a utiliza conținutul Pass-ului Pieței. Conţinutul variază în timp şi poate să nu fie disponibil în toate ţările. După perioada de testare gratuită, abonamentul continuă să fie perceput la prețul regulat (supus modificării) în vigoare la acea dată, plus taxele aplicabile, cu excepția cazului în care este anulat. Vă puteți anula abonamentul accesând Servicii și abonamente din contul dvs Microsoft. În cazul în care abonamentul dvs. este oprit sau un element de conținut este eliminat din catalog, trebuie să vă reactivați abonamentul sau să cumpărați conținutul separat pentru a continua să îl utilizați. Se pot aplica taxele furnizorului de servicii internet. Este posibil să furnizăm ocazional conținut care vă rămâne la dispoziția dvs. chiar și după încheierea abonamentului, caz în care ne rezervăm dreptul de a retrage un astfel de conținut dacă acesta devine incompatibil sau dacă drepturile noastre la conținut expiră. Abonament supus schimbării şi/sau retragerii. Sub rezerva Acordului privind serviciile Microsoft (www.microsoft.com/msa) şi Minecraft EULA (https://www.minecraft.net/eula). Toate traducerile acestor termeni sunt efectuate numai pentru confortul tău, iar în cazul unui conflict între versiunea în limba engleză şi cea în alte versiuni decât cea engleză, reglementarea este valabilă în versiunea în limba engleză.",
+        "context": "CertRequirement: [Amazon Kindle Fire Edition]",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -35756,6 +35948,30 @@
         "source_string": "Includes",
         "translation": "Include",
         "context": "Precedes the term Marketplace Pass in a different font",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.inventory.dropdown.owned",
+        "source_string": "Owned",
+        "translation": "Deținut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.inventory.dropdown.current",
+        "source_string": "Current",
+        "translation": "Actual",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.inventory.dropdown.removed",
+        "source_string": "Removed",
+        "translation": "Eliminat",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -35995,6 +36211,22 @@
         "identifier": "structure_block.waterlog_block",
         "source_string": "Waterlog Blocks",
         "translation": "Umple blocurile cu apă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.dispenser.name",
+        "source_string": "Dispenser",
+        "translation": "Distribuitor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.dropper.name",
+        "source_string": "Dropper",
+        "translation": "Aruncător",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -36784,9 +37016,41 @@
         "max_length": null
     },
     {
+        "identifier": "beginnerTips.3",
+        "source_string": "You have endless lives, but your items drop to the ground when you die. Hurry back to pick them up!",
+        "translation": "Ai vieți nenumărate, dar obiectele tale sunt scăpate pe pământ atunci când mori. Grăbește-te să le iei din nou!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.29",
+        "source_string": "Baby turtles will drop scutes when they grow - these can be crafted into turtle shells.",
+        "translation": "Puii de țestoasă vor scăpa solzi atunci când cresc - acestea pot fi fabricate în carapace de țestoasă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.42",
+        "source_string": "Tridents are dropped by the Drowned, and can be held or thrown.",
+        "translation": "Tridentele sunt scăpate de înecați și pot fi folosite pentru atac corp la corp și de distanță.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "lategameTips.14",
         "source_string": "Test out some new features by turning on Experimental Gameplay in the settings menu!",
         "translation": "Testează câteva caracteristici noi activând Joc experimental din meniul setări!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "lategameTips.15",
+        "source_string": "Monsters that are killed by skeletons arrows have a chance of dropping music discs.",
+        "translation": "Monștrii omorâți de săgețile unui schelet au o șansă de a scăpa discuri muzicale.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -36924,6 +37188,14 @@
         "source_string": "Ends in %s",
         "translation": "Se termină în %s",
         "context": "This is a countdown where %s will return a long format date. A final string may say \"Ends in 34d 12h 54m 22s\" for 34 days, 12 hours, 54 minutes, and 22 seconds.",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.info.body.liveEventFallback",
+        "source_string": "Encountered an issue retrieving Live Event information.",
+        "translation": "A apărut o eroare la preluarea informațiilor referitoare la evenimentul live.",
+        "context": "Informing the user that an error occurred and is preventing the display of Live Event information",
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -42490,7 +42762,7 @@
     {
         "identifier": "hbui.CreateNewWorld.advanced.mobLootDescription",
         "source_string": "Mobs drop items when killed",
-        "translation": "Mută obiecte când sunt omorâte",
+        "translation": "Creaturile scapă obiecte când sunt omorâte",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42778,7 +43050,7 @@
     {
         "identifier": "hbui.CreateNewWorld.advanced.tileDropsDescription",
         "source_string": "Blocks drop when they’re broken",
-        "translation": "Blocurile scad când sunt rupte",
+        "translation": "Blocurile scapă obiecte când sunt sparte",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42786,7 +43058,7 @@
     {
         "identifier": "hbui.CreateNewWorld.advanced.tileDropsTitle",
         "source_string": "Tile drops",
-        "translation": "Picături de ţiglă",
+        "translation": "Blocurile scapă obiecte",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
