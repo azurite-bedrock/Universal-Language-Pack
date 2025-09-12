@@ -5904,6 +5904,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.generic.version.mismatch",
+        "source_string": "The requested version doesn't exist for this command",
+        "translation": "The asked wharve doesn't stand for this hest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.gettopsolidblock.notfound",
         "source_string": "No solid blocks under specified position",
         "translation": "No fast clots under narrowed stow",
@@ -6432,10 +6440,26 @@
         "max_length": null
     },
     {
+        "identifier": "commands.scoreboard.objectives.add.alreadyExists",
+        "source_string": "An objective with the name '%1$s' already exists",
+        "translation": "A goal with the name '%1$s' already stands",
+        "context": "1: Objective Name",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.scoreboard.players.operation.success",
         "source_string": "Updated [%1$s] for %2$d entities",
         "translation": "Anwardened [%1$s] for %2$d ansens",
         "context": "1: Objective Name, 2: Player Count",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.scoreboard.teams.add.alreadyExists",
+        "source_string": "A team with the name '%1$s' already exists",
+        "translation": "A team with the name '%1$s' already stands",
+        "context": "1: Team Name",
         "labels": "unassigned, lang",
         "max_length": null
     },
