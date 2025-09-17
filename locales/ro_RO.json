@@ -15354,7 +15354,7 @@
     {
         "identifier": "createWorldScreen.clearPlayerData.body2",
         "source_string": "Selecting \"Keep Owning Player Data\", will retain your current data (such as inventory items & location) and apply it the 'World Owner'. This is any player that loads the world locally or the owner of a realm it's on. ",
-        "translation": "Selectând \"Păstrează datele jucătorului local\", îți va păstra datele curente (cum ar fi inventarul obiectelor și locația) și aplică-le „Proprietarului Lumii”. Acesta este orice jucător care încarcă lumea local sau proprietarul unui Realm care este pornit. ",
+        "translation": "Selectând „Păstrează datele jucătorului local”, îți va păstra datele curente (cum ar fi inventarul obiectelor și locația) și aplică-le „Proprietarului Lumii”. Acesta este orice jucător care încarcă lumea local sau proprietarul unui Realm care este pornit. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -16130,7 +16130,7 @@
     {
         "identifier": "realmsSharingScreen.cantJoinExpiredTitle",
         "source_string": "%s's Realm is expired",
-        "translation": "Realm-ul lui %seste expirat",
+        "translation": "Realm-ul lui %s este expirat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -21410,7 +21410,7 @@
     {
         "identifier": "disconnectionScreen.outdatedServerRealms.title",
         "source_string": "We can't update your Realm server right now because other players are currently online. You can close and reopen your Realm from the Manage Realm screen to make the other players quit and then join your Realm to update it.",
-        "translation": "Nu îți putem actualiza serverul Realm acum pentru că alți jucători sunt în prezent online. Poți închide și redeschide tărâmul din ecranul Gestionează Realm pentru a face ceilalți jucători sa iasă și apoi să te alături Realm-ului pentru a-l actualiza.",
+        "translation": "Nu îți putem actualiza serverul Realm acum pentru că alți jucători sunt în prezent online. Poți închide și redeschide realm-ul din ecranul Gestionează Realm pentru a face ceilalți jucători sa iasă și apoi să te alături realm-ului pentru a-l actualiza.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31824,6 +31824,22 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.weapons",
+        "source_string": "Weapons",
+        "translation": "Arme",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.header.1",
+        "source_string": "Sword",
+        "translation": "Sabie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.weapons.text.3.notTouch",
         "source_string": "The Bow is the primary ranged weapon in Minecraft. Press and hold :_input_key.use: to draw the bow back. Release :_input_key.use: to fire an arrow. The bow requires arrows to fire. ",
         "translation": "Arcul este arma principală de distanță în Minecraft. Apasă și ține apăsat pe :_input_key.use: pentru a trage arcul înapoi. Eliberează :_input_key.use: pentru a trage o săgeată. Arcul necesită săgeți pentru a trage. ",
@@ -33859,6 +33875,110 @@
         "identifier": "item.banner.diagonal_up_right.yellow",
         "source_string": "Yellow Per Bend Sinister Inverted",
         "translation": "Despărțit galben răsturnat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.black",
+        "source_string": "Black Flow",
+        "translation": "Flux negru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.blue",
+        "source_string": "Blue Flow",
+        "translation": "Flux albastru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.brown",
+        "source_string": "Brown Flow",
+        "translation": "Flux maro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.cyan",
+        "source_string": "Cyan Flow",
+        "translation": "Flux turcoaz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.gray",
+        "source_string": "Gray Flow",
+        "translation": "Flux gri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.green",
+        "source_string": "Green Flow",
+        "translation": "Flux verde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.lightBlue",
+        "source_string": "Light Blue Flow",
+        "translation": "Flux bleu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.lime",
+        "source_string": "Lime Flow",
+        "translation": "Flux verde-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.magenta",
+        "source_string": "Magenta Flow",
+        "translation": "Flux magenta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.orange",
+        "source_string": "Orange Flow",
+        "translation": "Flux portocaliu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.pink",
+        "source_string": "Pink Flow",
+        "translation": "Flux roz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.purple",
+        "source_string": "Purple Flow",
+        "translation": "Flux violet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flow.red",
+        "source_string": "Red Flow",
+        "translation": "Flux roșu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40794,7 +40914,7 @@
     {
         "identifier": "hbui.ChooseRealmRoute.addNewBetaRealm",
         "source_string": "Add Beta Realm",
-        "translation": "Adaugă Beta Tărâm",
+        "translation": "Adaugă Realm de beta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40802,7 +40922,7 @@
     {
         "identifier": "hbui.ChooseRealmRoute.addNewPreviewRealm",
         "source_string": "Add Preview Realm",
-        "translation": "Adaugă Previzualizare Tărâm",
+        "translation": "Adaugă Realm de previzualizare",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40826,7 +40946,7 @@
     {
         "identifier": "hbui.ChooseRealmRoute.chooseABetaRealm",
         "source_string": "1. Choose a Beta Realm",
-        "translation": "1. Alege un tărâm Beta",
+        "translation": "1. Alege un realm de beta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40834,7 +40954,7 @@
     {
         "identifier": "hbui.ChooseRealmRoute.chooseAPreviewRealm",
         "source_string": "1. Choose a Preview Realm",
-        "translation": "1. Alege un tărâm de previzualizare",
+        "translation": "1. Alege un realm de previzualizare",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40866,7 +40986,7 @@
     {
         "identifier": "hbui.ChooseRealmRoute.emptyState.noRealmsErrorTitle.beta",
         "source_string": "Beta Realms couldn't load!",
-        "translation": "Tărâmurile Beta nu s-au încărcat!",
+        "translation": "Realm-urile de beta nu s-au putut încărca!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40874,7 +40994,7 @@
     {
         "identifier": "hbui.ChooseRealmRoute.emptyState.noRealmsErrorTitle.preview",
         "source_string": "Preview Realms couldn't load!",
-        "translation": "Previzualizarea tărâmelor nu a putut fi încărcată!",
+        "translation": "Realm-urile de previzualizarea nu s-au putut încărca!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41074,7 +41194,7 @@
     {
         "identifier": "hbui.ClaimPreviewOrBetaRealmBanner.text.beta",
         "source_string": "You have a free Beta Realm available!",
-        "translation": "Ai un tărâm Beta gratuit disponibil!",
+        "translation": "Ai un realm de beta gratuit disponibil!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41082,7 +41202,7 @@
     {
         "identifier": "hbui.ClaimPreviewOrBetaRealmBanner.text.preview",
         "source_string": "You have a free Preview Realm available!",
-        "translation": "Ai gratuit un tărâm de previzualizare disponibil!",
+        "translation": "Ai un realm de previzualizare gratuit disponibil!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44826,7 +44946,7 @@
     {
         "identifier": "hbui.CreateNewWorld.createOnRealmsError.cannotConnectToRealm.message",
         "source_string": "We can't connect to the Realm right now. Please try again later.",
-        "translation": "Nu ne putem conecta la tărâm acum. Te rugăm să încerci din nou mai târziu.",
+        "translation": "Nu ne putem conecta la realm acum. Te rugăm să încerci din nou mai târziu.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44834,7 +44954,7 @@
     {
         "identifier": "hbui.CreateNewWorld.createOnRealmsError.cannotConnectToRealm.title",
         "source_string": "Unable to connect to Realm",
-        "translation": "Nu s-a putut conecta la tărâm",
+        "translation": "Nu s-a putut conecta la Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44850,7 +44970,7 @@
     {
         "identifier": "hbui.CreateNewWorld.createOnRealmsError.crossPlatformRestricted.message",
         "source_string": "You can't create this world on your Realm, because it uses a resource pack or world template that can't be used in cross-platform multiplayer.",
-        "translation": "Nu poți crea această lume pe tărâmul tău, deoarece folosește un pachet de resurse sau un șablon mondial care nu poate fi folosit în multiplayer-ul multi-platformă.",
+        "translation": "Nu poți crea această lume pe realm-ul tău, deoarece folosește un pachet de resurse sau un șablon de lume care nu poate fi folosit în jocul multiplayer cros-platforme.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44874,7 +44994,7 @@
     {
         "identifier": "hbui.CreateNewWorld.createOnRealmsError.memberOfTooManyRealms.message",
         "source_string": "This Realm has reached this limit for how many people can be connected at the same time.",
-        "translation": "Acest tărâm a atins această limită pentru câți oameni pot fi conectați în același timp.",
+        "translation": "Acest realm a atins limita pentru câți oameni pot fi conectați în același timp.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44882,7 +45002,7 @@
     {
         "identifier": "hbui.CreateNewWorld.createOnRealmsError.memberOfTooManyRealms.title",
         "source_string": "Can't join Realm",
-        "translation": "Nu se poate alătura Tărâmului",
+        "translation": "Nu se poate alătura Realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46082,7 +46202,7 @@
     {
         "identifier": "hbui.CreateNewWorld.multiplayer.playstationPlayerAccessFriendsDescription",
         "source_string": "Anyone you’ve added as a PlayStation™Network friend can join",
-        "translation": "Oricine ai adăugat ca prieten PlayStationTMNetwork se poate alătura",
+        "translation": "Oricine ai adăugat ca prieten PlayStation™Network se poate alătura",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46090,7 +46210,7 @@
     {
         "identifier": "hbui.CreateNewWorld.multiplayer.playstationPlayerAccessFriendsOfFriendsDescription",
         "source_string": "Friends of your PlayStation™Network friends can join",
-        "translation": "Prietenii prietenilor tăi PlayStationTMNetwork se pot alătura",
+        "translation": "Prietenii prietenilor tăi din PlayStation™Network se pot alătura",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46106,7 +46226,7 @@
     {
         "identifier": "hbui.CreateNewWorld.multiplayer.playstationPlayerAccessTitle",
         "source_string": "PlayStation™Network friends",
-        "translation": "PlayStationTMNetwork prieteni",
+        "translation": "Prieteni PlayStation™Network",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47322,7 +47442,7 @@
     {
         "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestCreate.playStation.message",
         "source_string": "You need to be signed in to your account for PlayStation™Network to create a world on Realms.",
-        "translation": "Trebuie să fii conectat la contul tău pentru PlayStationTMNetwork pentru a crea o lume pe tărâmuri.",
+        "translation": "Trebuie să fii conectat la contul tău PlayStation™Network pentru a crea o lume pe Realms.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47338,7 +47458,7 @@
     {
         "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestEdit.playStation.message",
         "source_string": "You need to be signed in to your account for PlayStation™Network to play on Realms.",
-        "translation": "Trebuie să fii conectat la contul tău pentru PlayStationTMNetwork pentru a juca pe tărâmuri.",
+        "translation": "Trebuie să fii conectat la contul tău de PlayStation™Network pentru a juca pe realm-uri.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47490,7 +47610,7 @@
     {
         "identifier": "hbui.CreateNewWorldSideMenu.createOnRealm",
         "source_string": "Create on Realms",
-        "translation": "Crează pe tărâmuri",
+        "translation": "Creează pe Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47850,7 +47970,7 @@
     {
         "identifier": "hbui.EditWorld.clearPlayerDataModal.descriptionTwo",
         "source_string": "Selecting \"Keep owning player data\", will retain your current data (such as inventory items & location) and apply it the 'World Owner'. This is any player that loads the world locally or the owner of a Realm it's on.",
-        "translation": "Selectând \"Continuă să deții datele jucătorului\", îți va păstra datele curente (cum ar fi inventarul obiectelor și locația) și aplică-le 'Proprietarul Mondial'. Acesta este orice jucător care încarcă lumea la nivel local sau proprietarul unui tărâm pe care este pornit.",
+        "translation": "Selectând „Păstrează datele jucătorului local”, îți va păstra datele curente (cum ar fi inventarul obiectelor și locația) și aplică-le „Proprietarului Lumii”. Acesta este orice jucător care încarcă lumea local sau proprietarul unui Realm care este pornit.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47858,7 +47978,7 @@
     {
         "identifier": "hbui.EditWorld.clearPlayerDataModal.keepButton",
         "source_string": "Keep owning player data",
-        "translation": "Păstrează datele jucătorului",
+        "translation": "Păstrează datele jucătorului local",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47922,7 +48042,7 @@
     {
         "identifier": "hbui.EditWorld.errorModals.invalidMultiplayerSkin.text",
         "source_string": "Your current skin is from a content pack that is not allowed in multiplayer. Change your skin to be able to access this Realm.",
-        "translation": "Pielea dumneavoastră curentă este dintr-un pachet de conținut care nu este permis în mai mulți jucători. Schimbați-vă pielea pentru a putea accesa acest tărâm.",
+        "translation": "Costumul dumneavoastră curent este dintr-un pachet de conținut care nu este permis pe multiplayer. Schimbați-vă costumul pentru a putea accesa acest realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48202,7 +48322,7 @@
     {
         "identifier": "hbui.EditWorld.playOnRealmsErrorModal.crossPlatformRestricted.message",
         "source_string": "You can't play this world on your Realm, because it uses a resource pack that can't be used in cross-platform multiplayer.",
-        "translation": "Nu poți juca lumea asta pe tărâmul tău, deoarece folosește un pachet de resurse care nu poate fi folosit în multi-player-ul platformei.",
+        "translation": "Nu poți juca lumea asta pe realm-ul tău, deoarece folosește un pachet de resurse care nu poate fi folosit în multiplayer cros-platforme.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48210,7 +48330,7 @@
     {
         "identifier": "hbui.EditWorld.playOnRealmsErrorModal.crossPlatformRestricted.message2",
         "source_string": "Please remove the resource pack to be able to play on Realms.",
-        "translation": "Vă rugăm să eliminați pachetul de resurse pentru a putea juca pe tărâmuri.",
+        "translation": "Vă rugăm să eliminați pachetul de resurse pentru a putea juca pe Realms.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48234,7 +48354,7 @@
     {
         "identifier": "hbui.EditWorld.playOnRealmsErrorModal.memberOfTooManyRealms.title",
         "source_string": "Can't join Realm",
-        "translation": "Nu se poate alătura Tărâmului",
+        "translation": "Nu se poate alătura Realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48338,7 +48458,7 @@
     {
         "identifier": "hbui.EditWorldSideMenu.playOnRealm",
         "source_string": "Play on Realms",
-        "translation": "Joacă pe tărâmuri",
+        "translation": "Joacă pe Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48530,7 +48650,7 @@
     {
         "identifier": "hbui.FirstTimeSignInRoute.signInList2",
         "source_string": "Connect and play with cross-platform friends or on a Realm",
-        "translation": "Conectează-te și joacă-te cu prietenii de pe mai multe platforme sau pe un tărâm",
+        "translation": "Conectează-te și joacă-te cu prietenii de pe mai multe platforme pe un realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48538,7 +48658,7 @@
     {
         "identifier": "hbui.FirstTimeSignInRoute.signInList2PS",
         "source_string": "Connect and play with cross-platform friends or on your Realm",
-        "translation": "Conectează-te și joacă-te cu prietenii de pe diferite platforme sau pe tărâmul tău",
+        "translation": "Conectează-te și joacă-te cu prietenii de pe diferite platforme pe realm-ul tău",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48850,7 +48970,7 @@
     {
         "identifier": "hbui.FriendList.narration.offline.playstation",
         "source_string": "Offline PlayStation™Network friends",
-        "translation": "Prieteni offline PlayStationTMNetwork",
+        "translation": "Prieteni offline PlayStation™Network",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -48874,7 +48994,7 @@
     {
         "identifier": "hbui.FriendList.narration.online.playstation",
         "source_string": "Online PlayStation™Network Friends",
-        "translation": "Prieteni online PlayStationTMNetwork",
+        "translation": "Prieteni online PlayStation™Network",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -49722,7 +49842,7 @@
     {
         "identifier": "hbui.InboxMessageDetailsRoute.invitationNote0",
         "source_string": "You were invited to join %1$s's Realm.",
-        "translation": "Ai fost invitat să te alături tărâmului %1$s.",
+        "translation": "Ai fost invitat să te alături realm-ului lui %1$s.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -49922,7 +50042,7 @@
     {
         "identifier": "hbui.InboxRoute.emptyInvitesText",
         "source_string": "This is where your invites will show up when someone invites you to a Realm.",
-        "translation": "Aici vor apărea invitațiile dumneavoastră atunci când cineva vă invită la un tărâm.",
+        "translation": "Aici vor apărea invitațiile dumneavoastră atunci când cineva vă invită pe un realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50154,7 +50274,7 @@
     {
         "identifier": "hbui.InboxRoute.join",
         "source_string": "Join the Realm",
-        "translation": "Alătură-te tărâmului",
+        "translation": "Alătură-te realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50162,7 +50282,7 @@
     {
         "identifier": "hbui.InboxRoute.joinRealms",
         "source_string": "Join Realms to Play!",
-        "translation": "Alătură-te tărâmelor pentru a juca!",
+        "translation": "Alătură-te Realms pentru a juca!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50458,7 +50578,7 @@
     {
         "identifier": "hbui.JoinRealmsServer.inputDescription",
         "source_string": "Enter the invite link you received to join a Realm.",
-        "translation": "Introdu link-ul de invitație pe care l-ai primit pentru a te alătura unui tărâm.",
+        "translation": "Introdu link-ul de invitație pe care l-ai primit pentru a te alătura unui realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50474,7 +50594,7 @@
     {
         "identifier": "hbui.JoinRealmsServer.inputPlaceholder",
         "source_string": "Example: realms.gg/lCb-aaSCYBk",
-        "translation": "Exemplu: tărâms.gg/lCb-aaSCYBk",
+        "translation": "Exemplu: realms.gg/lCb-aaSCYBk",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50506,7 +50626,7 @@
     {
         "identifier": "hbui.JoinRealmsServer.title",
         "source_string": "Join a Realm",
-        "translation": "Alătură-te unui tărâm",
+        "translation": "Alătură-te unui Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50522,7 +50642,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.alreadyMember",
         "source_string": "You are already a member of this Realm.",
-        "translation": "Ești deja membru al acestui tărâm.",
+        "translation": "Ești deja membru al acestui realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50530,7 +50650,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.anonymousAccount",
         "source_string": "You're currently playing with a guest account. Please sign in to add a Realm.",
-        "translation": "Momentan, te joci cu un cont de oaspete. Te rugam sa te autentifici pentru a adauga un tărâm.",
+        "translation": "Momentan, te joci cu un cont de oaspete. Te rugăm să te autentifici pentru a adăuga un realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50546,7 +50666,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.blockedInvite",
         "source_string": "You have been blocked by the owner of this Realm.",
-        "translation": "Ai fost blocat de proprietarul acestui tărâm.",
+        "translation": "Ai fost blocat de proprietarul acestui realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50562,7 +50682,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.cannotConnectToRealm.title",
         "source_string": "Can't connect to Realm",
-        "translation": "Nu se poate conecta la tărâm",
+        "translation": "Nu s-a putut conecta la Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50578,7 +50698,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.invalidMultiplayerSkin.body",
         "source_string": "Your current skin is from a content pack that is not allowed in multiplayer. Change your skin to be able to access this Realm.",
-        "translation": "Pielea dumneavoastră curentă este dintr-un pachet de conținut care nu este permis în mai mulți jucători. Schimbați-vă pielea pentru a putea accesa acest tărâm.",
+        "translation": "Costumul dumneavoastră curent este dintr-un pachet de conținut care nu este permis pe multiplayer. Schimbați-vă costumul pentru a putea accesa acest realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50618,7 +50738,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.memberOfTooManyRealms",
         "source_string": "You have reached the limit of Realms you can join.",
-        "translation": "Ai atins limita de tărâmuri la care te poți alătura.",
+        "translation": "Ai atins limita de realm-uri la care te poți alătura.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50634,7 +50754,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.memberOfTooManyRealms.title",
         "source_string": "Can't join Realm",
-        "translation": "Nu se poate alătura Tărâmului",
+        "translation": "Nu se poate alătura Realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50674,7 +50794,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.realmClosed",
         "source_string": "The Realm you tried to join is closed.",
-        "translation": "Tărâmul în care ai încercat să te alături este închis.",
+        "translation": "Realm-ul în care ai încercat să te alături este închis.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50682,7 +50802,7 @@
     {
         "identifier": "hbui.JoinRealmsServerError.realmExpired",
         "source_string": "The Realm you tried to join has expired.",
-        "translation": "Tărâmul în care ai încercat să te alături a expirat.",
+        "translation": "Realm-ul în care ai încercat să te alături a expirat.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50810,7 +50930,7 @@
     {
         "identifier": "hbui.JoinRealmsServerTransient.caption",
         "source_string": "You can leave their Realm at any time. Join button below.",
-        "translation": "Poți lăsa tărâmul lor în orice moment. Alătură-te butonului de mai jos.",
+        "translation": "Poți ieși din realm-ul lor în orice moment. Butonul „Alătură-te” este mai jos.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50826,7 +50946,7 @@
     {
         "identifier": "hbui.JoinRealmsServerTransient.genericTitle",
         "source_string": "Join A Realm",
-        "translation": "Alătură-te unui tărâm",
+        "translation": "Alătură-te unui Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50842,7 +50962,7 @@
     {
         "identifier": "hbui.JoinRealmsServerTransient.joinRealmModal",
         "source_string": "Joining Realm",
-        "translation": "Aderare la tărâm",
+        "translation": "Se intră în Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50850,7 +50970,7 @@
     {
         "identifier": "hbui.JoinRealmsServerTransient.ownerInformation",
         "source_string": "You're about to join %1$s's Realm",
-        "translation": "Ești pe cale să intri în tărâmul %1$s",
+        "translation": "Ești pe cale să intri în realm-ul lui %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -54658,7 +54778,7 @@
     {
         "identifier": "hbui.PlayScreen.genericError.realmDetails.title",
         "source_string": "Realm couldn't load",
-        "translation": "Tărâmul nu a putut fi încărcat",
+        "translation": "Realm-ul nu a putut fi încărcat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -54674,7 +54794,7 @@
     {
         "identifier": "hbui.PlayScreen.genericError.realms.title",
         "source_string": "Realms couldn't load",
-        "translation": "Tărâmurile nu au putut fi încărcate",
+        "translation": "Realms nu s-a putut încărca",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -54738,7 +54858,7 @@
     {
         "identifier": "hbui.PlayScreen.GuestAccountMessage.playstation.button",
         "source_string": "Log in to PlayStation™Network",
-        "translation": "Conectați-vă la PlayStationTMNetwork",
+        "translation": "Conectați-vă la PlayStation™Network",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -54746,7 +54866,7 @@
     {
         "identifier": "hbui.PlayScreen.GuestAccountMessage.playstation.text",
         "source_string": "Log in to the PlayStation™Network to see what's here.",
-        "translation": "Loghează-te la PlayStationTMNetwork pentru a vedea ce este aici.",
+        "translation": "Conectează-te la PlayStation™Network pentru a vedea ce este aici.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -54770,7 +54890,7 @@
     {
         "identifier": "hbui.PlayScreen.guestAccountMessage.realmsNoPlatformAccountPlaystation",
         "source_string": "You need a PlayStation™Network account to play on Realms",
-        "translation": "Ai nevoie de un cont PlayStationTMNetwork pentru a juca pe tărâmuri",
+        "translation": "Ai nevoie de un cont PlayStation™Network pentru a juca pe realm-uri",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -54810,7 +54930,7 @@
     {
         "identifier": "hbui.PlayScreen.guestAccountMessage.serversNoPlatformAccountPlaystation",
         "source_string": "You need a PlayStation™Network account to play on servers",
-        "translation": "Ai nevoie de un cont PlayStationTMNetwork pentru a juca pe servere",
+        "translation": "Ai nevoie de un cont PlayStation™Network pentru a juca pe servere",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55154,7 +55274,7 @@
     {
         "identifier": "hbui.PlayScreen.noPremiumSubscriptionMessage.realmsXbox",
         "source_string": "You need a premium subscription to play on Realms",
-        "translation": "Ai nevoie de un abonament premium pentru a juca pe tărâmuri",
+        "translation": "Ai nevoie de un abonament premium pentru a juca pe Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55338,7 +55458,7 @@
     {
         "identifier": "hbui.PlayScreen.PlatformMultiplayerDisabledMessage.textForPlayStation",
         "source_string": "Communication features are disabled in your PlayStation™Network account. Access communication features by enabling it in your PlayStation™Network account.",
-        "translation": "Caracteristicile de comunicare sunt dezactivate în contul tău PlayStationTMNety. Accesează funcțiile de comunicare prin activarea acesteia în contul tău PlayStationTMNetwork.",
+        "translation": "Caracteristicile de comunicare sunt dezactivate în contul tău PlayStation™Network. Accesează funcțiile de comunicare prin activarea acesteia în contul tău PlayStation™Network.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55498,7 +55618,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.buttonHeader.joinRealm",
         "source_string": "Join a Realm",
-        "translation": "Alătură-te unui tărâm",
+        "translation": "Alătură-te unui Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55538,7 +55658,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.joinRealmOptionsModalMenu.joinRealm",
         "source_string": "Join an existing Realm",
-        "translation": "Alătură-te unui tărâm existent",
+        "translation": "Alătură-te unui Realm existent",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55594,7 +55714,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.leaveRealmProgressMessage",
         "source_string": "Leaving Realm",
-        "translation": "Părăsește tărâmul",
+        "translation": "Se iese din Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55666,7 +55786,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.playersOnline.realmOwner",
         "source_string": "%1$s's Realm",
-        "translation": "Tărâmul %1$s",
+        "translation": "Realm-ul lui %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55690,7 +55810,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.realmsLeaveRealmErrorModal.description",
         "source_string": "Could not leave the Realm. Please try again later.",
-        "translation": "Nu s-a putut părăsi tărâmul. Te rugăm să încerci din nou mai târziu.",
+        "translation": "Nu s-a putut părăsi realm-ul. Te rugăm să încerci din nou mai târziu.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55714,7 +55834,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.realmsLeaveRealmModal.description",
         "source_string": "You are about to leave \"%1$s\". To re-join, use the invite code of the Realm or ask the owner to send you a new invite.",
-        "translation": "Urmează să părăsiți \"%1$s\". Pentru a te alătura, folosește codul de invitație al tărâmului sau cere proprietarului să îți trimită o nouă invitație.",
+        "translation": "Urmează să părăsiți „%1$s”. Pentru a te alătura, folosește codul de invitație al realm-ului sau cere proprietarului să îți trimită o nouă invitație.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55730,7 +55850,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.realmsLeaveRealmModal.title",
         "source_string": "Leave the Realm",
-        "translation": "Părăsește tărâmul",
+        "translation": "Părăsește realm-ul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55762,7 +55882,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.realmsTabErrorStates.realmsPreprodError.text",
         "source_string": "You do not have access to Realms in pre-production. To get access, see the guide at aka.ms/Realms-preprod-access",
-        "translation": "Nu ai acces la tărâmuri în pre-producție. Pentru a obține acces, consultă ghidul la aka.ms/Realms-preprod-access",
+        "translation": "Nu ai acces la Realms în pre-producție. Pentru a obține acces, consultă ghidul la aka.ms/Realms-preprod-access",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55770,7 +55890,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.realmsTabErrorStates.realmsPreprodError.title",
         "source_string": "You do not have access to Realms",
-        "translation": "Nu ai acces la tărâmuri",
+        "translation": "Nu ai acces la Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55786,7 +55906,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.realmsTabErrorStates.realmsRateLimitError.title",
         "source_string": "Unable to connect to Realms",
-        "translation": "Incapabil să se conecteze la tărâmuri",
+        "translation": "Nu s-a putut conecta la Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55882,7 +56002,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.sideMenu.addOrJoinRealm",
         "source_string": "Add/join Realm",
-        "translation": "Adaugă/alătură Tărâmului",
+        "translation": "Adaugă/intră pe Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55898,7 +56018,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.sideMenu.contextOwnedRealms",
         "source_string": "Add/join Realm",
-        "translation": "Adaugă/alătură Tărâmului",
+        "translation": "Adaugă/intră pe Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55946,7 +56066,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.sideMenu.joinedRealms",
         "source_string": "Joined Realms (%1$s)",
-        "translation": "S-a alăturat tărâmurilor (%1$s)",
+        "translation": "S-a alăturat Realms (%1$s)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55962,7 +56082,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.sideMenu.narration.addOrJoinRealm",
         "source_string": "Add/join Realm",
-        "translation": "Adaugă/alătură Tărâmului",
+        "translation": "Adaugă/intră pe Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -55978,7 +56098,7 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.sideMenu.narration.context",
         "source_string": "List of Realms",
-        "translation": "Lista tărâmurilor",
+        "translation": "Lista realm-urilor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57234,7 +57354,7 @@
     {
         "identifier": "hbui.PostToRealmStoriesRoute.noRealmsFound.button",
         "source_string": "Learn more about Realms",
-        "translation": "Află mai multe despre tărâmuri",
+        "translation": "Află mai multe despre Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57242,7 +57362,7 @@
     {
         "identifier": "hbui.PostToRealmStoriesRoute.noRealmsFound.title",
         "source_string": "No Realms found",
-        "translation": "Nici un tărâm găsit",
+        "translation": "Nici un realm găsit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57266,7 +57386,7 @@
     {
         "identifier": "hbui.PostToRealmStoriesRoute.realmsCantLoad.title",
         "source_string": "Realms can't load!",
-        "translation": "Tărâmul nu se încarcă!",
+        "translation": "Realms nu se poate încărca!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57402,7 +57522,7 @@
     {
         "identifier": "hbui.PrivacyAndOnlineSafetySuccessModal.content",
         "source_string": "All your permissions have been successfully enabled! Now you can have access to both Realms and Realms Stories.",
-        "translation": "Toate permisiunile tale au fost activate cu succes! Acum poți avea acces atât la povestirile tărâme, cât și la cele reale.",
+        "translation": "Toate permisiunile tale au fost activate cu succes! Acum poți avea acces atât la Realms stories, cât și la Realms.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57922,7 +58042,7 @@
     {
         "identifier": "hbui.PurchaseRealmOnRetailBanner.text",
         "source_string": "Realms subscriptions can be purchased in the full version of Minecraft.",
-        "translation": "Abonamentele tărâmelor pot fi achiziționate în versiunea completă a Minecraft.",
+        "translation": "Abonamentele Realms pot fi achiziționate în versiunea completă a Minecraft.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57938,7 +58058,7 @@
     {
         "identifier": "hbui.RealmListItem.joinedRealm",
         "source_string": "Joined Realm",
-        "translation": "S-a alăturat Tărâmului",
+        "translation": "S-a alăturat Realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57978,7 +58098,7 @@
     {
         "identifier": "hbui.RealmListItem.yourRealm",
         "source_string": "Your Realm",
-        "translation": "Tărâmul tău",
+        "translation": "Realm-ul tău",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -57994,7 +58114,7 @@
     {
         "identifier": "hbui.Realms.ErrorModals.CannotContactRealms.title",
         "source_string": "Can't contact Realms",
-        "translation": "Nu se pot contacta tărâmuri",
+        "translation": "Nu s-a putut contacta Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58034,7 +58154,7 @@
     {
         "identifier": "hbui.Realms.ErrorModals.rateLimitError.message",
         "source_string": "Try again in a few minutes. Realms is trying to catch up.",
-        "translation": "Încearcă din nou în câteva minute. Tărâmul încearcă să prindă din urmă.",
+        "translation": "Încearcă din nou în câteva minute. Realms încearcă să recupereze.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58058,7 +58178,7 @@
     {
         "identifier": "hbui.Realms.ErrorModals.somethingWentWrong.message",
         "source_string": "Couldn't contact Realms. Please try again.",
-        "translation": "Nu s-au putut contacta tărâmele. Te rugăm să încerci din nou.",
+        "translation": "Nu s-au putut contacta Realms. Te rugăm să încerci din nou.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58578,7 +58698,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.Cost.title",
         "source_string": "How much does a Realm cost?",
-        "translation": "Cât costă un tărâm?",
+        "translation": "Cât costă un realm?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58586,7 +58706,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.Expiry.description",
         "source_string": "Your worlds are yours to keep. You have 18 months to download them to your device after your subscription expires. If you resubscribe within that time, you will regain access to your Realm just as you left it.",
-        "translation": "Lumile tale sunt pe care trebuie să le păstrezi. Ai la dispoziție 18 luni pentru a le descărca pe dispozitiv după ce abonamentul tău expiră. Dacă te reabonezi în acel moment, vei recâștiga accesul la tărâmul tău exact cum l-ai părăsit.",
+        "translation": "Lumile tale le vei păstra. Ai la dispoziție 18 luni pentru a le descărca pe dispozitiv după ce abonamentul tău expiră. Dacă te reabonezi în acel moment, vei recâștiga accesul la realm-ul tău exact cum l-ai părăsit.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58594,7 +58714,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.Expiry.title",
         "source_string": "What happens to the worlds on my Realm when my subscription expires?",
-        "translation": "Ce se întâmplă cu lumile de pe tărâmul meu când abonamentul meu expiră?",
+        "translation": "Ce se întâmplă cu lumile de pe realm-ul meu când abonamentul meu expiră?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58602,7 +58722,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.Friends.description",
         "source_string": "The people you invite (members) don’t need to purchase a Realms subscription to play on your Realm. You can invite any Minecraft player to join and play in your Realm for free.",
-        "translation": "Persoanele pe care le inviți (membri) nu trebuie să cumpere un abonament Realms pentru a juca pe tărâmul tău. Poți invita orice Minecraft să se alăture și să joace gratis în tărâmul tău.",
+        "translation": "Persoanele pe care le inviți (membri) nu trebuie să cumpere un abonament Realms pentru a juca pe realm-ul tău. Poți invita orice Minecraft să se alăture și să joace gratis în realm-ul tău.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58610,7 +58730,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.Friends.title",
         "source_string": "Do my friends need to purchase a Realms subscription to play on my Realm?",
-        "translation": "Prietenii mei au nevoie să cumpere un abonament pentru a juca pe tărâmul meu?",
+        "translation": "Au nevoie prietenii mei de un abonament Realms pentru a juca pe realm-ul meu?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58626,7 +58746,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.HowMany.description",
         "source_string": "You can store up to 3 worlds on your Realm at one time. Activate any one of them to make that world playable. Only one world is playable at a time.",
-        "translation": "Poți stoca până la 3 lumi pe tărâmul tău o dată. Activează oricare dintre ele pentru a face lumea să se joace. Doar o singură lume poate fi jucată odată.",
+        "translation": "Poți stoca până la 3 lumi pe realm-ul tău o dată. Activează oricare dintre ele pentru a o juca. Doar o singură lume poate fi jucată odată.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58634,7 +58754,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.HowMany.title",
         "source_string": "How many worlds can I have on my Realm?",
-        "translation": "Câte lumi pot avea pe tărâmul meu?",
+        "translation": "Câte lumi pot avea pe realm-ul meu?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58658,7 +58778,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.FAQ.Realms.description",
         "source_string": "Realms are small personal servers to host your Minecraft world. Unlike a regular multiplayer session, Realms are always online, so you don’t have to be there for your friends to play. Unlike a large public Minecraft server, Realms are by invite only, so you control who gets in.",
-        "translation": "Realms sunt mici servere personale pentru a găzdui lumea ta de Minecraft. Spre deosebire de o sesiune cu mai mulți jucători, Realms sunt întotdeauna online, așa că nu trebuie să fii acolo pentru ca prietenii tăi să poată juca. Spre deosebire de un server public mare de Minecraft, tărâmurile sunt doar prin invitație, deci controlezi cine intră.",
+        "translation": "Realms sunt mici servere personale pentru a găzdui lumea ta de Minecraft. Spre deosebire de o sesiune normală de multiplayer, Realms sunt întotdeauna online, așa că nu trebuie să fii acolo pentru ca prietenii tăi să poată juca. Spre deosebire de un server public mare de Minecraft, Realms sunt doar prin invitație, deci controlezi cine intră.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58738,7 +58858,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.hero.perks.header",
         "source_string": "Additional perks included with Realms",
-        "translation": "Avantaje suplimentare incluse cu tărâmuri",
+        "translation": "Avantaje suplimentare incluse cu Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58746,7 +58866,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.hero.perks.text",
         "source_string": "Share your adventures on the Story Feed, watch your Realm grow with the Members tab, know when people have been playing on the Realm with the Timeline.",
-        "translation": "Împărtășește-ți aventurile în Fluxul de povestiri, urmărește-ți tărâmul să crească cu tab-ul Membri, ştie când oamenii s-au jucat pe tărâm cu Cronometrul.",
+        "translation": "Împărtășește-ți aventurile în Fluxul de povestiri, urmărește-ți creșterea realm-ului cu fila Membri, află când oamenii s-au jucat pe realm cu Cronologia.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58754,7 +58874,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.hero.perks.title",
         "source_string": "Get Social with Realms Stories",
-        "translation": "Obține socializare cu povestiri tărâmuri",
+        "translation": "Fii social cu Realms Stories",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58778,7 +58898,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.promos.free.description",
         "source_string": "People you invite become Realm members. They don’t need to pay to join and play on the Realm; they just need a copy of Minecraft: Bedrock Edition.",
-        "translation": "Persoanele pe care le invitați devin membri ai tărâmului. Nu trebuie să plătească să se alăture și să joace pe tărâm; au nevoie doar de o copie a Minecraft: Bedrock Edition.",
+        "translation": "Persoanele pe care le invitați devin membri ai realm-ului. Nu trebuie să plătească să se alăture și să joace pe realm; au nevoie doar de o copie a Minecraft: Ediția Bedrock.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58802,7 +58922,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.promos.persistent.description",
         "source_string": "Worlds uploaded to your Realm are always available to you and your invited Realm members – at any time, on any device. Members can play even when you’re away.",
-        "translation": "Lumile încărcate în tărâmul tău sunt întotdeauna disponibile pentru tine și pentru membrii invitați ai tăi Realm – în orice moment, pe orice dispozitiv. Membrii pot juca chiar și atunci când te afli.",
+        "translation": "Lumile încărcate pe realm-ul tău sunt întotdeauna disponibile pentru tine și pentru membrii invitați pe Realm-ul tău – în orice moment, pe orice dispozitiv. Membrii pot juca chiar și atunci când nu ești activ.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58858,7 +58978,7 @@
     {
         "identifier": "hbui.RealmsPDPScreen.title",
         "source_string": "Minecraft Realms",
-        "translation": "Tărâmuri Minecraft",
+        "translation": "Minecraft Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58890,7 +59010,7 @@
     {
         "identifier": "hbui.RealmsPlanPickerScreen.buyButtonCoreNarrationHint",
         "source_string": "Navigate below to learn more about Realms Core",
-        "translation": "Navigați mai jos pentru a afla mai multe despre Nucleul Tărâmului",
+        "translation": "Navigați mai jos pentru a afla mai multe despre Realms Core",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58938,7 +59058,7 @@
     {
         "identifier": "hbui.RealmsPlanPickerScreen.emptyStates.maxedOutSubscriptions.title",
         "source_string": "Realms subscriptions maxed out on this platform",
-        "translation": "Abonamentele Tărâmelor au fost maxime pe această platformă",
+        "translation": "Abonamentele Realms au depășit maximul pe această platformă",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -58954,7 +59074,7 @@
     {
         "identifier": "hbui.RealmsPlanPickerScreen.emptyStates.serviceFailure.title",
         "source_string": "Realms offerings couldn't load",
-        "translation": "Ofertele tărâmelor nu au putut fi încărcate",
+        "translation": "Ofertele Realms nu au putut fi încărcate",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59106,7 +59226,7 @@
     {
         "identifier": "hbui.RealmsPlanPickerScreen.featureNarrationCore",
         "source_string": "Realms core package details. Text block",
-        "translation": "Detaliile pachetului de bază pentru tărâmuri. Bloc text",
+        "translation": "Detaliile pachetului de bază de Realms. Bloc text",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59178,7 +59298,7 @@
     {
         "identifier": "hbui.RealmsPreviews.create.cancel.beta",
         "source_string": "No, don't create Beta Realm",
-        "translation": "Nu, nu crea tărâmul Beta",
+        "translation": "Nu, nu crea realm-ul de beta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59186,7 +59306,7 @@
     {
         "identifier": "hbui.RealmsPreviews.create.cancel.preview",
         "source_string": "No, don't create Preview Realm",
-        "translation": "Nu, nu creați previzualizare tărâm",
+        "translation": "Nu, nu crea realm-ul de previzualizare",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59194,7 +59314,7 @@
     {
         "identifier": "hbui.RealmsPreviews.create.message.beta",
         "source_string": "You are about to create a free Beta Realm that will be paired with your paid Realms subscription. This new Beta Realm will be accessible for as long as the paid subscription is active. Your paid Realm will not be affected.",
-        "translation": "Sunteți pe cale să creați un tărâm Beta gratuit, care va fi împerecheat cu abonamentul dvs. plătit pentru Realme. Acest nou Beta Realm va fi accesibil atât timp cât abonamentul plătit este activ. Realmul plătit nu va fi afectat.",
+        "translation": "Sunteți pe cale să creați un realm de beta gratuit, care va fi împerecheat cu abonamentul dvs. plătit de Realms. Acest nou Realm de beta va fi accesibil atât timp cât abonamentul plătit este activ. Realm-ul plătit nu va fi afectat.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59202,7 +59322,7 @@
     {
         "identifier": "hbui.RealmsPreviews.create.message.preview",
         "source_string": "You are about to create a free Preview Realm that will be paired with your paid Realms subscription. This new Preview Realm will be accessible for as long as the paid subscription is active. Your paid Realm will not be affected.",
-        "translation": "Sunteți pe cale să creați un tărâm de previzualizare gratuit, care va fi asociat cu abonamentul dvs. plătit pentru Realme. Acest nou Realm Preview va fi accesibil atât timp cât abonamentul plătit este activ. Realmul plătit nu va fi afectat.",
+        "translation": "Sunteți pe cale să creați un realm de previzualizare gratuit, care va fi împerecheat cu abonamentul dvs. plătit de Realms. Acest nou Realm de previzualizare va fi accesibil atât timp cât abonamentul plătit este activ. Realm-ul plătit nu va fi afectat.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59218,7 +59338,7 @@
     {
         "identifier": "hbui.RealmsPreviews.create.titleAndButtonLabel.beta",
         "source_string": "Create Beta Realm",
-        "translation": "Creează un tărâm Beta",
+        "translation": "Creează un realm de beta",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59226,7 +59346,7 @@
     {
         "identifier": "hbui.RealmsPreviews.create.titleAndButtonLabel.preview",
         "source_string": "Create Preview Realm",
-        "translation": "Creează un tărâm de previzualizare",
+        "translation": "Creează un realm de previzualizare",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59282,7 +59402,7 @@
     {
         "identifier": "hbui.RealmsPreviews.SubscriptionNeeded.message.beta",
         "source_string": "You need a paid Realms subscription to create a Beta Realm. Please go to the full version of Minecraft to purchase a subscription or start a free trial.",
-        "translation": "Ai nevoie de un abonament plătit pentru a crea un tărâm Beta. Vă rugăm mergeți la versiunea completă a Minecraft pentru a cumpăra un abonament sau începeți o probă gratuită.",
+        "translation": "Ai nevoie de un abonament plătit pentru a crea un realm de beta. Vă rugăm mergeți la versiunea completă a Minecraft pentru a cumpăra un abonament sau începeți o probă gratuită.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59290,7 +59410,7 @@
     {
         "identifier": "hbui.RealmsPreviews.SubscriptionNeeded.message.preview",
         "source_string": "You need a paid Realms subscription to create a Preview Realm. Please go to the full version of Minecraft to purchase a subscription or start a free trial.",
-        "translation": "Ai nevoie de un abonament plătit pentru a crea un tărâm de previzualizare. Vă rugăm mergeți la versiunea completă a Minecraft pentru a cumpăra un abonament sau începeți o probă gratuită.",
+        "translation": "Ai nevoie de un abonament plătit pentru a crea un realm de previzualizare. Vă rugăm mergeți la versiunea completă a Minecraft pentru a cumpăra un abonament sau începeți o probă gratuită.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59306,7 +59426,7 @@
     {
         "identifier": "hbui.RealmsPreviews.SubscriptionNeeded.title",
         "source_string": "Realms subscription needed",
-        "translation": "Abonament necesar pentru tărâmuri",
+        "translation": "Abonament necesar pentru Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59386,7 +59506,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.checkboxUncheckedHint",
         "source_string": "Accept terms and conditions in order to create a Realm",
-        "translation": "Acceptați termenii și condițiile pentru a crea un tărâm",
+        "translation": "Acceptați termenii și condițiile de mai sus pentru a crea un realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59458,7 +59578,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.fulfillmentFailed.body",
         "source_string": "Your purchase succeeded, but we couldn’t create your Realm right now. We will create your Realm as soon as possible. Check back later on this device. If this problem happens for more than a day, please contact Mojang Support.",
-        "translation": "Achiziția ta a reușit, dar nu am putut crea tărâmul tău acum. Vom crea tărâmul tău cât mai curând posibil. Verificaţi mai târziu pe acest dispozitiv. Dacă această problemă se întâmplă mai mult de o zi, vă rugăm să contactaţi serviciul de suport Mojang.",
+        "translation": "Achiziția ta a reușit, dar nu am putut crea Realm-ul tău acum. Vom crea Realm-ul tău cât mai curând posibil. Verificați mai târziu pe acest dispozitiv. Dacă această problemă persistă pentru mai mult de o zi, vă rugăm să contactați serviciul de suport Mojang.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59506,7 +59626,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.invalidRealmName.body",
         "source_string": "The Realm name you entered is invalid. Please make sure this field is filled and does not contain any special characters.",
-        "translation": "Numele de tărâm introdus nu este valid. Te rugăm să te asiguri că acest câmp este completat și nu conține caractere speciale.",
+        "translation": "Numele de realm introdus nu este valid. Te rugăm să te asiguri că acest câmp este completat și nu conține caractere speciale.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59514,7 +59634,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.invalidRealmName.title",
         "source_string": "Invalid Realm name",
-        "translation": "Nume de tărâm invalid",
+        "translation": "Nume de Realm invalid",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59522,7 +59642,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.memberOfTooManyRealms.body",
         "source_string": "You are a member of too many Realms. You will not be able to purchase a new Realms subscription until you leave some of the Realms you have joined.",
-        "translation": "Ești membru al prea multor tărâmuri. Nu vei putea cumpăra un abonament nou tărâm până nu vei lăsa unele dintre tărâmurile la care te-ai alăturat.",
+        "translation": "Ești membru al prea multor realm-uri. Nu vei putea cumpăra un abonament nou de Realms până nu vei lăsa unele dintre realm-urile la care te-ai alăturat.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59546,7 +59666,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.noAccess.body",
         "source_string": "You do not have access to Realms in pre-production. To get access, reach out in",
-        "translation": "Nu ai acces la tărâmuri în pre-producție. Pentru a avea acces, contactează",
+        "translation": "Nu ai acces la Realms în pre-producție. Pentru a obține acces, consultă la",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59730,7 +59850,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.inputLabel",
         "source_string": "Realm name",
-        "translation": "Nume tărâm",
+        "translation": "Nume Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59738,7 +59858,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.inputLabel.hint",
         "source_string": "You can rename your Realm after Realm creation",
-        "translation": "Poti redenumi tărâmul dupa crearea tărâmului",
+        "translation": "Poți redenumi realm-ul după creare",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59754,7 +59874,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.inputPlaceholder",
         "source_string": "%1$s's Realm",
-        "translation": "Tărâmul %1$s",
+        "translation": "Realm-ul lui %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59818,7 +59938,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.purchaseButton.disabled.hint",
         "source_string": "You need to accept terms and condition above in order to create a Realm",
-        "translation": "Trebuie să acceptați termenii și condițiile de mai sus pentru a crea un tărâm",
+        "translation": "Trebuie să acceptați termenii și condițiile de mai sus pentru a crea un realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59826,7 +59946,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.PurchaseCompleteModal.body1",
         "source_string": "You can invite friends to your Realm now, or you can invite them later.",
-        "translation": "Poți invita prieteni în tărâmul tău acum, sau îi poți invita mai târziu.",
+        "translation": "Poți invita prieteni în realm-ul tău acum, sau îi poți invita mai târziu.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59834,7 +59954,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.PurchaseCompleteModal.body2",
         "source_string": "Manage your Realm and invite more players in Realm settings, accessed from the Options button on the Realms tab.",
-        "translation": "Gestionează-ți tărâmul și invită mai mulți jucători în setările tale, accesați din butonul Opțiuni din tab-ul Realms.",
+        "translation": "Gestionează-ți realm-ul și invită mai mulți jucători din setările tale, accesate folosind butonul Opțiuni din fila Realms.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59866,7 +59986,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.create",
         "source_string": "You are attempting to renew a Realm but a prior purchase was found for creating a Realm. Would you like to apply that purchase now?",
-        "translation": "Încercați să reînnoiți un tărâm, dar o achiziție anterioară a fost găsită pentru a crea un Realm. Doriți să aplicați această achiziție acum?",
+        "translation": "Încercați să reînnoiți un realm, dar o achiziție anterioară a fost găsită pentru a crea un Realm. Doriți să aplicați această achiziție acum?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59874,7 +59994,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.informativeOnCreate",
         "source_string": "It looks like we didn’t finish things last time. Let’s complete creating your Realm now.",
-        "translation": "Se pare că nu am terminat lucrurile ultima dată. Hai să finalizăm crearea tărâmului tău acum.",
+        "translation": "Se pare că nu am terminat lucrurile ultima dată. Hai să finalizăm crearea realm-ului acum.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59882,7 +60002,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.informativeOnRenew",
         "source_string": "It looks like we didn't finish things last time. Let's complete renewing your Realm now.",
-        "translation": "Se pare că nu am terminat lucrurile ultima dată. Hai să finalizăm reînnoirea tărâmului acum.",
+        "translation": "Se pare că nu am terminat lucrurile ultima dată. Hai să finalizăm reînnoirea realm-ului acum.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59890,7 +60010,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.mismatchId",
         "source_string": "You are attempting to renew a Realm but a prior purchase was found for a different Realm. Would you like to apply that purchase now?",
-        "translation": "Încercați să reînnoiți un tărâm, dar o achiziție anterioară a fost găsită pentru un alt Realm. Doriți să aplicați această achiziție acum?",
+        "translation": "Încercați să reînnoiești un nou realm, dar o achiziție anterioară a fost găsită pentru un alt realm. Doriți să aplicați această achiziție acum?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59898,7 +60018,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.mismatchXuidOnCreate",
         "source_string": "It looks like you started creating a Realm with a different Microsoft account. Do you want to complete creating that Realm with this Microsoft account as the owner?",
-        "translation": "Se pare că ai început să creezi un Realm cu un alt cont Microsoft. Vrei să completezi crearea acelui tărâm cu acest cont Microsoft ca proprietar?",
+        "translation": "Se pare că ai început să creezi un realm cu un alt cont Microsoft. Vrei să completezi crearea acelui realm cu acest cont Microsoft ca proprietar?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59906,7 +60026,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.mismatchXuidOnRenew",
         "source_string": "It looks like you started renewing a Realm with a different Microsoft account. Do you want to complete renewing that Realm with this Microsoft account as the owner?",
-        "translation": "Se pare ca ai inceput sa innoiesti un tărâm cu un alt cont Microsoft. Doriți să finalizați reînnoirea acelui tărâm cu acest cont Microsoft ca proprietar?",
+        "translation": "Se pare că ai început să reînnoiești un realm cu un alt cont Microsoft. Vrei să completezi reînnoirea acelui realm cu acest cont Microsoft ca proprietar?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59922,7 +60042,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.noPayloadOnRenew",
         "source_string": "Someone started renewing a Realm with the billing account on this device. Would you like to complete renewing that Realm with this Microsoft account as the owner?",
-        "translation": "Cineva a început să reînnoiască un tărâm cu contul de facturare de pe acest dispozitiv. Doriți să finalizați reînnoirea acelui Realm cu acest cont Microsoft ca proprietar?",
+        "translation": "Cineva a început să reînnoiască un Realm cu contul de facturare de pe acest dispozitiv. Doriți să completați reînnoirea acelui Realm cu acest cont Microsoft ca proprietar?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -59930,7 +60050,7 @@
     {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ReconciliationModals.Body.renew",
         "source_string": "You are attempting to create a new Realm but a prior purchase was found for renewing a Realm. Would you like to apply that purchase now?",
-        "translation": "Încercați să creați un nou tărâm, dar o achiziție anterioară a fost găsită pentru reînnoirea unui tărâm. Doriți să aplicați această achiziție acum?",
+        "translation": "Încercați să creați un nou realm, dar o achiziție anterioară a fost găsită pentru reînnoirea unui realm. Doriți să aplicați această achiziție acum?",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60218,7 +60338,7 @@
     {
         "identifier": "hbui.RealmsStories.errorModal.storyPostFailedMessage",
         "source_string": "Your story failed to post to this Realm's feed.",
-        "translation": "Povestirea ta a eșuat în feed-ul acestui tărâm.",
+        "translation": "Povestirea ta nu a putut fi postată în fluxul acestui realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60250,7 +60370,7 @@
     {
         "identifier": "hbui.RealmsStories.feed.emptyStoryFeedText",
         "source_string": "Screenshots and discussions in your Realm will show up here. Get started by pressing Write new story button.",
-        "translation": "Capturile de ecran și discuțiile din tărâmul tău vor apărea aici. Începe prin a scrie un nou buton pentru povestire.",
+        "translation": "Capturile de ecran și discuțiile din Realm-ul tău vor apărea aici. Începe prin a apăsa butonul „Scrie povestire nouă”.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60306,7 +60426,7 @@
     {
         "identifier": "hbui.RealmsStories.feed.inRealm",
         "source_string": "Playing on Realm",
-        "translation": "Joacă pe tărâm",
+        "translation": "Joacă pe Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60418,7 +60538,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.invalid",
         "source_string": "Invalid Realm event",
-        "translation": "Eveniment invalid Tărâm",
+        "translation": "Eveniment invalid Realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60690,7 +60810,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.NewMember",
         "source_string": "%1$s joined the Realm",
-        "translation": "%1$s s-a alăturat tărâmului",
+        "translation": "%1$s s-a alăturat realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60698,7 +60818,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.NewMember.grouped",
         "source_string": "%1$s joined the Realm",
-        "translation": "%1$s s-a alăturat tărâmului",
+        "translation": "%1$s s-a alăturat realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60714,7 +60834,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.RealmCreated",
         "source_string": "A new adventure has begun! What will the story of this Realm be? You decide.",
-        "translation": "A început o nouă aventură! Care va fi povestea acestui tărâm? Tu decizi.",
+        "translation": "A început o nouă aventură! Care va fi povestea acestui realm? Tu decizi.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61066,7 +61186,7 @@
     {
         "identifier": "hbui.RealmsStories.feedPost.options.notify",
         "source_string": "Notify Realm owner",
-        "translation": "Notifică proprietarul tărâmului",
+        "translation": "Notifică proprietarul realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61378,7 +61498,7 @@
     {
         "identifier": "hbui.RealmsStories.invitePlayerToRealm",
         "source_string": "Invite player to Realm",
-        "translation": "Invită jucător în tărâm",
+        "translation": "Invită jucător pe realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61418,7 +61538,7 @@
     {
         "identifier": "hbui.RealmsStories.members.filter.title",
         "source_string": "Filter members of the Realm",
-        "translation": "Filtrează membrii tărâmului",
+        "translation": "Filtrează membrii realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61442,7 +61562,7 @@
     {
         "identifier": "hbui.RealmsStories.members.inRealmMembers",
         "source_string": "Members playing on Realm",
-        "translation": "Membrii se joacă pe tărâm",
+        "translation": "Membrii care se joacă pe realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61498,7 +61618,7 @@
     {
         "identifier": "hbui.RealmsStories.members.realmMembers",
         "source_string": "Realm members",
-        "translation": "Membrii tărâm",
+        "translation": "Membri realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61522,7 +61642,7 @@
     {
         "identifier": "hbui.RealmsStories.members.search",
         "source_string": "Search members of the Realm",
-        "translation": "Caută membri ai tărâmului",
+        "translation": "Caută membri ai realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61594,7 +61714,7 @@
     {
         "identifier": "hbui.RealmsStories.members.sort.title",
         "source_string": "Sorting members of the Realm",
-        "translation": "Sortarea membrilor tărâmului",
+        "translation": "Sortează membri ai realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61610,7 +61730,7 @@
     {
         "identifier": "hbui.RealmsStories.members.warning",
         "source_string": "This Realm is too popular to list all the members",
-        "translation": "Acest tărâm este prea popular pentru a lista toți membrii",
+        "translation": "Acest realm este prea popular pentru a lista toți membrii",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61618,7 +61738,7 @@
     {
         "identifier": "hbui.RealmsStories.members.warning.optedOut",
         "source_string": "This Realm is too popular to list all opted-out members",
-        "translation": "Acest tărâm este prea popular pentru a lista toţi membrii excluşi",
+        "translation": "Acest realm este prea popular pentru a lista toți membrii excluși",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61642,7 +61762,7 @@
     {
         "identifier": "hbui.RealmsStories.messages.timelineEmpty.body",
         "source_string": "Play on the Realm to generate Timeline data.",
-        "translation": "Redă pe tărâm pentru a genera datele Cronologiei.",
+        "translation": "Joacă-te pe realm pentru a genera date pe cronologie.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61658,7 +61778,7 @@
     {
         "identifier": "hbui.RealmsStories.messages.timelineOff.body",
         "source_string": "The Realm owner has disabled the Timeline on this Realm.",
-        "translation": "Deținătorul Realm a dezactivat Cronologia în acest Tărâm.",
+        "translation": "Deținătorul Realm-ului a dezactivat Cronologia.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61674,7 +61794,7 @@
     {
         "identifier": "hbui.RealmsStories.messages.timelineOptIn.body",
         "source_string": "See when other members are playing to check out their creations or plan to join them next time! The Timeline shows when players were on the Realm. The bigger the colored block, the longer they played.",
-        "translation": "Vezi când alți membri se joacă pentru a-și verifica creațiile sau plănuiesc să se alăture lor data viitoare! Calendarul arată când jucătorii erau pe tărâm. Cu cât este mai mare blocul colorat, cu atât mai mult se jucau.",
+        "translation": "Vezi când alți membri se joacă pentru a le verifica creațiile sau pentru a vedea când să te alături lor! Cronologia arată când jucătorii erau pe realm. Cu cât este mai mare blocul colorat, cu atât mai mult s-au jucat.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61714,7 +61834,7 @@
     {
         "identifier": "hbui.RealmsStories.messages.timelineOptIn.ownerRequire.body",
         "source_string": "Opt into the Timeline to start playing on the Realm.",
-        "translation": "Optează la Cronologia pentru a începe să joci pe Tărâm.",
+        "translation": "Activează Cronologia pentru a începe să joci pe Realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61842,7 +61962,7 @@
     {
         "identifier": "hbui.RealmsStories.OptedOutMembers.noOptedOutMembers",
         "source_string": "All Realm members have agreed to share their activity on the Timeline.",
-        "translation": "Toţi membrii tărâmului au fost de acord să îşi împărtăşească activitatea asupra Cronologiei.",
+        "translation": "Toți membrii realm-ului au fost de acord să își împărtășească activitatea pe Cronologie.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61858,7 +61978,7 @@
     {
         "identifier": "hbui.RealmsStories.OptInModal.message",
         "source_string": "Now you can share stories to the Story Feed, get to know who's on the Realm with the Members tab, and coordinate play times with them using the Timeline. Enjoy!",
-        "translation": "Acum poți distribui povestiri fluxului de povestiri, poți afla cine este pe tărâm cu tab-ul deputaților; și coordonează timpul de joacă cu ei folosind Cronologia. Bucură-te!",
+        "translation": "Acum poți distribui povestiri folosind fluxului, poți afla cine este pe realm cu fila membrilor și coordona timpul de joacă împreună cu prietenii tăi folosind Cronologia. Bucură-te!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61890,7 +62010,7 @@
     {
         "identifier": "hbui.RealmsStories.OptInNoticeModal.message.p1",
         "source_string": "You’ve opted in... but before you can use Realms Stories, the Realm owner needs to join. Ask them to opt in!",
-        "translation": "Ai optat în... dar înainte de a putea folosi povestiri Realms, proprietarul tărâmului trebuie să se alăture. Cere-i să opteze!",
+        "translation": "Ai intrat... dar înainte de a putea folosi Realms Stories, proprietarul realm-ului trebuie să se alăture. Cere-i să opteze!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61898,7 +62018,7 @@
     {
         "identifier": "hbui.RealmsStories.OptInNoticeModal.message.p2",
         "source_string": "Once they do, you can share stories to the Story Feed, get to know who's on the Realm with the Members tab, and coordinate play times with them using the Timeline.",
-        "translation": "Odată ce o fac, poți împărtăși povestiri fluxului de povestiri, poți afla cine se află pe tărâm cu tab-ul deputaților; și coordonează timpul de joacă cu ei folosind Cronologia.",
+        "translation": "Odată ce se alătură, poți distribui povestiri folosind fluxului, poți afla cine este pe realm cu fila membrilor și coordona timpul de joacă împreună cu prietenii tăi folosind Cronologia.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61954,7 +62074,7 @@
     {
         "identifier": "hbui.RealmsStories.OptInScreen.learnMore.members.body.2",
         "source_string": "Watch the Realm grow and make more friends. Build a community!",
-        "translation": "Uită-te la tărâm să crești și să faci mai mulți prieteni. Construiește o comunitate!",
+        "translation": "Uită-te la cum crește realm-ul și faceți mai mulți prieteni. Construiește o comunitate!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -61962,7 +62082,7 @@
     {
         "identifier": "hbui.RealmsStories.OptInScreen.learnMore.members.title",
         "source_string": "Get to know the members of the Realm",
-        "translation": "Cunoașteți membrii tărâmului",
+        "translation": "Cunoașteți membrii realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62098,7 +62218,7 @@
     {
         "identifier": "hbui.RealmsStories.OptOutModal.message",
         "source_string": "If you opt out, you will lose access to the Timeline for this Realm. Don’t worry, you can always opt in later.",
-        "translation": "Dacă renunțați, veți pierde accesul la Cronologia pentru acest Tărâm. Nu vă faceți griji, puteți opta întotdeauna mai târziu.",
+        "translation": "Dacă renunțați, veți pierde accesul la Cronologie pentru acest realm. Nu vă faceți griji, puteți opta întotdeauna mai târziu.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62610,7 +62730,7 @@
     {
         "identifier": "hbui.RealmsStories.settings.optOut.realmMember.description",
         "source_string": "If you opt out, you will lose access to the Story Feed, Timeline, and Members tab for this Realm.",
-        "translation": "Dacă renunțați la această opțiune, veți pierde accesul la feed-ul povestirii, cronologia și fila de membri pentru acest tărâm.",
+        "translation": "Dacă renunțați, veți pierde accesul la feed-ul de povestiri, cronologia și fila de membri pentru acest realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62618,7 +62738,7 @@
     {
         "identifier": "hbui.RealmsStories.settings.optOut.realmOwner.description",
         "source_string": "As the Realm owner, if you opt out, everyone will lose access to the Story Feed, Timeline, and Members tab for this Realm.",
-        "translation": "Ca și proprietarul tărâmului, dacă renunți, toată lumea va pierde accesul la fluxul de povestiri, la fusul temporal și la fila Membri pentru acest Tărâm.",
+        "translation": "Ca proprietar al realm-ului, dacă renunți, toată lumea va pierde accesul la fluxul de povestiri, la Cronologie și la fila Membri pentru acest realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62650,7 +62770,7 @@
     {
         "identifier": "hbui.RealmsStories.settings.personalSettings.description",
         "source_string": "These settings only apply to you, for this Realm.",
-        "translation": "Aceste setări se aplică numai pentru acest tărâm.",
+        "translation": "Aceste setări se aplică numai pentru acest realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62714,7 +62834,7 @@
     {
         "identifier": "hbui.RealmsStories.settings.realmWideSettings.playerTimelineRequirement.description",
         "source_string": "Require everyone to opt into the Timeline before they can play on the Realm.",
-        "translation": "Solicitați tuturor să opteze pentru Cronologie înainte de a putea juca pe tărâm.",
+        "translation": "Solicitați tuturor să opteze pentru Cronologie înainte de a putea juca pe realm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62730,7 +62850,7 @@
     {
         "identifier": "hbui.RealmsStories.settings.realmWideSettings.realmEvents.description",
         "source_string": "Allow Minecraft to post stories for gameplay accomplishments. This setting will take effect once you close and reopen the Realm. (Go to Edit > Manage Realm > Subscription > Close Realm. Then Open Realm)",
-        "translation": "Permite Minecraft să posteze povestiri pentru realizări de joc. Această setare va intra în vigoare odată ce închizi și redeschizi tărâmul. (Go pentru editare > Gestionare Realm > Abonament > Închide Tărâmul. Apoi Deschide Realmul)",
+        "translation": "Permite Minecraft să posteze povestiri pentru realizări de joc. Această setare va intra în vigoare odată ce închizi și redeschizi realm-ul. (Editare > Gestionare Realm > Abonament > Închide Realm-ul. Apoi Deschide Realm-ul)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62786,7 +62906,7 @@
     {
         "identifier": "hbui.RealmsStories.ShareLink.message",
         "source_string": "Now you can start playing with your friends in this Realm. You can also take screenshots using the camera button and share them in Realms Stories. Enjoy!",
-        "translation": "Acum poti incepe sa te joci cu prietenii tai in acest tărâm. De asemenea, poți face capturi de ecran folosind butonul camerei și să le distribui în povestiri reale. Bucură-te de ele!",
+        "translation": "Acum poți începe sa te joci cu prietenii tai pe acest realm. De asemenea, poți face capturi de ecran folosind butonul de cameră și să le distribui în Realms Stories. Bucură-te de ele!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62810,7 +62930,7 @@
     {
         "identifier": "hbui.RealmsStories.ShareLink.title",
         "source_string": "You’re in! Welcome to Realms",
-        "translation": "Ești înăuntru! Bine ai venit în tărâmuri",
+        "translation": "Ești înăuntru! Bine ai venit pe Realms",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62890,7 +63010,7 @@
     {
         "identifier": "hbui.RealmsStories.Timeline.noDataBanner",
         "source_string": "Play on the Realm to generate Timeline data",
-        "translation": "Joacă-te pe tărâm pentru a genera date pe cronologie",
+        "translation": "Joacă-te pe realm pentru a genera date pe cronologie",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63050,7 +63170,7 @@
     {
         "identifier": "hbui.RealmTag.invitedToRealm",
         "source_string": "Joined Realm",
-        "translation": "S-a alăturat Tărâmului",
+        "translation": "S-a alăturat Realm-ului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63082,7 +63202,7 @@
     {
         "identifier": "hbui.RealmTag.realmOwner",
         "source_string": "Your Realm",
-        "translation": "Tărâmul tău",
+        "translation": "Realm-ul tău",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -64202,7 +64322,7 @@
     {
         "identifier": "hbui.ScreenshotGalleryError.noRealmsFoundTitle",
         "source_string": "No Realms found",
-        "translation": "Nici un tărâm găsit",
+        "translation": "Nici un realm găsit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -65074,7 +65194,7 @@
     {
         "identifier": "hbui.SignInWorldsFriendsServersRoute.signInList2",
         "source_string": "Connect and play with cross-platform friends or on a Realm",
-        "translation": "Conectează-te și joacă-te cu prietenii de pe mai multe platforme sau pe un tărâm",
+        "translation": "Conectează-te și joacă-te cu prietenii de pe mai multe platforme pe un realm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -65082,7 +65202,7 @@
     {
         "identifier": "hbui.SignInWorldsFriendsServersRoute.signInList2PS",
         "source_string": "Connect and play with cross-platform friends or on your Realm",
-        "translation": "Conectează-te și joacă-te cu prietenii de pe diferite platforme sau pe tărâmul tău",
+        "translation": "Conectează-te și joacă-te cu prietenii de pe diferite platforme pe realm-ul tău",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -67018,7 +67138,7 @@
     {
         "identifier": "hbui.TrialModeModal.secondParagraph",
         "source_string": "Build without restrictions in Creative mode, set up private and persistent Realms with your friends and download content packs to make the game truly yours.",
-        "translation": "Construiește fără restricții în modul Creativ, setează tărâmuri private și persistente cu prietenii tăi și descarcă pachete de conținut pentru a face jocul cu adevărat al tău.",
+        "translation": "Construiește fără restricții în modul Creativ, setează realm-uri private și persistente cu prietenii tăi și descarcă pachete de conținut pentru a face jocul cu adevărat al tău.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
