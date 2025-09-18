@@ -5,8 +5,11 @@
     <img src="https://badges.crowdin.net/universal-language-pack/localized.svg" alt="Localization Status">
   </a>
   <img src="https://img.shields.io/github/repo-size/azurite-bedrock/Universal-Language-Pack?label=Repo%20Size" alt="Repository Size">
+  <a href="(https://github.com/azurite-bedrock/Universal-Language-Pack/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/azurite-bedrock/Universal-Language-Pack" alt="License">
+  </a>
   <a href="https://discord.gg/rPNcYYNN6p">
-    <img src="https://img.shields.io/discord/1218673790775726182?label=Azurite&color=5f51ec" alt="Discord Community">
+    <img src="https://badgen.net/discord/members/dAcghG992N?icon=discord" alt="Discord Community">
   </a>
 </div>
 
