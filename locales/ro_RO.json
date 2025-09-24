@@ -1826,7 +1826,7 @@
     {
         "identifier": "achievement.acquireIron",
         "source_string": "Acquire Hardware",
-        "translation": "Hardware Dobândit",
+        "translation": "Metalurgie",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14274,7 +14274,7 @@
     {
         "identifier": "createWorld.customize.flat.tile",
         "source_string": "Layer Material",
-        "translation": "Material de strat",
+        "translation": "Materialul stratului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31848,6 +31848,30 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.weapons.text.2.notTouch",
+        "source_string": "Press :_input_key.attack: with a Sword in your hand to attack. ",
+        "translation": "Apasă :_input_key.attack: cu o sabie în mână pentru a ataca. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.text.2.touch",
+        "source_string": "Tap mobs to attack them.",
+        "translation": "Apasă pe creaturi pentru a le ataca. ",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.header.2",
+        "source_string": "Bow",
+        "translation": "Arcul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.weapons.text.3.notTouch",
         "source_string": "The Bow is the primary ranged weapon in Minecraft. Press and hold :_input_key.use: to draw the bow back. Release :_input_key.use: to fire an arrow. The bow requires arrows to fire. ",
         "translation": "Arcul este arma principală de distanță în Minecraft. Apasă și ține apăsat pe :_input_key.use: pentru a trage arcul înapoi. Eliberează :_input_key.use: pentru a trage o săgeată. Arcul necesită săgeți pentru a trage. ",
@@ -31859,6 +31883,14 @@
         "identifier": "howtoplay.weapons.text.3.touch",
         "source_string": "The Bow is the primary ranged weapon in Minecraft. Press and hold the Screen to draw the bow back. Release the press to fire an arrow. The bow requires arrows to fire.",
         "translation": "Arcul este arma principală de distanță în Minecraft. Apasă și ține apăsat pe ecran pentru a trage arcul înapoi. Ridică degetul pentru a trage o săgeată. Arcul necesită săgeți pentru a trage.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.text.4",
+        "source_string": "Bows do more damage the further they are pulled back, make sure to pull it all the way back.",
+        "translation": "Arcurile fac mai multe daune cu cât sunt trase înapoi mai mult, asigură-te că tragi înapoi până la capăt.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31883,6 +31915,22 @@
         "identifier": "howtoplay.weapons.text.6.touch",
         "source_string": "The Trident is a dual-purpose melee and ranged weapon. Tap mobs to attack them. Press and hold the Screen to draw the trident back. Release the press to throw the trident. The Trident is the best weapon underwater.",
         "translation": "Tridentul este o armă cu dublă întrebuințare (armă corp la corp și de distanță). Apasă pe creaturi pentru a le ataca. Apasă și ține apăsat pe ecran pentru a trage tridentul înapoi. Ridică degetul pentru a arunca tridentul. Tridentul este cea mai bună armă sub apă.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.header.5",
+        "source_string": "Enchanted Weapons",
+        "translation": "Arme fermecate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.weapons.text.7",
+        "source_string": "The Sword, Bow, Crossbow, and Trident have specific enchantments that you can get from the Enchanting Table or Anvil that will improve damage, durability and even light mobs on fire!",
+        "translation": "Sabia, arcul, arbaleta și tridentul au farmece specifice pe care le poți obține de la masa de farmece sau de la nicovală care vor îmbunătăți daunele, durabilitatea și chiar aprinde creaturile!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33034,7 +33082,7 @@
     {
         "identifier": "item.banner.creeper.lightBlue",
         "source_string": "Light Blue Creeper Charge",
-        "translation": "Creeper blue",
+        "translation": "Creeper bleu",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34010,7 +34058,303 @@
     {
         "identifier": "item.banner.flow.yellow",
         "source_string": "Yellow Flow",
-        "translation": "Spirală galben",
+        "translation": "Spirală galbenă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.black",
+        "source_string": "Black Flower Charge",
+        "translation": "Floare neagră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.blue",
+        "source_string": "Blue Flower Charge",
+        "translation": "Floare albastră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.brown",
+        "source_string": "Brown Flower Charge",
+        "translation": "Floare maro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.cyan",
+        "source_string": "Cyan Flower Charge",
+        "translation": "Floare turcoaz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.gray",
+        "source_string": "Gray Flower Charge",
+        "translation": "Floare gri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.green",
+        "source_string": "Green Flower Charge",
+        "translation": "Floare verde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.lightBlue",
+        "source_string": "Light Blue Flower Charge",
+        "translation": "Floare bleu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.lime",
+        "source_string": "Lime Flower Charge",
+        "translation": "Floare verde-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.magenta",
+        "source_string": "Magenta Flower Charge",
+        "translation": "Floare magenta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.orange",
+        "source_string": "Orange Flower Charge",
+        "translation": "Floare portocalie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.pink",
+        "source_string": "Pink Flower Charge",
+        "translation": "Floare roz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.purple",
+        "source_string": "Purple Flower Charge",
+        "translation": "Floare violet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.red",
+        "source_string": "Red Flower Charge",
+        "translation": "Floare roșie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.silver",
+        "source_string": "Light Gray Flower Charge",
+        "translation": "Floare gri-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.white",
+        "source_string": "White Flower Charge",
+        "translation": "Floare albă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.flower.yellow",
+        "source_string": "Yellow Flower Charge",
+        "translation": "Floare galbenă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.black",
+        "source_string": "Black Globe",
+        "translation": "Glob negru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.blue",
+        "source_string": "Blue Globe",
+        "translation": "Glob albastru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.brown",
+        "source_string": "Brown Globe",
+        "translation": "Glob maro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.cyan",
+        "source_string": "Cyan Globe",
+        "translation": "Glob turcoaz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.gray",
+        "source_string": "Gray Globe",
+        "translation": "Glob gri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.green",
+        "source_string": "Green Globe",
+        "translation": "Glob verde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.lightBlue",
+        "source_string": "Light Blue Globe",
+        "translation": "Glob bleu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.lime",
+        "source_string": "Lime Globe",
+        "translation": "Glob verde-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.magenta",
+        "source_string": "Magenta Globe",
+        "translation": "Glob magenta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.orange",
+        "source_string": "Orange Globe",
+        "translation": "Glob portocaliu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.pink",
+        "source_string": "Pink Globe",
+        "translation": "Glob roz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.purple",
+        "source_string": "Purple Globe",
+        "translation": "Glob violet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.red",
+        "source_string": "Red Globe",
+        "translation": "Glob roșu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.silver",
+        "source_string": "Light Gray Globe",
+        "translation": "Glob gri-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.white",
+        "source_string": "White Globe",
+        "translation": "Glob alb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.globe.yellow",
+        "source_string": "Yellow Globe",
+        "translation": "Glob galben",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.black",
+        "source_string": "Black Gradient",
+        "translation": "Degrade negru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.blue",
+        "source_string": "Blue Gradient",
+        "translation": "Degrade albastru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.brown",
+        "source_string": "Brown Gradient",
+        "translation": "Degrade maro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.cyan",
+        "source_string": "Cyan Gradient",
+        "translation": "Degrade turcoaz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner.gradient.gray",
+        "source_string": "Gray Gradient",
+        "translation": "Degrade gri",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34019,6 +34363,22 @@
         "identifier": "item.beef.name",
         "source_string": "Raw Beef",
         "translation": "Carne de vită crudă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_boots.name",
+        "source_string": "Diamond Boots",
+        "translation": "Cizme de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_boots.name",
+        "source_string": "Iron Boots",
+        "translation": "Cizme de fier",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34056,9 +34416,41 @@
         "max_length": null
     },
     {
+        "identifier": "item.diamond_chestplate.name",
+        "source_string": "Diamond Chestplate",
+        "translation": "Platoșă de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_chestplate.name",
+        "source_string": "Iron Chestplate",
+        "translation": "Platoșă de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.chicken.name",
         "source_string": "Raw Chicken",
         "translation": "Pui crud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond.name",
+        "source_string": "Diamond",
+        "translation": "Diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_door.name",
+        "source_string": "Iron Door",
+        "translation": "Ușă de fier",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34080,9 +34472,201 @@
         "max_length": null
     },
     {
+        "identifier": "item.iron_nugget.name",
+        "source_string": "Iron Nugget",
+        "translation": "Pepită de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_axe.name",
+        "source_string": "Diamond Axe",
+        "translation": "Topor de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_axe.name",
+        "source_string": "Iron Axe",
+        "translation": "Topor de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_helmet.name",
+        "source_string": "Diamond Helmet",
+        "translation": "Cască de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_helmet.name",
+        "source_string": "Iron Helmet",
+        "translation": "Cască de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_hoe.name",
+        "source_string": "Diamond Hoe",
+        "translation": "Sapă de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_hoe.name",
+        "source_string": "Iron Hoe",
+        "translation": "Sapă de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.horsearmordiamond.name",
+        "source_string": "Diamond Horse Armor",
+        "translation": "Armură de cal din diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.horsearmoriron.name",
+        "source_string": "Iron Horse Armor",
+        "translation": "Armură de cal din fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_ingot.name",
+        "source_string": "Iron Ingot",
+        "translation": "Lingou de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_ingot.name",
+        "source_string": "Netherite Ingot",
+        "translation": "Lingou de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_scrap.name",
+        "source_string": "Netherite Scrap",
+        "translation": "Fragment de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_sword.name",
+        "source_string": "Netherite Sword",
+        "translation": "Sabie de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_pickaxe.name",
+        "source_string": "Netherite Pickaxe",
+        "translation": "Târnăcop de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_axe.name",
+        "source_string": "Netherite Axe",
+        "translation": "Topor de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_shovel.name",
+        "source_string": "Netherite Shovel",
+        "translation": "Lopată de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_hoe.name",
+        "source_string": "Netherite Hoe",
+        "translation": "Sapă de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_boots.name",
+        "source_string": "Netherite Boots",
+        "translation": "Cizme de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_leggings.name",
+        "source_string": "Netherite Leggings",
+        "translation": "Jambiere de Netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_chestplate.name",
+        "source_string": "Netherite Chestplate",
+        "translation": "Platoșă de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_helmet.name",
+        "source_string": "Netherite Helmet",
+        "translation": "Cască de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_leggings.name",
+        "source_string": "Diamond Leggings",
+        "translation": "Jambiere de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_leggings.name",
+        "source_string": "Iron Leggings",
+        "translation": "Jambiere de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.spawn_egg.entity.vindicator.name",
         "source_string": "Vindicator Spawn Egg",
         "translation": "Ou generator de apărător",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.iron_golem.name",
+        "source_string": "Iron Golem Spawn Egg",
+        "translation": "Ou generator de golem de fier",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34112,6 +34696,22 @@
         "max_length": null
     },
     {
+        "identifier": "item.diamond_pickaxe.name",
+        "source_string": "Diamond Pickaxe",
+        "translation": "Târnăcop de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_pickaxe.name",
+        "source_string": "Iron Pickaxe",
+        "translation": "Târnăcop de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.porkchop.name",
         "source_string": "Raw Porkchop",
         "translation": "Carne de porc crudă",
@@ -34123,6 +34723,22 @@
         "identifier": "item.rabbit.name",
         "source_string": "Raw Rabbit",
         "translation": "Iepure crud",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_shovel.name",
+        "source_string": "Diamond Shovel",
+        "translation": "Lopată de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_shovel.name",
+        "source_string": "Iron Shovel",
+        "translation": "Lopată de fier",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34147,6 +34763,22 @@
         "identifier": "item.skull.wither.name",
         "source_string": "Wither Skeleton Skull",
         "translation": "Craniu de schelet wither",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.diamond_sword.name",
+        "source_string": "Diamond Sword",
+        "translation": "Sabie de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.iron_sword.name",
+        "source_string": "Iron Sword",
+        "translation": "Sabie de fier",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35072,6 +35704,134 @@
         "max_length": null
     },
     {
+        "identifier": "options.discoveryEnvironment",
+        "source_string": "Discovery Environment (Requires Restart)",
+        "translation": "Mediu de descoperire (necesită repornire)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.discoveryEnvironment.production",
+        "source_string": "Production",
+        "translation": "Producție",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.discoveryEnvironment.staging",
+        "source_string": "Staging",
+        "translation": "Platformizare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.discoveryEnvironment.local",
+        "source_string": "Local",
+        "translation": "Local",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.discoveryEnvironment.dev",
+        "source_string": "Dev [Unstable]",
+        "translation": "Dev [Instabil]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.discoveryEnvironment.perf",
+        "source_string": "Perf [Very Unstable]",
+        "translation": "Perf [Foarte instabil]",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realmsEnvironment",
+        "source_string": "Realms Environment",
+        "translation": "Mediu Realms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realms_environment.production",
+        "source_string": "Production",
+        "translation": "Producție",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realms_environment.staging",
+        "source_string": "Staging",
+        "translation": "Platformizare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realms_environment.local",
+        "source_string": "Local",
+        "translation": "Local",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realms_environment.dev",
+        "source_string": "Dev",
+        "translation": "Dev",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_overrideXboxEnvironmentWindows",
+        "source_string": "Override Xbox Sandbox (OS controlled on Windows)",
+        "translation": "Suprascrie Xbox Sandbox (controlat de OS pe Windows)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_overrideXboxEnvironment",
+        "source_string": "Override Xbox Sandbox (requires restart)",
+        "translation": "Suprascrie Xbox Sandbox (necesită repornire)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_xboxEnvironment",
+        "source_string": "Xbox Sandbox Environment (requires restart)",
+        "translation": "Mediu Xbox Sandbox (necesită repornire)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_xbox_environment.retail",
+        "source_string": "Retail",
+        "translation": "Comercial",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_xbox_environment.dev",
+        "source_string": "Dev",
+        "translation": "Dev",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_displayTreatmentsPanel",
         "source_string": "Display Treatments",
         "translation": "Afișare tratamente",
@@ -35451,6 +36211,22 @@
         "identifier": "options.accountTitle",
         "source_string": "Account Settings",
         "translation": "Setări cont",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.accountError",
+        "source_string": "Account Error",
+        "translation": "Eroare cont",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.accountErrorButton",
+        "source_string": "View Errors",
+        "translation": "Vezi erori",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -36680,6 +37456,158 @@
         "max_length": null
     },
     {
+        "identifier": "container.smithing_table.input_slot_tooltip_netherite",
+        "source_string": "Add Diamond armor, weapon, or tool",
+        "translation": "Adaugă armură, armă sau unealtă de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.smithing_table.material_slot_tooltip_armor_trim",
+        "source_string": "Add ingot or crystal",
+        "translation": "Adaugă lingou sau cristal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.smithing_table.material_slot_tooltip_netherite",
+        "source_string": "Add Netherite Ingot",
+        "translation": "Adaugă lingou de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.smithing_table.text.2",
+        "source_string": "Use it to make all kinds of changes, for example by upgrading Diamond equipment to Netherite, or by making cosmetic changes with Armor Trims.",
+        "translation": "Folosește-o pentru a face tot felul de schimbări, de exemplu prin îmbunătățirea echipamentului de diamant la netherit, sau prin realizarea de schimbări cosmetice cu ornamente de armură.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.smithing_table.text.5",
+        "source_string": "For example, to upgrade Diamond equipment to Netherite, you need a Netherite Upgrade Smithing Template, which you can find in Bastion Remnants. Then, place the Diamond equipment in the equipment slot and a Netherite ingot in the ingredient slot, and you're done!",
+        "translation": "De exemplu, pentru a îmbunătăți echipamentul de diamant la netherit, ai nevoie de un șablon de îmbunătățire cu netherit, pe care îl poți găsi în ruinele de bastion. Apoi, plasează echipamentul de diamant în slotul echipamentului și un lingou de netherit în slotul ingredientului, și ai terminat!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.smithing_template.netherite_upgrade.applies_to",
+        "source_string": "Diamond Equipment",
+        "translation": "Echipament de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.smithing_template.netherite_upgrade.ingredients",
+        "source_string": "Netherite Ingot",
+        "translation": "Lingou de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.netherite_upgrade_smithing_template.name",
+        "source_string": "Netherite Upgrade",
+        "translation": "Îmbunătățire cu netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.amethyst.name",
+        "source_string": "Amethyst Material",
+        "translation": "Material de ametist",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.copper.name",
+        "source_string": "Copper Material",
+        "translation": "Material de cupru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.diamond.name",
+        "source_string": "Diamond Material",
+        "translation": "Material de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.emerald.name",
+        "source_string": "Emerald Material",
+        "translation": "Material de smarald",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.gold.name",
+        "source_string": "Gold Material",
+        "translation": "Material de aur",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.iron.name",
+        "source_string": "Iron Material",
+        "translation": "Material de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.lapis.name",
+        "source_string": "Lapis Material",
+        "translation": "Material de lapis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.netherite.name",
+        "source_string": "Netherite Material",
+        "translation": "Material de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.quartz.name",
+        "source_string": "Quartz Material",
+        "translation": "Material de cuarț",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.redstone.name",
+        "source_string": "Redstone Material",
+        "translation": "Material de redstone",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "trim_material.resin.name",
+        "source_string": "Resin Material",
+        "translation": "Material de rășină",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "storageManager.delete.content",
         "source_string": "Are you sure you want to delete the selected items? These items will be lost forever! (A long time!) %s%s%s",
         "translation": "Sigur dorești să ștergi elementele selectate? Acestea vor fi pierdute pentru totdeauna! (Un timp foarte lung!) %s%s%s",
@@ -36811,6 +37739,14 @@
         "identifier": "skins.store.upsell.seePack",
         "source_string": "See Pack in the Marketplace",
         "translation": "Vezi pachet în Piață",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.ambient",
+        "source_string": "Ambient/Environment",
+        "translation": "Mediul înconjurător",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -37384,6 +38320,22 @@
         "max_length": null
     },
     {
+        "identifier": "tile.diamond_block.name",
+        "source_string": "Block of Diamond",
+        "translation": "Bloc de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.iron_block.name",
+        "source_string": "Block of Iron",
+        "translation": "Bloc de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.structure_block.name",
         "source_string": "Structure Block",
         "translation": "Bloc de structură",
@@ -37408,6 +38360,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.iron_door.name",
+        "source_string": "Iron Door",
+        "translation": "Ușă de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.dropper.name",
         "source_string": "Dropper",
         "translation": "Aruncător",
@@ -37416,9 +38376,65 @@
         "max_length": null
     },
     {
+        "identifier": "tile.iron_bars.name",
+        "source_string": "Iron Bars",
+        "translation": "Gratii de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.wither_rose.name",
         "source_string": "Wither Rose",
         "translation": "Trandafir al witherului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.iron_trapdoor.name",
+        "source_string": "Iron Trapdoor",
+        "translation": "Trapă de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.diamond_ore.name",
+        "source_string": "Diamond Ore",
+        "translation": "Minereu de diamant",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.iron_ore.name",
+        "source_string": "Iron Ore",
+        "translation": "Minereu de fier",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.netherite_block.name",
+        "source_string": "Block of Netherite",
+        "translation": "Bloc de netherit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.deepslate_iron_ore.name",
+        "source_string": "Deepslate Iron Ore",
+        "translation": "Minereu de fier de ardezie adâncă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.deepslate_diamond_ore.name",
+        "source_string": "Deepslate Diamond Ore",
+        "translation": "Minereu de diamant de ardezie adâncă",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38138,7 +39154,95 @@
     {
         "identifier": "xbox.report.area.chat",
         "source_string": "Chat message",
-        "translation": "Mesaj din discuție",
+        "translation": "Mesaj de chat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.falseReporting",
+        "source_string": "Excessive false / inaccurate reports",
+        "translation": "Exces de raportări false / imprecise",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.exploits",
+        "source_string": "Exploits and 3rd party applications",
+        "translation": "Exploatări și aplicații terțe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.hateSpeech",
+        "source_string": "Hate speech",
+        "translation": "Discurs de ură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.illegalDrugs",
+        "source_string": "Illegal drugs or activities",
+        "translation": "Droguri sau activități ilegale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.modding",
+        "source_string": "Modding",
+        "translation": "Moduri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.terrorismOrViolentExtremism",
+        "source_string": "Terrorism or violent extremism",
+        "translation": "Terorism sau extremism violent",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Child sexual exploitation or abuse",
+        "translation": "Exploatarea sau abuzul sexual asupra copiilor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Non-Consensual intimate imagery",
+        "translation": "Imagini intime non-consensuale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.drugs",
+        "source_string": "Drugs",
+        "translation": "Droguri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.fraud",
+        "source_string": "Fraud",
+        "translation": "Fraudă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.selfHarm",
+        "source_string": "Self-Harm or Suicide",
+        "translation": "Automutilare sau sinucidere",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38208,6 +39312,54 @@
         "max_length": null
     },
     {
+        "identifier": "midgameTips.1",
+        "source_string": "Iron golems will fight for you!",
+        "translation": "Golemii de fier vor lupta pentru tine!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.15",
+        "source_string": "The instrument played by a note block depends on the material beneath it.",
+        "translation": "Instrumentul jucat de un bloc de note depinde de materialul de sub el.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.17",
+        "source_string": "Wolves and iron golems won't attack creepers.",
+        "translation": "Lupii și golemii de fier nu vor ataca creeperi.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.19",
+        "source_string": "Obsidian can be mined with a diamond pickaxe.",
+        "translation": "Obsidianul poate fi minat cu un târnăcop de diamant.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.22",
+        "source_string": "Different colored dyes can be made from a variety of materials, cook cactus in a furnace to get green dye!",
+        "translation": "Coloranții diferiți pot fi făcuți dintr-o varietate de materiale, gătește cactus într-un cuptor pentru a obține colorant verde!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.25",
+        "source_string": "Sometimes iron golems give flowers to the villager children!",
+        "translation": "Uneori golemii de fier dau flori copiilor de săteni!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "midgameTips.29",
         "source_string": "Baby turtles will drop scutes when they grow - these can be crafted into turtle shells.",
         "translation": "Puii de țestoasă vor scăpa solzi atunci când cresc - acestea pot fi fabricate în carapace de țestoasă.",
@@ -38219,6 +39371,22 @@
         "identifier": "midgameTips.42",
         "source_string": "Tridents are dropped by the Drowned, and can be held or thrown.",
         "translation": "Tridentele sunt scăpate de înecați și pot fi folosite pentru atac corp la corp și de distanță.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.54",
+        "source_string": "Need diamonds? They get more common as you go deeper.",
+        "translation": "Ai nevoie de diamante? Ele devin mai comune la adâncimi mari.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "midgameTips.64",
+        "source_string": "Before you mine diamonds, redstone, or gold, make sure you're using an iron or diamond pickaxe or it won't work.",
+        "translation": "Înainte de a mina diamante, redstone sau aur, asigură-te că folosești un târnăcop de diamant sau de fier sau nu vei obține blocul.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38460,6 +39628,14 @@
         "source_string": "Position relative to %s: %s",
         "translation": "Poziția față de %s: %s",
         "context": "first %s is the name of the test and the second %s is the local location in the test structure",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.testLocation",
+        "source_string": "At: %s, %s, %s (relative: %s, %s, %s)",
+        "translation": "La: %s, %s, %s (relativ: %s, %s, %s)",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -40450,7 +41626,7 @@
     {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.advertising",
         "source_string": "Spam or Advertising",
-        "translation": "Spam sau reclame",
+        "translation": "Spam sau publicitate",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40458,7 +41634,7 @@
     {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.chat",
         "source_string": "Chat message",
-        "translation": "Mesaj din discuție",
+        "translation": "Mesaj de chat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40490,7 +41666,7 @@
     {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.skin",
         "source_string": "Player skin",
-        "translation": "Piele jucătorului",
+        "translation": "Costumul unui jucător",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40506,7 +41682,7 @@
     {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationGrooming",
         "source_string": "Violating community standards",
-        "translation": "Încălcarea standardelor comunitare",
+        "translation": "Încălcarea standardelor comunității",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40514,7 +41690,7 @@
     {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationOrAbuse",
         "source_string": "Violating community standards",
-        "translation": "Încălcarea standardelor comunitare",
+        "translation": "Încălcarea standardelor comunității",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40570,7 +41746,7 @@
     {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.falseReporting",
         "source_string": "Excessive false / inaccurate reports",
-        "translation": "Rapoarte excesive false / inexacte",
+        "translation": "Exces de raportări false / imprecise",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -40674,7 +41850,7 @@
     {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nudity",
         "source_string": "Displaying lewd or pornographic material",
-        "translation": "Afişare material lewd sau pornografic",
+        "translation": "Expunerea de material lasciv sau pornografic",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52914,7 +54090,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationGrooming",
         "source_string": "Violating community standards",
-        "translation": "Încălcarea standardelor comunitare",
+        "translation": "Încălcarea standardelor comunității",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52922,7 +54098,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationOrAbuse",
         "source_string": "Violating community standards",
-        "translation": "Încălcarea standardelor comunitare",
+        "translation": "Încălcarea standardelor comunității",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52946,7 +54122,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.defamation",
         "source_string": "Impersonation or sharing information to exploit or mislead others",
-        "translation": "Impersonarea sau schimbul de informații pentru a exploata sau a induce în eroare pe alții",
+        "translation": "Uzurparea identității sau răspândirea de informații pentru a exploata sau a induce în eroare pe alții",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52954,7 +54130,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.drugs",
         "source_string": "References to illegal drugs",
-        "translation": "Referințe la droguri ilegale",
+        "translation": "Referire la droguri ilegale",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52962,7 +54138,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.exploits",
         "source_string": "Exploits and 3rd party applications",
-        "translation": "Exploatări și cereri terțe",
+        "translation": "Exploatări și aplicații terțe",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52970,7 +54146,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.extremeViolence",
         "source_string": "Depictions of real-life excessive violence or gore",
-        "translation": "Dependențe de violență excesivă sau de foc în viața reală",
+        "translation": "Reprezentări de scene reale sângeroase sau conținând violență excesivă",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52978,7 +54154,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.falseReporting",
         "source_string": "Excessive false / inaccurate reports",
-        "translation": "Rapoarte excesive false / inexacte",
+        "translation": "Exces de raportări false / imprecise",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -52986,7 +54162,7 @@
     {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.fraud",
         "source_string": "Fraudulent acquisition or use of content",
-        "translation": "Achiziționarea sau utilizarea frauduloasă a conținutului",
+        "translation": "Dobândirea sau utilizarea frauduloasă a conținutului",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60714,7 +61890,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.FirstCraftedNetherite",
         "source_string": "%1$s upgraded to Netherite",
-        "translation": "%1$s upgradat la Netherite",
+        "translation": "%1$s a făcut upgrade la Netherite",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -60722,7 +61898,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.FirstCraftedNetherite.grouped",
         "source_string": "%1$s upgraded to Netherite",
-        "translation": "%1$s upgradat la Netherite",
+        "translation": "%1$s a făcut upgrade la Netherite",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62538,7 +63714,7 @@
     {
         "identifier": "hbui.RealmsStories.ReportFeedItem.somethingElseOption.csam",
         "source_string": "Child sexual exploitation and abuse",
-        "translation": "Exploatarea sexuală şi abuzul sexual asupra copiilor",
+        "translation": "Exploatarea sau abuzul sexual asupra copiilor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62546,7 +63722,7 @@
     {
         "identifier": "hbui.RealmsStories.ReportFeedItem.somethingElseOption.drugsoralcohol",
         "source_string": "Drugs or alcohol",
-        "translation": "Medicamente sau alcool etilic",
+        "translation": "Droguri sau alcool",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -62594,7 +63770,7 @@
     {
         "identifier": "hbui.RealmsStories.ReportFeedItem.somethingElseOption.selfharmorsuicide",
         "source_string": "Self-harm or suicide",
-        "translation": "Auto-vătămare sau sinucidere",
+        "translation": "Automutilare sau sinucidere",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63418,7 +64594,7 @@
     {
         "identifier": "hbui.ReportPlayerRoute.childSexualExploitationOrAbuse",
         "source_string": "Child sexual exploitation or abuse",
-        "translation": "Exploatarea sexuală sau abuzul sexual asupra copiilor",
+        "translation": "Exploatarea sau abuzul sexual asupra copiilor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63506,7 +64682,7 @@
     {
         "identifier": "hbui.ReportPlayerRoute.hateSpeech",
         "source_string": "Hate speech",
-        "translation": "Discurs instigator la ură",
+        "translation": "Discurs de ură",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63522,7 +64698,7 @@
     {
         "identifier": "hbui.ReportPlayerRoute.imminentHarm",
         "source_string": "Threat of Harm to Others",
-        "translation": "Amenințarea pe care o reprezintă Harm pentru alții",
+        "translation": "Amenințarea de a face rău altora",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63554,7 +64730,7 @@
     {
         "identifier": "hbui.ReportPlayerRoute.nonConsensualIntimateImagery",
         "source_string": "Non-Consensual intimate imagery",
-        "translation": "Imagine intimă non-consensuală",
+        "translation": "Imagini intime non-consensuale",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -63634,7 +64810,7 @@
     {
         "identifier": "hbui.ReportPlayerRoute.selfHarmOrSuicide",
         "source_string": "Self harm or suicide",
-        "translation": "Auto vătămare sau sinucidere",
+        "translation": "Automutilare sau sinucidere",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
