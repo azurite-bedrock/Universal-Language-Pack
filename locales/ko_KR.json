@@ -1,5 +1,21 @@
 [
     {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "유니버셜 언어 팩",
+        "context": "Name of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.description",
+        "source_string": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by theaddonn",
+        "translation": "리소스 팩, 베드락 에디션에 몇 가지 누락된 언어를 소개합니다. theaddonn이 개발했습니다",
+        "context": "Description of the Add-On",
+        "labels": "unassigned, metadata",
+        "max_length": null
+    },
+    {
         "identifier": "language.name",
         "source_string": "Name (Location)",
         "translation": "한국인 (대한민국)",
@@ -87392,6 +87408,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "무시하고 생성",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
         "source_string": "Continue anyway",
         "translation": "이대로 계속하기",
@@ -87416,6 +87440,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "다음 기능 중 하나를 사용하여 월드를 생성하면 이 월드에서는 업적을 달성할 수 없습니다. 나중에 이러한 옵션을 끄더라도 업적을 달성하려면 다른 월드를 방문해야 합니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "다음 기능을 사용하여 월드를 생성하면 이 월드에서는 업적을 달성할 수 없습니다. 나중에 이러한 옵션을 끄더라도 업적을 달성하려면 다른 월드를 방문해야 합니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
         "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
         "translation": "이 월드는 설정 방식으로 인해 플레이 중에는 도전 과제를 얻을 수 없습니다. 지금 월드 설정을 편집해도 변경되지 않습니다. 도전 과제를 달성하려면 다른 월드에 접속해야 합니다.",
@@ -87424,9 +87464,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "플랫월드로 생성한 월드입니다",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
         "source_string": "Go back",
         "translation": "돌아가기",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "월드 제작자가 운영자 권한을 갖고 있습니다",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -94712,6 +94768,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.multiplayer.visibleToLanPlayersDescription",
+        "source_string": "Players on your local network can join your world",
+        "translation": "로컬 네트워크 상의 플레이어가 당신의 월드에 참여 가능합니다",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.multiplayer.visibleToLanPlayersTitle",
+        "source_string": "Visible to LAN players",
+        "translation": "LAN 플레이어에게 표시",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.multiplayerPlatformLockedModal.closeInputLegend",
         "source_string": "Close",
         "translation": "닫기",
@@ -94976,9 +95048,201 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorActivatingPackBody",
+        "source_string": "Something went wrong when trying to activate your pack. Please visit help.minecraft.net for more information.",
+        "translation": "팩을 활성화 하는 중 알 수 없는 오류가 발생했습니다. help.minecraft.net 에 방문하여 더 많은 정보를 얻으십시오.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorActivatingPackTitle",
+        "source_string": "Activation error",
+        "translation": "활성화 오류",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorFileAccessBody",
+        "source_string": "Minecraft cannot access where the pack is located.",
+        "translation": "Minecraft 가 팩의 위치에 접근할 수 없습니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorFileAccessTitle",
+        "source_string": "Could not access pack",
+        "translation": "팩에 접근할 수 없습니다",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleDeviceBody",
+        "source_string": "This pack isn't compatible with your device and can't be activated in your world.",
+        "translation": "이 팩이 현재 기기에 호환되지 않아 당신의 월드에서 활성화 할 수 없습니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleDeviceTitle",
+        "source_string": "Device is incompatible",
+        "translation": "기기가 호환되지 않습니다",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleMemoryBody",
+        "source_string": "Your device doesn't have enough memory (RAM) to use this pack.",
+        "translation": "메모리(RAM) 용량 부족으로 이 기기에서 팩을 사용할 수 없습니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleMemoryTitle",
+        "source_string": "Not enough memory",
+        "translation": "메모리가 부족합니다",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleRayTracingBody",
+        "source_string": "You can't use this pack because it uses ray tracing, which isn't supported by your current device.",
+        "translation": "이 기기에 레이 트레이싱 기능이 없어 팩이 지원되지 않습니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleRayTracingTitle",
+        "source_string": "Ray tracing support",
+        "translation": "레이 트레이싱 지원",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleVersionHighBody",
+        "source_string": "The pack version is higher than your game version. Updating Minecraft might solve the issue.",
+        "translation": "팩 버전이 현재 게임 버전보다 높습니다. Minecraft를 업데이트 하여 해결해보세요.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleVersionLowBody",
+        "source_string": "The version of this pack is lower than the version of your game.",
+        "translation": "이 팩의 버전이 현재 게임 버전보다 낮습니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleVersionTitle",
+        "source_string": "Incompatible version",
+        "translation": "호환되지 않는 버전",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompleteBody",
+        "source_string": "The pack is missing some elements. Deleting and downloading the pack again might solve the issue.",
+        "translation": "이 팩의 몇몇 구성 요소가 누락되었습니다. 팩을 삭제하고 다시 다운로드하여 문제를 해결해보세요.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompleteTitle",
+        "source_string": "Incomplete pack",
+        "translation": "완전하지 않은 팩입니다",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorInitializationTimeoutBody",
+        "source_string": "We ran into an issue with the download process. Try again.",
+        "translation": "다운로드 중 오류가 발생했습니다. 다시 시도해주세요.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.errorInitializationTimeoutButton",
         "source_string": "Ok",
         "translation": "확인",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorInitializationTimeoutTitle",
+        "source_string": "Unable to download",
+        "translation": "다운로드 불가",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorNoStoreBody",
+        "source_string": "We can't connect to Marketplace right now. Please try again later.",
+        "translation": "지금은 Marketplace에 연결할 수 없습니다. 나중에 다시 시도하십시오.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorNoStoreTitle",
+        "source_string": "Connection issue",
+        "translation": "연결 문제",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorNotEnoughDiskSpaceTitle",
+        "source_string": "Not enough space",
+        "translation": "공간이 부족합니다",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorPluginRemovalBody",
+        "source_string": "Removing behavior packs with a plugin might break the world and cause you to lose what you created.",
+        "translation": "플러그인이 있는 행동 팩을 제거하면 세계가 고장 나 만든 것을 잃을 수 있습니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorPluginRemovalTitle",
+        "source_string": "Action not allowed.",
+        "translation": "허용하지 않는 동작입니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorReadingTitle",
+        "source_string": "Reading error",
+        "translation": "읽기 오류",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorRequiredDependencyTitle",
+        "source_string": "Required dependency",
+        "translation": "종속성 요구",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -94992,9 +95256,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorUnknownTitle",
+        "source_string": "Unexpected error!",
+        "translation": "예기치 못한 오류!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorUnsupportedFormatBody",
+        "source_string": "This pack format is not supported by the game.",
+        "translation": "이 팩의 형식이 현재 게임에서 지원되지 않습니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorUnsupportedFormatTitle",
+        "source_string": "Unsupported format",
+        "translation": "지원되지 않는 형식",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.getMoreButton.title",
+        "source_string": "Get more packs",
+        "translation": "추가 팩 구매하기",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.globalMinecraftPackDescription",
         "source_string": "The default Minecraft graphics, now updated with stylish new textures!",
         "translation": "기본 Minecraft 그래픽이 세련된 새 텍스처로 업데이트되었습니다!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalMinecraftPackTitle",
+        "source_string": "Minecraft texture pack",
+        "translation": "Minecraft 텍스처 팩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalPacksDeactivatedSnackbarMessage",
+        "source_string": "Global packs deactivated",
+        "translation": "글로벌 팩 비활성화됨",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalPacksListHeader",
+        "source_string": "Global",
+        "translation": "글로벌",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -95040,6 +95360,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.initializationTimeoutTitle",
+        "source_string": "Unable to download",
+        "translation": "다운로드 불가",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.localPacksListHeader",
         "source_string": "Local",
         "translation": "지역 주민",
@@ -95051,6 +95379,14 @@
         "identifier": "hbui.CreateNewWorld.resourcePacks.marketplacePassPacksAccordionHeader",
         "source_string": "Marketplace Pass",
         "translation": "Marketplace Pass",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.marketplacePassPacksEmptyTitle",
+        "source_string": "No more available resource packs",
+        "translation": "사용 가능한 리소스 팩 없음",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -95075,6 +95411,30 @@
         "identifier": "hbui.CreateNewWorld.resourcePacks.missingDependencyBody",
         "source_string": "This pack is missing one or more dependencies. Would you like to apply it anyway?",
         "translation": "이 팩에 필요한 팩을 한 개 이상 찾을 수 없습니다. 계속 적용하시겠습니까?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.missingDependencyTitle",
+        "source_string": "Missing dependencies",
+        "translation": "의존성 누락",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.narrationActiveLocalPacksHeader",
+        "source_string": "Local packs. Group. 1 of 2",
+        "translation": "로컬 팩. 그룹. 2 중의 1",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.narrationGlobalPacksHeader",
+        "source_string": "Global packs. Group. 2 of 2",
+        "translation": "글로벌 팩. 그룹. 2 중의 2",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -95136,6 +95496,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.warningTitle",
+        "source_string": "This is dangerous!",
+        "translation": "이건 위험합니다!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacksDependencyWarningModal.activatePackButton",
+        "source_string": "Activate anyway",
+        "translation": "무조건 활성화",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacksDependencyWarningModal.closeInputLegend",
         "source_string": "Close",
         "translation": "닫기",
@@ -95147,6 +95523,14 @@
         "identifier": "hbui.CreateNewWorld.resourcePacksDependencyWarningModal.goBackButton",
         "source_string": "Go back",
         "translation": "돌아가기",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacksDependencyWarningModal.title",
+        "source_string": "Missing dependencies",
+        "translation": "의존성 누락",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -95227,6 +95611,54 @@
         "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.cancel",
         "source_string": "Cancel",
         "translation": "취소",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.msaGuestCreateWorld.message",
+        "source_string": "You need a Microsoft account to create a world on Realms.",
+        "translation": "Realms에 월드를 생성하려면 Microsoft 계정이 필요합니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.msaGuestEditWorld.message",
+        "source_string": "You need a Microsoft account to play on Realms.",
+        "translation": "Realms에서 플레이하려면 Microsoft 계정이 필요합니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestCreate.nintendo.message",
+        "source_string": "You need to be signed in to your Nintendo Account to create a world on Realms.",
+        "translation": "Realms에 월드를 생성하려면 Nintendo Account 로그인이 필요합니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestCreate.playStation.message",
+        "source_string": "You need to be signed in to your account for PlayStation™Network to create a world on Realms.",
+        "translation": "Realms에 월드를 생성하려면 PlayStation™Network 로그인이 필요합니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestEdit.nintendo.message",
+        "source_string": "You need to be signed in to your Nintendo Account to play on Realms.",
+        "translation": "Realms에서 플레이하려면 Nintendo Account 로그인이 필요합니다.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestEdit.playStation.message",
+        "source_string": "You need to be signed in to your account for PlayStation™Network to play on Realms.",
+        "translation": "Realms에서 플레이하려면 PlayStation™Network 로그인이 필요합니다.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -95320,9 +95752,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorldSideMenu.resourcePacksTabLabel",
+        "source_string": "Resource packs",
+        "translation": "리소스 팩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorldSideMenu.scriptingCodingTabLabel",
+        "source_string": "Scripting & coding",
+        "translation": "스크립팅 & 코딩",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreatePartyRoute.createPartyHeader",
+        "source_string": "Create party",
+        "translation": "파티 생성",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreatePartyRoute.friendsTitle",
         "source_string": "Friends",
         "translation": "친구",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreatePartyRoute.inviteOnly",
+        "source_string": "Invite only",
+        "translation": "초대한 사람만 참가 가능",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreatePartyRoute.narration.createParty",
+        "source_string": "Create Party",
+        "translation": "파티 생성",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreatePartyRoute.narration.screen",
+        "source_string": "screen",
+        "translation": "화면",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreatePartyRoute.narration.verticalMenu",
+        "source_string": "vertical menu",
+        "translation": "세로 메뉴",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -95371,6 +95859,30 @@
         "identifier": "hbui.EditRealmWorld.ErrorModals.select",
         "source_string": "Select",
         "translation": "선택",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditRealmWorld.general.fileManagementDownloadWorldLabel",
+        "source_string": "Download world",
+        "translation": "월드 다운로드",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditRealmWorld.general.fileManagementReplaceWorldLabel",
+        "source_string": "Replace world",
+        "translation": "월드 교체",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditRealmWorld.general.fileManagementResetWorldLabel",
+        "source_string": "Reset world",
+        "translation": "월드 초기화",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -95432,6 +95944,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditWorld.clearingPlayerDataModal.title",
+        "source_string": "Clearing player data",
+        "translation": "플레이어 데이터 지우는 중",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditWorld.clearPlayerDataErrorModal.description",
         "source_string": "Please try again later.",
         "translation": "나중에 다시 시도해 주세요.",
@@ -95443,6 +95963,38 @@
         "identifier": "hbui.EditWorld.clearPlayerDataErrorModal.title",
         "source_string": "Something went wrong",
         "translation": "Something went wrong",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.clearPlayerDataModal.allButton",
+        "source_string": "Delete all player data",
+        "translation": "모든 플레이어 데이터 삭제",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.clearPlayerDataModal.keepButton",
+        "source_string": "Keep owning player data",
+        "translation": "플레이어 데이터 유지",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.clearPlayerDataModal.title",
+        "source_string": "Delete player data from world?",
+        "translation": "월드에서 플레이어 데이터를 삭제할까요?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.clearPlayerDataToast",
+        "source_string": "Data successfully erased",
+        "translation": "성공적으로 데이터 삭제됨",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
