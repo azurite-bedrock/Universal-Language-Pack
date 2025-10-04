@@ -29418,7 +29418,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.header.1",
         "source_string": "How to Obtain",
-        "translation": "Cum se obține",
+        "translation": "Cum se obțin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29450,7 +29450,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.4",
         "source_string": "§eTarget Pool§f - The path of the template pool to search for a connecting structure template. The template pool should contain at least one structure that matches the Jigsaw's \"Target Name\" field.",
-        "translation": "§eGrup țintă§f - Calea grupului de șablonane pentru a căuta un șablon de conectare. Gruparea de șabloane trebuie să conțină cel puțin o structură care corespunde câmpului \"Nume țintă\" al blocului Jigsaw.",
+        "translation": "§eElemente-țintă§f - Calea grupului de șablonane pentru a căuta un șablon de conectare. Gruparea de șabloane trebuie să conțină cel puțin o structură care corespunde câmpului \"Nume țintă\" al blocului Jigsaw.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29458,7 +29458,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.5",
         "source_string": "§eName§f - The name of the Jigsaw. This is used when connecting from Jigsaws with a matching \"Target Name\".",
-        "translation": "§eNume§f - Numele Jigsaw. Acest lucru este folosit la conectarea de la blocuri Jigsaw cu \"Numele țintă\" potrivit.",
+        "translation": "§eNume§f - Numele Jigsaw. Acest lucru este folosit la conectarea de la blocuri Jigsaw cu \"Nume-țintă\" potrivit.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29466,7 +29466,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.6",
         "source_string": "§eTurns Into§f - The type of block the Jigsaw Block will turn into when placed in the world during structure generation.",
-        "translation": "§eTransformă în§f - Tipul de bloc în care blocul Jigsaw se va transforma atunci când este plasat în lume în timpul generării structurii.",
+        "translation": "§eSe transformă în§f - Tipul de bloc în care blocul Jigsaw se va transforma atunci când este plasat în lume în timpul generării structurii.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29482,7 +29482,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.8",
         "source_string": "§ePlacement Priority§f - When this Jigsaw block connects to a piece, this is the order in which that piece is processed for connections in the wider structure. Pieces will be processed in descending priority with insertion order breaking ties.",
-        "translation": "§ePrioritate plasament§f - Când acest bloc Jigsaw se conectează la o piesă, aceasta este ordinea în care piesa este procesată pentru conexiuni în cadrul structurii mai largi. Piesele vor fi procesate în prioritate descrescătoare cu ordinea inserării rupând legături.",
+        "translation": "§ePrioritate plasare§f - Când acest bloc Jigsaw se conectează la o piesă, aceasta este ordinea în care piesa este procesată pentru conexiuni în cadrul structurii mai largi. Piesele vor fi procesate în prioritate descrescătoare cu ordinea inserării rupând legături.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29490,7 +29490,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.9",
         "source_string": "§eJoint Type§f - A joint can be either Rollable (default) or Aligned. If the joint type is Rollable, the target structure will be rotated randomly around the source Jigsaw Block. If the joint type is Aligned, the target structure will be placed such that the rotation of the target Jigsaw Block aligns with the rotation of the source Jigsaw Block. Note that this only applies when the Jigsaw Block is placed facing up or down.",
-        "translation": "§eTip articulație§f - O articulație poate fi rulabilă (implicit) sau aliniată. Dacă tipul de articulaţie este rulabilă, structura țintă va fi rotită aleatoriu în jurul blocului sursă Jigsaw. Dacă tipul articulaţiei este aliniat, structura ţintă va fi plasată astfel încât rotaţia blocului Jigsaw să se alinieze cu rotaţia blocului sursă. Reţineţi că acest lucru se aplică doar când blocul Jigsaw este plasat în sus sau în jos.",
+        "translation": "§eTip de atașare§f - O articulație poate fi rulabilă (implicit) sau aliniată. Dacă tipul de articulaţie este rotativă, structura țintă va fi rotită aleatoriu în jurul blocului sursă Jigsaw. Dacă tipul articulaţiei este aliniată, structura ţintă va fi plasată astfel încât rotaţia blocului Jigsaw să se alinieze cu rotaţia blocului sursă. Reţineţi că acest lucru se aplică doar când blocul Jigsaw este plasat în sus sau în jos.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38720,6 +38720,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.tropicalBodySunstreakSingle.name",
+        "source_string": "%1$s SunStreak",
+        "translation": "%1$s SunStreak",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.tropicalBodySnooperSingle.name",
         "source_string": "%1$s Snooper",
         "translation": "%1$s Băgăreț",
@@ -38795,6 +38803,14 @@
         "identifier": "item.tropicalBodyClayfishSingle.name",
         "source_string": "%1$s Clayfish",
         "translation": "%1$s Pește de lut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.tropicalBodySunstreakMulti.name",
+        "source_string": "%1$s-%2$s SunStreak",
+        "translation": "%1$s-%2$s SunStreak",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -38891,6 +38907,14 @@
         "identifier": "item.tropicalSchoolBlackTang.name",
         "source_string": "Black Tang",
         "translation": "Chirurg negru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.tropicalSchoolBlueDory.name",
+        "source_string": "Blue Dory",
+        "translation": "Pește chirurg albastru",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42112,6 +42136,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.unbreakable",
+        "source_string": "Unbreakable",
+        "translation": "Indestructibil",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.waxed_copper_door.name",
         "source_string": "Waxed Copper Door",
         "translation": "Ușă de cupru ceruită",
@@ -42152,9 +42184,1105 @@
         "max_length": null
     },
     {
+        "identifier": "item.wind_charge.name",
+        "source_string": "Wind Charge",
+        "translation": "Minge de vânt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wheat.name",
+        "source_string": "Wheat",
+        "translation": "Grâu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wolf_armor.name",
+        "source_string": "Wolf Armor",
+        "translation": "Armură de lup",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.writable_book.name",
+        "source_string": "Book and Quill",
+        "translation": "Carte și condei",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.written_book.name",
+        "source_string": "Written Book",
+        "translation": "Carte scrisă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.glowstone_dust.name",
+        "source_string": "Glowstone Dust",
+        "translation": "Praf strălucitor",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shulker_shell.name",
+        "source_string": "Shulker Shell",
+        "translation": "Carapace de shulker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.totem.name",
+        "source_string": "Totem of Undying",
+        "translation": "Totem al nemuririi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.trial_key.name",
+        "source_string": "Trial Key",
+        "translation": "Cheie de încercare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.turtle_helmet.name",
+        "source_string": "Turtle Shell",
+        "translation": "Carapace de țestoasă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.turtle_shell_piece.name",
+        "source_string": "Turtle Scute",
+        "translation": "Solz de țestoasă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.phantom_membrane.name",
+        "source_string": "Phantom Membrane",
+        "translation": "Membrană de fantasmă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.sweet_berries.name",
+        "source_string": "Sweet Berries",
+        "translation": "Fructe de pădure dulci",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.suspicious_stew.name",
+        "source_string": "Suspicious Stew",
+        "translation": "Supă suspectă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.field_masoned_banner_pattern.name",
+        "source_string": "Field Masoned Banner Pattern",
+        "translation": "Model pentru stindard de câmp zidit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.creeper_banner_pattern.name",
+        "source_string": "Creeper Charge Banner Pattern",
+        "translation": "Model pentru stindard de creeper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flow_banner_pattern.name",
+        "source_string": "Flow Banner Pattern",
+        "translation": "Model pentru stindard de spirală",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flower_banner_pattern.name",
+        "source_string": "Flower Charge Banner Pattern",
+        "translation": "Model pentru stindard de floare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.globe_banner_pattern.name",
+        "source_string": "Globe Banner Pattern",
+        "translation": "Model pentru stindard de glob",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.guster_banner_pattern.name",
+        "source_string": "Guster Banner Pattern",
+        "translation": "Model pentru stindard de rafală",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.piglin_banner_pattern.name",
+        "source_string": "Snout Banner Pattern",
+        "translation": "Model pentru stindard de rât",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.skull_banner_pattern.name",
+        "source_string": "Skull Charge Banner Pattern",
+        "translation": "Model pentru stindard de cap de mort",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.mojang_banner_pattern.name",
+        "source_string": "Thing Banner Pattern",
+        "translation": "Model pentru stindard de chestie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bordure_indented_banner_pattern.name",
+        "source_string": "Bordure Indented Banner Pattern",
+        "translation": "Model pentru stindard de bordură dințată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.bricks",
+        "source_string": "Field Masoned",
+        "translation": "Câmp zidit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.creeper",
+        "source_string": "Creeper Charge",
+        "translation": "Creeper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.flow",
+        "source_string": "Flow",
+        "translation": "Spirală",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.flower",
+        "source_string": "Flower Charge",
+        "translation": "Floare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.globe",
+        "source_string": "Globe",
+        "translation": "Glob",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.guster",
+        "source_string": "Guster",
+        "translation": "Rafală",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.name",
+        "source_string": "Banner Pattern",
+        "translation": "Model pentru stindard",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.piglin",
+        "source_string": "Snout",
+        "translation": "Rât",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.skull",
+        "source_string": "Skull Charge",
+        "translation": "Cap de mort",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.thing",
+        "source_string": "Thing",
+        "translation": "Chestie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.banner_pattern.vines",
+        "source_string": "Bordure Indented",
+        "translation": "Bordură dințată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bucketPowderSnow.name",
+        "source_string": "Powder Snow Bucket",
+        "translation": "Găleată cu zăpadă-pudră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pale_oak_door.name",
+        "source_string": "Pale Oak Door",
+        "translation": "Ușă de stejar palid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pale_oak_hanging_sign.name",
+        "source_string": "Pale Oak Hanging Sign",
+        "translation": "Semn agățat de stejar palid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pale_oak_sign.name",
+        "source_string": "Pale Oak Sign",
+        "translation": "Semn de stejar palid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_sapling.name",
+        "source_string": "Pale Oak Sapling",
+        "translation": "Puiet de stejar palid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_leaves.name",
+        "source_string": "Pale Oak Leaves",
+        "translation": "Frunze de stejar palid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.boat.pale_oak.name",
+        "source_string": "Pale Oak Boat",
+        "translation": "Barcă de stejar palid",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.chest_boat.pale_oak.name",
+        "source_string": "Pale Oak Boat with Chest",
+        "translation": "Barcă de stejar palid cu cufăr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.resin_brick.name",
+        "source_string": "Resin Brick",
+        "translation": "Cărămizi de rășină",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.worldbuilder.block.failed",
+        "source_string": "You need Creative + Operator to place this block",
+        "translation": "Aveți nevoie de modul creativ + operator pentru a plasa acest bloc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.name",
+        "source_string": "Shield",
+        "translation": "Scut",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.white.name",
+        "source_string": "White Shield",
+        "translation": "Scut alb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.lime.name",
+        "source_string": "Lime Shield",
+        "translation": "Scut verde-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.yellow.name",
+        "source_string": "Yellow Shield",
+        "translation": "Scut galben",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.silver.name",
+        "source_string": "Light Gray Shield",
+        "translation": "Scut gri-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.pink.name",
+        "source_string": "Pink Shield",
+        "translation": "Scut roz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.purple.name",
+        "source_string": "Purple Shield",
+        "translation": "Scut violet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.red.name",
+        "source_string": "Red Shield",
+        "translation": "Scut roșu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.orange.name",
+        "source_string": "Orange Shield",
+        "translation": "Scut portocaliu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.lightBlue.name",
+        "source_string": "Light Blue Shield",
+        "translation": "Scut bleu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.magenta.name",
+        "source_string": "Magenta Shield",
+        "translation": "Scut magenta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.gray.name",
+        "source_string": "Gray Shield",
+        "translation": "Scut gri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.green.name",
+        "source_string": "Green Shield",
+        "translation": "Scut verde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.cyan.name",
+        "source_string": "Cyan Shield",
+        "translation": "Scut turcoaz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.brown.name",
+        "source_string": "Brown Shield",
+        "translation": "Scut maro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.black.name",
+        "source_string": "Black Shield",
+        "translation": "Scut negru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shield.blue.name",
+        "source_string": "Blue Shield",
+        "translation": "Scut albastru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle",
+        "source_string": "Bundle",
+        "translation": "Săculeț",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.black_bundle",
+        "source_string": "Black Bundle",
+        "translation": "Săculeț negru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.white_bundle",
+        "source_string": "White Bundle",
+        "translation": "Săculeț alb",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.red_bundle",
+        "source_string": "Red Bundle",
+        "translation": "Săculeț roșu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.orange_bundle",
+        "source_string": "Orange Bundle",
+        "translation": "Săculeț portocaliu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.yellow_bundle",
+        "source_string": "Yellow Bundle",
+        "translation": "Săculeț galben",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.green_bundle",
+        "source_string": "Green Bundle",
+        "translation": "Săculeț verde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.lime_bundle",
+        "source_string": "Lime Bundle",
+        "translation": "Săculeț verde-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.brown_bundle",
+        "source_string": "Brown Bundle",
+        "translation": "Săculeț maro",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.light_gray_bundle",
+        "source_string": "Light Gray Bundle",
+        "translation": "Săculeț gri-deschis",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.light_blue_bundle",
+        "source_string": "Light Blue Bundle",
+        "translation": "Săculeț bleu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.blue_bundle",
+        "source_string": "Blue Bundle",
+        "translation": "Săculeț albastru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.gray_bundle",
+        "source_string": "Gray Bundle",
+        "translation": "Săculeț gri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.pink_bundle",
+        "source_string": "Pink Bundle",
+        "translation": "Săculeț roz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.magenta_bundle",
+        "source_string": "Magenta Bundle",
+        "translation": "Săculeț magenta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.purple_bundle",
+        "source_string": "Purple Bundle",
+        "translation": "Săculeț violet",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.cyan_bundle",
+        "source_string": "Cyan Bundle",
+        "translation": "Săculeț turcoaz",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle.empty",
+        "source_string": "Empty",
+        "translation": "Gol",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle.empty.description",
+        "source_string": "Can hold a mixed stack of items",
+        "translation": "Poate conține o stivă mixtă de obiecte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle.full",
+        "source_string": "Full",
+        "translation": "Plin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bundle.fullness",
+        "source_string": "%s left",
+        "translation": "Încă %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.goat_horn.name",
+        "source_string": "Goat Horn",
+        "translation": "Corn de capră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.0",
+        "source_string": "Ponder",
+        "translation": "Contemplează",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.1",
+        "source_string": "Sing",
+        "translation": "Cântă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.2",
+        "source_string": "Seek",
+        "translation": "Caută",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.3",
+        "source_string": "Feel",
+        "translation": "Simte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.4",
+        "source_string": "Admire",
+        "translation": "Admiră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.5",
+        "source_string": "Call",
+        "translation": "Cheamă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.6",
+        "source_string": "Yearn",
+        "translation": "Tânjește",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.minecraft.goat_horn.sound.7",
+        "source_string": "Dream",
+        "translation": "Visează",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.search",
+        "source_string": "Search Items",
+        "translation": "Caută",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.planks",
+        "source_string": "Planks",
+        "translation": "Scânduri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.walls",
+        "source_string": "Walls",
+        "translation": "Ziduri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.fence",
+        "source_string": "Fences",
+        "translation": "Garduri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.fenceGate",
+        "source_string": "Fence Gates",
+        "translation": "Portițe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stairs",
+        "source_string": "Stairs",
+        "translation": "Trepte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.door",
+        "source_string": "Doors",
+        "translation": "Uși",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glass",
+        "source_string": "Glass",
+        "translation": "Sticlă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glassPane",
+        "source_string": "Glass Panes",
+        "translation": "Panouri de sticlă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.permission",
+        "source_string": "Permission Blocks",
+        "translation": "Blocuri de permisiuni",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.slab",
+        "source_string": "Slabs",
+        "translation": "Lespezi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stoneBrick",
+        "source_string": "Decorative Stone",
+        "translation": "Piatră decorativă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sandstone",
+        "source_string": "Sandstone",
+        "translation": "Gresie",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.wool",
+        "source_string": "Wool",
+        "translation": "Lână",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.woolCarpet",
+        "source_string": "Wool Carpet",
+        "translation": "Covoare din lână",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concretePowder",
+        "source_string": "Concrete Powder",
+        "translation": "Beton uscat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concrete",
+        "source_string": "Concrete",
+        "translation": "Beton",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stainedClay",
+        "source_string": "Terracotta",
+        "translation": "Teracote",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glazedTerracotta",
+        "source_string": "Glazed Terracottas",
+        "translation": "Teracote smălțuite",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.dye",
+        "source_string": "Dyes",
+        "translation": "Coloranți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.ore",
+        "source_string": "Ores",
+        "translation": "Minereuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stone",
+        "source_string": "Stone",
+        "translation": "Piatră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.log",
+        "source_string": "Logs",
+        "translation": "Bușteni",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.leaves",
+        "source_string": "Leaves",
+        "translation": "Frunze",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sapling",
+        "source_string": "Saplings",
+        "translation": "Puieți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.seed",
+        "source_string": "Seeds",
+        "translation": "Semințe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.crop",
+        "source_string": "Crops",
+        "translation": "Culturi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.grass",
+        "source_string": "Ground Cover",
+        "translation": "Acoperire teren",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.flower",
+        "source_string": "Flowers",
+        "translation": "Flori",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.rawFood",
         "source_string": "Raw Food",
         "translation": "Mâncare crudă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.cookedFood",
+        "source_string": "Cooked Food",
+        "translation": "Mâncare gătită",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.miscFood",
+        "source_string": "Miscellaneous Foods",
+        "translation": "Mâncăruri diverse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.mushroom",
+        "source_string": "Mushrooms",
+        "translation": "Ciuperci",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.monsterStoneEgg",
+        "source_string": "Infested Stone",
+        "translation": "Piatră infestată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.mobEgg",
+        "source_string": "Mob Eggs",
+        "translation": "Ouă generatoare de creaturi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.helmet",
+        "source_string": "Helmets",
+        "translation": "Coifuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestplate",
+        "source_string": "Chestplates",
+        "translation": "Platoșe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.leggings",
+        "source_string": "Leggings",
+        "translation": "Jambiere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.boots",
+        "source_string": "Boots",
+        "translation": "Cizme",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.horseArmor",
+        "source_string": "Horse Armor",
+        "translation": "Armuri de cal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sword",
+        "source_string": "Swords",
+        "translation": "Săbii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.axe",
+        "source_string": "Axes",
+        "translation": "Topoare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.pickaxe",
+        "source_string": "Pickaxes",
+        "translation": "Târnăcoape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.shovel",
+        "source_string": "Shovels",
+        "translation": "Lopeți",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.hoe",
+        "source_string": "Hoes",
+        "translation": "Sape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.arrow",
+        "source_string": "Arrows",
+        "translation": "Săgeți",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42179,6 +43307,342 @@
         "identifier": "itemGroup.name.lingeringPotion",
         "source_string": "Lingering Potions",
         "translation": "Poțiuni persistente",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.ominousBottle",
+        "source_string": "Ominous Bottles",
+        "translation": "Sticle de rău augur",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.bed",
+        "source_string": "Beds",
+        "translation": "Paturi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chalkboard",
+        "source_string": "Chalkboards",
+        "translation": "Table cu cretă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.anvil",
+        "source_string": "Anvils",
+        "translation": "Nicovale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chest",
+        "source_string": "Chests",
+        "translation": "Cufere",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.shulkerBox",
+        "source_string": "Shulker Boxes",
+        "translation": "Cutii de shulker",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.record",
+        "source_string": "Records",
+        "translation": "Discuri muzicale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.skull",
+        "source_string": "Mob Skulls",
+        "translation": "Capuri de creaturi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.boat",
+        "source_string": "Boats",
+        "translation": "Bărci",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestboat",
+        "source_string": "Boats with Chest",
+        "translation": "Bărci cu cufăr",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rail",
+        "source_string": "Rails",
+        "translation": "Șine",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.minecart",
+        "source_string": "Minecarts",
+        "translation": "Vagonete",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.pressurePlate",
+        "source_string": "Pressure Plates",
+        "translation": "Plăci de presiune",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.trapdoor",
+        "source_string": "Trapdoors",
+        "translation": "Trape",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.enchantedBook",
+        "source_string": "Enchanted Books",
+        "translation": "Cărți fermecate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner",
+        "source_string": "Banners",
+        "translation": "Stindarde",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.firework",
+        "source_string": "Fireworks",
+        "translation": "Artificii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.fireworkStars",
+        "source_string": "Firework Charges",
+        "translation": "Artificii",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.coral",
+        "source_string": "Coral Blocks",
+        "translation": "Blocuri de coral",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.coral_decorations",
+        "source_string": "Coral Decorations",
+        "translation": "Decorațiuni corale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.buttons",
+        "source_string": "Buttons",
+        "translation": "Butoane",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sign",
+        "source_string": "Signs",
+        "translation": "Semne",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.wood",
+        "source_string": "Woods",
+        "translation": "Lemne",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner_pattern",
+        "source_string": "Banner Patterns",
+        "translation": "Modele pentru stindard",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.netherWartBlock",
+        "source_string": "Nether Warts",
+        "translation": "Negi din Nether",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.candles",
+        "source_string": "Candles",
+        "translation": "Lumânări",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.goatHorn",
+        "source_string": "Goat Horns",
+        "translation": "Coarne de capră",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.compounds",
+        "source_string": "Compounds",
+        "translation": "Compuși",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.products",
+        "source_string": "Products",
+        "translation": "Produși",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.bundles",
+        "source_string": "Bundles",
+        "translation": "Săculețe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw_block.title",
+        "source_string": "Jigsaw Block",
+        "translation": "Bloc jigsaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.target_pool",
+        "source_string": "Target Pool:",
+        "translation": "Elemente-țintă:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.name",
+        "source_string": "Name:",
+        "translation": "Nume:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.target",
+        "source_string": "Target Name:",
+        "translation": "Nume-țintă:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.final_block",
+        "source_string": "Turns Into:",
+        "translation": "Se transformă în:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.selection_priority",
+        "source_string": "Selection Priority:",
+        "translation": "Prioritate selecție:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.placement_priority",
+        "source_string": "Placement Priority:",
+        "translation": "Prioritate plasare:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.joint_type",
+        "source_string": "Joint Type:",
+        "translation": "Tip de atașare:",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.title.joint_type.aligned",
+        "source_string": "Aligned",
+        "translation": "Aliniată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.joint_type.aligned",
+        "source_string": "Aligned",
+        "translation": "Aliniată",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.joint_type.rollable",
+        "source_string": "Rollable",
+        "translation": "Rotativă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "jigsaw.exit.done",
+        "source_string": "Done",
+        "translation": "Gata",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44744,6 +46208,14 @@
         "max_length": null
     },
     {
+        "identifier": "record.nowPlaying",
+        "source_string": "Now playing: %s",
+        "translation": "Disc redat: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.available.none.store",
         "source_string": "View Marketplace",
         "translation": "Vezi Piața",
@@ -44859,6 +46331,14 @@
         "identifier": "entity.warden.name",
         "source_string": "Warden",
         "translation": "Gardian",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.record_5.desc",
+        "source_string": "Samuel Åberg - 5",
+        "translation": "Samuel Åberg – 5",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -45160,6 +46640,78 @@
         "max_length": null
     },
     {
+        "identifier": "soundCategory.block",
+        "source_string": "Blocks",
+        "translation": "Blocuri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.hostile",
+        "source_string": "Hostile Creatures",
+        "translation": "Creaturi ostile",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.main",
+        "source_string": "Main",
+        "translation": "Volum principal",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.music",
+        "source_string": "Music",
+        "translation": "Muzică",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.neutral",
+        "source_string": "Friendly Creatures",
+        "translation": "Creaturi prietenoase",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.player",
+        "source_string": "Players",
+        "translation": "Jucători",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.record",
+        "source_string": "Jukebox/Note Blocks",
+        "translation": "Discuri și note",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.weather",
+        "source_string": "Weather",
+        "translation": "Vreme",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.texttospeech",
+        "source_string": "Text to Speech",
+        "translation": "Transformarea textului în vorbire",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "stat.beaconInteraction",
         "source_string": "Interactions with Beacon",
         "translation": "Interacțiuni cu farul",
@@ -45187,6 +46739,14 @@
         "identifier": "stat.dropperInspected",
         "source_string": "Droppers Searched",
         "translation": "Aruncătoare căutate",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stat.recordPlayed",
+        "source_string": "Records Played",
+        "translation": "Discuri muzicale ascultate",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -45744,6 +47304,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.jigsaw.name",
+        "source_string": "Jigsaw Block",
+        "translation": "Bloc jigsaw",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "tile.structure_block.name",
         "source_string": "Structure Block",
         "translation": "Bloc de structură",
@@ -45827,6 +47395,14 @@
         "identifier": "tile.copper_ore.name",
         "source_string": "Copper Ore",
         "translation": "Minereu de cupru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pale_oak_trapdoor.name",
+        "source_string": "Pale Oak Trapdoor",
+        "translation": "Ușă de stejar palid",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
