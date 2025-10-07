@@ -6944,6 +6944,14 @@
         "max_length": null
     },
     {
+        "identifier": "createWorldScreen.experimentalArmadillo",
+        "source_string": "Armadillo and Wolf Armor",
+        "translation": "Girdledeer and Wolf Borrow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "createWorldScreen.experimentalArmadilloDescription",
         "source_string": "Get to know the Armadillo and gear up your Wolf with the new Wolf Armor!",
         "translation": "Meet the Girdledeer and yare up your Wolf with the new Wolf Borrow!",
@@ -10400,6 +10408,14 @@
         "max_length": null
     },
     {
+        "identifier": "entity.armor_stand.name",
+        "source_string": "Armor Stand",
+        "translation": "Borrow Stand",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "entity.breeze.name",
         "source_string": "Breeze",
         "translation": "Whith",
@@ -10579,6 +10595,14 @@
         "identifier": "entity.thrown_trident.name",
         "source_string": "Trident",
         "translation": "Leister",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.villager.armor",
+        "source_string": "Armorer",
+        "translation": "Borrowsmith",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29864,9 +29888,25 @@
         "max_length": null
     },
     {
+        "identifier": "container.smithing_table.input_slot_tooltip_armor_trim",
+        "source_string": "Add a piece of armor",
+        "translation": "Eke borrow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.smithing_table.input_slot_tooltip_netherite",
         "source_string": "Add Diamond armor, weapon, or tool",
         "translation": "Eke Athamans borrow, weapon, or tool",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.smithing_table.material_slot_tooltip_armor_trim",
+        "source_string": "Add ingot or crystal",
+        "translation": "Eke ingot or imm",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29883,6 +29923,14 @@
         "identifier": "entity.camel.name",
         "source_string": "Camel",
         "translation": "Drylander",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.smithing_table.header.2",
+        "source_string": "Armor Trims",
+        "translation": "Borrow Trims",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29984,6 +30032,22 @@
         "max_length": null
     },
     {
+        "identifier": "item.smithing_template.armor_trim.applies_to",
+        "source_string": "Armor",
+        "translation": "Borrow",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.smithing_template.armor_trim.ingredients",
+        "source_string": "Ingots & Crystals",
+        "translation": "Ingots & Imms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.smithing_template.netherite_upgrade.applies_to",
         "source_string": "Diamond Equipment",
         "translation": "Athamans Hardware",
@@ -30003,6 +30067,46 @@
         "identifier": "item.netherite_upgrade_smithing_template.name",
         "source_string": "Netherite Upgrade",
         "translation": "Netherite Bettering",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.sentry_armor_trim_smithing_template.name",
+        "source_string": "Sentry Armor Trim",
+        "translation": "Watchman Borrow Trim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.vex_armor_trim_smithing_template.name",
+        "source_string": "Vex Armor Trim",
+        "translation": "Nettle Borrow Trim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.wild_armor_trim_smithing_template.name",
+        "source_string": "Wild Armor Trim",
+        "translation": "Wild Borrow Trim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.coast_armor_trim_smithing_template.name",
+        "source_string": "Coast Armor Trim",
+        "translation": "Beach Borrow Trim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.dune_armor_trim_smithing_template.name",
+        "source_string": "Dune Armor Trim",
+        "translation": "Sandhill Borrow Trim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
