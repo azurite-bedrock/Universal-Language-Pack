@@ -43912,9 +43912,257 @@
         "max_length": null
     },
     {
+        "identifier": "joincode.ip_entry.address.tooltip",
+        "source_string": "To find the IP Address, ask the host to pause their game. The IP Address and Port number can be found on the multiplayer tab of the Game menu.",
+        "translation": "Pentru a găsi adresa IP, cere gazdei să întrerupă jocul. Adresa IP și numărul portului pot fi găsite în fila multiplayer din meniul Joc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.ip_entry.port.tooltip",
+        "source_string": "To find the Port number, ask the host to pause their game. The IP Address and Port number can be found on the multiplayer tab of the Game menu.",
+        "translation": "Pentru a găsi numărul portului, cere gazdei să întrerupă jocul. Adresa IP și numărul portului pot fi găsite în fila multiplayer din meniul Joc.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.generate_new.button.text",
+        "source_string": "Generate New Join Code",
+        "translation": "Generează cod nou de alăturare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.generate_new.tooltip.text",
+        "source_string": "Generating a new code will not interrupt your multiplayer session.",
+        "translation": "Generarea unui cod nou nu va întrerupe sesiunea ta de multiplayer.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.button.share_link.text",
+        "source_string": "Share a Link",
+        "translation": "Distribuiți un link",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.generating_new",
+        "source_string": "Loading...",
+        "translation": "Se încarcă...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.tooltip.errortext",
+        "source_string": "There was an error generating your join code.",
+        "translation": "A apărut o eroare la generarea codului tău de alăturare.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.tooltip.account.error",
+        "source_string": "There was a problem verifying your account. Please restart Minecraft Education and try again.",
+        "translation": "A apărut o eroare la verificarea contului. Vă rugăm să reporniți Minecraft Education și să încercați din nou.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.tooltip.infotext",
+        "source_string": "Give the join code to your classmate so they can join your world.",
+        "translation": "Transmite codul de alăturare partenerului tău de clasă pentru a se putea alătura lumii tale.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.button.stop_hosting.text",
+        "source_string": "Stop Hosting",
+        "translation": "Oprește găzduirea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.confirmation.stop_hosting.message",
+        "source_string": "If you stop hosting the world, the multiplayer session will end for all players. Are you sure you want to do this?",
+        "translation": "Dacă încetați să mai găzduiți lumea, sesiunea multiplayer se va termina pentru toți jucătorii. Sunteți sigur că doriți să faceți asta?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.button.start_hosting.text",
+        "source_string": "Start Hosting",
+        "translation": "Începe găzduirea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.confirmation.start_hosting.message",
+        "source_string": "If you start hosting, we will create a code for you to give to other players so they can join your world. Would you like to start hosting?",
+        "translation": "Dacă începi să găzduiești, vom crea un cod pe care să îl dai altor jucători pentru ca ei să se poată alătura lumii tale. Vrei să începi găzduirea?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.button.restart_hosting.text",
+        "source_string": "Restart Hosting",
+        "translation": "Repornește găzduirea",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.confirmation.restart_hosting.message",
+        "source_string": "Would you like to restart hosting?",
+        "translation": "Doriți să reporniți găzduirea?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.service.unreachable",
+        "source_string": "The discovery service can not be reached",
+        "translation": "Serviciul de descoperire nu poate fi găsit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.button.generate_code.text",
+        "source_string": "Generate New Join Code",
+        "translation": "Generează cod nou de alăturare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.confirmation.generate_code.message",
+        "source_string": "Making a new join code will not stop your multiplayer game. The new code will be used to invite additional players.",
+        "translation": "Crearea unui nou cod de alăturare nu va opri jocul tău multiplayer. Noul cod va fi folosit pentru a invita alți jucători.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.service.unavailable",
+        "source_string": "Join codes are not available right now. Try refreshing or use your IP address instead.",
+        "translation": "Codurile de alăturare nu sunt disponibile momentan. Încearcă să reîmprospătezi sau să folosești adresa ta IP.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.pause.ipaddress",
+        "source_string": "IP ADDRESS",
+        "translation": "ADRESA IP",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.pause.port",
+        "source_string": "PORT",
+        "translation": "PORT",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.pause.nethernetLabel",
+        "source_string": "CONNECTION ID",
+        "translation": "ID CONEXIUNE",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.attack",
+        "source_string": "Attack/Destroy",
+        "translation": "Atacă/distruge",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.back",
+        "source_string": "Walk Backwards",
+        "translation": "Mergi înapoi",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.categories.gameplay",
+        "source_string": "Gameplay",
+        "translation": "Acțiuni din joc",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.categories.inventory",
+        "source_string": "Inventory",
+        "translation": "Inventar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.categories.misc",
+        "source_string": "Miscellaneous",
+        "translation": "Diverse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.categories.movement",
+        "source_string": "Movement",
+        "translation": "Mișcare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "key.categories.multiplayer",
         "source_string": "Multiplayer",
         "translation": "Multiplayer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.categories.stream",
+        "source_string": "Streaming",
+        "translation": "Streaming",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.categories.ui",
+        "source_string": "Game Interface",
+        "translation": "Interfața jocului",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.codeBuilder",
+        "source_string": "Code Builder",
+        "translation": "Editor de cod",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -43928,9 +44176,73 @@
         "max_length": null
     },
     {
+        "identifier": "key.command",
+        "source_string": "Open Command",
+        "translation": "Introdu o comandă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.copyCoordinates",
+        "source_string": "Copy Coordinates",
+        "translation": "Copiază coordonatele",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.copyFacingCoordinates",
+        "source_string": "Copy Facing Coordinates",
+        "translation": "Copiază coordonatele din față",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.cycleItemLeft",
+        "source_string": "Cycle Item Left",
+        "translation": "Schimbă cu obiectul din stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.cycleItemRight",
+        "source_string": "Cycle Item Right",
+        "translation": "Schimbă cu obiectul din dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.scoreboard",
+        "source_string": "Show Scoreboard",
+        "translation": "Afișează tabloul de scoruri",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "key.drop",
         "source_string": "Drop Item",
         "translation": "Aruncă obiect",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.forward",
+        "source_string": "Walk Forwards",
+        "translation": "Mergi înainte",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.fullscreen",
+        "source_string": "Toggle Fullscreen",
+        "translation": "Comută ecranul complet",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44008,9 +44320,265 @@
         "max_length": null
     },
     {
+        "identifier": "key.cyclefixedinventory",
+        "source_string": "Cycle Fixed Inventory",
+        "translation": "Treci prin inventarul fixat",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.immersivereader",
+        "source_string": "Immersive Reader",
+        "translation": "Cititor imersiv",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.interactwithtoast",
+        "source_string": "Open Notification",
+        "translation": "Deschide notificare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.mobeffectsandinteractwithtoast",
+        "source_string": "Open Notification/Mob Effects",
+        "translation": "Deschide notificare/efecte de creatură",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.script_toggle",
+        "source_string": "Toggle Mouse Mode",
+        "translation": "Comutare mod mouse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.script_cancel",
+        "source_string": "Cancel Current Action",
+        "translation": "Anulare acțiune curentă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.script_open_map",
+        "source_string": "Open Map UI",
+        "translation": "Deschide interfața de hartă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "key.script_open_chat",
         "source_string": "Open Chat UI",
         "translation": "Deschide interfața discuției",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.script_open_inventory",
+        "source_string": "Open Inventory UI",
+        "translation": "Deschide interfața de inventar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.script_open_mission",
+        "source_string": "Open Mission UI",
+        "translation": "Deschide interfața de misiuni",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.inventory",
+        "source_string": "Inventory",
+        "translation": "Inventar",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.jump",
+        "source_string": "Jump/Fly Up",
+        "translation": "Sari/zboară în sus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.left",
+        "source_string": "Strafe Left",
+        "translation": "Mergi spre stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookCenter",
+        "source_string": "Look Center",
+        "translation": "Uită-te în centru",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookDown",
+        "source_string": "Look Down",
+        "translation": "Uită-te în jos",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookDownLeft",
+        "source_string": "Look Down Left",
+        "translation": "Uită-te în jos stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookDownRight",
+        "source_string": "Look Down Right",
+        "translation": "Uită-te în jos dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookDownSlight",
+        "source_string": "Look Down Slight",
+        "translation": "Uită-te în jos puțin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookDownSmooth",
+        "source_string": "Look Down Smooth",
+        "translation": "Uită-te în jos lin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookLeft",
+        "source_string": "Look Left",
+        "translation": "Uită-te la stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookLeftSmooth",
+        "source_string": "Look Left Smooth",
+        "translation": "Uită-te la stânga lin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookRight",
+        "source_string": "Look Right",
+        "translation": "Uită-te la dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookRightSmooth",
+        "source_string": "Look Right Smooth",
+        "translation": "Uită-te la dreapta lin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookUp",
+        "source_string": "Look Up",
+        "translation": "Uită-te în sus",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookUpLeft",
+        "source_string": "Look Up Left",
+        "translation": "Uită-te în sus stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookUpRight",
+        "source_string": "Look Up Right",
+        "translation": "Uită-te în sus dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookUpSlight",
+        "source_string": "Look Up Slight",
+        "translation": "Uită-te în sus puțin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.lookUpSmooth",
+        "source_string": "Look Up Smooth",
+        "translation": "Uită-te în sus lin",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.menuTabLeft",
+        "source_string": "Menu Tab Left",
+        "translation": "Filă meniu la stânga",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.menuTabRight",
+        "source_string": "Menu Tab Right",
+        "translation": "Filă meniu la dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.menuCancel",
+        "source_string": "Menu Cancel",
+        "translation": "Anulare meniu",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.mouseButton",
+        "source_string": "Button %1$s",
+        "translation": "Clic %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.pickItem",
+        "source_string": "Pick Block",
+        "translation": "Alege blocul",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44024,9 +44592,97 @@
         "max_length": null
     },
     {
+        "identifier": "key.right",
+        "source_string": "Strafe Right",
+        "translation": "Mergi spre dreapta",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.screenshot",
+        "source_string": "Take Screenshot",
+        "translation": "Fă o captură de ecran",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.smoothCamera",
+        "source_string": "Toggle Cinematic Camera",
+        "translation": "Comută camera cinematică",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.sneak",
+        "source_string": "Sneak/Fly Down",
+        "translation": "Furișează-te/zbori în jos",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "key.spectatorOutlines",
         "source_string": "Highlight Players (Spectators)",
         "translation": "Evidențiere jucători (spectatori)",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.sprint",
+        "source_string": "Sprint",
+        "translation": "Aleargă",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.streamCommercial",
+        "source_string": "Show Stream Commercials",
+        "translation": "Arată reclame pe stream",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.streamPauseUnpause",
+        "source_string": "Pause/Unpause Stream",
+        "translation": "Redare/pauză stream",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.streamStartStop",
+        "source_string": "Start/Stop Stream",
+        "translation": "Pornire/oprire stream",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.streamToggleMic",
+        "source_string": "Push To Talk/Mute",
+        "translation": "Apasă pentru a vorbi/oprește sunetul",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.togglePerspective",
+        "source_string": "Toggle Perspective",
+        "translation": "Comută perspectiva",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.toggleControlTips",
+        "source_string": "Control Tips",
+        "translation": "Sfaturi controale",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
