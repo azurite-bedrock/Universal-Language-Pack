@@ -12562,7 +12562,7 @@
     {
         "identifier": "howtoplay.permissionBlocks.title.1",
         "source_string": "Allow/Deny",
-        "translation": "Aleave/Atsake",
+        "translation": "Aleave/Asake",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12570,7 +12570,7 @@
     {
         "identifier": "howtoplay.permissionBlocks.text.2",
         "source_string": "Allow and Deny blocks control where players can build in a world.",
-        "translation": "Aleave and Atsake clots wield where players can build in a world.",
+        "translation": "Aleave and Asake clots wield where players can build in a world.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12578,7 +12578,7 @@
     {
         "identifier": "howtoplay.permissionBlocks.text.3",
         "source_string": "Players can place or destroy blocks above Allow blocks. Players cannot place or destroy blocks above Deny blocks.",
-        "translation": "Players can lay or break clots above Aleave clots. Players cannot lay or break clots above Atsake clots.",
+        "translation": "Players can lay or break clots above Aleave clots. Players cannot lay or break clots above Asake clots.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12586,7 +12586,7 @@
     {
         "identifier": "howtoplay.permissionBlocks.text.4",
         "source_string": "Allow and Deny blocks do not affect the area below them.",
-        "translation": "Aleave and Atsake clots do not rine the spot beneath hem.",
+        "translation": "Aleave and Asake clots do not rine the spot beneath hem.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12594,7 +12594,7 @@
     {
         "identifier": "howtoplay.permissionBlocks.text.5",
         "source_string": "An Allow block with a Deny block somewhere below it prevents players from building in the space between the two blocks. Above the Allow block, players can place and destroy blocks.",
-        "translation": "An Aleave clot with an Atsake clot somewhere beneath it forestalls players from building in the gap between the two clots. Above the Aleave clot, players can lay and break clots.",
+        "translation": "An Aleave clot with an Asake clot somewhere beneath it forestalls players from building in the gap between the two clots. Above the Aleave clot, players can lay and break clots.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32362,7 +32362,7 @@
     {
         "identifier": "tile.deny.name",
         "source_string": "Deny",
-        "translation": "Atsake",
+        "translation": "Asake",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46264,9 +46264,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PostToRealmStoriesRoute.accessDenied.title",
+        "source_string": "Access denied",
+        "translation": "Togang asaken",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PostToRealmStoriesRoute.noRealmsFound.button",
+        "source_string": "Learn more about Realms",
+        "translation": "Learn more about Realms",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PostToRealmStoriesRoute.noRealmsFound.title",
+        "source_string": "No Realms found",
+        "translation": "No Realms found",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PostToRealmStoriesRoute.realmsCantLoad.button",
         "source_string": "Try again",
         "translation": "Fand ayen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PostToRealmStoriesRoute.realmsCantLoad.title",
+        "source_string": "Realms can't load!",
+        "translation": "Realms can't load!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46283,6 +46315,14 @@
         "identifier": "hbui.PostToRealmStoriesRoute.youNeedPermission.button",
         "source_string": "Learn more",
         "translation": "Learn more",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PostToRealmStoriesRoute.youNeedPermission.title",
+        "source_string": "Access denied",
+        "translation": "Togang asaken",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46384,9 +46424,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ProfanityWarningModalRoute.title",
+        "source_string": "Profanity filter",
+        "translation": "Warrying sieve",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileFollowersListRoute.header",
+        "source_string": "Followers",
+        "translation": "Followers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileFriendsListRoute.headerOther",
+        "source_string": "%1$s's Friends",
+        "translation": "%1$s's Friends",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ProfileFriendsListRoute.headerSelf",
         "source_string": "Friends",
         "translation": "Friends",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.achievementsInputLegend",
+        "source_string": "View achievements",
+        "translation": "Show fulfillings",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46400,9 +46472,57 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ProfileRoute.achievementsNarration",
+        "source_string": "Achievements %1$s of %2$s",
+        "translation": "Fulfillings %1$s of %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ProfileRoute.errorRetryButton",
         "source_string": "Try again",
         "translation": "Fand ayen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.feedbackButton",
+        "source_string": "Give feedback",
+        "translation": "Yeave feedback",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.followersInputLegend",
+        "source_string": "View followers",
+        "translation": "Show followers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.followersItemLabel",
+        "source_string": "Followers",
+        "translation": "Followers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.followersNarration",
+        "source_string": "Followers %1$s",
+        "translation": "Followers %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.friendsInputLegend",
+        "source_string": "View friends",
+        "translation": "Show friends",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -46416,9 +46536,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ProfileRoute.friendsItemLabelWithName",
+        "source_string": "%1$s's friends",
+        "translation": "%1$s's friends",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.friendsNarration",
+        "source_string": "Friends %1$s",
+        "translation": "Friends %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.friendsNarrationWithName",
+        "source_string": "%1$s's friends . %2$s",
+        "translation": "%1$s's friends . %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ProfileRoute.learnMoreButton",
         "source_string": "Learn more",
         "translation": "Learn more",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.listItemFractionValue",
+        "source_string": "%1$s/%2$s",
+        "translation": "%1$s/%2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
