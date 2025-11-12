@@ -5408,6 +5408,14 @@
         "max_length": null
     },
     {
+        "identifier": "commands.clear.failure",
+        "source_string": "Could not clear the inventory of %1$s",
+        "translation": "Could not empty the inholding of %1$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.clear.failure.no.items",
         "source_string": "Could not clear the inventory of %1$s, no items to remove",
         "translation": "Could not empty the inholding of %1$s, no things to fornim",
@@ -5419,6 +5427,14 @@
         "identifier": "commands.clear.success",
         "source_string": "Cleared the inventory of %1$s, removing %2$d items",
         "translation": "Emptied the inholding of %1$s, fornimming %2$d things",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.clear.tagError",
+        "source_string": "Data tag parsing failed: %1$s",
+        "translation": "Lore token understanding trucked: %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -5595,6 +5611,14 @@
         "identifier": "commands.defaultgamemode.description",
         "source_string": "Sets the default game mode.",
         "translation": "Sets the stock game wise.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.defaultgamemode.success",
+        "source_string": "The world's default game mode is now %1$s",
+        "translation": "The world's stock game wise is now %1$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
