@@ -6696,6 +6696,46 @@
         "max_length": null
     },
     {
+        "identifier": "commands.weather.description",
+        "source_string": "Sets the weather.",
+        "translation": "Sets the weather.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query",
+        "source_string": "Weather state is: %s",
+        "translation": "Set the weather to %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.clear",
+        "source_string": "clear",
+        "translation": "smolt",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.rain",
+        "source_string": "rain",
+        "translation": "rain",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.weather.query.thunder",
+        "source_string": "thunder",
+        "translation": "thunder",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.worldborder.get.success",
         "source_string": "World border is currently %1$s blocks wide",
         "translation": "World rim is anwardly %1$s clots wide",
@@ -6704,9 +6744,49 @@
         "max_length": null
     },
     {
+        "identifier": "container.beacon",
+        "source_string": "Beacon",
+        "translation": "Beacon",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.brewing",
+        "source_string": "Brewing Stand",
+        "translation": "Brewing Stand",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.chest",
+        "source_string": "Chest",
+        "translation": "Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.chestDouble",
         "source_string": "Large Chest",
         "translation": "Great Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.crafter",
+        "source_string": "Crafter",
+        "translation": "Crafter",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.crafting",
+        "source_string": "Crafting",
+        "translation": "Crafting",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6723,6 +6803,14 @@
         "identifier": "container.dispenser",
         "source_string": "Dispenser",
         "translation": "Thrower",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.dropper",
+        "source_string": "Dropper",
+        "translation": "Dropper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6784,9 +6872,65 @@
         "max_length": null
     },
     {
+        "identifier": "container.enderchest",
+        "source_string": "Ender Chest",
+        "translation": "Ender Chest",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.furnace",
+        "source_string": "Furnace",
+        "translation": "Oven",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.hopper",
         "source_string": "Item Hopper",
         "translation": "Thing Hopper",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.inventory",
+        "source_string": "Inventory",
+        "translation": "Inholding",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.isLocked",
+        "source_string": "%s is locked!",
+        "translation": "%s is locked!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.loom",
+        "source_string": "Loom",
+        "translation": "Loom",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.minecart",
+        "source_string": "Minecart",
+        "translation": "Delvewain",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.repair",
+        "source_string": "Repair & Name",
+        "translation": "Fettle & Name",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6800,9 +6944,25 @@
         "max_length": null
     },
     {
+        "identifier": "container.repair.expensive",
+        "source_string": "Too Expensive!",
+        "translation": "Too High of a Fee!",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.repairAndDisenchant",
         "source_string": "Repair & Disenchant",
         "translation": "Fettle & Ungale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.stonecutter",
+        "source_string": "Stonecutter",
+        "translation": "Stonesnither",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6816,9 +6976,49 @@
         "max_length": null
     },
     {
+        "identifier": "container.smithing_table",
+        "source_string": "Smithing Table",
+        "translation": "Smithing Bench",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "container.smithing_table_block",
         "source_string": "Smithing Table",
         "translation": "Smithing Bench",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.smithing_table.upgrade",
+        "source_string": "Upgrade Gear",
+        "translation": "Better Yare",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.shulkerbox",
+        "source_string": "Shulker Box",
+        "translation": "Shulker Box",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.shulkerboxContains",
+        "source_string": "and %d more...",
+        "translation": "and %d more...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "container.barrel",
+        "source_string": "Barrel",
+        "translation": "Vat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6840,6 +7040,30 @@
         "max_length": null
     },
     {
+        "identifier": "controller.buttonTip.back",
+        "source_string": "Back",
+        "translation": "Back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.backToAnvil",
+        "source_string": "Back to Anvil",
+        "translation": "Back to Anvil",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.backToBrewing",
+        "source_string": "Back to Brewing",
+        "translation": "Back to Brewing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "controller.buttonTip.backToEnchanting",
         "source_string": "Back to Enchanting",
         "translation": "Back to Galing",
@@ -6848,9 +7072,209 @@
         "max_length": null
     },
     {
+        "identifier": "controller.buttonTip.backToFurnace",
+        "source_string": "Back to Furnace",
+        "translation": "Back to Oven",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.cancel",
+        "source_string": "Cancel",
+        "translation": "Belay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.craft",
+        "source_string": "Craft",
+        "translation": "Craft",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.craftAll",
+        "source_string": "Craft All",
+        "translation": "Craft All",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.craftOne",
+        "source_string": "Craft One",
+        "translation": "Craft One",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.craftStack",
+        "source_string": "Craft Stack",
+        "translation": "Craft Heap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.craftTake",
+        "source_string": "Craft & Take",
+        "translation": "Craft & Nim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.drop",
+        "source_string": "Drop",
+        "translation": "Drop",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.edit",
+        "source_string": "Edit",
+        "translation": "Bework",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.exit",
+        "source_string": "Exit",
+        "translation": "Leave",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.external",
+        "source_string": "External",
+        "translation": "Outward",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.level",
+        "source_string": "Level",
+        "translation": "Layer",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.new",
+        "source_string": "New",
+        "translation": "New",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.pane.inventory",
+        "source_string": "Inventory",
+        "translation": "Inholding",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.pane.recipeBook",
+        "source_string": "Recipe Book",
+        "translation": "Knowledge Book",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.place.one",
+        "source_string": "Place One",
+        "translation": "Lay One",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.place",
+        "source_string": "Place",
+        "translation": "Lay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.quick.move",
+        "source_string": "Quick Move",
+        "translation": "Quick Shrithe",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.recipes.showAll",
+        "source_string": "Show All",
+        "translation": "Show All",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.recipes.showCraftable",
+        "source_string": "Show Craftable",
+        "translation": "Show Craftenly",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.remove",
+        "source_string": "Remove",
+        "translation": "Fornim",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "controller.buttonTip.renameItem",
         "source_string": "Rename Item",
         "translation": "Edname Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.swap",
+        "source_string": "Swap",
+        "translation": "Swap",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.enterSearch",
+        "source_string": "Search",
+        "translation": "Seek",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.searchRecipe",
+        "source_string": "Quick Search",
+        "translation": "Quick Seek",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.confirmSearch",
+        "source_string": "Confirm",
+        "translation": "Sicker",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6867,6 +7291,30 @@
         "identifier": "controller.buttonTip.select.item",
         "source_string": "Select Item",
         "translation": "Choose Thing",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.take.half",
+        "source_string": "Take Half",
+        "translation": "Nim Half",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.take.one",
+        "source_string": "Take One",
+        "translation": "Nim One",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.take",
+        "source_string": "Take",
+        "translation": "Nim",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -6891,6 +7339,110 @@
         "identifier": "controller.buttonTip.take.from.bundle",
         "source_string": "Take from Bundle",
         "translation": "Nim from Bundle",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.activeBindingNameFormat",
+        "source_string": "> %s <",
+        "translation": "> %s <",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.bindings",
+        "source_string": "Bindings",
+        "translation": "Bindings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.resetAllBindings",
+        "source_string": "Reset to Default",
+        "translation": "Edset to Stock",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.button",
+        "source_string": "Button",
+        "translation": "Key",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.cancel",
+        "source_string": "Cancel",
+        "translation": "Belay",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.save",
+        "source_string": "Save",
+        "translation": "Keep",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.saveAndExit",
+        "source_string": "Save & Exit",
+        "translation": "Keep & Leave",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.trigger",
+        "source_string": "Trigger",
+        "translation": "Trigger",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controllerLayoutScreen.unassigned",
+        "source_string": "Unassigned",
+        "translation": "Unstinted",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controls.reset",
+        "source_string": "Reset",
+        "translation": "Edset",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controls.resetAll",
+        "source_string": "Reset Keys",
+        "translation": "Edset Keys",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "controls.title",
+        "source_string": "Controls",
+        "translation": "Steerings",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "course.edu.begin",
+        "source_string": "Begin",
+        "translation": "Begin",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29192,6 +29744,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.graphicsQualityPresetMode.custom",
+        "source_string": "Custom",
+        "translation": "Bespoke",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.shadowQuality.medium",
         "source_string": "Medium",
         "translation": "Middling",
@@ -29707,6 +30267,14 @@
         "identifier": "hudScreen.tooltip.insert",
         "source_string": "Insert",
         "translation": "Input",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.controlCustomization.reset",
+        "source_string": "Reset Default",
+        "translation": "Edset Stock",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32659,6 +33227,14 @@
         "identifier": "store.search.filters.bundles",
         "source_string": "Bundles",
         "translation": "Bundles",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filters.reset",
+        "source_string": "Reset Filters",
+        "translation": "Edset Sieves",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -45176,6 +45752,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditRealmWorld.general.fileManagementResetWorldLabel",
+        "source_string": "Reset world",
+        "translation": "Edset world",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditRealmWorld.play",
         "source_string": "Play",
         "translation": "Play",
@@ -45211,6 +45795,14 @@
         "identifier": "hbui.EditWorld.EditThumbnailModal.optionsEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.EditThumbnailModal.resetThumbnail",
+        "source_string": "Reset to default",
+        "translation": "Edset to stock",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50203,6 +50795,14 @@
         "identifier": "hbui.EditorKeyboardSettings.reset",
         "source_string": "Reset",
         "translation": "Edset",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorKeyboardSettings.resetAll",
+        "source_string": "Reset All",
+        "translation": "Edset All",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
