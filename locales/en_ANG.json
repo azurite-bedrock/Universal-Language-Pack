@@ -3442,7 +3442,7 @@
     {
         "identifier": "authentication.error.outOfDate.downloadPage",
         "source_string": "Go to Download page",
-        "translation": "Go to Download sheet",
+        "translation": "Go to Download leaf",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -3562,7 +3562,7 @@
     {
         "identifier": "book.pageIndicator",
         "source_string": "Page %1$s of %2$s",
-        "translation": "Sheet %1$s of %2$s",
+        "translation": "Leaf %1$s of %2$s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -7296,6 +7296,14 @@
         "max_length": null
     },
     {
+        "identifier": "controller.buttonTip.select.slot",
+        "source_string": "Select Slot",
+        "translation": "Choose Slit",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "controller.buttonTip.take.half",
         "source_string": "Take Half",
         "translation": "Nim Half",
@@ -10650,7 +10658,7 @@
     {
         "identifier": "date.minutesPlural",
         "source_string": "%s minutes",
-        "translation": "%s stoundles",
+        "translation": "%s stoundlings",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -10682,7 +10690,7 @@
     {
         "identifier": "date.minuteSingular",
         "source_string": "%s minute",
-        "translation": "%s stoundle",
+        "translation": "%s stoundling",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12042,7 +12050,7 @@
     {
         "identifier": "entity.iron_golem.name",
         "source_string": "Iron Golem",
-        "translation": "Iron Livenedman",
+        "translation": "Ironwight",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12115,6 +12123,14 @@
         "identifier": "entity.skeleton_horse.name",
         "source_string": "Skeleton Horse",
         "translation": "Boneframe Horse",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.snow_golem.name",
+        "source_string": "Snow Golem",
+        "translation": "Snowman",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12978,7 +12994,7 @@
     {
         "identifier": "howtoplay.addons.text.5",
         "source_string": "For more information about how you can make the most out of Add-Ons, you can visit our FAQ page.",
-        "translation": "For more abreasting about how you can make the most out of Eke-Ons, you can go to our OAA sheet.",
+        "translation": "For more abreasting about how you can make the most out of Eke-Ons, you can go to our OAA leaf.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14482,7 +14498,7 @@
     {
         "identifier": "howtoplay.dispensers.text.4",
         "source_string": "Dispensers can also be used to place items as well, such as Pumpkins on Iron Golems and equipment on Armor Stands.",
-        "translation": "Throwers can also be brooked to stow things as well, such as Harvestovets on Iron Livenedman and hardware on Borrow Stands.",
+        "translation": "Throwers can also be brooked to stow things as well, such as Harvestovets on Ironwight and hardware on Borrow Stands.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22594,7 +22610,7 @@
     {
         "identifier": "item.copper_door.name",
         "source_string": "Copper Door",
-        "translation": "Are Door",
+        "translation": "Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22906,7 +22922,7 @@
     {
         "identifier": "item.exposed_copper_door.name",
         "source_string": "Exposed Copper Door",
-        "translation": "Unwried Are Door",
+        "translation": "Unwried Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23786,7 +23802,7 @@
     {
         "identifier": "item.oxidized_copper_door.name",
         "source_string": "Oxidized Copper Door",
-        "translation": "Sourshafted Are Door",
+        "translation": "Sourshafted Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24058,7 +24074,7 @@
     {
         "identifier": "item.spawn_egg.entity.iron_golem.name",
         "source_string": "Iron Golem Spawn Egg",
-        "translation": "Iron Livenedman Making Ey",
+        "translation": "Ironwight Making Ey",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25186,7 +25202,7 @@
     {
         "identifier": "item.waxed_copper_door.name",
         "source_string": "Waxed Copper Door",
-        "translation": "Waxed Are Door",
+        "translation": "Waxed Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25194,7 +25210,7 @@
     {
         "identifier": "item.waxed_exposed_copper_door.name",
         "source_string": "Waxed Exposed Copper Door",
-        "translation": "Waxed Unwried Are Door",
+        "translation": "Waxed Unwried Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25202,7 +25218,7 @@
     {
         "identifier": "item.waxed_oxidized_copper_door.name",
         "source_string": "Waxed Oxidized Copper Door",
-        "translation": "Waxed Sourshafted Are Door",
+        "translation": "Waxed Sourshafted Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25210,7 +25226,7 @@
     {
         "identifier": "item.waxed_weathered_copper_door.name",
         "source_string": "Waxed Weathered Copper Door",
-        "translation": "Waxed Weathered Are Door",
+        "translation": "Waxed Weathered Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -25218,7 +25234,7 @@
     {
         "identifier": "item.weathered_copper_door.name",
         "source_string": "Weathered Copper Door",
-        "translation": "Weathered Are Door",
+        "translation": "Weathered Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -27088,6 +27104,78 @@
         "max_length": null
     },
     {
+        "identifier": "key.hotbar.1",
+        "source_string": "Hotbar Slot 1",
+        "translation": "Hotband Slit 1",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.2",
+        "source_string": "Hotbar Slot 2",
+        "translation": "Hotband Slit 2",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.3",
+        "source_string": "Hotbar Slot 3",
+        "translation": "Hotband Slit 3",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.4",
+        "source_string": "Hotbar Slot 4",
+        "translation": "Hotband Slit 4",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.5",
+        "source_string": "Hotbar Slot 5",
+        "translation": "Hotband Slit 5",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.6",
+        "source_string": "Hotbar Slot 6",
+        "translation": "Hotband Slit 6",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.7",
+        "source_string": "Hotbar Slot 7",
+        "translation": "Hotband Slit 7",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.8",
+        "source_string": "Hotbar Slot 8",
+        "translation": "Hotband Slit 8",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "key.hotbar.9",
+        "source_string": "Hotbar Slot 9",
+        "translation": "Hotband Slit 9",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "key.interactwithtoast",
         "source_string": "Open Notification",
         "translation": "Open Heedening",
@@ -28890,7 +28978,7 @@
     {
         "identifier": "options.dev_overrideDateMinute",
         "source_string": "Minute",
-        "translation": "Stoundle",
+        "translation": "Stoundling",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -30842,7 +30930,7 @@
     {
         "identifier": "portfolioScreen.page",
         "source_string": "Page %s",
-        "translation": "Sheet %s",
+        "translation": "Leaf %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31842,7 +31930,7 @@
     {
         "identifier": "trim_material.copper.name",
         "source_string": "Copper Material",
-        "translation": "Are Anwork",
+        "translation": "Copper Anwork",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32202,7 +32290,7 @@
     {
         "identifier": "store.realmsPlus.landing.info2.cancel",
         "source_string": "Cancel on the Subscriptions page of Minecraft Settings",
-        "translation": "Belay on the Underwritings sheet of Minecraft Settings",
+        "translation": "Belay on the Underwritings leaf of Minecraft Settings",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -36738,7 +36826,7 @@
     {
         "identifier": "tile.copper_ore.name",
         "source_string": "Copper Ore",
-        "translation": "Are Ore",
+        "translation": "Copper Ore",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39298,7 +39386,7 @@
     {
         "identifier": "tile.deepslate_copper_ore.name",
         "source_string": "Deepslate Copper Ore",
-        "translation": "Deepstone Are Ore",
+        "translation": "Deepstone Copper Ore",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39346,7 +39434,7 @@
     {
         "identifier": "item.copper_ingot.name",
         "source_string": "Copper Ingot",
-        "translation": "Are Ingot",
+        "translation": "Copper Ingot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39354,7 +39442,7 @@
     {
         "identifier": "item.raw_copper.name",
         "source_string": "Raw Copper",
-        "translation": "Raw Are",
+        "translation": "Raw Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39378,7 +39466,7 @@
     {
         "identifier": "tile.copper_block.name",
         "source_string": "Block of Copper",
-        "translation": "Are Clot",
+        "translation": "Copper Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39386,7 +39474,7 @@
     {
         "identifier": "tile.exposed_copper.name",
         "source_string": "Exposed Copper",
-        "translation": "Unwried Are",
+        "translation": "Unwried Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39394,7 +39482,7 @@
     {
         "identifier": "tile.weathered_copper.name",
         "source_string": "Weathered Copper",
-        "translation": "Weathered Are",
+        "translation": "Weathered Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39402,7 +39490,7 @@
     {
         "identifier": "tile.oxidized_copper.name",
         "source_string": "Oxidized Copper",
-        "translation": "Sourshafted Are",
+        "translation": "Sourshafted Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39410,7 +39498,7 @@
     {
         "identifier": "tile.waxed_copper.name",
         "source_string": "Waxed Block of Copper",
-        "translation": "Waxed Are Clot",
+        "translation": "Waxed Copper Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39418,7 +39506,7 @@
     {
         "identifier": "tile.waxed_exposed_copper.name",
         "source_string": "Waxed Exposed Copper",
-        "translation": "Waxed Unwried Are",
+        "translation": "Waxed Unwried Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39426,7 +39514,7 @@
     {
         "identifier": "tile.waxed_weathered_copper.name",
         "source_string": "Waxed Weathered Copper",
-        "translation": "Waxed Weathered Are",
+        "translation": "Waxed Weathered Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39434,7 +39522,7 @@
     {
         "identifier": "tile.waxed_oxidized_copper.name",
         "source_string": "Waxed Oxidized Copper",
-        "translation": "Waxed Sourshafted Are",
+        "translation": "Waxed Sourshafted Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39442,7 +39530,7 @@
     {
         "identifier": "tile.cut_copper.name",
         "source_string": "Cut Copper",
-        "translation": "Snithed Are",
+        "translation": "Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39450,7 +39538,7 @@
     {
         "identifier": "tile.exposed_cut_copper.name",
         "source_string": "Exposed Cut Copper",
-        "translation": "Unwried Snithed Are",
+        "translation": "Unwried Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39458,7 +39546,7 @@
     {
         "identifier": "tile.weathered_cut_copper.name",
         "source_string": "Weathered Cut Copper",
-        "translation": "Weathered Snithed Are",
+        "translation": "Weathered Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39466,7 +39554,7 @@
     {
         "identifier": "tile.oxidized_cut_copper.name",
         "source_string": "Oxidized Cut Copper",
-        "translation": "Sourshafted Snithed Are",
+        "translation": "Sourshafted Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39474,7 +39562,7 @@
     {
         "identifier": "tile.waxed_cut_copper.name",
         "source_string": "Waxed Cut Copper",
-        "translation": "Waxed Snithed Are",
+        "translation": "Waxed Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39482,7 +39570,7 @@
     {
         "identifier": "tile.waxed_exposed_cut_copper.name",
         "source_string": "Waxed Exposed Cut Copper",
-        "translation": "Waxed Unwried Snithed Are",
+        "translation": "Waxed Unwried Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39490,7 +39578,7 @@
     {
         "identifier": "tile.waxed_weathered_cut_copper.name",
         "source_string": "Waxed Weathered Cut Copper",
-        "translation": "Waxed Weathered Snithed Are",
+        "translation": "Waxed Weathered Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39498,7 +39586,7 @@
     {
         "identifier": "tile.waxed_oxidized_cut_copper.name",
         "source_string": "Waxed Oxidized Cut Copper",
-        "translation": "Waxed Sourshafted Snithed Are",
+        "translation": "Waxed Sourshafted Snithed Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39506,7 +39594,7 @@
     {
         "identifier": "tile.cut_copper_stairs.name",
         "source_string": "Cut Copper Stairs",
-        "translation": "Snithed Are Stairs",
+        "translation": "Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39514,7 +39602,7 @@
     {
         "identifier": "tile.exposed_cut_copper_stairs.name",
         "source_string": "Exposed Cut Copper Stairs",
-        "translation": "Unwried Snithed Are Stairs",
+        "translation": "Unwried Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39522,7 +39610,7 @@
     {
         "identifier": "tile.weathered_cut_copper_stairs.name",
         "source_string": "Weathered Cut Copper Stairs",
-        "translation": "Weathered Snithed Are Stairs",
+        "translation": "Weathered Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39530,7 +39618,7 @@
     {
         "identifier": "tile.oxidized_cut_copper_stairs.name",
         "source_string": "Oxidized Cut Copper Stairs",
-        "translation": "Sourshafted Snithed Are Stairs",
+        "translation": "Sourshafted Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39538,7 +39626,7 @@
     {
         "identifier": "tile.waxed_cut_copper_stairs.name",
         "source_string": "Waxed Cut Copper Stairs",
-        "translation": "Waxed Snithed Are Stairs",
+        "translation": "Waxed Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39546,7 +39634,7 @@
     {
         "identifier": "tile.waxed_exposed_cut_copper_stairs.name",
         "source_string": "Waxed Exposed Cut Copper Stairs",
-        "translation": "Waxed Unwried Snithed Are Stairs",
+        "translation": "Waxed Unwried Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39554,7 +39642,7 @@
     {
         "identifier": "tile.waxed_weathered_cut_copper_stairs.name",
         "source_string": "Waxed Weathered Cut Copper Stairs",
-        "translation": "Waxed Weathered Snithed Are Stairs",
+        "translation": "Waxed Weathered Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39562,7 +39650,7 @@
     {
         "identifier": "tile.waxed_oxidized_cut_copper_stairs.name",
         "source_string": "Waxed Oxidized Cut Copper Stairs",
-        "translation": "Waxed Sourshafted Snithed Are Stairs",
+        "translation": "Waxed Sourshafted Snithed Copper Stairs",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39570,7 +39658,7 @@
     {
         "identifier": "tile.cut_copper_slab.name",
         "source_string": "Cut Copper Slab",
-        "translation": "Snithed Are Halfclot",
+        "translation": "Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39578,7 +39666,7 @@
     {
         "identifier": "tile.exposed_cut_copper_slab.name",
         "source_string": "Exposed Cut Copper Slab",
-        "translation": "Unwried Snithed Are Halfclot",
+        "translation": "Unwried Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39586,7 +39674,7 @@
     {
         "identifier": "tile.weathered_cut_copper_slab.name",
         "source_string": "Weathered Cut Copper Slab",
-        "translation": "Weathered Snithed Are Halfclot",
+        "translation": "Weathered Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39594,7 +39682,7 @@
     {
         "identifier": "tile.oxidized_cut_copper_slab.name",
         "source_string": "Oxidized Cut Copper Slab",
-        "translation": "Sourshafted Snithed Are Halfclot",
+        "translation": "Sourshafted Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39602,7 +39690,7 @@
     {
         "identifier": "tile.waxed_cut_copper_slab.name",
         "source_string": "Waxed Cut Copper Slab",
-        "translation": "Waxed Snithed Are Halfclot",
+        "translation": "Waxed Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39610,7 +39698,7 @@
     {
         "identifier": "tile.waxed_exposed_cut_copper_slab.name",
         "source_string": "Waxed Exposed Cut Copper Slab",
-        "translation": "Waxed Unwried Snithed Are Halfclot",
+        "translation": "Waxed Unwried Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39618,7 +39706,7 @@
     {
         "identifier": "tile.waxed_weathered_cut_copper_slab.name",
         "source_string": "Waxed Weathered Cut Copper Slab",
-        "translation": "Waxed Weathered Snithed Are Halfclot",
+        "translation": "Waxed Weathered Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39626,7 +39714,7 @@
     {
         "identifier": "tile.waxed_oxidized_cut_copper_slab.name",
         "source_string": "Waxed Oxidized Cut Copper Slab",
-        "translation": "Waxed Sourshafted Snithed Are Halfclot",
+        "translation": "Waxed Sourshafted Snithed Copper Halfclot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39634,7 +39722,7 @@
     {
         "identifier": "tile.chiseled_copper.name",
         "source_string": "Chiseled Copper",
-        "translation": "Graven Are",
+        "translation": "Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39642,7 +39730,7 @@
     {
         "identifier": "tile.exposed_chiseled_copper.name",
         "source_string": "Exposed Chiseled Copper",
-        "translation": "Unwried Graven Are",
+        "translation": "Unwried Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39650,7 +39738,7 @@
     {
         "identifier": "tile.oxidized_chiseled_copper.name",
         "source_string": "Oxidized Chiseled Copper",
-        "translation": "Sourshafted Graven Are",
+        "translation": "Sourshafted Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39658,7 +39746,7 @@
     {
         "identifier": "tile.waxed_chiseled_copper.name",
         "source_string": "Waxed Chiseled Copper",
-        "translation": "Waxed Graven Are",
+        "translation": "Waxed Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39666,7 +39754,7 @@
     {
         "identifier": "tile.waxed_exposed_chiseled_copper.name",
         "source_string": "Waxed Exposed Chiseled Copper",
-        "translation": "Waxed Unwried Graven Are",
+        "translation": "Waxed Unwried Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39674,7 +39762,7 @@
     {
         "identifier": "tile.waxed_oxidized_chiseled_copper.name",
         "source_string": "Waxed Oxidized Chiseled Copper",
-        "translation": "Waxed Sourshafted Graven Are",
+        "translation": "Waxed Sourshafted Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39682,7 +39770,7 @@
     {
         "identifier": "tile.waxed_weathered_chiseled_copper.name",
         "source_string": "Waxed Weathered Chiseled Copper",
-        "translation": "Waxed Weathered Graven Are",
+        "translation": "Waxed Weathered Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39690,7 +39778,7 @@
     {
         "identifier": "tile.weathered_chiseled_copper.name",
         "source_string": "Weathered Chiseled Copper",
-        "translation": "Weathered Graven Are",
+        "translation": "Weathered Graven Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39698,7 +39786,7 @@
     {
         "identifier": "tile.copper_bulb.name",
         "source_string": "Copper Bulb",
-        "translation": "Are Lightvat",
+        "translation": "Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39706,7 +39794,7 @@
     {
         "identifier": "tile.exposed_copper_bulb.name",
         "source_string": "Exposed Copper Bulb",
-        "translation": "Unwried Are Lightvat",
+        "translation": "Unwried Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39714,7 +39802,7 @@
     {
         "identifier": "tile.oxidized_copper_bulb.name",
         "source_string": "Oxidized Copper Bulb",
-        "translation": "Sourshafted Are Lightvat",
+        "translation": "Sourshafted Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39722,7 +39810,7 @@
     {
         "identifier": "tile.waxed_copper_bulb.name",
         "source_string": "Waxed Copper Bulb",
-        "translation": "Waxed Are Lightvat",
+        "translation": "Waxed Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39730,7 +39818,7 @@
     {
         "identifier": "tile.waxed_exposed_copper_bulb.name",
         "source_string": "Waxed Exposed Copper Bulb",
-        "translation": "Waxed Unwried Are Lightvat",
+        "translation": "Waxed Unwried Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39738,7 +39826,7 @@
     {
         "identifier": "tile.waxed_oxidized_copper_bulb.name",
         "source_string": "Waxed Oxidized Copper Bulb",
-        "translation": "Waxed Sourshafted Are Lightvat",
+        "translation": "Waxed Sourshafted Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39746,7 +39834,7 @@
     {
         "identifier": "tile.waxed_weathered_copper_bulb.name",
         "source_string": "Waxed Weathered Copper Bulb",
-        "translation": "Waxed Weathered Are Lightvat",
+        "translation": "Waxed Weathered Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39754,7 +39842,7 @@
     {
         "identifier": "tile.weathered_copper_bulb.name",
         "source_string": "Weathered Copper Bulb",
-        "translation": "Weathered Are Lightvat",
+        "translation": "Weathered Copper Lightvat",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39762,7 +39850,7 @@
     {
         "identifier": "tile.copper_door.name",
         "source_string": "Copper Door",
-        "translation": "Are Door",
+        "translation": "Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39770,7 +39858,7 @@
     {
         "identifier": "tile.exposed_copper_door.name",
         "source_string": "Exposed Copper Door",
-        "translation": "Unwried Are Door",
+        "translation": "Unwried Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39778,7 +39866,7 @@
     {
         "identifier": "tile.oxidized_copper_door.name",
         "source_string": "Oxidized Copper Door",
-        "translation": "Sourshafted Are Door",
+        "translation": "Sourshafted Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39786,7 +39874,7 @@
     {
         "identifier": "tile.waxed_copper_door.name",
         "source_string": "Waxed Copper Door",
-        "translation": "Waxed Are Door",
+        "translation": "Waxed Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39794,7 +39882,7 @@
     {
         "identifier": "tile.waxed_exposed_copper_door.name",
         "source_string": "Waxed Exposed Copper Door",
-        "translation": "Waxed Unwried Are Door",
+        "translation": "Waxed Unwried Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39802,7 +39890,7 @@
     {
         "identifier": "tile.waxed_oxidized_copper_door.name",
         "source_string": "Waxed Oxidized Copper Door",
-        "translation": "Waxed Sourshafted Are Door",
+        "translation": "Waxed Sourshafted Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39810,7 +39898,7 @@
     {
         "identifier": "tile.waxed_weathered_copper_door.name",
         "source_string": "Waxed Weathered Copper Door",
-        "translation": "Waxed Weathered Are Door",
+        "translation": "Waxed Weathered Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39818,7 +39906,7 @@
     {
         "identifier": "tile.weathered_copper_door.name",
         "source_string": "Weathered Copper Door",
-        "translation": "Weathered Are Door",
+        "translation": "Weathered Copper Door",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39826,7 +39914,7 @@
     {
         "identifier": "tile.copper_grate.name",
         "source_string": "Copper Grate",
-        "translation": "Are Hurdle",
+        "translation": "Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39834,7 +39922,7 @@
     {
         "identifier": "tile.exposed_copper_grate.name",
         "source_string": "Exposed Copper Grate",
-        "translation": "Unwried Are Hurdle",
+        "translation": "Unwried Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39842,7 +39930,7 @@
     {
         "identifier": "tile.oxidized_copper_grate.name",
         "source_string": "Oxidized Copper Grate",
-        "translation": "Sourshafted Are Hurdle",
+        "translation": "Sourshafted Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39850,7 +39938,7 @@
     {
         "identifier": "tile.waxed_copper_grate.name",
         "source_string": "Waxed Copper Grate",
-        "translation": "Waxed Are Hurdle",
+        "translation": "Waxed Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39858,7 +39946,7 @@
     {
         "identifier": "tile.waxed_exposed_copper_grate.name",
         "source_string": "Waxed Exposed Copper Grate",
-        "translation": "Waxed Unwried Are Hurdle",
+        "translation": "Waxed Unwried Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39866,7 +39954,7 @@
     {
         "identifier": "tile.waxed_oxidized_copper_grate.name",
         "source_string": "Waxed Oxidized Copper Grate",
-        "translation": "Waxed Sourshafted Are Hurdle",
+        "translation": "Waxed Sourshafted Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39874,7 +39962,7 @@
     {
         "identifier": "tile.waxed_weathered_copper_grate.name",
         "source_string": "Waxed Weathered Copper Grate",
-        "translation": "Waxed Weathered Are Hurdle",
+        "translation": "Waxed Weathered Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39882,7 +39970,7 @@
     {
         "identifier": "tile.weathered_copper_grate.name",
         "source_string": "Weathered Copper Grate",
-        "translation": "Weathered Are Hurdle",
+        "translation": "Weathered Copper Hurdle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39890,7 +39978,7 @@
     {
         "identifier": "tile.copper_trapdoor.name",
         "source_string": "Copper Trapdoor",
-        "translation": "Are Trapdoor",
+        "translation": "Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39898,7 +39986,7 @@
     {
         "identifier": "tile.exposed_copper_trapdoor.name",
         "source_string": "Exposed Copper Trapdoor",
-        "translation": "Unwried Are Trapdoor",
+        "translation": "Unwried Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39906,7 +39994,7 @@
     {
         "identifier": "tile.oxidized_copper_trapdoor.name",
         "source_string": "Oxidized Copper Trapdoor",
-        "translation": "Sourshafted Are Trapdoor",
+        "translation": "Sourshafted Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39914,7 +40002,7 @@
     {
         "identifier": "tile.waxed_copper_trapdoor.name",
         "source_string": "Waxed Copper Trapdoor",
-        "translation": "Waxed Are Trapdoor",
+        "translation": "Waxed Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39922,7 +40010,7 @@
     {
         "identifier": "tile.waxed_exposed_copper_trapdoor.name",
         "source_string": "Waxed Exposed Copper Trapdoor",
-        "translation": "Waxed Unwried Are Trapdoor",
+        "translation": "Waxed Unwried Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39930,7 +40018,7 @@
     {
         "identifier": "tile.waxed_oxidized_copper_trapdoor.name",
         "source_string": "Waxed Oxidized Copper Trapdoor",
-        "translation": "Waxed Sourshafted Are Trapdoor",
+        "translation": "Waxed Sourshafted Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39938,7 +40026,7 @@
     {
         "identifier": "tile.waxed_weathered_copper_trapdoor.name",
         "source_string": "Waxed Weathered Copper Trapdoor",
-        "translation": "Waxed Weathered Are Trapdoor",
+        "translation": "Waxed Weathered Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39946,7 +40034,7 @@
     {
         "identifier": "tile.weathered_copper_trapdoor.name",
         "source_string": "Weathered Copper Trapdoor",
-        "translation": "Weathered Are Trapdoor",
+        "translation": "Weathered Copper Trapdoor",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39954,7 +40042,7 @@
     {
         "identifier": "tile.raw_copper_block.name",
         "source_string": "Block of Raw Copper",
-        "translation": "Raw Are Clot",
+        "translation": "Raw Copper Clot",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -39978,7 +40066,7 @@
     {
         "identifier": "itemGroup.name.copper",
         "source_string": "Copper",
-        "translation": "Are",
+        "translation": "Copper",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41138,7 +41226,7 @@
     {
         "identifier": "trial.survival.remainingTime",
         "source_string": "%d Minutes Remaining",
-        "translation": "%d Stoundles Left",
+        "translation": "%d Stoundlings Left",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42450,7 +42538,7 @@
     {
         "identifier": "midgameTips.1",
         "source_string": "Iron golems will fight for you!",
-        "translation": "Iron livenedman will fight for you!",
+        "translation": "Ironwights will fight for you!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42554,7 +42642,7 @@
     {
         "identifier": "midgameTips.17",
         "source_string": "Wolves and iron golems won't attack creepers.",
-        "translation": "Wolves and iron livenedman won't strike creepers.",
+        "translation": "Wolves and ironwights won't strike creepers.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42562,7 +42650,7 @@
     {
         "identifier": "midgameTips.18",
         "source_string": "Chickens lay an egg every 5 to 10 minutes.",
-        "translation": "Chickens lay an ey every 5 to 10 stoundles.",
+        "translation": "Chickens lay an ey every 5 to 10 stoundlings.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42610,7 +42698,7 @@
     {
         "identifier": "midgameTips.25",
         "source_string": "Sometimes iron golems give flowers to the villager children!",
-        "translation": "Sometimes iron livenedmen yeave blossoms to the thorpsman children!",
+        "translation": "Sometimes ironwights yeave blossoms to the thorpsman children!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47922,7 +48010,7 @@
     {
         "identifier": "hbui.PrivacyAndOnlineSafetyModal.linkButtonHint",
         "source_string": "This will take you to a web page that will help solve this issue",
-        "translation": "This will nim you to a web sheet that will help heal this badbere",
+        "translation": "This will nim you to a webleaf that will help heal this hitch",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50427,6 +50515,22 @@
         "identifier": "hbui.EditorHotbarSlot.count",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorHotbarSlot.selected",
+        "source_string": "Selected",
+        "translation": "Chosen",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorHotbarSlot.type",
+        "source_string": "Slot",
+        "translation": "Slit",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
