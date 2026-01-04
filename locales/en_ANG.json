@@ -474,7 +474,7 @@
     {
         "identifier": "accessibility.fullprice",
         "source_string": "Full Price %s Minecoins",
-        "translation": "Full Worth %s Minecoins",
+        "translation": "Full Loave %s Minecoins",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -482,7 +482,7 @@
     {
         "identifier": "accessibility.discount.price",
         "source_string": "Discounted Price %s Minecoins",
-        "translation": "Put-by Worth %s Minecoins",
+        "translation": "Put-by Loave %s Minecoins",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15410,7 +15410,7 @@
     {
         "identifier": "howtoplay.pets.text.2",
         "source_string": "Wolves are a neutral mob that hunt in the colder climates. They will attack Rabbits, Skeletons, and Sheep but run away from Llamas. They won't attack you unless you provoke them. You can tame them by giving them Bones.",
-        "translation": "Wolves are an unsidey wight that hunt in the colder weathers. Hie will strike Hares, Boneframes, and Sheep but run away from Drylandersheep. Hie won't strike you unless you grill hem. You can tame hem by yeaving hem Bones.",
+        "translation": "Wolves are an unsidey wight that hunt in the colder weathers. Hie will strike Hares, Boneframes, and Sheep but run away from Drylandersheep. Hie won't strike you unless you grill hem. You can tame hem by giving hem Bones.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15554,7 +15554,7 @@
     {
         "identifier": "howtoplay.scaffolding.text.1a.touch",
         "source_string": "Scaffolding can help with building large structures by offering a way to reach higher places and safely descend without taking fall damage.",
-        "translation": "Stelling can help with building great framework by yeaving a way to reach higher stows and soundly alight without having fall harm.",
+        "translation": "Stelling can help with building great framework by giving a way to reach higher stows and soundly alight without having fall harm.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -15706,7 +15706,7 @@
     {
         "identifier": "howtoplay.trading.text.2",
         "source_string": "You can find out what a villager is offering as trade by interacting with them. A villager may adjust the price of a trade whenever a player trades with it. A villager may run out of stock, temporarily disabling the trade if it is used too frequently. Trades usually involve buying or selling items for emeralds. ",
-        "translation": "You can find out what a thorpsman is yeaving as trade by talking with hem. A thorpsman may wend the worth of a trade whenever a player trades with hem. A thorpsman may run out of stock, timely laying off the trade if it is brooked too often. Trades wontly fay buying or selling things for smaragds. ",
+        "translation": "You can find out what a thorpsman is giving as trade by talking with hem. A thorpsman may wend the worth of a trade whenever a player trades with hem. A thorpsman may run out of stock, timely laying off the trade if it is brooked too often. Trades wontly fay buying or selling things for smaragds. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -22504,6 +22504,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.cake.name",
+        "source_string": "Cake",
+        "translation": "Cake",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.camera.name",
         "source_string": "Camera",
         "translation": "Byldmaker",
@@ -26658,7 +26666,7 @@
     {
         "identifier": "itemGroup.name.candles",
         "source_string": "Candles",
-        "translation": "Waxlights",
+        "translation": "Candles",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26914,7 +26922,7 @@
     {
         "identifier": "joincode.icon_text.5",
         "source_string": "Cookie",
-        "translation": "Kitchel",
+        "translation": "Cookie",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26938,7 +26946,7 @@
     {
         "identifier": "joincode.icon_text.8",
         "source_string": "Cake",
-        "translation": "Kitch",
+        "translation": "Cake",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32280,6 +32288,22 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.GreekMythology",
+        "source_string": "Greek Mythology Mash-up",
+        "translation": "Greekish Folklore Mash-up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.GreekMythology.name",
+        "source_string": "Greek Mythology Mash-up",
+        "translation": "Greekish Folklore Mash-up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.GreekMythology.description",
         "source_string": "It's mythical Greece at your fingertips. ",
         "translation": "It's folklorely Greekland at your fingertips. ",
@@ -32474,7 +32498,7 @@
     {
         "identifier": "store.realmsPlus.errorNoOffer",
         "source_string": "ERROR NO OFFER FOUND",
-        "translation": "DWALE NO GIFT FOUND",
+        "translation": "DWALE NO BID FOUND",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -32763,6 +32787,14 @@
         "identifier": "store.csb.purchase.warningDialog.button.back",
         "source_string": "Go Back",
         "translation": "Go Back",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.csb.upsell.price",
+        "source_string": "%s/Month",
+        "translation": "%s/Month",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33488,6 +33520,30 @@
         "max_length": null
     },
     {
+        "identifier": "store.coins.fixAppReceipt.title",
+        "source_string": "Something went wrong",
+        "translation": "Something went wrong",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.coins.fixAppReceipt.body",
+        "source_string": "There appears to be a problem with your App Receipt, please sign in to continue.",
+        "translation": "There might be a hitch with your Bearing Sales Slip, kindly log in to go on.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.featured.realms.title",
+        "source_string": "Try Realms Free",
+        "translation": "Fand Realms Free",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.resource.screenshots",
         "source_string": "Screenshots",
         "translation": "Shirmshots",
@@ -33832,6 +33888,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.xbl.signin",
+        "source_string": "Sign In",
+        "translation": "Log In",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.showalloffers.list.back",
         "source_string": "Go Back",
         "translation": "Go Back",
@@ -33848,9 +33912,65 @@
         "max_length": null
     },
     {
+        "identifier": "store.search.placeHolderText",
+        "source_string": "Enter Search Here...",
+        "translation": "Input Seek Here...",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.pluralResults",
+        "source_string": " Results",
+        "translation": " Outcomes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.pluralPossibleResults",
+        "source_string": " Possible Results",
+        "translation": " Mightly Outcomes",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.singularResult",
+        "source_string": " Result",
+        "translation": " Outcome",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.singularPossibleResult",
+        "source_string": " Possible Result",
+        "translation": " Mightly Outcome",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.search.title",
         "source_string": "Marketplace Search",
         "translation": "Chapstow Seek",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.trendingRowTitle",
+        "source_string": "Trending Search: %s",
+        "translation": "Trending Seek: %s",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.button",
+        "source_string": "Search",
+        "translation": "Seek",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33864,9 +33984,57 @@
         "max_length": null
     },
     {
+        "identifier": "store.search.filters.clear",
+        "source_string": "Clear Filters",
+        "translation": "Empty Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.search.filters.reset",
         "source_string": "Reset Filters",
         "translation": "Edset Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.clear.creator",
+        "source_string": "Clear Creator Filters",
+        "translation": "Empty Maker Sieves",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.creator",
+        "source_string": "Creators",
+        "translation": "Makers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.creator.selectedCount",
+        "source_string": "%d Creators",
+        "translation": "%d Makers",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.offer_type",
+        "source_string": "Offer Types",
+        "translation": "Bid Kinds",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.offer_type.selectedCount",
+        "source_string": "%d Offer Types",
+        "translation": "%d Bid Kinds",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -33884,6 +34052,14 @@
         "source_string": "Marketplace Pass",
         "translation": "Chapstow Path",
         "context": "{StrContains=\"Marketplace Pass\"}",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.mashupPacks",
+        "source_string": "Mash-ups",
+        "translation": "Mash-ups",
+        "context": null,
         "labels": "unassigned, lang",
         "max_length": null
     },
@@ -34048,6 +34224,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.search.filter.dressingroombody.selectedCount",
+        "source_string": "%d Parts",
+        "translation": "%d Deals",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "store.search.filter.dressingroomstyle",
         "source_string": "Style",
         "translation": "Kind",
@@ -34123,6 +34307,38 @@
         "identifier": "store.search.sort_menu.notInstalled",
         "source_string": "Not Installed",
         "translation": "Not Stelled",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.HighestPrice",
+        "source_string": "Price: High to Low",
+        "translation": "Loave: High to Low",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.LowestPrice",
+        "source_string": "Price: Low to High",
+        "translation": "Loave: Low to High",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.HighestRating",
+        "source_string": "Rating: High to Low",
+        "translation": "Deeming: High to Low",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.sort_menu.LowestRating",
+        "source_string": "Rating: Low to High",
+        "translation": "Deeming: Low to High",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -34323,6 +34539,14 @@
         "identifier": "stream.unavailable.soundflower.chat.link",
         "source_string": "Please click here to install it.",
         "translation": "Kindly click here to stell it.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "stream.unavailable.unknown.chat",
+        "source_string": "Could not start stream: %s",
+        "translation": "Could not start stream: %s",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -35106,7 +35330,7 @@
     {
         "identifier": "tile.cake.name",
         "source_string": "Cake",
-        "translation": "Kitch",
+        "translation": "Cake",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41826,7 +42050,7 @@
     {
         "identifier": "tile.candle.name",
         "source_string": "Candle",
-        "translation": "Waxlight",
+        "translation": "Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41834,7 +42058,7 @@
     {
         "identifier": "tile.white_candle.name",
         "source_string": "White Candle",
-        "translation": "White Waxlight",
+        "translation": "White Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41842,7 +42066,7 @@
     {
         "identifier": "tile.orange_candle.name",
         "source_string": "Orange Candle",
-        "translation": "Yellowred Waxlight",
+        "translation": "Yellowred Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41850,7 +42074,7 @@
     {
         "identifier": "tile.magenta_candle.name",
         "source_string": "Magenta Candle",
-        "translation": "Light Purple Waxlight",
+        "translation": "Light Purple Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41858,7 +42082,7 @@
     {
         "identifier": "tile.light_blue_candle.name",
         "source_string": "Light Blue Candle",
-        "translation": "Light Bloe Waxlight",
+        "translation": "Light Bloe Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41866,7 +42090,7 @@
     {
         "identifier": "tile.yellow_candle.name",
         "source_string": "Yellow Candle",
-        "translation": "Yellow Waxlight",
+        "translation": "Yellow Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41874,7 +42098,7 @@
     {
         "identifier": "tile.lime_candle.name",
         "source_string": "Lime Candle",
-        "translation": "Light Green Waxlight",
+        "translation": "Light Green Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41882,7 +42106,7 @@
     {
         "identifier": "tile.pink_candle.name",
         "source_string": "Pink Candle",
-        "translation": "Bleak Red Waxlight",
+        "translation": "Bleak Red Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41890,7 +42114,7 @@
     {
         "identifier": "tile.gray_candle.name",
         "source_string": "Gray Candle",
-        "translation": "Gray Waxlight",
+        "translation": "Gray Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41898,7 +42122,7 @@
     {
         "identifier": "tile.light_gray_candle.name",
         "source_string": "Light Gray Candle",
-        "translation": "Light Gray Waxlight",
+        "translation": "Light Gray Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41906,7 +42130,7 @@
     {
         "identifier": "tile.cyan_candle.name",
         "source_string": "Cyan Candle",
-        "translation": "Teal Waxlight",
+        "translation": "Teal Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41914,7 +42138,7 @@
     {
         "identifier": "tile.purple_candle.name",
         "source_string": "Purple Candle",
-        "translation": "Purple Waxlight",
+        "translation": "Purple Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41922,7 +42146,7 @@
     {
         "identifier": "tile.blue_candle.name",
         "source_string": "Blue Candle",
-        "translation": "Bloe Waxlight",
+        "translation": "Bloe Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41930,7 +42154,7 @@
     {
         "identifier": "tile.brown_candle.name",
         "source_string": "Brown Candle",
-        "translation": "Brown Waxlight",
+        "translation": "Brown Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41938,7 +42162,7 @@
     {
         "identifier": "tile.green_candle.name",
         "source_string": "Green Candle",
-        "translation": "Green Waxlight",
+        "translation": "Green Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41946,7 +42170,7 @@
     {
         "identifier": "tile.red_candle.name",
         "source_string": "Red Candle",
-        "translation": "Red Waxlight",
+        "translation": "Red Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41954,7 +42178,7 @@
     {
         "identifier": "tile.black_candle.name",
         "source_string": "Black Candle",
-        "translation": "Black Waxlight",
+        "translation": "Black Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41962,7 +42186,7 @@
     {
         "identifier": "tile.candle_cake.name",
         "source_string": "Cake with Candle",
-        "translation": "Kitch with Waxlight",
+        "translation": "Cake with Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41970,7 +42194,7 @@
     {
         "identifier": "tile.white_candle_cake.name",
         "source_string": "Cake with White Candle",
-        "translation": "Kitch with White Waxlight",
+        "translation": "Cake with White Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41978,7 +42202,7 @@
     {
         "identifier": "tile.orange_candle_cake.name",
         "source_string": "Cake with Orange Candle",
-        "translation": "Kitch with Yellowred Waxlight",
+        "translation": "Cake with Yellowred Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41986,7 +42210,7 @@
     {
         "identifier": "tile.magenta_candle_cake.name",
         "source_string": "Cake with Magenta Candle",
-        "translation": "Kitch with Light Purple Waxlight",
+        "translation": "Cake with Light Purple Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -41994,7 +42218,7 @@
     {
         "identifier": "tile.light_blue_candle_cake.name",
         "source_string": "Cake with Light Blue Candle",
-        "translation": "Kitch with Light Bloe Waxlight",
+        "translation": "Cake with Light Bloe Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42002,7 +42226,7 @@
     {
         "identifier": "tile.yellow_candle_cake.name",
         "source_string": "Cake with Yellow Candle",
-        "translation": "Kitch with Yellow Waxlight",
+        "translation": "Cake with Yellow Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42010,7 +42234,7 @@
     {
         "identifier": "tile.lime_candle_cake.name",
         "source_string": "Cake with Lime Candle",
-        "translation": "Kitch with Light Green Waxlight",
+        "translation": "Cake with Light Green Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42018,7 +42242,7 @@
     {
         "identifier": "tile.pink_candle_cake.name",
         "source_string": "Cake with Pink Candle",
-        "translation": "Kitch with Bleak Red Waxlight",
+        "translation": "Cake with Bleak Red Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42026,7 +42250,7 @@
     {
         "identifier": "tile.gray_candle_cake.name",
         "source_string": "Cake with Gray Candle",
-        "translation": "Kitch with Gray Waxlight",
+        "translation": "Cake with Gray Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42034,7 +42258,7 @@
     {
         "identifier": "tile.light_gray_candle_cake.name",
         "source_string": "Cake with Light Gray Candle",
-        "translation": "Kitch with Light Gray Waxlight",
+        "translation": "Cake with Light Gray Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42042,7 +42266,7 @@
     {
         "identifier": "tile.cyan_candle_cake.name",
         "source_string": "Cake with Cyan Candle",
-        "translation": "Kitch with Teal Waxlight",
+        "translation": "Cake with Teal Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42050,7 +42274,7 @@
     {
         "identifier": "tile.purple_candle_cake.name",
         "source_string": "Cake with Purple Candle",
-        "translation": "Kitch with Purple Waxlight",
+        "translation": "Cake with Purple Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42058,7 +42282,7 @@
     {
         "identifier": "tile.blue_candle_cake.name",
         "source_string": "Cake with Blue Candle",
-        "translation": "Kitch with Bloe Waxlight",
+        "translation": "Cake with Bloe Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42066,7 +42290,7 @@
     {
         "identifier": "tile.brown_candle_cake.name",
         "source_string": "Cake with Brown Candle",
-        "translation": "Kitch with Brown Waxlight",
+        "translation": "Cake with Brown Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42074,7 +42298,7 @@
     {
         "identifier": "tile.green_candle_cake.name",
         "source_string": "Cake with Green Candle",
-        "translation": "Kitch with Green Waxlight",
+        "translation": "Cake with Green Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42082,7 +42306,7 @@
     {
         "identifier": "tile.red_candle_cake.name",
         "source_string": "Cake with Red Candle",
-        "translation": "Kitch with Red Waxlight",
+        "translation": "Cake with Red Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -42090,7 +42314,7 @@
     {
         "identifier": "tile.black_candle_cake.name",
         "source_string": "Cake with Black Candle",
-        "translation": "Kitch with Black Waxlight",
+        "translation": "Cake with Black Candle",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -43338,7 +43562,7 @@
     {
         "identifier": "trial.collection.6.description",
         "source_string": "Vast tropical wilderness on a whirlwind hunt for treasure!",
-        "translation": "Widegale hot wilderness on a thode hunt for hoard!",
+        "translation": "Widegale hot wilderness on a whirlwind hunt for hoard!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -43346,7 +43570,7 @@
     {
         "identifier": "trial.collection.7.title",
         "source_string": "Greek Mythology Mash-up",
-        "translation": "Greek Folklore Mash-up",
+        "translation": "Greekish Folklore Mash-up",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -43426,7 +43650,7 @@
     {
         "identifier": "trial.collection.12.description",
         "source_string": "Dress as a Cake Maniac, Frankencrafter, or Worse!",
-        "translation": "Clothe as a Kitch Madman, Frankencrafter, or Worse!",
+        "translation": "Clothe as a Cake Madman, Frankencrafter, or Worse!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44176,6 +44400,54 @@
         "max_length": null
     },
     {
+        "identifier": "manifestvalidation.error",
+        "source_string": "Error",
+        "translation": "Dwale",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.info",
+        "source_string": "Info",
+        "translation": "Abrst",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.noerror",
+        "source_string": "No errors were found",
+        "translation": "No dwales were found",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.warning",
+        "source_string": "Warning",
+        "translation": "Warning",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.delete",
+        "source_string": "Delete",
+        "translation": "Adwash",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.delete.confirm_title",
+        "source_string": "Delete Pack?",
+        "translation": "Adwash Pack?",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "manifestvalidation.delete.confirm_delete",
         "source_string": "Delete",
         "translation": "Adwash",
@@ -44192,9 +44464,41 @@
         "max_length": null
     },
     {
+        "identifier": "worldTemplate.festivemashup2016.name",
+        "source_string": "Festive Mash-up 2016",
+        "translation": "Simblely Mash-up 2016",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.redstonemansion.name",
+        "source_string": "Redstone Mansion",
+        "translation": "Redstone House",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "worldTemplate.chinesemythology.name",
         "source_string": "Chinese Mythology Mash-up",
         "translation": "Chinish Folklore Mash-up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.GreekMythology.name",
+        "source_string": "Greek Mythology Mash-up",
+        "translation": "Greekish Folklore Mash-up",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "worldTemplate.Skyrim.name",
+        "source_string": "Skyrim Mash-up",
+        "translation": "Skyrim Mash-up",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44208,9 +44512,33 @@
         "max_length": null
     },
     {
+        "identifier": "eduTemplateWorld.mushroomIsland.name",
+        "source_string": "Mushroom Island",
+        "translation": "Swamb Island",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "eduTemplateWorld.mooshroomIsland.name",
+        "source_string": "Mushroom Island",
+        "translation": "Swamb Island",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "eduTemplateWorld.blocksOfGrass.name",
         "source_string": "Blocks of Grass",
         "translation": "Grass Clots",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "addServer.add",
+        "source_string": "Done",
+        "translation": "Done",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -47794,7 +48122,7 @@
     {
         "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.signIn",
         "source_string": "Sign in",
-        "translation": "Go in",
+        "translation": "Log in",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -50552,6 +50880,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsPlanPickerScreen.priceCore",
+        "source_string": "Core",
+        "translation": "Heart",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsPlanPickerScreen.priceMonthly",
+        "source_string": "month",
+        "translation": "month",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsPlanPickerScreen.pricePlus",
         "source_string": "Plus",
         "translation": "Eke",
@@ -50819,6 +51163,14 @@
         "identifier": "hbui.RealmsStories.feedEvent.medium.FirstPillagerOutpostFound",
         "source_string": "%1$s discovered a Pillager Outpost",
         "translation": "%1$s found a Harrier Outpost",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.feedEvent.medium.FirstWoodlandMansionFound",
+        "source_string": "%1$s discovered a Woodland Mansion",
+        "translation": "%1$s found a Woodland House",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
