@@ -6456,9 +6456,17 @@
         "max_length": null
     },
     {
+        "identifier": "commands.music.success.stopAction",
+        "source_string": "Custom music will stop now.",
+        "translation": "Bespoke glee will stop now.",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "commands.music.success.volumeAction",
         "source_string": "Music volume will be updated to %d.",
-        "translation": "Gleecraft loudness will be anwardened to %d.",
+        "translation": "Glee loudness will be anwardened to %d.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -12154,7 +12162,7 @@
     {
         "identifier": "entity.iron_golem.name",
         "source_string": "Iron Golem",
-        "translation": "Ironwight",
+        "translation": "Irongolem",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13722,7 +13730,7 @@
     {
         "identifier": "howtoplay.brewingStand.text.1",
         "source_string": "Brewing potions requires a Brewing Stand. Every potion starts off with a bottle of water, which is made by filling a Glass Bottle with water from a Cauldron or water source.",
-        "translation": "You will need a Brewing Stand to brew libs. Every lib starts off with a handvat of water, which is made by filling a Glass Handvat with water from an Ironcrock or water from.",
+        "translation": "You will need a Brewing Stand to brew libs. Every lib starts off with a flash of water, which is made by filling a Glass Flash with water from an Ironcrock or water from.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13738,7 +13746,7 @@
     {
         "identifier": "howtoplay.brewingStand.text.2",
         "source_string": "A Brewing Stand has three slots for creating different potions. One ingredient can be used over all three bottles, so always brew three potions at the same time to best use your resources.",
-        "translation": "A Brewing Stand has three slits for making sunder libs. One anwork can be brooked over all three handvats, so always brew three libs at the same time to best brook your lodes.",
+        "translation": "A Brewing Stand has three slits for making sunder libs. One anwork can be brooked over all three flashes, so always brew three libs at the same time to best brook your lodes.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -13818,7 +13826,7 @@
     {
         "identifier": "howtoplay.cauldron.text.1",
         "source_string": "The Cauldron is a container that can hold buckets or bottles of liquid. ",
-        "translation": "The Ironcrock is an inholder that can hold stops or handvats of wet. ",
+        "translation": "The Ironcrock is an inholder that can hold stops or flashes of wet. ",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -14618,7 +14626,7 @@
     {
         "identifier": "howtoplay.dispensers.text.4",
         "source_string": "Dispensers can also be used to place items as well, such as Pumpkins on Iron Golems and equipment on Armor Stands.",
-        "translation": "Throwers can also be brooked to stow things as well, such as Harvestovets on Ironwight and hardware on Borrow Stands.",
+        "translation": "Throwers can also be brooked to stow things as well, such as Harvestovets on Irongolems and hardware on Borrow Stands.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -23384,6 +23392,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.glass_bottle.name",
+        "source_string": "Glass Bottle",
+        "translation": "Glassflash",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.gold_nugget.name",
         "source_string": "Gold Nugget",
         "translation": "Golden Climper",
@@ -23914,7 +23930,7 @@
     {
         "identifier": "item.ominous_bottle.name",
         "source_string": "Ominous Bottle",
-        "translation": "Foreboding Handvat",
+        "translation": "Foreboding Flash",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24202,7 +24218,7 @@
     {
         "identifier": "item.spawn_egg.entity.iron_golem.name",
         "source_string": "Iron Golem Spawn Egg",
-        "translation": "Ironwight Making Egg",
+        "translation": "Irongolem Making Egg",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -24946,7 +24962,7 @@
     {
         "identifier": "item.record_creator_music_box.desc",
         "source_string": "Lena Raine - Creator (Music Box)",
-        "translation": "Lena Raine - Creator (Gleecraft Box)",
+        "translation": "Lena Raine - Creator (Swin Box)",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -26482,7 +26498,7 @@
     {
         "identifier": "itemGroup.name.ominousBottle",
         "source_string": "Ominous Bottles",
-        "translation": "Foreboding Handvats",
+        "translation": "Foreboding Flashes",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -29840,6 +29856,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.music",
+        "source_string": "Music",
+        "translation": "Glee",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.name",
         "source_string": "Name",
         "translation": "Name",
@@ -30011,6 +30035,14 @@
         "identifier": "options.updateWorldHeight",
         "source_string": "World update",
         "translation": "World anwardening",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.continue",
+        "source_string": "Continue",
+        "translation": "Go On",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -31744,6 +31776,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.disc_fragment_5.desc",
+        "source_string": "Music Disc - 5",
+        "translation": "Song Shive - 5",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "action.hint.exit.camel",
         "source_string": "Tap sneak to dismount",
         "translation": "Tick sneak to unstride",
@@ -32467,6 +32507,14 @@
         "identifier": "soundCategory.hostile",
         "source_string": "Hostile Creatures",
         "translation": "Foe Wights",
+        "context": null,
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.music",
+        "source_string": "Music",
+        "translation": "Glee",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44698,7 +44746,7 @@
     {
         "identifier": "midgameTips.1",
         "source_string": "Iron golems will fight for you!",
-        "translation": "Ironwights will fight for you!",
+        "translation": "Irongolems will fight for you!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44802,7 +44850,7 @@
     {
         "identifier": "midgameTips.17",
         "source_string": "Wolves and iron golems won't attack creepers.",
-        "translation": "Wolves and ironwights won't strike creepers.",
+        "translation": "Wolves and irongolems won't strike creepers.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -44858,7 +44906,7 @@
     {
         "identifier": "midgameTips.25",
         "source_string": "Sometimes iron golems give flowers to the villager children!",
-        "translation": "Sometimes ironwights give blossoms to the thorpsman children!",
+        "translation": "Sometimes irongolems give blooms to the thorpsman children!",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
@@ -45130,7 +45178,7 @@
     {
         "identifier": "lategameTips.4",
         "source_string": "Our music is by C418, Lena Raine, Aaron Cherof, and Kumi Tanioka.",
-        "translation": "Our gleecraft is by C418, Lena Raine, Aaron Cherof, and Kumi Tanioka.",
+        "translation": "Our glee is by C418, Lena Raine, Aaron Cherof, and Kumi Tanioka.",
         "context": null,
         "labels": "unassigned, lang",
         "max_length": null
