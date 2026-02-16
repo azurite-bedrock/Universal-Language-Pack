@@ -94,3 +94,48 @@ jobs:
                   fail_on_unmatched_files: true
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            # More detailed embed with download link
+            - name: Send Discord notification
+              if: success()
+              run: |
+                VERSION="${{ needs.bump-version.outputs.tag-to-release }}"
+                REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+                RELEASE_URL="$REPO_URL/releases/tag/$VERSION"
+                DOWNLOAD_URL="$REPO_URL/releases/download/$VERSION"
+                
+                # Get the .mcpack filename
+                MCPACK_FILE=$(ls *.mcpack | head -n 1)
+                
+                curl -H "Content-Type: application/json" \
+                    -d '{
+                    "content": "@everyone New update available!",
+                    "embeds": [{
+                        "title": "📦 New ULP Release: v'"$VERSION"'",
+                        "description": "A new version of Universal Language Pack has been released!",
+                        "url": "'"$RELEASE_URL"'",
+                        "color": 3066993,
+                        "thumbnail": {
+                        "url": "https://github.com/azurite-bedrock/Universal-Language-Pack/blob/main/packs/RP/pack_icon.png?raw=true"
+                        },
+                        "fields": [
+                        {
+                            "name": "Version",
+                            "value": "`v'"$VERSION"'`",
+                            "inline": true
+                        },
+                        {
+                            "name": "Download",
+                            "value": "['"$MCPACK_FILE"']('"$DOWNLOAD_URL/$MCPACK_FILE"')",
+                            "inline": true
+                        }
+                        ],
+                        "timestamp": "'"$(date -u +%Y-%m-%dT%H:%M:%S.000Z)"'",
+                        "footer": {
+                        "text": "Automated Release",
+                        "icon_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                        }
+                    }]
+                    }' \
+                    ${{ secrets.DISCORD_WEBHOOK_URL }}
+              env:
+                DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
