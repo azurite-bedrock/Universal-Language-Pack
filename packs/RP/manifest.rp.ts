@@ -1,22 +1,44 @@
 // Function to get git tag version
 async function getGitVersion() {
     try {
-        // Get the latest git tag
+        // Get all tags, filter for semver, and sort
         const command = new Deno.Command('git', {
-            args: ['describe', '--tags', '--match', '[0-9]*', '--abbrev=0'],
+            args: ['tag'],
             stdout: 'piped',
             stderr: 'piped',
         });
 
         const { code, stdout } = await command.output();
-
+        
         if (code !== 0) {
-            console.warn('Could not get git tag, using default version [1, 0, 0]');
+            console.warn('Could not get git tags, using default version 0.1.0');
+            return [0, 1, 0];
+        }
+        
+        const allTags = new TextDecoder().decode(stdout).trim().split('\n');
+        
+        // Filter for semver tags and sort
+        const semverTags = allTags
+            .filter(tag => /^v?\d+\.\d+\.\d+$/.test(tag))
+            .sort((a, b) => {
+                const aParts = parseVersion(a);
+                const bParts = parseVersion(b);
+                for (let i = 0; i < 3; i++) {
+                    if (aParts[i] !== bParts[i]) {
+                        return aParts[i] - bParts[i];
+                    }
+                }
+                return 0;
+            });
+        
+        if (semverTags.length === 0) {
+            console.warn('No semver tags found, using default version [1, 0, 0]');
             return [1, 0, 0];
         }
-
-        const gitTag = new TextDecoder().decode(stdout).trim();
-        return parseVersion(gitTag);
+        
+        const latestTag = semverTags[semverTags.length - 1];
+        console.log(`Found latest tag: ${latestTag}`);
+        return parseVersion(latestTag);
     } catch (error) {
         if (error instanceof Error) console.warn('Error getting git version:', error.message);
         else console.warn('Error getting git version:', error);
@@ -25,13 +47,13 @@ async function getGitVersion() {
 }
 
 // Function to parse version string to array format
-function parseVersion(versionString: string) {
+function parseVersion(versionString: string): number[] {
     // Remove 'v' prefix if present
     const cleanVersion = versionString.replace(/^v/, '');
-
+    
     // Split by dots and convert to numbers
     const parts = cleanVersion.split('.').map((part) => parseInt(part, 10));
-
+    
     // Ensure we have exactly 3 parts, pad with 0 if needed
     while (parts.length < 3) {
         parts.push(0);
@@ -43,7 +65,7 @@ function parseVersion(versionString: string) {
 
 // Get the version
 const version = await getGitVersion();
-console.log(`Using version: [${version.join(', ')}]`);
+console.log(`Using version ${version.join('.')}`);
 
 const manifest = {
     format_version: 2,
@@ -63,4 +85,4 @@ const manifest = {
     ],
 };
 
-Deno.writeTextFileSync('manifest.json', JSON.stringify(manifest));
+Deno.writeTextFileSync('manifest.json', JSON.stringify(manifest, null, 2));
