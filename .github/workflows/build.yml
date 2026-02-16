@@ -20,7 +20,10 @@ jobs:
             - name: Get latest semver tag
               id: get_tag
               run: |
-                  LATEST_TAG=$(git describe --tags --match "[0-9]*" --abbrev=0 2>/dev/null || echo "0.0.0")
+                  LATEST_TAG=$(git tag | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -t. -k1,1n -k2,2n -k3,3n | tail -n1)
+                  if [ -z "$LATEST_TAG" ]; then
+                    LATEST_TAG="0.0.0"
+                  fi
                   echo "latest=$LATEST_TAG" >> $GITHUB_OUTPUT
             - name: Check if latest tag has a release
               id: check_release
