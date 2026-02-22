@@ -108,7 +108,7 @@ jobs:
                 
                 curl -H "Content-Type: application/json" \
                     -d '{
-                    "content": "@everyone New update available!",
+                    "content": "",
                     "embeds": [{
                         "title": "📦 New ULP Release: v'"$VERSION"'",
                         "description": "A new version of Universal Language Pack has been released!",
