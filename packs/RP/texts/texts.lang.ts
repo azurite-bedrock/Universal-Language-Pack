@@ -26,7 +26,7 @@ for (const langFile of langFiles) {
     Deno.writeTextFileSync(
         `${langName}.lang`,
         langData.map((lang) => `${lang.identifier}=${lang.translation}`).join('\n'),
-        { append: true }
+        { append: true },
     );
 }
 
