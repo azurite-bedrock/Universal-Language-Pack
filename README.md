@@ -29,36 +29,39 @@ Join our [Crowdin project](https://crowdin.com/project/universal-language-pack) 
 3. **Join the Community:** Come hang out or ask questions on [Discord](https://discord.gg/rPNcYYNN6p).
 
 ## Setup Guide
+
 To build and run the Universal Language Pack, follow these steps:
 
 1. **Install Dependencies**
-   - [Regolith](https://github.com/Bedrock-OSS/regolith) – a build tool for Minecraft Bedrock packs/addons.
-   - [Deno](https://deno.com/) – a runtime used by some Regolith filters.
+    - [Regolith](https://github.com/Bedrock-OSS/regolith) – a build tool for Minecraft Bedrock packs/addons.
+    - [Deno](https://deno.com/) – a runtime used by some Regolith filters.
 
 2. **Clone the Repository**
-   ```bash
-   git clone https://github.com/azurite-bedrock/Universal-Language-Pack.git
-   cd Universal-Language-Pack
-   ```
+
+    ```bash
+    git clone https://github.com/azurite-bedrock/Universal-Language-Pack.git
+    cd Universal-Language-Pack
+    ```
 
 3. **Install Regolith Plugins**
-   ```bash
-   regolith install-all
-   ```
+
+    ```bash
+    regolith install-all
+    ```
 
 4. **Build the Pack**
-   - To run a one-time build:
-     ```bash
-     regolith run
-     ```
-   - Or to watch for changes and rebuild automatically:
-     ```bash
-     regolith watch
-     ```
+    - To run a one-time build:
+        ```bash
+        regolith run
+        ```
+    - Or to watch for changes and rebuild automatically:
+        ```bash
+        regolith watch
+        ```
 
 5. **Export a Pack File**
    To generate the final `.mcpack` file:
 
-   ```bash
-   regolith run pack
-   ```
+    ```bash
+    regolith run pack
+    ```

@@ -9,17 +9,17 @@
     "regolith": {
         "dataPath": "./packs/data",
         "filterDefinitions": {
-            "json_normalizer": {
-                "url": "github.com/akashic-records-of-the-abyss/rusted-filters",
-                "version": "1.0.0"
+            "shush": {
+                "url": "github.com/azurite-bedrock/regolith-filters",
+                "version": "1.0.1"
             },
             "marathon": {
                 "url": "github.com/azurite-bedrock/regolith-filters",
                 "version": "1.0.1"
             },
-            "pack_anything": {
-                "url": "github.com/Nusiq/regolith-filters",
-                "version": "1.1.0"
+            "parcel": {
+                "url": "github.com/azurite-bedrock/regolith-filters",
+                "version": "1.0.0"
             }
         },
         "formatVersion": "1.4.0",
@@ -31,7 +31,10 @@
                 },
                 "filters": [
                     {
-                        "filter": "json_normalizer"
+                        "filter": "shush",
+                        "settings": {
+                            "minify": true
+                        }
                     },
                     {
                         "filter": "marathon"
@@ -41,6 +44,17 @@
             "default": {
                 "export": {
                     "build": "standard",
+                    "readOnly": false,
+                    "target": "development"
+                },
+                "filters": [
+                    {
+                        "profile": "base"
+                    }
+                ]
+            },
+            "release": {
+                "export": {
                     "readOnly": false,
                     "target": "development"
                 },
@@ -60,24 +74,13 @@
                         "profile": "release"
                     },
                     {
-                        "filter": "pack_anything",
+                        "filter": "parcel",
                         "settings": {
-                            "output": "Universal-Language-Pack.mcpack",
-                            "pathmap": {
-                                "RP": "/"
-                            }
+                            "content_type": "resource_pack",
+                            "output": "build/${config.name}-${git.tag ?? 'dev'}.mcpack",
+                            "compression_level": 6,
+                            "update_version_from_tag": true
                         }
-                    }
-                ]
-            },
-            "release": {
-                "export": {
-                    "readOnly": false,
-                    "target": "development"
-                },
-                "filters": [
-                    {
-                        "profile": "base"
                     }
                 ]
             }
