@@ -24,13 +24,13 @@ Join our [Crowdin project](https://crowdin.com/project/universal-language-pack) 
 
 ## Getting Started
 
-1. **Installation:** Check out the [Setup Guide](#setup-guide) for installation instructions.
+1. **Compile it Yourself:** Check out the [Setup Guide](#setup-guide) for installation instructions.
 2. **Help Translate:** Join us on [Crowdin](https://crowdin.com/project/universal-language-pack) to contribute translations.
 3. **Join the Community:** Come hang out or ask questions on [Discord](https://discord.gg/rPNcYYNN6p).
 
 ## Setup Guide
 
-To build and run the Universal Language Pack, follow these steps:
+To build and run the Universal Language Pack from scratch, follow these steps:
 
 1. **Install Dependencies**
     - [Regolith](https://github.com/Bedrock-OSS/regolith) – a build tool for Minecraft Bedrock packs/addons.
