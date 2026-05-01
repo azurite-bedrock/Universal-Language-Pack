@@ -49,8 +49,8 @@ jobs:
             - name: Determine and create tag
               id: determine_tag
               run: |
-                  if [ -n "${{ inputs.version }}" ]; then
-                    TAG="${{ inputs.version }}"
+                  if [ -n "$INPUT_VERSION" ]; then
+                    TAG="$INPUT_VERSION"
                   else
                     LATEST_TAG=$(git tag | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -t. -k1,1n -k2,2n -k3,3n | tail -n1)
                     if [ -z "$LATEST_TAG" ]; then LATEST_TAG="0.0.0"; fi
@@ -68,6 +68,7 @@ jobs:
                   git push origin "$TAG" || true
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  INPUT_VERSION: ${{ inputs.version }}
 
             - name: Install Deno
               uses: denoland/setup-deno@v2
@@ -82,7 +83,8 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                   name: mcpack
-                  path: '*.mcpack'
+                  path: 'build/*.mcpack'
+                  if-no-files-found: error
 
     release:
         needs: build
@@ -94,11 +96,11 @@ jobs:
                   name: mcpack
 
             - name: Create GitHub release
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   name: 'v${{ needs.build.outputs.tag }}'
                   tag_name: ${{ needs.build.outputs.tag }}
-                  files: '*.mcpack'
+                  files: 'build/*.mcpack'
                   fail_on_unmatched_files: true
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -109,7 +111,7 @@ jobs:
                   REPO_URL="${{ github.server_url }}/${{ github.repository }}"
                   RELEASE_URL="$REPO_URL/releases/tag/$VERSION"
                   DOWNLOAD_URL="$REPO_URL/releases/download/$VERSION"
-                  MCPACK_FILE=$(ls *.mcpack | head -n 1)
+                  MCPACK_FILE=$(basename $(ls build/*.mcpack | head -n 1))
 
                   curl -H "Content-Type: application/json" \
                     -d '{
