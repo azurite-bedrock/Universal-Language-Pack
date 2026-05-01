@@ -107,7 +107,6 @@ jobs:
 
             - name: Send Discord notification
               run: |
-                  VERSION="${{ needs.build.outputs.tag }}"
                   REPO_URL="${{ github.server_url }}/${{ github.repository }}"
                   RELEASE_URL="$REPO_URL/releases/tag/$VERSION"
                   DOWNLOAD_URL="$REPO_URL/releases/download/$VERSION"
@@ -145,4 +144,5 @@ jobs:
                     }' \
                     "$DISCORD_WEBHOOK_URL"
               env:
+                  VERSION: ${{ needs.build.outputs.tag }}
                   DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
