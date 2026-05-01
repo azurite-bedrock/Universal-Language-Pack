@@ -150,6 +150,25 @@ export function extractLangFiles(
 }
 
 /**
+ * Fetch the Crowdin language map for this project.
+ * Returns Map<bdsLocaleCode, crowdinLanguageId>
+ * e.g. "de_DE" -> "de", "zh_TW" -> "zh-TW", "pt_BR" -> "pt-BR"
+ * Uses the project's own targetLanguages list — the only reliable source of truth.
+ */
+async function fetchProjectLanguageMap(
+    crowdin: CrowdinClient,
+): Promise<Map<string, string>> {
+    const project = await crowdin.projectsGroupsApi.getProject(PROJECT_ID);
+    const map = new Map<string, string>();
+    for (const lang of project.data.targetLanguages) {
+        // lang.locale = "de-DE", lang.id = "de"
+        const bdsCode = lang.locale.replace(/-/g, '_');
+        map.set(bdsCode, lang.id);
+    }
+    return map;
+}
+
+/**
  * Fetch ALL source strings from the Crowdin project (paginated, 500 per page).
  * Returns Map<identifier, { id, text }>.
  * Called once at startup- never again during a run- to avoid hammering the
@@ -194,6 +213,7 @@ async function uploadStringWithTranslations(
     identifier: string,
     enValue: string,
     translations: Map<string, string>, // BDS locale code (de_DE) -> translated text
+    langMap: Map<string, string>, // BDS locale code -> Crowdin language ID
 ): Promise<number> {
     const addResp = await crowdin.sourceStringsApi.addString(PROJECT_ID, {
         identifier,
@@ -202,17 +222,18 @@ async function uploadStringWithTranslations(
     });
     const stringId = addResp.data.id;
 
-    for (const [langCode, text] of translations) {
+    for (const [bdsCode, text] of translations) {
+        const crowdinLang = langMap.get(bdsCode);
+        if (!crowdinLang) continue; // language not configured in this project
         try {
             await crowdin.stringTranslationsApi.addTranslation(PROJECT_ID, {
                 stringId,
-                languageId: normalizeLangCode(langCode),
+                languageId: crowdinLang,
                 text,
             });
         } catch (e) {
-            // Language may not exist in the Crowdin project- log and continue
             console.warn(
-                `  Warning: could not upload translation ${langCode}/${identifier}: ${e}`,
+                `  Warning: could not upload translation ${bdsCode}/${identifier}: ${e}`,
             );
         }
     }
@@ -255,9 +276,12 @@ async function main(): Promise<void> {
 
     console.log(`Found ${unhandled.length} unhandled version(s). Fetching Crowdin strings...`);
 
-    // Fetch ALL Crowdin strings once into an in-memory Map
-    const crowdinStrings = await fetchAllCrowdinStrings(crowdin);
-    console.log(`Loaded ${crowdinStrings.size} strings from Crowdin.`);
+    // Fetch Crowdin strings and project language map once at startup
+    const [crowdinStrings, langMap] = await Promise.all([
+        fetchAllCrowdinStrings(crowdin),
+        fetchProjectLanguageMap(crowdin),
+    ]);
+    console.log(`Loaded ${crowdinStrings.size} strings from Crowdin, ${langMap.size} target languages.`);
 
     let totalNewStrings = 0;
     const processedVersions: string[] = [];
@@ -303,6 +327,7 @@ async function main(): Promise<void> {
                         key,
                         enValue,
                         translations,
+                        langMap,
                     );
                     // Insert into local Map immediately- avoids re-querying Crowdin
                     crowdinStrings.set(key, { id: stringId, text: enValue });
