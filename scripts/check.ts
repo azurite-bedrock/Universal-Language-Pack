@@ -232,8 +232,12 @@ async function main(): Promise<void> {
   // 2. Read persisted handled versions
   let handled: string[] = [];
   try {
-    handled = JSON.parse(await Deno.readTextFile(HANDLED_VERSIONS_PATH));
-  } catch {
+    const raw = await Deno.readTextFile(HANDLED_VERSIONS_PATH);
+    handled = JSON.parse(raw);
+  } catch (e) {
+    if (!(e instanceof Deno.errors.NotFound)) {
+      throw new Error(`Failed to parse ${HANDLED_VERSIONS_PATH}: ${e}`);
+    }
     // File doesn't exist on first run — start empty
   }
 
@@ -244,7 +248,7 @@ async function main(): Promise<void> {
 
   if (unhandled.length === 0) {
     console.log("No new BDS versions to process. Exiting.");
-    Deno.exit(0);
+    return;
   }
 
   console.log(
