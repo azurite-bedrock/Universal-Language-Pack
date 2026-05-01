@@ -88,7 +88,7 @@ export async function fetchBdsVersionList(): Promise<BdsVersionEntry[]> {
             result.push({ version: v, platform: 'linux' });
         }
     }
-    for (const v of (data.linux_preview?.versions ?? []) as string[]) {
+    for (const v of (data.linux?.preview_versions ?? []) as string[]) {
         if (!seen.has(v)) {
             seen.add(v);
             result.push({ version: v, platform: 'linux_preview' });
