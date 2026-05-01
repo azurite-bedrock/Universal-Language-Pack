@@ -19,7 +19,7 @@ interface BdsVersionEntry {
 /**
  * Parse a Minecraft .lang file into a key->value Map.
  * Skips comment lines (starting with #) and blank lines.
- * Values preserve everything after the first = on each line.
+ * Strips inline ## comments from values and trims trailing whitespace.
  */
 export function parseLangFile(content: string): Map<string, string> {
     const result = new Map<string, string>();
@@ -28,7 +28,10 @@ export function parseLangFile(content: string): Map<string, string> {
         if (!trimmed || trimmed.startsWith('#')) continue;
         const eqIdx = trimmed.indexOf('=');
         if (eqIdx === -1) continue;
-        result.set(trimmed.substring(0, eqIdx), trimmed.substring(eqIdx + 1));
+        const raw = trimmed.substring(eqIdx + 1);
+        const commentIdx = raw.indexOf('##');
+        const value = (commentIdx !== -1 ? raw.substring(0, commentIdx) : raw).trimEnd();
+        result.set(trimmed.substring(0, eqIdx), value);
     }
     return result;
 }

@@ -22,6 +22,16 @@ Deno.test("parseLangFile preserves = characters in values", () => {
   assertEquals(result.get("key"), "value=with=equals");
 });
 
+Deno.test("parseLangFile strips inline ## comments from values", () => {
+  const result = parseLangFile("comment.like=%d like                    ## 1 like");
+  assertEquals(result.get("comment.like"), "%d like");
+});
+
+Deno.test("parseLangFile handles value with no inline comment unchanged", () => {
+  const result = parseLangFile("key=normal value");
+  assertEquals(result.get("key"), "normal value");
+});
+
 Deno.test("sortVersionsOldestFirst orders by numeric components", () => {
   const result = sortVersionsOldestFirst(["1.20.0.1", "1.10.0.7", "1.9.0.15"]);
   assertEquals(result, ["1.9.0.15", "1.10.0.7", "1.20.0.1"]);
