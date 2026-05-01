@@ -38,7 +38,7 @@ export function sortVersionsOldestFirst(versions: string[]): string[] {
  * e.g. "de_DE" → "de-DE"
  */
 export function normalizeLangCode(bdsCode: string): string {
-  return bdsCode.replace("_", "-");
+  return bdsCode.replace(/_/g, "-");
 }
 
 /**

@@ -38,6 +38,11 @@ Deno.test("normalizeLangCode replaces underscore with hyphen", () => {
   assertEquals(normalizeLangCode("en_US"), "en-US");
 });
 
+Deno.test("normalizeLangCode replaces ALL underscores for script-subtag locales", () => {
+  assertEquals(normalizeLangCode("zh_Hant_TW"), "zh-Hant-TW");
+  assertEquals(normalizeLangCode("sr_Latn_RS"), "sr-Latn-RS");
+});
+
 Deno.test("computeUnhandled returns versions not in handled set", () => {
   const result = computeUnhandled(
     ["1.10.0.7", "1.11.0.23", "1.13.0.34"],
