@@ -8,7 +8,6 @@ type CrowdinClient = InstanceType<typeof CrowdinApi.default>;
 const PROJECT_ID = 775034;
 
 const HANDLED_VERSIONS_PATH = "handled-versions.json";
-const DISCORD_WEBHOOK_URL = Deno.env.get("DISCORD_WEBHOOK_URL");
 
 const BDS_VERSIONS_URL =
     'https://raw.githubusercontent.com/Bedrock-OSS/BDS-Versions/main/versions.json';
@@ -316,9 +315,10 @@ async function main(): Promise<void> {
   }
 
   // 6. Discord summary — only if new strings were found
-  if (totalNewStrings > 0 && DISCORD_WEBHOOK_URL) {
+  const discordWebhookUrl = Deno.env.get("DISCORD_WEBHOOK_URL");
+  if (totalNewStrings > 0 && discordWebhookUrl) {
     const versionList = processedVersions.map((v) => `\`${v}\``).join(", ");
-    await fetch(DISCORD_WEBHOOK_URL, {
+    await fetch(discordWebhookUrl, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
