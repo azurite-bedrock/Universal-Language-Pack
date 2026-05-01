@@ -7,6 +7,9 @@ type CrowdinClient = InstanceType<typeof CrowdinApi.default>;
 
 const PROJECT_ID = 775034;
 
+const HANDLED_VERSIONS_PATH = "handled-versions.json";
+const DISCORD_WEBHOOK_URL = Deno.env.get("DISCORD_WEBHOOK_URL");
+
 const BDS_VERSIONS_URL =
     'https://raw.githubusercontent.com/Bedrock-OSS/BDS-Versions/main/versions.json';
 const LANG_PATH_RE = /^resource_packs\/(vanilla|editor|chemistry)\/texts\/(.+\.lang)$/;
@@ -220,7 +223,114 @@ async function uploadStringWithTranslations(
 }
 
 async function main(): Promise<void> {
-    // Implemented in later tasks
+  const crowdin = new CrowdinApi.default({ token: Deno.env.get("CROWDIN_API")! });
+
+  // 1. Fetch BDS version list (linux + linux_preview, deduped)
+  console.log("Fetching BDS version list...");
+  const allEntries = await fetchBdsVersionList();
+  const versionToEntry = new Map(allEntries.map((e) => [e.version, e]));
+
+  // 2. Read persisted handled versions
+  let handled: string[] = [];
+  try {
+    handled = JSON.parse(await Deno.readTextFile(HANDLED_VERSIONS_PATH));
+  } catch {
+    // File doesn't exist on first run — start empty
+  }
+
+  // 3. Compute unhandled versions, sorted oldest-first
+  const unhandled = sortVersionsOldestFirst(
+    computeUnhandled(allEntries.map((e) => e.version), handled),
+  );
+
+  if (unhandled.length === 0) {
+    console.log("No new BDS versions to process. Exiting.");
+    Deno.exit(0);
+  }
+
+  console.log(
+    `Found ${unhandled.length} unhandled version(s). Fetching Crowdin strings...`,
+  );
+
+  // 4. Fetch ALL Crowdin strings once into an in-memory Map
+  const crowdinStrings = await fetchAllCrowdinStrings(crowdin);
+  console.log(`Loaded ${crowdinStrings.size} strings from Crowdin.`);
+
+  let totalNewStrings = 0;
+  const processedVersions: string[] = [];
+
+  // 5. Process each version sequentially, oldest-first
+  for (const version of unhandled) {
+    const entry = versionToEntry.get(version)!;
+    console.log(`\nProcessing ${version} (${entry.platform})...`);
+
+    const downloadUrl = await fetchVersionDownloadUrl(entry);
+    const zipData = await downloadZip(downloadUrl);
+    const packs = extractLangFiles(zipData);
+
+    if (packs.size === 0) {
+      console.log(`  No lang files found — skipping.`);
+    } else {
+      for (const [packName, langs] of packs) {
+        const enUS = langs.get("en_US");
+        if (!enUS) {
+          console.log(`  Pack "${packName}": no en_US.lang — skipping.`);
+          continue;
+        }
+
+        let packNewStrings = 0;
+        for (const [key, enValue] of enUS) {
+          if (crowdinStrings.has(key)) continue;
+
+          // Gather translations from the other .lang files in this pack
+          const translations = new Map<string, string>();
+          for (const [langCode, langData] of langs) {
+            if (langCode === "en_US") continue;
+            const translated = langData.get(key);
+            if (translated) translations.set(langCode, translated);
+          }
+
+          const stringId = await uploadStringWithTranslations(
+            crowdin,
+            key,
+            enValue,
+            translations,
+          );
+          // Insert into local Map immediately — avoids re-querying Crowdin
+          crowdinStrings.set(key, { id: stringId, text: enValue });
+          packNewStrings++;
+          totalNewStrings++;
+        }
+
+        console.log(`  Pack "${packName}": ${packNewStrings} new string(s).`);
+      }
+    }
+
+    // Persist progress after each version so a mid-run failure doesn't lose work
+    handled.push(version);
+    processedVersions.push(version);
+    await Deno.writeTextFile(
+      HANDLED_VERSIONS_PATH,
+      JSON.stringify(handled, null, 2) + "\n",
+    );
+  }
+
+  // 6. Discord summary — only if new strings were found
+  if (totalNewStrings > 0 && DISCORD_WEBHOOK_URL) {
+    const versionList = processedVersions.map((v) => `\`${v}\``).join(", ");
+    await fetch(DISCORD_WEBHOOK_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        content:
+          `Processed BDS ${versionList} — **${totalNewStrings} new strings** added to Crowdin`,
+      }),
+    });
+  }
+
+  console.log(
+    `\nDone. ${totalNewStrings} new string(s) added across ${processedVersions.length} version(s).`,
+  );
 }
 
 if (import.meta.main) {
