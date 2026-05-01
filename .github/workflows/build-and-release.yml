@@ -94,6 +94,7 @@ jobs:
               uses: actions/download-artifact@v4
               with:
                   name: mcpack
+                  path: build/
 
             - name: Create GitHub release
               uses: softprops/action-gh-release@v2
