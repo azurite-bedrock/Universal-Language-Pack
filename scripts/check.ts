@@ -1,6 +1,9 @@
 // scripts/check.ts
 
 import { unzipSync } from 'npm:fflate';
+import CrowdinApi from 'npm:@crowdin/crowdin-api-client';
+
+const PROJECT_ID = 775034;
 
 const BDS_VERSIONS_URL =
     'https://raw.githubusercontent.com/Bedrock-OSS/BDS-Versions/main/versions.json';
@@ -12,7 +15,7 @@ interface BdsVersionEntry {
 }
 
 /**
- * Parse a Minecraft .lang file into a key→value Map.
+ * Parse a Minecraft .lang file into a key->value Map.
  * Skips comment lines (starting with #) and blank lines.
  * Values preserve everything after the first = on each line.
  */
@@ -30,7 +33,7 @@ export function parseLangFile(content: string): Map<string, string> {
 
 /**
  * Sort BDS version strings oldest-first using numeric component comparison.
- * e.g. ["1.20.0.1", "1.9.0.15"] → ["1.9.0.15", "1.20.0.1"]
+ * e.g. ["1.20.0.1", "1.9.0.15"] -> ["1.9.0.15", "1.20.0.1"]
  */
 export function sortVersionsOldestFirst(versions: string[]): string[] {
     return [...versions].sort((a, b) => {
@@ -46,7 +49,7 @@ export function sortVersionsOldestFirst(versions: string[]): string[] {
 
 /**
  * Normalize a BDS locale code to Crowdin language ID format.
- * e.g. "de_DE" → "de-DE"
+ * e.g. "de_DE" -> "de-DE"
  */
 export function normalizeLangCode(bdsCode: string): string {
     return bdsCode.replace(/_/g, '-');
@@ -119,7 +122,7 @@ async function downloadZip(url: string): Promise<Uint8Array> {
  * Pack directories not present in the zip are silently absent from the result.
  *
  * Returns: Map<packName, Map<langCode, Map<key, value>>>
- * e.g. "vanilla" → "de_DE" → "accessibility.foo" → "Barrierefreiheit"
+ * e.g. "vanilla" -> "de_DE" -> "accessibility.foo" -> "Barrierefreiheit"
  */
 export function extractLangFiles(
     zipData: Uint8Array,
@@ -142,6 +145,75 @@ export function extractLangFiles(
     }
 
     return packs;
+}
+
+/**
+ * Fetch ALL source strings from the Crowdin project (paginated, 500 per page).
+ * Returns Map<identifier, { id, text }>.
+ * Called once at startup — never again during a run — to avoid hammering the
+ * API across 80k+ strings.
+ */
+async function fetchAllCrowdinStrings(
+    crowdin: InstanceType<typeof CrowdinApi.default>,
+): Promise<Map<string, { id: number; text: string }>> {
+    const result = new Map<string, { id: number; text: string }>();
+    const limit = 500;
+    let offset = 0;
+
+    while (true) {
+        const resp = await crowdin.sourceStringsApi.listProjectStrings(PROJECT_ID, {
+            limit,
+            offset,
+        });
+        for (const item of resp.data) {
+            const { id, identifier, text } = item.data;
+            result.set(identifier, { id, text: text as string });
+        }
+        if (resp.data.length < limit) break;
+        offset += limit;
+    }
+
+    return result;
+}
+
+/**
+ * Upload a new source string to Crowdin and immediately upload
+ * all available vanilla translations for it.
+ *
+ * Uses the stringId from the addString response directly — never re-queries
+ * Crowdin for the new string, avoiding eventual-consistency issues.
+ *
+ * Returns the new Crowdin string ID.
+ */
+async function uploadStringWithTranslations(
+    crowdin: InstanceType<typeof CrowdinApi.default>,
+    identifier: string,
+    enValue: string,
+    translations: Map<string, string>, // BDS locale code (de_DE) -> translated text
+): Promise<number> {
+    // deno-lint-ignore no-explicit-any
+    const addResp = await crowdin.sourceStringsApi.addString(PROJECT_ID, {
+        identifier,
+        text: enValue,
+    } as any);
+    const stringId = addResp.data.id;
+
+    for (const [langCode, text] of translations) {
+        try {
+            await crowdin.stringTranslationsApi.addTranslation(PROJECT_ID, {
+                stringId,
+                languageId: normalizeLangCode(langCode),
+                text,
+            });
+        } catch (e) {
+            // Language may not exist in the Crowdin project — log and continue
+            console.warn(
+                `  Warning: could not upload translation ${langCode}/${identifier}: ${e}`,
+            );
+        }
+    }
+
+    return stringId;
 }
 
 async function main(): Promise<void> {
