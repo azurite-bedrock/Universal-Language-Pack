@@ -284,6 +284,7 @@ async function main(): Promise<void> {
                 for (const [key, enValue] of enUS) {
                     if (crowdinStrings.has(key)) continue;
                     if (!enValue.trim()) continue; // Crowdin rejects empty source strings
+                    console.log(`  New string: ${key} = "${enValue}"`);
 
                     // Gather translations from the other .lang files in this pack
                     const translations = new Map<string, string>();
