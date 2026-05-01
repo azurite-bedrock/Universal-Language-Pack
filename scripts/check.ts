@@ -198,7 +198,8 @@ async function uploadStringWithTranslations(
     const addResp = await crowdin.sourceStringsApi.addString(PROJECT_ID, {
         identifier,
         text: enValue,
-    } as Parameters<typeof crowdin.sourceStringsApi.addString>[1]);
+        branchId: 5, // main
+    });
     const stringId = addResp.data.id;
 
     for (const [langCode, text] of translations) {
@@ -283,7 +284,7 @@ async function main(): Promise<void> {
                 let packNewStrings = 0;
                 for (const [key, enValue] of enUS) {
                     if (crowdinStrings.has(key)) continue;
-                    if (!enValue.trim()) continue; // Crowdin rejects empty source strings
+                    //if (!enValue.trim()) continue; // Crowdin rejects empty source strings
                     console.log(`  New string: ${key} = "${enValue}"`);
 
                     // Gather translations from the other .lang files in this pack
@@ -293,7 +294,6 @@ async function main(): Promise<void> {
 
                         const translated = langData.get(key);
                         if (!translated) continue;
-                        if (!translated.trim()) continue; // Skip empty translations
 
                         translations.set(langCode, translated);
                     }
