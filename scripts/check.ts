@@ -283,6 +283,7 @@ async function main(): Promise<void> {
                 let packNewStrings = 0;
                 for (const [key, enValue] of enUS) {
                     if (crowdinStrings.has(key)) continue;
+                    if (!enValue.trim()) continue; // Crowdin rejects empty source strings
 
                     // Gather translations from the other .lang files in this pack
                     const translations = new Map<string, string>();
