@@ -352,7 +352,7 @@ async function main(): Promise<void> {
         );
     }
 
-    // 6. Discord summary- only if new strings were found
+    // Discord summary- only if new strings were found
     const discordWebhookUrl = Deno.env.get('DISCORD_WEBHOOK_URL');
     if (totalNewStrings > 0 && discordWebhookUrl) {
         const versionList = processedVersions.map((v) => `\`${v}\``).join(', ');
