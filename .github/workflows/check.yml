@@ -1,0 +1,35 @@
+name: BDS Version Check
+
+on:
+    schedule:
+        - cron: '0 8 * * *'
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    check-versions:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - uses: denoland/setup-deno@v2
+              with:
+                  deno-version: v2.x
+
+            - name: Run BDS version check
+              run: deno run --allow-net --allow-read --allow-write --allow-env scripts/check.ts
+              env:
+                  CROWDIN_API: ${{ secrets.CROWDIN_API }}
+                  DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+            - name: Commit handled-versions.json
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add handled-versions.json
+                  git diff --staged --quiet || git commit -m "chore: mark BDS versions as handled"
+                  git push
