@@ -158,9 +158,7 @@ export function extractLangFiles(
  * e.g. "de_DE" -> "de", "zh_TW" -> "zh-TW", "pt_BR" -> "pt-BR"
  * Uses the project's own targetLanguages list — the only reliable source of truth.
  */
-async function fetchProjectLanguageMap(
-    crowdin: CrowdinClient,
-): Promise<Map<string, string>> {
+async function fetchProjectLanguageMap(crowdin: CrowdinClient): Promise<Map<string, string>> {
     const project = await crowdin.projectsGroupsApi.getProject(PROJECT_ID);
     const map = new Map<string, string>();
     for (const lang of project.data.targetLanguages) {
@@ -284,7 +282,9 @@ async function main(): Promise<void> {
         fetchAllCrowdinStrings(crowdin),
         fetchProjectLanguageMap(crowdin),
     ]);
-    console.log(`Loaded ${crowdinStrings.size} strings from Crowdin, ${langMap.size} target languages.`);
+    console.log(
+        `Loaded ${crowdinStrings.size} strings from Crowdin, ${langMap.size} target languages.`,
+    );
 
     let totalNewStrings = 0;
     const processedVersions: string[] = [];
@@ -310,8 +310,8 @@ async function main(): Promise<void> {
 
                 let packNewStrings = 0;
                 for (const [key, enValue] of enUS) {
-                    if (crowdinStrings.has(key)) continue;
-                    //if (!enValue.trim()) continue; // Crowdin rejects empty source strings
+                    if (crowdinStrings.has(key.trim())) continue;
+                    if (!enValue.trim()) continue; // Crowdin rejects empty source strings
                     console.log(`  New string: ${key} = "${enValue}"`);
 
                     // Gather translations from the other .lang files in this pack
