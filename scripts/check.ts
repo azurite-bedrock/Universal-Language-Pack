@@ -30,8 +30,9 @@ export function parseLangFile(content: string): Map<string, string> {
         if (eqIdx === -1) continue;
         const raw = trimmed.substring(eqIdx + 1);
         const commentIdx = raw.indexOf('##');
+        const key = trimmed.substring(0, eqIdx).trimEnd();
         const value = (commentIdx !== -1 ? raw.substring(0, commentIdx) : raw).trimEnd();
-        result.set(trimmed.substring(0, eqIdx), value);
+        result.set(key, value);
     }
     return result;
 }
@@ -310,7 +311,7 @@ async function main(): Promise<void> {
 
                 let packNewStrings = 0;
                 for (const [key, enValue] of enUS) {
-                    if (crowdinStrings.has(key.trim())) continue;
+                    if (crowdinStrings.has(key)) continue;
                     if (!enValue.trim()) continue; // Crowdin rejects empty source strings
                     console.log(`  New string: ${key} = "${enValue}"`);
 
