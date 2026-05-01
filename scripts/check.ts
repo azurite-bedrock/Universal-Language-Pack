@@ -290,8 +290,12 @@ async function main(): Promise<void> {
                     const translations = new Map<string, string>();
                     for (const [langCode, langData] of langs) {
                         if (langCode === 'en_US') continue;
+
                         const translated = langData.get(key);
-                        if (translated) translations.set(langCode, translated);
+                        if (!translated) continue;
+                        if (!translated.trim()) continue; // Skip empty translations
+
+                        translations.set(langCode, translated);
                     }
 
                     const stringId = await uploadStringWithTranslations(
