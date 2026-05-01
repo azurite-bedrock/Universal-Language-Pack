@@ -3,6 +3,8 @@
 import { unzipSync } from 'npm:fflate';
 import CrowdinApi from 'npm:@crowdin/crowdin-api-client';
 
+type CrowdinClient = InstanceType<typeof CrowdinApi.default>;
+
 const PROJECT_ID = 775034;
 
 const BDS_VERSIONS_URL =
@@ -154,7 +156,7 @@ export function extractLangFiles(
  * API across 80k+ strings.
  */
 async function fetchAllCrowdinStrings(
-    crowdin: InstanceType<typeof CrowdinApi.default>,
+    crowdin: CrowdinClient,
 ): Promise<Map<string, { id: number; text: string }>> {
     const result = new Map<string, { id: number; text: string }>();
     const limit = 500;
@@ -169,6 +171,8 @@ async function fetchAllCrowdinStrings(
             const { id, identifier, text } = item.data;
             result.set(identifier, { id, text: text as string });
         }
+        // A project with exactly N*500 strings will make one extra empty-page
+        // request before breaking — acceptable since the SDK has no typed total count.
         if (resp.data.length < limit) break;
         offset += limit;
     }
@@ -186,16 +190,15 @@ async function fetchAllCrowdinStrings(
  * Returns the new Crowdin string ID.
  */
 async function uploadStringWithTranslations(
-    crowdin: InstanceType<typeof CrowdinApi.default>,
+    crowdin: CrowdinClient,
     identifier: string,
     enValue: string,
     translations: Map<string, string>, // BDS locale code (de_DE) -> translated text
 ): Promise<number> {
-    // deno-lint-ignore no-explicit-any
-    const addResp = await crowdin.sourceStringsApi.addString(PROJECT_ID, {
-        identifier,
-        text: enValue,
-    } as any);
+    const addResp = await crowdin.sourceStringsApi.addString(
+        PROJECT_ID,
+        { identifier, text: enValue } as Parameters<typeof crowdin.sourceStringsApi.addString>[1],
+    );
     const stringId = addResp.data.id;
 
     for (const [langCode, text] of translations) {
