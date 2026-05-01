@@ -1,20 +1,31 @@
 // scripts/check.ts
 
+import { unzipSync } from 'npm:fflate';
+
+const BDS_VERSIONS_URL =
+    'https://raw.githubusercontent.com/Bedrock-OSS/BDS-Versions/main/versions.json';
+const LANG_PATH_RE = /^resource_packs\/(vanilla|editor|chemistry)\/texts\/(.+\.lang)$/;
+
+interface BdsVersionEntry {
+    version: string;
+    platform: 'linux' | 'linux_preview';
+}
+
 /**
  * Parse a Minecraft .lang file into a key→value Map.
  * Skips comment lines (starting with #) and blank lines.
  * Values preserve everything after the first = on each line.
  */
 export function parseLangFile(content: string): Map<string, string> {
-  const result = new Map<string, string>();
-  for (const line of content.split("\n")) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith("#")) continue;
-    const eqIdx = trimmed.indexOf("=");
-    if (eqIdx === -1) continue;
-    result.set(trimmed.substring(0, eqIdx), trimmed.substring(eqIdx + 1));
-  }
-  return result;
+    const result = new Map<string, string>();
+    for (const line of content.split('\n')) {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) continue;
+        const eqIdx = trimmed.indexOf('=');
+        if (eqIdx === -1) continue;
+        result.set(trimmed.substring(0, eqIdx), trimmed.substring(eqIdx + 1));
+    }
+    return result;
 }
 
 /**
@@ -22,15 +33,15 @@ export function parseLangFile(content: string): Map<string, string> {
  * e.g. ["1.20.0.1", "1.9.0.15"] → ["1.9.0.15", "1.20.0.1"]
  */
 export function sortVersionsOldestFirst(versions: string[]): string[] {
-  return [...versions].sort((a, b) => {
-    const ap = a.split(".").map(Number);
-    const bp = b.split(".").map(Number);
-    for (let i = 0; i < Math.max(ap.length, bp.length); i++) {
-      const diff = (ap[i] ?? 0) - (bp[i] ?? 0);
-      if (diff !== 0) return diff;
-    }
-    return 0;
-  });
+    return [...versions].sort((a, b) => {
+        const ap = a.split('.').map(Number);
+        const bp = b.split('.').map(Number);
+        for (let i = 0; i < Math.max(ap.length, bp.length); i++) {
+            const diff = (ap[i] ?? 0) - (bp[i] ?? 0);
+            if (diff !== 0) return diff;
+        }
+        return 0;
+    });
 }
 
 /**
@@ -38,21 +49,105 @@ export function sortVersionsOldestFirst(versions: string[]): string[] {
  * e.g. "de_DE" → "de-DE"
  */
 export function normalizeLangCode(bdsCode: string): string {
-  return bdsCode.replace(/_/g, "-");
+    return bdsCode.replace(/_/g, '-');
 }
 
 /**
  * Return versions from `all` that are not present in `handled`.
  */
 export function computeUnhandled(all: string[], handled: string[]): string[] {
-  const handledSet = new Set(handled);
-  return all.filter((v) => !handledSet.has(v));
+    const handledSet = new Set(handled);
+    return all.filter((v) => !handledSet.has(v));
+}
+
+/**
+ * Fetch the BDS version list from Bedrock-OSS/BDS-Versions.
+ * Returns the union of linux + linux_preview versions, deduplicated.
+ * linux takes precedence when a version appears in both lists.
+ */
+export async function fetchBdsVersionList(): Promise<BdsVersionEntry[]> {
+    const resp = await fetch(BDS_VERSIONS_URL);
+    if (!resp.ok) throw new Error(`Failed to fetch BDS versions: ${resp.status}`);
+    const data = await resp.json();
+
+    const seen = new Set<string>();
+    const result: BdsVersionEntry[] = [];
+
+    for (const v of (data.linux?.versions ?? []) as string[]) {
+        if (!seen.has(v)) {
+            seen.add(v);
+            result.push({ version: v, platform: 'linux' });
+        }
+    }
+    for (const v of (data.linux_preview?.versions ?? []) as string[]) {
+        if (!seen.has(v)) {
+            seen.add(v);
+            result.push({ version: v, platform: 'linux_preview' });
+        }
+    }
+
+    return result;
+}
+
+/**
+ * Fetch the download URL for a specific BDS version
+ * from the per-version JSON in Bedrock-OSS/BDS-Versions.
+ */
+export async function fetchVersionDownloadUrl(entry: BdsVersionEntry): Promise<string> {
+    const url = `https://raw.githubusercontent.com/Bedrock-OSS/BDS-Versions/main/${entry.platform}/${entry.version}.json`;
+    const resp = await fetch(url);
+    if (!resp.ok) {
+        throw new Error(`Failed to fetch version info for ${entry.version}: ${resp.status}`);
+    }
+    const data = await resp.json();
+    return data.download_url as string;
+}
+
+/**
+ * Download a BDS server zip from a URL and return it as a Uint8Array.
+ */
+async function downloadZip(url: string): Promise<Uint8Array> {
+    console.log(`  Downloading ${url} ...`);
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`Download failed (${resp.status}): ${url}`);
+    return new Uint8Array(await resp.arrayBuffer());
+}
+
+/**
+ * Extract all .lang files from a BDS server zip.
+ * Only reads resource_packs/{vanilla,editor,chemistry}/texts/*.lang entries.
+ * Pack directories not present in the zip are silently absent from the result.
+ *
+ * Returns: Map<packName, Map<langCode, Map<key, value>>>
+ * e.g. "vanilla" → "de_DE" → "accessibility.foo" → "Barrierefreiheit"
+ */
+export function extractLangFiles(
+    zipData: Uint8Array,
+): Map<string, Map<string, Map<string, string>>> {
+    const files = unzipSync(zipData, {
+        filter: (file) => LANG_PATH_RE.test(file.name),
+    });
+
+    const packs = new Map<string, Map<string, Map<string, string>>>();
+
+    for (const [path, data] of Object.entries(files)) {
+        const match = path.match(LANG_PATH_RE);
+        if (!match) continue;
+        const packName = match[1];
+        const langCode = match[2].replace('.lang', '');
+        const content = new TextDecoder().decode(data);
+
+        if (!packs.has(packName)) packs.set(packName, new Map());
+        packs.get(packName)!.set(langCode, parseLangFile(content));
+    }
+
+    return packs;
 }
 
 async function main(): Promise<void> {
-  // Implemented in later tasks
+    // Implemented in later tasks
 }
 
 if (import.meta.main) {
-  await main();
+    await main();
 }
