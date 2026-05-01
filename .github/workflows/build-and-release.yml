@@ -1,0 +1,146 @@
+name: Build and Release
+
+on:
+    schedule:
+        - cron: '0 6 * * 3'
+    workflow_dispatch:
+        inputs:
+            version:
+                description: 'Semver to release (e.g. 1.0.0). Leave empty for auto patch bump.'
+                required: false
+
+permissions:
+    contents: write
+
+jobs:
+    pull:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Install Crowdin CLI
+              run: npm install -g @crowdin/cli
+
+            - name: Download Crowdin bundle
+              run: crowdin bundle download 3 --project-id=775034 --no-progress
+              env:
+                  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_API }}
+
+            - name: Commit translation updates
+              run: |
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git add locales/
+                  git diff --staged --quiet || (git commit -m "chore: update translations from Crowdin" && git push origin main)
+
+    build:
+        needs: pull
+        runs-on: ubuntu-latest
+        outputs:
+            tag: ${{ steps.determine_tag.outputs.tag }}
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  fetch-depth: 0
+
+            - name: Determine and create tag
+              id: determine_tag
+              run: |
+                  if [ -n "${{ inputs.version }}" ]; then
+                    TAG="${{ inputs.version }}"
+                  else
+                    LATEST_TAG=$(git tag | grep -E '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -t. -k1,1n -k2,2n -k3,3n | tail -n1)
+                    if [ -z "$LATEST_TAG" ]; then LATEST_TAG="0.0.0"; fi
+                    if gh release view "$LATEST_TAG" &>/dev/null; then
+                      IFS='.' read -r MAJOR MINOR PATCH <<< "$LATEST_TAG"
+                      TAG="$MAJOR.$MINOR.$((PATCH + 1))"
+                    else
+                      TAG="$LATEST_TAG"
+                    fi
+                  fi
+                  echo "tag=$TAG" >> $GITHUB_OUTPUT
+                  git config user.name "github-actions[bot]"
+                  git config user.email "github-actions[bot]@users.noreply.github.com"
+                  git tag "$TAG" || true
+                  git push origin "$TAG" || true
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Install Deno
+              uses: denoland/setup-deno@v2
+              with:
+                  deno-version: v2.x
+
+            - uses: Bedrock-OSS/regolith-action@v1.1.0
+              with:
+                  profile: pack
+
+            - name: Upload mcpack artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: mcpack
+                  path: '*.mcpack'
+
+    release:
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+            - name: Download mcpack artifact
+              uses: actions/download-artifact@v4
+              with:
+                  name: mcpack
+
+            - name: Create GitHub release
+              uses: softprops/action-gh-release@v1
+              with:
+                  name: 'v${{ needs.build.outputs.tag }}'
+                  tag_name: ${{ needs.build.outputs.tag }}
+                  files: '*.mcpack'
+                  fail_on_unmatched_files: true
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Send Discord notification
+              run: |
+                  VERSION="${{ needs.build.outputs.tag }}"
+                  REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+                  RELEASE_URL="$REPO_URL/releases/tag/$VERSION"
+                  DOWNLOAD_URL="$REPO_URL/releases/download/$VERSION"
+                  MCPACK_FILE=$(ls *.mcpack | head -n 1)
+
+                  curl -H "Content-Type: application/json" \
+                    -d '{
+                    "content": "",
+                    "embeds": [{
+                      "title": "📦 New ULP Release: v'"$VERSION"'",
+                      "description": "A new version of Universal Language Pack has been released!",
+                      "url": "'"$RELEASE_URL"'",
+                      "color": 3066993,
+                      "thumbnail": {
+                        "url": "https://github.com/azurite-bedrock/Universal-Language-Pack/blob/main/packs/RP/pack_icon.png?raw=true"
+                      },
+                      "fields": [
+                        {
+                          "name": "Version",
+                          "value": "`v'"$VERSION"'`",
+                          "inline": true
+                        },
+                        {
+                          "name": "Download",
+                          "value": "['"$MCPACK_FILE"']('"$DOWNLOAD_URL/$MCPACK_FILE"')",
+                          "inline": true
+                        }
+                      ],
+                      "timestamp": "'"$(date -u +%Y-%m-%dT%H:%M:%S.000Z)"'",
+                      "footer": {
+                        "text": "Automated Release",
+                        "icon_url": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                      }
+                    }]
+                    }' \
+                    "$DISCORD_WEBHOOK_URL"
+              env:
+                  DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
