@@ -25,10 +25,19 @@ for (const langFile of langFiles) {
 
     Deno.writeTextFileSync(
         `${langName}.lang`,
-        langData.map((lang) => `${lang.identifier}=${lang.translation}`).join('\n'),
+        langData
+            .sort((a, b) => a.identifier.localeCompare(b.identifier))
+            .map((lang) => `${lang.identifier}=${lang.translation}`)
+            .join('\n'),
         { append: true },
     );
 }
 
-Deno.writeTextFileSync('languages.json', JSON.stringify(langNames.map(([name, _]) => name)));
-Deno.writeTextFileSync('language_names.json', JSON.stringify(langNames));
+Deno.writeTextFileSync(
+    'languages.json',
+    JSON.stringify(langNames.sort((a, b) => a[0].localeCompare(b[0])).map(([name, _]) => name)),
+);
+Deno.writeTextFileSync(
+    'language_names.json',
+    JSON.stringify(langNames.sort((a, b) => a[0].localeCompare(b[0]))),
+);
