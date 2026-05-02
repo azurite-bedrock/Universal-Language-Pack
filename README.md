@@ -14,21 +14,13 @@
 </div>
 
 Universal Language Pack is a Bedrock Resource Pack that expands language support by including numerous missing languages.
-Join our [Crowdin project](https://crowdin.com/project/universal-language-pack) to help refine current translations and contribute new ones!
 
-## Goals
+Join our **[Crowdin Project](https://crowdin.com/project/universal-language-pack)** or **[Discord](https://discord.gg/rPNcYYNN6p)** to help refine current translations and contribute new ones!
 
-- **Further Language Support:** Adds several missing languages to Minecraft Bedrock.
-- **Community Driven:** Anyone can help improve existing translations or add new ones.
-- **Modern Tooling:** Made with Regolith and Deno for easier accessibility.
+## Our Goal
+We want to add numerous missing languages to Minecraft Bedrock, using the help of our community!
 
-## Getting Started
-
-1. **Compile it Yourself:** Check out the [Setup Guide](#setup-guide) for installation instructions.
-2. **Help Translate:** Join us on [Crowdin](https://crowdin.com/project/universal-language-pack) to contribute translations.
-3. **Join the Community:** Come hang out or ask questions on [Discord](https://discord.gg/rPNcYYNN6p).
-
-## Setup Guide
+## Local Setup Guide
 
 To build and run the Universal Language Pack from scratch, follow these steps:
 
