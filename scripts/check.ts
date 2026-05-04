@@ -159,7 +159,9 @@ export function extractLangFiles(
  * e.g. "de_DE" -> "de", "zh_TW" -> "zh-TW", "pt_BR" -> "pt-BR"
  * Uses the project's own targetLanguages list — the only reliable source of truth.
  */
-async function fetchProjectLanguageMap(crowdin: CrowdinClient): Promise<Map<string, string>> {
+export async function fetchProjectLanguageMap(
+    crowdin: CrowdinClient,
+): Promise<Map<string, string>> {
     const project = await crowdin.projectsGroupsApi.getProject(PROJECT_ID);
     const map = new Map<string, string>();
     for (const lang of project.data.targetLanguages) {
@@ -176,7 +178,7 @@ async function fetchProjectLanguageMap(crowdin: CrowdinClient): Promise<Map<stri
  * Called once at startup- never again during a run- to avoid hammering the
  * API across 80k+ strings.
  */
-async function fetchAllCrowdinStrings(
+export async function fetchAllCrowdinStrings(
     crowdin: CrowdinClient,
 ): Promise<Map<string, { id: number; text: string }>> {
     const result = new Map<string, { id: number; text: string }>();
