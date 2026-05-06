@@ -3,15 +3,15 @@
         "identifier": "pack.name",
         "source_string": "Universal Language Pack",
         "translation": "Alkin Tongue Pack",
-        "context": "Name of the Add-On",
+        "context": "Name of the pack",
         "labels": "unassigned, metadata",
         "max_length": null
     },
     {
         "identifier": "pack.description",
         "source_string": "Resource Pack introducing several missing languages to Bedrock Edition. Developed by Azurite",
-        "translation": "Stock Pack inbringing some missing tongues to Bedrock Wending. Made by theaddonn",
-        "context": "Description of the Add-On",
+        "translation": "Stock Pack inbringing some missing tongues to Bedrock Wending. Made by Azurite",
+        "context": "Description of the pack",
         "labels": "unassigned, metadata",
         "max_length": null
     },
@@ -6610,7 +6610,7 @@
     {
         "identifier": "commands.op.failed",
         "source_string": "Could not op (already op or higher): %s",
-        "translation": "Nothing wended. The play is not an overseer",
+        "translation": "%s is already an overseer (or higher)",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6738,7 +6738,7 @@
     {
         "identifier": "commands.save.disabled",
         "source_string": "Turned off world auto-saving",
-        "translation": "Self-nering is now off",
+        "translation": "Self-spealing is now off",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6746,7 +6746,7 @@
     {
         "identifier": "commands.save.enabled",
         "source_string": "Turned on world auto-saving",
-        "translation": "Self-nering is now on",
+        "translation": "Self-spealing is now on",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6754,7 +6754,7 @@
     {
         "identifier": "commands.save.start",
         "source_string": "Saving...",
-        "translation": "Keeping...",
+        "translation": "Spealing...",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -6762,7 +6762,7 @@
     {
         "identifier": "commands.save.success",
         "source_string": "Saved the world",
-        "translation": "Nered the game",
+        "translation": "Spealed the game",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -8856,6 +8856,14 @@
         "max_length": null
     },
     {
+        "identifier": "createWorldScreen.spectatorMode",
+        "source_string": "Spectator Mode",
+        "translation": "Onlooker Wayset",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "createWorldScreen.experimentalUpdateAnnounced2023",
         "source_string": "Update 1.21",
         "translation": "Anwardening 1.21",
@@ -9008,6 +9016,14 @@
         "max_length": null
     },
     {
+        "identifier": "createWorldScreen.gameMode.spectator",
+        "source_string": "Spectator",
+        "translation": "Onlooker",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "createWorldScreen.gameMode.serverDefault",
         "source_string": "Default",
         "translation": "Stock",
@@ -9067,6 +9083,14 @@
         "identifier": "createWorldScreen.levelSeed",
         "source_string": "Seed",
         "translation": "Seed",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.multiplayer.settings",
+        "source_string": "Multiplayer Settings",
+        "translation": "Maniplayer Settings",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -12576,6 +12600,14 @@
         "max_length": null
     },
     {
+        "identifier": "disconnect.kicked.reason",
+        "source_string": "You were kicked from the game:",
+        "translation": "Was throwed out of the game:",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "disconnect.loginFailed",
         "source_string": "Failed to login",
         "translation": "Cannot login",
@@ -14082,7 +14114,7 @@
     {
         "identifier": "addExternalServerScreen.saveButtonLabel",
         "source_string": "Save",
-        "translation": "Nere",
+        "translation": "Speal",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -25042,7 +25074,7 @@
     {
         "identifier": "item.diamond_chestplate.name",
         "source_string": "Diamond Chestplate",
-        "translation": "Athamans Breastbour",
+        "translation": "Athamans Breastbor",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -25050,7 +25082,7 @@
     {
         "identifier": "item.golden_chestplate.name",
         "source_string": "Golden Chestplate",
-        "translation": "Golden Breastbour",
+        "translation": "Golden Breastbor",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -25058,7 +25090,7 @@
     {
         "identifier": "item.iron_chestplate.name",
         "source_string": "Iron Chestplate",
-        "translation": "Iron Breastbour",
+        "translation": "Iron Breastbor",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -25922,7 +25954,7 @@
     {
         "identifier": "item.gold_nugget.name",
         "source_string": "Gold Nugget",
-        "translation": "Golden Climper",
+        "translation": "Gold Climper",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -26194,7 +26226,7 @@
     {
         "identifier": "item.netherite_chestplate.name",
         "source_string": "Netherite Chestplate",
-        "translation": "Netherite Breastbour",
+        "translation": "Netherite Breastbor",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -28986,7 +29018,7 @@
     {
         "identifier": "itemGroup.name.chestplate",
         "source_string": "Chestplates",
-        "translation": "Breastboures",
+        "translation": "Breastbores",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -31872,6 +31904,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.dev_enableDebugHudOverlay.audio",
+        "source_string": "Audio",
+        "translation": "Songcraft & Louds...",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_enableDebugHudOverlay.hbui",
         "source_string": "Gameface ",
         "translation": "Gameleer ",
@@ -33675,6 +33715,14 @@
         "identifier": "options.openPage.continue",
         "source_string": "More Info",
         "translation": "More Abrst",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "options.graphicsMode.fancy",
+        "source_string": "Fancy",
+        "translation": "Showy",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -35848,6 +35896,14 @@
         "max_length": null
     },
     {
+        "identifier": "sidebar.adventure",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "sidebar.categoryBody",
         "source_string": "Body",
         "translation": "Body",
@@ -35875,6 +35931,14 @@
         "identifier": "sidebar.marketplace",
         "source_string": "Marketplace",
         "translation": "Chapstow",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "sidebar.myContent",
+        "source_string": "My Content",
+        "translation": "Inholding",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -37032,6 +37096,110 @@
         "max_length": null
     },
     {
+        "identifier": "item.wayfinder_armor_trim_smithing_template.name",
+        "source_string": "Wayfinder Armor Trim",
+        "translation": "Wayfinder Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.raiser_armor_trim_smithing_template.name",
+        "source_string": "Raiser Armor Trim",
+        "translation": "Herdsman Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.shaper_armor_trim_smithing_template.name",
+        "source_string": "Shaper Armor Trim",
+        "translation": "Shaper Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.host_armor_trim_smithing_template.name",
+        "source_string": "Host Armor Trim",
+        "translation": "Harer Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.ward_armor_trim_smithing_template.name",
+        "source_string": "Ward Armor Trim",
+        "translation": "Ward Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.silence_armor_trim_smithing_template.name",
+        "source_string": "Silence Armor Trim",
+        "translation": "Still Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.tide_armor_trim_smithing_template.name",
+        "source_string": "Tide Armor Trim",
+        "translation": "Tide Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.snout_armor_trim_smithing_template.name",
+        "source_string": "Snout Armor Trim",
+        "translation": "Pignose Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.rib_armor_trim_smithing_template.name",
+        "source_string": "Rib Armor Trim",
+        "translation": "Rib Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.eye_armor_trim_smithing_template.name",
+        "source_string": "Eye Armor Trim",
+        "translation": "Eye Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spire_armor_trim_smithing_template.name",
+        "source_string": "Spire Armor Trim",
+        "translation": "Spire Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.flow_armor_trim_smithing_template.name",
+        "source_string": "Flow Armor Trim",
+        "translation": "Flow Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "item.bolt_armor_trim_smithing_template.name",
+        "source_string": "Bolt Armor Trim",
+        "translation": "Bolt Hirsting Trim",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "item.snort_pottery_sherd.name",
         "source_string": "Snort Pottery Sherd",
         "translation": "Sniff Pot Sherd",
@@ -37802,7 +37970,7 @@
     {
         "identifier": "screenshot.failure",
         "source_string": "Couldn't save screenshot: %s",
-        "translation": "Couldn't nere shirmshot: %s",
+        "translation": "Couldn't speal shirmshot: %s",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -37810,7 +37978,7 @@
     {
         "identifier": "screenshot.success",
         "source_string": "Saved screenshot as %s",
-        "translation": "Nered shirmshot as %s",
+        "translation": "Spealed shirmshot as %s",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -38266,7 +38434,7 @@
     {
         "identifier": "selectWorld.resultFolder",
         "source_string": "Will be saved in:",
-        "translation": "Will be nered in:",
+        "translation": "Will be spealed in:",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -45146,7 +45314,7 @@
     {
         "identifier": "tile.seaLantern.name",
         "source_string": "Sea Lantern",
-        "translation": "Sea Lightvat",
+        "translation": "Soul Bloakern",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -47706,7 +47874,7 @@
     {
         "identifier": "tile.lantern.name",
         "source_string": "Lantern",
-        "translation": "Bleakern",
+        "translation": "Bloakern",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -47714,7 +47882,7 @@
     {
         "identifier": "tile.soul_lantern.name",
         "source_string": "Soul Lantern",
-        "translation": "Soul Bleakern",
+        "translation": "Soul Bloakern",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -54816,6 +54984,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ChooseRealmRoute.adventure",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ChooseRealmRoute.creative",
         "source_string": "Creative",
         "translation": "Makerly",
@@ -55160,6 +55336,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.experimentalFeatures.graphicsTitle",
+        "source_string": "Graphics",
+        "translation": "Bildens",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.experimentalFeatures.sectionEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
@@ -55267,6 +55451,14 @@
         "identifier": "hbui.CreateNewWorld.general.fileManagementDeleteWorldLabel",
         "source_string": "Delete world",
         "translation": "Adwash world",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.gameModeAdventureLabel",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -55472,6 +55664,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalMinecraftPackDescription",
+        "source_string": "The default Minecraft graphics, now updated with stylish new textures!",
+        "translation": "The stock look and feel of Minecraft",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.inactivePacksAccordionHeader",
         "source_string": "Owned",
         "translation": "Owned",
@@ -55579,6 +55779,14 @@
         "identifier": "hbui.CreateNewWorld.signInPromptWorldOnRealmModal.signIn",
         "source_string": "Sign in",
         "translation": "Log in",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.title",
+        "source_string": "Create New World",
+        "translation": "Make New World",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -57448,6 +57656,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.adventure",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.allWorlds",
         "source_string": "Worlds (%1$s)",
         "translation": "Worlds (%1$s)",
@@ -57912,6 +58128,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.realmsTab.renew",
+        "source_string": "Renew",
+        "translation": "Anew",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.realmsTab.renewRealmsInPreviewModal.closeAction",
         "source_string": "Close",
         "translation": "Shut",
@@ -58008,6 +58232,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.serverTab.addServer",
+        "source_string": "Add server",
+        "translation": "Eke Outreckoner",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.serverTab.addServerError.closeButton",
         "source_string": "Close",
         "translation": "Shut",
@@ -58099,6 +58331,14 @@
         "identifier": "hbui.PlayScreen.serverTab.sectionEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.serverForm.addServerButton",
+        "source_string": "Add server",
+        "translation": "Eke Outreckoner",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -59576,6 +59816,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmTag.adventure",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmTag.creative",
         "source_string": "Creative",
         "translation": "Makerly",
@@ -60944,6 +61192,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.WorldCard.narration.componentRoleLan",
+        "source_string": "LAN World",
+        "translation": "Neighborhood Rine Network World",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.WorldCard.narration.componentRoleLocal",
         "source_string": "World",
         "translation": "World",
@@ -61032,6 +61288,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.WorldListItem.narration.componentRoleLan",
+        "source_string": "LAN World",
+        "translation": "Neighborhood Rine Network World",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.WorldListItem.narration.componentRoleLocal",
         "source_string": "World",
         "translation": "World",
@@ -61104,6 +61368,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.WorldSettingsButton.gameModeAdventureLabel",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.WorldSettingsButton.gameModeCreativeLabel",
         "source_string": "Creative",
         "translation": "Makerly",
@@ -61131,6 +61403,14 @@
         "identifier": "hbui.WorldSettingsButton.worldNamePlaceholder",
         "source_string": "My World",
         "translation": "My World",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.WorldTag.adventure",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -61920,6 +62200,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorLink.elementType",
+        "source_string": "Link",
+        "translation": "Link",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorLink.warningModal.cancel",
         "source_string": "Cancel",
         "translation": "Belay",
@@ -62000,6 +62288,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorMenuBar.item",
+        "source_string": "Menu",
+        "translation": "List",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorMenuItem.checked",
         "source_string": "Checked",
         "translation": "Ticked",
@@ -62011,6 +62307,14 @@
         "identifier": "hbui.EditorMenuItem.count",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s of %2$s",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorMenuItem.menu",
+        "source_string": "Menu",
+        "translation": "List",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -62115,6 +62419,14 @@
         "identifier": "hbui.EditorStructurePanel.deleteModal.button.confirm",
         "source_string": "Delete Now",
         "translation": "Adwash Now",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorStructurePanel.deleteModal.button.ok",
+        "source_string": "OK",
+        "translation": "Alright",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -62728,6 +63040,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.NavigationBarLayout.MenuButton.inputLegend",
+        "source_string": "Menu",
+        "translation": "List",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.NavigationBarLayout.MenuButton.narration",
         "source_string": "Menu Button",
         "translation": "List Key",
@@ -63336,9 +63656,25 @@
         "max_length": null
     },
     {
+        "identifier": "options.renderclouds",
+        "source_string": "Render Clouds",
+        "translation": "Clouds",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "potion.prefix.clear",
         "source_string": "Clear",
         "translation": "Smolt",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.fancy",
+        "source_string": "Fancy",
+        "translation": "Showy",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -64024,6 +64360,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Settings.autojump",
+        "source_string": "Auto Jump",
+        "translation": "Selfdriven Leap",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.start.profile",
         "source_string": "Choose Profile",
         "translation": "Choose Selfleaf",
@@ -64152,6 +64496,14 @@
         "max_length": null
     },
     {
+        "identifier": "dr.color.salmon",
+        "source_string": "Salmon",
+        "translation": "Lax",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "dynamicPackage.download.android.state_unknown",
         "source_string": "Starting...",
         "translation": "Starting...",
@@ -64171,6 +64523,14 @@
         "identifier": "hbui.Achievements.loadingMessage",
         "source_string": "Loading",
         "translation": "Loading",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.MenuButton.menu",
+        "source_string": "Menu",
+        "translation": "List",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -64346,7 +64706,7 @@
     {
         "identifier": "save_location_transfer.button.get_started",
         "source_string": "Get started",
-        "translation": "Start",
+        "translation": "Get started",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -64370,7 +64730,7 @@
     {
         "identifier": "save_location_transfer.button.resume",
         "source_string": "Resume",
-        "translation": "New",
+        "translation": "Go back",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -64402,7 +64762,7 @@
     {
         "identifier": "save_location_transfer.gathering_info.description",
         "source_string": "Gathering information...",
-        "translation": "Gathering abreasting...",
+        "translation": "Gathering insights...",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -64410,7 +64770,7 @@
     {
         "identifier": "save_location_transfer.start_transfer.generic.title",
         "source_string": "New storage location",
-        "translation": "New stow stow",
+        "translation": "New stowing stow",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -65088,6 +65448,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.exportProject.multiplayerSettings",
+        "source_string": "Multiplayer Settings",
+        "translation": "Maniplayer Settings",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.exportProject.multiplayerSettings.playerPermissions",
         "source_string": "Player Permissions",
         "translation": "Player Thavings",
@@ -65200,6 +65568,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.exportProject.gameMode.adventure",
+        "source_string": "Adventure",
+        "translation": "Wayspelling",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.exportProject.difficulty.peaceful",
         "source_string": "Peaceful",
         "translation": "Frithful",
@@ -65291,6 +65667,22 @@
         "identifier": "resourcePack.editor.toolRail.FarmGenerator.pane.animals.pig",
         "source_string": "Pig",
         "translation": "Swine",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.locate.biome.title",
+        "source_string": "Biome",
+        "translation": "Lifescape",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.locate.locatetype.biome",
+        "source_string": "Biome",
+        "translation": "Lifescape",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -65784,9 +66176,25 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.viewSettings.nightVision.title",
+        "source_string": "Night Vision",
+        "translation": "Nightsight",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.toolRail.blockInspectorSettings.actions.clear",
         "source_string": "Clear Selection",
         "translation": "Empty Choosing",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.realmsPublish.Refresh",
+        "source_string": "Refresh",
+        "translation": "Edfresh",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -65976,6 +66384,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.toolRail.entityInspector.tool.nametag",
+        "source_string": "Name Tag",
+        "translation": "Name Token",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.toolRail.entityInspector.tool.rotation",
         "source_string": "Rotation",
         "translation": "Wharving",
@@ -66050,7 +66466,7 @@
     {
         "identifier": "resourcePack.editor.menuBar.file.saveAndExit",
         "source_string": "Save & Quit",
-        "translation": "Keep & Yield",
+        "translation": "Speal & Yield",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66139,6 +66555,14 @@
         "identifier": "resourcePack.editor.viewport.keyBinding.moveRight.title",
         "source_string": "Move Right",
         "translation": "Shrithe Right",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.settingsPane.worldView.nightVision.title",
+        "source_string": "Night Vision",
+        "translation": "Nightsight",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66272,6 +66696,14 @@
         "max_length": null
     },
     {
+        "identifier": "disconnectionScreen.title.disconnected",
+        "source_string": "Disconnected.",
+        "translation": "Unforbound.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "key.declineToast",
         "source_string": "Decline",
         "translation": "Forbear",
@@ -66288,9 +66720,25 @@
         "max_length": null
     },
     {
+        "identifier": "menu.audio.tab.title",
+        "source_string": "Audio",
+        "translation": "Songcraft & Louds...",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.feedback",
         "source_string": "Give feedback",
         "translation": "Give feedback",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.toggleclouds",
+        "source_string": "Render Clouds",
+        "translation": "Clouds",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66320,9 +66768,33 @@
         "max_length": null
     },
     {
+        "identifier": "tile.bamboo_hanging_sign.name",
+        "source_string": "Bamboo Hanging Sign",
+        "translation": "Treereed Hanging Tokenboard",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bamboo_standing_sign.name",
+        "source_string": "Bamboo Sign",
+        "translation": "Treereed Tokenboard",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "tile.birch_hanging_sign.name",
         "source_string": "Birch Hanging Sign",
         "translation": "Birch Hanging Token",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cherry_hanging_sign.name",
+        "source_string": "Cherry Hanging Sign",
+        "translation": "Stoneberry Hanging Tokenboard",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66360,6 +66832,14 @@
         "max_length": null
     },
     {
+        "identifier": "tile.glow_frame.name",
+        "source_string": "Glow Item Frame",
+        "translation": "Glow Thing Frame",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "tile.jungle_hanging_sign.name",
         "source_string": "Jungle Hanging Sign",
         "translation": "Rainwold Hanging Token",
@@ -66371,6 +66851,22 @@
         "identifier": "tile.kelp.name",
         "source_string": "Kelp",
         "translation": "Ash Seaweed",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.mangrove_hanging_sign.name",
+        "source_string": "Mangrove Hanging Sign",
+        "translation": "Liftmore Hanging Tokenboard",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.mangrove_standing_sign.name",
+        "source_string": "Mangrove Sign",
+        "translation": "Liftmore Tokenboard",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66403,6 +66899,30 @@
         "identifier": "tile.spruce_hanging_sign.name",
         "source_string": "Spruce Hanging Sign",
         "translation": "Furrow Hanging Token",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.unpowered_comparator.name",
+        "source_string": "Redstone Comparator",
+        "translation": "Redstone Likener",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.unpowered_repeater.name",
+        "source_string": "Redstone Repeater",
+        "translation": "Redstone Edlocker",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.warped_hanging_sign.name",
+        "source_string": "Warped Hanging Sign",
+        "translation": "Warped Hanging Tokenboard",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66464,9 +66984,41 @@
         "max_length": null
     },
     {
+        "identifier": "action.interact.drop_item",
+        "source_string": "Drop Item",
+        "translation": "Drop Chosen Thing",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "attribute.name.generic.armor",
         "source_string": "Armor",
         "translation": "Borrow",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "container.chestCopper",
+        "source_string": "Copper Chest",
+        "translation": "Copper Chest",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "container.chestDoubleCopper",
+        "source_string": "Large Copper Chest",
+        "translation": "Great Copper Chest",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSlotsScreen.createNewWorld",
+        "source_string": "Create New World",
+        "translation": "Make New World",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66507,6 +67059,30 @@
         "identifier": "realmsSettingsScreen.modal.fail.errorCode",
         "source_string": "Error code: %s",
         "translation": "Dwale rown: %s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.saveProgressModal.save",
+        "source_string": "Saving world...",
+        "translation": "Spealing world...",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_horse_armor.name",
+        "source_string": "Copper Horse Armor",
+        "translation": "Copper Horse Borrow",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.accessibility.tab.title",
+        "source_string": "Accessibility",
+        "translation": "Handy",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66555,6 +67131,214 @@
         "identifier": "dr.accessibility.locked",
         "source_string": "Locked",
         "translation": "Locked",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.copper_golem.name",
+        "source_string": "Copper Golem",
+        "translation": "Coppergolem",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.spawn_egg.entity.copper_golem.name",
+        "source_string": "Copper Golem Spawn Egg",
+        "translation": "Coppergolem Making Egg",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_nugget.name",
+        "source_string": "Copper Nugget",
+        "translation": "Copper Climper",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_sword.name",
+        "source_string": "Copper Sword",
+        "translation": "Copper Sword",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_pickaxe.name",
+        "source_string": "Copper Pickaxe",
+        "translation": "Copper Mattock",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_axe.name",
+        "source_string": "Copper Axe",
+        "translation": "Copper Axe",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_shovel.name",
+        "source_string": "Copper Shovel",
+        "translation": "Copper Shovel",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_hoe.name",
+        "source_string": "Copper Hoe",
+        "translation": "Copper Tiller",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_boots.name",
+        "source_string": "Copper Boots",
+        "translation": "Copper Shoes",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_leggings.name",
+        "source_string": "Copper Leggings",
+        "translation": "Copper Leggings",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_chestplate.name",
+        "source_string": "Copper Chestplate",
+        "translation": "Copper Breastbor",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.copper_helmet.name",
+        "source_string": "Copper Helmet",
+        "translation": "Copper Helm",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.copper_chest.name",
+        "source_string": "Copper Chest",
+        "translation": "Copper Chest",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.copper_chain.name",
+        "source_string": "Copper Chain",
+        "translation": "Copper Rackent",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.copper_bars.name",
+        "source_string": "Copper Bars",
+        "translation": "Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.exposed_copper_bars.name",
+        "source_string": "Exposed Copper Bars",
+        "translation": "Unwried Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.weathered_copper_bars.name",
+        "source_string": "Weathered Copper Bars",
+        "translation": "Weathered Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.oxidized_copper_bars.name",
+        "source_string": "Oxidized Copper Bars",
+        "translation": "Sourshafted Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.waxed_copper_bars.name",
+        "source_string": "Waxed Copper Bars",
+        "translation": "Waxed Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.waxed_exposed_copper_bars.name",
+        "source_string": "Waxed Exposed Copper Bars",
+        "translation": "Waxed Unwried Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.waxed_weathered_copper_bars.name",
+        "source_string": "Waxed Weathered Copper Bars",
+        "translation": "Waxed Weathered Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.waxed_oxidized_copper_bars.name",
+        "source_string": "Waxed Oxidized Copper Bars",
+        "translation": "Waxed Sourshafted Copper Rods",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.copper_lantern.name",
+        "source_string": "Copper Lantern",
+        "translation": "Copper Bloakern",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.exposed_copper_lantern.name",
+        "source_string": "Exposed Copper Lantern",
+        "translation": "Unwried Copper Bloakern",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.weathered_copper_lantern.name",
+        "source_string": "Weathered Copper Lantern",
+        "translation": "Weathered Copper Bloakern",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.oxidized_copper_lantern.name",
+        "source_string": "Oxidized Copper Lantern",
+        "translation": "Sourshafted Copper Bloakern",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66627,6 +67411,14 @@
         "identifier": "editor.sharedUtils.modaldialogconfirmation.cancel",
         "source_string": "Cancel",
         "translation": "Belay",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.sharedUtils.modaldialogstringinput.ok",
+        "source_string": "OK",
+        "translation": "Alright",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -66739,6 +67531,14 @@
         "identifier": "options.tinkeringList.buttonLabel",
         "source_string": "Open",
         "translation": "Open",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.graphics",
+        "source_string": "Graphics",
+        "translation": "Bildens",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -67018,7 +67818,7 @@
     {
         "identifier": "editor.prefabTemplateEditor.tool.button.save",
         "source_string": "Save",
-        "translation": "Keep",
+        "translation": "Speal",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -67208,6 +68008,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.deferred.renderDistance.name",
+        "source_string": "Render Distance",
+        "translation": "Draw Farness",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.video.resetSettings",
         "source_string": "Reset to default",
         "translation": "Edset to stock",
@@ -67330,7 +68138,7 @@
     {
         "identifier": "resourcePack.editor.vibrantVisuals.newDialogPane.newConfig.save.title",
         "source_string": "Save",
-        "translation": "Keep",
+        "translation": "Speal",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -67363,6 +68171,14 @@
         "identifier": "resourcePack.editor.toolRail.floodTool.modal.cancel",
         "source_string": "Cancel",
         "translation": "Belay",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.chunkManagement.pane.chunkRegeneration.title",
+        "source_string": "Regeneration",
+        "translation": "Edhealing",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -67552,6 +68368,14 @@
         "max_length": null
     },
     {
+        "identifier": "menu.game.tab.experiments.graphics.title",
+        "source_string": "Graphics",
+        "translation": "Bildens",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "menu.game.tab.cheats.title",
         "source_string": "Cheats",
         "translation": "Blenches",
@@ -67595,6 +68419,38 @@
         "identifier": "tile.mud_brick_double_slab.name",
         "source_string": "Mud Brick Double Slab",
         "translation": "Mud Wallstone Twofold Halfclot",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.mangrove_door.name",
+        "source_string": "Mangrove Door",
+        "translation": "Liftmore Door",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bamboo_door.name",
+        "source_string": "Bamboo Door",
+        "translation": "Treereed Door",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cherry_standing_sign.name",
+        "source_string": "Cherry Sign",
+        "translation": "Stoneberry Tokenboard",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cherry_door.name",
+        "source_string": "Cherry Door",
+        "translation": "Stoneberry Door",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -67728,6 +68584,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.controller.sensitivity.name",
+        "source_string": "Camera Sensitivity",
+        "translation": "Anyetishness",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.touch.resetSettings.name",
         "source_string": "Reset to default",
         "translation": "Edset to stock",
@@ -67739,6 +68603,14 @@
         "identifier": "options.touch.resetSettings.label",
         "source_string": "Reset",
         "translation": "Edse",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.customiseTouchControls.label",
+        "source_string": "Customize",
+        "translation": "Besunderledge",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -67816,6 +68688,14 @@
         "max_length": null
     },
     {
+        "identifier": "editor.agfx.atmosphericScattering.colorGrading.colorGrading.midTone.saturation",
+        "source_string": "Saturation",
+        "translation": "Hue Fulfilledness",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.agfx.atmosphericScattering.colorGrading.colorGrading.highlights.offset",
         "source_string": "Offset",
         "translation": "Offset",
@@ -67824,9 +68704,25 @@
         "max_length": null
     },
     {
+        "identifier": "editor.agfx.atmosphericScattering.colorGrading.colorGrading.highlights.saturation",
+        "source_string": "Saturation",
+        "translation": "Hue Fulfilledness",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.agfx.atmosphericScattering.colorGrading.colorGrading.shadows.offset",
         "source_string": "Offset",
         "translation": "Offset",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.agfx.atmosphericScattering.colorGrading.colorGrading.shadows.saturation",
+        "source_string": "Saturation",
+        "translation": "Hue Fulfilledness",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -67867,6 +68763,14 @@
         "identifier": "editor.agfx.pbrfallback.blocks",
         "source_string": "Blocks",
         "translation": "Clots",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.agfx.pbrfallback.Particles",
+        "source_string": "Particles",
+        "translation": "Specks",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
