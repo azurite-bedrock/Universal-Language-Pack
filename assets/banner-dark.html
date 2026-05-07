@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 1200px;
+        height: 235px;
+        overflow: hidden;
+      }
+
+      .banner[data-theme="light"] {
+        --bg: #ffffff;
+        --bg-sub: #f5f7f8;
+        --border: rgba(38, 50, 56, 0.1);
+        --divider: rgba(38, 50, 56, 0.08);
+        --text-h: #263238;
+        --text-body: rgba(38, 50, 56, 0.87);
+        --text-sub: rgba(38, 50, 56, 0.54);
+        --text-muted: rgba(38, 50, 56, 0.3);
+        --chip-a-bg: #e8f5e9;
+        --chip-a-fg: #2e7d32;
+        --chip-b-bg: #eceff1;
+        --chip-b-fg: rgba(38, 50, 56, 0.74);
+        --chip-c-bg: rgba(30, 136, 229, 0.1);
+        --chip-c-fg: #1565c0;
+        --prog-track: #eceff1;
+        --prog-fill-a: #43a047;
+        --prog-fill-b: #66bb6a;
+        --prog-num: #263238;
+        --lang-track: #eceff1;
+        --lang-fill: #43a047;
+        --lang-pct: rgba(38, 50, 56, 0.54);
+        --shadow:
+          0 1px 2px rgba(38, 50, 56, 0.06), 0 2px 8px rgba(38, 50, 56, 0.04);
+      }
+
+      .banner[data-theme="dark"] {
+        --bg: #2c3139;
+        --bg-sub: #21252b;
+        --border: rgba(255, 255, 255, 0.12);
+        --divider: rgba(255, 255, 255, 0.08);
+        --text-h: #e2e5e9;
+        --text-body: #bdc1c6;
+        --text-sub: #949aa3;
+        --text-muted: #6c747e;
+        --chip-a-bg: #394d3b;
+        --chip-a-fg: #57bc5c;
+        --chip-b-bg: #373e48;
+        --chip-b-fg: #949aa3;
+        --chip-c-bg: rgba(30, 136, 229, 0.12);
+        --chip-c-fg: #58a6ff;
+        --prog-track: rgba(255, 255, 255, 0.07);
+        --prog-fill-a: #40a045;
+        --prog-fill-b: #57bc5c;
+        --prog-num: #e2e5e9;
+        --lang-track: rgba(255, 255, 255, 0.07);
+        --lang-fill: #57bc5c;
+        --lang-pct: #949aa3;
+        --shadow: none;
+      }
+
+      .banner {
+        width: 1200px;
+        height: 235px;
+        zoom: 1;
+        background: var(--bg);
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow);
+        display: grid;
+        grid-template-columns: 210px 1fr 190px;
+        overflow: hidden;
+        font-family: "Noto Sans", sans-serif;
+      }
+
+      .b-left {
+        padding: 26px 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        border-right: 1px solid var(--divider);
+        animation: fadeUp 0.4s ease both;
+      }
+      .logo-name {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .ulp-icon {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+      }
+      .ulp-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        display: block;
+      }
+      .project-name {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color: var(--text-h);
+        letter-spacing: -0.2px;
+        line-height: 1.25;
+      }
+      .project-desc {
+        font-size: 11.5px;
+        color: var(--text-sub);
+        line-height: 1.5;
+      }
+      .attribution {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .azurite-logo {
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+        object-fit: contain;
+      }
+      .attribution-name {
+        font-size: 11px;
+        color: var(--text-muted);
+        font-weight: 500;
+      }
+
+      .b-mid {
+        padding: 26px 26px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 18px;
+        animation: fadeUp 0.4s 0.07s ease both;
+      }
+      .chips {
+        display: flex;
+        gap: 7px;
+        flex-wrap: wrap;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 4px 11px;
+        border-radius: 9999px;
+        font-size: 12px;
+        font-weight: 600;
+        white-space: nowrap;
+        line-height: 1.4;
+      }
+      .chip svg {
+        width: 12px;
+        height: 12px;
+        flex-shrink: 0;
+      }
+      .chip-a {
+        background: var(--chip-a-bg);
+        color: var(--chip-a-fg);
+      }
+      .chip-b {
+        background: var(--chip-b-bg);
+        color: var(--chip-b-fg);
+      }
+      .chip-c {
+        background: var(--chip-c-bg);
+        color: var(--chip-c-fg);
+      }
+
+      .prog-block {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+      }
+      .prog-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      .prog-label {
+        font-size: 11px;
+        font-weight: 600;
+        color: var(--text-sub);
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+      }
+      .prog-pct {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: var(--prog-num);
+        letter-spacing: -0.3px;
+      }
+      .prog-track {
+        height: 6px;
+        border-radius: 3px;
+        background: var(--prog-track);
+        overflow: hidden;
+      }
+      .prog-fill {
+        height: 100%;
+        border-radius: 3px;
+        background: linear-gradient(
+          90deg,
+          var(--prog-fill-a),
+          var(--prog-fill-b)
+        );
+        transform-origin: left;
+        animation: fillBar 1s 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+      }
+      .prog-sub {
+        font-size: 10.5px;
+        color: var(--text-muted);
+      }
+
+      .b-right {
+        padding: 22px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+        border-left: 1px solid var(--divider);
+        animation: fadeUp 0.4s 0.12s ease both;
+      }
+      .lang-header {
+        font-size: 10px;
+        font-weight: 600;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 1px;
+      }
+      .lang-list {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .lang-item {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .lang-code {
+        font-family:
+          SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+        font-size: 10px;
+        color: var(--text-sub);
+        width: 38px;
+        flex-shrink: 0;
+        font-weight: 500;
+      }
+      .lang-track {
+        flex: 1;
+        height: 4px;
+        border-radius: 2px;
+        background: var(--lang-track);
+        overflow: hidden;
+      }
+      .lang-fill {
+        height: 100%;
+        border-radius: 2px;
+        background: var(--lang-fill);
+        transform-origin: left;
+        animation: fillBar 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+      }
+      .lang-item:nth-child(1) .lang-fill {
+        animation-delay: 0.55s;
+      }
+      .lang-item:nth-child(2) .lang-fill {
+        animation-delay: 0.62s;
+      }
+      .lang-item:nth-child(3) .lang-fill {
+        animation-delay: 0.69s;
+      }
+      .lang-item:nth-child(4) .lang-fill {
+        animation-delay: 0.76s;
+      }
+      .lang-item:nth-child(5) .lang-fill {
+        animation-delay: 0.83s;
+      }
+      .lang-pct {
+        font-size: 10px;
+        color: var(--lang-pct);
+        width: 26px;
+        text-align: right;
+        font-weight: 500;
+      }
+      .lang-more {
+        font-size: 10px;
+        color: var(--text-muted);
+        text-align: right;
+        margin-top: 1px;
+      }
+
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(5px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      @keyframes popIn {
+        from {
+          opacity: 0;
+          transform: scale(0.8);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      @keyframes fillBar {
+        from {
+          transform: scaleX(0);
+        }
+        to {
+          transform: scaleX(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner" data-theme="dark">
+      <div class="b-left">
+        <div class="logo-name">
+          <div class="ulp-icon">
+            <img
+              src="https://github.com/azurite-bedrock/media-kit/blob/main/universal-language-pack/icon.png?raw=true"
+              alt="Universal Language Pack"
+            />
+          </div>
+          <div class="project-name">Universal Language Pack</div>
+        </div>
+        <div class="project-desc">
+          Adds missing languages to<br />Minecraft Bedrock Edition
+        </div>
+        <div class="attribution">
+          <img
+            class="azurite-logo"
+            src="https://github.com/azurite-bedrock/media-kit/blob/main/azurite/icon.svg?raw=true"
+            alt="Azurite"
+          />
+          <span class="attribution-name">Azurite</span>
+        </div>
+      </div>
+
+      <div class="b-mid">
+        <div class="chips">
+          <div class="chip chip-a">
+            <svg
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="6"
+                cy="6"
+                r="4.5"
+                stroke="currentColor"
+                stroke-width="1.2"
+              />
+              <path
+                d="M6 1.5c-1.5 1.5-2.5 3-2.5 4.5s1 3 2.5 4.5M6 1.5c1.5 1.5 2.5 3 2.5 4.5S7.5 9 6 10.5M1.5 6h9"
+                stroke="currentColor"
+                stroke-width="1.2"
+              />
+            </svg>
+            121 Languages
+          </div>
+          <div class="chip chip-b">
+            <svg
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1.5"
+                y="1.5"
+                width="9"
+                height="9"
+                rx="1.2"
+                stroke="currentColor"
+                stroke-width="1.2"
+              />
+              <path
+                d="M3.5 4.5h5M3.5 6.5h3"
+                stroke="currentColor"
+                stroke-width="1.1"
+                stroke-linecap="round"
+              />
+            </svg>
+            120,516 Words
+          </div>
+          <div class="chip chip-c">
+            <svg
+              viewBox="0 0 12 12"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="4.5"
+                cy="3.5"
+                r="1.8"
+                stroke="currentColor"
+                stroke-width="1.2"
+              />
+              <path
+                d="M1.5 10c0-1.7 1.3-3 3-3s3 1.3 3 3"
+                stroke="currentColor"
+                stroke-width="1.2"
+                stroke-linecap="round"
+              />
+              <circle
+                cx="9"
+                cy="4"
+                r="1.4"
+                stroke="currentColor"
+                stroke-width="1.1"
+              />
+              <path
+                d="M7.2 10c0-1.2.8-2.1 1.8-2.1"
+                stroke="currentColor"
+                stroke-width="1.1"
+                stroke-linecap="round"
+              />
+            </svg>
+            93 Translators
+          </div>
+        </div>
+        <div class="prog-block">
+          <div class="prog-header">
+            <span class="prog-label">Overall Progress</span>
+            <span class="prog-pct">32%</span>
+          </div>
+          <div class="prog-track">
+            <div class="prog-fill" style="width: 32%"></div>
+          </div>
+          <div class="prog-sub">across all languages · updated every 6h</div>
+        </div>
+      </div>
+
+      <div class="b-right">
+        <div class="lang-header">Top Languages</div>
+        <div class="lang-list">
+          <div class="lang-item">
+            <span class="lang-code">cs</span>
+            <div class="lang-track">
+              <div class="lang-fill" style="width: 100%"></div>
+            </div>
+            <span class="lang-pct">100%</span>
+          </div>
+
+          <div class="lang-item">
+            <span class="lang-code">da</span>
+            <div class="lang-track">
+              <div class="lang-fill" style="width: 100%"></div>
+            </div>
+            <span class="lang-pct">100%</span>
+          </div>
+
+          <div class="lang-item">
+            <span class="lang-code">pt_BR</span>
+            <div class="lang-track">
+              <div class="lang-fill" style="width: 100%"></div>
+            </div>
+            <span class="lang-pct">100%</span>
+          </div>
+
+          <div class="lang-item">
+            <span class="lang-code">de</span>
+            <div class="lang-track">
+              <div class="lang-fill" style="width: 99%"></div>
+            </div>
+            <span class="lang-pct">99%</span>
+          </div>
+
+          <div class="lang-item">
+            <span class="lang-code">el</span>
+            <div class="lang-track">
+              <div class="lang-fill" style="width: 99%"></div>
+            </div>
+            <span class="lang-pct">99%</span>
+          </div>
+        </div>
+        <div class="lang-more">+ 116 more</div>
+      </div>
+    </div>
+  </body>
+</html>
