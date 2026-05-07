@@ -89,8 +89,14 @@ async function main(): Promise<void> {
                     join(Deno.cwd(), ASSETS_DIR, `banner-${theme}.html`),
                 ).href;
                 await page.goto(htmlPath); // waits for 'load' event by default
-                await new Promise((resolve) => setTimeout(resolve, 1200)); // let Google Fonts load + CSS animations complete
+                await page.waitForTimeout(1200); // let Google Fonts load + CSS animations complete
+                // Transparent background: Astral exposes raw CDP domains via unsafelyGetCelestialBindings()
+                const cdp = page.unsafelyGetCelestialBindings();
+                await cdp.Emulation.setDefaultBackgroundColorOverride({
+                    color: { r: 0, g: 0, b: 0, a: 0 },
+                });
                 const png = await page.screenshot();
+                await cdp.Emulation.setDefaultBackgroundColorOverride({});
                 await Deno.writeFile(`${ASSETS_DIR}/banner-${theme}.png`, png);
                 console.log(`Wrote ${ASSETS_DIR}/banner-${theme}.png`);
             } finally {

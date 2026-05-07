@@ -17,10 +17,12 @@
         padding: 0;
       }
 
+      html,
       body {
         width: 1200px;
         height: 235px;
         overflow: hidden;
+        background: transparent;
       }
 
       .banner[data-theme="light"] {
@@ -80,6 +82,7 @@
         zoom: 1;
         background: var(--bg);
         border: 1px solid var(--border);
+        border-radius: 20px;
         box-shadow: var(--shadow);
         display: grid;
         grid-template-columns: 210px 1fr 190px;

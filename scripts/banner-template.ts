@@ -40,7 +40,7 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body { width: ${w}px; height: ${h}px; overflow: hidden; }
+  html, body { width: ${w}px; height: ${h}px; overflow: hidden; background: transparent; }
 
   .banner[data-theme="light"] {
     --bg: #ffffff; --bg-sub: #f5f7f8;
@@ -75,6 +75,7 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
     zoom: ${scale};
     background: var(--bg);
     border: 1px solid var(--border);
+    border-radius: 20px;
     box-shadow: var(--shadow);
     display: grid;
     grid-template-columns: 210px 1fr 190px;
