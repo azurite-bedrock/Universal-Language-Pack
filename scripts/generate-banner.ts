@@ -79,7 +79,7 @@ async function main(): Promise<void> {
 
     // Screenshot with Astral
     console.log('Launching browser...');
-    const browser = await launch();
+    const browser = await launch({ args: ['--force-device-scale-factor=2'] });
     try {
         for (const theme of ['dark', 'light'] as const) {
             const page = await browser.newPage();
