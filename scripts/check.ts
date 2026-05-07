@@ -370,9 +370,6 @@ async function main(): Promise<void> {
                             'New strings have been added to the Universal Language Pack!',
                         url: '',
                         color: 3066993,
-                        thumbnail: {
-                            url: 'https://github.com/azurite-bedrock/media-kit/blob/main/logo/azurite.png?raw=true',
-                        },
                         fields: [
                             {
                                 name: 'Processed Versions',
