@@ -157,7 +157,7 @@ export function extractLangFiles(
  * Fetch the Crowdin language map for this project.
  * Returns Map<bdsLocaleCode, crowdinLanguageId>
  * e.g. "de_DE" -> "de", "zh_TW" -> "zh-TW", "pt_BR" -> "pt-BR"
- * Uses the project's own targetLanguages list — the only reliable source of truth.
+ * Uses the project's own targetLanguages list - the only reliable source of truth.
  */
 export async function fetchProjectLanguageMap(
     crowdin: CrowdinClient,
