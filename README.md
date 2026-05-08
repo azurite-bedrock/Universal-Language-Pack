@@ -1,26 +1,27 @@
 # Universal Language Pack
 
 <div style="display: flex; align-items: center;">
-  <a href="https://crowdin.com/project/universal-language-pack">
-    <img src="https://badges.crowdin.net/universal-language-pack/localized.svg" alt="Localization Status">
-  </a>
-  <img src="https://img.shields.io/github/repo-size/azurite-bedrock/Universal-Language-Pack?label=Repo%20Size" alt="Repository Size">
-  <a href="https://discord.gg/rPNcYYNN6p">
-    <img src="https://badgen.net/discord/members/dAcghG992N?icon=discord" alt="Discord Community">
-  </a>
+
+<a href="https://crowdin.com/project/universal-language-pack"><img src="https://badges.crowdin.net/universal-language-pack/localized.svg" alt="Localization Status"></a>
+
+<a href="https://github.com/azurite-bedrock/Universal-Language-Pack"><img src="https://img.shields.io/github/repo-size/azurite-bedrock/Universal-Language-Pack?label=Repo%20Size" alt="Repository Size"></a>
+
+<a href="https://discord.gg/rPNcYYNN6p"><img src="https://badgen.net/discord/members/dAcghG992N?icon=discord" alt="Discord Community"></a>
+
 </div>
 
 Universal Language Pack is a Bedrock Resource Pack that expands language support by including numerous missing languages.
 
 Join our **[Crowdin Project](https://crowdin.com/project/universal-language-pack)** or **[Discord](https://discord.gg/rPNcYYNN6p)** to help refine current translations and contribute new ones!
 
-<picture>
+<a href="https://crowdin.com/project/universal-language-pack"><picture>
+
   <source media="(prefers-color-scheme: dark)"
           srcset="https://raw.githubusercontent.com/azurite-bedrock/Universal-Language-Pack/main/assets/banner-dark.png">
   <img src="https://raw.githubusercontent.com/azurite-bedrock/Universal-Language-Pack/main/assets/banner-light.png"
        alt="Universal Language Pack, translation progress banner"
        width="100%">
-</picture>
+</picture></a>
 
 ## Our Goal
 
