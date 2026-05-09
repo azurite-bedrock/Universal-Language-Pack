@@ -27,8 +27,8 @@ We want to add numerous missing languages to Minecraft Bedrock, using the help o
 To build and run the Universal Language Pack from scratch, follow these steps:
 
 1. **Install Dependencies**
-    - [Regolith](https://github.com/Bedrock-OSS/regolith) – a build tool for Minecraft Bedrock packs/addons.
-    - [Deno](https://deno.com/) – a runtime used by some Regolith filters.
+    - [Regolith](https://github.com/Bedrock-OSS/regolith) (build tool for Minecraft Bedrock packs/addons)
+    - [Deno](https://deno.com/) (runtime used by some Regolith filters)
 
 2. **Clone the Repository**
 
@@ -69,20 +69,10 @@ Starting with **version 0.4.0**, this project uses a split-license model:
 
 The full license texts are in the [`LICENSES/`](LICENSES/) directory.
 
-### Which License Applies to What?
-
-| Component                                                           | License                          |
-| ------------------------------------------------------------------- | -------------------------------- |
-| Build scripts, generators, automation                               | `GPL-3.0-or-later`               |
-| Source code in this repository                                      | `GPL-3.0-or-later`               |
-| Translation files (`.lang`, JSON resources, exported language data) | `CC-BY-NC-SA-4.0`                |
-| Documentation, README content                                       | `CC-BY-NC-SA-4.0`                |
-| Project name, logo, branding                                        | See [TRADEMARK.md](TRADEMARK.md) |
-
 ### Historical Licensing (Versions Before 0.4.0)
 
 Releases prior to version 0.4.0 were distributed under the **MIT License**. Those releases remain available under MIT in perpetuity.
-Relicensing is forward-looking and does not affect previously released versions. See [NOTICE.md](NOTICE.md) for full details on the relicensing transition.
+Relicensing is forward-looking and does not affect previously released versions.
 
 ### Trademark
 
