@@ -27,7 +27,7 @@ jobs:
                   key: astral-chromium-${{ runner.os }}-v1
 
             - name: Generate banner
-              run: deno run --allow-net --allow-env --allow-read --allow-write --allow-run scripts/generate-banner.ts
+              run: deno run --allow-net --allow-env --allow-read --allow-write --allow-run --allow-sys scripts/generate-banner.ts
               env:
                   CROWDIN_API: ${{ secrets.CROWDIN_API }}
 
