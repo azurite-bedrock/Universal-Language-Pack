@@ -1,4 +1,6 @@
-const LOCALES_PATH = '../../../../locales/';
+import { join } from 'jsr:@std/path@^1';
+
+const LOCALES_PATH = join(Deno.env.get('ROOT_DIR')!, 'locales');
 const LANG_NAME_KEY = 'language.name';
 
 const langFiles: Deno.DirEntry[] = Array.from(Deno.readDirSync(LOCALES_PATH));
@@ -14,7 +16,7 @@ for (const langFile of langFiles) {
         context: string | null;
         labels: string;
         max_length: number | null;
-    }[] = JSON.parse(Deno.readTextFileSync(`${LOCALES_PATH}${langFile.name}`));
+    }[] = JSON.parse(Deno.readTextFileSync(join(LOCALES_PATH, langFile.name)));
 
     const displayName =
         langData.find((entry) => entry.identifier === LANG_NAME_KEY)?.translation || langName;
