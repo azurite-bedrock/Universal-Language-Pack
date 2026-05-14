@@ -17,7 +17,7 @@ const SNAPSHOT_PATH = `${ASSETS_DIR}/banner-data.json`;
 
 const BANNER_W = 1200;
 const BANNER_H = 235;
-const BANNER_SCALE = 1200 / 950;
+const BANNER_SCALE = 1200 / 850;
 
 async function loadSnapshot(): Promise<BannerStats | null> {
     try {
