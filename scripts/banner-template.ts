@@ -27,8 +27,8 @@ function langRows(topLanguages: BannerStats['topLanguages']): string {
 export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale = 1): string {
     const remaining = stats.languages - stats.topLanguages.length;
     const words = stats.sourceWords.toLocaleString('en-US');
-    const w = Math.round(1200 * scale);
-    const h = Math.round(235 * scale);
+    const w = Math.round(1200 / scale);
+    const h = Math.round(235 / scale);
 
     return `<!DOCTYPE html>
 <html lang="en">
@@ -40,7 +40,7 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  html, body { width: ${w}px; height: ${h}px; overflow: hidden; background: transparent; }
+  html, body { width: 1200px; height: 235px; overflow: hidden; background: transparent; }
 
   .banner[data-theme="light"] {
     --bg: #ffffff; --bg-sub: #f5f7f8;
@@ -71,7 +71,7 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
   }
 
   .banner {
-    width: 1200px; height: 235px;
+    width: ${w}px; height: ${h}px;
     zoom: ${scale};
     background: var(--bg);
     border: 1px solid var(--border);
