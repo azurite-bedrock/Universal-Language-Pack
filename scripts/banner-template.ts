@@ -26,7 +26,7 @@ function langRows(topLanguages: BannerStats['topLanguages']): string {
 
 export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale = 1): string {
     const remaining = stats.languages - stats.topLanguages.length;
-    const words = stats.sourceWords.toLocaleString('en-US');
+    const strings = stats.sourceStrings.toLocaleString('en-US');
     const w = Math.round(1200 / scale);
     const h = Math.round(235 / scale);
 
@@ -203,7 +203,7 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
   <div class="b-mid">
     <div class="chips">
       <div class="chip chip-a">${GLOBE_ICON} ${stats.languages} Languages</div>
-      <div class="chip chip-b">${DOC_ICON} ${words} Words</div>
+      <div class="chip chip-b">${DOC_ICON} ${strings} Strings</div>
       <div class="chip chip-c">${PEOPLE_ICON} ${stats.translators} Translators</div>
     </div>
     <div class="prog-block">

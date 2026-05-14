@@ -21,9 +21,9 @@ Deno.test('computeStats computes overallProgress as weighted word percentage', (
     assertEquals(stats.overallProgress, 82);
 });
 
-Deno.test('computeStats uses maximum words.total across all items as sourceWords', () => {
+Deno.test('computeStats uses maximum words.total across all items as sourceStrings', () => {
     const stats = computeStats(mockProgress, 50);
-    assertEquals(stats.sourceWords, 1000);
+    assertEquals(stats.sourceStrings, 1000);
 });
 
 Deno.test('computeStats passes through translator count', () => {
@@ -60,7 +60,7 @@ Deno.test('computeStats handles empty progress array', () => {
     const stats = computeStats([], 0);
     assertEquals(stats.languages, 0);
     assertEquals(stats.overallProgress, 0);
-    assertEquals(stats.sourceWords, 0);
+    assertEquals(stats.sourceStrings, 0);
     assertEquals(stats.topLanguages, []);
 });
 
@@ -102,7 +102,7 @@ Deno.test('hasChanged returns true when language count differs', () => {
     assertEquals(hasChanged(a, b), true);
 });
 
-Deno.test('hasChanged returns true when sourceWords differs', () => {
+Deno.test('hasChanged returns true when sourceStrings differs', () => {
     const a = computeStats(mockProgress, 50);
     const bigger = mockProgress.map((p) => ({
         ...p,

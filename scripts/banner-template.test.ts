@@ -5,7 +5,7 @@ import type { BannerStats } from './banner-stats.ts';
 const mockStats: BannerStats = {
     languages: 121,
     overallProgress: 68,
-    sourceWords: 14753,
+    sourceStrings: 14753,
     translators: 247,
     topLanguages: [
         { code: 'de_DE', pct: 94 },
@@ -32,9 +32,9 @@ Deno.test('renderBanner includes language count', () => {
     assertStringIncludes(html, '121 Languages');
 });
 
-Deno.test('renderBanner includes source words with locale formatting', () => {
+Deno.test('renderBanner includes source strings with locale formatting', () => {
     const html = renderBanner(mockStats, 'dark');
-    assertStringIncludes(html, '14,753 Words');
+    assertStringIncludes(html, '14,753 Strings');
 });
 
 Deno.test('renderBanner includes translator count', () => {

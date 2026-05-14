@@ -6,7 +6,7 @@ export interface TopLanguage {
 export interface BannerStats {
     languages: number;
     overallProgress: number; // 0–100, weighted by word count
-    sourceWords: number; // words.total (same for all languages)
+    sourceStrings: number; // strings.total (same for all languages)
     translators: number;
     topLanguages: TopLanguage[]; // sorted desc, max 5
     generatedAt: string; // ISO timestamp
@@ -24,7 +24,7 @@ export function computeStats(progressItems: ProgressItem[], translators: number)
     const overallProgress =
         totalWords > 0 ? Math.round((translatedWords / totalWords) * 100) : 0;
 
-    const sourceWords = progressItems.reduce((max, p) => Math.max(max, p.words.total), 0);
+    const sourceStrings = progressItems.reduce((max, p) => Math.max(max, p.words.total), 0);
 
     const topLanguages = [...progressItems]
         .sort((a, b) => b.translationProgress - a.translationProgress)
@@ -37,7 +37,7 @@ export function computeStats(progressItems: ProgressItem[], translators: number)
     return {
         languages: progressItems.length,
         overallProgress,
-        sourceWords,
+        sourceStrings,
         translators,
         topLanguages,
         generatedAt: new Date().toISOString(),
@@ -49,7 +49,7 @@ export function hasChanged(prev: BannerStats, next: BannerStats): boolean {
     return (
         prev.languages !== next.languages ||
         prev.overallProgress !== next.overallProgress ||
-        prev.sourceWords !== next.sourceWords ||
+        prev.sourceStrings !== next.sourceStrings ||
         prev.translators !== next.translators ||
         JSON.stringify(prev.topLanguages) !== JSON.stringify(next.topLanguages)
     );
