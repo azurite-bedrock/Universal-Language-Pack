@@ -2130,7 +2130,7 @@
     {
         "identifier": "achievement.ghast.desc",
         "source_string": "Destroy a Ghast with a fireball",
-        "translation": "Destroza un Ghast usando de este bola de fuego",
+        "translation": "Destroza un Ghast usando de este bolayfuego",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4482,7 +4482,7 @@
     {
         "identifier": "codeScreen.memoryWarning",
         "source_string": "This device does not meet the recommended memory amount. Editors may not work as expected.",
-        "translation": "Hende angay este device na recomendao cantidad de memoria. Puede que hende funciona el maga editor como ya esperanza.",
+        "translation": "Este device no hay na recomendao cantidad de memoria. Puede que hende funciona el maga editor como ya esperanza.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -20098,7 +20098,7 @@
     {
         "identifier": "death.attack.fireball",
         "source_string": "%1$s was fireballed by %2$s",
-        "translation": "Ya tira bola de fuego el/si %2$s con (el) %1$s",
+        "translation": "Ya tira bolayfuego el %2$s con (el) %1$s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -20106,7 +20106,7 @@
     {
         "identifier": "death.attack.fireball.item",
         "source_string": "%1$s was fireballed by %2$s using %3$s",
-        "translation": "Ya tira bola de fuego el/si %2$s con (el) %1$s usando %3$s",
+        "translation": "Ya tira bolyfuego el %2$s con (el) %1$s usando %3$s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21064,6 +21064,446 @@
         "max_length": null
     },
     {
+        "identifier": "disconnectionScreen.biomeData.VanillaBiomesWithId",
+        "source_string": "Vanilla Biome data should not contain 'id' field",
+        "translation": "Debe no hay 'id' field el datos de Bioma del Vanilla",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.blockMismatch",
+        "source_string": "Blocks between client and server do not match.",
+        "translation": "Hende ta semeja el bloque na cliente y server.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.cantConnect",
+        "source_string": "Unable to connect to world.",
+        "translation": "No puede conecta na mundo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.cantConnectToRealm",
+        "source_string": "Unable to connect to Realm.",
+        "translation": "No puede conecta na Realm.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.forbidden",
+        "source_string": "Realm not found, or you are not a member.",
+        "translation": "No hay encontra con el Realm, o hende tu miembro.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.cantConnectToRealms",
+        "source_string": "Unable to connect to realms.",
+        "translation": "No puede conecta na realms.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.crossPlatformDisabled",
+        "source_string": "Enable cross-platform play in the main menu to connect with friends on other platforms. To play with other friends online without cross-play, the host of the game must also have cross-play disabled via the main menu.",
+        "translation": "Abri con el juego cross-platform na primer menu para conecta con maga amigo o na otro platforms. Para juga con otro maga amigo online sin cross-play, debe tambien el host del juego tiene cross-play abierto via el primer menu.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.crossPlatformDisabled.header",
+        "source_string": "Cross-Platform Play Disabled.",
+        "translation": "Apagao el Juego Cross-Platform.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.incompatibleRealm",
+        "source_string": "Your client is incompatible or out of date. Update your client to connect to realms.",
+        "translation": "Hende angay el de tuyo client o out of date. Hace update con de tuyo client para conecta na realms.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsAlphaEndedTitle",
+        "source_string": "Testing the Realms Alpha has ended. Thank you for helping!",
+        "translation": "Ya acaba ya proba con el Realms Alpha. Gracias na de tuyo ayuda!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsAlphaEndedMessage",
+        "source_string": "Realms is not available right now.",
+        "translation": "Hende ta anda ahora el Realms.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.disconnected",
+        "source_string": "Disconnected from Server",
+        "translation": "Desconectao na Server.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editionMismatch",
+        "source_string": "This world was saved from Minecraft Education. It cannot be loaded.",
+        "translation": "Ya salva con este mundo na Minecraft Education. No puede con este hace load.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editionMismatchEduToVanilla",
+        "source_string": "The server is not running Minecraft Education. Failed to connect.",
+        "translation": "Hende ta na Minecraft Education el server. No hay puede conecta.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editionMismatchVanillaToEdu",
+        "source_string": "The server is running an incompatible edition of Minecraft. Failed to connect.",
+        "translation": "Hende ta anda na angay edicion de Minecraft. No hay puede conecta. ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editionVersionMismatch.body",
+        "source_string": "The world you selected cannot be opened in this version of Minecraft Education.",
+        "translation": "El mundo ya selecciona tu no puede abri na este version de Minecraft Education.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editionVersionMismatch.title",
+        "source_string": "Unable to load world.",
+        "translation": "No puede hace load con el mundo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.futureVersion",
+        "source_string": "A newer version of the game has saved this world. It cannot be loaded.",
+        "translation": "Mas nuevo version del juego el salvao na este mundo. No puede con este hace load.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.internalError.cantConnect",
+        "source_string": "We were unable to connect you.",
+        "translation": "No puede kame contigo conecta.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.internalError.cantEdit",
+        "source_string": "There was a problem finding this server.",
+        "translation": "Ya tiene problema al buscar con este server.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.internalError.cantFindEdit",
+        "source_string": "We were unable to connect you. Try adding a new server.",
+        "translation": "No puede kame contigo conecta. Proba aumenta un nuevo server.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.internalError.cantFindLocal",
+        "source_string": "There was a problem loading this world.",
+        "translation": "Ya tiene problema hace load con este mundo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.internalError.cantFindRealm",
+        "source_string": "There was a problem finding this Realm.",
+        "translation": "Ya tiene problema al buscar con este Realm.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.internalError.cantFindServer",
+        "source_string": "There was a problem finding this server.",
+        "translation": "Ya tiene problema al buscar con este realm.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.invalidName",
+        "source_string": "Invalid name!",
+        "translation": "Invalido el nombre!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.invalidPlayer",
+        "source_string": "This world's multiplayer setting is set to friends only. You must be friends with the host of this world to join.",
+        "translation": "Establecido el configuraciones de multijugador del mundo na \"na amigo lang\". Debe tu queda amigo con el host de este mundo para entra.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.invalidIP",
+        "source_string": "Invalid IP address!",
+        "translation": "Invalido el IP address!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.invalidSkin",
+        "source_string": "Invalid or corrupt skin!",
+        "translation": "Invalido o corrupto el skin!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.lockedSkin.title",
+        "source_string": "Platform Restricted Skin!",
+        "translation": "Limitao na Platform el Skin!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.lockedSkin",
+        "source_string": "The Skin that you have equipped is from a content pack that is not allowed in cross-platform multiplayer games.",
+        "translation": "El Skin que ya usa lang tu estaba na content pack que hende permitido usa na juego de multijugador cross-platform.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.multiplayerLockedSkin.title",
+        "source_string": "Multiplayer Restricted Skin!",
+        "translation": "Limitao na Multijugador el Skin!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.multiplayerLockedSkin",
+        "source_string": "The Skin that you have equipped is from a content pack that is not allowed in multiplayer games.",
+        "translation": "El Skin que ya usa lang tu estaba na content pack que hende permitido usa na juego de multijugador.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.loggedinOtherLocation",
+        "source_string": "Logged in from other location",
+        "translation": "Ya'n log in na otro locacion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.multiplayerDisabled",
+        "source_string": "The world has been set to single player mode.",
+        "translation": "Ya establece con el mundo na modo solojugador.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.noReason",
+        "source_string": "You have been disconnected",
+        "translation": "Ya disconecta contigo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.noInternet",
+        "source_string": "Please check your connection to the internet and try again.",
+        "translation": "Faovr chequea con el conexion de tuyo na internet y proba otra vez.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.notAllowed",
+        "source_string": "You're not invited to play on this server.",
+        "translation": "Hende tu invitao para juga con este server.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.notAuthenticated",
+        "source_string": "You need to authenticate to Microsoft services.",
+        "translation": "Necesita tu autentica na servicio de Microsoft.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.outdatedClient",
+        "source_string": "Could not connect: Outdated client!",
+        "translation": "No puede conecta: Cliente outdated!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.outdatedServer",
+        "source_string": "The host is using an older version of Minecraft. Everyone should update to the latest version of Minecraft and try again.",
+        "translation": "Ta usa el host un daan version de Minecraft. Debe man update el todo para na mas reciente version de Minecraft y proba otra vez.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.outdatedClientRealms",
+        "source_string": "You need to update your game to continue playing on this Realm.",
+        "translation": "Necesita tu hace update con de tuyo juego para continua juga con este Realm.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.outdatedClientRealms.title",
+        "source_string": "Realms Has Updated",
+        "translation": "Ya Hace Ya Update Con El Realm",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.outdatedServerRealms",
+        "source_string": "Your game is up-to-date but this Realm is not.",
+        "translation": "Up-to-date el juego de tuyo pero hende el Realm.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.outdatedServerRealms.title",
+        "source_string": "We can't update your Realm server right now because other players are currently online. You can close and reopen your Realm from the Manage Realm screen to make the other players quit and then join your Realm to update it.",
+        "translation": "No puede kame hace update con el Realm server de tuyo ahora kay online pa siempre el otro jugadores na Realm. Ta puede tu cerra y abri otra vez con de tuyo Realm na screen de Administra Realm para hace con maga jugadores sale y manda entra si acabao ya el update.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.outdatedServerRealmsNonOwner.title",
+        "source_string": "The Realm you are attempting to access is a different version. Contact the owner of the Realm to address the issue.",
+        "translation": "Na otro version el Realm que ta proba tu man acceso. Man contact con el dueño del Realm para soluciona con el problema.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsServerUpdateIncoming",
+        "source_string": "Your Realm will soon be updated. You will need an update too.",
+        "translation": "Para hace ya update con el Realm de tuyo. Necesita tambien tu un update.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsServerUpdateIncoming.title",
+        "source_string": "Check For Game Update Now?",
+        "translation": "Chequea Ahora Para Na Update De Juego?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsWorldUnassigned",
+        "source_string": "Assign version in dev options.",
+        "translation": "Asigna con el version na opciones de dev.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsWorldUnassigned.title",
+        "source_string": "Realm is Unassigned!",
+        "translation": "Hende asignao el Realm!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.serverFull",
+        "source_string": "Wow this server is popular! Check back later to see if space opens up.",
+        "translation": "Wow, popular man este server! Vira lang otra vez luego si tiene vacante.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.serverFull.title",
+        "source_string": "Server Full",
+        "translation": "Lleno el Server",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.crossPlayDisabled",
+        "source_string": "CrossPlay is temporarily disabled!",
+        "translation": "Temporariamente apagao el CrossPlay!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.crossPlayDisabled.title",
+        "source_string": "CrossPlay Disabled",
+        "translation": "Apagao el CrossPlay",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.serverIdConflict",
+        "source_string": "Cannot join world. The account you are signed in to is currently playing in this world on a different device.",
+        "translation": "No puede entra na mundo. El account que ya'n sign in tu ta juga na este mundo usando otro device.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.sessionNotFound",
+        "source_string": "Unable to connect to world. The world is no longer available to join.",
+        "translation": "No puede conecta na mundo. Hende mas puede entra con el mundo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "disconnectionScreen.timeout",
         "source_string": "There was a problem connecting to the world. Please try again. If this error continues, check your internet connection or try restarting Minecraft.",
         "translation": "Ya tiene problema conecta na mundo. Favor proba otra vez. Si continua este error, chequea con de tuyo conexion de internet o proba otra vez.",
@@ -21072,9 +21512,241 @@
         "max_length": null
     },
     {
+        "identifier": "disconnectionScreen.nowifi",
+        "source_string": "It appears you are unable to connect to your network, please connect to a Wi-Fi network or enable 'Use Mobile Data' in profile settings.",
+        "translation": "Dol no puede tu conecta na network de tuyo, favor conecta na network de Wi-Fi o abri 'Usa Mobile Data' na configuraciones de profile.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.invalidTenant",
+        "source_string": "Unable to connect to the world. Please check your join code and try again.",
+        "translation": "No puede conecta con el mundo. Favor chequea con de tuyo codigo y proba otra vez.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.resourcePack",
+        "source_string": "Encountered a problem while downloading or applying resource pack.",
+        "translation": "Ya encontra problema mientras ta'n download o ta aplica resource pack.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.restartClient",
+        "source_string": "Unable to connect, please restart your client.",
+        "translation": "No puede conecta, favor reinicia con de tuyo cliente.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.badPacket",
+        "source_string": "Server sent broken packet.",
+        "translation": "Ya envia el server broken packet.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsDisabled",
+        "source_string": "Realms are disabled.",
+        "translation": "Apagao el Realms.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.realmsDisabledBeta",
+        "source_string": "Realms are disabled for the beta.",
+        "translation": "Hende apagao el Realms para na beta.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.incompatiblePack",
+        "source_string": "You are unable to join the world because you have the following incompatible packs: %s",
+        "translation": "Hende tu puede entra na mundo kay tiene tu el siguiente pack que hende angay: %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.incompatiblePack.memory",
+        "source_string": "You are unable to join the world because your device doesn't have enough memory for the following packs: %s",
+        "translation": "Hende tu puede entra na mundo kay no hay vacante memoria el de tuyo device para na siguiente packs: %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.incompatiblePack.graphics.raytracing",
+        "source_string": "You are unable to join the world because your device doesn't have compatible hardware to support ray tracing",
+        "translation": "Hende tu puede entra na mundo kay no hay angay hardware el de tuyo device para soporta ray tracing",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.worldCorruption.message",
+        "source_string": "Try reopening the world or restoring it from a previous backup",
+        "translation": "Proba abri otra vez con el mundo o recupera con este na backup de antes",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.worldCorruption",
+        "source_string": "Disconnected due to world corruption",
+        "translation": "Desconectao por causa na corrupcion del mundo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.hostSuspended",
+        "source_string": "Disconnected due to the server being unavailable",
+        "translation": "Desconectao por causa na server hende obtenible",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "disconnectionScreen.invalidLevel",
         "source_string": "Invalid Level!",
         "translation": "Nivel Invalido!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.invalidOverworldDimensionHeights",
+        "source_string": "The server provided invalid height values for the overworld dimension",
+        "translation": "Ya dale el server valor de altor invalido para na dimension del supramundo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editor.mismatchVanillaWorld",
+        "source_string": "This world is a not in Editor Mode. It cannot be loaded.",
+        "translation": "Hende na Modo Editor este mundo. No puede con este hace load.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editor.mismatchEditorWorld",
+        "source_string": "This world is in Editor Mode. It cannot be loaded.",
+        "translation": "Na Modo Editor estee mundo. No puede con este hace load.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editor.mismatchEditorToVanilla",
+        "source_string": "The server is not in Editor Mode. Failed to connect.",
+        "translation": "Hende na Modo Editor el server. No hay puede conecta.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editor.mismatchVanillaToEditor",
+        "source_string": "The server is in Editor Mode. Failed to connect.",
+        "translation": "Na Modo Editor el server. No hay puede conecta.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.clientsideGenerationDesync",
+        "source_string": "Server and Client have different values set for feature toggle 'Client Side Generation'",
+        "translation": "Tiene diferencia na maga valor establecido el server y el cliente para na activacion del feature \"Generacion del Lao del Cliente\"",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.editor.cannotUseRayTracing",
+        "source_string": "Ray Tracing enabled resource packs are not yet compatible with Editor projects.",
+        "translation": "Hende pa angay na proyecto de Editor el maga resource pack que abierto el Ray Tracing.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.unexpectedPacket",
+        "source_string": "Disconnected due to an unexpected type of packet received which cannot be processed.  This could be due to a version mismatch or corruption at the networking level.",
+        "translation": "Desconectao por causa na tipo no hay expecta del packet ya recibi que no puede hace proceso. Puede que por causa este na un incompatibilidad de version o corrupcion na nivel de networking.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.connectionLost",
+        "source_string": "The connection to the host was lost. If that world is still being hosted, please check your internet connection and try to connect again.",
+        "translation": "Ya perde el conexion para na host. Si ta hace pa siempre host aquel mundo, favor chequea con de tuyo conexion na internet y proba otra vez.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.deepLink.TryingToOpenDemoWorldWhileSignedIn.title",
+        "source_string": "Unable to load world.",
+        "translation": "No puede hace load mundo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.deepLink.TryingToOpenDemoWorldWhileSignedIn.body",
+        "source_string": "Try opening this world in demo mode.",
+        "translation": "Proba abri con este na modo de demo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.errorCode",
+        "source_string": "Error Code: ",
+        "translation": "Codigo de Error: ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageSpaceWarningScreen.frontend",
+        "source_string": "You are almost out of data storage space! Minecraft has restricted access to this feature until you clear up additional storage space.",
+        "translation": "Cerca ya acaba el vacante espacio na de tuyo memoria! Tiene limitao acceso el Minecraft na este feature, debe anay borra adicional memoria para deja vacante para continua.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageSpaceWarningScreen.lowduringgameplay",
+        "source_string": "Your device is almost out of the space that Minecraft can use to save worlds and settings on this device. Why not delete some old stuff you don't need so that you can keep saving new stuff?",
+        "translation": "Cerca ya acaba el vacante espacio el de tuyo device para salva el Minecraft con maga mundo y configuraciones na este device. Cosa gaha si borra anay tu maga daan las cosas de tuyo que hende mas tu necesita para ver puede tu mantene salva con maga nuevo las cosas?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageSpaceWarningScreen.fullduringgameplay",
+        "source_string": "You are out of data storage space and Minecraft is unable to save your progress! Minecraft will return you to the Main Menu to clear up storage space.",
+        "translation": "No hay mas ya tu vacante espacio na memoria de tuyo y no puede ya el Minecraft salva con de tuyo maga progreso! Ay lleva contigo el Minecraft na Primer Menu para borra espacio na memoria.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.signin_screen.viewTerms",
+        "source_string": "View Terms",
+        "translation": "Mira Terminos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21136,6 +21808,14 @@
         "max_length": null
     },
     {
+        "identifier": "edu.play_screen.guided_create",
+        "source_string": "GUIDED CREATE",
+        "translation": "CREA CON GUIA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "edu.play_screen.traditional",
         "source_string": "TRADITIONAL",
         "translation": "TRADICIONAL",
@@ -21176,6 +21856,294 @@
         "max_length": null
     },
     {
+        "identifier": "edu.worlds_screen.templates",
+        "source_string": "TEMPLATES",
+        "translation": "PLANTILLA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.guided_create",
+        "source_string": "GUIDED CREATE",
+        "translation": "CREA CON GUIA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.traditional",
+        "source_string": "TRADITIONAL",
+        "translation": "TRADICIONAL",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.search_placeholder",
+        "source_string": "Search My Worlds",
+        "translation": "Busca Mi Mundo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.play",
+        "source_string": "PLAY",
+        "translation": "JUGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.host",
+        "source_string": "HOST",
+        "translation": "MAN HOST",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.settings",
+        "source_string": "SETTINGS",
+        "translation": "CONFIGURACIONES",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.download",
+        "source_string": "DOWNLOAD",
+        "translation": "MAN DOWNLOAD",
+        "context": "It needs to be localized in its verb form, not as a noun",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.manage",
+        "source_string": "MANAGE",
+        "translation": "ADMINISTRA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.about",
+        "source_string": "ABOUT",
+        "translation": "INFORMACION",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.back",
+        "source_string": "BACK",
+        "translation": "VIRA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.copy",
+        "source_string": "COPY",
+        "translation": "COPIA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.export",
+        "source_string": "EXPORT",
+        "translation": "EXPORTA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.delete",
+        "source_string": "DELETE",
+        "translation": "BORRA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.courses_title",
+        "source_string": "My Courses",
+        "translation": "Mi Curso",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.fetch_error",
+        "source_string": "There was a problem connecting to OneDrive. Worlds saved in the cloud may not be up to date. Also, you may want to check your internet.",
+        "translation": "Ya tiene problema conecta na OneDrive. Puede que hende up to date el maga mundo que salvao na cloud. Tambien, baka quiere tu anay chequea con de tuyo internet.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.title",
+        "source_string": "My Templates",
+        "translation": "Mi Plantilla",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.search_placeholder",
+        "source_string": "Search My Templates",
+        "translation": "Busca Mi Plantilla",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.created_by",
+        "source_string": "By %1",
+        "translation": "De %1",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.create_new",
+        "source_string": "CREATE NEW",
+        "translation": "CREA NUEVO",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.delete",
+        "source_string": "DELETE",
+        "translation": "BORRA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.delete_title",
+        "source_string": "Delete this world template?",
+        "translation": "Borra con este plantilla de mundo?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.delete_body",
+        "source_string": "Are you sure you want to delete the \"%s\" world template? This won't affect any worlds you created from this template.",
+        "translation": "Quiere ba gayod tu borra con el plantilla de mundo \"%s\"? Hende este afecta na maga mundo ya crea tu usando con este plantilla.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.delete_confirm",
+        "source_string": "Delete",
+        "translation": "Borra",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.info_banner",
+        "source_string": "World templates are blueprints. You can use them to create new worlds that always start out the same.",
+        "translation": "Maga blueprints el plantilla de mundo. Ta puede tu usa con estos para crea con maga nuevo mundo que semejante pirmi ta principia.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.empty_banner",
+        "source_string": "You can get world templates from the Minecraft Education Library, other Minecraft Education users, or education.minecraft.net",
+        "translation": "Ta puede tu saca con maga plantilla de mundo na Minecraft Education Library, na otro usuario de Minecraft Education, o na education.minecraft.net",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.title",
+        "source_string": "Servers",
+        "translation": "Server",
+        "context": "Title of the servers screen",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.search_placeholder",
+        "source_string": "Search Servers",
+        "translation": "Busca Server",
+        "context": "Placeholder text in the search bar across the screen above the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.add_info_placeholder",
+        "source_string": "Server ID",
+        "translation": "ID de Server",
+        "context": "Placeholder text for the ID entry box in the popup for adding a server",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.add_server",
+        "source_string": "Add Server",
+        "translation": "Aumenta Server",
+        "context": "Label on the first tile button in the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.confirm_add_server",
+        "source_string": "Add",
+        "translation": "Aumenta",
+        "context": "Confirmation button text in the popup for adding a server",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.play",
+        "source_string": "PLAY",
+        "translation": "JUGA",
+        "context": "Button text on a server tile in the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.back",
+        "source_string": "BACK",
+        "translation": "VIRA",
+        "context": "Button text on a server tile in the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.share",
+        "source_string": "SHARE",
+        "translation": "COMPARTI",
+        "context": "Button text on a server tile in the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.remove",
+        "source_string": "REMOVE",
+        "translation": "QUITA",
+        "context": "Button text on a server tile in the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.pause.multiplayer.disabled",
+        "source_string": "Multiplayer is not available in this lesson.",
+        "translation": "No puede el Multijugador na este leccion.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "effect.duration.infinite",
         "source_string": "∞",
         "translation": "∞",
@@ -21184,9 +22152,593 @@
         "max_length": null
     },
     {
+        "identifier": "effect.badOmen",
+        "source_string": "Bad Omen",
+        "translation": "Mal Signos",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.infested",
+        "source_string": "Infested",
+        "translation": "Infestao",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.oozing",
+        "source_string": "Oozing",
+        "translation": "Mucosidad",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.raid_omen",
+        "source_string": "Raid Omen",
+        "translation": "Signos de Invasion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.trial_omen",
+        "source_string": "Trial Omen",
+        "translation": "Signos de Prueba",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.villageHero",
+        "source_string": "Hero of the Village",
+        "translation": "Heroe del Barrio",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.weaving",
+        "source_string": "Weaving",
+        "translation": "Tejedura",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "effect.wind_charged",
+        "source_string": "Wind Charged",
+        "translation": "Cargao de Viento",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowDamage",
+        "source_string": "Power",
+        "translation": "Poder",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowFire",
+        "source_string": "Flame",
+        "translation": "Arde",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowInfinite",
+        "source_string": "Infinity",
+        "translation": "Infinidad",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.arrowKnockback",
+        "source_string": "Punch",
+        "translation": "Bombeada",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.crossbowMultishot",
+        "source_string": "Multishot",
+        "translation": "Multitirada",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.crossbowPiercing",
+        "source_string": "Piercing",
+        "translation": "Penetracion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.crossbowQuickCharge",
+        "source_string": "Quick Charge",
+        "translation": "Vuelo Rapido",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.curse.binding",
+        "source_string": "Curse of Binding",
+        "translation": "Maldicion de Ceñida",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.curse.vanishing",
+        "source_string": "Curse of Vanishing",
+        "translation": "Maldicion de Desaparecida",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.damage.all",
+        "source_string": "Sharpness",
+        "translation": "Agudeza",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.damage.arthropods",
+        "source_string": "Bane of Arthropods",
+        "translation": "Nasnasan del Artropodo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.damage.undead",
+        "source_string": "Smite",
+        "translation": "Castigo del Muerto-vivo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.digging",
+        "source_string": "Efficiency",
+        "translation": "Eficiencia",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.durability",
+        "source_string": "Unbreaking",
+        "translation": "Durabilidad",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.fire",
+        "source_string": "Fire Aspect",
+        "translation": "Aspecto de Fuego",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.fishingSpeed",
+        "source_string": "Lure",
+        "translation": "Atraccion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.frostwalker",
+        "source_string": "Frost Walker",
+        "translation": "Pies de Hielo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.heavy_weapon.breach",
+        "source_string": "Breach",
+        "translation": "Traspasada",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.heavy_weapon.density",
+        "source_string": "Density",
+        "translation": "Densidad",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.heavy_weapon.windburst",
+        "source_string": "Wind Burst",
+        "translation": "Reventada de Viento",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.knockback",
+        "source_string": "Knockback",
+        "translation": "Empujada",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.1",
+        "source_string": "I",
+        "translation": "I",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.10",
+        "source_string": "X",
+        "translation": "X",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.2",
+        "source_string": "II",
+        "translation": "II",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.3",
+        "source_string": "III",
+        "translation": "III",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.4",
+        "source_string": "IV",
+        "translation": "IV",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.5",
+        "source_string": "V",
+        "translation": "V",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.6",
+        "source_string": "VI",
+        "translation": "VI",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.7",
+        "source_string": "VII",
+        "translation": "VII",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.8",
+        "source_string": "VIII",
+        "translation": "VIII",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.level.9",
+        "source_string": "IX",
+        "translation": "IX",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonus",
+        "source_string": "Looting",
+        "translation": "Ensaqueada",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonusDigger",
+        "source_string": "Fortune",
+        "translation": "Fortuna",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.lootBonusFishing",
+        "source_string": "Luck of the Sea",
+        "translation": "Suerte del Mar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.mending",
+        "source_string": "Mending",
+        "translation": "Componida",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.oxygen",
+        "source_string": "Respiration",
+        "translation": "Respiracion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.all",
+        "source_string": "Protection",
+        "translation": "Proteccion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.explosion",
+        "source_string": "Blast Protection",
+        "translation": "Proteccion na Explosion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.fall",
+        "source_string": "Feather Falling",
+        "translation": "Caida de Pluma",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.fire",
+        "source_string": "Fire Protection",
+        "translation": "Proteccion na Fuego",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.protect.projectile",
+        "source_string": "Projectile Protection",
+        "translation": "Proteccion na Amunicion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.soul_speed",
+        "source_string": "Soul Speed",
+        "translation": "Paspas na Alma",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.swift_sneak",
+        "source_string": "Swift Sneak",
+        "translation": "Paspas Agacha Camina",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.thorns",
+        "source_string": "Thorns",
+        "translation": "Tunuk",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.untouching",
+        "source_string": "Silk Touch",
+        "translation": "Agarrada de Seda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.waterWalker",
+        "source_string": "Depth Strider",
+        "translation": "Caminada na Agua",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.waterWorker",
+        "source_string": "Aqua Affinity",
+        "translation": "Afinidad na Agua",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentChanneling",
+        "source_string": "Channeling",
+        "translation": "Kirlat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentLoyalty",
+        "source_string": "Loyalty",
+        "translation": "Fidelidad",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentRiptide",
+        "source_string": "Riptide",
+        "translation": "Contracorriente",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "enchantment.tridentImpaling",
+        "source_string": "Impaling",
+        "translation": "Empalamiento",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.area_effect_cloud.name",
+        "source_string": "Area Effect Cloud",
+        "translation": "Rastro de Efecto Perdurable",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.armadillo.name",
+        "source_string": "Armadillo",
+        "translation": "Armadillo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.armor_stand.name",
+        "source_string": "Armor Stand",
+        "translation": "Estante de Armadura",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.arrow.name",
+        "source_string": "Arrow",
+        "translation": "Flecha",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bat.name",
+        "source_string": "Bat",
+        "translation": "Kabug",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bee.name",
+        "source_string": "Bee",
+        "translation": "Buyug",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.blaze.name",
+        "source_string": "Blaze",
+        "translation": "Resplandor",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.boat.name",
+        "source_string": "Boat",
+        "translation": "Baroto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.bogged.name",
+        "source_string": "Bogged",
+        "translation": "Estancao",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.breeze.name",
+        "source_string": "Breeze",
+        "translation": "Brisa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "entity.breeze_wind_charge_projectile.name",
         "source_string": "Wind Charge",
-        "translation": "Bola de Viento",
+        "translation": "Bolayviento",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cat.name",
+        "source_string": "Cat",
+        "translation": "Gato",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cave_spider.name",
+        "source_string": "Cave Spider",
+        "translation": "Gagamba de Cueva",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.chicken.name",
+        "source_string": "Chicken",
+        "translation": "Manok",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "entity.cow.name",
+        "source_string": "Cow",
+        "translation": "Vaca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21338,7 +22890,7 @@
     {
         "identifier": "entity.wind_charge_projectile.name",
         "source_string": "Wind Charge",
-        "translation": "Bola de Viento",
+        "translation": "Bolayviento",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21459,6 +23011,14 @@
         "identifier": "gui.feedbackYes",
         "source_string": "Yes, go to Feedback website",
         "translation": "Si, vira na Feedback website",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "updateScreen.body",
+        "source_string": "Update to the latest version to access all the new features, play with friends online, or see what's new in the Marketplace.",
+        "translation": "Man update na mas reciente version para man acceso todo'l nuevo features, juga con maga amigo online, o mira si cosa'l nuevo na Marketplace.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -22224,6 +23784,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.fireball.name",
+        "source_string": "Fire Charge",
+        "translation": "Bolayfuego",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "item.fireworksCharge.fadeTo",
         "source_string": "Fade to",
         "translation": "Ta desteñi na",
@@ -22234,7 +23802,7 @@
     {
         "identifier": "item.honeycomb.name",
         "source_string": "Honeycomb",
-        "translation": "Casa de Miel",
+        "translation": "Uglan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -22512,6 +24080,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.xboxliveBroadcast.friendsOnly",
+        "source_string": "Friends Only",
+        "translation": "Na Amigo Lang",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.toggle",
         "source_string": "Toggle",
         "translation": "Alterna",
@@ -22576,6 +24152,22 @@
         "max_length": null
     },
     {
+        "identifier": "playscreen.lockedSkin",
+        "source_string": "The skin that you have equipped is from a content pack that is not allowed in cross-platform multiplayer. Continuing will disable cross-platform multiplayer for this world.",
+        "translation": "El Skin que ya usa lang tu estaba na content pack que hende permitido usa na juego de multijugador. El continuada de este accion ay apaga con el multijugador crossplatform para con este mundo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "playscreen.multiplayerLockedSkin",
+        "source_string": "The skin that you have equipped is from a content pack that is not allowed in multiplayer. Continuing will disable multiplayer for this world.",
+        "translation": "El Skin que ya usa lang tu estaba na content pack que hende permitido usa na juego de multijugador. El continuada de este accion ay apaga con el multijugador para con este mundo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "permissions.GoBack",
         "source_string": "Go Back",
         "translation": "Vira",
@@ -22635,6 +24227,14 @@
         "identifier": "progressScreen.message.done",
         "source_string": "Done!",
         "translation": "Acabao ya!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "progressScreen.label.mobileData",
+        "source_string": "Mobile Data",
+        "translation": "Mobile Data",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -24162,7 +25762,7 @@
     {
         "identifier": "tile.honeycomb_block.name",
         "source_string": "Honeycomb Block",
-        "translation": "Bloque de Casa de Miel",
+        "translation": "Bloque de Uglan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27019,6 +28619,286 @@
         "identifier": "realmsInvitationScreen.shareByLink",
         "source_string": "Share",
         "translation": "Comparti",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.acrid",
+        "source_string": "Acrid",
+        "translation": "Agrio",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.artless",
+        "source_string": "Artless",
+        "translation": "Sin Arte",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.awkward",
+        "source_string": "Awkward",
+        "translation": "Tormento",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.bland",
+        "source_string": "Bland",
+        "translation": "No Hay Sabor",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.bulky",
+        "source_string": "Bulky",
+        "translation": "Abultao",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.bungling",
+        "source_string": "Bungling",
+        "translation": "No Hay Arte",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.buttered",
+        "source_string": "Buttered",
+        "translation": "Mamantiquilla",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.charming",
+        "source_string": "Charming",
+        "translation": "Maisiong",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.clear",
+        "source_string": "Clear",
+        "translation": "Sihag",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.cordial",
+        "source_string": "Cordial",
+        "translation": "Cordial",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.dashing",
+        "source_string": "Dashing",
+        "translation": "Energetico",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.debonair",
+        "source_string": "Debonair",
+        "translation": "Garbo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.diffuse",
+        "source_string": "Diffuse",
+        "translation": "Esparcido",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.elegant",
+        "source_string": "Elegant",
+        "translation": "Elegante",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.fancy",
+        "source_string": "Fancy",
+        "translation": "Social",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.flat",
+        "source_string": "Flat",
+        "translation": "Soso",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.foul",
+        "source_string": "Foul",
+        "translation": "Hiede",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.grenade",
+        "source_string": "Splash",
+        "translation": "Granada",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.gross",
+        "source_string": "Gross",
+        "translation": "Makaasco",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.harsh",
+        "source_string": "Harsh",
+        "translation": "Fuerte",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.linger",
+        "source_string": "Lingering",
+        "translation": "Perdurable",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.milky",
+        "source_string": "Milky",
+        "translation": "Maleche",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.mundane",
+        "source_string": "Mundane",
+        "translation": "Mundano",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.mundane.extended",
+        "source_string": "Long Mundane",
+        "translation": "Mundano Largo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.odorless",
+        "source_string": "Odorless",
+        "translation": "Sin Olor",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.potent",
+        "source_string": "Potent",
+        "translation": "Potente",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.rank",
+        "source_string": "Rank",
+        "translation": "Pestilente",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.refined",
+        "source_string": "Refined",
+        "translation": "Refinao",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.smooth",
+        "source_string": "Smooth",
+        "translation": "Sin Grumos",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.sparkling",
+        "source_string": "Sparkling",
+        "translation": "Gasificao",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.stinky",
+        "source_string": "Stinky",
+        "translation": "Mapansut",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.suave",
+        "source_string": "Suave",
+        "translation": "Suave",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.thick",
+        "source_string": "Thick",
+        "translation": "Espeso",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.thin",
+        "source_string": "Thin",
+        "translation": "Aguao",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "potion.prefix.uninteresting",
+        "source_string": "Uninteresting",
+        "translation": "Makaboro",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
