@@ -64,8 +64,8 @@ To build and run the Universal Language Pack from scratch, follow these steps:
 
 Starting with **version 0.4.0**, this project uses a split-license model:
 
-- **Translations, language data, and other content output** are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSES/CC-BY-NC-SA-4.0.txt).
-- **Code, scripts, and tooling** are licensed under the [GNU General Public License v3.0 or later](LICENSES/GPL-3.0-or-later.txt).
+- **Translations, and other content output** are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSES/CC-BY-NC-SA-4.0.txt).
+- **Code, and tooling** are licensed under the [GNU General Public License v3.0 or later](LICENSES/GPL-3.0-or-later.txt).
 
 The full license texts are in the [`LICENSES/`](LICENSES/) directory.
 
