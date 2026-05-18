@@ -62,24 +62,13 @@ To build and run the Universal Language Pack from scratch, follow these steps:
 
 ## Licensing
 
-Starting with **version 0.4.0**, this project uses a split-license model:
+This project uses a split-license model. See [NOTICE.md](NOTICE.md) for full details.
 
-- **Translations, and other content output** are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSES/CC-BY-NC-SA-4.0.txt).
-- **Code, and tooling** are licensed under the [GNU General Public License v3.0 or later](LICENSES/GPL-3.0-or-later.txt).
+| Component                | License                                           |
+| ------------------------ | ------------------------------------------------- |
+| Translations and content | [CC-BY-NC-SA-4.0](LICENSES/CC-BY-NC-SA-4.0.txt)   |
+| Code and tooling         | [GPL-3.0-or-later](LICENSES/GPL-3.0-or-later.txt) |
 
-The full license texts are in the [`LICENSES/`](LICENSES/) directory.
+See [TRADEMARK.md](TRADEMARK.md) for the trademark policy. Trademark rights exist independently of, and are not granted by, either license.
 
-### Historical Licensing (Versions Before 0.4.0)
-
-Releases prior to version 0.4.0 were distributed under the **MIT License**. Those releases remain available under MIT in perpetuity.
-Relicensing is forward-looking and does not affect previously released versions.
-
-### Trademark
-
-The names "Azurite," "Universal Language Pack," and associated logos are **not** covered by the licenses above. See [TRADEMARK.md](TRADEMARK.md) for the trademark policy.
-
-"Minecraft" is a trademark of Mojang Synergies AB / Microsoft Corporation. This project is not affiliated with, endorsed by, or sponsored by Mojang or Microsoft.
-
-### Contributing
-
-By contributing on or after version 0.4.0, you agree to the licensing terms described in [CONTRIBUTING.md](CONTRIBUTING.md).
+By contributing you agree to the licensing terms described in [CONTRIBUTING.md](CONTRIBUTING.md).
