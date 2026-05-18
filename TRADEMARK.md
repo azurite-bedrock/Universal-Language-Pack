@@ -12,7 +12,7 @@ This policy covers:
 - The name **"Universal Language Pack"** and abbreviations such as **"ULP"**
 - Any project-specific iconography distributed with the Project
 
-These marks are owned by the Azurite community and are protected as common-law trademarks in jurisdictions where such protection applies, regardless of whether they are formally registered.
+These marks are owned by the Azurite and are protected as common-law trademarks in jurisdictions where such protection applies, regardless of whether they are formally registered.
 
 ## Third-Party Trademarks
 
@@ -37,7 +37,7 @@ When using the marks under this section, please:
 
 ## Uses Requiring Permission
 
-You must obtain written permission from the Azurite community before:
+You must obtain written permission from the Azurite before:
 
 - Using the Project's marks in the name, logo, or branding of a product, service, paid offering, or commercial venture
 - Using the Project's marks in a way that could reasonably be confused with official Project communications or releases
