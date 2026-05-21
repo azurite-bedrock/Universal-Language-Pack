@@ -25746,7 +25746,7 @@
     {
         "identifier": "gui.editor.copyProject.failedMessage",
         "source_string": "We could not create a copy of this project. This may be caused by a lack of storage space or another issue. See https://aka.ms/MCStorage for more information. ",
-        "translation": "No puede kame crea un copia de este proyecto. Posible que diutay ya lang el vacante espacio na memoria o otro problema el causa. Mira na https://aka.ms/MCStorage para na mas del informacion. ",
+        "translation": "No puede kame crea un copia de este proyecto. Posible que diutay ya lang el vacante espacio na memoria o otro problema el causa. Mira na https://aka.ms/MCStorage para na mas informacion. ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26122,7 +26122,7 @@
     {
         "identifier": "howtoplay.addons.text.3",
         "source_string": "Stacking, or adding multiple Add-Ons, can increase loading times, and could result in unexpected results.",
-        "translation": "El acumulada o aumentada del mucho Add-Ons ay puede causa largo con hora man load, y puede que resulta na maga resulta hende expectao.",
+        "translation": "El acumulada o aumentada del mucho Add-Ons ay puede causa largo hora que man load con el mundo, y puede este resulta na maga resulta hende expectao.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26138,7 +26138,7 @@
     {
         "identifier": "howtoplay.addons.text.5",
         "source_string": "For more information about how you can make the most out of Add-Ons, you can visit our FAQ page.",
-        "translation": "Para na mas de informacion na paquilaya aprovecha con el de tuyo Add-ons, puede ti visita na de amon pagina de FAQ.",
+        "translation": "Para na mas informacion na paquilaya aprovecha con el de tuyo Add-ons, puede ti visita na de amon pagina de FAQ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26160,6 +26160,22 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.adventureMode.text.1",
+        "source_string": "Adventure Mode is a gamemode for world builders. In Adventure Mode, players must use special tools to place or break blocks.",
+        "translation": "El Modo Aventura un modo de juego para na maga creadores del mundo. Na Modo Aventura, necesita el maga jugadores usa maga especial herramienta para pone o quebra con maga bloque.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.adventureMode.text.2",
+        "source_string": "To get these special tools, you must use §e/give§f with §ecanplace§f or §ecandestroy§f parameters while in creative mode.",
+        "translation": "Para man acceso con este maga herramienta, debe tu usa §e/give§f usando con maga parametro §ecanplace§f o §ecandestroy§f mientras na modo creativo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.anvil",
         "source_string": "Anvil",
         "translation": "Yunque",
@@ -26168,9 +26184,361 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.anvil.text.1",
+        "source_string": "Experience Levels can be used to repair, enchant, or rename items with the Anvil.",
+        "translation": "El Nivel de Experiencia ta puede usa para na componida, encantada, o cambiada de nombre del maga item usando el Yunque.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.header.1",
+        "source_string": "Renaming and Applying Enchantments",
+        "translation": "Cambiada Nombre y Aplicada Encantamiento",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.text.2",
+        "source_string": "All items can be renamed, although only items with durability can be repaired or enchanted with Books on the Anvil.",
+        "translation": "Ta puede cambia nombre del todo'l item, aunque el maga item con durabilidad lang el ta puede compone o encanta usando con maga Libro na Yunque.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.header.2",
+        "source_string": "Repairing",
+        "translation": "Componida",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.text.3",
+        "source_string": "An item can be repaired by placing it in one of the input slots on the left, along with either some raw materials of the item, like Iron Ingots for an Iron Sword, or combined with another item of the same type.",
+        "translation": "Ta puede compone con un item por medio de poner con este na izquierda slot de entrada, junto con maga hilaw materiales del item, como Lingote de Hierro para na Espada de Hierro, o hace combina con otro pa item de semejante clase.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.text.4",
+        "source_string": "Combining items is more efficient when done with an Anvil.",
+        "translation": "Mas eficiente el combinada del maga item si hace con este na Yunque.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.anvil.text.5",
+        "source_string": "There is a chance that the Anvil will be damaged with each use and after enough usage it will be destroyed.",
+        "translation": "Tiene chanza que destroza el Yunque na cada usada y despues del demasiao usada ay quebra ya este.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor",
+        "source_string": "Armor",
+        "translation": "Armadura",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.1",
+        "source_string": "By wearing Armor, you can protect yourself from incoming damage. Your Armor level is represented by :armor: on the HUD, the higher the level, the less damage you will take.",
+        "translation": "Al vestir con el Armadura, puede tu protege tu cuerpo na damage que viene. El nivel de Armadura de tuyo representao na :armor: na HUD, mas lleno el nivel, mas menorao el damage tu recibi.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.header.1",
+        "source_string": "Crafting",
+        "translation": "Hacida",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.2",
+        "source_string": "Armor can be crafted from Leather, Iron, Gold, or Diamond. Chainmail Armor can be obtained through villager trading and loot from zombies and skeletons.",
+        "translation": "El Armadura hecho ese na Cuero, Hierro, Oro, o Diamante. Ta puede obtene con el Armadura de Cota de Malla al comerciar con maga lugareño y loot desde zombi y calabera.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.3",
+        "source_string": "Equip Armor by opening your inventory and moving pieces of Armor to the appropriate slot next to your player skin.",
+        "translation": "Para vesti con el Armadura, abri con de tu inventario y hace move con el maga Armadura de tuyo na propio slot que na costao lang del skin de tuyo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.4",
+        "source_string": "Iron, Chainmail, and Golden Armor can be smelted into Iron or Gold Nuggets in a Furnace.",
+        "translation": "Ta puede hace derreti con maga Armadura hecho de Hierro, Cobre, Cota de Malla, y Oro para queda Grano de Hierro, Cobre o Oro na Horno.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.header.2",
+        "source_string": "Shield",
+        "translation": "Escudo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.armor.text.5.keyboard",
         "source_string": "The Shield will block incoming damage. The Shield can be equipped in the offhand slot as well as the hotbar. Press and hold :_input_key.sneak: to block with the Shield.",
         "translation": "El Escudo ay bloquea masquin cosa damage que viene. Ta puede tambien vesti na slot de mano secundario pati tambien na hotbar. Pichi y man hold :_input_key.sneak: para bloquea usando el Escudo.\n",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5.gamepad",
+        "source_string": "The Shield will block incoming damage. The Shield can be equipped in the offhand slot as well as the hotbar. Press :_input_key.sneak: or press :_gamepad_stick_right: to toggle block with the Shield.",
+        "translation": "El Escudo ay bloquea masquin cosa damage que viene. Ta puede tambien vesti na slot de mano secundario pati tambien na hotbar. Pichi :_input_key.sneak: o pichi :_gamepad_stick_right: para bloquea usando el Escudo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5a.touch",
+        "source_string": "The Shield blocks all kinds of incoming damage - even a Creeper explosion! It can be equipped in the offhand slot or the hotbar.",
+        "translation": "El Escudo ta puede bloquea todo clase de damage que viene - masquin explosion de Creeper! Ta puede con este vesti na slot de mano secundario o na hotbar.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5b.touch",
+        "source_string": "When using the \"D-Pad & tap to interact\" control scheme, tap :touch_sneak: to toggle blocking with the shield.",
+        "translation": "Cuando ta usa con el esquema de control \"Man D-Pad y pichi para interactua\", pichi :touch_sneak: para bloquea damage usando el escudo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5c.touch",
+        "source_string": "When using a \"Joystick\" control scheme, tap :tip_virtual_button_sneak: to toggle blocking with the shield.",
+        "translation": "Cuando ta usa con el esquema de control de \"Joystick\", pichi :tip_virtual_button_sneak: para bloquea damage usando el escudo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5.rift_controller",
+        "source_string": "The Shield will block incoming damage. The Shield can be equipped in the offhand slot as well as the hotbar. Press :_input_key.sneak: or click :rift_X: to toggle block with the Shield.",
+        "translation": "El Escudo ay bloquea masquin cosa damage que viene. Con el Escudo, ta puede vesti na slot de mano secundario y tambien na hotbar, Pichi :_input_key.sneak: o pichi :rift_X: para bloquea damage usando con el Escudo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.5.windowsmr_controller",
+        "source_string": "The Shield will block incoming damage. The Shield can be equipped in the offhand slot as well as the hotbar. Press :_input_key.sneak: or click :windowsmr_right_stick: to toggle block with the Shield.",
+        "translation": "El Escudo ay bloquea masquin cosa damage que viene. Con el Escudo, ta puede vesti na mano secundario y tambien na hotbar. Pichi :_input_key.sneak: o pichi :windowsmr_right_stick: para bloquea damage usando con el Escudo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.6",
+        "source_string": "The Shield can even block a Creeper explosion!",
+        "translation": "Masquin el Escudo ta puede sangga explosion del Creeper!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.header.3",
+        "source_string": "Disguise",
+        "translation": "Man Mascara",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armor.text.7",
+        "source_string": "You can also wear a Carved Pumpkin on your head. This won't give you any :armor: but will make it so Endermen won't get mad when you look at them.",
+        "translation": "Ta puede tambien tu usa Calabaza Escoplao na cabeza de tuyo. Hende este contigo dale :armor: pero si usa tu con este hende contigo rabia el Enderman si mira tu kanila.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand",
+        "source_string": "Armor Stand",
+        "translation": "Estante de Armadura",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.1",
+        "source_string": "An Armor Stand holds your armor while you aren't using it.",
+        "translation": "El Estante de Armadura el agarra con de tu armadura si hende tu ta usa.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.header.1",
+        "source_string": "Outfitting",
+        "translation": "Vestida",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.2.notTouch",
+        "source_string": "Press :_input_key.use: on an Armor Stand while holding a piece of armor to place it on the Armor Stand.",
+        "translation": "Pichi :_input_key.use: na un Estante de Armadura mientras ta agarra con un pedazo de armadura na mundo para pone con este na Estante de Armadura.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.2.touch",
+        "source_string": "Tap an Armor Stand while holding a piece of armor to place it on the Armor Stand.",
+        "translation": "Pichi con un Estante de Armadura mientras ta agarra con un pedazo de armadura para pone con este na Estante de Armadura.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.3.notTouch",
+        "source_string": "Press :_input_key.use: on an Armor Stand with an open hand to remove something from the Armor Stand.",
+        "translation": "Pichi :_input_key.use: na un Estante de Armadura mientras no hay tu cosa ta agarra na mano para quita un cosa na Estante de Armadura.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.3.touch",
+        "source_string": "Tap an Armor Stand with an open hand to remove something from the Armor Stand.",
+        "translation": "Pichi con un Estante de Armadura mientras no hay tu cosa ta agarra na mano para quita un cosa na Estante de Armadura.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.header.2",
+        "source_string": "Posing",
+        "translation": "Postura",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.4.notTouch",
+        "source_string": "An Armor Stand can change its pose, sneak and press :_input_key.use: on an Armor Stand to change the pose.",
+        "translation": "El Estante de Armadura ta puede cambia el de este postura, agacha y pcih i:_input_key.use: na un Estante de Armadura para cambia de este postura.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.4.touch",
+        "source_string": "An Armor Stand can change its pose, sneak and tap an Armor Stand to change the pose.",
+        "translation": "El Estante de Armadura ta puede cambia el de este postura, agacha y pichi con un Estante de Armadura para cambia con el postura.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.header.3",
+        "source_string": "Dancing",
+        "translation": "Bailada",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.armorStand.text.5",
+        "source_string": "Armor Stands will react to a Redstone signal, try giving it different signal strengths and see what happens.",
+        "translation": "Ta puede reacciona el maga Estante de Armadura na corriente del Redstone, proba dale con este diferente fuerza de corriente y mira si cosa pasa.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners",
+        "source_string": "Banners",
+        "translation": "Bandera",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.1",
+        "source_string": "Banners are a cool way to decorate your house or castle with custom patterns and colors.",
+        "translation": "El Bandera amo el bonito idea de decoracion para na tu casa o na castillo usando con maga padron personalizao y con maga colores.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.2",
+        "source_string": "After crafting a Banner, you can put it on a Crafting Table or Loom and add different dyes to create your own unique, cool design!",
+        "translation": "Despues hace con el Bandera, puede tu con este pone na Mesa de Hacida o Telar y pone otro-otro clase de tina para crea con de tu mismo unico y bonito diseño!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.header.1",
+        "source_string": "Applying a Pattern",
+        "translation": "Aplicada de un Padron",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.3",
+        "source_string": "There are many different patterns that you can create with your dye such as:",
+        "translation": "Tiene mucho diferente clase de padron que puede tu crea usando con tina como:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.4",
+        "source_string": "  - Making a triangle will give you a chevron pattern.",
+        "translation": "  - Si na triangulo el padron, queda este padron de chevron.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.5",
+        "source_string": "  - Making a cross gives you a cross pattern.",
+        "translation": "  - Si na cruz el padron, queda este padron de cruz.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.6",
+        "source_string": "  - Use an Oxeye Daisy to craft a flower pattern.",
+        "translation": "  - Usa un Manzanilla para hace un padron de flores.",
+        "context": "How To Play help text. {MaxLength=\"500\"}",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.banners.text.7",
+        "source_string": "Experiment with different combinations to get even more patterns!",
+        "translation": "Experimenta con maga diferente combinaciones para saca pa mas padron!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -37352,6 +37720,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.TouchControlSelectionRoute.classicLabel",
+        "source_string": "D-Pad & tap to interact",
+        "translation": "Man D-Pad y pichi para interactua",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.TouchControlSelectionRoute.selected",
         "source_string": "Selected",
         "translation": "Seleccionao",
@@ -38888,6 +39264,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.controlMode.classicLabel",
+        "source_string": "D-Pad & tap to interact",
+        "translation": "Man D-Pad y pichi para interactua",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "menu.onlinefriends.main",
         "source_string": "(%s)",
         "translation": "(%s)",
@@ -38963,6 +39347,86 @@
         "identifier": "resourcePack.editor.menuBar.help.updateInfo.title",
         "source_string": "What's New",
         "translation": "Cosa'l Nuevo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.vibrantVisuals.biome.modal.save.title",
+        "source_string": "Save",
+        "translation": "Salva",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.vibrantVisuals.biome.modal.reset.title",
+        "source_string": "Reset",
+        "translation": "Restablece",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customMeshTool.button.cancel",
+        "source_string": "Cancel",
+        "translation": "Cancel",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.fillBiomes.searchBiomeModal.confirm",
+        "source_string": "Confirm",
+        "translation": "Confirma",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.fillBiomes.searchBiomeModal.cancel",
+        "source_string": "Cancel",
+        "translation": "Cancel",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.fillBiomes.confirm.title",
+        "source_string": "Confirm",
+        "translation": "Confirma",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.fillBiomes.confirm.cancel",
+        "source_string": "Cancel",
+        "translation": "Cancel",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customDimensions.dialog.confirm",
+        "source_string": "Create",
+        "translation": "Crea",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customDimensions.dialog.warning.confirmTitle",
+        "source_string": "Confirm",
+        "translation": "Confirma",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customDimensions.dialog.warning.confirmOk",
+        "source_string": "OK",
+        "translation": "OK",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
