@@ -20,15 +20,13 @@ Join our **[Crowdin Project](https://crowdin.com/project/universal-language-pack
 
 ## Our Goal
 
-We want to add numerous missing languages to Minecraft Bedrock, using the help of our community!
+We want to add numerous missing languages to Minecraft Bedrock, using the help of the Bedrock community!
 
 ## Local Setup Guide
 
-To build and run the Universal Language Pack from scratch, follow these steps:
-
 1. **Install Dependencies**
-    - [Regolith](https://github.com/Bedrock-OSS/regolith) (build tool for Minecraft Bedrock packs/addons)
-    - [Deno](https://deno.com/) (runtime used by some Regolith filters)
+    - [Regolith](https://github.com/Bedrock-OSS/regolith) (build tool for Minecraft Bedrock packs)
+    - [Deno](https://deno.com/) (runtime used by our Regolith filters)
 
 2. **Clone the Repository**
 
@@ -37,24 +35,27 @@ To build and run the Universal Language Pack from scratch, follow these steps:
     cd Universal-Language-Pack
     ```
 
-3. **Install Regolith Plugins**
+3. **Install Regolith Filters**
 
     ```bash
     regolith install-all
     ```
 
 4. **Build the Pack**
-    - To run a one-time build:
-        ```bash
-        regolith run
-        ```
-    - Or to watch for changes and rebuild automatically:
-        ```bash
-        regolith watch
-        ```
 
-5. **Export a Pack File**
-   To generate the final `.mcpack` file:
+    One-time build:
+
+    ```bash
+    regolith run dev
+    ```
+
+    Watch mode (rebuilds on file changes):
+
+    ```bash
+    regolith watch
+    ```
+
+5. **Export a `.mcpack` File**
 
     ```bash
     regolith run pack
