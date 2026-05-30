@@ -264,6 +264,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "Pilt",
+        "context": "TTS spoken word for image types",
+        "labels": "lang, unassigned",
+        "max_length": 15
+    },
+    {
         "identifier": "accessibility.screen.tts.title",
         "source_string": "%s Screen",
         "translation": "%s Ekraan",
@@ -3427,6 +3435,30 @@
         "identifier": "chat.renamed",
         "source_string": "You have been temporarily renamed to '%s' on this server",
         "translation": "Selles serveris on Teid ajutiselt ümber nimetatud ''''%s''ks''''",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.coordinateTypePosition",
+        "source_string": "My Position",
+        "translation": "Minu asukoht",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.coordinateTypeFacing",
+        "source_string": "Block Position",
+        "translation": "Ploki asukoht",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.coordinateCopiedToast",
+        "source_string": "The coordinate has been copied",
+        "translation": "Kordinaadid on kopeeritud",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
