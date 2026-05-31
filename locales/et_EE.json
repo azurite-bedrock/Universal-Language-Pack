@@ -10,7 +10,7 @@
     {
         "identifier": "accessibility.disableTTS",
         "source_string": "Text To Speech disabled",
-        "translation": "Tekst kõneks keelatud",
+        "translation": "Kõnesüntees väljalülitatud",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18,7 +18,7 @@
     {
         "identifier": "accessibility.enableTTS",
         "source_string": "Text To Speech enabled",
-        "translation": "Tekst kõneks lubatud",
+        "translation": "Kõnesüntees sisselülitatud",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -3394,7 +3394,7 @@
     {
         "identifier": "chat.settings.tts",
         "source_string": "Text To Speech For Chat",
-        "translation": "Tekst kõneks vestlus jaoks",
+        "translation": "Kõnesüntees vestluses",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -22418,7 +22418,15 @@
     {
         "identifier": "options.enableChatTextToSpeech",
         "source_string": "Text To Speech For Chat",
-        "translation": "Tekst kõneks vestlus jaoks",
+        "translation": "Kõnesüntees vestluses",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.enableUITextToSpeech",
+        "source_string": "Text To Speech For UI",
+        "translation": "Kõnesüntees kasutajaliideses",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -23322,7 +23330,7 @@
     {
         "identifier": "options.accessibility",
         "source_string": "Accessibility",
-        "translation": "Hõlbustus",
+        "translation": "Ligipääsetavus",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -23330,7 +23338,7 @@
     {
         "identifier": "options.accessibility.title",
         "source_string": "Accessibility Settings",
-        "translation": "Hõlbustuse seaded",
+        "translation": "Ligipääsetavuse sätted",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27443,6 +27451,14 @@
         "identifier": "soundCategory.weather",
         "source_string": "Weather",
         "translation": "Ilm",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "soundCategory.texttospeech",
+        "source_string": "Text to Speech",
+        "translation": "Kõnesüntees",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -43840,6 +43856,14 @@
         "max_length": null
     },
     {
+        "identifier": "soundCategory.texttospeech.description",
+        "source_string": "The volume of the game’s text to speech voice",
+        "translation": "Sünteeshääle helitugevus",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "tile.acacia_hanging_sign.name",
         "source_string": "Acacia Hanging Sign",
         "translation": "Akaatsiast rippuv silt",
@@ -44082,7 +44106,15 @@
     {
         "identifier": "menu.accessibility.tab.title",
         "source_string": "Accessibility",
-        "translation": "Hõlbustus",
+        "translation": "Ligipääsetavus",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.accessibility.tab.tts.title",
+        "source_string": "Text to Speech",
+        "translation": "Kõnesüntees",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
