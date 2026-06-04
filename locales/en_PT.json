@@ -1,5 +1,13 @@
 [
     {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "Tongue Pack o' th' World",
+        "context": "Name of the pack",
+        "labels": "metadata, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "language.name",
         "source_string": "Name (Location)",
         "translation": "English (The Seven Seas)",
@@ -18,7 +26,7 @@
     {
         "identifier": "accessibility.loading.done",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26,7 +34,7 @@
     {
         "identifier": "accessibility.saving.done",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59,6 +67,38 @@
         "identifier": "accessibility.button.back",
         "source_string": "back",
         "translation": "astern",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoin",
+        "source_string": "Minecoin",
+        "translation": "Doubloon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoins",
+        "source_string": "Minecoins",
+        "translation": "Doubloons",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.fullprice",
+        "source_string": "Full Price %s Minecoins",
+        "translation": "It should cost ya' %s doubloons",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.discount.price",
+        "source_string": "Discounted Price %s Minecoins",
+        "translation": "We can bargain for %s doubloons",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -362,7 +402,7 @@
     {
         "identifier": "advMode.nearestPlayer",
         "source_string": "@p = nearest player",
-        "translation": "Use \"@p\" to target nearby shipmate",
+        "translation": "Use \"@p\" to target th' closest shipmate",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -370,7 +410,7 @@
     {
         "identifier": "advMode.notAllowed",
         "source_string": "Must be an opped player in creative mode",
-        "translation": "Must be an op'd captain in aimless sailin'",
+        "translation": "Ye must be an op'd captain in shapywise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -378,7 +418,7 @@
     {
         "identifier": "advMode.notEnabled",
         "source_string": "Command blocks are not enabled on this server",
-        "translation": "Blocks 'o the sorcery arr not permitted 'ere!",
+        "translation": "Hest clots arr not permitted 'ere!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -394,7 +434,7 @@
     {
         "identifier": "advMode.randomPlayer",
         "source_string": "@r = random player",
-        "translation": "Use \"@r\" to target a shipmate out of the blue",
+        "translation": "Use \"@r\" to target any shipmate out of the blue",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -426,7 +466,7 @@
     {
         "identifier": "attribute.modifier.plus.0",
         "source_string": "+%d %s",
-        "translation": "+%s %s",
+        "translation": "+%d %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -434,7 +474,7 @@
     {
         "identifier": "attribute.modifier.plus.1",
         "source_string": "+%d%% %s",
-        "translation": "+%s%% %s",
+        "translation": "+%d%% %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -442,7 +482,7 @@
     {
         "identifier": "attribute.modifier.plus.2",
         "source_string": "+%d%% %s",
-        "translation": "+%s%% %s",
+        "translation": "+%d%% %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -450,7 +490,7 @@
     {
         "identifier": "attribute.modifier.take.0",
         "source_string": "-%d %s",
-        "translation": "-%s %s",
+        "translation": "-%d %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -458,7 +498,7 @@
     {
         "identifier": "attribute.modifier.take.1",
         "source_string": "-%d%% %s",
-        "translation": "-%s%% %s",
+        "translation": "-%d%% %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -466,7 +506,7 @@
     {
         "identifier": "attribute.modifier.take.2",
         "source_string": "-%d%% %s",
-        "translation": "-%s%% %s",
+        "translation": "-%d%% %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -474,7 +514,7 @@
     {
         "identifier": "eula.acceptButton",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Bear",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -626,7 +666,7 @@
     {
         "identifier": "chestScreen.header.player",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -650,7 +690,7 @@
     {
         "identifier": "craftingScreen.tab.survival",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -842,7 +882,7 @@
     {
         "identifier": "commands.gamemode.success.other",
         "source_string": "Set %2$s's game mode to %1$s",
-        "translation": "Set %s's rank to %s",
+        "translation": "Set %s's gamewise to %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1178,7 +1218,7 @@
     {
         "identifier": "container.inventory",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1330,7 +1370,7 @@
     {
         "identifier": "controller.buttonTip.pane.inventory",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1410,7 +1450,7 @@
     {
         "identifier": "course.edu.continueButton",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2002,7 +2042,7 @@
     {
         "identifier": "createWorldScreen.spectatorMode",
         "source_string": "Spectator Mode",
-        "translation": "Yellowbelly",
+        "translation": "Onlookerwise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2026,7 +2066,23 @@
     {
         "identifier": "createWorldScreen.gameMode",
         "source_string": "Game Mode",
-        "translation": "Challenge",
+        "translation": "Gamewise",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.gameMode.default",
+        "source_string": "Default Game Mode",
+        "translation": "Stock Gamewise",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.gameMode.personal",
+        "source_string": "Personal Game Mode",
+        "translation": "Ye' Own Gamewise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2034,7 +2090,7 @@
     {
         "identifier": "createWorldScreen.gameMode.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2042,7 +2098,7 @@
     {
         "identifier": "createWorldScreen.gameMode.creative",
         "source_string": "Creative",
-        "translation": "Aimless sailin'",
+        "translation": "Shapy",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2050,7 +2106,7 @@
     {
         "identifier": "createWorldScreen.gameMode.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2058,7 +2114,15 @@
     {
         "identifier": "createWorldScreen.gameMode.spectator",
         "source_string": "Spectator",
-        "translation": "Yellowbelly",
+        "translation": "Onlooker",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.gameMode.serverDefault",
+        "source_string": "Default",
+        "translation": "Stock",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2098,7 +2162,15 @@
     {
         "identifier": "realmsInvitationScreen.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsInvitationScreen.done",
+        "source_string": "Done, Let's Play!",
+        "translation": "So be it. Welcome to the crew!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2123,6 +2195,14 @@
         "identifier": "realmsSharingScreen.join",
         "source_string": "Join",
         "translation": "Go",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsCreateScreen.termsAndConditionsAgree",
+        "source_string": "I agree",
+        "translation": "Aye, aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2154,7 +2234,15 @@
     {
         "identifier": "realmsPlusUpgradeNotice.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "csbCreateScreen.termsAndConditionsAgree",
+        "source_string": "I agree",
+        "translation": "Aye, aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2234,7 +2322,7 @@
     {
         "identifier": "realmsSettingsScreen.gameModeOptionLabel",
         "source_string": "Game Mode",
-        "translation": "Challenge",
+        "translation": "Gamewise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2250,7 +2338,7 @@
     {
         "identifier": "realmsSettingsScreen.creativeRadioButton",
         "source_string": "Creative",
-        "translation": "Aimless sailin'",
+        "translation": "Shapywise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2418,7 +2506,7 @@
     {
         "identifier": "death.attack.generic",
         "source_string": "%1$s died",
-        "translation": "%1$s was plundered to death",
+        "translation": "%1$s died",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2818,7 +2906,7 @@
     {
         "identifier": "demo.help.inventory",
         "source_string": "Use %1$s to open your inventory",
-        "translation": "Use %1$s to look at yer loot",
+        "translation": "Brook %1$s to look at yer inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2834,7 +2922,7 @@
     {
         "identifier": "demo.help.later",
         "source_string": "Continue Playing!",
-        "translation": "Keep plundering!",
+        "translation": "Go on Playing!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2898,7 +2986,7 @@
     {
         "identifier": "difficulty.lock.title",
         "source_string": "Lock World Difficulty",
-        "translation": "Lock danger level",
+        "translation": "Reinforce Toughness",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4298,7 +4386,15 @@
     {
         "identifier": "gameMode.adventure",
         "source_string": "Adventure Mode",
-        "translation": "Plunderin' forbid",
+        "translation": "Lotwise",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.changed",
+        "source_string": "Your game mode has been updated to %s",
+        "translation": "Your gamewise has been anwardened to %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4306,7 +4402,7 @@
     {
         "identifier": "gameMode.creative",
         "source_string": "Creative Mode",
-        "translation": "Aimless sailin'",
+        "translation": "Shapywise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4314,7 +4410,7 @@
     {
         "identifier": "gameMode.hardcore",
         "source_string": "Hardcore Mode!",
-        "translation": "No lifeboats!",
+        "translation": "Hardheartwise!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4322,7 +4418,7 @@
     {
         "identifier": "gameMode.spectator",
         "source_string": "Spectator Mode",
-        "translation": "Yellowbelly",
+        "translation": "Onlookerwise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4330,8 +4426,40 @@
     {
         "identifier": "gameMode.survival",
         "source_string": "Survival Mode",
-        "translation": "Swashbuckler",
+        "translation": "Overlivewise",
         "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventorySurvival.mouse",
+        "source_string": "Open your inventory~LINEBREAK~Press :_input_key.inventory:",
+        "translation": "Look over yer inholding~LINEBREAK~Thring :_input_key.inventory:",
+        "context": "{StrContains=~LINEBREAK~}",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventorySurvival.touch",
+        "source_string": "Open inventory to see crafting recipes",
+        "translation": "Open th' inholding to see crafting knowledge",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventorySurvival.controller",
+        "source_string": "Press :_input_key.inventory: to open your inventory",
+        "translation": "Thring :_input_key.inventory: to look over yer inholding",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTip.openInventoryCreative.mouse",
+        "source_string": "Open your inventory~LINEBREAK~Press :_input_key.inventory:",
+        "translation": "Look over yer inventory~LINEBREAK~Thring :_input_key.inventory:",
+        "context": "{StrContains=~LINEBREAK~}",
         "labels": "lang, unassigned",
         "max_length": null
     },
@@ -4354,7 +4482,7 @@
     {
         "identifier": "gui.accept",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Bear",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4410,7 +4538,7 @@
     {
         "identifier": "gui.done",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4538,7 +4666,7 @@
     {
         "identifier": "howtoplay.adventureMode",
         "source_string": "Adventure Mode",
-        "translation": "Plunderin' forbid",
+        "translation": "Lotwise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4610,7 +4738,7 @@
     {
         "identifier": "howtoplay.creativeMode",
         "source_string": "Creative Mode",
-        "translation": "Aimless sailin'",
+        "translation": "Shapywise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4618,7 +4746,7 @@
     {
         "identifier": "howtoplay.difficulty",
         "source_string": "Difficulty",
-        "translation": "Danger level",
+        "translation": "Toughness",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4626,7 +4754,7 @@
     {
         "identifier": "howtoplay.difficulty.header.1",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4706,7 +4834,7 @@
     {
         "identifier": "howtoplay.inventory",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4747,6 +4875,22 @@
         "identifier": "howtoplay.loom.header.1",
         "source_string": "Weaving",
         "translation": "Night bug's bane",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.minecoins",
+        "source_string": "Minecoins",
+        "translation": "Doubloons",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.minecoins.button.text.1",
+        "source_string": "Get Minecoins",
+        "translation": "Plunder doubloons",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4834,7 +4978,7 @@
     {
         "identifier": "item.air.name",
         "source_string": "Air",
-        "translation": "Sail blower",
+        "translation": "Sail Blower",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4842,7 +4986,7 @@
     {
         "identifier": "item.apple.name",
         "source_string": "Apple",
-        "translation": "Scurvy's cure",
+        "translation": "Scurvy's Cure",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4858,7 +5002,15 @@
     {
         "identifier": "item.golden_apple.name",
         "source_string": "Golden Apple",
-        "translation": "Eden's apple",
+        "translation": "Eden's Apple",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.appleEnchanted.name",
+        "source_string": "Enchanted Golden Apple",
+        "translation": "Galed Golden Apple",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4866,7 +5018,7 @@
     {
         "identifier": "item.armadillo_scute.name",
         "source_string": "Armadillo Scute",
-        "translation": "Piece o' shellback matey",
+        "translation": "Girdledeer Shale",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4874,7 +5026,7 @@
     {
         "identifier": "item.armor_stand.name",
         "source_string": "Armor Stand",
-        "translation": "Booty rack",
+        "translation": "Borrow Stand",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4898,7 +5050,7 @@
     {
         "identifier": "item.banner.black.name",
         "source_string": "Black Banner",
-        "translation": "Black flag",
+        "translation": "Black Fane",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4906,7 +5058,7 @@
     {
         "identifier": "item.banner.blue.name",
         "source_string": "Blue Banner",
-        "translation": "Blue flag",
+        "translation": "Blue Fane",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4914,7 +5066,7 @@
     {
         "identifier": "item.banner.border.black",
         "source_string": "Black Bordure",
-        "translation": "Black bordure",
+        "translation": "Black Bordure",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4922,7 +5074,7 @@
     {
         "identifier": "item.banner.border.blue",
         "source_string": "Blue Bordure",
-        "translation": "Blue bordure",
+        "translation": "Blue Bordure",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -13402,7 +13554,7 @@
     {
         "identifier": "item.minecraft.goat_horn.sound.2",
         "source_string": "Seek",
-        "translation": "Plunder",
+        "translation": "Seek",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -13506,7 +13658,7 @@
     {
         "identifier": "jigsaw.exit.done",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -13634,7 +13786,7 @@
     {
         "identifier": "key.categories.inventory",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -13786,7 +13938,7 @@
     {
         "identifier": "key.inventory",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -13858,7 +14010,7 @@
     {
         "identifier": "key.spectatorOutlines",
         "source_string": "Highlight Players (Spectators)",
-        "translation": "Show 'em sailors (yellowbellys)",
+        "translation": "Show 'em sailors (onlookers)",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -14474,7 +14626,7 @@
     {
         "identifier": "options.difficulty.hardcore",
         "source_string": "Hardcore",
-        "translation": "Extreme",
+        "translation": "Heardheart",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -14490,7 +14642,7 @@
     {
         "identifier": "options.difficulty.peaceful",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15162,7 +15314,7 @@
     {
         "identifier": "options.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15194,7 +15346,7 @@
     {
         "identifier": "patchNotes.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15290,7 +15442,7 @@
     {
         "identifier": "hudScreen.tooltip.inventory",
         "source_string": "Inventory",
-        "translation": "Loot bag",
+        "translation": "Inholding",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15314,7 +15466,7 @@
     {
         "identifier": "hudScreen.controlCustomization.exit",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15370,7 +15522,7 @@
     {
         "identifier": "permissions.Continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16042,7 +16194,15 @@
     {
         "identifier": "progressScreen.message.done",
         "source_string": "Done!",
-        "translation": "Plundered!",
+        "translation": "Done!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "progressScreen.message.allDone",
+        "source_string": "All Done!",
+        "translation": "All Done!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16106,7 +16266,7 @@
     {
         "identifier": "resourcePack.editPackDone",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16114,7 +16274,7 @@
     {
         "identifier": "sidebar.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16130,7 +16290,7 @@
     {
         "identifier": "sidebar.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17762,7 +17922,7 @@
     {
         "identifier": "storageManager.dependency.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18050,7 +18210,7 @@
     {
         "identifier": "selectWorld.gameMode",
         "source_string": "Game Mode",
-        "translation": "Challenge",
+        "translation": "Gamewise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18058,7 +18218,7 @@
     {
         "identifier": "selectWorld.gameMode.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18082,7 +18242,7 @@
     {
         "identifier": "selectWorld.gameMode.creative",
         "source_string": "Creative",
-        "translation": "Aimless sailin'",
+        "translation": "Shapy",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18106,7 +18266,7 @@
     {
         "identifier": "selectWorld.gameMode.hardcore",
         "source_string": "Hardcore",
-        "translation": "Captain",
+        "translation": "Hardheart",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18114,7 +18274,7 @@
     {
         "identifier": "selectWorld.gameMode.hardcore.line1",
         "source_string": "Same as survival mode, locked at hardest",
-        "translation": "Same as swashbuckler, the seas be rough",
+        "translation": "Same as overlivewise, locked at highest",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18122,7 +18282,7 @@
     {
         "identifier": "selectWorld.gameMode.hardcore.line2",
         "source_string": "difficulty, and one life only",
-        "translation": "one-way trip to Davy Jones' locker",
+        "translation": "toughness, and one life only",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18130,7 +18290,7 @@
     {
         "identifier": "selectWorld.gameMode.spectator",
         "source_string": "Spectator",
-        "translation": "Yellowbelly",
+        "translation": "Onlooker",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18138,7 +18298,7 @@
     {
         "identifier": "selectWorld.gameMode.spectator.line1",
         "source_string": "You can look but don't touch",
-        "translation": "Ye' can look, but don't touch!",
+        "translation": "You can look but you don't rine.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18154,7 +18314,7 @@
     {
         "identifier": "selectWorld.gameMode.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18162,7 +18322,7 @@
     {
         "identifier": "selectWorld.gameMode.survival.line1",
         "source_string": "Search for resources, crafting, gain",
-        "translation": "Loot, pillage, craft, gain",
+        "translation": "Look for stock, craft, gain",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18170,7 +18330,7 @@
     {
         "identifier": "selectWorld.gameMode.survival.line2",
         "source_string": "levels, health and hunger",
-        "translation": "magic, vitality an' hunger",
+        "translation": "layers, health and hunger",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18178,7 +18338,7 @@
     {
         "identifier": "selectWorld.hardcoreMode",
         "source_string": "Hardcore:",
-        "translation": "Captain:",
+        "translation": "Hardheart:",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18234,7 +18394,7 @@
     {
         "identifier": "selectWorld.worldTags.hardcore",
         "source_string": "Hardcore",
-        "translation": "Captain",
+        "translation": "Hardheart",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18322,7 +18482,7 @@
     {
         "identifier": "selectTemplate.deleteTemplateDone",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Strike me blind",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18395,6 +18555,14 @@
         "identifier": "skins.show.restorePurchaseButton",
         "source_string": "Restore",
         "translation": "Store ye shipwreck",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "skins.picker.accept.button",
+        "source_string": "Confirm",
+        "translation": "Aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18848,6 +19016,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.coin.title",
+        "source_string": "Buy Minecoins",
+        "translation": "Plunder doubloons",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.csb.purchaseErrorDialog.back",
         "source_string": "Back",
         "translation": "Astern",
@@ -18858,7 +19034,7 @@
     {
         "identifier": "store.inventory.button",
         "source_string": "My Content",
-        "translation": "Loot bag",
+        "translation": "My Plunder",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18866,7 +19042,7 @@
     {
         "identifier": "store.inventory.title",
         "source_string": "My Content",
-        "translation": "Loot bag",
+        "translation": "My Plunder",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18896,6 +19072,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.popup.purchaseFailedInsufficientFunds.buyButton",
+        "source_string": "Get Minecoins",
+        "translation": "Plunder once more",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.content.download",
         "source_string": "Download",
         "translation": "Build ship",
@@ -18914,7 +19098,7 @@
     {
         "identifier": "store.addon.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18922,7 +19106,7 @@
     {
         "identifier": "store.addon.update.local.buttonContinue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18930,7 +19114,7 @@
     {
         "identifier": "store.addon.update.realms.buttonContinue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18938,7 +19122,7 @@
     {
         "identifier": "store.mashup.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18968,6 +19152,38 @@
         "max_length": null
     },
     {
+        "identifier": "store.purchase.success.realMoney2",
+        "source_string": "+:minecoin:%s",
+        "translation": "+:minecoin:%s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.coins.currentCoins",
+        "source_string": "You Have %s Minecoins",
+        "translation": "Th' Cabin's Holdin' %s Doubloons",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.coins.purchase",
+        "source_string": "Purchase Minecoins",
+        "translation": "Plunder doubloons",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.coins.incomplete.title",
+        "source_string": "Incomplete Minecoin Purchase",
+        "translation": "'At's Not Enough, Matey",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.3pserverItem.fetchingCancel",
         "source_string": "Cancel",
         "translation": "Avast",
@@ -18979,6 +19195,22 @@
         "identifier": "store.xbl.disconnected",
         "source_string": "Disconnected",
         "translation": "Abandoned ship",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.minecoin.notavailable",
+        "source_string": "Coin purchase is not available on this version of Minecraft.",
+        "translation": "This market's not for sailors like you, matey",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.filter.minecoin",
+        "source_string": "Minecoins",
+        "translation": "Doubloons",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26178,7 +26410,7 @@
     {
         "identifier": "addServer.add",
         "source_string": "Done",
-        "translation": "Plundered",
+        "translation": "Done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26282,7 +26514,15 @@
     {
         "identifier": "storage_migration.button.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storage_migration.finished.generic.title",
+        "source_string": "All done",
+        "translation": "All done",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26466,7 +26706,7 @@
     {
         "identifier": "hbui.AnnouncementModalRoute.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26490,7 +26730,7 @@
     {
         "identifier": "hbui.CapeIncentiveReceivedTransientRoute.continueButton",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26498,7 +26738,7 @@
     {
         "identifier": "hbui.ChooseRealmRoute.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26568,6 +26808,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.cheats.inventoryDescription",
+        "source_string": "Keep all items in the inventory when you die",
+        "translation": "Keep all things on the inholding in death",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.cheats.inventoryTitle",
+        "source_string": "Keep inventory",
+        "translation": "Keep inholding after death",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.cheats.tickSpeedReset",
         "source_string": "Reset",
         "translation": "Clear",
@@ -26610,7 +26866,7 @@
     {
         "identifier": "hbui.CreateNewWorld.deleteWorldModal.continueInputLegend",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26736,9 +26992,17 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.general.difficultyPeacefulDescription",
+        "source_string": "No hostile mobs and only some neutral mobs spawn. Hunger bar doesn't deplete and health replenishes over time.",
+        "translation": "No foe wights and only some unsidey wights beget. Hunger band doesn't go down and health edheals over time.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.general.difficultyPeacefulLabel",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26746,7 +27010,7 @@
     {
         "identifier": "hbui.CreateNewWorld.general.difficultyPeacefulTitle",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26762,7 +27026,15 @@
     {
         "identifier": "hbui.CreateNewWorld.general.gameModeAdventureLabel",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.gameModeCreativeDescription",
+        "source_string": "Create, build, and explore without limits. You can fly, have endless materials, and can't be hurt by monsters.",
+        "translation": "Make, build, and seek without thresholds. You can fly, have endless anworks, and can't be smarted by warries.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26770,7 +27042,15 @@
     {
         "identifier": "hbui.CreateNewWorld.general.gameModeCreativeLabel",
         "source_string": "Creative",
-        "translation": "Aimless sailin'",
+        "translation": "Shapy",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.gameModeSurvivalDescription",
+        "source_string": "Explore a mysterious world where you build, collect, craft, and fight monsters.",
+        "translation": "Seek a rowny world where you can build, gather, craft, and fight warries.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26778,7 +27058,15 @@
     {
         "identifier": "hbui.CreateNewWorld.general.gameModeSurvivalLabel",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.gameModeTitle",
+        "source_string": "Game mode",
+        "translation": "Gamewise",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26786,7 +27074,7 @@
     {
         "identifier": "hbui.CreateNewWorld.general.hardcoreModeTitle",
         "source_string": "Hardcore",
-        "translation": "Captain",
+        "translation": "Hardheart",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26802,7 +27090,7 @@
     {
         "identifier": "hbui.CreateNewWorld.loseYourChangesModal.continueInputLegend",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26834,7 +27122,7 @@
     {
         "identifier": "hbui.CreateNewWorld.optBackModal.goBackInputLegend",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27050,7 +27338,7 @@
     {
         "identifier": "hbui.EndHostingMultiplayerSessionModal.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go om",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27146,7 +27434,7 @@
     {
         "identifier": "hbui.InboxListItem.accept",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27170,7 +27458,7 @@
     {
         "identifier": "hbui.InboxListItem.narration.accept",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27194,7 +27482,7 @@
     {
         "identifier": "hbui.InboxMessageDetailsRoute.accept",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27210,7 +27498,7 @@
     {
         "identifier": "hbui.InboxMessageDetailsRoute.narration.accept",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27218,7 +27506,7 @@
     {
         "identifier": "hbui.InboxRoute.accept",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27376,9 +27664,17 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.NewPlayerPathRoute.Difficulty.peacefulDescription",
+        "source_string": "No hostile mobs and only some neutral mobs spawn.",
+        "translation": "No foe wights and only some unsidey wights beget.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.NewPlayerPathRoute.Difficulty.peacefulTitle",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27387,6 +27683,14 @@
         "identifier": "hbui.NewPlayerPathRoute.Difficulty.select",
         "source_string": "Select",
         "translation": "Choose",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.NewPlayerPathRoute.Difficulty.title",
+        "source_string": "Survival Difficulty",
+        "translation": "Overlive Toughness",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27418,7 +27722,7 @@
     {
         "identifier": "hbui.NewPlayerPathRoute.Mode.survivalInputLegend",
         "source_string": "Select",
-        "translation": "Choose",
+        "translation": "Select",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27426,7 +27730,7 @@
     {
         "identifier": "hbui.NewPlayerPathRoute.Mode.survivalTitle",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27474,7 +27778,7 @@
     {
         "identifier": "hbui.NewPlayerPathRoute.Summary.peaceful",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27490,7 +27794,7 @@
     {
         "identifier": "hbui.NewPlayerPathRoute.Summary.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27562,7 +27866,7 @@
     {
         "identifier": "hbui.PlayerListItem.accept",
         "source_string": "Accept",
-        "translation": "Say yarr",
+        "translation": "Aye",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27722,7 +28026,7 @@
     {
         "identifier": "hbui.PlayScreen.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28010,7 +28314,7 @@
     {
         "identifier": "hbui.PlayScreen.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28216,6 +28520,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.checkboxLabel",
+        "source_string": "I agree",
+        "translation": "Aye, aye",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ErrorModals.close",
         "source_string": "Close",
         "translation": "Aye",
@@ -28282,7 +28594,7 @@
     {
         "identifier": "hbui.RealmsStories.errorModal.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28418,7 +28730,7 @@
     {
         "identifier": "hbui.RealmTag.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28442,7 +28754,7 @@
     {
         "identifier": "hbui.RealmTag.hardcore",
         "source_string": "Hardcore",
-        "translation": "Captain",
+        "translation": "Hardheart",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28450,7 +28762,7 @@
     {
         "identifier": "hbui.RealmTag.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28482,7 +28794,7 @@
     {
         "identifier": "hbui.ReportPlayerRoute.next",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Strike me blind",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28914,7 +29226,7 @@
     {
         "identifier": "hbui.WorldSettingsButton.difficultyPeacefulLabel",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28922,7 +29234,7 @@
     {
         "identifier": "hbui.WorldSettingsButton.gameModeAdventureLabel",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28938,7 +29250,7 @@
     {
         "identifier": "hbui.WorldSettingsButton.gameModeSurvivalLabel",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28946,7 +29258,7 @@
     {
         "identifier": "hbui.WorldTag.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28962,7 +29274,7 @@
     {
         "identifier": "hbui.WorldTag.hardcore",
         "source_string": "Hardcore",
-        "translation": "Captain",
+        "translation": "Hardheart",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28970,7 +29282,7 @@
     {
         "identifier": "hbui.WorldTag.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29106,7 +29418,7 @@
     {
         "identifier": "hbui.EditorLink.warningModal.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29632,6 +29944,14 @@
         "max_length": null
     },
     {
+        "identifier": "remix_export.EULA.agree",
+        "source_string": "Agree",
+        "translation": "Bear",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.mainMenu.HelpModal.closeButton",
         "source_string": "Close",
         "translation": "Aye",
@@ -29706,7 +30026,7 @@
     {
         "identifier": "hbui.MainMenu.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -29802,7 +30122,7 @@
     {
         "identifier": "save_location_transfer.button.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -29938,7 +30258,7 @@
     {
         "identifier": "resourcePack.editor.exportProject.generalSettings.hardcore",
         "source_string": "Hardcore",
-        "translation": "Captain",
+        "translation": "Hardheart",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -29962,7 +30282,7 @@
     {
         "identifier": "resourcePack.editor.exportProject.gameMode.survival",
         "source_string": "Survival",
-        "translation": "Swashbuckler",
+        "translation": "Overlive",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -29978,7 +30298,7 @@
     {
         "identifier": "resourcePack.editor.exportProject.gameMode.adventure",
         "source_string": "Adventure",
-        "translation": "Plunderin' forbid",
+        "translation": "Lot",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -29986,7 +30306,7 @@
     {
         "identifier": "resourcePack.editor.exportProject.difficulty.peaceful",
         "source_string": "Peaceful",
-        "translation": "Wuss",
+        "translation": "Frithful",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -31346,7 +31666,7 @@
     {
         "identifier": "menu.creator.contentLog.delete.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -31362,7 +31682,7 @@
     {
         "identifier": "menu.creator.scriptDiagnostic.delete.continue",
         "source_string": "Continue",
-        "translation": "Sail",
+        "translation": "Go on",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -31475,6 +31795,38 @@
         "identifier": "resourcePack.editor.customDimensions.dialog.warning.confirmOk",
         "source_string": "OK",
         "translation": "Aye",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.vibrantVisuals.exportPackDialog.cancel.title",
+        "source_string": "Cancel",
+        "translation": "Avast",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.core.bindingCategory.movement",
+        "source_string": "Movement",
+        "translation": "Wobblin'",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.core.bindingCategory.general",
+        "source_string": "General",
+        "translation": "Commodities",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.video.group.general",
+        "source_string": "General",
+        "translation": "Commodities",
         "context": "null",
         "labels": "unassigned",
         "max_length": null

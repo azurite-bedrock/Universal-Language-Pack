@@ -1,5 +1,13 @@
 [
     {
+        "identifier": "language.name",
+        "source_string": "Name (Location)",
+        "translation": "Shakespearean English (Kingdom of England)",
+        "context": "Name of the to be translated language",
+        "labels": "metadata, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.chat.tts.says",
         "source_string": "%s says %s",
         "translation": "quoth %s %s",
@@ -1059,6 +1067,14 @@
         "identifier": "controller.buttonTip.back",
         "source_string": "Back",
         "translation": "Return",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.drop",
+        "source_string": "Drop",
+        "translation": "Let fall",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -3744,6 +3760,22 @@
         "max_length": null
     },
     {
+        "identifier": "item.air.name",
+        "source_string": "Air",
+        "translation": "Air",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.apple.name",
+        "source_string": "Apple",
+        "translation": "Apple",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "item.axolotlColorCyan.name",
         "source_string": "Cyan",
         "translation": "Turquoise",
@@ -3755,6 +3787,22 @@
         "identifier": "item.golden_apple.name",
         "source_string": "Golden Apple",
         "translation": "Gilded Apple",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.appleEnchanted.name",
+        "source_string": "Enchanted Golden Apple",
+        "translation": "Bewitch'd Gilded Apple",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.armadillo_scute.name",
+        "source_string": "Armadillo Scute",
+        "translation": "Armadillo Scale",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6707,6 +6755,62 @@
         "identifier": "item.tropicalSchoolClownfish.name",
         "source_string": "Clownfish",
         "translation": "Exotic Fish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.canBreak",
+        "source_string": "Can break:",
+        "translation": "Shall break:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.canPlace",
+        "source_string": "Can be placed on:",
+        "translation": "Shall be placed upon:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.customProperties",
+        "source_string": "Has Custom Properties",
+        "translation": "Contains properties unbeknown",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.itemLock.hoverText.cantBe.moved",
+        "source_string": "moved",
+        "translation": "transferr'd",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.itemLock.hoverText.cantBe.dropped",
+        "source_string": "dropped",
+        "translation": "led to fall",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.itemLock.hoverText.cantBe.removed",
+        "source_string": "removed",
+        "translation": "remov'd",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.itemLock.hoverText.cantBe.craftedWith",
+        "source_string": "crafted with",
+        "translation": "fabricat'd with",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -10080,6 +10184,14 @@
         "max_length": null
     },
     {
+        "identifier": "hudScreen.tooltip.dropItem",
+        "source_string": "Drop",
+        "translation": "Let fall",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hudScreen.tooltip.edit_sign",
         "source_string": "Edit",
         "translation": "Amend",
@@ -12243,6 +12355,14 @@
         "identifier": "stat.dispenserInspected",
         "source_string": "Dispensers Searched",
         "translation": "Dispensers Search'd",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "stat.drop",
+        "source_string": "Items Dropped",
+        "translation": "Items led to fall",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21187,6 +21307,14 @@
         "identifier": "resourcePack.editor.customDimensions.dialog.warning.confirmOk",
         "source_string": "OK",
         "translation": "Be it so",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.core.bindingCategory.movement",
+        "source_string": "Movement",
+        "translation": "Motion",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
