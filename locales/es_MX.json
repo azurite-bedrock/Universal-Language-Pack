@@ -9,7 +9,7 @@
     },
     {
         "identifier": "pack.description",
-        "source_string": "100+ new & better translations for Minecraft Bedrock! By Azurite & its Community",
+        "source_string": "100+ new & improved translations for Minecraft Bedrock! By Azurite & its Community",
         "translation": "¡Más de 100 traducciones nuevas y mejores en la Edición Bedrock! Desarrollado por Azurite y su comunidad",
         "context": "Description of the pack",
         "labels": "metadata, unassigned",
@@ -5418,7 +5418,7 @@
     {
         "identifier": "commands.agent.setitem.success",
         "source_string": "Agent set item successful",
-        "translation": "El Agent colocó el objeto con éxito",
+        "translation": "El agente ha tenido éxito al establecer el objeto",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5426,7 +5426,7 @@
     {
         "identifier": "commands.agent.setitem.failed",
         "source_string": "Agent failed to set item",
-        "translation": "El Agent no pudo colocar el objeto",
+        "translation": "El agente ha fallado al establecer el objeto",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6410,7 +6410,7 @@
     {
         "identifier": "commands.dialogue.description",
         "source_string": "Opens NPC dialogue for a player.",
-        "translation": "Abre el diálogo del NPC para un jugador.",
+        "translation": "Abre el diálogo con un PNJ para un jugador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6418,7 +6418,7 @@
     {
         "identifier": "commands.dialogue.changeFailed",
         "source_string": "Failed to change the scene for the NPC.",
-        "translation": "No se pudo cambiar la escena para el NPC.",
+        "translation": "No se pudo cambiar la escena para el PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6426,7 +6426,7 @@
     {
         "identifier": "commands.dialogue.changeSuccess",
         "source_string": "Dialogue successfully changed the scene for the NPC globally.",
-        "translation": "El diálogo cambió correctamente la escena del NPC a nivel global.",
+        "translation": "El diálogo cambió correctamente la escena del PNJ a nivel global.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6434,7 +6434,7 @@
     {
         "identifier": "commands.dialogue.changePerPlayerSuccess",
         "source_string": "Dialogue successfully changed NPC text just for %1$s.",
-        "translation": "El diálogo cambió correctamente el texto del NPC únicamente para %1$s.",
+        "translation": "El diálogo cambió correctamente el texto del PNJ únicamente para %1$s.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6450,7 +6450,7 @@
     {
         "identifier": "commands.dialogue.noNpcComponent",
         "source_string": "Selected actor did not have an NPC component.",
-        "translation": "El actor seleccionado no tenía un componente de NPC.",
+        "translation": "El actor seleccionado no tenía un componente de PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6458,7 +6458,7 @@
     {
         "identifier": "commands.dialogue.npcNotFound",
         "source_string": "Failed to find an NPC.",
-        "translation": "No se encontró ningún NPC.",
+        "translation": "No se encontró ningún PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6466,7 +6466,7 @@
     {
         "identifier": "commands.dialogue.npcNotInRange",
         "source_string": "An NPC was found, but was not in the receiving player %1$s's ticking range.",
-        "translation": "Se encontró un NPC, pero no estaba en el rango de área de marca del jugador receptor %1$s.",
+        "translation": "Se encontró un PNJ, pero no estaba en el rango de área de marca del jugador receptor %1$s.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6482,7 +6482,7 @@
     {
         "identifier": "commands.dialogue.tooManyNPCs",
         "source_string": "Selector for NPCs was ambiguous and resulted in too many selected. Please select only one NPC.",
-        "translation": "El selector para los NPC fue ambiguo y provocó que se seleccionaran demasiados. Selecciona solo un NPC.",
+        "translation": "El selector para los PNJ fue ambiguo y provocó que se seleccionaran demasiados. Selecciona solo un PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -8402,7 +8402,7 @@
     {
         "identifier": "commands.tagsfromitem.success.multiple",
         "source_string": "There are %d tags on the item %s:",
-        "translation": "Hay %d etiqueta/s en el objeto %s:",
+        "translation": "Hay %d etiquetas en el objeto %s:",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -12306,7 +12306,7 @@
     {
         "identifier": "container.brewing",
         "source_string": "Brewing Stand",
-        "translation": "Puesto de destilado",
+        "translation": "Alambique alquímico",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -12330,7 +12330,7 @@
     {
         "identifier": "container.crafter",
         "source_string": "Crafter",
-        "translation": "Fabricante",
+        "translation": "Fabricador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -12338,7 +12338,7 @@
     {
         "identifier": "container.crafting",
         "source_string": "Crafting",
-        "translation": "Fabricar",
+        "translation": "Fabricación",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -12346,7 +12346,7 @@
     {
         "identifier": "container.creative",
         "source_string": "Item Selection",
-        "translation": "Selección de objetos",
+        "translation": "Selección de ítems",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -12426,7 +12426,7 @@
     {
         "identifier": "container.enderchest",
         "source_string": "Ender Chest",
-        "translation": "Cofre de Ender",
+        "translation": "Cofre de ender",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -12442,7 +12442,7 @@
     {
         "identifier": "container.hopper",
         "source_string": "Item Hopper",
-        "translation": "Tolva de objetos",
+        "translation": "Tolva",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -22690,7 +22690,7 @@
     {
         "identifier": "entity.bogged.name",
         "source_string": "Bogged",
-        "translation": "Empantanado",
+        "translation": "Ciénago",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -22698,7 +22698,7 @@
     {
         "identifier": "entity.breeze.name",
         "source_string": "Breeze",
-        "translation": "Brisa",
+        "translation": "Vorágine",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -22706,7 +22706,7 @@
     {
         "identifier": "entity.breeze_wind_charge_projectile.name",
         "source_string": "Wind Charge",
-        "translation": "Carga ventosa",
+        "translation": "Carga de viento",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -23026,7 +23026,7 @@
     {
         "identifier": "entity.husk.name",
         "source_string": "Husk",
-        "translation": "Vaina",
+        "translation": "Disecado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -25586,7 +25586,7 @@
     {
         "identifier": "gui.resourcepacks",
         "source_string": "Resource Packs...",
-        "translation": "Packs de recursos...",
+        "translation": "Paquetes de recursos...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26874,7 +26874,7 @@
     {
         "identifier": "howtoplay.brewingStand",
         "source_string": "Brewing Stand",
-        "translation": "Puesto de destilado",
+        "translation": "Alambique alquímico",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26890,7 +26890,7 @@
     {
         "identifier": "howtoplay.brewingStand.header.1",
         "source_string": "Know your Brewing Stand",
-        "translation": "Conoce tu puesto de destilado",
+        "translation": "Conoce tu alambique alquímico",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27786,7 +27786,7 @@
     {
         "identifier": "howtoplay.npc.text.1",
         "source_string": "NPCs are non-player characters that can provide additional lesson information, hints, or instructions.",
-        "translation": "Los NPC son personajes que pueden proporcionar información adicional sobre lecciones, consejos o instrucciones.",
+        "translation": "Los PNJ son personajes que pueden proporcionar información adicional sobre lecciones, consejos o instrucciones.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27794,7 +27794,7 @@
     {
         "identifier": "howtoplay.npc.text.2",
         "source_string": "Only World Builders can place, delete, name, or edit NPCs. NPCs can execute commands and link to websites. Commands can be assigned to buttons in the NPC's dialog window; website links will always have a button.",
-        "translation": "Solo los creadores de mundos pueden colocar, borrar, nombrar o editar NPC. Los NPC pueden ejecutar comandos y redirigir hacia sitios web. Los comandos se pueden asignar a los botones en la ventana de diálogo de los NPC. Los enlaces de sitios web siempre tienen un botón.",
+        "translation": "Solo los creadores de mundos pueden colocar, borrar, nombrar o editar PNJ. Los PNJ pueden ejecutar comandos y redirigir hacia sitios web. Los comandos se pueden asignar a los botones en la ventana de diálogo de los PNJ. Los enlaces de sitios web siempre tienen un botón.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27802,7 +27802,7 @@
     {
         "identifier": "howtoplay.npc.text.3",
         "source_string": "NPCs have a variety of skins to choose from and are immobile.",
-        "translation": "Los personajes tienen una variedad de aspectos entre los que elegir y son inmóviles.",
+        "translation": "Los PNJ cuentan con una variedad de aspectos entre los que elegir y son inmóviles.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38362,7 +38362,7 @@
     {
         "identifier": "item.blaze_powder.name",
         "source_string": "Blaze Powder",
-        "translation": "Polvo de Blaze",
+        "translation": "Polvo de blaze",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38370,7 +38370,7 @@
     {
         "identifier": "item.blaze_rod.name",
         "source_string": "Blaze Rod",
-        "translation": "Vara de Blaze",
+        "translation": "Vara de blaze",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38514,7 +38514,7 @@
     {
         "identifier": "item.brewing_stand.name",
         "source_string": "Brewing Stand",
-        "translation": "Puesto de destilado",
+        "translation": "Alambique alquímico",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38570,7 +38570,7 @@
     {
         "identifier": "item.bucketTropical.name",
         "source_string": "Bucket of Tropical Fish",
-        "translation": "Cubeta de peces tropicales",
+        "translation": "Cubeta con pez tropical",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38730,7 +38730,7 @@
     {
         "identifier": "item.tropicalBodySunstreakSingle.name",
         "source_string": "%1$s SunStreak",
-        "translation": "%1$s SunStreak",
+        "translation": "%1$s Pez rayo de sol",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38738,7 +38738,7 @@
     {
         "identifier": "item.tropicalBodySnooperSingle.name",
         "source_string": "%1$s Snooper",
-        "translation": "%1$s Snooper",
+        "translation": "%1$s De arrecife",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38746,7 +38746,7 @@
     {
         "identifier": "item.tropicalBodyDasherSingle.name",
         "source_string": "%1$s Dasher",
-        "translation": "%1$s Dasher",
+        "translation": "%1$s Con rayas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38754,7 +38754,7 @@
     {
         "identifier": "item.tropicalBodyBrinelySingle.name",
         "source_string": "%1$s Brinely",
-        "translation": "%1$s Brinely",
+        "translation": "%1$s De agua salida",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38762,7 +38762,7 @@
     {
         "identifier": "item.tropicalBodySpottySingle.name",
         "source_string": "%1$s Spotty",
-        "translation": "%1$s Puntos",
+        "translation": "%1$s Con manchas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38770,7 +38770,7 @@
     {
         "identifier": "item.tropicalBodyFlopperSingle.name",
         "source_string": "%1$s Flopper",
-        "translation": "%1$s Flopper",
+        "translation": "%1$s Saltarín",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38778,7 +38778,7 @@
     {
         "identifier": "item.tropicalBodyStripeySingle.name",
         "source_string": "%1$s Stripey",
-        "translation": "%1$s Franjas",
+        "translation": "%1$s Con tiras",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38786,7 +38786,7 @@
     {
         "identifier": "item.tropicalBodyGlitterSingle.name",
         "source_string": "%1$s Glitter",
-        "translation": "%1$s Brillo",
+        "translation": "%1$s Brillante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38802,7 +38802,7 @@
     {
         "identifier": "item.tropicalBodyBettySingle.name",
         "source_string": "%1$s Betty",
-        "translation": "%1$s Betty",
+        "translation": "%1$s Pez betta",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38826,7 +38826,7 @@
     {
         "identifier": "item.tropicalBodySunstreakMulti.name",
         "source_string": "%1$s-%2$s SunStreak",
-        "translation": "%1$s-%2$s SunStreak",
+        "translation": "%1$s-%2$s Pez rayo de sol",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38834,7 +38834,7 @@
     {
         "identifier": "item.tropicalBodySnooperMulti.name",
         "source_string": "%1$s-%2$s Snooper",
-        "translation": "%1$s-%2$s Snooper",
+        "translation": "%1$s-%2$s De arrecife",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38842,7 +38842,7 @@
     {
         "identifier": "item.tropicalBodyDasherMulti.name",
         "source_string": "%1$s-%2$s Dasher",
-        "translation": "%1$s-%2$s Dasher",
+        "translation": "%1$s-%2$s Con rayas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38850,7 +38850,7 @@
     {
         "identifier": "item.tropicalBodyBrinelyMulti.name",
         "source_string": "%1$s-%2$s Brinely",
-        "translation": "%1$s-%2$s Brinely",
+        "translation": "%1$s-%2$s De agua salida",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38858,7 +38858,7 @@
     {
         "identifier": "item.tropicalBodySpottyMulti.name",
         "source_string": "%1$s-%2$s Spotty",
-        "translation": "%1$s-%2$s Puntos",
+        "translation": "%1$s-%2$s Con manchas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38866,7 +38866,7 @@
     {
         "identifier": "item.tropicalBodyFlopperMulti.name",
         "source_string": "%1$s-%2$s Flopper",
-        "translation": "%1$s-%2$s Flopper",
+        "translation": "%1$s-%2$s Saltarín",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38874,7 +38874,7 @@
     {
         "identifier": "item.tropicalBodyStripeyMulti.name",
         "source_string": "%1$s-%2$s Stripey",
-        "translation": "%1$s-%2$s Franjas",
+        "translation": "%1$s-%2$s Con tiras",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38882,7 +38882,7 @@
     {
         "identifier": "item.tropicalBodyGlitterMulti.name",
         "source_string": "%1$s-%2$s Glitter",
-        "translation": "%1$s-%2$s Brillo",
+        "translation": "%1$s-%2$s Brillante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38898,7 +38898,7 @@
     {
         "identifier": "item.tropicalBodyBettyMulti.name",
         "source_string": "%1$s-%2$s Betty",
-        "translation": "%1$s-%2$s Betty",
+        "translation": "%1$s-%2$s Pez betta",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38922,7 +38922,7 @@
     {
         "identifier": "item.tropicalSchoolBlackTang.name",
         "source_string": "Black Tang",
-        "translation": "Cirujano negro",
+        "translation": "Pez cirujano negro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38930,7 +38930,7 @@
     {
         "identifier": "item.tropicalSchoolBlueDory.name",
         "source_string": "Blue Dory",
-        "translation": "Cirujano regal",
+        "translation": "Pez cirujano azul",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38962,7 +38962,7 @@
     {
         "identifier": "item.tropicalSchoolCottonCandyBetta.name",
         "source_string": "Cotton Candy Betta",
-        "translation": "Beta algodón de azúcar",
+        "translation": "Luchador de Siam rosa",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38970,7 +38970,7 @@
     {
         "identifier": "item.tropicalSchoolDottyback.name",
         "source_string": "Dottyback",
-        "translation": "Dottyback",
+        "translation": "Pseudochromidae",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38978,7 +38978,7 @@
     {
         "identifier": "item.tropicalSchoolEmperorRedSnapper.name",
         "source_string": "Emperor Red Snapper",
-        "translation": "Pargo emperador",
+        "translation": "Pargo imperial rojo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39002,7 +39002,7 @@
     {
         "identifier": "item.tropicalSchoolOrnateButterfly.name",
         "source_string": "Ornate Butterfly",
-        "translation": "Pez león rojo",
+        "translation": "Pez mariposa adornado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39018,7 +39018,7 @@
     {
         "identifier": "item.tropicalSchoolQueenAngelFish.name",
         "source_string": "Queen Angel Fish",
-        "translation": "Pez ángel reina",
+        "translation": "Ángel reina",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39034,7 +39034,7 @@
     {
         "identifier": "item.tropicalSchoolRedLippedBlenny.name",
         "source_string": "Red Lipped Blenny",
-        "translation": "Blenio labios rojos",
+        "translation": "Ophioblennius atlanticus",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39042,7 +39042,7 @@
     {
         "identifier": "item.tropicalSchoolRedSnapper.name",
         "source_string": "Red Snapper",
-        "translation": "Pargo",
+        "translation": "Pargo rojo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39050,7 +39050,7 @@
     {
         "identifier": "item.tropicalSchoolThreadfin.name",
         "source_string": "Threadfin",
-        "translation": "Pez arcoíris de aleta filamentosa",
+        "translation": "Barbudo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39058,7 +39058,7 @@
     {
         "identifier": "item.tropicalSchoolTomatoClown.name",
         "source_string": "Tomato Clown",
-        "translation": "Payaso tomate",
+        "translation": "Pez payaso tomate",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39074,7 +39074,7 @@
     {
         "identifier": "item.tropicalSchoolYellowTang.name",
         "source_string": "Yellow Tang",
-        "translation": "Cirujano amarillo",
+        "translation": "Pez loro de aleta amarilla",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39082,7 +39082,7 @@
     {
         "identifier": "item.tropicalSchoolYellowtailParrot.name",
         "source_string": "Yellowtail Parrot",
-        "translation": "Pez loro de cola amarilla",
+        "translation": "Pez cirujano amarillo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39730,7 +39730,7 @@
     {
         "identifier": "item.enchanted_book.name",
         "source_string": "Enchanted Book",
-        "translation": "Libro de encantamientos",
+        "translation": "Libro encantado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39738,7 +39738,7 @@
     {
         "identifier": "item.end_crystal.name",
         "source_string": "End Crystal",
-        "translation": "Cristal de End",
+        "translation": "Cristal del End",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39746,7 +39746,7 @@
     {
         "identifier": "tile.end_rod.name",
         "source_string": "End Rod",
-        "translation": "Vara de End",
+        "translation": "Vara del End",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39754,7 +39754,7 @@
     {
         "identifier": "item.ender_eye.name",
         "source_string": "Eye of Ender",
-        "translation": "Ojo de Ender",
+        "translation": "Ojo de ender",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39762,7 +39762,7 @@
     {
         "identifier": "item.ender_pearl.name",
         "source_string": "Ender Pearl",
-        "translation": "Perla de Ender",
+        "translation": "Perla de ender",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39770,7 +39770,7 @@
     {
         "identifier": "item.experience_bottle.name",
         "source_string": "Bottle o' Enchanting",
-        "translation": "Botella de hechizo",
+        "translation": "Botella con experiencia",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40082,7 +40082,7 @@
     {
         "identifier": "item.cooked_salmon.name",
         "source_string": "Cooked Salmon",
-        "translation": "Salmón cocinado",
+        "translation": "Salmón asado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40114,7 +40114,7 @@
     {
         "identifier": "item.flint_and_steel.name",
         "source_string": "Flint and Steel",
-        "translation": "Pedernal y acero",
+        "translation": "Encededor",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40138,7 +40138,7 @@
     {
         "identifier": "item.ghast_tear.name",
         "source_string": "Ghast Tear",
-        "translation": "Lágrima de Ghast",
+        "translation": "Lágrima de ghast",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40146,7 +40146,7 @@
     {
         "identifier": "item.glass_bottle.name",
         "source_string": "Glass Bottle",
-        "translation": "Botella de cristal",
+        "translation": "Botella",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40362,7 +40362,7 @@
     {
         "identifier": "item.netherite_scrap.name",
         "source_string": "Netherite Scrap",
-        "translation": "Pedazo de netherita",
+        "translation": "Fragmento de netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40418,7 +40418,7 @@
     {
         "identifier": "item.netherite_leggings.name",
         "source_string": "Netherite Leggings",
-        "translation": "Mallas de netherita",
+        "translation": "Grebas de netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40434,7 +40434,7 @@
     {
         "identifier": "item.netherite_helmet.name",
         "source_string": "Netherite Helmet",
-        "translation": "Casco de netherita",
+        "translation": "Yelmo de netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40746,7 +40746,7 @@
     {
         "identifier": "item.spawn_egg.entity.agent.name",
         "source_string": "Agent Spawn Egg",
-        "translation": "Huevo generador de Agent",
+        "translation": "Generar agente",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40754,7 +40754,7 @@
     {
         "identifier": "item.spawn_egg.entity.armadillo.name",
         "source_string": "Armadillo Spawn Egg",
-        "translation": "Huevo generador de armadillo",
+        "translation": "Generar armadillo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40762,7 +40762,7 @@
     {
         "identifier": "item.spawn_egg.entity.axolotl.name",
         "source_string": "Axolotl Spawn Egg",
-        "translation": "Huevo generador de ajolote",
+        "translation": "Generar ajolote",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40770,7 +40770,7 @@
     {
         "identifier": "item.spawn_egg.entity.bee.name",
         "source_string": "Bee Spawn Egg",
-        "translation": "Huevo generador de abeja",
+        "translation": "Generar abeja",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40778,7 +40778,7 @@
     {
         "identifier": "item.spawn_egg.entity.bogged.name",
         "source_string": "Bogged Spawn Egg",
-        "translation": "Huevo generador de empantanado",
+        "translation": "Generar ciénago",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40786,7 +40786,7 @@
     {
         "identifier": "item.spawn_egg.entity.breeze.name",
         "source_string": "Breeze Spawn Egg",
-        "translation": "Huevo generador de vorágine",
+        "translation": "Generar vorágine",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40794,7 +40794,7 @@
     {
         "identifier": "item.spawn_egg.entity.hoglin.name",
         "source_string": "Hoglin Spawn Egg",
-        "translation": "Huevo generador de hoglin",
+        "translation": "Generar hoglin",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40802,7 +40802,7 @@
     {
         "identifier": "item.spawn_egg.entity.cat.name",
         "source_string": "Cat Spawn Egg",
-        "translation": "Huevo generador de gato",
+        "translation": "Generar gato",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40810,7 +40810,7 @@
     {
         "identifier": "item.spawn_egg.entity.chicken.name",
         "source_string": "Chicken Spawn Egg",
-        "translation": "Huevo generador de gallina",
+        "translation": "Generar gallina",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40818,7 +40818,7 @@
     {
         "identifier": "item.spawn_egg.entity.cow.name",
         "source_string": "Cow Spawn Egg",
-        "translation": "Huevo generador de vaca",
+        "translation": "Generar vaca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40826,7 +40826,7 @@
     {
         "identifier": "item.spawn_egg.entity.cod.name",
         "source_string": "Cod Spawn Egg",
-        "translation": "Huevo generador de bacalao",
+        "translation": "Generar bacalao",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40834,7 +40834,7 @@
     {
         "identifier": "item.spawn_egg.entity.creaking.name",
         "source_string": "Creaking Spawn Egg",
-        "translation": "Huevo de generador de crepitante",
+        "translation": "Generar crepitante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40842,7 +40842,7 @@
     {
         "identifier": "item.spawn_egg.entity.ender_dragon.name",
         "source_string": "Ender Dragon Spawn Egg",
-        "translation": "Huevo generador de dragona de Ender",
+        "translation": "Generar dragona de Ender",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40850,7 +40850,7 @@
     {
         "identifier": "item.spawn_egg.entity.goat.name",
         "source_string": "Goat Spawn Egg",
-        "translation": "Huevo generador de cabra",
+        "translation": "Generar cabra",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40858,7 +40858,7 @@
     {
         "identifier": "item.spawn_egg.entity.pufferfish.name",
         "source_string": "Pufferfish Spawn Egg",
-        "translation": "Huevo generador de pez globo",
+        "translation": "Generar pez globo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40866,7 +40866,7 @@
     {
         "identifier": "item.spawn_egg.entity.salmon.name",
         "source_string": "Salmon Spawn Egg",
-        "translation": "Huevo generador de salmón",
+        "translation": "Generar salmón",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40874,7 +40874,7 @@
     {
         "identifier": "item.spawn_egg.entity.tropicalfish.name",
         "source_string": "Tropical Fish Spawn Egg",
-        "translation": "Huevo generador de pez tropical",
+        "translation": "Generar pez tropical",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40882,7 +40882,7 @@
     {
         "identifier": "item.spawn_egg.entity.pig.name",
         "source_string": "Pig Spawn Egg",
-        "translation": "Huevo generador de cerdo",
+        "translation": "Generar cerdo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40890,7 +40890,7 @@
     {
         "identifier": "item.spawn_egg.entity.sheep.name",
         "source_string": "Sheep Spawn Egg",
-        "translation": "Huevo generador de oveja",
+        "translation": "Generar oveja",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40898,7 +40898,7 @@
     {
         "identifier": "item.spawn_egg.entity.npc.name",
         "source_string": "NPC Spawn Egg",
-        "translation": "Huevo generador de NPC",
+        "translation": "Generar PNJ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40914,7 +40914,7 @@
     {
         "identifier": "item.spawn_egg.entity.wolf.name",
         "source_string": "Wolf Spawn Egg",
-        "translation": "Huevo generador de lobo",
+        "translation": "Generar lobo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40922,7 +40922,7 @@
     {
         "identifier": "item.spawn_egg.entity.villager.name",
         "source_string": "Villager Spawn Egg",
-        "translation": "Huevo generador de aldeano",
+        "translation": "Generar aldeano",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40930,7 +40930,7 @@
     {
         "identifier": "item.spawn_egg.entity.villager_v2.name",
         "source_string": "Villager Spawn Egg",
-        "translation": "Huevo generador de aldeano",
+        "translation": "Generar aldeano",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40938,7 +40938,7 @@
     {
         "identifier": "item.spawn_egg.entity.vindicator.name",
         "source_string": "Vindicator Spawn Egg",
-        "translation": "Huevo generador de vindicador",
+        "translation": "Generar vindicador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40946,7 +40946,7 @@
     {
         "identifier": "item.spawn_egg.entity.mooshroom.name",
         "source_string": "Mooshroom Spawn Egg",
-        "translation": "Huevo generador de champiñaca",
+        "translation": "Generar champiñaca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40954,7 +40954,7 @@
     {
         "identifier": "item.spawn_egg.entity.squid.name",
         "source_string": "Squid Spawn Egg",
-        "translation": "Huevo generador de calamar",
+        "translation": "Generar calamar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40962,7 +40962,7 @@
     {
         "identifier": "item.spawn_egg.entity.glow_squid.name",
         "source_string": "Glow Squid Spawn Egg",
-        "translation": "Huevo generador de calamar brillante",
+        "translation": "Generar calamar brillante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40970,7 +40970,7 @@
     {
         "identifier": "item.spawn_egg.entity.rabbit.name",
         "source_string": "Rabbit Spawn Egg",
-        "translation": "Huevo generador de conejo",
+        "translation": "Generar conejo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40978,7 +40978,7 @@
     {
         "identifier": "item.spawn_egg.entity.bat.name",
         "source_string": "Bat Spawn Egg",
-        "translation": "Huevo generador de murciélago",
+        "translation": "Generar murciélago",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40986,7 +40986,7 @@
     {
         "identifier": "item.spawn_egg.entity.ravager.name",
         "source_string": "Ravager Spawn Egg",
-        "translation": "Huevo generador de devastador",
+        "translation": "Generar devastador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40994,7 +40994,7 @@
     {
         "identifier": "item.spawn_egg.entity.iron_golem.name",
         "source_string": "Iron Golem Spawn Egg",
-        "translation": "Huevo generador de gólem de hierro",
+        "translation": "Generar gólem de hierro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41002,7 +41002,7 @@
     {
         "identifier": "item.spawn_egg.entity.snow_golem.name",
         "source_string": "Snow Golem Spawn Egg",
-        "translation": "Huevo generador de gólem de nieve",
+        "translation": "Generar gólem de nieve",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41010,7 +41010,7 @@
     {
         "identifier": "item.spawn_egg.entity.ocelot.name",
         "source_string": "Ocelot Spawn Egg",
-        "translation": "Huevo generador de ocelote",
+        "translation": "Generar ocelote",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41018,7 +41018,7 @@
     {
         "identifier": "item.spawn_egg.entity.parrot.name",
         "source_string": "Parrot Spawn Egg",
-        "translation": "Huevo generador de loro",
+        "translation": "Generar loro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41026,7 +41026,7 @@
     {
         "identifier": "item.spawn_egg.entity.horse.name",
         "source_string": "Horse Spawn Egg",
-        "translation": "Huevo generador de caballo",
+        "translation": "Generar caballo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41034,7 +41034,7 @@
     {
         "identifier": "item.spawn_egg.entity.llama.name",
         "source_string": "Llama Spawn Egg",
-        "translation": "Huevo generador de llama",
+        "translation": "Generar llama",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41042,7 +41042,7 @@
     {
         "identifier": "item.spawn_egg.entity.trader_llama.name",
         "source_string": "Trader Llama Spawn Egg",
-        "translation": "Huevo generador de llama comerciante",
+        "translation": "Generar llama comerciante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41050,7 +41050,7 @@
     {
         "identifier": "item.spawn_egg.entity.polar_bear.name",
         "source_string": "Polar Bear Spawn Egg",
-        "translation": "Huevo generador de oso polar",
+        "translation": "Generar oso polar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41058,7 +41058,7 @@
     {
         "identifier": "item.spawn_egg.entity.donkey.name",
         "source_string": "Donkey Spawn Egg",
-        "translation": "Huevo generador de burro",
+        "translation": "Generar burro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41066,7 +41066,7 @@
     {
         "identifier": "item.spawn_egg.entity.mule.name",
         "source_string": "Mule Spawn Egg",
-        "translation": "Huevo generador de mula",
+        "translation": "Generar mula",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41074,7 +41074,7 @@
     {
         "identifier": "item.spawn_egg.entity.skeleton_horse.name",
         "source_string": "Skeleton Horse Spawn Egg",
-        "translation": "Huevo generador de caballo esqueleto",
+        "translation": "Generar caballo esqueleto",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41082,7 +41082,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_horse.name",
         "source_string": "Zombie Horse Spawn Egg",
-        "translation": "Huevo generador de caballo zombi",
+        "translation": "Generar caballo zombi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41090,7 +41090,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie.name",
         "source_string": "Zombie Spawn Egg",
-        "translation": "Huevo generador de zombi",
+        "translation": "Generar zombi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41098,7 +41098,7 @@
     {
         "identifier": "item.spawn_egg.entity.drowned.name",
         "source_string": "Drowned Spawn Egg",
-        "translation": "Huevo generador de ahogado",
+        "translation": "Generar ahogado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41106,7 +41106,7 @@
     {
         "identifier": "item.spawn_egg.entity.creeper.name",
         "source_string": "Creeper Spawn Egg",
-        "translation": "Huevo generador de Creeper",
+        "translation": "Generar creeper",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41114,7 +41114,7 @@
     {
         "identifier": "item.spawn_egg.entity.skeleton.name",
         "source_string": "Skeleton Spawn Egg",
-        "translation": "Huevo generador de esqueleto",
+        "translation": "Generar esqueleto",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41122,7 +41122,7 @@
     {
         "identifier": "item.spawn_egg.entity.spider.name",
         "source_string": "Spider Spawn Egg",
-        "translation": "Huevo generador de araña",
+        "translation": "Generar araña",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41130,7 +41130,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_pigman.name",
         "source_string": "Zombified Piglin Spawn Egg",
-        "translation": "Huevo generador de piglin zombi",
+        "translation": "Generar piglin zombi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41146,7 +41146,7 @@
     {
         "identifier": "item.spawn_egg.entity.slime.name",
         "source_string": "Slime Spawn Egg",
-        "translation": "Huevo generador de slime",
+        "translation": "Generar slime",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41154,7 +41154,7 @@
     {
         "identifier": "item.spawn_egg.entity.enderman.name",
         "source_string": "Enderman Spawn Egg",
-        "translation": "Huevo generador de Enderman",
+        "translation": "Generar enderman",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41162,7 +41162,7 @@
     {
         "identifier": "item.spawn_egg.entity.silverfish.name",
         "source_string": "Silverfish Spawn Egg",
-        "translation": "Huevo generador de pez plateado",
+        "translation": "Generar pez de plata",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41170,7 +41170,7 @@
     {
         "identifier": "item.spawn_egg.entity.cave_spider.name",
         "source_string": "Cave Spider Spawn Egg",
-        "translation": "Huevo generador de araña de las cuevas",
+        "translation": "Generar araña de las cuevas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41178,7 +41178,7 @@
     {
         "identifier": "item.spawn_egg.entity.ghast.name",
         "source_string": "Ghast Spawn Egg",
-        "translation": "Huevo generador de Ghast",
+        "translation": "Generar ghast",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41186,7 +41186,7 @@
     {
         "identifier": "item.spawn_egg.entity.magma_cube.name",
         "source_string": "Magma Cube Spawn Egg",
-        "translation": "Huevo generador de cubo de magma",
+        "translation": "Generar cubo de magma",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41194,7 +41194,7 @@
     {
         "identifier": "item.spawn_egg.entity.blaze.name",
         "source_string": "Blaze Spawn Egg",
-        "translation": "Huevo generador de Blaze",
+        "translation": "Generar blaze",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41202,7 +41202,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_villager.name",
         "source_string": "Zombie Villager Spawn Egg",
-        "translation": "Huevo generador de aldeano zombi",
+        "translation": "Generar aldeano zombi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41210,7 +41210,7 @@
     {
         "identifier": "item.spawn_egg.entity.zombie_villager_v2.name",
         "source_string": "Zombie Villager Spawn Egg",
-        "translation": "Huevo generador de aldeano zombi",
+        "translation": "Generar aldeano zombi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41218,7 +41218,7 @@
     {
         "identifier": "item.spawn_egg.entity.witch.name",
         "source_string": "Witch Spawn Egg",
-        "translation": "Huevo generador de bruja",
+        "translation": "Generar bruja",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41226,7 +41226,7 @@
     {
         "identifier": "item.spawn_egg.entity.stray.name",
         "source_string": "Stray Spawn Egg",
-        "translation": "Huevo generador de errante",
+        "translation": "Generar errante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41234,7 +41234,7 @@
     {
         "identifier": "item.spawn_egg.entity.husk.name",
         "source_string": "Husk Spawn Egg",
-        "translation": "Huevo generador de vaina",
+        "translation": "Generar disecado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41242,7 +41242,7 @@
     {
         "identifier": "item.spawn_egg.entity.wither_skeleton.name",
         "source_string": "Wither Skeleton Spawn Egg",
-        "translation": "Huevo generador de esqueleto de Wither",
+        "translation": "Generar esqueleto de Wither",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41250,7 +41250,7 @@
     {
         "identifier": "item.spawn_egg.entity.guardian.name",
         "source_string": "Guardian Spawn Egg",
-        "translation": "Huevo generador de guardián",
+        "translation": "Generar guardián",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41258,7 +41258,7 @@
     {
         "identifier": "item.spawn_egg.entity.elder_guardian.name",
         "source_string": "Elder Guardian Spawn Egg",
-        "translation": "Huevo generador de guardián anciano",
+        "translation": "Generar guardián anciano",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41266,7 +41266,7 @@
     {
         "identifier": "item.spawn_egg.entity.shulker.name",
         "source_string": "Shulker Spawn Egg",
-        "translation": "Huevo generador de Shulker",
+        "translation": "Generar shulker",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41274,7 +41274,7 @@
     {
         "identifier": "item.spawn_egg.entity.endermite.name",
         "source_string": "Endermite Spawn Egg",
-        "translation": "Huevo generador de Endermite",
+        "translation": "Generar endermite",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41282,7 +41282,7 @@
     {
         "identifier": "item.spawn_egg.entity.evocation_illager.name",
         "source_string": "Evoker Spawn Egg",
-        "translation": "Huevo generador de evocador",
+        "translation": "Generar evocador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41290,7 +41290,7 @@
     {
         "identifier": "item.spawn_egg.entity.vex.name",
         "source_string": "Vex Spawn Egg",
-        "translation": "Huevo generador de Vex",
+        "translation": "Generar vex",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41298,7 +41298,7 @@
     {
         "identifier": "item.spawn_egg.entity.turtle.name",
         "source_string": "Turtle Spawn Egg",
-        "translation": "Huevo generador de tortuga",
+        "translation": "Generar tortuga",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41306,7 +41306,7 @@
     {
         "identifier": "item.spawn_egg.entity.dolphin.name",
         "source_string": "Dolphin Spawn Egg",
-        "translation": "Huevo generador de delfín",
+        "translation": "Generar delfín",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41314,7 +41314,7 @@
     {
         "identifier": "item.spawn_egg.entity.phantom.name",
         "source_string": "Phantom Spawn Egg",
-        "translation": "Huevo generador de fantasma",
+        "translation": "Generar fantasma",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41322,7 +41322,7 @@
     {
         "identifier": "item.spawn_egg.entity.panda.name",
         "source_string": "Panda Spawn Egg",
-        "translation": "Huevo generador de panda",
+        "translation": "Generar panda",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41330,7 +41330,7 @@
     {
         "identifier": "item.spawn_egg.entity.pillager.name",
         "source_string": "Pillager Spawn Egg",
-        "translation": "Huevo generador de saqueador",
+        "translation": "Generar saqueador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41338,7 +41338,7 @@
     {
         "identifier": "item.spawn_egg.entity.piglin_brute.name",
         "source_string": "Piglin Brute Spawn Egg",
-        "translation": "Huevo generador de piglin bruto",
+        "translation": "Generar piglin bruto",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41346,7 +41346,7 @@
     {
         "identifier": "item.spawn_egg.entity.piglin.name",
         "source_string": "Piglin Spawn Egg",
-        "translation": "Huevo generador de piglin",
+        "translation": "Generar piglin",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41354,7 +41354,7 @@
     {
         "identifier": "item.spawn_egg.entity.fox.name",
         "source_string": "Fox Spawn Egg",
-        "translation": "Huevo generador de zorro",
+        "translation": "Generar zorro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41370,7 +41370,7 @@
     {
         "identifier": "item.spawn_egg.entity.wandering_trader.name",
         "source_string": "Wandering Trader Spawn Egg",
-        "translation": "Huevo generador de vendedor errante",
+        "translation": "Generar vendedor errante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41378,7 +41378,7 @@
     {
         "identifier": "item.spawn_egg.entity.wither.name",
         "source_string": "Wither Spawn Egg",
-        "translation": "Huevo generador de Wither",
+        "translation": "Generar Wither",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41386,7 +41386,7 @@
     {
         "identifier": "item.spawn_egg.entity.zoglin.name",
         "source_string": "Zoglin Spawn Egg",
-        "translation": "Huevo generador de zoglin",
+        "translation": "Generar zoglin",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41394,7 +41394,7 @@
     {
         "identifier": "item.spawn_egg.entity.sniffer.name",
         "source_string": "Sniffer Spawn Egg",
-        "translation": "Huevo generador de rastreador",
+        "translation": "Generar rastreador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41778,7 +41778,7 @@
     {
         "identifier": "item.record_creator_music_box.desc",
         "source_string": "Lena Raine - Creator (Music Box)",
-        "translation": "Lena Raine: creadora (caja de música)",
+        "translation": "Lena Raine - Creator (Music Box)",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -46106,7 +46106,7 @@
     {
         "identifier": "map.position.agent",
         "source_string": "Agent Pos: %s, %s, %s",
-        "translation": "Posición de Agent: %s, %s, %s",
+        "translation": "Posición de agente: %s, %s, %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -46442,7 +46442,7 @@
     {
         "identifier": "menu.resourcepacks",
         "source_string": "Resource Packs",
-        "translation": "Packs de recursos",
+        "translation": "Paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -46466,7 +46466,7 @@
     {
         "identifier": "menu.behaviors",
         "source_string": "Behavior Packs",
-        "translation": "Packs de comportamientos",
+        "translation": "Paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -46978,7 +46978,7 @@
     {
         "identifier": "npcscreen.action.url.placeholder",
         "source_string": "Type URL Here...",
-        "translation": "Escribe una URL aquí...",
+        "translation": "Escribe una LRU aquí...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -46986,7 +46986,7 @@
     {
         "identifier": "npcscreen.action.url.title",
         "source_string": "URL",
-        "translation": "URL",
+        "translation": "LRU",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47026,7 +47026,7 @@
     {
         "identifier": "npcscreen.addurl",
         "source_string": "Add URL",
-        "translation": "Agregar URL",
+        "translation": "Agregar LRU",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47042,7 +47042,7 @@
     {
         "identifier": "npcscreen.advancedtitle",
         "source_string": "Advanced NPC Settings",
-        "translation": "Configuración avanzada de NPC",
+        "translation": "Configuración avanzada de PNJ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47082,7 +47082,7 @@
     {
         "identifier": "npcscreen.help.command.a",
         "source_string": "Click this button to add a command in the NPC dialog box.",
-        "translation": "Haz clic en este botón para agregar un comando al cuadro de diálogo del NPC.",
+        "translation": "Haz clic en este botón para agregar un comando al cuadro de diálogo del PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47098,7 +47098,7 @@
     {
         "identifier": "npcscreen.help.url.a",
         "source_string": "Click this button to add a URL hyperlink in the NPC dialog box.",
-        "translation": "Haz clic en este botón para agregar un hipervínculo al cuadro de diálogo del NPC.",
+        "translation": "Haz clic en este botón para agregar un hipervínculo al cuadro de diálogo del PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47130,7 +47130,7 @@
     {
         "identifier": "npcscreen.npc",
         "source_string": "NPC",
-        "translation": "NPC",
+        "translation": "PNJ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47146,7 +47146,7 @@
     {
         "identifier": "npcUri.launch.success",
         "source_string": "Opened the NPC Link.",
-        "translation": "Se abrió el enlace del NPC.",
+        "translation": "Se abrió el enlace del PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47154,7 +47154,7 @@
     {
         "identifier": "npcUri.launch.failure",
         "source_string": "Unable to open the NPC Link. This doesn't look like a supported URL.",
-        "translation": "No se puede abrir el enlace del NPC. Esta no parece ser una URL compatible.",
+        "translation": "No se puede abrir el enlace del PNJ. Esta no parece ser una LRUcompatible.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47170,7 +47170,7 @@
     {
         "identifier": "offer.category.resourcepack",
         "source_string": "Texture Packs",
-        "translation": "Packs de texturas",
+        "translation": "Paquetes de texturas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -51890,7 +51890,7 @@
     {
         "identifier": "options.resourcepacks",
         "source_string": "Resource Packs",
-        "translation": "Packs de recursos",
+        "translation": "Paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -57578,7 +57578,7 @@
     {
         "identifier": "progressScreen.title.applyingPacks",
         "source_string": "Loading resource packs",
-        "translation": "Cargando packs de recursos",
+        "translation": "Cargando paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -57914,7 +57914,7 @@
     {
         "identifier": "progressScreen.message.copyingPacks",
         "source_string": "Saving World Resource Packs",
-        "translation": "Guardando packs de recursos del mundo",
+        "translation": "Guardando paquetes de recursos del mundo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58138,7 +58138,7 @@
     {
         "identifier": "progressScreen.dialog.title.resourcePack",
         "source_string": "Download Resource Packs?",
-        "translation": "¿Descargar packs de recursos?",
+        "translation": "¿Descargar paquetes de recursos?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58586,7 +58586,7 @@
     {
         "identifier": "resourcePack.available.title",
         "source_string": "Available Resource Packs",
-        "translation": "Packs de recursos disponibles",
+        "translation": "Paquetes de recursos disponibles",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58594,7 +58594,7 @@
     {
         "identifier": "resourcePack.available.title.behaviorPacks",
         "source_string": "Available Behavior Packs",
-        "translation": "Packs de comportamientos disponibles",
+        "translation": "Paquetes de comportamientos disponibles",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58602,7 +58602,7 @@
     {
         "identifier": "resourcePack.available.title.packs",
         "source_string": "My Packs",
-        "translation": "Mis packs",
+        "translation": "Mis paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58618,7 +58618,7 @@
     {
         "identifier": "resourcePack.available.none.text",
         "source_string": "You have no resource packs",
-        "translation": "No tienes ningún pack de recursos",
+        "translation": "No tienes paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58626,7 +58626,7 @@
     {
         "identifier": "resourcePack.available.none.behavior",
         "source_string": "You have no behavior packs",
-        "translation": "No tienes ningún pack de comportamiento",
+        "translation": "No tienes paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58666,7 +58666,7 @@
     {
         "identifier": "resourcePack.message.warning",
         "source_string": "A pack has warnings that might cause odd behavior",
-        "translation": "Un pack tiene advertencias que pueden causar un comportamiento inesperado",
+        "translation": "Un paquete tiene advertencias que pueden causar un comportamiento inesperado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58674,7 +58674,7 @@
     {
         "identifier": "resourcePack.suggestedContent.title",
         "source_string": "Get More Packs",
-        "translation": "Obtener más packs",
+        "translation": "Obtener más paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58682,7 +58682,7 @@
     {
         "identifier": "resourcePack.suggestedContent.button.viewMore",
         "source_string": "View More Packs",
-        "translation": "Ver más packs",
+        "translation": "Ver más paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58714,7 +58714,7 @@
     {
         "identifier": "resourcePack.selected.title",
         "source_string": "Selected Resource Packs",
-        "translation": "Packs de recursos seleccionados",
+        "translation": "Paquetes de recursos seleccionados",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58722,7 +58722,7 @@
     {
         "identifier": "resourcePack.selected.title.behaviorPacks",
         "source_string": "Active Behavior Packs",
-        "translation": "Packs de comportamientos activos",
+        "translation": "Paquetes de comportamientos activos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58778,7 +58778,7 @@
     {
         "identifier": "resourcePack.error.ingame.packs",
         "source_string": "You cannot change Resource Packs while playing in a world.",
-        "translation": "No puedes cambiar los packs de recursos mientras juegas en un mundo.",
+        "translation": "No puedes cambiar los paquetes de recursos mientras juegas en un mundo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58786,7 +58786,7 @@
     {
         "identifier": "resourcePack.error.ingame.behaviorPacks",
         "source_string": "You cannot change Behavior Packs while playing in a world.",
-        "translation": "No puedes cambiar los packs de comportamientos mientras juegas en un mundo.",
+        "translation": "No puedes cambiar los paquetes de comportamientos mientras juegas en un mundo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58818,7 +58818,7 @@
     {
         "identifier": "resourcePack.title",
         "source_string": "Select Resource Packs",
-        "translation": "Seleccionar packs de recursos",
+        "translation": "Seleccionar paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59594,7 +59594,7 @@
     {
         "identifier": "storageManager.contentType.behaviorPack",
         "source_string": "Behavior Pack",
-        "translation": "Pack de comportamiento",
+        "translation": "Paquete de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59650,7 +59650,7 @@
     {
         "identifier": "storageManager.contentType.resourcePacks",
         "source_string": "Resource Packs",
-        "translation": "Packs de recursos",
+        "translation": "Paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59658,7 +59658,7 @@
     {
         "identifier": "storageManager.contentType.behaviorPacks",
         "source_string": "Behavior Packs",
-        "translation": "Packs de comportamiento",
+        "translation": "Paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59834,7 +59834,7 @@
     {
         "identifier": "tile.sculk_sensor.name",
         "source_string": "Sculk Sensor",
-        "translation": "Sensor sculk",
+        "translation": "Sensor de sculk",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59914,7 +59914,7 @@
     {
         "identifier": "item.spawn_egg.entity.warden.name",
         "source_string": "Warden Spawn Egg",
-        "translation": "Huevo generador de guardia",
+        "translation": "Generar guardia",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59938,7 +59938,7 @@
     {
         "identifier": "item.spawn_egg.entity.allay.name",
         "source_string": "Allay Spawn Egg",
-        "translation": "Huevo generador de ayudante",
+        "translation": "Generar ayudante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59962,7 +59962,7 @@
     {
         "identifier": "item.spawn_egg.entity.frog.name",
         "source_string": "Frog Spawn Egg",
-        "translation": "Huevo generador de rana",
+        "translation": "Generar rana",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59970,7 +59970,7 @@
     {
         "identifier": "item.spawn_egg.entity.tadpole.name",
         "source_string": "Tadpole Spawn Egg",
-        "translation": "Huevo generador de renacuajo",
+        "translation": "Generar renacuajo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60410,7 +60410,7 @@
     {
         "identifier": "container.smithing_table.input_slot_tooltip_netherite",
         "source_string": "Add Diamond armor, weapon, or tool",
-        "translation": "Añadir armadura, arma o herramienta de diamante",
+        "translation": "Coloca una armadura, arma o herramienta de diamante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60426,7 +60426,7 @@
     {
         "identifier": "container.smithing_table.material_slot_tooltip_netherite",
         "source_string": "Add Netherite Ingot",
-        "translation": "Añadir lingote de inframundita",
+        "translation": "Coloca un ligote de netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60962,7 +60962,7 @@
     {
         "identifier": "item.smithing_template.netherite_upgrade.ingredients",
         "source_string": "Netherite Ingot",
-        "translation": "Lingote de inframundita",
+        "translation": "Lingote de netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61130,7 +61130,7 @@
     {
         "identifier": "item.spawn_egg.entity.camel.name",
         "source_string": "Camel Spawn Egg",
-        "translation": "Huevo generador de camello",
+        "translation": "Generar camello",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61274,7 +61274,7 @@
     {
         "identifier": "tile.calibrated_sculk_sensor.name",
         "source_string": "Calibrated Sculk Sensor",
-        "translation": "Sensor sculk calibrado",
+        "translation": "Sensor de sculk calibrado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61466,7 +61466,7 @@
     {
         "identifier": "trim_material.amethyst.name",
         "source_string": "Amethyst Material",
-        "translation": "Material: Amatista",
+        "translation": "Material de amatista",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61474,7 +61474,7 @@
     {
         "identifier": "trim_material.copper.name",
         "source_string": "Copper Material",
-        "translation": "Material: Cobre",
+        "translation": "Material de cobre",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61482,7 +61482,7 @@
     {
         "identifier": "trim_material.diamond.name",
         "source_string": "Diamond Material",
-        "translation": "Material: Diamante",
+        "translation": "Material de diamante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61490,7 +61490,7 @@
     {
         "identifier": "trim_material.emerald.name",
         "source_string": "Emerald Material",
-        "translation": "Material: Esmeralda",
+        "translation": "Material de esmeralda",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61498,7 +61498,7 @@
     {
         "identifier": "trim_material.gold.name",
         "source_string": "Gold Material",
-        "translation": "Material: Oro",
+        "translation": "Material de oro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61506,7 +61506,7 @@
     {
         "identifier": "trim_material.iron.name",
         "source_string": "Iron Material",
-        "translation": "Material: Hierro",
+        "translation": "Material de hierro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61514,7 +61514,7 @@
     {
         "identifier": "trim_material.lapis.name",
         "source_string": "Lapis Material",
-        "translation": "Material: Lapislázuli",
+        "translation": "Material de lapislázuli",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61522,7 +61522,7 @@
     {
         "identifier": "trim_material.netherite.name",
         "source_string": "Netherite Material",
-        "translation": "Material: Inframundita",
+        "translation": "Material de netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61530,7 +61530,7 @@
     {
         "identifier": "trim_material.quartz.name",
         "source_string": "Quartz Material",
-        "translation": "Material: Cuarzo",
+        "translation": "Material de cuarzo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61538,7 +61538,7 @@
     {
         "identifier": "trim_material.redstone.name",
         "source_string": "Redstone Material",
-        "translation": "Material: Redstone",
+        "translation": "Material de redstone",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62746,7 +62746,7 @@
     {
         "identifier": "selectWorld.convertInProgress.download_msg",
         "source_string": "Downloading Resource Packs... %d%%",
-        "translation": "Descargando packs de recursos... %d%%",
+        "translation": "Descargando paquetes de recursos... %d%%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62754,7 +62754,7 @@
     {
         "identifier": "selectWorld.convertInProgress.import_msg",
         "source_string": "Importing Resource Packs... %d%%",
-        "translation": "Importando packs de recursos... %d%%",
+        "translation": "Importando paquetes de recursos... %d%%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -68026,7 +68026,7 @@
     {
         "identifier": "store.resource.create",
         "source_string": "Manage your Resource Packs",
-        "translation": "Administrar los packs de recursos",
+        "translation": "Administrar los paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -81330,7 +81330,7 @@
     {
         "identifier": "addServer.resourcePack",
         "source_string": "Server Resource Packs",
-        "translation": "Packs de recursos del servidor",
+        "translation": "Paquetes de recursos del servidor",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -81594,7 +81594,7 @@
     {
         "identifier": "tips.edu.11",
         "source_string": "NPC stands for Non-Player Character.",
-        "translation": "NPC significa personaje no jugable.",
+        "translation": "PNJ significa personaje no jugable.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -81698,7 +81698,7 @@
     {
         "identifier": "tips.edu.24",
         "source_string": "To add or change an NPC in your world, first make yourself a world builder with \"/wb\".",
-        "translation": "Para agregar o cambiar un NPC dentro de tu mundo, primero deberás hacer un creador del mundo con \"/wb\".",
+        "translation": "Para agregar o cambiar un PNJ dentro de tu mundo, primero deberás hacer un creador del mundo con \"/wb\".",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -87386,7 +87386,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
         "source_string": "A behavior pack is activated",
-        "translation": "Hay un pack de comportamiento activado",
+        "translation": "Hay un paquete de comportamientos activado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -87666,7 +87666,7 @@
     {
         "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
         "source_string": "A behavior pack is activated",
-        "translation": "Hay un pack de comportamiento activado",
+        "translation": "Hay un paquete de comportamientos activado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -92346,7 +92346,7 @@
     {
         "identifier": "hbui.CreateNewWorld.achievementsDisabledMessages.behaviorPacks",
         "source_string": "Disable all behavior packs",
-        "translation": "Deshabilitar todos los packs de comportamiento",
+        "translation": "Deshabilitar todos los paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -92986,7 +92986,7 @@
     {
         "identifier": "hbui.CreateNewWorld.behaviorPacks.activatedAllPacksMessageTitle",
         "source_string": "You’ve activated all packs",
-        "translation": "Activaste todos los packs",
+        "translation": "Activaste todos los paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -93010,7 +93010,7 @@
     {
         "identifier": "hbui.CreateNewWorld.behaviorPacks.emptyLocalActivePacksMessageTitle",
         "source_string": "No active behavior packs",
-        "translation": "No hay packs de comportamientos activos",
+        "translation": "No hay paquetes de comportamientos activos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -95162,7 +95162,7 @@
     {
         "identifier": "hbui.CreateNewWorld.resourcePacks.emptyLocalActivePacksMessageTitle",
         "source_string": "No active resource packs",
-        "translation": "No hay ningún pack de recursos activo",
+        "translation": "No hay paquetes de recursos activos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -95578,7 +95578,7 @@
     {
         "identifier": "hbui.CreateNewWorld.resourcePacks.marketplacePassPacksEmptyTitle",
         "source_string": "No more available resource packs",
-        "translation": "No hay más packs de recursos disponibles\t#",
+        "translation": "No hay más packs de recursos disponibles",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -109202,7 +109202,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.FirstCraftedNetherite",
         "source_string": "%1$s upgraded to Netherite",
-        "translation": "Se ha mejorado %1$s",
+        "translation": "Mejoró %1$s a netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -109210,7 +109210,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.FirstCraftedNetherite.grouped",
         "source_string": "%1$s upgraded to Netherite",
-        "translation": "Se ha mejorado %1$s",
+        "translation": "Mejoraron %1$s a netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -115906,7 +115906,7 @@
     {
         "identifier": "hbui.WorldItem.MultiplayerDisabledDueToBanModal.body",
         "source_string": "You can still play on this world, but multiplayer features are disabled.",
-        "translation": "Puedes jugar en este mundo, pero las funciones multijugador están desactivadas.",
+        "translation": "Todavía puedes jugar en este mundo, pero las funciones multijugadores están desactivadas.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -123114,7 +123114,7 @@
     {
         "identifier": "tile.element.s.name",
         "source_string": "Sulfur",
-        "translation": "Sulfur",
+        "translation": "Azufre",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -125802,7 +125802,7 @@
     {
         "identifier": "howtoplay.resourceAndBehaviorPacks",
         "source_string": "Resource And Behavior Packs",
-        "translation": "Packs de recursos y de comportamiento\t#",
+        "translation": "Paquetes de recursos y de comportamientos",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -128458,7 +128458,7 @@
     {
         "identifier": "howtoplay.npc.text.4",
         "source_string": "NPCs display their dialog text when interacted with by non-World Builders.",
-        "translation": "Los personajes muestran el texto de sus diálogos cuando los jugadores no creadores de mundos interactúan con ellos.\t#",
+        "translation": "Los PNJ muestran su texto de diálogo cuando interactúa con ellos alguien que no es un creador del mundo.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -128466,7 +128466,7 @@
     {
         "identifier": "howtoplay.npc.text.5",
         "source_string": "NPCs can also launch external URLs or execute commands automatically on closing their dialog box, or by assigning actions to buttons for players to interact with. All automatic commands (and URLs) are executed in the order they are added to the NPC.",
-        "translation": "Los personajes también pueden lanzar direcciones URL externas o ejecutar comandos automáticamente al cerrar su caja de diálogo, o al asignar acciones a botones para que los jugadores interactúen con ellos. Todos los comandos automáticos (y direcciones) se ejecutan en el orden en que se agregan al personaje.\t#",
+        "translation": "Los PNJ pueden abrir LRU externas o ejecutar comandos de forma automática al cerrar su ventana de diálogo o al asignar botones de acción para que los jugadores interactúen. Todos los comandos automáticos (y las LRU) se ejecutan en el orden en el que han sido añadidos.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -130898,7 +130898,7 @@
     {
         "identifier": "tips.game.58",
         "source_string": "Shear a Beehive or nest to get Honeycomb, use a Bottle to get honey",
-        "translation": "Esquila una colmena o un nido para obtener panal, usa una botella para obtener miel\t#",
+        "translation": "Esquila una colmena o un nido para obtener panal, usa una botella para obtener miel",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -130906,7 +130906,7 @@
     {
         "identifier": "tips.game.59",
         "source_string": "Place a Campfire under a Beehive or nest to harvest honey peacefully. Your bees will thank you.",
-        "translation": "Coloca una fogata debajo de una colmena o un nido para cosechar miel tranquilamente. Tus abejas te lo agradecerán.\t#",
+        "translation": "Coloca una fogata debajo de una colmena o un nido para cosechar miel tranquilamente. Tus abejas te lo agradecerán.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -131082,7 +131082,7 @@
     {
         "identifier": "dr.color.brown_pod_black",
         "source_string": "Brown Pod Black",
-        "translation": "Negro vaina marrón\t#",
+        "translation": "Negro vaina marrón",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -131130,7 +131130,7 @@
     {
         "identifier": "dr.color.cool_brown_pod",
         "source_string": "Cool Brown Pod",
-        "translation": "Vaina marrón genial\t#",
+        "translation": "Vaina marrón genial",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -131170,7 +131170,7 @@
     {
         "identifier": "dr.color.dark_brown_pod",
         "source_string": "Drak Brown Pod",
-        "translation": "Vaina marrón oscuro\t#",
+        "translation": "Vaina marrón oscuro",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -133514,7 +133514,7 @@
     {
         "identifier": "hbui.CreateNewWorld.resourcePacks.realmsPlusPacksEmptyTitle",
         "source_string": "No more available resource packs",
-        "translation": "No hay más packs de recursos disponibles\t#",
+        "translation": "No hay más paquetes de recursos disponibles",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -134690,7 +134690,7 @@
     {
         "identifier": "upgrade.netherite_upgrade.name",
         "source_string": "Netherite Upgrade",
-        "translation": "Mejora de inframundita\t#",
+        "translation": "Mejora de netherita",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -148434,7 +148434,7 @@
     {
         "identifier": "item.record_lava_chicken.desc",
         "source_string": "Hyper Potions - Lava Chicken",
-        "translation": "Pociones de hiper - Pollo de lava",
+        "translation": "Hyper Potions - Lava Chicken",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162618,7 +162618,7 @@
     {
         "identifier": "subtitles.entity.breeze.charge",
         "source_string": "Breeze charges",
-        "translation": "Breeze cargando",
+        "translation": "Vorágine cargando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162626,7 +162626,7 @@
     {
         "identifier": "subtitles.entity.breeze.death",
         "source_string": "Breeze dies",
-        "translation": "Breeze muerto",
+        "translation": "Vorágine muerto",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162634,7 +162634,7 @@
     {
         "identifier": "subtitles.entity.breeze.deflect",
         "source_string": "Breeze deflects",
-        "translation": "Breeze desviando",
+        "translation": "Vorágine desviando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162642,7 +162642,7 @@
     {
         "identifier": "subtitles.entity.breeze.hurt",
         "source_string": "Breeze hurts",
-        "translation": "Breeze herido",
+        "translation": "Vorágine herido",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162650,7 +162650,7 @@
     {
         "identifier": "subtitles.entity.breeze.idle_air",
         "source_string": "Breeze flies",
-        "translation": "Breeze volando",
+        "translation": "Vorágine volando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162658,7 +162658,7 @@
     {
         "identifier": "subtitles.entity.breeze.idle_ground",
         "source_string": "Breeze whirs",
-        "translation": "Breeze zumbando",
+        "translation": "Vorágine zumbando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162666,7 +162666,7 @@
     {
         "identifier": "subtitles.entity.breeze.inhale",
         "source_string": "Breeze inhales",
-        "translation": "Breeze inhalando",
+        "translation": "Vorágine inhalando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162674,7 +162674,7 @@
     {
         "identifier": "subtitles.entity.breeze.jump",
         "source_string": "Breeze jumps",
-        "translation": "Breeze saltando",
+        "translation": "Vorágine saltando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162682,7 +162682,7 @@
     {
         "identifier": "subtitles.entity.breeze.land",
         "source_string": "Breeze lands",
-        "translation": "Breeze aterrizando",
+        "translation": "Vorágine aterrizando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162690,7 +162690,7 @@
     {
         "identifier": "subtitles.entity.breeze.shoot",
         "source_string": "Breeze shoots",
-        "translation": "Breeze disparando",
+        "translation": "Vorágine disparando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162698,7 +162698,7 @@
     {
         "identifier": "subtitles.entity.breeze.slide",
         "source_string": "Breeze slides",
-        "translation": "Breeze deslizándose",
+        "translation": "Vorágine deslizándose",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162706,7 +162706,7 @@
     {
         "identifier": "subtitles.entity.breeze.whirl",
         "source_string": "Breeze whirls",
-        "translation": "Breeze ululando",
+        "translation": "Vorágine ululando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -165146,7 +165146,7 @@
     {
         "identifier": "subtitles.entity.parrot.imitate.breeze",
         "source_string": "Parrot whirs",
-        "translation": "Loro imitando a un breeze",
+        "translation": "Loro imitando a un vorágine",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -175178,7 +175178,7 @@
     {
         "identifier": "subtitles.block.enchanting_table.use",
         "source_string": "Enchanting Table used",
-        "translation": "Mesa de encantamiento usada",
+        "translation": "Mesa de encantamientos usada",
         "context": "null",
         "labels": "unassigned",
         "max_length": null

@@ -9,7 +9,7 @@
     },
     {
         "identifier": "pack.description",
-        "source_string": "100+ new & better translations for Minecraft Bedrock! By Azurite & its Community",
+        "source_string": "100+ new & improved translations for Minecraft Bedrock! By Azurite & its Community",
         "translation": "¡Más de 100 traducciones nuevas y mejores en la Edición Bedrock! Desarrollado por Azurite y su comunidad",
         "context": "Description of the pack",
         "labels": "metadata, unassigned",
@@ -6410,7 +6410,7 @@
     {
         "identifier": "commands.dialogue.description",
         "source_string": "Opens NPC dialogue for a player.",
-        "translation": "Abre el diálogo con un NPC para un jugador.",
+        "translation": "Abre el diálogo con un PNJ para un jugador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6418,7 +6418,7 @@
     {
         "identifier": "commands.dialogue.changeFailed",
         "source_string": "Failed to change the scene for the NPC.",
-        "translation": "No se pudo cambiar la escena para el NPC.",
+        "translation": "No se pudo cambiar la escena para el PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6426,7 +6426,7 @@
     {
         "identifier": "commands.dialogue.changeSuccess",
         "source_string": "Dialogue successfully changed the scene for the NPC globally.",
-        "translation": "El diálogo ha cambiado correctamente la escena para el NPC a nivel global.",
+        "translation": "El diálogo ha cambiado correctamente la escena para el PNJ a nivel global.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6434,7 +6434,7 @@
     {
         "identifier": "commands.dialogue.changePerPlayerSuccess",
         "source_string": "Dialogue successfully changed NPC text just for %1$s.",
-        "translation": "El diálogo ha cambiado correctamente el texto del NPC solo para %1$s.",
+        "translation": "El diálogo ha cambiado correctamente el texto del PNJ solo para %1$s.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6450,7 +6450,7 @@
     {
         "identifier": "commands.dialogue.noNpcComponent",
         "source_string": "Selected actor did not have an NPC component.",
-        "translation": "El actor seleccionado no tenía un componente de NPC.",
+        "translation": "El actor seleccionado no tenía un componente de PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6458,7 +6458,7 @@
     {
         "identifier": "commands.dialogue.npcNotFound",
         "source_string": "Failed to find an NPC.",
-        "translation": "No se pudo encontrar un NPC.",
+        "translation": "No se pudo encontrar un PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6466,7 +6466,7 @@
     {
         "identifier": "commands.dialogue.npcNotInRange",
         "source_string": "An NPC was found, but was not in the receiving player %1$s's ticking range.",
-        "translation": "Se ha encontrado un NPC, pero no estaba en el rango de marca del jugador %1$s.",
+        "translation": "Se ha encontrado un PNJ, pero no estaba en el rango de marca del jugador %1$s.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6482,7 +6482,7 @@
     {
         "identifier": "commands.dialogue.tooManyNPCs",
         "source_string": "Selector for NPCs was ambiguous and resulted in too many selected. Please select only one NPC.",
-        "translation": "El selector de NPC era ambiguo y se han seleccionado demasiados. Selecciona solo un NPC.",
+        "translation": "El selector de PNJ era ambiguo y se han seleccionado demasiados. Selecciona solo un PNJ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26890,7 +26890,7 @@
     {
         "identifier": "howtoplay.brewingStand.header.1",
         "source_string": "Know your Brewing Stand",
-        "translation": "Descripción del soporte para pociones",
+        "translation": "Conoce tu soporte para pociones",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27802,7 +27802,7 @@
     {
         "identifier": "howtoplay.npc.text.3",
         "source_string": "NPCs have a variety of skins to choose from and are immobile.",
-        "translation": "Los PNJ cuentan con una variedad de aspectos entre los que elegir. Son inmóviles.",
+        "translation": "Los PNJ cuentan con una variedad de aspectos entre los que elegir y son inmóviles.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38722,7 +38722,7 @@
     {
         "identifier": "item.tropicalBodyKobSingle.name",
         "source_string": "%1$s Kob",
-        "translation": "%1$s kob",
+        "translation": "%1$s Kob",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38730,7 +38730,7 @@
     {
         "identifier": "item.tropicalBodySunstreakSingle.name",
         "source_string": "%1$s SunStreak",
-        "translation": "%1$s quemado por el sol",
+        "translation": "%1$s Pez rayo de sol",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38738,7 +38738,7 @@
     {
         "identifier": "item.tropicalBodySnooperSingle.name",
         "source_string": "%1$s Snooper",
-        "translation": "%1$s espía",
+        "translation": "%1$s Pez de arrecife",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38746,7 +38746,7 @@
     {
         "identifier": "item.tropicalBodyDasherSingle.name",
         "source_string": "%1$s Dasher",
-        "translation": "%1$s alegre",
+        "translation": "%1$s Franjeado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38754,7 +38754,7 @@
     {
         "identifier": "item.tropicalBodyBrinelySingle.name",
         "source_string": "%1$s Brinely",
-        "translation": "%1$s en salmuera",
+        "translation": "%1$s Pez salino",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38762,7 +38762,7 @@
     {
         "identifier": "item.tropicalBodySpottySingle.name",
         "source_string": "%1$s Spotty",
-        "translation": "%1$s irregular",
+        "translation": "%1$s Moteado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38770,7 +38770,7 @@
     {
         "identifier": "item.tropicalBodyFlopperSingle.name",
         "source_string": "%1$s Flopper",
-        "translation": "%1$s estafador",
+        "translation": "%1$s Saltarín",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38778,7 +38778,7 @@
     {
         "identifier": "item.tropicalBodyStripeySingle.name",
         "source_string": "%1$s Stripey",
-        "translation": "%1$s a rayas",
+        "translation": "%1$s Rayado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38786,7 +38786,7 @@
     {
         "identifier": "item.tropicalBodyGlitterSingle.name",
         "source_string": "%1$s Glitter",
-        "translation": "%1$s con brillo",
+        "translation": "%1$s Brillante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38794,7 +38794,7 @@
     {
         "identifier": "item.tropicalBodyBlockfishSingle.name",
         "source_string": "%1$s Blockfish",
-        "translation": "%1$s pez bloque",
+        "translation": "%1$s Pez bloque",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38802,7 +38802,7 @@
     {
         "identifier": "item.tropicalBodyBettySingle.name",
         "source_string": "%1$s Betty",
-        "translation": "%1$s Betty",
+        "translation": "%1$s Pez betta",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38810,7 +38810,7 @@
     {
         "identifier": "item.tropicalBodyClayfishSingle.name",
         "source_string": "%1$s Clayfish",
-        "translation": "%1$s pez de arcilla",
+        "translation": "%1$s Pez arcilla",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38818,7 +38818,7 @@
     {
         "identifier": "item.tropicalBodyKobMulti.name",
         "source_string": "%1$s-%2$s Kob",
-        "translation": "%1$s-%2$s kob",
+        "translation": "%1$s-%2$s Kob",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38826,7 +38826,7 @@
     {
         "identifier": "item.tropicalBodySunstreakMulti.name",
         "source_string": "%1$s-%2$s SunStreak",
-        "translation": "%1$s-%2$s quemado por el sol",
+        "translation": "%1$s-%2$s Pez rayo de sol",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38834,7 +38834,7 @@
     {
         "identifier": "item.tropicalBodySnooperMulti.name",
         "source_string": "%1$s-%2$s Snooper",
-        "translation": "%1$s-%2$s espía",
+        "translation": "%1$s-%2$s Pez de arrecife",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38842,7 +38842,7 @@
     {
         "identifier": "item.tropicalBodyDasherMulti.name",
         "source_string": "%1$s-%2$s Dasher",
-        "translation": "%1$s-%2$s alegre",
+        "translation": "%1$s-%2$s Frajeado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38850,7 +38850,7 @@
     {
         "identifier": "item.tropicalBodyBrinelyMulti.name",
         "source_string": "%1$s-%2$s Brinely",
-        "translation": "%1$s-%2$s en salmuera",
+        "translation": "%1$s-%2$s Pez salino",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38858,7 +38858,7 @@
     {
         "identifier": "item.tropicalBodySpottyMulti.name",
         "source_string": "%1$s-%2$s Spotty",
-        "translation": "%1$s-%2$s irregular",
+        "translation": "%1$s-%2$s Moteado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38866,7 +38866,7 @@
     {
         "identifier": "item.tropicalBodyFlopperMulti.name",
         "source_string": "%1$s-%2$s Flopper",
-        "translation": "%1$s-%2$s estafador",
+        "translation": "%1$s-%2$s Saltarín",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38874,7 +38874,7 @@
     {
         "identifier": "item.tropicalBodyStripeyMulti.name",
         "source_string": "%1$s-%2$s Stripey",
-        "translation": "%1$s-%2$s a rayas",
+        "translation": "%1$s-%2$s Rayado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38882,7 +38882,7 @@
     {
         "identifier": "item.tropicalBodyGlitterMulti.name",
         "source_string": "%1$s-%2$s Glitter",
-        "translation": "%1$s-%2$s con brillo",
+        "translation": "%1$s-%2$s Brillante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38890,7 +38890,7 @@
     {
         "identifier": "item.tropicalBodyBlockfishMulti.name",
         "source_string": "%1$s-%2$s Blockfish",
-        "translation": "%1$s-%2$s pez bloque",
+        "translation": "%1$s-%2$s Pez bloque",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38898,7 +38898,7 @@
     {
         "identifier": "item.tropicalBodyBettyMulti.name",
         "source_string": "%1$s-%2$s Betty",
-        "translation": "%1$s-%2$s Betty",
+        "translation": "%1$s-%2$s Pez betta",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38906,7 +38906,7 @@
     {
         "identifier": "item.tropicalBodyClayfishMulti.name",
         "source_string": "%1$s-%2$s Clayfish",
-        "translation": "%1$s-%2$s pez de arcilla",
+        "translation": "%1$s-%2$s Pez arcilla",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38930,7 +38930,7 @@
     {
         "identifier": "item.tropicalSchoolBlueDory.name",
         "source_string": "Blue Dory",
-        "translation": "Gallo azul",
+        "translation": "Pez cirujano azul",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39002,7 +39002,7 @@
     {
         "identifier": "item.tropicalSchoolOrnateButterfly.name",
         "source_string": "Ornate Butterfly",
-        "translation": "Mariposa decorada",
+        "translation": "Pez mariposa adornado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39018,7 +39018,7 @@
     {
         "identifier": "item.tropicalSchoolQueenAngelFish.name",
         "source_string": "Queen Angel Fish",
-        "translation": "Ángel reina",
+        "translation": "Pez ángel reina",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -39082,7 +39082,7 @@
     {
         "identifier": "item.tropicalSchoolYellowtailParrot.name",
         "source_string": "Yellowtail Parrot",
-        "translation": "Loro de cola amarilla",
+        "translation": "Pez cirujano amarillo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40746,7 +40746,7 @@
     {
         "identifier": "item.spawn_egg.entity.agent.name",
         "source_string": "Agent Spawn Egg",
-        "translation": "Huevo generador de Agent",
+        "translation": "Generar agente",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40834,7 +40834,7 @@
     {
         "identifier": "item.spawn_egg.entity.creaking.name",
         "source_string": "Creaking Spawn Egg",
-        "translation": "Huevo de generador de crepitante",
+        "translation": "Generar crepitante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40898,7 +40898,7 @@
     {
         "identifier": "item.spawn_egg.entity.npc.name",
         "source_string": "NPC Spawn Egg",
-        "translation": "Huevo generador de NPC",
+        "translation": "Generar PNJ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41298,7 +41298,7 @@
     {
         "identifier": "item.spawn_egg.entity.turtle.name",
         "source_string": "Turtle Spawn Egg",
-        "translation": "Huevo generador de tortuga",
+        "translation": "Generar tortuga",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41658,7 +41658,7 @@
     {
         "identifier": "item.record_blocks.desc",
         "source_string": "C418 - blocks",
-        "translation": "C418 - bloques",
+        "translation": "C418 - blocks",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41666,7 +41666,7 @@
     {
         "identifier": "item.record_cat.desc",
         "source_string": "C418 - cat",
-        "translation": "C418 - gato",
+        "translation": "C418 - cat",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41674,7 +41674,7 @@
     {
         "identifier": "item.record_chirp.desc",
         "source_string": "C418 - chirp",
-        "translation": "C418 - gorjeo",
+        "translation": "C418 - chirp",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41682,7 +41682,7 @@
     {
         "identifier": "item.record_far.desc",
         "source_string": "C418 - far",
-        "translation": "C418 - lejos",
+        "translation": "C418 - far",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41690,7 +41690,7 @@
     {
         "identifier": "item.record_mall.desc",
         "source_string": "C418 - mall",
-        "translation": "C418 - explanada",
+        "translation": "C418 - mall",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41730,7 +41730,7 @@
     {
         "identifier": "item.record_wait.desc",
         "source_string": "C418 - wait",
-        "translation": "C418 - esperar",
+        "translation": "C418 - wait",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41738,7 +41738,7 @@
     {
         "identifier": "item.record_ward.desc",
         "source_string": "C418 - ward",
-        "translation": "C418 - sala",
+        "translation": "C418 - ward",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41754,7 +41754,7 @@
     {
         "identifier": "item.record_otherside.desc",
         "source_string": "Lena Raine - otherside",
-        "translation": "Lena Raine - Otherside",
+        "translation": "Lena Raine - otherside",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41770,7 +41770,7 @@
     {
         "identifier": "item.record_creator.desc",
         "source_string": "Lena Raine - Creator",
-        "translation": "Lena Raine: creadora",
+        "translation": "Lena Raine - Creator",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41778,7 +41778,7 @@
     {
         "identifier": "item.record_creator_music_box.desc",
         "source_string": "Lena Raine - Creator (Music Box)",
-        "translation": "Lena Raine: creadora (caja de música)",
+        "translation": "Lena Raine - Creator (Music Box)",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -41786,7 +41786,7 @@
     {
         "identifier": "item.record_precipice.desc",
         "source_string": "Aaron Cherof - Precipice",
-        "translation": "Aaron Cherof: precipicio",
+        "translation": "Aaron Cherof - Precipice",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -46466,7 +46466,7 @@
     {
         "identifier": "menu.behaviors",
         "source_string": "Behavior Packs",
-        "translation": "Packs de comportamientos",
+        "translation": "Paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -46978,7 +46978,7 @@
     {
         "identifier": "npcscreen.action.url.placeholder",
         "source_string": "Type URL Here...",
-        "translation": "Escribe aquí la URL...",
+        "translation": "Escribe aquí el LRU...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47026,7 +47026,7 @@
     {
         "identifier": "npcscreen.addurl",
         "source_string": "Add URL",
-        "translation": "Añadir URL",
+        "translation": "Añadir LRU",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47154,7 +47154,7 @@
     {
         "identifier": "npcUri.launch.failure",
         "source_string": "Unable to open the NPC Link. This doesn't look like a supported URL.",
-        "translation": "No se ha podido abrir el enlace del NPC. Parece que la URL no es compatible.",
+        "translation": "No se ha podido abrir el enlace del PNJ. Parece que la LRU no es compatible.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -47170,7 +47170,7 @@
     {
         "identifier": "offer.category.resourcepack",
         "source_string": "Texture Packs",
-        "translation": "Packs de texturas",
+        "translation": "Paquetes de texturas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -57578,7 +57578,7 @@
     {
         "identifier": "progressScreen.title.applyingPacks",
         "source_string": "Loading resource packs",
-        "translation": "Cargando packs de recursos",
+        "translation": "Cargando paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58138,7 +58138,7 @@
     {
         "identifier": "progressScreen.dialog.title.resourcePack",
         "source_string": "Download Resource Packs?",
-        "translation": "¿Quieres descargar los packs de recursos?",
+        "translation": "¿Quieres descargar los paquetes de recursos?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58594,7 +58594,7 @@
     {
         "identifier": "resourcePack.available.title.behaviorPacks",
         "source_string": "Available Behavior Packs",
-        "translation": "Packs de comportamientos disponibles",
+        "translation": "Paquetes de comportamientos disponibles",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58602,7 +58602,7 @@
     {
         "identifier": "resourcePack.available.title.packs",
         "source_string": "My Packs",
-        "translation": "Mis packs",
+        "translation": "Mis paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58618,7 +58618,7 @@
     {
         "identifier": "resourcePack.available.none.text",
         "source_string": "You have no resource packs",
-        "translation": "No tienes ningún pack de recursos",
+        "translation": "No tienes paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58626,7 +58626,7 @@
     {
         "identifier": "resourcePack.available.none.behavior",
         "source_string": "You have no behavior packs",
-        "translation": "No tienes ningún pack de comportamiento",
+        "translation": "No tienes paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58634,7 +58634,7 @@
     {
         "identifier": "resourcePack.available.none.store",
         "source_string": "View Marketplace",
-        "translation": "Ver Marketplace",
+        "translation": "Ver Mercado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58666,7 +58666,7 @@
     {
         "identifier": "resourcePack.message.warning",
         "source_string": "A pack has warnings that might cause odd behavior",
-        "translation": "Un pack tiene advertencias que pueden causar un comportamiento extraño",
+        "translation": "Un paquete tiene advertencias que pueden causar un comportamiento extraño",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58674,7 +58674,7 @@
     {
         "identifier": "resourcePack.suggestedContent.title",
         "source_string": "Get More Packs",
-        "translation": "Obtener más packs",
+        "translation": "Obtener más paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58682,7 +58682,7 @@
     {
         "identifier": "resourcePack.suggestedContent.button.viewMore",
         "source_string": "View More Packs",
-        "translation": "Ver más packs",
+        "translation": "Ver más paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58714,7 +58714,7 @@
     {
         "identifier": "resourcePack.selected.title",
         "source_string": "Selected Resource Packs",
-        "translation": "Packs de recursos seleccionados",
+        "translation": "Paquetes de recursos seleccionados",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58722,7 +58722,7 @@
     {
         "identifier": "resourcePack.selected.title.behaviorPacks",
         "source_string": "Active Behavior Packs",
-        "translation": "Packs de comportamientos activos",
+        "translation": "Paquetes de comportamientos activos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58778,7 +58778,7 @@
     {
         "identifier": "resourcePack.error.ingame.packs",
         "source_string": "You cannot change Resource Packs while playing in a world.",
-        "translation": "No puedes cambiar los packs de recursos mientras juegas en un mundo.",
+        "translation": "No puedes cambiar los paquetes de recursos mientras juegas en un mundo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -58786,7 +58786,7 @@
     {
         "identifier": "resourcePack.error.ingame.behaviorPacks",
         "source_string": "You cannot change Behavior Packs while playing in a world.",
-        "translation": "No puedes cambiar los packs de comportamientos mientras juegas en un mundo.",
+        "translation": "No puedes cambiar los paquetes de comportamientos mientras juegas en un mundo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59594,7 +59594,7 @@
     {
         "identifier": "storageManager.contentType.behaviorPack",
         "source_string": "Behavior Pack",
-        "translation": "Pack de comportamientos",
+        "translation": "Paquete de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -59658,7 +59658,7 @@
     {
         "identifier": "storageManager.contentType.behaviorPacks",
         "source_string": "Behavior Packs",
-        "translation": "Packs de comportamientos",
+        "translation": "Paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60410,7 +60410,7 @@
     {
         "identifier": "container.smithing_table.input_slot_tooltip_netherite",
         "source_string": "Add Diamond armor, weapon, or tool",
-        "translation": "Añadir armadura, arma o herramienta de diamante",
+        "translation": "Añade una armadura, arma o herramienta de diamante",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60970,7 +60970,7 @@
     {
         "identifier": "item.netherite_upgrade_smithing_template.name",
         "source_string": "Netherite Upgrade",
-        "translation": "Mejora de inframundita",
+        "translation": "Mejora de netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -61546,7 +61546,7 @@
     {
         "identifier": "trim_material.resin.name",
         "source_string": "Resin Material",
-        "translation": "Material de resina",
+        "translation": "Incrustaciones de resina",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62746,7 +62746,7 @@
     {
         "identifier": "selectWorld.convertInProgress.download_msg",
         "source_string": "Downloading Resource Packs... %d%%",
-        "translation": "Descargando packs de recursos... %d%%",
+        "translation": "Descargando paquetes de recursos... %d%%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62754,7 +62754,7 @@
     {
         "identifier": "selectWorld.convertInProgress.import_msg",
         "source_string": "Importing Resource Packs... %d%%",
-        "translation": "Importando packs de recursos... %d%%",
+        "translation": "Importando paquetes de recursos... %d%%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -68026,7 +68026,7 @@
     {
         "identifier": "store.resource.create",
         "source_string": "Manage your Resource Packs",
-        "translation": "Administra tus packs de recursos",
+        "translation": "Administra tus paquetes de recursos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -81594,7 +81594,7 @@
     {
         "identifier": "tips.edu.11",
         "source_string": "NPC stands for Non-Player Character.",
-        "translation": "PNJ (o NPC) significa personaje no jugable.",
+        "translation": "PNJ significa personaje no jugador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -81698,7 +81698,7 @@
     {
         "identifier": "tips.edu.24",
         "source_string": "To add or change an NPC in your world, first make yourself a world builder with \"/wb\".",
-        "translation": "Para añadir o cambiar un NPC en tu mundo, primero hazte creador de mundos con \"/wb\".",
+        "translation": "Para añadir o cambiar un PNJ en tu mundo, primero hazte creador de mundos con \"/wb\".",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -87386,7 +87386,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
         "source_string": "A behavior pack is activated",
-        "translation": "Hay un pack de comportamiento activado",
+        "translation": "Hay un paquete de comportamientos activado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -87666,7 +87666,7 @@
     {
         "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
         "source_string": "A behavior pack is activated",
-        "translation": "Hay un pack de comportamiento activado",
+        "translation": "Hay un paquete de comportamientos activado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -92346,7 +92346,7 @@
     {
         "identifier": "hbui.CreateNewWorld.achievementsDisabledMessages.behaviorPacks",
         "source_string": "Disable all behavior packs",
-        "translation": "Deshabilitar todos los packs de comportamientos",
+        "translation": "Deshabilitar todos los paquetes de comportamientos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -92986,7 +92986,7 @@
     {
         "identifier": "hbui.CreateNewWorld.behaviorPacks.activatedAllPacksMessageTitle",
         "source_string": "You’ve activated all packs",
-        "translation": "Has activado todos los packs",
+        "translation": "Has activado todos los paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -93010,7 +93010,7 @@
     {
         "identifier": "hbui.CreateNewWorld.behaviorPacks.emptyLocalActivePacksMessageTitle",
         "source_string": "No active behavior packs",
-        "translation": "No hay packs de comportamientos activos",
+        "translation": "No hay paquetes de comportamientos activos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -95162,7 +95162,7 @@
     {
         "identifier": "hbui.CreateNewWorld.resourcePacks.emptyLocalActivePacksMessageTitle",
         "source_string": "No active resource packs",
-        "translation": "No hay ningún pack de recursos activo",
+        "translation": "No hay paquetes de recursos activos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -109202,7 +109202,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.FirstCraftedNetherite",
         "source_string": "%1$s upgraded to Netherite",
-        "translation": "Se ha mejorado %1$s",
+        "translation": "Se ha mejorado %1$s a netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -109210,7 +109210,7 @@
     {
         "identifier": "hbui.RealmsStories.feedEvent.medium.FirstCraftedNetherite.grouped",
         "source_string": "%1$s upgraded to Netherite",
-        "translation": "Se ha mejorado %1$s",
+        "translation": "Se ha mejorado %1$s a netherita",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -115906,7 +115906,7 @@
     {
         "identifier": "hbui.WorldItem.MultiplayerDisabledDueToBanModal.body",
         "source_string": "You can still play on this world, but multiplayer features are disabled.",
-        "translation": "Puedes jugar en este mundo, pero las funciones multijugador están desactivadas.",
+        "translation": "Todavía puedes jugar en este mundo, pero las funciones multijugadores están desactivadas.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -123266,7 +123266,7 @@
     {
         "identifier": "tile.element.unknown.name",
         "source_string": "???",
-        "translation": "???",
+        "translation": "¿¿??",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -125802,7 +125802,7 @@
     {
         "identifier": "howtoplay.resourceAndBehaviorPacks",
         "source_string": "Resource And Behavior Packs",
-        "translation": "Packs de recursos y comportamientos\t#",
+        "translation": "Paquetes de recursos y comportamientos",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -126890,7 +126890,7 @@
     {
         "identifier": "store.timer.hoursAbbreviated",
         "source_string": "%shr",
-        "translation": "%shr",
+        "translation": "%sh",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -126898,7 +126898,7 @@
     {
         "identifier": "store.timer.minutesAbbreviated",
         "source_string": "%smin",
-        "translation": "%smin",
+        "translation": "%sm",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -126906,7 +126906,7 @@
     {
         "identifier": "store.timer.secondsAbbreviated",
         "source_string": "%ssec",
-        "translation": "%ssec",
+        "translation": "%ss",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -128466,7 +128466,7 @@
     {
         "identifier": "howtoplay.npc.text.5",
         "source_string": "NPCs can also launch external URLs or execute commands automatically on closing their dialog box, or by assigning actions to buttons for players to interact with. All automatic commands (and URLs) are executed in the order they are added to the NPC.",
-        "translation": "Los PNJ pueden abrir URL externas o ejecutar comandos de forma automática al cerrar su ventana de diálogo o al asignar botones de acción para que los jugadores interactúen. Todos los comandos automáticos (y URL) se ejecutan en el orden en el que han sido añadidos.",
+        "translation": "Los PNJ pueden abrir LRU externas o ejecutar comandos de forma automática al cerrar su ventana de diálogo o al asignar botones de acción para que los jugadores interactúen. Todos los comandos automáticos (y las LRU) se ejecutan en el orden en el que han sido añadidos.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -130898,7 +130898,7 @@
     {
         "identifier": "tips.game.58",
         "source_string": "Shear a Beehive or nest to get Honeycomb, use a Bottle to get honey",
-        "translation": "Trasquila una colmena o un nido para conseguir un panal. Usa una botella para obtener miel.\t#",
+        "translation": "Trasquila una colmena o un nido para conseguir un panal. Usa una botella para obtener miel.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -130906,7 +130906,7 @@
     {
         "identifier": "tips.game.59",
         "source_string": "Place a Campfire under a Beehive or nest to harvest honey peacefully. Your bees will thank you.",
-        "translation": "Coloca una fogata debajo de una colmena o un nido para obtener miel pacíficamente. Tus abejas te lo agradecerán.\t#",
+        "translation": "Coloca una fogata debajo de una colmena o un nido para obtener miel pacíficamente. Tus abejas te lo agradecerán.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -133514,7 +133514,7 @@
     {
         "identifier": "hbui.CreateNewWorld.resourcePacks.realmsPlusPacksEmptyTitle",
         "source_string": "No more available resource packs",
-        "translation": "No hay disponibles más packs de recursos\t#",
+        "translation": "No hay disponibles más paquetes de recursos",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -134690,7 +134690,7 @@
     {
         "identifier": "upgrade.netherite_upgrade.name",
         "source_string": "Netherite Upgrade",
-        "translation": "Mejora de inframundita\t#",
+        "translation": "Mejora de netherita",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -147866,7 +147866,7 @@
     {
         "identifier": "item.record_tears.desc",
         "source_string": "Amos Roddy - Tears",
-        "translation": "Amos Roddy: Tears",
+        "translation": "Amos Roddy: - Tears",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -148434,7 +148434,7 @@
     {
         "identifier": "item.record_lava_chicken.desc",
         "source_string": "Hyper Potions - Lava Chicken",
-        "translation": "Pociones de hiper - Pollo de lava",
+        "translation": "Hyper Potions - Lava Chicken",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -157306,7 +157306,7 @@
     {
         "identifier": "item.netherite_spear.name",
         "source_string": "Netherite Spear",
-        "translation": "Lanza de inframundita",
+        "translation": "Lanza de netherita",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -157378,7 +157378,7 @@
     {
         "identifier": "item.netherite_nautilus_armor.name",
         "source_string": "Netherite Nautilus Armor",
-        "translation": "Armadura de nautilo de netherita",
+        "translation": "Armadura de netherita para nautilo",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162618,7 +162618,7 @@
     {
         "identifier": "subtitles.entity.breeze.charge",
         "source_string": "Breeze charges",
-        "translation": "Breeze carga",
+        "translation": "Brisa carga",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162626,7 +162626,7 @@
     {
         "identifier": "subtitles.entity.breeze.death",
         "source_string": "Breeze dies",
-        "translation": "Breeze muere",
+        "translation": "Brisa muere",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162634,7 +162634,7 @@
     {
         "identifier": "subtitles.entity.breeze.deflect",
         "source_string": "Breeze deflects",
-        "translation": "Breeze desvía",
+        "translation": "Brisa desvía",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162642,7 +162642,7 @@
     {
         "identifier": "subtitles.entity.breeze.hurt",
         "source_string": "Breeze hurts",
-        "translation": "Breeze herido",
+        "translation": "Brisa herido",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162650,7 +162650,7 @@
     {
         "identifier": "subtitles.entity.breeze.idle_air",
         "source_string": "Breeze flies",
-        "translation": "Breeze vuela",
+        "translation": "Brisa vuela",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162658,7 +162658,7 @@
     {
         "identifier": "subtitles.entity.breeze.idle_ground",
         "source_string": "Breeze whirs",
-        "translation": "Breeze zumba",
+        "translation": "Brisa zumba",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162666,7 +162666,7 @@
     {
         "identifier": "subtitles.entity.breeze.inhale",
         "source_string": "Breeze inhales",
-        "translation": "Breeze inhala",
+        "translation": "Brisa inhala",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162674,7 +162674,7 @@
     {
         "identifier": "subtitles.entity.breeze.jump",
         "source_string": "Breeze jumps",
-        "translation": "Breeze salta",
+        "translation": "Brisa salta",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162682,7 +162682,7 @@
     {
         "identifier": "subtitles.entity.breeze.land",
         "source_string": "Breeze lands",
-        "translation": "Breeze aterriza",
+        "translation": "Brisa aterriza",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162690,7 +162690,7 @@
     {
         "identifier": "subtitles.entity.breeze.shoot",
         "source_string": "Breeze shoots",
-        "translation": "Breeze dispara",
+        "translation": "Brisa dispara",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162698,7 +162698,7 @@
     {
         "identifier": "subtitles.entity.breeze.slide",
         "source_string": "Breeze slides",
-        "translation": "Breeze se desliza",
+        "translation": "Brisa se desliza",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -162706,7 +162706,7 @@
     {
         "identifier": "subtitles.entity.breeze.whirl",
         "source_string": "Breeze whirls",
-        "translation": "Breeze ulula",
+        "translation": "Brisa ulula",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -165146,7 +165146,7 @@
     {
         "identifier": "subtitles.entity.parrot.imitate.breeze",
         "source_string": "Parrot whirs",
-        "translation": "Loro imita a un breeze",
+        "translation": "Loro imita a una brisa",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -175426,7 +175426,7 @@
     {
         "identifier": "item.record_bounce.desc",
         "source_string": "fingerspit - Bounce",
-        "translation": "escupita de los dedos - Rebotar",
+        "translation": "fingerspit - Bounce",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
