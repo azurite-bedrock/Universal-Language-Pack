@@ -4984,9 +4984,633 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.closeInputLegend",
+        "source_string": "Close",
+        "translation": "ਬੰਦ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "ਅਕਾਰਡੀਅਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Accordion.openInputLegend",
         "source_string": "Open",
         "translation": "ਖੋਲੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "ਸੁੰਗੜਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "ਫੈਲਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.cancelButton",
+        "source_string": "Cancel",
+        "translation": "ਰੱਦ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "ਠੀਕ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "ਤੁਹਾਡੇ ਖਾਤਿਆਂ ਨੂੰ ਅਣਲਿੰਕ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਸ਼ਾਇਦ ਆਪਣਾ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਚੈੱਕ ਕਰੋ?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "ਕੁਝ ਗ਼ਲਤ ਹੋ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "ਕੀ ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "ਖਾਤੇ ਅਣਲਿੰਕ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successBody",
+        "source_string": "Your accounts have been unlinked",
+        "translation": "ਤੁਹਾਡੇ ਖਾਤੇ ਅਣਲਿੰਕ ਕਰ ਦਿੱਤੇ ਗਏ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successHeader",
+        "source_string": "Unlink successful",
+        "translation": "ਅਣਲਿੰਕ ਸਫਲ ਰਿਹਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkButton",
+        "source_string": "Unlink",
+        "translation": "ਅਣਲਿੰਕ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine1",
+        "source_string": "Account unlink warning",
+        "translation": "ਖਾਤਾ ਅਣਲਿੰਕ ਚੇਤਾਵਨੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine2",
+        "source_string": "Account unlink details",
+        "translation": "ਖਾਤਾ ਅਣਲਿੰਕ ਵੇਰਵੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
+        "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
+        "translation": "ਜੇ ਤੁਸੀਂ ਉਪਰੋਕਤ ਗੱਲ ਸਮਝ ਲਈ ਹੈ ਅਤੇ ਫਿਰ ਵੀ ਆਪਣਾ ਖਾਤਾ ਅਣਲਿੰਕ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਹੇਠਾਂ \"ਅਣਲਿੰਕ ਕਰੋ\" ਚੁਣੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.anotherPlatform",
+        "source_string": "Completed on another platform",
+        "translation": "ਕਿਸੇ ਹੋਰ ਪਲੇਟਫਾਰਮ 'ਤੇ ਪੂਰਾ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.completed",
+        "source_string": "Completed",
+        "translation": "ਪੂਰਾ ਹੋਇਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "ਗੇਮਰਸਕੋਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.locked",
+        "source_string": "Locked",
+        "translation": "ਲਾਕ ਕੀਤਾ ਹੋਇਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.yes",
+        "source_string": "Yes",
+        "translation": "ਹਾਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.errorMessage",
+        "source_string": "Achievement couldn’t load. Please try again or check your internet connection.",
+        "translation": "ਪ੍ਰਾਪਤੀ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਆਪਣਾ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.completed",
+        "source_string": "completed",
+        "translation": "ਪੂਰਾ ਹੋਇਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.gamerscore",
+        "source_string": "gamerscore",
+        "translation": "ਗੇਮਰਸਕੋਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.locked",
+        "source_string": "locked",
+        "translation": "ਲਾਕ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.percentage",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.progress",
+        "source_string": "progress",
+        "translation": "ਪ੍ਰਗਤੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "ਇਨਾਮ ਲਾਕ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "ਇਨਾਮ ਅਨਲਾਕ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.title",
+        "source_string": "Achievement details",
+        "translation": "ਪ੍ਰਾਪਤੀ ਵੇਰਵੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.reward",
+        "source_string": "Reward",
+        "translation": "ਇਨਾਮ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.title",
+        "source_string": "Achievement Details",
+        "translation": "ਪ੍ਰਾਪਤੀ ਵੇਰਵੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.titleNarration",
+        "source_string": "Achievement Details Screen",
+        "translation": "ਪ੍ਰਾਪਤੀ ਵੇਰਵੇ ਸਕ੍ਰੀਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.viewReward",
+        "source_string": "View reward",
+        "translation": "ਇਨਾਮ ਦੇਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
+        "source_string": "A behavior pack is activated",
+        "translation": "ਇੱਕ ਬਿਹੇਵੀਅਰ ਪੈਕ ਸਰਗਰਮ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
+        "source_string": "Cheats are enabled",
+        "translation": "ਚੀਟ ਚਾਲੂ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.closeButton",
+        "source_string": "Close",
+        "translation": "ਬੰਦ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "ਫੇਰ ਵੀ ਬਣਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
+        "source_string": "Continue anyway",
+        "translation": "ਫੇਰ ਵੀ ਜਾਰੀ ਰੱਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.creativeMode",
+        "source_string": "The world is created in creative mode",
+        "translation": "ਦੁਨੀਆ ਕ੍ਰਿਏਟਿਵ ਮੋਡ ਵਿੱਚ ਬਣਾਈ ਗਈ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "ਬੀਟਾ ਫੀਚਰ ਚਾਲੂ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "ਹੇਠ ਲਿਖੇ ਕਿਸੇ ਵੀ ਫੀਚਰ ਨਾਲ ਦੁਨੀਆ ਬਣਾਉਣ ਦਾ ਮਤਲਬ ਹੋਵੇਗਾ ਕਿ ਤੁਸੀਂ ਇਸ ਦੁਨੀਆ ਵਿੱਚ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕਰ ਸਕੋਗੇ। ਬਾਅਦ ਵਿੱਚ ਇਹਨਾਂ ਵਿਕਲਪਾਂ ਨੂੰ ਬੰਦ ਕਰ ਦੇਣ ਤੋਂ ਵੀ, ਤੁਹਾਨੂੰ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਕਰਨ ਲਈ ਕਿਸੇ ਹੋਰ ਦੁਨੀਆ ਵਿੱਚ ਜਾਣਾ ਪਵੇਗਾ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "ਹੇਠ ਲਿਖੇ ਫੀਚਰ ਨਾਲ ਦੁਨੀਆ ਬਣਾਉਣ ਦਾ ਮਤਲਬ ਹੋਵੇਗਾ ਕਿ ਤੁਸੀਂ ਉਸ ਦੁਨੀਆ ਵਿੱਚ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕਰ ਸਕੋਗੇ। ਬਾਅਦ ਵਿੱਚ ਇਸ ਵਿਕਲਪ ਨੂੰ ਬੰਦ ਕਰ ਦੇਣ ਤੋਂ ਵੀ, ਤੁਹਾਨੂੰ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਕਰਨ ਲਈ ਕਿਸੇ ਹੋਰ ਦੁਨੀਆ ਵਿੱਚ ਜਾਣਾ ਪਵੇਗਾ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "ਇਸ ਦੁਨੀਆ ਨੂੰ ਜਿਵੇਂ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ, ਉਸ ਕਾਰਨ ਤੁਸੀਂ ਇਸ ਵਿੱਚ ਖੇਡਦੇ ਹੋਏ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕਰ ਸਕੋਗੇ। ਹੁਣ ਦੁਨੀਆ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਬਦਲ ਕੇ ਵੀ ਇਹ ਨਹੀਂ ਬਦਲੇਗਾ। ਤੁਹਾਨੂੰ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਕਰਨ ਲਈ ਕਿਸੇ ਹੋਰ ਦੁਨੀਆ ਵਿੱਚ ਜਾਣਾ ਪਵੇਗਾ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "ਦੁਨੀਆ ਫਲੈਟ ਦੁਨੀਆ ਵਜੋਂ ਬਣਾਈ ਗਈ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "ਪਿਛਾਂਹ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "ਦੁਨੀਆ ਬਣਾਉਣ ਵਾਲੇ ਕੋਲ ਓਪਰੇਟਰ ਅਧਿਕਾਰ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "ਇਸ ਦੁਨੀਆ ਵਿੱਚ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ ਜੇ:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "ਦੁਨੀਆ ਟੈਂਪਲੇਟ ਤੋਂ ਬਣਾਈ ਗਈ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "ਤੁਸੀਂ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕਰ ਸਕਦੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "ਦੁਨੀਆ ਬਣਾਉਣ ਵਾਲਾ Minecraft ਦਾ ਟ੍ਰਾਇਲ ਵਰਜਨ ਵਰਤ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.completed",
+        "source_string": "Completed",
+        "translation": "ਪੂਰਾ ਹੋਇਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.gamerscoreNarration",
+        "source_string": "gamerscore %1$s",
+        "translation": "ਗੇਮਰਸਕੋਰ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.groupNarration",
+        "source_string": "Group %1$s of %2$s",
+        "translation": "ਗਰੁੱਪ %2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.inProgress",
+        "source_string": "In progress",
+        "translation": "ਜਾਰੀ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.locked",
+        "source_string": "Locked",
+        "translation": "ਲਾਕ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationCompleted",
+        "source_string": "%1$s of %2$s, unlocked, %3$s gamerscore",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s, ਅਨਲਾਕ ਕੀਤਾ, %3$s ਗੇਮਰਸਕੋਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationLocked",
+        "source_string": "%1$s of %2$s, locked, %3$s gamerscore",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s, ਲਾਕ ਕੀਤਾ, %3$s ਗੇਮਰਸਕੋਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.percentageNarration",
+        "source_string": "progress of %1$s percent",
+        "translation": "%1$s ਫੀਸਦੀ ਦੀ ਪ੍ਰਗਤੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardLockedNarration",
+        "source_string": "Reward locked",
+        "translation": "ਇਨਾਮ ਲਾਕ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardUnlockedNarration",
+        "source_string": "Reward unlocked",
+        "translation": "ਇਨਾਮ ਅਨਲਾਕ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.siblingNarration",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "ਬਟਨ %2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.view",
+        "source_string": "View details",
+        "translation": "ਵੇਰਵੇ ਦੇਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.cheats",
+        "source_string": "Cheats are enabled",
+        "translation": "ਚੀਟ ਚਾਲੂ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.close",
+        "source_string": "Close",
+        "translation": "ਬੰਦ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.creative",
+        "source_string": "The world is created in creative mode",
+        "translation": "ਦੁਨੀਆ ਕ੍ਰਿਏਟਿਵ ਮੋਡ ਵਿੱਚ ਬਣਾਈ ਗਈ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.description",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "ਇਸ ਦੁਨੀਆ ਨੂੰ ਜਿਵੇਂ ਸੈੱਟ ਕੀਤਾ ਗਿਆ ਹੈ, ਉਸ ਕਾਰਨ ਤੁਸੀਂ ਇਸ ਵਿੱਚ ਖੇਡਦੇ ਹੋਏ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕਰ ਸਕੋਗੇ। ਹੁਣ ਦੁਨੀਆ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਬਦਲ ਕੇ ਵੀ ਇਹ ਨਹੀਂ ਬਦਲੇਗਾ। ਤੁਹਾਨੂੰ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਕਰਨ ਲਈ ਕਿਸੇ ਹੋਰ ਦੁਨੀਆ ਵਿੱਚ ਜਾਣਾ ਪਵੇਗਾ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "ਬੀਟਾ ਫੀਚਰ ਚਾਲੂ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.flat",
+        "source_string": "The world is created as a flatworld",
+        "translation": "ਦੁਨੀਆ ਫਲੈਟ ਦੁਨੀਆ ਵਜੋਂ ਬਣਾਈ ਗਈ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
+        "source_string": "A behavior pack is activated",
+        "translation": "ਇੱਕ ਬਿਹੇਵੀਅਰ ਪੈਕ ਸਰਗਰਮ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.permissions",
+        "source_string": "The world creator has operator privileges",
+        "translation": "ਦੁਨੀਆ ਬਣਾਉਣ ਵਾਲੇ ਕੋਲ ਓਪਰੇਟਰ ਅਧਿਕਾਰ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.reasonText",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "ਇਸ ਦੁਨੀਆ ਵਿੱਚ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾ ਸਕਦੀਆਂ ਜੇ:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "ਦੁਨੀਆ ਟੈਂਪਲੇਟ ਤੋਂ ਬਣਾਈ ਗਈ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "ਤੁਸੀਂ ਪ੍ਰਾਪਤੀਆਂ ਹਾਸਲ ਨਹੀਂ ਕਰ ਸਕਦੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "ਦੁਨੀਆ ਬਣਾਉਣ ਵਾਲਾ Minecraft ਦਾ ਟ੍ਰਾਇਲ ਵਰਜਨ ਵਰਤ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "ਇਨਾਮ ਲਾਕ ਕੀਤਾ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5336,9 +5960,633 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.errorPackReading",
+        "source_string": "Reading error",
+        "translation": "ਪੜ੍ਹਨ ਵਿੱਚ ਗ਼ਲਤੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.errorPackUnsupportedFormat",
+        "source_string": "Unsupported format",
+        "translation": "ਗ਼ੈਰ-ਸਮਰਥਿਤ ਫਾਰਮੈਟ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.expandDescriptionInputLegend",
+        "source_string": "Expand",
+        "translation": "ਫੈਲਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationAccordion",
+        "source_string": "Accordion",
+        "translation": "ਅਕਾਰਡੀਅਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationActivateButton",
+        "source_string": "Activate pack. Button",
+        "translation": "ਪੈਕ ਨੂੰ ਸਰਗਰਮ ਕਰੋ। ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationButton",
+        "source_string": "Button",
+        "translation": "ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationCollapsed",
+        "source_string": "Collapsed",
+        "translation": "ਸੁੰਗੜਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationComponentType",
+        "source_string": "List item",
+        "translation": "ਸੂਚੀ ਆਈਟਮ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationDeactivatedState",
+        "source_string": "Deactivated",
+        "translation": "ਨਿਸ਼ਕਿਰਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationDetailsButton",
+        "source_string": "Pack details. Button",
+        "translation": "ਪੈਕ ਵੇਰਵੇ। ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpanded",
+        "source_string": "Expanded",
+        "translation": "ਫੈਲਾਇਆ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandedHint",
+        "source_string": "Navigate down for pack description",
+        "translation": "ਪੈਕ ਵੇਰਵੇ ਲਈ ਹੇਠਾਂ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHint",
+        "source_string": "Expand to access the pack description or use right arrow for additional actions",
+        "translation": "ਪੈਕ ਵੇਰਵਾ ਦੇਖਣ ਲਈ ਫੈਲਾਓ ਜਾਂ ਹੋਰ ਕਾਰਵਾਈਆਂ ਲਈ ਸੱਜੇ ਤੀਰ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHintNoButtons",
+        "source_string": "Expand for more information",
+        "translation": "ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਫੈਲਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationListLengthContext",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationMultiplePacksHint",
+        "source_string": "If multiple packs make changes to the same asset, the changes from the highest-ranked pack will be applied.",
+        "translation": "ਜੇ ਕਈ ਪੈਕ ਇੱਕੋ ਐਸੈਟ ਵਿੱਚ ਬਦਲਾਅ ਕਰਦੇ ਹਨ, ਤਾਂ ਸਭ ਤੋਂ ਉੱਚੇ ਦਰਜੇ ਵਾਲੇ ਪੈਕ ਦੇ ਬਦਲਾਅ ਲਾਗੂ ਹੋਣਗੇ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackDescription",
+        "source_string": "Pack description",
+        "translation": "ਪੈਕ ਵੇਰਵਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackRank",
+        "source_string": "Rank %1$s",
+        "translation": "ਦਰਜਾ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationRemoveButton",
+        "source_string": "Remove pack. Button",
+        "translation": "ਪੈਕ ਹਟਾਓ। ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderComplete",
+        "source_string": "Pack is now rank %1$s",
+        "translation": "ਪੈਕ ਦਾ ਦਰਜਾ ਹੁਣ %1$s ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadChangeConfirmation",
+        "source_string": "Rank %1$s. Select to confirm new rank.",
+        "translation": "ਰੈਂਕ %1$s। ਨਵੇਂ ਰੈਂਕ ਦੀ ਪੁਸ਼ਟੀ ਲਈ ਚੁਣੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadDraggingHint",
+        "source_string": "Use up or down keys to reorder pack",
+        "translation": "ਪੈਕ ਨੂੰ ਮੁੜ-ਕ੍ਰਮਬੱਧ ਕਰਨ ਲਈ ਉੱਪਰ ਜਾਂ ਹੇਠਾਂ ਕੀਆਂ ਵਰਤੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadHint",
+        "source_string": "Select to reorder pack",
+        "translation": "ਪੈਕ ਨੂੰ ਮੁੜ-ਕ੍ਰਮਬੱਧ ਕਰਨ ਲਈ ਚੁਣੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPack",
+        "source_string": "Reorder pack",
+        "translation": "ਪੈਕ ਮੁੜ-ਕ੍ਰਮਬੱਧ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerChangeConfirmation",
+        "source_string": "Rank %1$s. Release to confirm new rank",
+        "translation": "ਰੈਂਕ %1$s। ਨਵੇਂ ਰੈਂਕ ਦੀ ਪੁਸ਼ਟੀ ਲਈ ਛੱਡੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerDraggingHint",
+        "source_string": "Drag up or down to reorder pack. Release to accept new rank",
+        "translation": "ਪੈਕ ਨੂੰ ਮੁੜ-ਕ੍ਰਮਬੱਧ ਕਰਨ ਲਈ ਉੱਪਰ ਜਾਂ ਹੇਠਾਂ ਖਿੱਚੋ। ਨਵਾਂ ਰੈਂਕ ਮਨਜ਼ੂਰ ਕਰਨ ਲਈ ਛੱਡੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerHint",
+        "source_string": "Click and drag up or down to reorder pack",
+        "translation": "ਪੈਕ ਨੂੰ ਮੁੜ-ਕ੍ਰਮਬੱਧ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ ਅਤੇ ਉੱਪਰ ਜਾਂ ਹੇਠਾਂ ਖਿੱਚੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationSettingsButton",
+        "source_string": "Pack settings. Button",
+        "translation": "ਪੈਕ ਸੈਟਿੰਗਾਂ। ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationValidateButton",
+        "source_string": "Validate pack. Button",
+        "translation": "ਪੈਕ ਪ੍ਰਮਾਣਿਤ ਕਰੋ। ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.removeButtonText",
+        "source_string": "Remove",
+        "translation": "ਹਟਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.settingsButtonText",
+        "source_string": "Settings",
+        "translation": "ਸੈਟਿੰਗਾਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.validateButtonText",
+        "source_string": "Validate",
+        "translation": "ਪ੍ਰਮਾਣਿਤ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PacksLoadingModal.title",
+        "source_string": "Downloading...",
+        "translation": "ਡਾਊਨਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.activeTabButtonLabel",
+        "source_string": "Active",
+        "translation": "ਕਿਰਿਆਸ਼ੀਲ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.availableTabButtonLabel",
+        "source_string": "Available",
+        "translation": "ਉਪਲਬਧ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, ਟੈਬ %2$s/%3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyInviteListGroup.titleWithLength",
+        "source_string": "%1$s (%2$s)",
+        "translation": "%1$s (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.createParty",
+        "source_string": "Create Party",
+        "translation": "ਪਾਰਟੀ ਬਣਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.invited",
+        "source_string": "Invited",
+        "translation": "ਸੱਦਿਆ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.inviteOnlyParty",
+        "source_string": "Invite only party",
+        "translation": "ਸਿਰਫ਼ ਸੱਦੇ ਨਾਲ ਪਾਰਟੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.joinableParties",
+        "source_string": "Joinable parties",
+        "translation": "ਸ਼ਾਮਲ ਹੋਣ ਯੋਗ ਪਾਰਟੀਆਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.openParty",
+        "source_string": "Open party",
+        "translation": "ਖੁੱਲ੍ਹੀ ਪਾਰਟੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.optionsForPlayer",
+        "source_string": "Options for %1$s",
+        "translation": "ਖਿਡਾਰੀ %1$s ਲਈ ਵਿਕਲਪ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.addFriend",
+        "source_string": "Add friend",
+        "translation": "ਦੋਸਤ ਸ਼ਾਮਲ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.mute",
+        "source_string": "Mute",
+        "translation": "ਮਿਊਟ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.optionsEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.promoteToLeader",
+        "source_string": "Promote to leader",
+        "translation": "ਲੀਡਰ ਬਣਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.removeFromParty",
+        "source_string": "Remove from party",
+        "translation": "ਪਾਰਟੀ ਵਿੱਚੋਂ ਹਟਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.sendMessage",
+        "source_string": "Send message",
+        "translation": "ਸੁਨੇਹਾ ਭੇਜੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.receivedInvites",
+        "source_string": "Received invites",
+        "translation": "ਪ੍ਰਾਪਤ ਹੋਏ ਸੱਦੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Patchnote.narration.textBlockRole",
+        "source_string": "TextBlock",
+        "translation": "ਟੈਕਸਟ ਬਲਾਕ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.backButton",
+        "source_string": "Back",
+        "translation": "ਪਿੱਛੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.closeButtonNarrationHint",
+        "source_string": "Navigate down for more options",
+        "translation": "ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਹੇਠਾਂ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateBody",
+        "source_string": "We're still working on this feature. Check back soon!",
+        "translation": "ਅਸੀਂ ਇਸ ਫੀਚਰ 'ਤੇ ਅਜੇ ਕੰਮ ਕਰ ਰਹੇ ਹਾਂ। ਛੇਤੀ ਹੀ ਦੇਖੋ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PeopleTab.emptyStateButtonInputLegend",
         "source_string": "Select",
         "translation": "ਚੁਣੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateButtonLabel",
+        "source_string": "Go back to old UI",
+        "translation": "ਪੁਰਾਣੇ UI 'ਤੇ ਵਾਪਸ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateTitle",
+        "source_string": "Under Construction",
+        "translation": "ਨਿਰਮਾਣ ਅਧੀਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.friendsDrawerName",
+        "source_string": "Friends Drawer",
+        "translation": "ਦੋਸਤ ਦਰਾਜ਼",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.noInternetMessage",
+        "source_string": "Please check your internet connection to see your friends.",
+        "translation": "ਆਪਣੇ ਦੋਸਤਾਂ ਨੂੰ ਦੇਖਣ ਲਈ ਆਪਣਾ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.button",
+        "source_string": "Sign in now",
+        "translation": "ਹੁਣੇ ਸਾਈਨ ਇਨ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.inputLegend",
+        "source_string": "Sign in",
+        "translation": "ਸਾਈਨ ਇਨ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.text",
+        "source_string": "You need an account to play online with friends.",
+        "translation": "ਦੋਸਤਾਂ ਨਾਲ ਆਨਲਾਈਨ ਖੇਡਣ ਲਈ ਤੁਹਾਨੂੰ ਖਾਤੇ ਦੀ ਲੋੜ ਹੈ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.title",
+        "source_string": "You're not logged in",
+        "translation": "ਤੁਸੀਂ ਸਾਈਨ ਇਨ ਨਹੀਂ ਹੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.numberOfFriends",
+        "source_string": "You have %1$s online friends",
+        "translation": "ਤੁਹਾਡੇ %1$s ਆਨਲਾਈਨ ਦੋਸਤ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.title",
+        "source_string": "Friends",
+        "translation": "ਦੋਸਤ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.titleWithAmount",
+        "source_string": "Friends (%1$s)",
+        "translation": "ਦੋਸਤ (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.you",
+        "source_string": "You",
+        "translation": "ਤੁਸੀਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerAvatarsOnlineInWorld.full",
+        "source_string": "Full",
+        "translation": "ਭਰਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body",
+        "source_string": "You have been %1$s from playing multiplayer in Minecraft due to \"%2$s\". You won't be able to play on servers, join Realms, host or join multiplayer games or use the marketplace.",
+        "translation": "\"%2$s\" ਕਾਰਨ ਤੁਹਾਨੂੰ Minecraft ਵਿੱਚ ਮਲਟੀਪਲੇਅਰ ਖੇਡਣ ਤੋਂ %1$s ਕੀਤਾ ਗਿਆ ਹੈ। ਤੁਸੀਂ ਸਰਵਰਾਂ 'ਤੇ ਨਹੀਂ ਖੇਡ ਸਕੋਗੇ, Realms ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਹੋ ਸਕੋਗੇ, ਮਲਟੀਪਲੇਅਰ ਖੇਡਾਂ ਹੋਸਟ ਜਾਂ ਸ਼ਾਮਲ ਨਹੀਂ ਹੋ ਸਕੋਗੇ ਜਾਂ Marketplace ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰ ਸਕੋਗੇ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.day",
+        "source_string": "You have 1 day remaining on your suspension.",
+        "translation": "ਤੁਹਾਡੀ ਮੁਅੱਤਲੀ ਦਾ 1 ਦਿਨ ਬਾਕੀ ਹੈ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.days",
+        "source_string": "You have %1$s days remaining on your suspension.",
+        "translation": "ਤੁਹਾਡੀ ਮੁਅੱਤਲੀ ਦੇ %1$s ਦਿਨ ਬਾਕੀ ਹਨ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.forever",
+        "source_string": "This ban is permanent.",
+        "translation": "ਇਹ ਪਾਬੰਦੀ ਸਥਾਈ ਹੈ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.hour",
+        "source_string": "You have 1 hour remaining on your suspension.",
+        "translation": "ਤੁਹਾਡੀ ਮੁਅੱਤਲੀ ਦਾ 1 ਘੰਟਾ ਬਾਕੀ ਹੈ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.hours",
+        "source_string": "You have %1$s hours remaining on your suspension.",
+        "translation": "ਤੁਹਾਡੀ ਮੁਅੱਤਲੀ ਦੇ %1$s ਘੰਟੇ ਬਾਕੀ ਹਨ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body2",
+        "source_string": "Click '%1$s' below to view our community standards and how to submit a case review request if you feel you were %2$s in error.",
+        "translation": "ਸਾਡੇ ਕਮਿਊਨਿਟੀ ਸਟੈਂਡਰਡ ਦੇਖਣ ਲਈ ਅਤੇ ਜੇ ਤੁਹਾਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਗਲਤੀ ਨਾਲ %2$s ਕੀਤਾ ਗਿਆ ਹੈ ਤਾਂ ਕੇਸ ਰਿਵਿਊ ਬੇਨਤੀ ਕਿਵੇਂ ਭੇਜਣੀ ਹੈ ਇਹ ਜਾਣਨ ਲਈ ਹੇਠਾਂ '%1$s' 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.close",
+        "source_string": "Learn more",
+        "translation": "ਹੋਰ ਜਾਣੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.permanent",
+        "source_string": "banned",
+        "translation": "ਬੈਨ ਕੀਤਾ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.temporary",
+        "source_string": "suspended",
+        "translation": "ਮੁਅੱਤਲ ਕੀਤਾ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.title",
+        "source_string": "You've been %1$s",
+        "translation": "ਤੁਹਾਨੂੰ %1$s ਕੀਤਾ ਗਿਆ ਹੈ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5352,9 +6600,569 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.advertising",
+        "source_string": "Spam or Advertising",
+        "translation": "ਸਪੈਮ ਜਾਂ ਇਸ਼ਤਿਹਾਰਬਾਜ਼ੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.chat",
+        "source_string": "Chat message",
+        "translation": "ਚੈਟ ਸੁਨੇਹਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.gameplay",
+        "source_string": "Gameplay",
+        "translation": "ਗੇਮਪਲੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.ingame",
+        "source_string": "In-game build",
+        "translation": "ਖੇਡ ਦੇ ਅੰਦਰ ਬਿਲਡ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.other",
+        "source_string": "Other",
+        "translation": "ਹੋਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "ਖਿਡਾਰੀ ਦੀ ਸਕਿਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.cheating",
+        "source_string": "Cheating",
+        "translation": "ਧੋਖਾਧੜੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationGrooming",
+        "source_string": "Violating community standards",
+        "translation": "ਕਮਿਊਨਿਟੀ ਸਟੈਂਡਰਡ ਦੀ ਉਲੰਘਣਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Violating community standards",
+        "translation": "ਕਮਿਊਨਿਟੀ ਸਟੈਂਡਰਡ ਦੀ ਉਲੰਘਣਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.controversial",
+        "source_string": "Controversial topic",
+        "translation": "ਵਿਵਾਦਪੂਰਨ ਵਿਸ਼ਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.cyberbullying",
+        "source_string": "Cyberbullying",
+        "translation": "ਸਾਈਬਰ-ਧੱਕੇਸ਼ਾਹੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.defamation",
+        "source_string": "Impersonation or sharing information to exploit or mislead others",
+        "translation": "ਦੂਜਿਆਂ ਨੂੰ ਧੋਖਾ ਦੇਣ ਜਾਂ ਗੁਮਰਾਹ ਕਰਨ ਲਈ ਪਛਾਣ ਬਦਲਣਾ ਜਾਂ ਜਾਣਕਾਰੀ ਸਾਂਝੀ ਕਰਨਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.drugs",
+        "source_string": "References to illegal drugs",
+        "translation": "ਗੈਰ-ਕਾਨੂੰਨੀ ਨਸ਼ਿਆਂ ਦੇ ਹਵਾਲੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.exploits",
+        "source_string": "Exploits and 3rd party applications",
+        "translation": "ਐਕਸਪਲੋਇਟ ਅਤੇ ਥਰਡ-ਪਾਰਟੀ ਐਪਲੀਕੇਸ਼ਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.extremeViolence",
+        "source_string": "Depictions of real-life excessive violence or gore",
+        "translation": "ਅਸਲ ਜ਼ਿੰਦਗੀ ਦੀ ਬਹੁਤ ਜ਼ਿਆਦਾ ਹਿੰਸਾ ਜਾਂ ਖੂਨ-ਖਰਾਬੇ ਦਾ ਚਿਤਰਣ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.falseReporting",
+        "source_string": "Excessive false / inaccurate reports",
+        "translation": "ਬਹੁਤ ਜ਼ਿਆਦਾ ਗਲਤ / ਅਸ਼ੁੱਧ ਰਿਪੋਰਟਾਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.fraud",
+        "source_string": "Fraudulent acquisition or use of content",
+        "translation": "ਸਮੱਗਰੀ ਦੀ ਧੋਖੇਬਾਜ਼ ਖਰੀਦ ਜਾਂ ਵਰਤੋਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.harassingComments",
+        "source_string": "Harassing or defamatory comments",
+        "translation": "ਪਰੇਸ਼ਾਨ ਕਰਨ ਵਾਲੀਆਂ ਜਾਂ ਬਦਨਾਮੀ ਵਾਲੀਆਂ ਟਿੱਪਣੀਆਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.harassment",
+        "source_string": "Abusive language used in a directed, harmful manner",
+        "translation": "ਸਿੱਧੇ ਤੌਰ 'ਤੇ ਨੁਕਸਾਨਦਾਇਕ ਢੰਗ ਨਾਲ ਵਰਤੀ ਗਈ ਗਾਲੀ-ਗਲੋਚ ਵਾਲੀ ਭਾਸ਼ਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.hateSpeech",
+        "source_string": "Hate Speech or discrimination",
+        "translation": "ਨਫ਼ਰਤੀ ਭਾਸ਼ਣ ਜਾਂ ਭੇਦਭਾਵ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.illegalDrugs",
+        "source_string": "Illegal drugs or activities",
+        "translation": "ਗੈਰ-ਕਾਨੂੰਨੀ ਨਸ਼ੇ ਜਾਂ ਗਤੀਵਿਧੀਆਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.imminentHarm",
+        "source_string": "Intent to cause real-life harm to persons or property",
+        "translation": "ਵਿਅਕਤੀਆਂ ਜਾਂ ਜਾਇਦਾਦ ਨੂੰ ਅਸਲ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਨੁਕਸਾਨ ਪਹੁੰਚਾਉਣ ਦਾ ਇਰਾਦਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.impersonatingStaff",
+        "source_string": "Impersonating staff, player support, or community representatives",
+        "translation": "ਸਟਾਫ਼, ਪਲੇਅਰ ਸਪੋਰਟ ਜਾਂ ਕਮਿਊਨਿਟੀ ਪ੍ਰਤੀਨਿਧੀਆਂ ਦੀ ਨਕਲ ਕਰਨਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.inGameTrolling",
+        "source_string": "In-Game trolling & spamming",
+        "translation": "ਖੇਡ ਦੇ ਅੰਦਰ ਟ੍ਰੋਲਿੰਗ ਅਤੇ ਸਪੈਮਿੰਗ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.modding",
+        "source_string": "Modding",
+        "translation": "ਮੌਡਿੰਗ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nameOrGamertag",
+        "source_string": "Player name or gamertag",
+        "translation": "ਖਿਡਾਰੀ ਦਾ ਨਾਮ ਜਾਂ ਗੇਮਰਟੈਗ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Violating community standards",
+        "translation": "ਕਮਿਊਨਿਟੀ ਸਟੈਂਡਰਡ ਦੀ ਉਲੰਘਣਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.notoriousFigure",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "ਨਫ਼ਰਤੀ ਸਮੂਹਾਂ, ਦਹਿਸ਼ਤਗਰਦ ਸੰਗਠਨਾਂ, ਜਾਂ ਬਦਨਾਮ ਵਿਅਕਤੀਆਂ ਦੇ ਹਵਾਲੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nudity",
+        "source_string": "Displaying lewd or pornographic material",
+        "translation": "ਅਸ਼ਲੀਲ ਜਾਂ ਪੋਰਨੋਗ੍ਰਾਫਿਕ ਸਮੱਗਰੀ ਦਿਖਾਉਣਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.obsceneLanguage",
+        "source_string": "Obscene or vulgar language",
+        "translation": "ਅਸ਼ਲੀਲ ਜਾਂ ਗੰਦੀ ਭਾਸ਼ਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.policyViolation",
+        "source_string": "Policy violation",
+        "translation": "ਨੀਤੀ ਦੀ ਉਲੰਘਣਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.postLinkToInappropriateContent",
+        "source_string": "Posting links to inappropriate content or malicious software",
+        "translation": "ਅਣਉਚਿਤ ਸਮੱਗਰੀ ਜਾਂ ਨੁਕਸਾਨਦੇਹ ਸਾਫਟਵੇਅਰ ਦੇ ਲਿੰਕ ਪੋਸਟ ਕਰਨਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.profanity",
+        "source_string": "Profanity",
+        "translation": "ਗਾਲੀ-ਗਲੋਚ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.realLifeInfo",
+        "source_string": "Real life information and threats",
+        "translation": "ਅਸਲ ਜ਼ਿੰਦਗੀ ਦੀ ਜਾਣਕਾਰੀ ਅਤੇ ਧਮਕੀਆਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.selfHarm",
+        "source_string": "Violating community standards",
+        "translation": "ਕਮਿਊਨਿਟੀ ਸਟੈਂਡਰਡ ਦੀ ਉਲੰਘਣਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexuallyInappropriate",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "ਜਿਨਸੀ ਸੁਭਾਅ ਦੇ ਵਿਸ਼ੇ ਜਾਂ ਸਮੱਗਰੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexualReference",
+        "source_string": "References to sexual content & violence",
+        "translation": "ਜਿਨਸੀ ਸਮੱਗਰੀ ਅਤੇ ਹਿੰਸਾ ਦੇ ਹਵਾਲੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexualViolence",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "ਜਿਨਸੀ ਸੁਭਾਅ ਦੇ ਵਿਸ਼ੇ ਜਾਂ ਸਮੱਗਰੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.spam",
+        "source_string": "Spamming for commercial purposes",
+        "translation": "ਵਪਾਰਕ ਮਕਸਦਾਂ ਲਈ ਸਪੈਮ ਕਰਨਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.terrorismOrViolentExtremism",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "ਨਫ਼ਰਤੀ ਗਰੁੱਪਾਂ, ਦਹਿਸ਼ਤਗਰਦ ਸੰਗਠਨਾਂ, ਜਾਂ ਬਦਨਾਮ ਸ਼ਖਸੀਅਤਾਂ ਦੇ ਹਵਾਲੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.unconfirmedCSE",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "ਜਿਨਸੀ ਸੁਭਾਅ ਦੇ ਵਿਸ਼ੇ ਜਾਂ ਸਮੱਗਰੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.unsportingBehavior",
+        "source_string": "Unsporting behavior",
+        "translation": "ਗ਼ੈਰ-ਖਿਡਾਰੀਪੁਣੇ ਵਾਲਾ ਵਤੀਰਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody",
+        "source_string": "You've been banned from Xbox Live services. While banned, you won't be able to play on servers, join Realms, host or join multiplayer games, or use Marketplace.",
+        "translation": "ਤੁਹਾਨੂੰ Xbox Live ਸੇਵਾਵਾਂ ਤੋਂ ਬੈਨ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਬੈਨ ਹੋਣ ਦੇ ਦੌਰਾਨ, ਤੁਸੀਂ ਸਰਵਰਾਂ 'ਤੇ ਖੇਡ, Realms ਵਿੱਚ ਸ਼ਾਮਲ, ਮਲਟੀਪਲੇਅਰ ਗੇਮਾਂ ਦੀ ਮੇਜ਼ਬਾਨੀ ਜਾਂ ਸ਼ਾਮਲ, ਜਾਂ Marketplace ਦਾ ਇਸਤੇਮਾਲ ਨਹੀਂ ਕਰ ਸਕੋਗੇ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody2",
+        "source_string": "Click '%1$s' below to view Xbox enforcement information and how to submit a case review request if you feel you were banned in error.",
+        "translation": "Xbox ਲਾਗੂਕਰਨ ਦੀ ਜਾਣਕਾਰੀ ਦੇਖਣ ਲਈ ਅਤੇ ਜੇ ਤੁਹਾਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਤੁਹਾਨੂੰ ਗਲਤੀ ਨਾਲ ਬੈਨ ਕੀਤਾ ਗਿਆ ਸੀ ਤਾਂ ਕੇਸ ਰਿਵਿਊ ਬੇਨਤੀ ਕਿਵੇਂ ਭੇਜਣੀ ਹੈ, ਇਹ ਦੇਖਣ ਲਈ ਹੇਠਾਂ '%1$s' 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addedButton",
+        "source_string": "Added",
+        "translation": "ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addFriendButton",
+        "source_string": "Add friend",
+        "translation": "ਦੋਸਤ ਸ਼ਾਮਲ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.away",
+        "source_string": "Away",
+        "translation": "ਦੂਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.blocked",
+        "source_string": "Blocked",
+        "translation": "ਬਲੌਕ ਕੀਤਾ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.buttonRole",
+        "source_string": "button",
+        "translation": "ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.buttonSiblings",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.cardNarration",
+        "source_string": "Player details",
+        "translation": "ਖਿਡਾਰੀ ਵੇਰਵੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.dressingRoomButton",
+        "source_string": "Dressing room",
+        "translation": "ਪਹਿਰਾਵਾ ਕਮਰਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.friendsButton",
+        "source_string": "Friends",
+        "translation": "ਦੋਸਤ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.joinButton",
+        "source_string": "Join game",
+        "translation": "ਗੇਮ ਜੋਇਨ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.muted",
+        "source_string": "Muted",
+        "translation": "ਮਿਊਟ ਕੀਤਾ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.offline",
+        "source_string": "Offline",
+        "translation": "ਆਫਲਾਈਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.online",
+        "source_string": "Online",
+        "translation": "ਆਨਲਾਈਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.optionsButton",
+        "source_string": "More options",
+        "translation": "ਹੋਰ ਵਿਕਲਪ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "ਫੀਚਰਡ ਸਕ੍ਰੀਨਸ਼ਾਟ ਸੈੱਟ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.accept",
+        "source_string": "Accept",
+        "translation": "ਸਵੀਕਾਰ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonInputLegend",
+        "source_string": "Add friend",
+        "translation": "ਦੋਸਤ ਸ਼ਾਮਲ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonText",
+        "source_string": "Add",
+        "translation": "ਸ਼ਾਮਲ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.added",
+        "source_string": "Added",
+        "translation": "ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.away",
+        "source_string": "Away",
+        "translation": "ਦੂਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.buttonSiblings",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "ਬਟਨ %2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.cancelButtonText",
+        "source_string": "Cancel",
+        "translation": "ਰੱਦ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.delete",
         "source_string": "Delete",
         "translation": "ਮਿਟਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying",
+        "source_string": "Mutual friend playing",
+        "translation": "ਸਾਂਝਾ ਦੋਸਤ ਖੇਡ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.playstation",
+        "source_string": "PSN™ - Mutual friend playing",
+        "translation": "PSN™ - ਸਾਂਝਾ ਦੋਸਤ ਖੇਡ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.switch",
+        "source_string": "Switch - Mutual friend playing",
+        "translation": "Switch - ਸਾਂਝਾ ਦੋਸਤ ਖੇਡ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friends",
+        "source_string": "Friends",
+        "translation": "ਦੋਸਤ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5368,9 +7176,193 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.inviteButtonInputLegend",
+        "source_string": "Invite friend",
+        "translation": "ਦੋਸਤ ਨੂੰ ਸੱਦੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.inviteButtonText",
         "source_string": "Invite",
         "translation": "ਸੱਦੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.invited",
+        "source_string": "Invited",
+        "translation": "ਸੱਦਿਆ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.join",
+        "source_string": "Join",
+        "translation": "ਜੋਇਨ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedMutual",
+        "source_string": "You are friends with this player",
+        "translation": "ਤੁਸੀਂ ਇਸ ਖਿਡਾਰੀ ਦੇ ਦੋਸਤ ਹੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedNotMutual",
+        "source_string": "You added this player",
+        "translation": "ਤੁਸੀਂ ਇਸ ਖਿਡਾਰੀ ਨੂੰ ਸ਼ਾਮਲ ਕੀਤਾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.additionalActionsHint",
+        "source_string": "Use D-pad right for additional actions",
+        "translation": "ਹੋਰ ਕਾਰਵਾਈਆਂ ਲਈ D-pad ਸੱਜੇ ਦਬਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.buttonRole",
+        "source_string": "Button",
+        "translation": "ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.inviteButtonText",
+        "source_string": "Invite %1$s to party",
+        "translation": "%1$s ਨੂੰ ਪਾਰਟੀ ਵਿੱਚ ਸੱਦੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.itemOrderContext",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.joinFriend",
+        "source_string": "Join friends world",
+        "translation": "ਦੋਸਤ ਦੀ ਦੁਨੀਆ ਵਿੱਚ ਜੋਇਨ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.listItemRole",
+        "source_string": "List item",
+        "translation": "ਸੂਚੀ ਆਈਟਮ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerInvited",
+        "source_string": "This player has been invited",
+        "translation": "ਇਸ ਖਿਡਾਰੀ ਨੂੰ ਸੱਦਾ ਦਿੱਤਾ ਗਿਆ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerProfileHint",
+        "source_string": "Press to access player profile",
+        "translation": "ਖਿਡਾਰੀ ਪ੍ਰੋਫਾਈਲ ਤੱਕ ਪਹੁੰਚ ਲਈ ਦਬਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.receivedRequest",
+        "source_string": "This player sent you a request",
+        "translation": "ਇਸ ਖਿਡਾਰੀ ਨੇ ਤੁਹਾਨੂੰ ਬੇਨਤੀ ਭੇਜੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.sentRequest",
+        "source_string": "You sent a request to this player",
+        "translation": "ਤੁਸੀਂ ਇਸ ਖਿਡਾਰੀ ਨੂੰ ਬੇਨਤੀ ਭੇਜੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.offline",
+        "source_string": "Offline",
+        "translation": "ਆਫਲਾਈਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online",
+        "source_string": "Online",
+        "translation": "ਆਨਲਾਈਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.playstation",
+        "source_string": "Online on PSN™",
+        "translation": "PSN™ 'ਤੇ ਆਨਲਾਈਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.switch",
+        "source_string": "Online on Switch",
+        "translation": "Switch 'ਤੇ ਆਨਲਾਈਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.pending",
+        "source_string": "Pending",
+        "translation": "ਬਾਕੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.playingInSameWorld",
+        "source_string": "Playing in this world",
+        "translation": "ਇਸ ਦੁਨੀਆ ਵਿੱਚ ਖੇਡ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.receivedRequest",
+        "source_string": "Sent you a request",
+        "translation": "ਤੁਹਾਨੂੰ ਬੇਨਤੀ ਭੇਜੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.reject",
+        "source_string": "Reject",
+        "translation": "ਰੱਦ ਕਰੋ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5384,9 +7376,441 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.viewProfile",
+        "source_string": "View player profile",
+        "translation": "ਖਿਡਾਰੀ ਪ੍ਰੋਫਾਈਲ ਦੇਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.you",
+        "source_string": "(You)",
+        "translation": "(ਤੁਸੀਂ)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.addToFavorites",
+        "source_string": "Add to favorites",
+        "translation": "ਫੇਵਰਿਟਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.appearOffline",
+        "source_string": "Appear offline",
+        "translation": "ਆਫਲਾਈਨ ਦਿਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.block",
+        "source_string": "Block",
+        "translation": "ਬਲੌਕ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.manageAccount",
+        "source_string": "Manage account",
+        "translation": "ਖਾਤਾ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.manageXboxProfile",
+        "source_string": "Manage Xbox profile",
+        "translation": "Xbox ਪ੍ਰੋਫਾਈਲ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.mute",
+        "source_string": "Mute",
+        "translation": "ਮਿਊਟ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.optionsEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.optionsTitle",
+        "source_string": "Account options",
+        "translation": "ਖਾਤਾ ਵਿਕਲਪ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.privacyAndSafety",
+        "source_string": "Privacy and online safety",
+        "translation": "ਪ੍ਰਾਈਵੇਸੀ ਅਤੇ ਆਨਲਾਈਨ ਸੁਰੱਖਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFriend",
+        "source_string": "Remove friend",
+        "translation": "ਦੋਸਤ ਹਟਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFromFavorites",
+        "source_string": "Remove from favorites",
+        "translation": "ਫੇਵਰਿਟਾਂ ਵਿੱਚੋਂ ਹਟਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.report",
+        "source_string": "Report",
+        "translation": "ਰਿਪੋਰਟ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "ਫੀਚਰਡ ਸਕ੍ਰੀਨਸ਼ਾਟ ਸੈੱਟ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareMyProfile",
+        "source_string": "Share my profile",
+        "translation": "ਮੇਰੀ ਪ੍ਰੋਫਾਈਲ ਸਾਂਝੀ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareText",
+        "source_string": "Add me as a friend in Minecraft!",
+        "translation": "ਮੈਨੂੰ Minecraft ਵਿੱਚ ਦੋਸਤ ਵਜੋਂ ਸ਼ਾਮਲ ਕਰੋ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.signOut",
+        "source_string": "Sign out",
+        "translation": "ਸਾਇਨ-ਆਊਟ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.viewXboxProfile",
+        "source_string": "View Xbox profile",
+        "translation": "Xbox ਪ੍ਰੋਫਾਈਲ ਦੇਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackMobs",
+        "source_string": "Attack Mobs",
+        "translation": "ਮੌਬਾਂ 'ਤੇ ਹਮਲਾ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackPlayers",
+        "source_string": "Attack Players",
+        "translation": "ਖਿਡਾਰੀਆਂ 'ਤੇ ਹਮਲਾ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.build",
+        "source_string": "Build",
+        "translation": "ਉਸਾਰੀ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackMobs",
+        "source_string": "Engage in player vs. environment combat",
+        "translation": "ਖਿਡਾਰੀ ਬਨਾਮ ਵਾਤਾਵਰਨ ਲੜਾਈ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackPlayers",
+        "source_string": "Engage in player vs. player combat",
+        "translation": "ਖਿਡਾਰੀ ਬਨਾਮ ਖਿਡਾਰੀ ਲੜਾਈ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.build",
+        "source_string": "Place blocks in the world",
+        "translation": "ਦੁਨੀਆ ਵਿੱਚ ਬਲਾਕ ਰੱਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.doorsAndSwitches",
+        "source_string": "Activate most useable objects in the world",
+        "translation": "ਦੁਨੀਆ ਦੀਆਂ ਜ਼ਿਆਦਾਤਰ ਵਰਤੋਂ ਯੋਗ ਚੀਜ਼ਾਂ ਸਰਗਰਮ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.mine",
+        "source_string": "Destroy world elements and collect blocks",
+        "translation": "ਦੁਨੀਆ ਦੇ ਤੱਤਾਂ ਨੂੰ ਨਸ਼ਟ ਕਰੋ ਅਤੇ ਬਲਾਕ ਇਕੱਠੇ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.openContainers",
+        "source_string": "View, add to, and take from chests",
+        "translation": "ਸੰਦੂਕਾਂ ਨੂੰ ਦੇਖੋ, ਉਨ੍ਹਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ, ਅਤੇ ਉਨ੍ਹਾਂ ਵਿੱਚੋਂ ਲਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.operatorCommands",
+        "source_string": "Access advanced server options",
+        "translation": "ਐਡਵਾਂਸਡ ਸਰਵਰ ਵਿਕਲਪਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.teleport",
+        "source_string": "Instantly move to anywhere in the world",
+        "translation": "ਦੁਨੀਆ ਵਿੱਚ ਕਿਤੇ ਵੀ ਤੁਰੰਤ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.doorsAndSwitches",
+        "source_string": "Use doors and switches",
+        "translation": "ਦਰਵਾਜ਼ੇ ਅਤੇ ਸਵਿੱਚ ਵਰਤੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.mine",
+        "source_string": "Mine",
+        "translation": "ਖੁਦਾਈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.openContainers",
+        "source_string": "Open containers",
+        "translation": "ਸੰਦੂਕ ਖੋਲ੍ਹੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.operatorCommands",
+        "source_string": "Operator Commands",
+        "translation": "ਓਪਰੇਟਰ ਕਮਾਂਡਾਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.teleport",
+        "source_string": "Teleport",
+        "translation": "ਟੈਲੀਪੋਰਟ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "%1$s ਨੂੰ ਦੁਨੀਆ ਵਿੱਚੋਂ ਕਿੱਕ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton.inputLegend",
         "source_string": "Select",
         "translation": "ਚੁਣੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.loading",
+        "source_string": "Loading",
+        "translation": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.description",
+        "source_string": "Only server operators can edit player permissions",
+        "translation": "ਸਿਰਫ਼ ਸਰਵਰ ਓਪਰੇਟਰ ਹੀ ਖਿਡਾਰੀ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਸੋਧ ਸਕਦੇ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.title",
+        "source_string": "Nothing to see here",
+        "translation": "ਇੱਥੇ ਦੇਖਣ ਲਈ ਕੁਝ ਨਹੀਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandFailedFlag",
+        "source_string": "Couldn’t remove this player.",
+        "translation": "ਇਸ ਖਿਡਾਰੀ ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandSuccess",
+        "source_string": "Player successfully removed",
+        "translation": "ਖਿਡਾਰੀ ਸਫਲਤਾਪੂਰਵਕ ਹਟਾਇਆ ਗਿਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.selectedPlayerPermissionsChangedFlag",
+        "source_string": "Player permissions updated by another operator.",
+        "translation": "ਖਿਡਾਰੀ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਕਿਸੇ ਹੋਰ ਓਪਰੇਟਰ ਦੁਆਰਾ ਅੱਪਡੇਟ ਕੀਤੀਆਂ ਗਈਆਂ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.optionEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ਵਿੱਚੋਂ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.playerIdInvalidFlag",
+        "source_string": "Couldn’t load permissions for this player",
+        "translation": "ਇਸ ਖਿਡਾਰੀ ਲਈ ਇਜਾਜ਼ਤਾਂ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀਆਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.custom",
+        "source_string": "A customized set of permissions for this player",
+        "translation": "ਇਸ ਖਿਡਾਰੀ ਲਈ ਇਜਾਜ਼ਤਾਂ ਦਾ ਕਸਟਮ ਸੈੱਟ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.member",
+        "source_string": "Members can build and mine, attack players and mobs, and interact with items and entities",
+        "translation": "ਮੈਂਬਰ ਬਣਾ ਅਤੇ ਖੁਦਾਈ ਕਰ ਸਕਦੇ ਹਨ, ਖਿਡਾਰੀਆਂ ਅਤੇ ਮੌਬਾਂ 'ਤੇ ਹਮਲਾ ਕਰ ਸਕਦੇ ਹਨ, ਅਤੇ ਆਈਟਮਾਂ ਅਤੇ ਹਸਤੀਆਂ ਨਾਲ ਸੰਪਰਕ ਕਰ ਸਕਦੇ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.operator",
+        "source_string": "Operators can teleport and use commands, in addition to everything members can do",
+        "translation": "ਓਪਰੇਟਰ ਮੈਂਬਰਾਂ ਦੇ ਸਾਰੇ ਕੰਮਾਂ ਤੋਂ ਇਲਾਵਾ ਟੈਲੀਪੋਰਟ ਕਰ ਸਕਦੇ ਹਨ ਅਤੇ ਕਮਾਂਡਾਂ ਵਰਤ ਸਕਦੇ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.visitor",
+        "source_string": "Visitors can only observe your world, not interact with it",
+        "translation": "ਵਿਜ਼ਿਟਰ ਸਿਰਫ਼ ਤੁਹਾਡੀ ਦੁਨੀਆ ਦੇਖ ਸਕਦੇ ਹਨ, ਉਸ ਨਾਲ ਸੰਪਰਕ ਨਹੀਂ ਕਰ ਸਕਦੇ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.title",
+        "source_string": "Permission level",
+        "translation": "ਇਜਾਜ਼ਤ ਪੱਧਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.link",
+        "source_string": "Go to game settings",
+        "translation": "ਗੇਮ ਸੈਟਿੰਗਾਂ 'ਤੇ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.text",
+        "source_string": "Unlock template world options to be able to change permissions.",
+        "translation": "ਇਜਾਜ਼ਤਾਂ ਬਦਲਣ ਲਈ ਟੈਂਪਲੇਟ ਦੁਨੀਆ ਵਿਕਲਪ ਖੋਲ੍ਹੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.cheatsDisabledButton",
+        "source_string": "Continue with cheats disabled",
+        "translation": "ਚੀਟਸ ਬੰਦ ਰੱਖ ਕੇ ਜਾਰੀ ਰੱਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.description",
+        "source_string": "Certain commands, like teleport, are only available with cheats enabled. Enable them now or through the game settings menu.",
+        "translation": "ਕੁਝ ਕਮਾਂਡਾਂ, ਜਿਵੇਂ ਟੈਲੀਪੋਰਟ, ਸਿਰਫ਼ ਚੀਟਸ ਚਾਲੂ ਹੋਣ 'ਤੇ ਹੀ ਉਪਲਬਧ ਹਨ। ਇਹਨਾਂ ਨੂੰ ਹੁਣੇ ਜਾਂ ਗੇਮ ਸੈਟਿੰਗਾਂ ਮੀਨੂ ਰਾਹੀਂ ਚਾਲੂ ਕਰੋ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.enableCheatsButton",
+        "source_string": "Enable cheats",
+        "translation": "ਚੀਟਸ ਚਾਲੂ ਕਰੋ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5400,9 +7824,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.title",
+        "source_string": "Cheats are disabled",
+        "translation": "ਚੀਟਸ ਬੰਦ ਹਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.backButton",
+        "source_string": "Go back",
+        "translation": "ਪਿਛਾਂਹ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.description",
+        "source_string": "Really kick %1$s from this world? They won’t be able to rejoin this session.",
+        "translation": "ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ %1$s ਨੂੰ ਇਸ ਦੁਨੀਆਂ ਵਿੱਚੋਂ ਕੱਢਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਉਹ ਇਸ ਸੈਸ਼ਨ ਵਿੱਚ ਦੁਬਾਰਾ ਸ਼ਾਮਲ ਨਹੀਂ ਹੋ ਸਕਣਗੇ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.inputLegend",
         "source_string": "Select",
         "translation": "ਚੁਣੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "%1$s ਨੂੰ ਦੁਨੀਆ ਵਿੱਚੋਂ ਕਿੱਕ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.title",
+        "source_string": "Kick player?",
+        "translation": "ਖਿਡਾਰੀ ਨੂੰ ਕਿੱਕ ਕਰਨਾ ਹੈ?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.closeButton",
+        "source_string": "Close",
+        "translation": "ਬੰਦ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.description",
+        "source_string": "Your operator permissions have been revoked and you can no longer edit the permissions of other players.",
+        "translation": "ਤੁਹਾਡੀਆਂ ਓਪਰੇਟਰ ਇਜਾਜ਼ਤਾਂ ਰੱਦ ਕਰ ਦਿੱਤੀਆਂ ਗਈਆਂ ਹਨ ਅਤੇ ਤੁਸੀਂ ਹੁਣ ਹੋਰ ਖਿਡਾਰੀਆਂ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਸੋਧ ਨਹੀਂ ਸਕਦੇ।",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5416,6 +7896,30 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.title",
+        "source_string": "Operator permissions revoked",
+        "translation": "ਓਪਰੇਟਰ ਇਜਾਜ਼ਤਾਂ ਰੱਦ ਕੀਤੀਆਂ ਗਈਆਂ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.closeButton",
+        "source_string": "Close",
+        "translation": "ਬੰਦ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.description",
+        "source_string": "%1$s left the world and their permissions can’t be changed.",
+        "translation": "%1$s ਦੁਨੀਆ ਛੱਡ ਗਿਆ ਹੈ ਅਤੇ ਉਹਨਾਂ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਬਦਲੀਆਂ ਨਹੀਂ ਜਾ ਸਕਦੀਆਂ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.inputLegend",
         "source_string": "Select",
         "translation": "ਚੁਣੋ",
@@ -5424,9 +7928,81 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.title",
+        "source_string": "Player has left",
+        "translation": "ਖਿਡਾਰੀ ਚਲਾ ਗਿਆ ਹੈ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.backButton",
+        "source_string": "Go back",
+        "translation": "ਪਿਛਾਂਹ ਜਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description",
+        "source_string": "Lowering this player’s permission level will remove their access to operator commands. Owners can restore permissions at any time.",
+        "translation": "ਇਸ ਖਿਡਾਰੀ ਦਾ ਇਜਾਜ਼ਤ ਪੱਧਰ ਘਟਾਉਣ ਨਾਲ ਉਹਨਾਂ ਦੀ ਓਪਰੇਟਰ ਕਮਾਂਡਾਂ ਤੱਕ ਪਹੁੰਚ ਹਟ ਜਾਵੇਗੀ। ਮਾਲਕ ਕਿਸੇ ਵੀ ਸਮੇਂ ਇਜਾਜ਼ਤਾਂ ਬਹਾਲ ਕਰ ਸਕਦੇ ਹਨ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.inputLegend",
         "source_string": "Select",
         "translation": "ਚੁਣੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton",
+        "source_string": "Remove operator permissions",
+        "translation": "ਓਪਰੇਟਰ ਇਜਾਜ਼ਤਾਂ ਹਟਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title",
+        "source_string": "Remove operator permissions?",
+        "translation": "ਓਪਰੇਟਰ ਇਜਾਜ਼ਤਾਂ ਹਟਾਉਣੀਆਂ ਹਨ?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.role.custom",
+        "source_string": "Custom",
+        "translation": "ਕਸਟਮ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.role.member",
+        "source_string": "Member",
+        "translation": "ਮੈਂਬਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.role.operator",
+        "source_string": "Operator",
+        "translation": "ਓਪਰੇਟਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.role.visitor",
+        "source_string": "Visitor",
+        "translation": "ਵਿਜ਼ਿਟਰ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5448,9 +8024,185 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.custom",
+        "source_string": "Custom",
+        "translation": "ਕਸਟਮ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.member",
+        "source_string": "Member",
+        "translation": "ਮੈਂਬਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.operator",
+        "source_string": "Operator",
+        "translation": "ਓਪਰੇਟਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.visitor",
+        "source_string": "Visitor",
+        "translation": "ਵਿਜ਼ਿਟਰ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.title",
+        "source_string": "Player Permissions for %1$s",
+        "translation": "ਖਿਡਾਰੀ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ: %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayersOnlineInWorld.full",
+        "source_string": "Full",
+        "translation": "ਭਰਿਆ ਹੋਇਆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerTag.hint",
+        "source_string": "Press to access player profile",
+        "translation": "ਖਿਡਾਰੀ ਪ੍ਰੋਫਾਈਲ ਤੱਕ ਪਹੁੰਚ ਲਈ ਦਬਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerTag.role",
+        "source_string": "Button",
+        "translation": "ਬਟਨ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerTag.viewProfile",
+        "source_string": "View player profile",
+        "translation": "ਖਿਡਾਰੀ ਪ੍ਰੋਫਾਈਲ ਦੇਖੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.button",
+        "source_string": "Buy Minecraft",
+        "translation": "Minecraft ਖਰੀਦੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.message",
+        "source_string": "Run your own Minecraft server! You set the rules: who can join and how to play. Realm members play for free, even when you’re offline. Easy to set up, manage, and access from any device.",
+        "translation": "ਆਪਣਾ ਖੁਦ ਦਾ Minecraft ਸਰਵਰ ਚਲਾਓ! ਤੁਸੀਂ ਨਿਯਮ ਤੈਅ ਕਰਦੇ ਹੋ: ਕੌਣ ਜੋਇਨ ਕਰ ਸਕਦਾ ਹੈ ਅਤੇ ਕਿਵੇਂ ਖੇਡਣਾ ਹੈ। Realm ਦੇ ਮੈਂਬਰ ਮੁਫ਼ਤ ਖੇਡਦੇ ਹਨ, ਭਾਵੇਂ ਤੁਸੀਂ ਆਫਲਾਈਨ ਹੋਵੋ। ਕਿਸੇ ਵੀ ਡਿਵਾਈਸ ਤੋਂ ਸੈੱਟ ਅੱਪ, ਪ੍ਰਬੰਧਿਤ ਅਤੇ ਪਹੁੰਚ ਕਰਨਾ ਆਸਾਨ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayRealmsTrialModeModal.select",
         "source_string": "Select",
         "translation": "ਚੁਣੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.title",
+        "source_string": "Unlock the full experience",
+        "translation": "ਪੂਰਾ ਤਜਰਬਾ ਖੋਲ੍ਹੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.adventure",
+        "source_string": "Adventure",
+        "translation": "ਸਾਹਸ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds",
+        "source_string": "Worlds (%1$s)",
+        "translation": "ਦੁਨੀਆਵਾਂ (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateFromTemplateButton",
+        "source_string": "Create from template",
+        "translation": "ਟੈਂਪਲੇਟ ਤੋਂ ਬਣਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateNewButton",
+        "source_string": "Create new world",
+        "translation": "ਨਵੀਂ ਦੁਨੀਆ ਬਣਾਓ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateStartFromTemplateButton",
+        "source_string": "Start from template",
+        "translation": "ਟੈਂਪਲੇਟ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText",
+        "source_string": "Create a new world from scratch or create a world from a template.",
+        "translation": "ਸ਼ੁਰੂ ਤੋਂ ਨਵੀਂ ਦੁਨੀਆ ਬਣਾਓ ਜਾਂ ਟੈਂਪਲੇਟ ਤੋਂ ਦੁਨੀਆ ਬਣਾਓ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText.trialMode",
+        "source_string": "Create a new world from scratch.",
+        "translation": "ਸ਼ੁਰੂ ਤੋਂ ਨਵੀਂ ਦੁਨੀਆ ਬਣਾਓ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateTitle",
+        "source_string": "No worlds here... yet!",
+        "translation": "ਇੱਥੇ ਕੋਈ ਦੁਨੀਆ ਨਹੀਂ... ਹਾਲੇ ਤੱਕ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.banned.text",
+        "source_string": "You’ve been permanently banned from Minecraft’s online services. You can not play with friends or on LAN worlds.",
+        "translation": "ਤੁਹਾਨੂੰ Minecraft ਦੀਆਂ ਆਨਲਾਈਨ ਸੇਵਾਵਾਂ ਤੋਂ ਸਦਾ ਲਈ ਬੈਨ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਤੁਸੀਂ ਦੋਸਤਾਂ ਨਾਲ ਜਾਂ LAN ਦੁਨੀਆਵਾਂ ਵਿੱਚ ਨਹੀਂ ਖੇਡ ਸਕਦੇ।",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.linkText",
+        "source_string": "Learn more",
+        "translation": "ਹੋਰ ਜਾਣੋ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

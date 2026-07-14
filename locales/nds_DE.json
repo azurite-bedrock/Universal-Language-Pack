@@ -24432,9 +24432,169 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "Akkordeon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.openInputLegend",
+        "source_string": "Open",
+        "translation": "Opmaken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "Tosamenklappt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "Utklappt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AccountUnlinkRoute.cancelButton",
         "source_string": "Cancel",
         "translation": "Afbreken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "Ok",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "Dien Kontos künnen nich losmaakt warrn. Kiek villicht mal na dien Internetverbindung?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "Dor is wat schiefgahn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "Büst du seker?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "Kontos warrt losmaakt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successBody",
+        "source_string": "Your accounts have been unlinked",
+        "translation": "Dien Kontos sünd losmaakt worrn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successHeader",
+        "source_string": "Unlink successful",
+        "translation": "Losmaken hett funktioneert",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkButton",
+        "source_string": "Unlink",
+        "translation": "Losmaken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine1",
+        "source_string": "Account unlink warning",
+        "translation": "Wohrschoen för't Losmaken vun't Konto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine2",
+        "source_string": "Account unlink details",
+        "translation": "Enkelheiten to't Losmaken vun't Konto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
+        "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
+        "translation": "Wenn du dat baven verstahn hest un dien Konto liekers losmaken wullt, klick nerrn op „Losmaken“.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.anotherPlatform",
+        "source_string": "Completed on another platform",
+        "translation": "Op en anner Plattform afsluten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.completed",
+        "source_string": "Completed",
+        "translation": "Afsluten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "Gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.locked",
+        "source_string": "Locked",
+        "translation": "Afsluten",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -24448,9 +24608,353 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDetailsRoute.errorMessage",
+        "source_string": "Achievement couldn’t load. Please try again or check your internet connection.",
+        "translation": "De Verdeenst kunn nich laadt warrn. Versöök dat nochmal oder kiek na dien Internetverbindung.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.completed",
+        "source_string": "completed",
+        "translation": "afsluten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.gamerscore",
+        "source_string": "gamerscore",
+        "translation": "Gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Warrt laadt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.locked",
+        "source_string": "locked",
+        "translation": "afsluten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.percentage",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.progress",
+        "source_string": "progress",
+        "translation": "Vöranschrieden",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "Belohnung nich freeschalt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "Belohnung freeschalt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.title",
+        "source_string": "Achievement details",
+        "translation": "Enkelheiten to den Verdeenst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.reward",
+        "source_string": "Reward",
+        "translation": "Belohnung",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.title",
+        "source_string": "Achievement Details",
+        "translation": "Enkelheiten to den Verdeenst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.titleNarration",
+        "source_string": "Achievement Details Screen",
+        "translation": "Bildschirm mit Enkelheiten to den Verdeenst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.viewReward",
+        "source_string": "View reward",
+        "translation": "Belohnen ankieken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
+        "source_string": "A behavior pack is activated",
+        "translation": "En Behavior Pack is aktiveert",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
+        "source_string": "Cheats are enabled",
+        "translation": "Cheats sünd anmaakt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.closeButton",
         "source_string": "Close",
         "translation": "Tomaken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "Liekers opstellen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
+        "source_string": "Continue anyway",
+        "translation": "Liekers wiedermaken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.creativeMode",
+        "source_string": "The world is created in creative mode",
+        "translation": "De Welt is in'n Kreativmodus opstellt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "Beta-Funktschonen sünd anmaakt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "Wenn du bi't Opbouen vun een Welt een vun disse Funktschonen bruukst, kannst du in disse Welt keen Verdeensten mehr kriegen. Ook wenn du disse Optschonen later wedder utmaakst, muttst du in een annere Welt gahn, üm Verdeensten to kriegen.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "Wenn du bi't Opbouen vun een Welt disse Funktschon bruukst, kannst du in disse Welt keen Verdeensten mehr kriegen. Ook wenn du disse Optschon later wedder utmaakst, muttst du in een annere Welt gahn, üm Verdeensten to kriegen.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "So, as disse Welt inricht is, kannst du dor keen Verdeensten in kriegen. Dat Ännern vun de Welt-Instellungen jüst nu kann dat nich ännern. Du muttst in een annere Welt gahn, üm Verdeensten to kriegen.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "De Welt warrt as een platte Welt opbouet",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Torüch",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "De Weltmaker hett Operator-Rechte",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Errungenschaften köönt in disse Welt nich freeschalt warrn, wenn:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "De Welt is ut en Vörlaag boot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Du kannst keen Errungenschaften kriegen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "De Weltmaker bruukt de Probeverschoon vun Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.completed",
+        "source_string": "Completed",
+        "translation": "Fardig",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.gamerscoreNarration",
+        "source_string": "gamerscore %1$s",
+        "translation": "Gamerscore: %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.groupNarration",
+        "source_string": "Group %1$s of %2$s",
+        "translation": "Gruppe %1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.inProgress",
+        "source_string": "In progress",
+        "translation": "Ünnerwegens",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.locked",
+        "source_string": "Locked",
+        "translation": "Afslaten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationCompleted",
+        "source_string": "%1$s of %2$s, unlocked, %3$s gamerscore",
+        "translation": "%1$s vun %2$s, opslaten, %3$s Gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationLocked",
+        "source_string": "%1$s of %2$s, locked, %3$s gamerscore",
+        "translation": "%1$s vun %2$s, afslaten, %3$s Gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.percentageNarration",
+        "source_string": "progress of %1$s percent",
+        "translation": "Vörankamen vun %1$s Perzent",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardLockedNarration",
+        "source_string": "Reward locked",
+        "translation": "Belohnung afslaten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardUnlockedNarration",
+        "source_string": "Reward unlocked",
+        "translation": "Belohnung freeschalt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.siblingNarration",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "Knoop %1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.view",
+        "source_string": "View details",
+        "translation": "Details ankieken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.cheats",
+        "source_string": "Cheats are enabled",
+        "translation": "Cheats sünd anmaakt",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -24464,9 +24968,337 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.creative",
+        "source_string": "The world is created in creative mode",
+        "translation": "De Welt is in'n Kreativmodus opstellt worrn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.description",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "So as disse Welt inricht is, kannst du dor keen Errungenschaften bi verdeenen. Dat Ännern vun de Weltinstellungen nu kann dat nich mehr ännern. Du muttst na en anner Welt gahn, wenn du Errungenschaften verdeenen wullt.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "Beta-Funkschonen sünd anmaakt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.flat",
+        "source_string": "The world is created as a flatworld",
+        "translation": "De Welt is as en Flachland opstellt worrn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
+        "source_string": "A behavior pack is activated",
+        "translation": "En Behavior Pack is aktiveert",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.permissions",
+        "source_string": "The world creator has operator privileges",
+        "translation": "De Weltmaker hett Operator-Rechte",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.reasonText",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Errungenschaften künnt in disse Welt nich verdeent warrn, wenn:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "De Welt is ut en Vörlaag boot worrn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Du kannst keen Errungenschaften verdeenen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "De Weltmaker bruukt de Probeverschoon vun Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "Belohnung afslaten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "Belohnung freeschalt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.reward",
+        "source_string": "Reward",
+        "translation": "Belohnung",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.viewReward",
+        "source_string": "View reward",
+        "translation": "Belohnung ankieken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.all",
+        "source_string": "All",
+        "translation": "All",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.aquatic",
+        "source_string": "Aquatic",
+        "translation": "Water",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.buildinganddecorating",
+        "source_string": "Building & Decorating",
+        "translation": "Buen & Utsmucken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.combat",
+        "source_string": "Combat",
+        "translation": "Kamp",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.culinaryexploits",
+        "source_string": "Culinary exploits",
+        "translation": "Kökenkünste",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.exploringyourworld",
+        "source_string": "Exploring your world",
+        "translation": "Dien Welt verkennen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.farmingandhusbandry",
+        "source_string": "Farming & Husbandry",
+        "translation": "Ackerbo & Vehtucht",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.feelslikemagic",
+        "source_string": "Feels like magic",
+        "translation": "Föhlt sik as Magie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gearup",
+        "source_string": "Gear up",
+        "translation": "Utrüsten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gettingstarted",
+        "source_string": "Getting started",
+        "translation": "Eerste Schreed",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.mining",
+        "source_string": "Mining",
+        "translation": "Buddeln",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.nether",
+        "source_string": "Nether",
+        "translation": "Nether",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.other",
+        "source_string": "Other",
+        "translation": "Anners",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.redstone",
         "source_string": "Redstone",
         "translation": "Redstone Blocks",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2015",
+        "source_string": "2015",
+        "translation": "2015",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2016",
+        "source_string": "2016",
+        "translation": "2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.buzzybees",
+        "source_string": "Buzzy Bees, 2019",
+        "translation": "Bunte Been, 2019",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.cavesandcliffs",
+        "source_string": "Caves & Cliffs, 2021",
+        "translation": "Höhlen & Klippen, 2021",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.enderupdate",
+        "source_string": "Ender Update, 2016",
+        "translation": "End-Update, 2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.holidayupdate",
+        "source_string": "Holiday Update, 2018",
+        "translation": "Fierdag-Update, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.netherupdate",
+        "source_string": "Nether Update, 2020",
+        "translation": "Nether-Update, 2020",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thediscoveryupdate",
+        "source_string": "The Discovery Update, 2017",
+        "translation": "Opdeckungs-Update, 2017",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thegardenawakens",
+        "source_string": "The Garden Awakens, 2024",
+        "translation": "De Goorn wecht op, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thewildupdate",
+        "source_string": "The Wild Update, 2022",
+        "translation": "Wild-Update, 2022",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trailsandtales",
+        "source_string": "Trails & Tales, 2023",
+        "translation": "Padden & Vertellingen, 2023",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trickytrials",
+        "source_string": "Tricky Trials, 2024",
+        "translation": "Lastige Pröven, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.updateaquatic",
+        "source_string": "Update Aquatic, 2018",
+        "translation": "Aquatic-Update, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.villageandpillage",
+        "source_string": "Village & Pillage, 2019",
+        "translation": "Dörp & Röverie, 2019",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -24480,9 +25312,881 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.villageandpillage",
+        "source_string": "Village & Pillage",
+        "translation": "Dörp & Röverie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.zoology",
+        "source_string": "Zoology",
+        "translation": "Zoologie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completed",
+        "source_string": "Completed",
+        "translation": "Fardig",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyText",
+        "source_string": "Complete achievements to admire them here.",
+        "translation": "Sluut Verdeensten af, üm se hier to bewunnern.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyTitle",
+        "source_string": "Nothing to see here... yet!",
+        "translation": "Hier gifft dat noch nix to sehen... noch nich!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessage",
+        "source_string": "Please try again or check your internet connection.",
+        "translation": "Bitte versöök dat nochmal oder prööv dien Internetverbinnen.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessageTitle",
+        "source_string": "Achievements couldn’t load.",
+        "translation": "Achievements kunnen nich laadt warrn.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.inProgress",
+        "source_string": "In progress",
+        "translation": "Ünnerwegens",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.loading",
+        "source_string": "Fetching achievements...",
+        "translation": "Achievements warrt haalt...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.locked",
+        "source_string": "Locked",
+        "translation": "Afslaten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyText",
+        "source_string": "You've completed all achievements.",
+        "translation": "Du hest all Achievements schafft.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyTitle",
+        "source_string": "Wow, you're amazing!",
+        "translation": "Wow, du büst grootarig!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Warrt laadt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.selected",
+        "source_string": "selected",
+        "translation": "utwählt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, Tab %2$s vun %3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.title",
+        "source_string": "Achievements screen",
+        "translation": "Achievements-Schirm",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessage",
+        "source_string": "You can only collect achievements in the release version of Minecraft.",
+        "translation": "Du kannst Achievements bloots in de Release-Verschoon vun Minecraft sammeln.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessageTitle",
+        "source_string": "Achievements are not available in Preview",
+        "translation": "Achievements sünd in de Preview nich verföögbor",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.title",
+        "source_string": "Achievements",
+        "translation": "Achievements",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "Gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.hoursPlayed",
+        "source_string": "%1$s hours",
+        "translation": "%1$s Stünnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedAchievements",
+        "source_string": "completed %1$s of %2$s",
+        "translation": "schafft %1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedRewards",
+        "source_string": "Rewards %1$s of %2$s",
+        "translation": "Belohnens %1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorGamerscore",
+        "source_string": "Gamerscore %1$s of %2$s",
+        "translation": "Gamerscore %1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorIndex",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorInProgress",
+        "source_string": "In progress %1$s",
+        "translation": "Ünnerwegens %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorPercentage",
+        "source_string": "%1$s percent progress",
+        "translation": "%1$s Perzent Vörankamen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorSummary",
+        "source_string": "Achievements summary",
+        "translation": "Achievements-Översicht",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTextBlock",
+        "source_string": "Text block",
+        "translation": "Textblock",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTimePlayed",
+        "source_string": "Time played %1$s hours",
+        "translation": "Speeltiet %1$s Stünnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.percentage",
+        "source_string": "%1$s of %2$s completed",
+        "translation": "%1$s vun %2$s schafft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.progress",
+        "source_string": "In progress",
+        "translation": "Ünnerwegens",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.rewards",
+        "source_string": "Rewards",
+        "translation": "Belohnens",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.time",
+        "source_string": "Time played",
+        "translation": "Speeltiet",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.backToTop",
+        "source_string": "Back to top",
+        "translation": "Torüch na baven",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.followers",
+        "source_string": "Followers",
+        "translation": "Follower",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.gamertagSearch",
+        "source_string": "Search results",
+        "translation": "Söökergebnis",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.genericOnExpandNarrationHint",
+        "source_string": "Navigate down to View List of Players",
+        "translation": "Na ünnen gahn, üm de List vun Spelers to sehen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.loadMoreResults",
+        "source_string": "Load more results",
+        "translation": "Mehr Ergebnisse laden",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.enumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.followersSuggestions",
+        "source_string": "%1$s Followers suggestions",
+        "translation": "%1$s Vörslääg för Nafolgers",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.gamertagSearchSuggestions",
+        "source_string": "%1$s Search results",
+        "translation": "%1$s Söökresultaten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsFound",
+        "source_string": "No suggestions right now",
+        "translation": "Opstunns keen Vörslääg",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagefollowers",
+        "source_string": "You’ve already added all of your followers! Check back later.",
+        "translation": "Du hest all Dien Nafolgers tofögt! Kiek later nochmal na.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagegamertagSearch",
+        "source_string": "Please refine your search.",
+        "translation": "Bitte maak Dien Söök nauer.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecentlyPlayedWith",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Speel mit Lüüd op Realms oder Servern, üm mehr Vörslääg to kriegen!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecommendedFriends",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Speel mit Lüüd op Realms oder Servern, üm mehr Vörslääg to kriegen!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recentlyPlayedWithSuggestions",
+        "source_string": "%1$s Recently played with suggestions",
+        "translation": "%1$s Vörslääg – toletzt mit speelt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recommendedFriendsSuggestions",
+        "source_string": "%1$s Recommended friend suggestions",
+        "translation": "%1$s Vörslääg för anraadene Frünnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recentlyPlayedWith",
+        "source_string": "Recently played with",
+        "translation": "Toletzt mit speelt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recommendedFriends",
+        "source_string": "Recommended friends",
+        "translation": "Vörslagen Frünnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.followers",
+        "source_string": "Your followers will appear here.",
+        "translation": "Hier warrt dien Volgers wiest.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.noSuggestionsFound",
+        "source_string": "No suggestions found",
+        "translation": "Keen Vörslääg funnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.recentlyPlayedWith",
+        "source_string": "Play with new people to get more suggestions!",
+        "translation": "Speel mit nee Lüüd, üm mehr Vörslääg to kriegen!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.recommendedFriends",
+        "source_string": "Follow players and add friends for suggestions.",
+        "translation": "Folg Spelers un föög Frünnen to för Vörslääg.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.blockedAddingFriendsMessage",
+        "source_string": "You cannot add friends because of an account settings restriction. View and manage your multiplayer settings with “Privacy & online safety” in the Account settings.",
+        "translation": "Du kannst keen Frünnen tofögen wegen een Instellensbeschränken bi dien Konto. Kiek un ännere dien Multiplayer-Instellens ünner „Privatsphäre & Sekerheit online“ in de Konto-Instellens.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.blockedAddingFriendsTitle",
+        "source_string": "You need permission!",
+        "translation": "Du bruukst Verlöv!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.learnMore",
+        "source_string": "Learn more",
+        "translation": "Mehr weten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.loadErrorMessage",
+        "source_string": "We encountered an unknown error, please try again.",
+        "translation": "Dat is een unbekannten Fehler opdukt, versöök dat noch mal.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.loadErrorTitle",
+        "source_string": "Search for players couldn't load!",
+        "translation": "Söök na Spelers kunn nich laden!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.parentalControlBlockMessage",
+        "source_string": "You cannot add friends because of a parental control restriction. View and manage your multiplayer settings with “Online Safety” in the parental controls.",
+        "translation": "Du kannst keen Frünnen tofögen wegen een Kinnersekeren-Beschränken. Kiek un ännere dien Multiplayer-Instellens ünner „Sekerheit online“ in de Kinnersekeren.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.parentalControlBlockTitle",
+        "source_string": "You need permission!",
+        "translation": "Du bruukst Verlöv!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.searchErrorMessage",
+        "source_string": "Please refine your search.",
+        "translation": "Grenz dien Söök wat in.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.searchErrorTitle",
+        "source_string": "No gamertag found :(",
+        "translation": "Keen Gamertag funnen :(",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.tryAgain",
+        "source_string": "Try again",
+        "translation": "Noch mal versöken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.emptyState",
+        "source_string": "Empty state",
+        "translation": "Leeg Toostand",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.error",
+        "source_string": "Error",
+        "translation": "Fehler",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.header",
+        "source_string": "Search For Players",
+        "translation": "Söök na Spelers",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.noGamertagFound",
+        "source_string": "No gamertag found",
+        "translation": "Keen Gamertag funnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.recentlyPlayedWith",
+        "source_string": "Recently played with",
+        "translation": "Tolest speelt mit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.recommendedFriends",
+        "source_string": "Recommendations",
+        "translation": "Vörslääg",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.refineSearch",
+        "source_string": "Please refine your search",
+        "translation": "Grenz dien Söök wat in",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.search",
+        "source_string": "Search",
+        "translation": "Söök",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.searchCantLoad",
+        "source_string": "Search for players couldn't load",
+        "translation": "Söök na Spelers kunn nich laden",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.unknownError",
+        "source_string": "We encountered an unkown error, please try again.",
+        "translation": "Dat is een unbekannten Fehler opdukt, versöök dat noch mal.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendsButton.addFriends",
+        "source_string": "Add friends",
+        "translation": "Frünnen tofögen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendsButton.searchForFriends",
+        "source_string": "Search for players",
+        "translation": "Söök na Spelers",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.emptyState",
+        "source_string": "Empty state",
+        "translation": "Leeg Toostand",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.noResults",
+        "source_string": "No gamertag found",
+        "translation": "Keen Gamertag funnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.pluralResults",
+        "source_string": "%1$s gamertags Found",
+        "translation": "%1$s Gamertags funnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.refineSearch",
+        "source_string": "Please refine your search",
+        "translation": "Grenz dien Söök wat in",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.searchBar",
+        "source_string": "Search Bar",
+        "translation": "Söökbalken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.searchByQR",
+        "source_string": "Find friends using a QR Code",
+        "translation": "Frünnen mit een QR-Code finnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.searchGamertagHint",
+        "source_string": "Find friends by searching for their Gamertag",
+        "translation": "Frünnen finnen dör Söken na hör Gamertag",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.narration.singularResult",
+        "source_string": "1 gamertag Found",
+        "translation": "1 Gamertag funnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.scanQRCode",
+        "source_string": "Scan QR code",
+        "translation": "QR-Code scannen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.search",
+        "source_string": "Search",
+        "translation": "Söök",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.searchGamertag",
+        "source_string": "Search gamertag",
+        "translation": "Gamertag söken",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.searchGamertagDescription",
+        "source_string": "Find players by gamertag",
+        "translation": "Spelers finnen dör Gamertag",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.copyGamertagButton",
+        "source_string": "Copy Gamertag",
+        "translation": "Gamertag koperen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.gamertagCopied",
+        "source_string": "Gamertag Copied",
+        "translation": "Gamertag koperert",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.narration.buttonSiblings",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.narration.group",
+        "source_string": "Group",
+        "translation": "Gruppe",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.narration.QRHint",
+        "source_string": "Scan QR code to view %1$s profile",
+        "translation": "QR-Code scannen üm %1$s Profil to sehn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.shareButton",
+        "source_string": "Share",
+        "translation": "Delen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.shareButtonHint",
+        "source_string": "Press to share your profile link and gamertag",
+        "translation": "Drück üm dien Profillink un Gamertag to delen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSideMenu.shareText",
+        "source_string": "Add me as a friend in Minecraft!",
+        "translation": "Föög mi as Frünn to in Minecraft!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.confirmInputLegend",
+        "source_string": "Confirm",
+        "translation": "Bestätigen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AnnouncementModalRoute.continue",
         "source_string": "Continue",
         "translation": "Fortsetzen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.errorInvalidTemplate",
+        "source_string": "Message had an invalid template and could not be displayed",
+        "translation": "De Nahricht harr en leeg Vörlaag un kunn nich wiest warrn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.errorNoMessage",
+        "source_string": "Message not found",
+        "translation": "Nahricht nich funnen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.errorTitle",
+        "source_string": "Announcement error",
+        "translation": "Bekanntmakenfehler",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.errorUnsupportedTemplate",
+        "source_string": "Template not implemented",
+        "translation": "Vörlaag nich implementeert",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.narration.enumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AnnouncementModalRoute.unlock",
+        "source_string": "Unlock",
+        "translation": "Utsparren",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.bodyFirstParagraph",
+        "source_string": "You’ve been permanently banned from Minecraft’s online services. This means you can’t play on servers, join Realms, host or join multiplayer games, or use Marketplace.",
+        "translation": "Du bist för jümmer vun Minecraft sien Online-Deenste utsparrt worrn. Dat heet, du kannst nich op Servers spelen, keen Realms bitreden, nich Multiplayer-Spelen utrichten oder bitreden un ok nich den Marketplace bruken.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.bodySecondParagraph",
+        "source_string": "For more information or to submit a case review, use the button below.",
+        "translation": "Wenn du mehr weten wullt oder en Prööv verlangen wullt, bruuk den Knoop nerrn.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.helpButton",
+        "source_string": "More info",
+        "translation": "Mehr Info",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.reasonsTitle",
+        "source_string": "Reason for ban:",
+        "translation": "Grund för de Utsparren:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.BannedMessage.title",
+        "source_string": "You’ve been permanently banned",
+        "translation": "Du bist för jümmer utsparrt worrn",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -24496,9 +26200,393 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.bodyFirstParagraph",
+        "source_string": "You've been suspended from playing multiplayer in Minecraft. You won't be able to play on servers, join Realms, host or join multiplayer games, or use the Marketplace.",
+        "translation": "Du bist vun't Multiplayer-Spelen in Minecraft utsparrt worrn. Du kannst nich op Servers spelen, keen Realms bitreden, nich Multiplayer-Spelen utrichten oder bitreden un ok nich den Marketplace bruken.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.bodySecondParagraph",
+        "source_string": "For more information or to request a case review, use the help button.",
+        "translation": "Wenn du mehr weten wullt oder en Prööv verlangen wullt, bruuk den Hülp-Knoop.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.helpButton",
+        "source_string": "Help",
+        "translation": "Hülp",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.reasonsTitle",
+        "source_string": "Reasons for suspension:",
+        "translation": "Grünn för de Utsparren:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.SuspendedMessage.title",
+        "source_string": "Temporarily suspended",
+        "translation": "För kort utsparrt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedMessage.timer",
+        "source_string": "%1$sd %2$sh %3$sm",
+        "translation": "%1$sd %2$sh %3$smin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.reasonForBan",
+        "source_string": "Reason for ban:",
+        "translation": "Grund för de Utsparren:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.advertising",
+        "source_string": "Spam or Advertising",
+        "translation": "Spam oder Warben",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.chat",
+        "source_string": "Chat message",
+        "translation": "Klöönsnak-Nahricht",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.gameplay",
         "source_string": "Gameplay",
         "translation": "Speel",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.ingame",
+        "source_string": "In-game build",
+        "translation": "Boo binnen't Spel",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.other",
+        "source_string": "Other",
+        "translation": "Anners",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "Speeler-Skin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.cheating",
+        "source_string": "Cheating",
+        "translation": "Betrügen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationGrooming",
+        "source_string": "Violating community standards",
+        "translation": "Verstoot gegen de Gemeenschap-Regeln",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Violating community standards",
+        "translation": "Verstoot gegen de Gemeenschap-Regeln",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.controversial",
+        "source_string": "Controversial topic",
+        "translation": "Ümstridenes Thema",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.cyberbullying",
+        "source_string": "Cyberbullying",
+        "translation": "Cybermobben",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.defamation",
+        "source_string": "Impersonation or sharing information to exploit or mislead others",
+        "translation": "Sik för een anneren utgeven oder Informatschonen deelt, üm anner Lüü to bedregen oder to lüren",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.drugs",
+        "source_string": "References to illegal drugs",
+        "translation": "Bineemen vun illegale Drogen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.exploits",
+        "source_string": "Exploits and 3rd party applications",
+        "translation": "Utnutten un Programme vun Drüdde",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.extremeViolence",
+        "source_string": "Depictions of real-life excessive violence or gore",
+        "translation": "Dorstellen vun echte, övertreven Gewalt oder blodige Biller",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.falseReporting",
+        "source_string": "Excessive false / inaccurate reports",
+        "translation": "To veel falske / nich richtige Meldungen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.fraud",
+        "source_string": "Fraudulent acquisition or use of content",
+        "translation": "Bedreegersch Anschaffen oder Bruuk vun Inholt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.harassingComments",
+        "source_string": "Harassing or defamatory comments",
+        "translation": "Belästigende oder üöverdreven Kommentaren",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.harassment",
+        "source_string": "Abusive language used in a directed, harmful manner",
+        "translation": "Beleidigende Spraak, direkt un schadhaft bruukt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.hateSpeech",
+        "source_string": "Hate Speech or discrimination",
+        "translation": "Haatrede oder Diskriminatschoon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.illegalDrugs",
+        "source_string": "Illegal drugs or activities",
+        "translation": "Illegale Drogen oder Aktivitäten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.imminentHarm",
+        "source_string": "Intent to cause real-life harm to persons or property",
+        "translation": "Vöörhebben, um Lüü oder Eegendom in't wahre Leven Schaden to don",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.impersonatingStaff",
+        "source_string": "Impersonating staff, player support, or community representatives",
+        "translation": "Sik as Personal, Speeler-Hülp oder Gemeenschap-Vertreder utgeven",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.inGameTrolling",
+        "source_string": "In-Game trolling & spamming",
+        "translation": "Trolln & Spammen binnen't Spel",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.modding",
+        "source_string": "Modding",
+        "translation": "Modden",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nameOrGamertag",
+        "source_string": "Player Name or gamertag",
+        "translation": "Speelernaam oder Gamertag",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Violating community standards",
+        "translation": "Verstoot gegen de Gemeenschap-Regeln",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.notoriousFigure",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "Bineemen vun Haatgruppen, Terrororganisatschonen oder berüchtige Personen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nudity",
+        "source_string": "Displaying lewd or pornographic material",
+        "translation": "Wiesen vun ünanstännig oder pornografisch Materiaal",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.obsceneLanguage",
+        "source_string": "Obscene or vulgar language",
+        "translation": "Unanstännige oder gemene Spraak",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.policyViolation",
+        "source_string": "Policy violation",
+        "translation": "Verstoot gegen de Regeln",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.postLinkToInappropriateContent",
+        "source_string": "Posting links to inappropriate content or malicious software",
+        "translation": "Delen vun Links to nich passendem Inholt oder schadhafte Software",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.profanity",
+        "source_string": "Profanity",
+        "translation": "Fluchen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.realLifeInfo",
+        "source_string": "Real life information and threats",
+        "translation": "Echte, persönliche Informatschonen un Bedrohungen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.selfHarm",
+        "source_string": "Violating community standards",
+        "translation": "Verstoot gegen de Gemeenschap-Regeln",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.sexuallyInappropriate",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Themen oder Inholt mit sexueller Ort",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.sexualReference",
+        "source_string": "References to sexual content & violence",
+        "translation": "Bineemen vun sexuellem Inholt & Gewalt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.sexualViolence",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Themen oder Inholt mit sexueller Ort",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.spam",
+        "source_string": "Spamming for commercial purposes",
+        "translation": "Spammen för kommerzielle Tweck",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.terrorismOrViolentExtremism",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "Bineemen vun Haatgruppen, Terrororganisatschonen oder berüchtige Personen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.unconfirmedCSE",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Themen oder Inholt mit sexueller Ort",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.unsportingBehavior",
+        "source_string": "Unsporting behavior",
+        "translation": "Nich fairs Bedregen",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -24512,9 +26600,137 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Bedtime.chatScreenDisabled",
+        "source_string": "Chat is currently disabled",
+        "translation": "De Klöönsnak is opstunns utschalt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.chattingDisabled",
+        "source_string": "Chat with other players is currently disabled on this server",
+        "translation": "De Klöönsnak mit anner Speelers is op dissen Server opstunns utschalt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.enumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.leaveBedButton",
+        "source_string": "Leave bed",
+        "translation": "Bett verlaten",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageAllPlayersSleepingNight",
+        "source_string": "Sleeping through the night",
+        "translation": "De ganze Nacht dörslapen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageAllPlayersSleepingThunderstorm",
+        "source_string": "Sleeping through the thunderstorm",
+        "translation": "Dat Gewitter dörslapen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersPluralNight",
+        "source_string": "Night will be skipped when %1$s more players sleep.",
+        "translation": "De Nacht warrt övergahn, wenn noch %1$s Speelers slapen.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersPluralThunderstorm",
+        "source_string": "Thunderstorm will be skipped when %1$s more players sleep.",
+        "translation": "Dat Gewitter warrt övergahn, wenn noch %1$s Speelers slapen.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersSingularNight",
+        "source_string": "Night will be skipped when one other player sleeps.",
+        "translation": "De Nacht warrt övergahn, wenn noch een anner Speeler slöppt.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageWaitingForOthersSingularThunderstorm",
+        "source_string": "Thunderstorm will be skipped when one other player sleeps.",
+        "translation": "Dat Gewitter warrt övergahn, wenn noch een anner Speeler slöppt.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.openChatButton",
+        "source_string": "Open chat",
+        "translation": "Klöönsnak apen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.sleepingNotPossibleNotWorldOwner",
+        "source_string": "The 'Skip night by sleeping' setting is turned off. The owner of this world needs to turn this setting on in edit world.",
+        "translation": "De Instellung „Nacht dör Slapen övergahn“ is utschalt. De Eegner vun disse Welt mutt disse Instellung in de Welt-Bewerken instellen.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.sleepingNotPossibleWorldOwner",
+        "source_string": "The 'Skip night by sleeping' setting is turned off. Turn it on under advanced settings in edit world.",
+        "translation": "De Instellung „Nacht dör Slapen övergahn“ is utschalt. Maak ehr bi de verwiederten Instellungen in de Welt-Bewerken an.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CapeIncentiveReceivedTransientRoute.buttonEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s vun %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CapeIncentiveReceivedTransientRoute.continueButton",
         "source_string": "Continue",
         "translation": "Fortsetzen",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CapeIncentiveReceivedTransientRoute.dressingRoomButton",
+        "source_string": "Go to Dressing Room",
+        "translation": "Na de Ümkleedstuv gahn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CapeIncentiveReceivedTransientRoute.text1",
+        "source_string": "You did it! You're all logged in, which means you have a fancy new Common Cape to show off. Or use it to hide among the foliage. The choice is yours.",
+        "translation": "Dat hest du schafft! Nu bist du anmeldt, dat heet, du hest en dulle nee Standard-Umhang, mit den du protzen kannst. Oder bruuk em, um di in't Grön to versteken. Du hest de Wahl.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

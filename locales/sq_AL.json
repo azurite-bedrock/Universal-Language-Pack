@@ -25952,9 +25952,161 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "Akordion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.openInputLegend",
+        "source_string": "Open",
+        "translation": "Hap",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "I mbledhur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "I zgjeruar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AccountUnlinkRoute.cancelButton",
         "source_string": "Cancel",
         "translation": "Anulo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "Ok",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "Llogaritë tuaja nuk mund të shkëputeshin. Provo të kontrollosh lidhjen e internetit?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "Ndodhi një gabim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "A je i sigurt?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "Duke shkëputur llogaritë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successBody",
+        "source_string": "Your accounts have been unlinked",
+        "translation": "Llogaritë e tua janë shkëputur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successHeader",
+        "source_string": "Unlink successful",
+        "translation": "Shkëputja u krye me sukses",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkButton",
+        "source_string": "Unlink",
+        "translation": "Shkëput",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine1",
+        "source_string": "Account unlink warning",
+        "translation": "Paralajmërim për shkëputjen e llogarisë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine2",
+        "source_string": "Account unlink details",
+        "translation": "Detaje për shkëputjen e llogarisë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
+        "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
+        "translation": "Nëse e kupton sa më sipër dhe prapëseprapë dëshiron të shkëputësh llogarinë tënde, zgjedh \"Shkëput\" më poshtë.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.anotherPlatform",
+        "source_string": "Completed on another platform",
+        "translation": "Përfunduar në një platformë tjetër",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.completed",
+        "source_string": "Completed",
+        "translation": "Përfunduar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "Gamerscore",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -25976,9 +26128,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDetailsRoute.errorMessage",
+        "source_string": "Achievement couldn’t load. Please try again or check your internet connection.",
+        "translation": "Suksesi nuk u ngarkua. Provo përsëri ose kontrollo lidhjen e internetit.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.completed",
+        "source_string": "completed",
+        "translation": "përfunduar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.gamerscore",
+        "source_string": "gamerscore",
+        "translation": "gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Duke u ngarkuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDetailsRoute.narration.locked",
         "source_string": "locked",
         "translation": "i bllokuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.percentage",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.progress",
+        "source_string": "progress",
+        "translation": "përparimi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "shpërblim i kyçur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "shpërblim i shkyçur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.title",
+        "source_string": "Achievement details",
+        "translation": "Detajet e arritjes",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.reward",
+        "source_string": "Reward",
+        "translation": "Shpërblim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.title",
+        "source_string": "Achievement Details",
+        "translation": "Detajet e arritjes",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.titleNarration",
+        "source_string": "Achievement Details Screen",
+        "translation": "Ekrani i detajeve të arritjes",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.viewReward",
+        "source_string": "View reward",
+        "translation": "Shiko shpërblimin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
+        "source_string": "A behavior pack is activated",
+        "translation": "Një Behavior Pack është aktivizuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
+        "source_string": "Cheats are enabled",
+        "translation": "Cheat-et janë aktivizuar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -25992,9 +26264,217 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "Krijo gjithsesi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
+        "source_string": "Continue anyway",
+        "translation": "Vazhdo gjithsesi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.creativeMode",
+        "source_string": "The world is created in creative mode",
+        "translation": "Bota është krijuar në modin Creative",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "Veçoritë beta janë aktivizuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "Krijimi i një bote duke përdorur ndonjë nga veçoritë e mëposhtme do të thotë që nuk do të mund të fitosh arritje në këtë botë. Edhe nëse i çaktivizon këto opsione më vonë, do të duhet të vizitosh një botë tjetër për të fituar arritje.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "Krijimi i një bote duke përdorur veçorinë e mëposhtme do të thotë që nuk do të mund të fitosh arritje në atë botë. Edhe nëse e çaktivizon këtë opsion më vonë, do të duhet të vizitosh një botë tjetër për të fituar arritje.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "Mënyra se si është krijuar kjo botë do të thotë që nuk do të mund të fitosh arritje duke luajtur në të. Ndryshimi i cilësimeve të botës tani nuk mund ta ndryshojë këtë. Do të duhet të vizitosh një botë tjetër për të fituar arritje.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "Bota është krijuar si botë e sheshtë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Kthehu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "Krijuesi i botës ka privilegje Operatori",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Arritjet nuk mund të fitohen në këtë botë nëse:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "Bota është ndërtuar nga një shabllon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Nuk mund të fitosh arritje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "Krijuesi i botës po përdor versionin provë të Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.completed",
+        "source_string": "Completed",
+        "translation": "Përfunduar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.gamerscoreNarration",
+        "source_string": "gamerscore %1$s",
+        "translation": "gamerscore %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.groupNarration",
+        "source_string": "Group %1$s of %2$s",
+        "translation": "Grupi %1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.inProgress",
+        "source_string": "In progress",
+        "translation": "Në progres",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementListItem.locked",
         "source_string": "Locked",
         "translation": "I bllokuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationCompleted",
+        "source_string": "%1$s of %2$s, unlocked, %3$s gamerscore",
+        "translation": "%1$s nga %2$s, e shkyçur, %3$s gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationLocked",
+        "source_string": "%1$s of %2$s, locked, %3$s gamerscore",
+        "translation": "%1$s nga %2$s, e kyçur, %3$s gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.percentageNarration",
+        "source_string": "progress of %1$s percent",
+        "translation": "progres prej %1$s përqind",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardLockedNarration",
+        "source_string": "Reward locked",
+        "translation": "Shpërblim i kyçur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardUnlockedNarration",
+        "source_string": "Reward unlocked",
+        "translation": "Shpërblim i shkyçur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.siblingNarration",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "Butoni %1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.view",
+        "source_string": "View details",
+        "translation": "Shiko detajet",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.cheats",
+        "source_string": "Cheats are enabled",
+        "translation": "Cheat-et janë aktivizuar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26008,9 +26488,217 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.creative",
+        "source_string": "The world is created in creative mode",
+        "translation": "Bota është krijuar në modin Creative",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.description",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "Mënyra se si është krijuar kjo botë do të thotë që nuk do të mund të fitosh arritje duke luajtur në të. Ndryshimi i cilësimeve të botës tani nuk mund ta ndryshojë këtë. Do të duhet të vizitosh një botë tjetër për të fituar arritje.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "Veçoritë beta janë aktivizuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.flat",
+        "source_string": "The world is created as a flatworld",
+        "translation": "Bota është krijuar si botë e sheshtë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
+        "source_string": "A behavior pack is activated",
+        "translation": "Një Behavior Pack është aktivizuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.permissions",
+        "source_string": "The world creator has operator privileges",
+        "translation": "Krijuesi i botës ka privilegje operatori",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.reasonText",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Arritjet nuk mund të fitohen në këtë botë nëse:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "Bota është ndërtuar nga një shabllon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Nuk mund të fitosh arritje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "Krijuesi i botës po përdor versionin provë të Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "shpërblim i kyçur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "shpërblim i shkyçur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.reward",
+        "source_string": "Reward",
+        "translation": "Shpërblim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.viewReward",
+        "source_string": "View reward",
+        "translation": "Shiko shpërblimin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.all",
         "source_string": "All",
         "translation": "Të gjitha",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.aquatic",
+        "source_string": "Aquatic",
+        "translation": "Ujore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.buildinganddecorating",
+        "source_string": "Building & Decorating",
+        "translation": "Ndërtim dhe zbukurim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.combat",
+        "source_string": "Combat",
+        "translation": "Luftime",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.culinaryexploits",
+        "source_string": "Culinary exploits",
+        "translation": "Aventura culinare",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.exploringyourworld",
+        "source_string": "Exploring your world",
+        "translation": "Duke eksploruar botën tënde",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.farmingandhusbandry",
+        "source_string": "Farming & Husbandry",
+        "translation": "Bujqësi dhe blegtori",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.feelslikemagic",
+        "source_string": "Feels like magic",
+        "translation": "Duket si magji",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gearup",
+        "source_string": "Gear up",
+        "translation": "Pajisu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gettingstarted",
+        "source_string": "Getting started",
+        "translation": "Fillimi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.mining",
+        "source_string": "Mining",
+        "translation": "Minierat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.nether",
+        "source_string": "Nether",
+        "translation": "Nether",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.other",
+        "source_string": "Other",
+        "translation": "Të tjera",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -26024,6 +26712,118 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.release.2015",
+        "source_string": "2015",
+        "translation": "2015",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2016",
+        "source_string": "2016",
+        "translation": "2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.buzzybees",
+        "source_string": "Buzzy Bees, 2019",
+        "translation": "Buzzy Bees, 2019",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.cavesandcliffs",
+        "source_string": "Caves & Cliffs, 2021",
+        "translation": "Caves & Cliffs, 2021",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.enderupdate",
+        "source_string": "Ender Update, 2016",
+        "translation": "Ender Update, 2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.holidayupdate",
+        "source_string": "Holiday Update, 2018",
+        "translation": "Holiday Update, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.netherupdate",
+        "source_string": "Nether Update, 2020",
+        "translation": "Nether Update, 2020",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thediscoveryupdate",
+        "source_string": "The Discovery Update, 2017",
+        "translation": "The Discovery Update, 2017",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thegardenawakens",
+        "source_string": "The Garden Awakens, 2024",
+        "translation": "The Garden Awakens, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thewildupdate",
+        "source_string": "The Wild Update, 2022",
+        "translation": "The Wild Update, 2022",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trailsandtales",
+        "source_string": "Trails & Tales, 2023",
+        "translation": "Trails & Tales, 2023",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trickytrials",
+        "source_string": "Tricky Trials, 2024",
+        "translation": "Tricky Trials, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.updateaquatic",
+        "source_string": "Update Aquatic, 2018",
+        "translation": "Update Aquatic, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.villageandpillage",
+        "source_string": "Village & Pillage, 2019",
+        "translation": "Village & Pillage, 2019",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.theend",
         "source_string": "The End",
         "translation": "Perfundimi",
@@ -26032,9 +26832,489 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.villageandpillage",
+        "source_string": "Village & Pillage",
+        "translation": "Village & Pillage",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.zoology",
+        "source_string": "Zoology",
+        "translation": "Zoologji",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completed",
+        "source_string": "Completed",
+        "translation": "Përfunduar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyText",
+        "source_string": "Complete achievements to admire them here.",
+        "translation": "Përfundo suksese për t'i admiruar këtu.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyTitle",
+        "source_string": "Nothing to see here... yet!",
+        "translation": "Nuk ka asgjë për të parë këtu... akoma!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessage",
+        "source_string": "Please try again or check your internet connection.",
+        "translation": "Provo përsëri ose kontrollo lidhjen tënde në internet.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessageTitle",
+        "source_string": "Achievements couldn’t load.",
+        "translation": "Sukseset nuk u ngarkuan.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.inProgress",
+        "source_string": "In progress",
+        "translation": "Në progres",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.loading",
+        "source_string": "Fetching achievements...",
+        "translation": "Duke marrë sukseset...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.locked",
         "source_string": "Locked",
         "translation": "I bllokuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyText",
+        "source_string": "You've completed all achievements.",
+        "translation": "Ke përfunduar të gjitha sukseset.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyTitle",
+        "source_string": "Wow, you're amazing!",
+        "translation": "Uau, je i mahnitshëm!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Duke u ngarkuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.selected",
+        "source_string": "selected",
+        "translation": "i zgjedhur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, skeda %2$s nga %3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.title",
+        "source_string": "Achievements screen",
+        "translation": "Ekrani i suksesseve",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessage",
+        "source_string": "You can only collect achievements in the release version of Minecraft.",
+        "translation": "Mund të mbledhësh sukses vetëm në versionin release të Minecraft.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessageTitle",
+        "source_string": "Achievements are not available in Preview",
+        "translation": "Sukseset nuk janë të disponueshme në Preview",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.title",
+        "source_string": "Achievements",
+        "translation": "Sukseset",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "Gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.hoursPlayed",
+        "source_string": "%1$s hours",
+        "translation": "%1$s orë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedAchievements",
+        "source_string": "completed %1$s of %2$s",
+        "translation": "përfunduar %1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedRewards",
+        "source_string": "Rewards %1$s of %2$s",
+        "translation": "Shpërblimet %1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorGamerscore",
+        "source_string": "Gamerscore %1$s of %2$s",
+        "translation": "Gamerscore %1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorIndex",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorInProgress",
+        "source_string": "In progress %1$s",
+        "translation": "Në progres %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorPercentage",
+        "source_string": "%1$s percent progress",
+        "translation": "%1$s përqind progres",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorSummary",
+        "source_string": "Achievements summary",
+        "translation": "Përmbledhje e suksesseve",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTextBlock",
+        "source_string": "Text block",
+        "translation": "Blloku i tekstit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTimePlayed",
+        "source_string": "Time played %1$s hours",
+        "translation": "Koha e luajtur %1$s orë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.percentage",
+        "source_string": "%1$s of %2$s completed",
+        "translation": "%1$s nga %2$s përfunduar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.progress",
+        "source_string": "In progress",
+        "translation": "Në progres",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.rewards",
+        "source_string": "Rewards",
+        "translation": "Shpërblime",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.time",
+        "source_string": "Time played",
+        "translation": "Koha e luajtur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.backToTop",
+        "source_string": "Back to top",
+        "translation": "Kthehu lart",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.followers",
+        "source_string": "Followers",
+        "translation": "Ndjekës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.gamertagSearch",
+        "source_string": "Search results",
+        "translation": "Rezultatet e kërkimit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.genericOnExpandNarrationHint",
+        "source_string": "Navigate down to View List of Players",
+        "translation": "Lëviz poshtë për të Parë Listën e Lojtarëve",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.loadMoreResults",
+        "source_string": "Load more results",
+        "translation": "Ngarko më shumë rezultate",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.enumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.followersSuggestions",
+        "source_string": "%1$s Followers suggestions",
+        "translation": "%1$s sugjerime ndjekësish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.gamertagSearchSuggestions",
+        "source_string": "%1$s Search results",
+        "translation": "%1$s rezultate kërkimi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsFound",
+        "source_string": "No suggestions right now",
+        "translation": "Asnjë sugjerim tani",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagefollowers",
+        "source_string": "You’ve already added all of your followers! Check back later.",
+        "translation": "I ke shtuar tashmë të gjithë ndjekësit! Kontrollo më vonë.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagegamertagSearch",
+        "source_string": "Please refine your search.",
+        "translation": "Të lutem përsos kërkimin tënd.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecentlyPlayedWith",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Luaj me njerëz në Realms ose në serverë për të marrë më shumë sugjerime!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecommendedFriends",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Luaj me njerëz në Realms ose në serverë për të marrë më shumë sugjerime!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recentlyPlayedWithSuggestions",
+        "source_string": "%1$s Recently played with suggestions",
+        "translation": "%1$s sugjerime nga lojtarët e fundit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recommendedFriendsSuggestions",
+        "source_string": "%1$s Recommended friend suggestions",
+        "translation": "%1$s sugjerime shokësh të rekomanduar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recentlyPlayedWith",
+        "source_string": "Recently played with",
+        "translation": "Luajtur së fundmi me",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recommendedFriends",
+        "source_string": "Recommended friends",
+        "translation": "Shokë të rekomanduar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.followers",
+        "source_string": "Your followers will appear here.",
+        "translation": "Ndjekësit e tu do të shfaqen këtu.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.noSuggestionsFound",
+        "source_string": "No suggestions found",
+        "translation": "Nuk u gjet asnjë sugjerim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.recentlyPlayedWith",
+        "source_string": "Play with new people to get more suggestions!",
+        "translation": "Luaj me njerëz të rinj për të marrë më shumë sugjerime!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordionEmptyPanel.recommendedFriends",
+        "source_string": "Follow players and add friends for suggestions.",
+        "translation": "Ndiq lojtarë dhe shto shokë për sugjerime.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.blockedAddingFriendsMessage",
+        "source_string": "You cannot add friends because of an account settings restriction. View and manage your multiplayer settings with “Privacy & online safety” in the Account settings.",
+        "translation": "Nuk mund të shtosh shokë për shkak të një kufizimi në cilësimet e llogarisë. Shiko dhe menaxho cilësimet e tua për shumë lojtarë me “Privatësia dhe siguria online” në cilësimet e llogarisë.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.blockedAddingFriendsTitle",
+        "source_string": "You need permission!",
+        "translation": "Të duhet leje!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.learnMore",
+        "source_string": "Learn more",
+        "translation": "Mëso më shumë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.loadErrorMessage",
+        "source_string": "We encountered an unknown error, please try again.",
+        "translation": "Hasëm një gabim të panjohur, provo përsëri.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.loadErrorTitle",
+        "source_string": "Search for players couldn't load!",
+        "translation": "Kërkimi për lojtarë nuk u ngarkua!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.parentalControlBlockMessage",
+        "source_string": "You cannot add friends because of a parental control restriction. View and manage your multiplayer settings with “Online Safety” in the parental controls.",
+        "translation": "Nuk mund të shtosh shokë për shkak të një kufizimi të kontrollit prindëror. Shiko dhe menaxho cilësimet e tua për shumë lojtarë me “Siguria Online” në kontrollet prindërore.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27120,9 +28400,233 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.errorPackReading",
+        "source_string": "Reading error",
+        "translation": "Gabim leximi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.errorPackUnsupportedFormat",
+        "source_string": "Unsupported format",
+        "translation": "Format i pambështetur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.expandDescriptionInputLegend",
+        "source_string": "Expand",
+        "translation": "Zgjero",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationAccordion",
+        "source_string": "Accordion",
+        "translation": "Akordeon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationActivateButton",
+        "source_string": "Activate pack. Button",
+        "translation": "Aktivizo paketën. Buton",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.narrationButton",
         "source_string": "Button",
         "translation": "Buton",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationCollapsed",
+        "source_string": "Collapsed",
+        "translation": "E mbledhur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationComponentType",
+        "source_string": "List item",
+        "translation": "Artikull liste",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationDeactivatedState",
+        "source_string": "Deactivated",
+        "translation": "E çaktivizuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationDetailsButton",
+        "source_string": "Pack details. Button",
+        "translation": "Detajet e paketës. Buton",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpanded",
+        "source_string": "Expanded",
+        "translation": "Zgjeruar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandedHint",
+        "source_string": "Navigate down for pack description",
+        "translation": "Lëviz poshtë për përshkrimin e paketës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHint",
+        "source_string": "Expand to access the pack description or use right arrow for additional actions",
+        "translation": "Zgjero për të hyrë në përshkrimin e paketës ose përdor shigjetën djathtas për veprime shtesë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHintNoButtons",
+        "source_string": "Expand for more information",
+        "translation": "Zgjero për më shumë informacion",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationListLengthContext",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationMultiplePacksHint",
+        "source_string": "If multiple packs make changes to the same asset, the changes from the highest-ranked pack will be applied.",
+        "translation": "Nëse disa paketa bëjnë ndryshime në të njëjtin element, do të zbatohen ndryshimet nga paketa me rangun më të lartë.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackDescription",
+        "source_string": "Pack description",
+        "translation": "Përshkrimi i paketës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackRank",
+        "source_string": "Rank %1$s",
+        "translation": "Rangu %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationRemoveButton",
+        "source_string": "Remove pack. Button",
+        "translation": "Hiq paketën. Buton",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderComplete",
+        "source_string": "Pack is now rank %1$s",
+        "translation": "Paketa tani është në rangun %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadChangeConfirmation",
+        "source_string": "Rank %1$s. Select to confirm new rank.",
+        "translation": "Renditja %1$s. Zgjidh për të konfirmuar renditjen e re.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadDraggingHint",
+        "source_string": "Use up or down keys to reorder pack",
+        "translation": "Përdor tastet lart ose poshtë për të riorganizuar paketën",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadHint",
+        "source_string": "Select to reorder pack",
+        "translation": "Zgjidh për të riorganizuar paketën",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPack",
+        "source_string": "Reorder pack",
+        "translation": "Riorganizo paketën",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerChangeConfirmation",
+        "source_string": "Rank %1$s. Release to confirm new rank",
+        "translation": "Renditja %1$s. Lësho për të konfirmuar renditjen e re",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerDraggingHint",
+        "source_string": "Drag up or down to reorder pack. Release to accept new rank",
+        "translation": "Zhvendos lart ose poshtë për të riorganizuar paketën. Lësho për të pranuar renditjen e re",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerHint",
+        "source_string": "Click and drag up or down to reorder pack",
+        "translation": "Kliko dhe zhvendos lart ose poshtë për të riorganizuar paketën",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationSettingsButton",
+        "source_string": "Pack settings. Button",
+        "translation": "Cilësimet e paketës. Buton",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationValidateButton",
+        "source_string": "Validate pack. Button",
+        "translation": "Vlerëso paketën. Buton",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27144,9 +28648,185 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.validateButtonText",
+        "source_string": "Validate",
+        "translation": "Vlerëso",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PacksLoadingModal.title",
+        "source_string": "Downloading...",
+        "translation": "Duke shkarkuar...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.activeTabButtonLabel",
+        "source_string": "Active",
+        "translation": "Aktive",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.availableTabButtonLabel",
+        "source_string": "Available",
+        "translation": "Të disponueshme",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, skeda %2$s nga %3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyInviteListGroup.titleWithLength",
+        "source_string": "%1$s (%2$s)",
+        "translation": "%1$s (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.createParty",
+        "source_string": "Create Party",
+        "translation": "Krijo grup",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.invited",
+        "source_string": "Invited",
+        "translation": "Ftuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.inviteOnlyParty",
+        "source_string": "Invite only party",
+        "translation": "Grup vetëm me ftesë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.joinableParties",
+        "source_string": "Joinable parties",
+        "translation": "Grupe që mund të bashkohesh",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.openParty",
+        "source_string": "Open party",
+        "translation": "Grup i hapur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.optionsForPlayer",
+        "source_string": "Options for %1$s",
+        "translation": "Opsione për %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.addFriend",
+        "source_string": "Add friend",
+        "translation": "Shto shok",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.mute",
+        "source_string": "Mute",
+        "translation": "Heshtoje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.optionsEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.promoteToLeader",
+        "source_string": "Promote to leader",
+        "translation": "Ngrite si udhëheqës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.removeFromParty",
+        "source_string": "Remove from party",
+        "translation": "Hiqe nga grupi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.sendMessage",
+        "source_string": "Send message",
+        "translation": "Dërgo mesazh",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.receivedInvites",
+        "source_string": "Received invites",
+        "translation": "Ftesat e marra",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Patchnote.narration.textBlockRole",
+        "source_string": "TextBlock",
+        "translation": "BllokTeksti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PeopleTab.backButton",
         "source_string": "Back",
         "translation": "Mbrapa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.closeButtonNarrationHint",
+        "source_string": "Navigate down for more options",
+        "translation": "Lëviz poshtë për më shumë opsione",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateBody",
+        "source_string": "We're still working on this feature. Check back soon!",
+        "translation": "Ende po punojmë për këtë veçori. Kontrollo prapë së shpejti!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27160,9 +28840,585 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PeopleTab.emptyStateButtonLabel",
+        "source_string": "Go back to old UI",
+        "translation": "Kthehu në UI-në e vjetër",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateTitle",
+        "source_string": "Under Construction",
+        "translation": "Në ndërtim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.friendsDrawerName",
+        "source_string": "Friends Drawer",
+        "translation": "Sirtari i shokëve",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.noInternetMessage",
+        "source_string": "Please check your internet connection to see your friends.",
+        "translation": "Kontrollo lidhjen tënde në internet për të parë shokët e tu.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.button",
+        "source_string": "Sign in now",
+        "translation": "Identifikohu tani",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.inputLegend",
+        "source_string": "Sign in",
+        "translation": "Identifikohu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.text",
+        "source_string": "You need an account to play online with friends.",
+        "translation": "Ke nevojë për një llogari për të luajtur online me shokët.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.title",
+        "source_string": "You're not logged in",
+        "translation": "Nuk je i identifikuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.numberOfFriends",
+        "source_string": "You have %1$s online friends",
+        "translation": "Ke %1$s shokë online",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.title",
+        "source_string": "Friends",
+        "translation": "Shokë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.titleWithAmount",
+        "source_string": "Friends (%1$s)",
+        "translation": "Shokë (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.you",
+        "source_string": "You",
+        "translation": "Ti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerAvatarsOnlineInWorld.full",
+        "source_string": "Full",
+        "translation": "I plotë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body",
+        "source_string": "You have been %1$s from playing multiplayer in Minecraft due to \"%2$s\". You won't be able to play on servers, join Realms, host or join multiplayer games or use the marketplace.",
+        "translation": "Je %1$s nga luajtja me shumë lojtarë në Minecraft për shkak të \"%2$s\". Nuk do të mund të luash në serverë, të bashkohesh me Realms, të organizosh apo bashkohesh me lojëra me shumë lojtarë ose të përdorësh marketplace-in.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.day",
+        "source_string": "You have 1 day remaining on your suspension.",
+        "translation": "Ke 1 ditë të mbetur në pezullimin tënd.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.days",
+        "source_string": "You have %1$s days remaining on your suspension.",
+        "translation": "Ke %1$s ditë të mbetura në pezullimin tënd.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.forever",
+        "source_string": "This ban is permanent.",
+        "translation": "Ky ndalim është i përhershëm.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.hour",
+        "source_string": "You have 1 hour remaining on your suspension.",
+        "translation": "Ke 1 orë të mbetur në pezullimin tënd.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.hours",
+        "source_string": "You have %1$s hours remaining on your suspension.",
+        "translation": "Ke %1$s orë të mbetura në pezullimin tënd.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body2",
+        "source_string": "Click '%1$s' below to view our community standards and how to submit a case review request if you feel you were %2$s in error.",
+        "translation": "Kliko '%1$s' më poshtë për të parë standardet tona të komunitetit dhe si të dorëzosh një kërkesë për rishikim rasti nëse ndjen se je %2$s gabimisht.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.close",
+        "source_string": "Learn more",
+        "translation": "Mëso më shumë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.permanent",
+        "source_string": "banned",
+        "translation": "i ndaluar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.temporary",
+        "source_string": "suspended",
+        "translation": "i pezulluar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.title",
+        "source_string": "You've been %1$s",
+        "translation": "Je %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.unknownReportArea",
+        "source_string": "Unknown",
+        "translation": "I panjohur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.advertising",
+        "source_string": "Spam or Advertising",
+        "translation": "Spam ose reklamim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.chat",
+        "source_string": "Chat message",
+        "translation": "Mesazh bisede",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.gameplay",
         "source_string": "Gameplay",
         "translation": "Luajtja e lojës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.ingame",
+        "source_string": "In-game build",
+        "translation": "Ndërtim brenda lojës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.other",
+        "source_string": "Other",
+        "translation": "Tjetër",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "Lëkurë lojtari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.cheating",
+        "source_string": "Cheating",
+        "translation": "Mashtrim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationGrooming",
+        "source_string": "Violating community standards",
+        "translation": "Shkelje e standardeve të komunitetit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Violating community standards",
+        "translation": "Shkelje e standardeve të komunitetit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.controversial",
+        "source_string": "Controversial topic",
+        "translation": "Temë kontroverse",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.cyberbullying",
+        "source_string": "Cyberbullying",
+        "translation": "Ngacmim kibernetik",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.defamation",
+        "source_string": "Impersonation or sharing information to exploit or mislead others",
+        "translation": "Imitim ose ndarje informacioni për të shpërdoruar ose mashtruar të tjerët",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.drugs",
+        "source_string": "References to illegal drugs",
+        "translation": "Referenca ndaj drogave të paligjshme",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.exploits",
+        "source_string": "Exploits and 3rd party applications",
+        "translation": "Shpërdorime dhe aplikacione të palëve të treta",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.extremeViolence",
+        "source_string": "Depictions of real-life excessive violence or gore",
+        "translation": "Përshkrime dhune ekstreme ose gjaku nga jeta reale",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.falseReporting",
+        "source_string": "Excessive false / inaccurate reports",
+        "translation": "Raportime të tepërta të rreme / të pasakta",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.fraud",
+        "source_string": "Fraudulent acquisition or use of content",
+        "translation": "Marrje ose përdorim mashtrues i përmbajtjes",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.harassingComments",
+        "source_string": "Harassing or defamatory comments",
+        "translation": "Komente ngacmuese ose fyese",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.harassment",
+        "source_string": "Abusive language used in a directed, harmful manner",
+        "translation": "Gjuhë fyese e përdorur në mënyrë të drejtuar dhe dëmshme",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.hateSpeech",
+        "source_string": "Hate Speech or discrimination",
+        "translation": "Gjuhë urrejtjeje ose diskriminim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.illegalDrugs",
+        "source_string": "Illegal drugs or activities",
+        "translation": "Drogë ose aktivitete të paligjshme",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.imminentHarm",
+        "source_string": "Intent to cause real-life harm to persons or property",
+        "translation": "Qëllim për të shkaktuar dëm real ndaj personave ose pronës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.impersonatingStaff",
+        "source_string": "Impersonating staff, player support, or community representatives",
+        "translation": "Imitim i stafit, mbështetjes për lojtarë, ose përfaqësuesve të komunitetit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.inGameTrolling",
+        "source_string": "In-Game trolling & spamming",
+        "translation": "Trollim & spamim brenda lojës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.modding",
+        "source_string": "Modding",
+        "translation": "Modifikim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nameOrGamertag",
+        "source_string": "Player name or gamertag",
+        "translation": "Emër lojtari ose gamertag",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Violating community standards",
+        "translation": "Shkelje e standardeve të komunitetit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.notoriousFigure",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "Referenca ndaj grupeve të urrejtjes, organizatave terroriste, ose figurave famëkeqe",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nudity",
+        "source_string": "Displaying lewd or pornographic material",
+        "translation": "Shfaqje e materialit të pahijshëm ose pornografik",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.obsceneLanguage",
+        "source_string": "Obscene or vulgar language",
+        "translation": "Gjuhë e turpshme ose vulgare",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.policyViolation",
+        "source_string": "Policy violation",
+        "translation": "Shkelje e rregullave",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.postLinkToInappropriateContent",
+        "source_string": "Posting links to inappropriate content or malicious software",
+        "translation": "Postim lidhjesh drejt përmbajtjes së papërshtatshme ose softuerëve me qëllim të keq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.profanity",
+        "source_string": "Profanity",
+        "translation": "Fjalë të pista",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.realLifeInfo",
+        "source_string": "Real life information and threats",
+        "translation": "Informacione dhe kërcënime nga jeta reale",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.selfHarm",
+        "source_string": "Violating community standards",
+        "translation": "Shkelje e standardeve të komunitetit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexuallyInappropriate",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Tema ose përmbajtje me natyrë seksuale",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexualReference",
+        "source_string": "References to sexual content & violence",
+        "translation": "Referenca ndaj përmbajtjes seksuale & dhunës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexualViolence",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Tema ose përmbajtje me natyrë seksuale",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.spam",
+        "source_string": "Spamming for commercial purposes",
+        "translation": "Spamim për qëllime tregtare",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.terrorismOrViolentExtremism",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "Referenca ndaj grupeve të urrejtjes, organizatave terroriste, ose figurave famëkeqe",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.unconfirmedCSE",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "Tema ose përmbajtje me natyrë seksuale",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.unsportingBehavior",
+        "source_string": "Unsporting behavior",
+        "translation": "Sjellje josportive",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody",
+        "source_string": "You've been banned from Xbox Live services. While banned, you won't be able to play on servers, join Realms, host or join multiplayer games, or use Marketplace.",
+        "translation": "Je ndaluar nga shërbimet e Xbox Live. Sa kohë je i ndaluar, nuk do të mund të luash në servera, të bashkohesh me Realms, të hostosh ose bashkohesh në lojëra me shumë lojtarë, ose të përdorësh Marketplace.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody2",
+        "source_string": "Click '%1$s' below to view Xbox enforcement information and how to submit a case review request if you feel you were banned in error.",
+        "translation": "Kliko '%1$s' më poshtë për të shikuar informacionin mbi zbatimin e rregullave nga Xbox dhe si të paraqitësh një kërkesë për rishikim rasti nëse mendon se je ndaluar gabimisht.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addedButton",
+        "source_string": "Added",
+        "translation": "Shtuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addFriendButton",
+        "source_string": "Add friend",
+        "translation": "Shto mik",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.away",
+        "source_string": "Away",
+        "translation": "Larg",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.blocked",
+        "source_string": "Blocked",
+        "translation": "Bllokuar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27176,9 +29432,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerCard.buttonSiblings",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.cardNarration",
+        "source_string": "Player details",
+        "translation": "Detajet e lojtarit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.dressingRoomButton",
+        "source_string": "Dressing room",
+        "translation": "Dhoma e veshjes",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.friendsButton",
+        "source_string": "Friends",
+        "translation": "Miqtë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.joinButton",
+        "source_string": "Join game",
+        "translation": "Bashkohu në lojë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.muted",
+        "source_string": "Muted",
+        "translation": "Në heshtje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.offline",
+        "source_string": "Offline",
+        "translation": "Jashtë linje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.online",
+        "source_string": "Online",
+        "translation": "Në linjë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.optionsButton",
+        "source_string": "More options",
+        "translation": "Më shumë opsione",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "Vendos pamjen e ekranit të veçuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.accept",
         "source_string": "Accept",
         "translation": "Prano",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonInputLegend",
+        "source_string": "Add friend",
+        "translation": "Shto shok",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonText",
+        "source_string": "Add",
+        "translation": "Shto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.added",
+        "source_string": "Added",
+        "translation": "Shtuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.away",
+        "source_string": "Away",
+        "translation": "Larg",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.buttonSiblings",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "Butoni %1$s nga %2$s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27200,9 +29576,97 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying",
+        "source_string": "Mutual friend playing",
+        "translation": "Shok i përbashkët duke luajtur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.playstation",
+        "source_string": "PSN™ - Mutual friend playing",
+        "translation": "PSN™ - Shok i përbashkët duke luajtur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.switch",
+        "source_string": "Switch - Mutual friend playing",
+        "translation": "Switch - Shok i përbashkët duke luajtur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friends",
+        "source_string": "Friends",
+        "translation": "Shokë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.ignore",
+        "source_string": "Ignore",
+        "translation": "Injoro",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.inviteButtonInputLegend",
+        "source_string": "Invite friend",
+        "translation": "Fto shok",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.inviteButtonText",
+        "source_string": "Invite",
+        "translation": "Fto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.invited",
+        "source_string": "Invited",
+        "translation": "Ftuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.join",
         "source_string": "Join",
         "translation": "Hyr",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedMutual",
+        "source_string": "You are friends with this player",
+        "translation": "Je shok me këtë lojtar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedNotMutual",
+        "source_string": "You added this player",
+        "translation": "E shtove këtë lojtar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.additionalActionsHint",
+        "source_string": "Use D-pad right for additional actions",
+        "translation": "Përdor D-pad djathtas për veprime shtesë",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27216,9 +29680,425 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.narration.inviteButtonText",
+        "source_string": "Invite %1$s to party",
+        "translation": "Fto %1$s në grup",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.itemOrderContext",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.joinFriend",
+        "source_string": "Join friends world",
+        "translation": "Bashkohu në botën e shokëve",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.listItemRole",
+        "source_string": "List item",
+        "translation": "Artikull liste",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerInvited",
+        "source_string": "This player has been invited",
+        "translation": "Ky lojtar është ftuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerProfileHint",
+        "source_string": "Press to access player profile",
+        "translation": "Shtyp për të hyrë në profilin e lojtarit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.receivedRequest",
+        "source_string": "This player sent you a request",
+        "translation": "Ky lojtar të dërgoi një kërkesë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.sentRequest",
+        "source_string": "You sent a request to this player",
+        "translation": "I dërgove një kërkesë këtij lojtari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.offline",
+        "source_string": "Offline",
+        "translation": "Jashtë linje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online",
+        "source_string": "Online",
+        "translation": "Në linjë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.playstation",
+        "source_string": "Online on PSN™",
+        "translation": "Në linjë në PSN™",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.switch",
+        "source_string": "Online on Switch",
+        "translation": "Në linjë në Switch",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.pending",
+        "source_string": "Pending",
+        "translation": "Në pritje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.playingInSameWorld",
+        "source_string": "Playing in this world",
+        "translation": "Duke luajtur në këtë botë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.receivedRequest",
+        "source_string": "Sent you a request",
+        "translation": "Të dërgoi një kërkesë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.reject",
+        "source_string": "Reject",
+        "translation": "Refuzo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.select",
         "source_string": "Select",
         "translation": "Selekto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.viewProfile",
+        "source_string": "View player profile",
+        "translation": "Shiko profilin e lojtarit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.you",
+        "source_string": "(You)",
+        "translation": "(Ti)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.addToFavorites",
+        "source_string": "Add to favorites",
+        "translation": "Shto në të preferuarat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.appearOffline",
+        "source_string": "Appear offline",
+        "translation": "Shfaqu jashtë linje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.block",
+        "source_string": "Block",
+        "translation": "Blloko",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.manageAccount",
+        "source_string": "Manage account",
+        "translation": "Menaxho llogarinë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.manageXboxProfile",
+        "source_string": "Manage Xbox profile",
+        "translation": "Menaxho profilin e Xbox",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.mute",
+        "source_string": "Mute",
+        "translation": "Heshto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.optionsEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.optionsTitle",
+        "source_string": "Account options",
+        "translation": "Opsionet e llogarisë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.privacyAndSafety",
+        "source_string": "Privacy and online safety",
+        "translation": "Privatësia dhe siguria në internet",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFriend",
+        "source_string": "Remove friend",
+        "translation": "Hiq shokun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFromFavorites",
+        "source_string": "Remove from favorites",
+        "translation": "Hiq nga të preferuarat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.report",
+        "source_string": "Report",
+        "translation": "Raporto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "Vendos pamjen e ekranit të veçuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareMyProfile",
+        "source_string": "Share my profile",
+        "translation": "Shpërndaj profilin tim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareText",
+        "source_string": "Add me as a friend in Minecraft!",
+        "translation": "Më shto si shok në Minecraft!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.signOut",
+        "source_string": "Sign out",
+        "translation": "Dil nga llogaria",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.viewXboxProfile",
+        "source_string": "View Xbox profile",
+        "translation": "Shiko profilin e Xbox",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackMobs",
+        "source_string": "Attack Mobs",
+        "translation": "Sulmo krijesat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackPlayers",
+        "source_string": "Attack Players",
+        "translation": "Sulmo lojtarët",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.build",
+        "source_string": "Build",
+        "translation": "Ndërto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackMobs",
+        "source_string": "Engage in player vs. environment combat",
+        "translation": "Merr pjesë në beteja lojtar kundër mjedisit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackPlayers",
+        "source_string": "Engage in player vs. player combat",
+        "translation": "Merr pjesë në beteja lojtar kundër lojtari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.build",
+        "source_string": "Place blocks in the world",
+        "translation": "Vendos blloqe në botë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.doorsAndSwitches",
+        "source_string": "Activate most useable objects in the world",
+        "translation": "Aktivizo shumicën e objekteve të përdorshme në botë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.mine",
+        "source_string": "Destroy world elements and collect blocks",
+        "translation": "Shkatërro elemente të botës dhe mblidh blloqe",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.openContainers",
+        "source_string": "View, add to, and take from chests",
+        "translation": "Shiko, shto dhe merr gjëra nga arkat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.operatorCommands",
+        "source_string": "Access advanced server options",
+        "translation": "Hyr në opsionet e avancuara të serverit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.teleport",
+        "source_string": "Instantly move to anywhere in the world",
+        "translation": "Lëviz menjëherë kudo në botë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.doorsAndSwitches",
+        "source_string": "Use doors and switches",
+        "translation": "Përdor dyer dhe çelësa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.mine",
+        "source_string": "Mine",
+        "translation": "Xhero",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.openContainers",
+        "source_string": "Open containers",
+        "translation": "Hap kontejnerë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.operatorCommands",
+        "source_string": "Operator Commands",
+        "translation": "Komanda operatori",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.teleport",
+        "source_string": "Teleport",
+        "translation": "Teleportohu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "Përjashto %1$s nga bota",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27232,9 +30112,177 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.loading",
+        "source_string": "Loading",
+        "translation": "Duke ngarkuar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.description",
+        "source_string": "Only server operators can edit player permissions",
+        "translation": "Vetëm operatorët e serverit mund të ndryshojnë lejet e lojtarëve",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.title",
+        "source_string": "Nothing to see here",
+        "translation": "Nuk ka gjë për t’u parë këtu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandFailedFlag",
+        "source_string": "Couldn’t remove this player.",
+        "translation": "Nuk u arrit të hiqet ky lojtar.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandSuccess",
+        "source_string": "Player successfully removed",
+        "translation": "Lojtari u hoq me sukses",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.selectedPlayerPermissionsChangedFlag",
+        "source_string": "Player permissions updated by another operator.",
+        "translation": "Lejet e lojtarit u përditësuan nga një operator tjetër.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.optionEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s nga %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.playerIdInvalidFlag",
+        "source_string": "Couldn’t load permissions for this player",
+        "translation": "Nuk u arrit të ngarkohen lejet për këtë lojtar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.custom",
+        "source_string": "A customized set of permissions for this player",
+        "translation": "Një grup lejesh të personalizuara për këtë lojtar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.member",
+        "source_string": "Members can build and mine, attack players and mobs, and interact with items and entities",
+        "translation": "Anëtarët mund të ndërtojnë dhe xherojnë, të sulmojnë lojtarë dhe krijesa, dhe të ndërveprojnë me sende dhe entitete",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.operator",
+        "source_string": "Operators can teleport and use commands, in addition to everything members can do",
+        "translation": "Operatorët mund të teleportohen dhe të përdorin komanda, përveç gjithçkaje që mund të bëjnë anëtarët",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.visitor",
+        "source_string": "Visitors can only observe your world, not interact with it",
+        "translation": "Vizitorët mund vetëm të vëzhgojnë botën tënde, jo të ndërveprojnë me të",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.title",
+        "source_string": "Permission level",
+        "translation": "Niveli i lejes",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.link",
+        "source_string": "Go to game settings",
+        "translation": "Shko te cilësimet e lojës",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.text",
+        "source_string": "Unlock template world options to be able to change permissions.",
+        "translation": "Shkyç opsionet e botës-model për të mund të ndryshosh lejet.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.cheatsDisabledButton",
+        "source_string": "Continue with cheats disabled",
+        "translation": "Vazhdo me mashtrimet të çaktivizuara",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.description",
+        "source_string": "Certain commands, like teleport, are only available with cheats enabled. Enable them now or through the game settings menu.",
+        "translation": "Disa komanda, si teleportimi, janë të disponueshme vetëm me mashtrimet aktivizuara. Aktivizoji tani ose përmes menysë së cilësimeve të lojës.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.enableCheatsButton",
+        "source_string": "Enable cheats",
+        "translation": "Aktivizo mashtrimet",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.inputLegend",
         "source_string": "Select",
         "translation": "Selekto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.title",
+        "source_string": "Cheats are disabled",
+        "translation": "Mashtrimet janë të çaktivizuara",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.backButton",
+        "source_string": "Go back",
+        "translation": "Kthehu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.description",
+        "source_string": "Really kick %1$s from this world? They won’t be able to rejoin this session.",
+        "translation": "Je i sigurt që do të përjashtosh %1$s nga kjo botë? Ai/ajo nuk do të mund të rihyjë në këtë sesion.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27248,9 +30296,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "Përjashto %1$s nga bota",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.title",
+        "source_string": "Kick player?",
+        "translation": "Të përjashtohet lojtari?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.closeButton",
         "source_string": "Close",
         "translation": "Mbyll",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.description",
+        "source_string": "Your operator permissions have been revoked and you can no longer edit the permissions of other players.",
+        "translation": "Lejet e tua si operator u hoqën dhe nuk mund të ndryshosh më lejet e lojtarëve të tjerë.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27264,9 +30336,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.title",
+        "source_string": "Operator permissions revoked",
+        "translation": "Lejet e operatorit u hoqën",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.closeButton",
         "source_string": "Close",
         "translation": "Mbyll",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.description",
+        "source_string": "%1$s left the world and their permissions can’t be changed.",
+        "translation": "%1$s u largua nga bota dhe lejet e tij/saj nuk mund të ndryshohen.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27280,9 +30368,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.title",
+        "source_string": "Player has left",
+        "translation": "Lojtari u largua",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.backButton",
+        "source_string": "Go back",
+        "translation": "Kthehu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description",
+        "source_string": "Lowering this player’s permission level will remove their access to operator commands. Owners can restore permissions at any time.",
+        "translation": "Uljen e nivelit të lejeve të këtij lojtari do t’i heqë atij qasjen te komandat e operatorit. Pronarët mund t’i rikthejnë lejet në çdo moment.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.inputLegend",
         "source_string": "Select",
         "translation": "Selekto",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton",
+        "source_string": "Remove operator permissions",
+        "translation": "Hiq lejet e operatorit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title",
+        "source_string": "Remove operator permissions?",
+        "translation": "Të hiqen lejet e operatorit?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27296,9 +30424,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.role.member",
+        "source_string": "Member",
+        "translation": "Anëtar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.role.operator",
         "source_string": "Operator",
         "translation": "Operatori",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.role.visitor",
+        "source_string": "Visitor",
+        "translation": "Vizitor",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.inputLegend",
+        "source_string": "Open",
+        "translation": "Hap",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.menuRole",
+        "source_string": "Open",
+        "translation": "Hap",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27312,9 +30472,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.member",
+        "source_string": "Member",
+        "translation": "Anëtar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.operator",
         "source_string": "Operator",
         "translation": "Operatori",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.visitor",
+        "source_string": "Visitor",
+        "translation": "Vizitor",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.title",
+        "source_string": "Player Permissions for %1$s",
+        "translation": "Lejet e lojtarit për %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayersOnlineInWorld.full",
+        "source_string": "Full",
+        "translation": "Plot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerTag.hint",
+        "source_string": "Press to access player profile",
+        "translation": "Shtyp për të hyrë në profilin e lojtarit",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27328,6 +30528,30 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerTag.viewProfile",
+        "source_string": "View player profile",
+        "translation": "Shiko profilin e lojtarit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.button",
+        "source_string": "Buy Minecraft",
+        "translation": "Blej Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.message",
+        "source_string": "Run your own Minecraft server! You set the rules: who can join and how to play. Realm members play for free, even when you’re offline. Easy to set up, manage, and access from any device.",
+        "translation": "Xhiro serverin tënd në Minecraft! Ti vendos rregullat: kush mund të bashkohet dhe si të luhet. Anëtarët e Realm-it luajnë falas, edhe kur ti je jashtë linje. E lehtë për t’u ngritur, menaxhuar dhe për t’u qasur nga çdo pajisje.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayRealmsTrialModeModal.select",
         "source_string": "Select",
         "translation": "Selekto",
@@ -27336,9 +30560,89 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayRealmsTrialModeModal.title",
+        "source_string": "Unlock the full experience",
+        "translation": "Zhblloko përvojën e plotë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.adventure",
         "source_string": "Adventure",
         "translation": "Aventurë",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds",
+        "source_string": "Worlds (%1$s)",
+        "translation": "Botët (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateFromTemplateButton",
+        "source_string": "Create from template",
+        "translation": "Krijo nga një shabllon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateNewButton",
+        "source_string": "Create new world",
+        "translation": "Krijo botë të re",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateStartFromTemplateButton",
+        "source_string": "Start from template",
+        "translation": "Fillo nga një shabllon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText",
+        "source_string": "Create a new world from scratch or create a world from a template.",
+        "translation": "Krijo një botë të re nga e para ose krijo një botë nga një shabllon.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText.trialMode",
+        "source_string": "Create a new world from scratch.",
+        "translation": "Krijo një botë të re nga e para.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateTitle",
+        "source_string": "No worlds here... yet!",
+        "translation": "Ende nuk ka botë këtu...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.banned.text",
+        "source_string": "You’ve been permanently banned from Minecraft’s online services. You can not play with friends or on LAN worlds.",
+        "translation": "Je ndaluar përgjithmonë nga shërbimet online të Minecraft. Nuk mund të luash me shokë ose në botë LAN.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.linkText",
+        "source_string": "Learn more",
+        "translation": "Mëso më shumë",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

@@ -27888,9 +27888,161 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "آکاردئونی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.openInputLegend",
+        "source_string": "Open",
+        "translation": "باز کردن",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "جمع‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "بازشده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AccountUnlinkRoute.cancelButton",
         "source_string": "Cancel",
         "translation": "لغو",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "تأیید",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "اتصال حساب‌های شما قطع نشد. ممکنه اتصال اینترنتت رو بررسی کنی؟",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "یه مشکلی پیش اومد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "مطمئنی؟",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "در حال قطع اتصال حساب‌ها",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successBody",
+        "source_string": "Your accounts have been unlinked",
+        "translation": "اتصال حساب‌های شما قطع شد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successHeader",
+        "source_string": "Unlink successful",
+        "translation": "قطع اتصال با موفقیت انجام شد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkButton",
+        "source_string": "Unlink",
+        "translation": "قطع اتصال",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine1",
+        "source_string": "Account unlink warning",
+        "translation": "هشدار قطع اتصال حساب",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine2",
+        "source_string": "Account unlink details",
+        "translation": "جزئیات قطع اتصال حساب",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
+        "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
+        "translation": "اگه موارد بالا رو فهمیدی و هنوز می‌خوای اتصال حسابت رو قطع کنی، گزینه‌ی «قطع اتصال» در پایین رو انتخاب کن.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.anotherPlatform",
+        "source_string": "Completed on another platform",
+        "translation": "در پلتفرم دیگری تکمیل شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.completed",
+        "source_string": "Completed",
+        "translation": "تکمیل‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "امتیاز بازیکن",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27912,9 +28064,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDetailsRoute.errorMessage",
+        "source_string": "Achievement couldn’t load. Please try again or check your internet connection.",
+        "translation": "دستیابی بار نشد. لطفاً دوباره تلاش کن یا اتصال اینترنتت رو بررسی کن.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.completed",
+        "source_string": "completed",
+        "translation": "تکمیل‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.gamerscore",
+        "source_string": "gamerscore",
+        "translation": "امتیاز بازیکن",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "در حال بارگذاری",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDetailsRoute.narration.locked",
         "source_string": "locked",
         "translation": "قفل شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.percentage",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s از %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.progress",
+        "source_string": "progress",
+        "translation": "پیشرفت",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "جایزه قفل‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "جایزه باز‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.title",
+        "source_string": "Achievement details",
+        "translation": "جزئیات دستیابی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.reward",
+        "source_string": "Reward",
+        "translation": "جایزه",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.title",
+        "source_string": "Achievement Details",
+        "translation": "جزئیات دستیابی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.titleNarration",
+        "source_string": "Achievement Details Screen",
+        "translation": "صفحه‌ی جزئیات دستاورد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.viewReward",
+        "source_string": "View reward",
+        "translation": "نمایش پاداش",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
+        "source_string": "A behavior pack is activated",
+        "translation": "یک بسته‌ی رفتاری فعال است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
+        "source_string": "Cheats are enabled",
+        "translation": "تقلب‌ها فعال هستند",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27928,9 +28200,217 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "در هر صورت ساخته شود",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
+        "source_string": "Continue anyway",
+        "translation": "در هر صورت ادامه بده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.creativeMode",
+        "source_string": "The world is created in creative mode",
+        "translation": "دنیا در حالت خلاقانه ساخته شده است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "ویژگی‌های بتا فعال هستند",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "ساخت دنیا با استفاده از هر یک از ویژگی‌های زیر باعث می‌شود نتوانی در این دنیا دستاورد کسب کنی. حتی اگر بعداً این گزینه‌ها را خاموش کنی، باید به دنیای دیگری بروی تا بتوانی دستاورد کسب کنی.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "ساخت دنیا با استفاده از ویژگی زیر باعث می‌شود نتوانی در آن دنیا دستاورد کسب کنی. حتی اگر بعداً این گزینه را خاموش کنی، باید به دنیای دیگری بروی تا بتوانی دستاورد کسب کنی.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "نحوه‌ی تنظیم این دنیا به گونه‌ای است که نمی‌توانی در حین بازی در آن دستاورد کسب کنی. تغییر تنظیمات دنیا اکنون این موضوع را تغییر نمی‌دهد. باید به دنیای دیگری بروی تا بتوانی دستاورد کسب کنی.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "دنیا به صورت دنیای مسطح ساخته شده است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "برگشت",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "سازنده‌ی دنیا اختیارات اپراتور دارد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "دستاوردها در این دنیا در صورت زیر کسب نمی‌شوند:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "دنیا از یک قالب ساخته شده است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "نمی‌توانی دستاورد کسب کنی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "سازنده‌ی دنیا از نسخه‌ی آزمایشی Minecraft استفاده می‌کند",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.completed",
+        "source_string": "Completed",
+        "translation": "تکمیل‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.gamerscoreNarration",
+        "source_string": "gamerscore %1$s",
+        "translation": "امتیاز بازیکن %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.groupNarration",
+        "source_string": "Group %1$s of %2$s",
+        "translation": "گروه %1$s از %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.inProgress",
+        "source_string": "In progress",
+        "translation": "در حال پیشرفت",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementListItem.locked",
         "source_string": "Locked",
         "translation": "قفل شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationCompleted",
+        "source_string": "%1$s of %2$s, unlocked, %3$s gamerscore",
+        "translation": "%1$s از %2$s، باز شده، %3$s امتیاز بازیکن",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationLocked",
+        "source_string": "%1$s of %2$s, locked, %3$s gamerscore",
+        "translation": "%1$s از %2$s، قفل شده، %3$s امتیاز بازیکن",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.percentageNarration",
+        "source_string": "progress of %1$s percent",
+        "translation": "پیشرفت %1$s درصد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardLockedNarration",
+        "source_string": "Reward locked",
+        "translation": "پاداش قفل شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardUnlockedNarration",
+        "source_string": "Reward unlocked",
+        "translation": "پاداش باز شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.siblingNarration",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "دکمه‌ی %1$s از %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.view",
+        "source_string": "View details",
+        "translation": "نمایش جزئیات",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.cheats",
+        "source_string": "Cheats are enabled",
+        "translation": "تقلب‌ها فعال هستند",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27944,9 +28424,201 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.creative",
+        "source_string": "The world is created in creative mode",
+        "translation": "دنیا در حالت خلاقانه ساخته شده است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.description",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "نحوه‌ی تنظیم این دنیا به گونه‌ای است که نمی‌توانی در حین بازی در آن دستاورد کسب کنی. تغییر تنظیمات دنیا اکنون این موضوع را تغییر نمی‌دهد. باید به دنیای دیگری بروی تا بتوانی دستاورد کسب کنی.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "ویژگی‌های بتا فعال هستند",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.flat",
+        "source_string": "The world is created as a flatworld",
+        "translation": "دنیا به صورت دنیای مسطح ساخته شده است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
+        "source_string": "A behavior pack is activated",
+        "translation": "یک بسته‌ی رفتاری فعال است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.permissions",
+        "source_string": "The world creator has operator privileges",
+        "translation": "سازنده‌ی دنیا اختیارات اپراتور دارد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.reasonText",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "دستاوردها در این دنیا در صورت زیر کسب نمی‌شوند:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "دنیا از یک قالب ساخته شده است",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "نمی‌توانی دستاورد کسب کنی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "سازنده‌ی دنیا از نسخه‌ی آزمایشی Minecraft استفاده می‌کند",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "پاداش قفل شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "پاداش باز شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.reward",
+        "source_string": "Reward",
+        "translation": "پاداش",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.viewReward",
+        "source_string": "View reward",
+        "translation": "نمایش پاداش",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.all",
         "source_string": "All",
         "translation": "همه",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.aquatic",
+        "source_string": "Aquatic",
+        "translation": "دریایی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.buildinganddecorating",
+        "source_string": "Building & Decorating",
+        "translation": "ساخت‌وساز و تزئین",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.combat",
+        "source_string": "Combat",
+        "translation": "نبرد",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.culinaryexploits",
+        "source_string": "Culinary exploits",
+        "translation": "مهارت‌های آشپزی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.exploringyourworld",
+        "source_string": "Exploring your world",
+        "translation": "کاوش در دنیایت",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.farmingandhusbandry",
+        "source_string": "Farming & Husbandry",
+        "translation": "کشاورزی و دامداری",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.feelslikemagic",
+        "source_string": "Feels like magic",
+        "translation": "مثل جادو می‌مونه",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gearup",
+        "source_string": "Gear up",
+        "translation": "آماده‌ی نبرد شو",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gettingstarted",
+        "source_string": "Getting started",
+        "translation": "شروع کار",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.mining",
+        "source_string": "Mining",
+        "translation": "معدن‌کاری",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27960,9 +28632,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.other",
+        "source_string": "Other",
+        "translation": "دیگر",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.redstone",
         "source_string": "Redstone",
         "translation": "بلوک های ردستونی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2015",
+        "source_string": "2015",
+        "translation": "2015",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2016",
+        "source_string": "2016",
+        "translation": "2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.buzzybees",
+        "source_string": "Buzzy Bees, 2019",
+        "translation": "زنبورهای پرسروصدا، 2019",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.cavesandcliffs",
+        "source_string": "Caves & Cliffs, 2021",
+        "translation": "غار‌ها و صخره‌ها، 2021",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.enderupdate",
+        "source_string": "Ender Update, 2016",
+        "translation": "به‌روزرسانی اندر، 2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.holidayupdate",
+        "source_string": "Holiday Update, 2018",
+        "translation": "به‌روزرسانی تعطیلات، 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.netherupdate",
+        "source_string": "Nether Update, 2020",
+        "translation": "بروزرسانی Nether، 2020",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thediscoveryupdate",
+        "source_string": "The Discovery Update, 2017",
+        "translation": "بروزرسانی کشف، 2017",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thegardenawakens",
+        "source_string": "The Garden Awakens, 2024",
+        "translation": "باغ بیدار می‌شود، 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thewildupdate",
+        "source_string": "The Wild Update, 2022",
+        "translation": "بروزرسانی وحشی، 2022",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trailsandtales",
+        "source_string": "Trails & Tales, 2023",
+        "translation": "مسیرها و قصه‌ها، 2023",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trickytrials",
+        "source_string": "Tricky Trials, 2024",
+        "translation": "آزمون‌های پیچیده، 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.updateaquatic",
+        "source_string": "Update Aquatic, 2018",
+        "translation": "بروزرسانی آبی، 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.villageandpillage",
+        "source_string": "Village & Pillage, 2019",
+        "translation": "روستا و غارتگری، 2019",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27976,9 +28768,321 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.villageandpillage",
+        "source_string": "Village & Pillage",
+        "translation": "روستا و غارتگری",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.zoology",
+        "source_string": "Zoology",
+        "translation": "جانورشناسی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completed",
+        "source_string": "Completed",
+        "translation": "تکمیل‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyText",
+        "source_string": "Complete achievements to admire them here.",
+        "translation": "دستاوردها را کامل کن تا اینجا از آن‌ها لذت ببری.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyTitle",
+        "source_string": "Nothing to see here... yet!",
+        "translation": "اینجا چیزی نیست... هنوز!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessage",
+        "source_string": "Please try again or check your internet connection.",
+        "translation": "لطفاً دوباره تلاش کن یا اتصال اینترنت خودت را بررسی کن.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessageTitle",
+        "source_string": "Achievements couldn’t load.",
+        "translation": "دستاوردها بار نشدند.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.inProgress",
+        "source_string": "In progress",
+        "translation": "در حال انجام",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.loading",
+        "source_string": "Fetching achievements...",
+        "translation": "در حال دریافت دستاوردها...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.locked",
         "source_string": "Locked",
         "translation": "قفل شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyText",
+        "source_string": "You've completed all achievements.",
+        "translation": "تمام دستاوردها را کامل کردی.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyTitle",
+        "source_string": "Wow, you're amazing!",
+        "translation": "وای، تو خیلی عالی‌ای!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "در حال بارگذاری",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.selected",
+        "source_string": "selected",
+        "translation": "انتخاب‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s، برگه %2$s از %3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.title",
+        "source_string": "Achievements screen",
+        "translation": "صفحه‌ی دستاوردها",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessage",
+        "source_string": "You can only collect achievements in the release version of Minecraft.",
+        "translation": "دستاوردها را فقط می‌توانی در نسخه‌ی رسمی Minecraft جمع‌آوری کنی.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessageTitle",
+        "source_string": "Achievements are not available in Preview",
+        "translation": "دستاوردها در نسخه‌ی پیش‌نمایش در دسترس نیستند",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.title",
+        "source_string": "Achievements",
+        "translation": "دستاوردها",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "امتیاز بازیکن",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.hoursPlayed",
+        "source_string": "%1$s hours",
+        "translation": "%1$s ساعت",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedAchievements",
+        "source_string": "completed %1$s of %2$s",
+        "translation": "تکمیل‌شده %1$s از %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedRewards",
+        "source_string": "Rewards %1$s of %2$s",
+        "translation": "جوایز %1$s از %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorGamerscore",
+        "source_string": "Gamerscore %1$s of %2$s",
+        "translation": "امتیاز بازیکن %1$s از %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorIndex",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s از %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorInProgress",
+        "source_string": "In progress %1$s",
+        "translation": "در حال انجام %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorPercentage",
+        "source_string": "%1$s percent progress",
+        "translation": "%1$s درصد پیشرفت",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorSummary",
+        "source_string": "Achievements summary",
+        "translation": "خلاصه‌ی دستاوردها",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTextBlock",
+        "source_string": "Text block",
+        "translation": "بلوک متنی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTimePlayed",
+        "source_string": "Time played %1$s hours",
+        "translation": "زمان بازی: %1$s ساعت",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.percentage",
+        "source_string": "%1$s of %2$s completed",
+        "translation": "%1$s از %2$s تکمیل‌شده",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.progress",
+        "source_string": "In progress",
+        "translation": "در حال انجام",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.rewards",
+        "source_string": "Rewards",
+        "translation": "جوایز",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.time",
+        "source_string": "Time played",
+        "translation": "زمان بازی",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.backToTop",
+        "source_string": "Back to top",
+        "translation": "بازگشت به بالا",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.followers",
+        "source_string": "Followers",
+        "translation": "دنبال‌کننده‌ها",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.gamertagSearch",
+        "source_string": "Search results",
+        "translation": "نتایج جستجو",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.genericOnExpandNarrationHint",
+        "source_string": "Navigate down to View List of Players",
+        "translation": "برای دیدن فهرست بازیکنان به پایین حرکت کن",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.loadMoreResults",
+        "source_string": "Load more results",
+        "translation": "نمایش نتایج بیشتر",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.enumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s از %2$s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

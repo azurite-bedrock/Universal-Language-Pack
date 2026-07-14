@@ -98184,6 +98184,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.errorPackReading",
+        "source_string": "Reading error",
+        "translation": "Chyba pri čítaní",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.errorPackUnsupportedFormat",
+        "source_string": "Unsupported format",
+        "translation": "Nepodporovaný formát",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.expandDescriptionInputLegend",
         "source_string": "Expand",
         "translation": "Rozšíriť",
@@ -98195,6 +98211,14 @@
         "identifier": "hbui.PackListItem.narrationAccordion",
         "source_string": "Accordion",
         "translation": "Akordeón",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationActivateButton",
+        "source_string": "Activate pack. Button",
+        "translation": "Aktivovať balík. Tlačidlo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98224,9 +98248,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.narrationDeactivatedState",
+        "source_string": "Deactivated",
+        "translation": "Deaktivované",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationDetailsButton",
+        "source_string": "Pack details. Button",
+        "translation": "Podrobnosti o balíku. Tlačidlo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.narrationExpanded",
         "source_string": "Expanded",
         "translation": "Rozbalené",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandedHint",
+        "source_string": "Navigate down for pack description",
+        "translation": "Prejdite nadol na popis balíka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHint",
+        "source_string": "Expand to access the pack description or use right arrow for additional actions",
+        "translation": "Rozbaľte pre zobrazenie popisu balíka alebo použite šípku vpravo pre ďalšie akcie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHintNoButtons",
+        "source_string": "Expand for more information",
+        "translation": "Rozbaľte pre viac informácií",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98248,6 +98312,110 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.narrationPackDescription",
+        "source_string": "Pack description",
+        "translation": "Opis balíka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackRank",
+        "source_string": "Rank %1$s",
+        "translation": "Poradie %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationRemoveButton",
+        "source_string": "Remove pack. Button",
+        "translation": "Odstrániť balík. Tlačidlo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderComplete",
+        "source_string": "Pack is now rank %1$s",
+        "translation": "Balík je teraz na poradí %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadChangeConfirmation",
+        "source_string": "Rank %1$s. Select to confirm new rank.",
+        "translation": "Poradie %1$s. Vyber na potvrdenie nového poradia.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadDraggingHint",
+        "source_string": "Use up or down keys to reorder pack",
+        "translation": "Použi klávesy nahor alebo nadol na zmenu poradia balíka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadHint",
+        "source_string": "Select to reorder pack",
+        "translation": "Vyber na zmenu poradia balíka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPack",
+        "source_string": "Reorder pack",
+        "translation": "Zmeniť poradie balíka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerChangeConfirmation",
+        "source_string": "Rank %1$s. Release to confirm new rank",
+        "translation": "Poradie %1$s. Uvoľni na potvrdenie nového poradia",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerDraggingHint",
+        "source_string": "Drag up or down to reorder pack. Release to accept new rank",
+        "translation": "Ťahaj nahor alebo nadol na zmenu poradia balíka. Uvoľni na prijatie nového poradia",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerHint",
+        "source_string": "Click and drag up or down to reorder pack",
+        "translation": "Kliknite a ťahaním nahor alebo nadol zmeňte poradie balíka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationSettingsButton",
+        "source_string": "Pack settings. Button",
+        "translation": "Nastavenia balíka. Tlačidlo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationValidateButton",
+        "source_string": "Validate pack. Button",
+        "translation": "Overiť balík. Tlačidlo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.removeButtonText",
         "source_string": "Remove",
         "translation": "Odstrániť",
@@ -98259,6 +98427,14 @@
         "identifier": "hbui.PackListItem.settingsButtonText",
         "source_string": "Settings",
         "translation": "Nastavenia",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.validateButtonText",
+        "source_string": "Validate",
+        "translation": "Overiť",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98296,6 +98472,70 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PartyInviteListGroup.titleWithLength",
+        "source_string": "%1$s (%2$s)",
+        "translation": "%1$s (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.createParty",
+        "source_string": "Create Party",
+        "translation": "Vytvoriť partiu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.invited",
+        "source_string": "Invited",
+        "translation": "Pozvaný",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.inviteOnlyParty",
+        "source_string": "Invite only party",
+        "translation": "Partia len na pozvanie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.joinableParties",
+        "source_string": "Joinable parties",
+        "translation": "Pripojiteľné partie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.openParty",
+        "source_string": "Open party",
+        "translation": "Otvorená partia",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.optionsForPlayer",
+        "source_string": "Options for %1$s",
+        "translation": "Možnosti pre %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.addFriend",
+        "source_string": "Add friend",
+        "translation": "Pridať priateľa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PartyTab.PlayerOptionsMenu.mute",
         "source_string": "Mute",
         "translation": "Stlmiť",
@@ -98307,6 +98547,38 @@
         "identifier": "hbui.PartyTab.PlayerOptionsMenu.optionsEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s/%2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.promoteToLeader",
+        "source_string": "Promote to leader",
+        "translation": "Povýšiť na vedúceho",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.removeFromParty",
+        "source_string": "Remove from party",
+        "translation": "Odstrániť z partie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.sendMessage",
+        "source_string": "Send message",
+        "translation": "Odoslať správu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.receivedInvites",
+        "source_string": "Received invites",
+        "translation": "Prijaté pozvania",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98328,9 +98600,57 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PeopleTab.closeButtonNarrationHint",
+        "source_string": "Navigate down for more options",
+        "translation": "Prejdite nadol pre ďalšie možnosti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateBody",
+        "source_string": "We're still working on this feature. Check back soon!",
+        "translation": "Na tejto funkcii ešte pracujeme. Skúste to znova neskôr!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PeopleTab.emptyStateButtonInputLegend",
         "source_string": "Select",
         "translation": "Vybrať",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateButtonLabel",
+        "source_string": "Go back to old UI",
+        "translation": "Vrátiť sa na starú verziu rozhrania",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateTitle",
+        "source_string": "Under Construction",
+        "translation": "Vo výstavbe",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.friendsDrawerName",
+        "source_string": "Friends Drawer",
+        "translation": "Panel priateľov",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.noInternetMessage",
+        "source_string": "Please check your internet connection to see your friends.",
+        "translation": "Ak chcete vidieť svojich priateľov, skontrolujte pripojenie na internet.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98347,6 +98667,30 @@
         "identifier": "hbui.PeopleTab.notLoggedInMessage.inputLegend",
         "source_string": "Sign in",
         "translation": "Prihlásiť sa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.text",
+        "source_string": "You need an account to play online with friends.",
+        "translation": "Ak chcete hrať online s priateľmi, potrebujete konto.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.title",
+        "source_string": "You're not logged in",
+        "translation": "Nie ste prihlásení",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.numberOfFriends",
+        "source_string": "You have %1$s online friends",
+        "translation": "Máte %1$s online priateľov",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98379,6 +98723,14 @@
         "identifier": "hbui.PlayerAvatarsOnlineInWorld.full",
         "source_string": "Full",
         "translation": "Úplné",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body",
+        "source_string": "You have been %1$s from playing multiplayer in Minecraft due to \"%2$s\". You won't be able to play on servers, join Realms, host or join multiplayer games or use the marketplace.",
+        "translation": "V Minecrafte vám bola %1$s hra pre viacerých hráčov z tohto dôvodu: „%2$s“. Nebudete môcť hrať na serveroch, pripájať sa k službe Realms, hostiť ani sa pripájať k hrám pre viacerých hráčov, ani používať Trhovisko.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98672,6 +99024,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nameOrGamertag",
+        "source_string": "Player name or gamertag",
+        "translation": "Meno hráča alebo gamertag",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nonConsensualIntimateImagery",
         "source_string": "Violating community standards",
         "translation": "Porušovanie noriem komunity",
@@ -98800,9 +99160,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody",
+        "source_string": "You've been banned from Xbox Live services. While banned, you won't be able to play on servers, join Realms, host or join multiplayer games, or use Marketplace.",
+        "translation": "Bol vám zablokovaný prístup k službám Xbox Live. Počas zablokovania nebudete môcť hrať na serveroch, pripájať sa k službe Realms, hostiť ani sa pripájať k hrám pre viacerých hráčov, ani používať Trhovisko.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody2",
+        "source_string": "Click '%1$s' below to view Xbox enforcement information and how to submit a case review request if you feel you were banned in error.",
+        "translation": "Kliknutím na „%1$s“ nižšie zobrazíte informácie o presadzovaní pravidiel Xbox a spôsob, ako podať žiadosť o preskúmanie prípadu, ak si myslíte, že ste boli zablokovaní omylom.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerCard.addedButton",
         "source_string": "Added",
         "translation": "Pridané",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addFriendButton",
+        "source_string": "Add friend",
+        "translation": "Pridať priateľa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.away",
+        "source_string": "Away",
+        "translation": "Neprítomný",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98832,9 +99224,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerCard.cardNarration",
+        "source_string": "Player details",
+        "translation": "Podrobnosti o hráčovi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.dressingRoomButton",
+        "source_string": "Dressing room",
+        "translation": "Šatňa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerCard.friendsButton",
         "source_string": "Friends",
         "translation": "Priatelia",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.joinButton",
+        "source_string": "Join game",
+        "translation": "Pripojiť sa k hre",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.muted",
+        "source_string": "Muted",
+        "translation": "Stlmený",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98864,9 +99288,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerCard.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "Nastaviť odporúčanú snímku obrazovky",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.accept",
         "source_string": "Accept",
         "translation": "Prijať",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonInputLegend",
+        "source_string": "Add friend",
+        "translation": "Pridať priateľa",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98883,6 +99323,14 @@
         "identifier": "hbui.PlayerListItem.added",
         "source_string": "Added",
         "translation": "Pridané",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.away",
+        "source_string": "Away",
+        "translation": "Neprítomný",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98912,6 +99360,30 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying",
+        "source_string": "Mutual friend playing",
+        "translation": "Hráč spoločného priateľa hrá",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.playstation",
+        "source_string": "PSN™ - Mutual friend playing",
+        "translation": "PSN™ – Hráč spoločného priateľa hrá",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.switch",
+        "source_string": "Switch - Mutual friend playing",
+        "translation": "Switch – Hráč spoločného priateľa hrá",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.friends",
         "source_string": "Friends",
         "translation": "Priatelia",
@@ -98928,9 +99400,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.inviteButtonInputLegend",
+        "source_string": "Invite friend",
+        "translation": "Pozvať priateľa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.inviteButtonText",
         "source_string": "Invite",
         "translation": "Pozvať",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.invited",
+        "source_string": "Invited",
+        "translation": "Pozvaný",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98944,9 +99432,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.narration.addedMutual",
+        "source_string": "You are friends with this player",
+        "translation": "Ste priateľmi s týmto hráčom",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedNotMutual",
+        "source_string": "You added this player",
+        "translation": "Pridali ste tohto hráča",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.additionalActionsHint",
+        "source_string": "Use D-pad right for additional actions",
+        "translation": "Ďalšie akcie získate stlačením smerového tlačidla vpravo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.narration.buttonRole",
         "source_string": "Button",
         "translation": "Tlačidlo",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.inviteButtonText",
+        "source_string": "Invite %1$s to party",
+        "translation": "Pozvať hráča %1$s do skupiny",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98960,9 +99480,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.narration.joinFriend",
+        "source_string": "Join friends world",
+        "translation": "Pripojiť sa do sveta priateľa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.narration.listItemRole",
         "source_string": "List item",
         "translation": "Položka zoznamu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerInvited",
+        "source_string": "This player has been invited",
+        "translation": "Tento hráč bol pozvaný",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerProfileHint",
+        "source_string": "Press to access player profile",
+        "translation": "Stlačením zobrazíte profil hráča",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.receivedRequest",
+        "source_string": "This player sent you a request",
+        "translation": "Tento hráč vám poslal žiadosť",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.sentRequest",
+        "source_string": "You sent a request to this player",
+        "translation": "Poslali ste žiadosť tomuto hráčovi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98984,6 +99544,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.online.playstation",
+        "source_string": "Online on PSN™",
+        "translation": "Online na PSN™",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.switch",
+        "source_string": "Online on Switch",
+        "translation": "Online na Switch",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.pending",
+        "source_string": "Pending",
+        "translation": "Čaká sa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.playingInSameWorld",
+        "source_string": "Playing in this world",
+        "translation": "Hrá v tomto svete",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.receivedRequest",
+        "source_string": "Sent you a request",
+        "translation": "Poslal vám žiadosť",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.reject",
         "source_string": "Reject",
         "translation": "Odmietnuť",
@@ -98995,6 +99595,38 @@
         "identifier": "hbui.PlayerListItem.select",
         "source_string": "Select",
         "translation": "Vybrať",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.viewProfile",
+        "source_string": "View player profile",
+        "translation": "Zobraziť profil hráča",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.you",
+        "source_string": "(You)",
+        "translation": "(Ty)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.addToFavorites",
+        "source_string": "Add to favorites",
+        "translation": "Pridať medzi obľúbené",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.appearOffline",
+        "source_string": "Appear offline",
+        "translation": "Zdať sa offline",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99016,6 +99648,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.manageXboxProfile",
+        "source_string": "Manage Xbox profile",
+        "translation": "Správa profilu Xbox",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerOptionsModal.mute",
         "source_string": "Mute",
         "translation": "Stlmiť",
@@ -99032,9 +99672,57 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.optionsTitle",
+        "source_string": "Account options",
+        "translation": "Možnosti konta",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.privacyAndSafety",
+        "source_string": "Privacy and online safety",
+        "translation": "Ochrana osobných údajov a bezpečnosť online",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFriend",
+        "source_string": "Remove friend",
+        "translation": "Odstrániť priateľa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFromFavorites",
+        "source_string": "Remove from favorites",
+        "translation": "Odstrániť z obľúbených",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerOptionsModal.report",
         "source_string": "Report",
         "translation": "Nahlásiť",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "Nastaviť odporúčanú snímku obrazovky",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareMyProfile",
+        "source_string": "Share my profile",
+        "translation": "Zdieľať môj profil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99056,9 +99744,97 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.viewXboxProfile",
+        "source_string": "View Xbox profile",
+        "translation": "Zobraziť profil Xbox",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackMobs",
+        "source_string": "Attack Mobs",
+        "translation": "Útočiť na tvory",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackPlayers",
+        "source_string": "Attack Players",
+        "translation": "Útočiť na hráčov",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.ability.build",
         "source_string": "Build",
         "translation": "Budovať",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackMobs",
+        "source_string": "Engage in player vs. environment combat",
+        "translation": "Bojovanie hráča proti prostrediu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackPlayers",
+        "source_string": "Engage in player vs. player combat",
+        "translation": "Bojovanie hráča proti hráčovi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.build",
+        "source_string": "Place blocks in the world",
+        "translation": "Umiestňovanie blokov vo svete",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.doorsAndSwitches",
+        "source_string": "Activate most useable objects in the world",
+        "translation": "Aktivovanie väčšiny použiteľných objektov vo svete",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.mine",
+        "source_string": "Destroy world elements and collect blocks",
+        "translation": "Ničenie prvkov sveta a zbieranie blokov",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.openContainers",
+        "source_string": "View, add to, and take from chests",
+        "translation": "Zobrazovanie, dopĺňanie a vyberanie z truhlíc",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.operatorCommands",
+        "source_string": "Access advanced server options",
+        "translation": "Prístup k pokročilým možnostiam servera",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.teleport",
+        "source_string": "Instantly move to anywhere in the world",
+        "translation": "Okamžité premiestnenie kamkoľvek vo svete",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99104,6 +99880,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "Vyhodiť hráča %1$s zo svetu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton.inputLegend",
         "source_string": "Select",
         "translation": "Vybrať",
@@ -99120,9 +99904,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.description",
+        "source_string": "Only server operators can edit player permissions",
+        "translation": "Povolenia hráčov môžu upravovať iba operátori servera",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.title",
+        "source_string": "Nothing to see here",
+        "translation": "Nič tu nie je",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandFailedFlag",
+        "source_string": "Couldn’t remove this player.",
+        "translation": "Tohto hráča sa nepodarilo odstrániť.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandSuccess",
+        "source_string": "Player successfully removed",
+        "translation": "Hráč bol úspešne odstránený",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.selectedPlayerPermissionsChangedFlag",
+        "source_string": "Player permissions updated by another operator.",
+        "translation": "Povolenia hráča upravil iný operátor.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.optionEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s/%2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.playerIdInvalidFlag",
+        "source_string": "Couldn’t load permissions for this player",
+        "translation": "Nepodarilo sa načítať povolenia pre tohto hráča",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.custom",
+        "source_string": "A customized set of permissions for this player",
+        "translation": "Vlastná sada povolení pre tohto hráča",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99136,9 +99976,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.operator",
+        "source_string": "Operators can teleport and use commands, in addition to everything members can do",
+        "translation": "Okrem všetkého, čo môžu robiť členovia, sa operátori môžu teleportovať a používať príkazy",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.visitor",
         "source_string": "Visitors can only observe your world, not interact with it",
         "translation": "Návštevníci môžu len pozorovať váš svet bez interakcie",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.title",
+        "source_string": "Permission level",
+        "translation": "Úroveň povolení",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.link",
+        "source_string": "Go to game settings",
+        "translation": "Prejsť na nastavenia hry",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.text",
+        "source_string": "Unlock template world options to be able to change permissions.",
+        "translation": "Odomknite možnosti sveta podľa šablóny, aby ste mohli zmeniť povolenia.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.cheatsDisabledButton",
+        "source_string": "Continue with cheats disabled",
+        "translation": "Pokračovať s vypnutým podvádzaním",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.description",
+        "source_string": "Certain commands, like teleport, are only available with cheats enabled. Enable them now or through the game settings menu.",
+        "translation": "Niektoré príkazy, napríklad teleport, sú dostupné iba pri zapnutom podvádzaní. Zapnite ho teraz alebo v ponuke nastavení hry.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.enableCheatsButton",
+        "source_string": "Enable cheats",
+        "translation": "Zapnúť podvádzanie",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99152,9 +100048,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.title",
+        "source_string": "Cheats are disabled",
+        "translation": "Podvádzanie je vypnuté",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.backButton",
         "source_string": "Go back",
         "translation": "Naspäť",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.description",
+        "source_string": "Really kick %1$s from this world? They won’t be able to rejoin this session.",
+        "translation": "Naozaj chceš vyhodiť hráča %1$s z tohto sveta? Nebude sa môcť znova pripojiť k tejto relácii.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99168,9 +100080,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "Vyhodiť hráča %1$s zo svetu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.title",
+        "source_string": "Kick player?",
+        "translation": "Vyhodiť hráča?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.closeButton",
         "source_string": "Close",
         "translation": "Zavrieť",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.description",
+        "source_string": "Your operator permissions have been revoked and you can no longer edit the permissions of other players.",
+        "translation": "Vaše povolenia operátora boli zrušené a už nemôžete upravovať povolenia ostatných hráčov.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99184,9 +100120,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.title",
+        "source_string": "Operator permissions revoked",
+        "translation": "Povolenia operátora zrušené",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.closeButton",
         "source_string": "Close",
         "translation": "Zavrieť",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.description",
+        "source_string": "%1$s left the world and their permissions can’t be changed.",
+        "translation": "Hráč %1$s opustil svet a jeho povolenia nemožno zmeniť.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99200,6 +100152,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.title",
+        "source_string": "Player has left",
+        "translation": "Hráč opustil hru",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.backButton",
         "source_string": "Go back",
         "translation": "Naspäť",
@@ -99208,9 +100168,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description",
+        "source_string": "Lowering this player’s permission level will remove their access to operator commands. Owners can restore permissions at any time.",
+        "translation": "Zníženie úrovne povolení tohto hráča odoberie prístup k príkazom operátora. Vlastníci môžu povolenia kedykoľvek obnoviť.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.inputLegend",
         "source_string": "Select",
         "translation": "Vybrať",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton",
+        "source_string": "Remove operator permissions",
+        "translation": "Odstrániť povolenia operátora",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title",
+        "source_string": "Remove operator permissions?",
+        "translation": "Chcete odstrániť povolenia operátora?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99296,9 +100280,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.title",
+        "source_string": "Player Permissions for %1$s",
+        "translation": "Povolenia hráča %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayersOnlineInWorld.full",
         "source_string": "Full",
         "translation": "Úplné",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerTag.hint",
+        "source_string": "Press to access player profile",
+        "translation": "Stlačením zobrazíte profil hráča",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99312,9 +100312,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerTag.viewProfile",
+        "source_string": "View player profile",
+        "translation": "Zobraziť profil hráča",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayRealmsTrialModeModal.button",
         "source_string": "Buy Minecraft",
         "translation": "Kúpiť Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.message",
+        "source_string": "Run your own Minecraft server! You set the rules: who can join and how to play. Realm members play for free, even when you’re offline. Easy to set up, manage, and access from any device.",
+        "translation": "Spustite si vlastný server Minecraft! Vy určujete pravidlá: kto sa môže pripojiť a ako sa hrá. Členovia Realm hrajú zadarmo, aj keď ste offline. Jednoduché nastavenie, spravovanie a prístup z ľubovoľného zariadenia.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99347,6 +100363,62 @@
         "identifier": "hbui.PlayScreen.allWorlds",
         "source_string": "Worlds (%1$s)",
         "translation": "Svety (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateFromTemplateButton",
+        "source_string": "Create from template",
+        "translation": "Vytvoriť zo šablóny",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateNewButton",
+        "source_string": "Create new world",
+        "translation": "Vytvoriť nový svet",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateStartFromTemplateButton",
+        "source_string": "Start from template",
+        "translation": "Začať zo šablóny",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText",
+        "source_string": "Create a new world from scratch or create a world from a template.",
+        "translation": "Vytvorte nový svet od základov alebo vytvorte svet zo šablóny.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText.trialMode",
+        "source_string": "Create a new world from scratch.",
+        "translation": "Vytvorte nový svet od základov.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateTitle",
+        "source_string": "No worlds here... yet!",
+        "translation": "Žiadne svety tu nie sú... zatiaľ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.banned.text",
+        "source_string": "You’ve been permanently banned from Minecraft’s online services. You can not play with friends or on LAN worlds.",
+        "translation": "Boli ste natrvalo zablokovaní z online služieb Minecraft. Nemôžete hrať s priateľmi ani v svetoch LAN.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

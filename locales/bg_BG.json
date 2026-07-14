@@ -87384,6 +87384,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "Създай въпреки това",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
         "source_string": "Continue anyway",
         "translation": "Продължаване въпреки това",
@@ -87408,6 +87416,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "Създаването на свят с някоя от следните функции ще означава, че няма да можеш да получаваш постижения в този свят. Дори ако изключиш тези настройки по-късно, ще трябва да посетиш друг свят, за да получаваш постижения.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "Създаването на свят със следната функция ще означава, че няма да можеш да получаваш постижения в този свят. Дори ако изключиш тази настройка по-късно, ще трябва да посетиш друг свят, за да получаваш постижения.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
         "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
         "translation": "Начинът, по който е създаден този свят, означава, че няма да можете да печелите постижения, докато играете в него. Редактирането на настройките на света сега не може да промени това. Ще трябва да посетите друг свят, за да печелите постижения.",
@@ -87416,9 +87440,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "Светът е създаден като плосък свят",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
         "source_string": "Go back",
         "translation": "Назад",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "Създателят на света има привилегии на оператор",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98936,6 +98976,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.narrationActivateButton",
+        "source_string": "Activate pack. Button",
+        "translation": "Активиране на пакета. Бутон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.narrationButton",
         "source_string": "Button",
         "translation": "Бутон",
@@ -98968,9 +99016,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.narrationDetailsButton",
+        "source_string": "Pack details. Button",
+        "translation": "Подробности за пакета. Бутон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.narrationExpanded",
         "source_string": "Expanded",
         "translation": "Разширено",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandedHint",
+        "source_string": "Navigate down for pack description",
+        "translation": "Придвижи се надолу за описанието на пакета",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHint",
+        "source_string": "Expand to access the pack description or use right arrow for additional actions",
+        "translation": "Разгъни за достъп до описанието на пакета или използвай десилата стрелка за допълнителни действия",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHintNoButtons",
+        "source_string": "Expand for more information",
+        "translation": "Разгъни за повече информация",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -98992,6 +99072,110 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.narrationPackDescription",
+        "source_string": "Pack description",
+        "translation": "Описание на пакета",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackRank",
+        "source_string": "Rank %1$s",
+        "translation": "Ранг %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationRemoveButton",
+        "source_string": "Remove pack. Button",
+        "translation": "Премахване на пакета. Бутон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderComplete",
+        "source_string": "Pack is now rank %1$s",
+        "translation": "Пакетът вече е с ранг %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadChangeConfirmation",
+        "source_string": "Rank %1$s. Select to confirm new rank.",
+        "translation": "Ранг %1$s. Избери, за да потвърдиш новия ранг.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadDraggingHint",
+        "source_string": "Use up or down keys to reorder pack",
+        "translation": "Използвай клавишите нагоре или надолу, за да пренаредиш пакета",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadHint",
+        "source_string": "Select to reorder pack",
+        "translation": "Избери, за да пренаредиш пакета",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPack",
+        "source_string": "Reorder pack",
+        "translation": "Пренареждане на пакета",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerChangeConfirmation",
+        "source_string": "Rank %1$s. Release to confirm new rank",
+        "translation": "Ранг %1$s. Отпусни, за да потвърдиш новия ранг",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerDraggingHint",
+        "source_string": "Drag up or down to reorder pack. Release to accept new rank",
+        "translation": "Плъзни нагоре или надолу, за да пренаредиш пакета. Отпусни, за да приемеш новия ранг",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerHint",
+        "source_string": "Click and drag up or down to reorder pack",
+        "translation": "Щракнете и плъзнете нагоре или надолу за преместване на пакета",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationSettingsButton",
+        "source_string": "Pack settings. Button",
+        "translation": "Настройки на пакета. Бутон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationValidateButton",
+        "source_string": "Validate pack. Button",
+        "translation": "Проверка на пакета. Бутон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.removeButtonText",
         "source_string": "Remove",
         "translation": "Премахни",
@@ -99003,6 +99187,14 @@
         "identifier": "hbui.PackListItem.settingsButtonText",
         "source_string": "Settings",
         "translation": "Настройки",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.validateButtonText",
+        "source_string": "Validate",
+        "translation": "Проверка",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99040,6 +99232,70 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PartyInviteListGroup.titleWithLength",
+        "source_string": "%1$s (%2$s)",
+        "translation": "%1$s (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.createParty",
+        "source_string": "Create Party",
+        "translation": "Създаване на група",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.invited",
+        "source_string": "Invited",
+        "translation": "Покана изпратена",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.inviteOnlyParty",
+        "source_string": "Invite only party",
+        "translation": "Група само с покани",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.joinableParties",
+        "source_string": "Joinable parties",
+        "translation": "Групи за присъединяване",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.openParty",
+        "source_string": "Open party",
+        "translation": "Отворена група",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.optionsForPlayer",
+        "source_string": "Options for %1$s",
+        "translation": "Настройки за %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.addFriend",
+        "source_string": "Add friend",
+        "translation": "Добавяне на приятел",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PartyTab.PlayerOptionsMenu.mute",
         "source_string": "Mute",
         "translation": "Заглушаване",
@@ -99051,6 +99307,38 @@
         "identifier": "hbui.PartyTab.PlayerOptionsMenu.optionsEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s от %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.promoteToLeader",
+        "source_string": "Promote to leader",
+        "translation": "Повишаване до водач",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.removeFromParty",
+        "source_string": "Remove from party",
+        "translation": "Премахване от групата",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.sendMessage",
+        "source_string": "Send message",
+        "translation": "Изпращане на съобщение",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.receivedInvites",
+        "source_string": "Received invites",
+        "translation": "Получени покани",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99072,9 +99360,57 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PeopleTab.closeButtonNarrationHint",
+        "source_string": "Navigate down for more options",
+        "translation": "Придвижете се надолу за още опции",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateBody",
+        "source_string": "We're still working on this feature. Check back soon!",
+        "translation": "Все още работим по тази функция. Проверете отново скоро!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PeopleTab.emptyStateButtonInputLegend",
         "source_string": "Select",
         "translation": "Избор",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateButtonLabel",
+        "source_string": "Go back to old UI",
+        "translation": "Обратно към стария потребителски интерфейс",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateTitle",
+        "source_string": "Under Construction",
+        "translation": "В строеж",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.friendsDrawerName",
+        "source_string": "Friends Drawer",
+        "translation": "Панел с приятели",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.noInternetMessage",
+        "source_string": "Please check your internet connection to see your friends.",
+        "translation": "Моля, проверете интернет връзката си, за да видите приятелите си.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99091,6 +99427,30 @@
         "identifier": "hbui.PeopleTab.notLoggedInMessage.inputLegend",
         "source_string": "Sign in",
         "translation": "Влизане",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.text",
+        "source_string": "You need an account to play online with friends.",
+        "translation": "Трябва ви акаунт, за да играете онлайн с приятели.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.title",
+        "source_string": "You're not logged in",
+        "translation": "Не сте влезли в акаунта си",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.numberOfFriends",
+        "source_string": "You have %1$s online friends",
+        "translation": "Имате %1$s онлайн приятели",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99123,6 +99483,14 @@
         "identifier": "hbui.PlayerAvatarsOnlineInWorld.full",
         "source_string": "Full",
         "translation": "Пълно",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body",
+        "source_string": "You have been %1$s from playing multiplayer in Minecraft due to \"%2$s\". You won't be able to play on servers, join Realms, host or join multiplayer games or use the marketplace.",
+        "translation": "Бяхте %1$s от групова игра в Minecraft поради „%2$s“. Няма да можете да играете на сървъри, да се включвате в Realms, да хоствате или да се включвате в групови игри, нито да използвате пазара.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99416,6 +99784,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nameOrGamertag",
+        "source_string": "Player name or gamertag",
+        "translation": "Име на играч или етикет за геймъри",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nonConsensualIntimateImagery",
         "source_string": "Violating community standards",
         "translation": "Нарушаване на стандартите на общността",
@@ -99544,9 +99920,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody",
+        "source_string": "You've been banned from Xbox Live services. While banned, you won't be able to play on servers, join Realms, host or join multiplayer games, or use Marketplace.",
+        "translation": "Забранен ви е достъпът до услугите на Xbox Live. Докато сте забранени, няма да можете да играете на сървъри, да се включвате в Realms, да хоствате или да се включвате в групови игри, нито да използвате пазара.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody2",
+        "source_string": "Click '%1$s' below to view Xbox enforcement information and how to submit a case review request if you feel you were banned in error.",
+        "translation": "Щракнете върху „%1$s“ по-долу, за да видите информация за санкциите на Xbox и как да подадете заявка за преглед на случай, ако смятате, че сте били забранени по погрешка.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerCard.addedButton",
         "source_string": "Added",
         "translation": "Добавено",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addFriendButton",
+        "source_string": "Add friend",
+        "translation": "Добавяне на приятел",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.away",
+        "source_string": "Away",
+        "translation": "Отсъстващ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99576,9 +99984,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerCard.cardNarration",
+        "source_string": "Player details",
+        "translation": "Данни за играча",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.dressingRoomButton",
+        "source_string": "Dressing room",
+        "translation": "Съблекалня",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerCard.friendsButton",
         "source_string": "Friends",
         "translation": "Приятели",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.joinButton",
+        "source_string": "Join game",
+        "translation": "Включване в играта",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.muted",
+        "source_string": "Muted",
+        "translation": "Заглушен",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99608,9 +100048,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerCard.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "Задаване на препоръчана снимка на екрана",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.accept",
         "source_string": "Accept",
         "translation": "Приемане",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonInputLegend",
+        "source_string": "Add friend",
+        "translation": "Добавяне на приятел",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99627,6 +100083,14 @@
         "identifier": "hbui.PlayerListItem.added",
         "source_string": "Added",
         "translation": "Добавено",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.away",
+        "source_string": "Away",
+        "translation": "Отсъстващ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99656,6 +100120,30 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying",
+        "source_string": "Mutual friend playing",
+        "translation": "Общ приятел играе",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.playstation",
+        "source_string": "PSN™ - Mutual friend playing",
+        "translation": "PSN™ - Общ приятел играе",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.switch",
+        "source_string": "Switch - Mutual friend playing",
+        "translation": "Switch - Общ приятел играе",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.friends",
         "source_string": "Friends",
         "translation": "Приятели",
@@ -99672,9 +100160,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.inviteButtonInputLegend",
+        "source_string": "Invite friend",
+        "translation": "Покана на приятел",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.inviteButtonText",
         "source_string": "Invite",
         "translation": "Покана",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.invited",
+        "source_string": "Invited",
+        "translation": "Поканен",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99688,9 +100192,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.narration.addedMutual",
+        "source_string": "You are friends with this player",
+        "translation": "Приятели сте с този играч",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedNotMutual",
+        "source_string": "You added this player",
+        "translation": "Добавили сте този играч",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.additionalActionsHint",
+        "source_string": "Use D-pad right for additional actions",
+        "translation": "Използвайте D-pad надясно за допълнителни действия",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.narration.buttonRole",
         "source_string": "Button",
         "translation": "Бутон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.inviteButtonText",
+        "source_string": "Invite %1$s to party",
+        "translation": "Покана на %1$s в група",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99704,9 +100240,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.narration.joinFriend",
+        "source_string": "Join friends world",
+        "translation": "Включване в света на приятел",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.narration.listItemRole",
         "source_string": "List item",
         "translation": "Елемент от списък",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerInvited",
+        "source_string": "This player has been invited",
+        "translation": "Този играч е поканен",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerProfileHint",
+        "source_string": "Press to access player profile",
+        "translation": "Натиснете за достъп до профила на играча",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.receivedRequest",
+        "source_string": "This player sent you a request",
+        "translation": "Този играч ви изпрати покана",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.sentRequest",
+        "source_string": "You sent a request to this player",
+        "translation": "Изпратихте покана на този играч",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99728,6 +100304,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.online.playstation",
+        "source_string": "Online on PSN™",
+        "translation": "Онлайн в PSN™",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.switch",
+        "source_string": "Online on Switch",
+        "translation": "Онлайн на Switch",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.pending",
+        "source_string": "Pending",
+        "translation": "В изчакване",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.playingInSameWorld",
+        "source_string": "Playing in this world",
+        "translation": "Играе в този свят",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.receivedRequest",
+        "source_string": "Sent you a request",
+        "translation": "Изпратил(а) ви заявка",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.reject",
         "source_string": "Reject",
         "translation": "Отхвърляне",
@@ -99739,6 +100355,38 @@
         "identifier": "hbui.PlayerListItem.select",
         "source_string": "Select",
         "translation": "Избор",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.viewProfile",
+        "source_string": "View player profile",
+        "translation": "Преглед на профила на играча",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.you",
+        "source_string": "(You)",
+        "translation": "(Ти)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.addToFavorites",
+        "source_string": "Add to favorites",
+        "translation": "Добавяне към любими",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.appearOffline",
+        "source_string": "Appear offline",
+        "translation": "Изглеждай офлайн",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99760,6 +100408,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.manageXboxProfile",
+        "source_string": "Manage Xbox profile",
+        "translation": "Управление на Xbox профил",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerOptionsModal.mute",
         "source_string": "Mute",
         "translation": "Заглушаване",
@@ -99776,9 +100432,57 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.optionsTitle",
+        "source_string": "Account options",
+        "translation": "Опции на акаунта",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.privacyAndSafety",
+        "source_string": "Privacy and online safety",
+        "translation": "Поверителност и онлайн защита",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFriend",
+        "source_string": "Remove friend",
+        "translation": "Премахване на приятел",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFromFavorites",
+        "source_string": "Remove from favorites",
+        "translation": "Премахване от любими",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerOptionsModal.report",
         "source_string": "Report",
         "translation": "Докладване",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "Задаване на препоръчана снимка",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareMyProfile",
+        "source_string": "Share my profile",
+        "translation": "Споделяне на моя профил",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99800,9 +100504,97 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.viewXboxProfile",
+        "source_string": "View Xbox profile",
+        "translation": "Преглед на Xbox профил",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackMobs",
+        "source_string": "Attack Mobs",
+        "translation": "Атакуване на мобове",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackPlayers",
+        "source_string": "Attack Players",
+        "translation": "Атакуване на играчи",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.ability.build",
         "source_string": "Build",
         "translation": "Строене",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackMobs",
+        "source_string": "Engage in player vs. environment combat",
+        "translation": "Участие в битки играч срещу околната среда",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackPlayers",
+        "source_string": "Engage in player vs. player combat",
+        "translation": "Участие в битки играч срещу играч",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.build",
+        "source_string": "Place blocks in the world",
+        "translation": "Поставяне на блокове в света",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.doorsAndSwitches",
+        "source_string": "Activate most useable objects in the world",
+        "translation": "Активиране на повечето използваеми обекти в света",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.mine",
+        "source_string": "Destroy world elements and collect blocks",
+        "translation": "Разрушаване на елементи от света и събиране на блокове",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.openContainers",
+        "source_string": "View, add to, and take from chests",
+        "translation": "Преглеждане, добавяне и вземане от сандъци",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.operatorCommands",
+        "source_string": "Access advanced server options",
+        "translation": "Достъп до разширени опции на сървъра",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.teleport",
+        "source_string": "Instantly move to anywhere in the world",
+        "translation": "Незабавно преместване до всяко място в света",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99848,6 +100640,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "Изхвърляне на %1$s от света",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton.inputLegend",
         "source_string": "Select",
         "translation": "Избор",
@@ -99864,9 +100664,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.description",
+        "source_string": "Only server operators can edit player permissions",
+        "translation": "Само операторите на сървъра могат да редактират разрешенията на играчите",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.title",
+        "source_string": "Nothing to see here",
+        "translation": "Тук няма нищо",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandFailedFlag",
+        "source_string": "Couldn’t remove this player.",
+        "translation": "Неуспешно премахване на този играч.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandSuccess",
+        "source_string": "Player successfully removed",
+        "translation": "Играчът е премахнат успешно",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.selectedPlayerPermissionsChangedFlag",
+        "source_string": "Player permissions updated by another operator.",
+        "translation": "Разрешенията на играча са обновени от друг оператор.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.optionEnumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s от %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.playerIdInvalidFlag",
+        "source_string": "Couldn’t load permissions for this player",
+        "translation": "Неуспешно зареждане на разрешенията за този играч",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.custom",
+        "source_string": "A customized set of permissions for this player",
+        "translation": "Персонализиран набор от разрешения за този играч",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99880,9 +100736,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.operator",
+        "source_string": "Operators can teleport and use commands, in addition to everything members can do",
+        "translation": "Операторите могат да се телепортират и да използват команди, в допълнение към всичко, което членовете могат да правят",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.visitor",
         "source_string": "Visitors can only observe your world, not interact with it",
         "translation": "Посетителите могат само да наблюдават вашия свят, не да взаимодействат с него",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.title",
+        "source_string": "Permission level",
+        "translation": "Ниво на разрешение",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.link",
+        "source_string": "Go to game settings",
+        "translation": "Към настройките на играта",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.text",
+        "source_string": "Unlock template world options to be able to change permissions.",
+        "translation": "Отключете опциите на шаблонния свят, за да можете да променяте разрешения.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.cheatsDisabledButton",
+        "source_string": "Continue with cheats disabled",
+        "translation": "Продължи с изключени чийтове",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.description",
+        "source_string": "Certain commands, like teleport, are only available with cheats enabled. Enable them now or through the game settings menu.",
+        "translation": "Определени команди, като телепортирането, са достъпни само при включени чийтове. Включете ги сега или през менюто с настройки на играта.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.enableCheatsButton",
+        "source_string": "Enable cheats",
+        "translation": "Включване на чийтове",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99896,9 +100808,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.title",
+        "source_string": "Cheats are disabled",
+        "translation": "Чийтовете са изключени",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.backButton",
         "source_string": "Go back",
         "translation": "Назад",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.description",
+        "source_string": "Really kick %1$s from this world? They won’t be able to rejoin this session.",
+        "translation": "Наистина ли искаш да изхвърлиш %1$s от този свят? Играчът няма да може да се присъедини отново към тази сесия.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99912,9 +100840,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "Изхвърляне на %1$s от света",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.title",
+        "source_string": "Kick player?",
+        "translation": "Да изхвърлим ли играча?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.closeButton",
         "source_string": "Close",
         "translation": "Затваряне",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.description",
+        "source_string": "Your operator permissions have been revoked and you can no longer edit the permissions of other players.",
+        "translation": "Вашите права на оператор бяха отнети и вече не можете да редактирате разрешенията на другите играчи.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99928,9 +100880,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.title",
+        "source_string": "Operator permissions revoked",
+        "translation": "Правата на оператор са отнети",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.closeButton",
         "source_string": "Close",
         "translation": "Затваряне",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.description",
+        "source_string": "%1$s left the world and their permissions can’t be changed.",
+        "translation": "%1$s напусна света и разрешенията му не могат да бъдат променени.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -99944,6 +100912,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.title",
+        "source_string": "Player has left",
+        "translation": "Играчът е напуснал",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.backButton",
         "source_string": "Go back",
         "translation": "Назад",
@@ -99952,9 +100928,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description",
+        "source_string": "Lowering this player’s permission level will remove their access to operator commands. Owners can restore permissions at any time.",
+        "translation": "Намаляването на нивото на разрешение на този играч ще премахне достъпа му до команди на оператор. Собствениците могат да възстановят разрешенията по всяко време.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.inputLegend",
         "source_string": "Select",
         "translation": "Избор",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton",
+        "source_string": "Remove operator permissions",
+        "translation": "Премахване на правата на оператор",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title",
+        "source_string": "Remove operator permissions?",
+        "translation": "Да премахнем ли правата на оператор?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -100040,9 +101040,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.title",
+        "source_string": "Player Permissions for %1$s",
+        "translation": "Разрешения на играча за %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayersOnlineInWorld.full",
         "source_string": "Full",
         "translation": "Пълно",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerTag.hint",
+        "source_string": "Press to access player profile",
+        "translation": "Натисни за достъп до профила на играча",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -100056,9 +101072,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerTag.viewProfile",
+        "source_string": "View player profile",
+        "translation": "Преглед на профила на играча",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayRealmsTrialModeModal.button",
         "source_string": "Buy Minecraft",
         "translation": "Купете Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.message",
+        "source_string": "Run your own Minecraft server! You set the rules: who can join and how to play. Realm members play for free, even when you’re offline. Easy to set up, manage, and access from any device.",
+        "translation": "Управлявай свой собствен сървър в Minecraft! Ти определяш правилата: кой може да се присъедини и как да играете. Членовете на Realm играят безплатно, дори когато си офлайн. Лесно се настройва, управлява и е достъпен от всяко устройство.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -100091,6 +101123,62 @@
         "identifier": "hbui.PlayScreen.allWorlds",
         "source_string": "Worlds (%1$s)",
         "translation": "Светове (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateFromTemplateButton",
+        "source_string": "Create from template",
+        "translation": "Създаване от шаблон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateNewButton",
+        "source_string": "Create new world",
+        "translation": "Създаване на нов свят",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateStartFromTemplateButton",
+        "source_string": "Start from template",
+        "translation": "Създаване от шаблон",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText",
+        "source_string": "Create a new world from scratch or create a world from a template.",
+        "translation": "Създай нов свят от нулата или създай свят от шаблон.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText.trialMode",
+        "source_string": "Create a new world from scratch.",
+        "translation": "Създай нов свят от нулата.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateTitle",
+        "source_string": "No worlds here... yet!",
+        "translation": "Тук няма светове... все още!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.banned.text",
+        "source_string": "You’ve been permanently banned from Minecraft’s online services. You can not play with friends or on LAN worlds.",
+        "translation": "Забранен си завинаги от онлайн услугите на Minecraft. Не можеш да играеш с приятели или в LAN светове.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

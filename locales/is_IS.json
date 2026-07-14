@@ -27608,9 +27608,161 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "Fellilisti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.openInputLegend",
+        "source_string": "Open",
+        "translation": "Opna",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "Fellt saman",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "Útþanið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AccountUnlinkRoute.cancelButton",
         "source_string": "Cancel",
         "translation": "Hætta við",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "Ok",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "Ekki tókst að aftengja aðgangana þína. Kannaðu hvort nettengingin þín er í lagi?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "Einhver villa kom upp",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "Ertu alveg viss?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "Aftengi reikninga",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successBody",
+        "source_string": "Your accounts have been unlinked",
+        "translation": "Reikningarnir þínir hafa verið aftengdir",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successHeader",
+        "source_string": "Unlink successful",
+        "translation": "Aftenging tókst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkButton",
+        "source_string": "Unlink",
+        "translation": "Aftengja",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine1",
+        "source_string": "Account unlink warning",
+        "translation": "Viðvörun um aftengingu reiknings",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine2",
+        "source_string": "Account unlink details",
+        "translation": "Upplýsingar um aftengingu reiknings",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
+        "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
+        "translation": "Ef þú skilur það sem sagt var hér að ofan og vilt enn aftengja reikninginn þinn, veldu \"Aftengja\" hér fyrir neðan.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.anotherPlatform",
+        "source_string": "Completed on another platform",
+        "translation": "Lokið á öðru tæki",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.completed",
+        "source_string": "Completed",
+        "translation": "Lokið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "Leikjastig",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27632,9 +27784,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDetailsRoute.errorMessage",
+        "source_string": "Achievement couldn’t load. Please try again or check your internet connection.",
+        "translation": "Ekki tókst að hlaða inn afrek. Reyndu aftur eða athuga netsambandið þitt.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.completed",
+        "source_string": "completed",
+        "translation": "lokið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.gamerscore",
+        "source_string": "gamerscore",
+        "translation": "leikjastig",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Hleður",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDetailsRoute.narration.locked",
         "source_string": "locked",
         "translation": "læst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.percentage",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.progress",
+        "source_string": "progress",
+        "translation": "framvinda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "verðlaun læst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "verðlaun opnuð",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.title",
+        "source_string": "Achievement details",
+        "translation": "Nánar um afrek",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.reward",
+        "source_string": "Reward",
+        "translation": "Verðlaun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.title",
+        "source_string": "Achievement Details",
+        "translation": "Nánar um afrek",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.titleNarration",
+        "source_string": "Achievement Details Screen",
+        "translation": "Nánar um afrek skjár",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.viewReward",
+        "source_string": "View reward",
+        "translation": "Skoða verðlaun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
+        "source_string": "A behavior pack is activated",
+        "translation": "Hegðunarpakki er virkjaður",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
+        "source_string": "Cheats are enabled",
+        "translation": "Svindl er virkt",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27648,9 +27920,217 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "Búa til hvort sem er",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
+        "source_string": "Continue anyway",
+        "translation": "Halda áfram hvort sem er",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.creativeMode",
+        "source_string": "The world is created in creative mode",
+        "translation": "Heimurinn er búinn til í skapandi ham",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "Beta-eiginleikar eru virkir",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "Ef þú býrð til heim með einhverjum af eftirfarandi eiginleikum muntu ekki geta unnið afrek í þeim heimi. Jafnvel þótt þú slökkvir á þessum valkostum síðar þarftu að fara í annan heim til að vinna afrek.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "Ef þú býrð til heim með eftirfarandi eiginleika muntu ekki geta unnið afrek í þeim heimi. Jafnvel þótt þú slökkvir á þessum valkosti síðar þarftu að fara í annan heim til að vinna afrek.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "Hvernig þessi heimur hefur verið stilltur þýðir að þú munt ekki geta unnið afrek meðan þú spilar í honum. Að breyta stillingum heimsins núna getur ekki breytt þessu. Þú þarft að fara í annan heim til að vinna afrek.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "Heimurinn er búinn til sem flatur heimur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Fara til baka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "Skapari heimsins hefur stjórnandaréttindi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Ekki er hægt að vinna afrek í þessum heimi ef:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "Heimurinn er byggður út frá sniðmáti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Þú getur ekki unnið afrek",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "Skapari heimsins er að nota prufuútgáfu af Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.completed",
+        "source_string": "Completed",
+        "translation": "Lokið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.gamerscoreNarration",
+        "source_string": "gamerscore %1$s",
+        "translation": "gamerscore %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.groupNarration",
+        "source_string": "Group %1$s of %2$s",
+        "translation": "Hópur %1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.inProgress",
+        "source_string": "In progress",
+        "translation": "Í vinnslu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementListItem.locked",
         "source_string": "Locked",
         "translation": "Læst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationCompleted",
+        "source_string": "%1$s of %2$s, unlocked, %3$s gamerscore",
+        "translation": "%1$s af %2$s, opnað, %3$s gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationLocked",
+        "source_string": "%1$s of %2$s, locked, %3$s gamerscore",
+        "translation": "%1$s af %2$s, lokað, %3$s gamerscore",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.percentageNarration",
+        "source_string": "progress of %1$s percent",
+        "translation": "framvinda: %1$s prósent",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardLockedNarration",
+        "source_string": "Reward locked",
+        "translation": "Verðlaun lokuð",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardUnlockedNarration",
+        "source_string": "Reward unlocked",
+        "translation": "Verðlaun opnuð",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.siblingNarration",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "Hnappur %1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.view",
+        "source_string": "View details",
+        "translation": "Skoða nánar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.cheats",
+        "source_string": "Cheats are enabled",
+        "translation": "Svindl er virkt",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27664,9 +28144,201 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.creative",
+        "source_string": "The world is created in creative mode",
+        "translation": "Heimurinn er búinn til í skapandi ham",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.description",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "Hvernig þessi heimur hefur verið stilltur þýðir að þú munt ekki geta unnið afrek meðan þú spilar í honum. Að breyta stillingum heimsins núna getur ekki breytt þessu. Þú þarft að fara í annan heim til að vinna afrek.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "Beta-eiginleikar eru virkir",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.flat",
+        "source_string": "The world is created as a flatworld",
+        "translation": "Heimurinn er búinn til sem flatheimur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
+        "source_string": "A behavior pack is activated",
+        "translation": "Hegðunarpakki er virkjaður",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.permissions",
+        "source_string": "The world creator has operator privileges",
+        "translation": "Skapari heimsins hefur stjórnandaréttindi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.reasonText",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "Ekki er hægt að vinna afrek í þessum heimi ef:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "Heimurinn er byggður út frá sniðmáti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "Þú getur ekki unnið afrek",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "Skapari heimsins er að nota prufuútgáfu af Minecraft",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "verðlaun lokuð",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "verðlaun opnuð",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.reward",
+        "source_string": "Reward",
+        "translation": "Verðlaun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.viewReward",
+        "source_string": "View reward",
+        "translation": "Skoða verðlaun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.all",
         "source_string": "All",
         "translation": "Allar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.aquatic",
+        "source_string": "Aquatic",
+        "translation": "Vatnalíf",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.buildinganddecorating",
+        "source_string": "Building & Decorating",
+        "translation": "Bygging og skreyting",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.combat",
+        "source_string": "Combat",
+        "translation": "Bardagi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.culinaryexploits",
+        "source_string": "Culinary exploits",
+        "translation": "Matargerðarafrek",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.exploringyourworld",
+        "source_string": "Exploring your world",
+        "translation": "Kanna heiminn þinn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.farmingandhusbandry",
+        "source_string": "Farming & Husbandry",
+        "translation": "Búskapur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.feelslikemagic",
+        "source_string": "Feels like magic",
+        "translation": "Líkist töfrum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gearup",
+        "source_string": "Gear up",
+        "translation": "Græja sig upp",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gettingstarted",
+        "source_string": "Getting started",
+        "translation": "Að byrja",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.mining",
+        "source_string": "Mining",
+        "translation": "Námugröftur",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27680,9 +28352,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.other",
+        "source_string": "Other",
+        "translation": "Annað",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.redstone",
         "source_string": "Redstone",
         "translation": "Roðsteinskubbar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2015",
+        "source_string": "2015",
+        "translation": "2015",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2016",
+        "source_string": "2016",
+        "translation": "2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.buzzybees",
+        "source_string": "Buzzy Bees, 2019",
+        "translation": "Býsnabúið, 2019",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.cavesandcliffs",
+        "source_string": "Caves & Cliffs, 2021",
+        "translation": "Hellar og hamrar, 2021",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.enderupdate",
+        "source_string": "Ender Update, 2016",
+        "translation": "Endaruppfærslan, 2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.holidayupdate",
+        "source_string": "Holiday Update, 2018",
+        "translation": "Hátíðaruppfærslan, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.netherupdate",
+        "source_string": "Nether Update, 2020",
+        "translation": "Nether-uppfærslan, 2020",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thediscoveryupdate",
+        "source_string": "The Discovery Update, 2017",
+        "translation": "Uppgötvunaruppfærslan, 2017",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thegardenawakens",
+        "source_string": "The Garden Awakens, 2024",
+        "translation": "Garðurinn vaknar, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thewildupdate",
+        "source_string": "The Wild Update, 2022",
+        "translation": "Óbyggðauppfærslan, 2022",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trailsandtales",
+        "source_string": "Trails & Tales, 2023",
+        "translation": "Slóðir og sögur, 2023",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trickytrials",
+        "source_string": "Tricky Trials, 2024",
+        "translation": "Snúnar þrautir, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.updateaquatic",
+        "source_string": "Update Aquatic, 2018",
+        "translation": "Uppfærslan Vatnaveröld, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.villageandpillage",
+        "source_string": "Village & Pillage, 2019",
+        "translation": "Þorp og ránsferðir, 2019",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27696,9 +28488,401 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.villageandpillage",
+        "source_string": "Village & Pillage",
+        "translation": "Þorp og ránsferðir",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.zoology",
+        "source_string": "Zoology",
+        "translation": "Dýrafræði",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completed",
+        "source_string": "Completed",
+        "translation": "Lokið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyText",
+        "source_string": "Complete achievements to admire them here.",
+        "translation": "Ljúktu við afrek til að dást að þeim hér.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyTitle",
+        "source_string": "Nothing to see here... yet!",
+        "translation": "Ekkert að sjá hér... ennþá!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessage",
+        "source_string": "Please try again or check your internet connection.",
+        "translation": "Reyndu aftur eða athugaðu nettengingu þína.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessageTitle",
+        "source_string": "Achievements couldn’t load.",
+        "translation": "Ekki tókst að hlaða afrek.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.inProgress",
+        "source_string": "In progress",
+        "translation": "Í vinnslu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.loading",
+        "source_string": "Fetching achievements...",
+        "translation": "Sæki afrek...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.locked",
         "source_string": "Locked",
         "translation": "Læst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyText",
+        "source_string": "You've completed all achievements.",
+        "translation": "Þú hefur lokið öllum afrekum.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyTitle",
+        "source_string": "Wow, you're amazing!",
+        "translation": "Vá, þú ert magnaður!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Hleður",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.selected",
+        "source_string": "selected",
+        "translation": "valið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, flipi %2$s af %3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.title",
+        "source_string": "Achievements screen",
+        "translation": "Afrekaskjár",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessage",
+        "source_string": "You can only collect achievements in the release version of Minecraft.",
+        "translation": "Þú getur aðeins safnað afrekum í útgáfuútgáfu Minecraft.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessageTitle",
+        "source_string": "Achievements are not available in Preview",
+        "translation": "Afrek eru ekki í boði í forskoðun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.title",
+        "source_string": "Achievements",
+        "translation": "Afrek",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "Leikjastig",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.hoursPlayed",
+        "source_string": "%1$s hours",
+        "translation": "%1$s klukkustundir",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedAchievements",
+        "source_string": "completed %1$s of %2$s",
+        "translation": "lokið %1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedRewards",
+        "source_string": "Rewards %1$s of %2$s",
+        "translation": "Verðlaun %1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorGamerscore",
+        "source_string": "Gamerscore %1$s of %2$s",
+        "translation": "Leikjastig %1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorIndex",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorInProgress",
+        "source_string": "In progress %1$s",
+        "translation": "Í vinnslu %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorPercentage",
+        "source_string": "%1$s percent progress",
+        "translation": "%1$s prósent framvindu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorSummary",
+        "source_string": "Achievements summary",
+        "translation": "Yfirlit yfir afrek",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTextBlock",
+        "source_string": "Text block",
+        "translation": "Textablokk",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTimePlayed",
+        "source_string": "Time played %1$s hours",
+        "translation": "Leiktími %1$s klukkustundir",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.percentage",
+        "source_string": "%1$s of %2$s completed",
+        "translation": "%1$s af %2$s lokið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.progress",
+        "source_string": "In progress",
+        "translation": "Í vinnslu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.rewards",
+        "source_string": "Rewards",
+        "translation": "Verðlaun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.time",
+        "source_string": "Time played",
+        "translation": "Leiktími",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.backToTop",
+        "source_string": "Back to top",
+        "translation": "Efst",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.followers",
+        "source_string": "Followers",
+        "translation": "Fylgjendur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.gamertagSearch",
+        "source_string": "Search results",
+        "translation": "Leitarniðurstöður",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.genericOnExpandNarrationHint",
+        "source_string": "Navigate down to View List of Players",
+        "translation": "Farðu niður til að sjá lista yfir leikmenn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.loadMoreResults",
+        "source_string": "Load more results",
+        "translation": "Sækja fleiri niðurstöður",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.enumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s af %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.followersSuggestions",
+        "source_string": "%1$s Followers suggestions",
+        "translation": "%1$s tillögur um fylgjendur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.gamertagSearchSuggestions",
+        "source_string": "%1$s Search results",
+        "translation": "%1$s leitarniðurstöður",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsFound",
+        "source_string": "No suggestions right now",
+        "translation": "Engar tillögur í boði núna",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagefollowers",
+        "source_string": "You’ve already added all of your followers! Check back later.",
+        "translation": "Þú hefur þegar bætt við öllum fylgjendum þínum! Athugaðu aftur síðar.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagegamertagSearch",
+        "source_string": "Please refine your search.",
+        "translation": "Betrumbættu leitina þína.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecentlyPlayedWith",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Spila með fólki á Realms eða þjónum til að fá fleiri tillögur!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecommendedFriends",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "Spila með fólki á Realms eða þjónum til að fá fleiri tillögur!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recentlyPlayedWithSuggestions",
+        "source_string": "%1$s Recently played with suggestions",
+        "translation": "%1$s tillögur um fyrri samleikmenn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recommendedFriendsSuggestions",
+        "source_string": "%1$s Recommended friend suggestions",
+        "translation": "%1$s tillögur um mælta vini",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recentlyPlayedWith",
+        "source_string": "Recently played with",
+        "translation": "Áður spilað með",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27787,6 +28971,198 @@
         "identifier": "hbui.Common.narration.roles.button",
         "source_string": "Button",
         "translation": "Hnappur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.friendlyFireTitle",
+        "source_string": "Friendly fire",
+        "translation": "Vinaeldur",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.generatorTypeLabel",
+        "source_string": "World type",
+        "translation": "Heimsgerð",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.immediateRespawnDescription",
+        "source_string": "Skip “You died!” menu and immediately respawn",
+        "translation": "Sleppa „Þú dóst!“ valmyndinni og endurlífgast samstundis",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.immediateRespawnTitle",
+        "source_string": "Immediate respawn",
+        "translation": "Samstundis endurlífgun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.mobLootDescription",
+        "source_string": "Mobs drop items when killed",
+        "translation": "Verur missa hluti þegar þær eru felldar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.mobLootTitle",
+        "source_string": "Mob loot",
+        "translation": "Herfang vera",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.narration.respawnRadiusInvalidValue",
+        "source_string": "Value entered empty or lower than 0. Respawn radius is reset to default value 5.",
+        "translation": "Slegið inn tómt gildi eða lægra en 0. Endurlífgunarradíus er endursettur á sjálfgefið gildi 5.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.narration.respawnRadiusNotWithinRange",
+        "source_string": "Value entered is too high. Respawn radius is reset to maximum value 128.",
+        "translation": "Slegið gildi er of hátt. Endurlífgunarradíus er endursettur á hámarksgildi 128.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.narrationTemplatesButtonNarrationHint",
+        "source_string": "Pick a predefined seed",
+        "translation": "Veldu forskilgreint sáðkorn",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.naturalRegenerationDescription",
+        "source_string": "Gain or lose health based on your hunger",
+        "translation": "Fá eða missa heilsu í samræmi við hungur þitt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.naturalRegenerationTitle",
+        "source_string": "Natural regeneration",
+        "translation": "Náttúruleg endurheilun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.projectDescription",
+        "source_string": "Cannot be modified after creation",
+        "translation": "Ekki er hægt að breyta þessu eftir að heimur er búinn til",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.projectHeader",
+        "source_string": "Project",
+        "translation": "Verkefni",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.recipesUnlockDescription",
+        "source_string": "Collect materials to unlock recipes in your recipe book",
+        "translation": "Safnaðu hráefni til að opna uppskriftir í uppskriftabókinni þinni",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.recipesUnlockTitle",
+        "source_string": "Recipe unlocking",
+        "translation": "Opnun uppskrifta",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.respawnBlocksExplodeDescription",
+        "source_string": "Respawn anchors and beds can explode",
+        "translation": "Endurlífgunarakkeri og rúm geta sprungið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.respawnBlocksExplodeTitle",
+        "source_string": "Respawn blocks explode",
+        "translation": "Endurlífgunarblokkir springa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.respawnRadiusDescription",
+        "source_string": "Respawn within this block radius when you die and no custom spawnpoint is set (max 128)",
+        "translation": "Endurlífgast innan þessa blokkaradíuss þegar þú deyrð og enginn sérvalinn ræsistaður er stilltur (hámark 128)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.respawnRadiusLabel",
+        "source_string": "Respawn radius",
+        "translation": "Endurlífgunarradíus",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.respawnRadiusPlaceholder",
+        "source_string": "5",
+        "translation": "5",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.showCoordinatesDescription",
+        "source_string": "Display your current position",
+        "translation": "Sýnir núverandi staðsetningu þína",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.showCoordinatesTitle",
+        "source_string": "Show coordinates",
+        "translation": "Sýna hnit",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.showDaysPlayedDescription",
+        "source_string": "Display the number of in-game days played",
+        "translation": "Sýnir fjölda daga sem spilað hefur verið",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.showDaysPlayedTitle",
+        "source_string": "Show days played",
+        "translation": "Sýna spilaða daga",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

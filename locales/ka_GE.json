@@ -30864,6 +30864,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "აკორდეონი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Accordion.openInputLegend",
         "source_string": "Open",
         "translation": "გახსნა",
@@ -30872,9 +30888,65 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "ჩაკეცილი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "გაშლილი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AccountUnlinkRoute.cancelButton",
         "source_string": "Cancel",
         "translation": "გაუქმება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "დიახ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "თქვენი ანგარიშების გაუერთდობა ჩავარდა. შეამოწმეთ ინტერნეტ კავშირი?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "რაღაც არასწორად მოხდა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "დარწმუნებული ხართ?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "ანგარიშების გაუერთდობა",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32248,6 +32320,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.errorPackReading",
+        "source_string": "Reading error",
+        "translation": "წაკითხვის შეცდომა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.errorPackUnsupportedFormat",
+        "source_string": "Unsupported format",
+        "translation": "არამხარდაჭერილი ფორმატი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.expandDescriptionInputLegend",
+        "source_string": "Expand",
+        "translation": "გაშლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationAccordion",
+        "source_string": "Accordion",
+        "translation": "აკორდეონი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationActivateButton",
+        "source_string": "Activate pack. Button",
+        "translation": "პაკეტის გააქტიურება. ღილაკი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.narrationButton",
         "source_string": "Button",
         "translation": "ღილაკი",
@@ -32256,9 +32368,185 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.narrationCollapsed",
+        "source_string": "Collapsed",
+        "translation": "ჩაკეცილი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.narrationComponentType",
         "source_string": "List item",
         "translation": "სიის ელემენტი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationDeactivatedState",
+        "source_string": "Deactivated",
+        "translation": "გაუქმებული",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationDetailsButton",
+        "source_string": "Pack details. Button",
+        "translation": "პაკეტის დეტალები. ღილაკი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpanded",
+        "source_string": "Expanded",
+        "translation": "გაშლილი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandedHint",
+        "source_string": "Navigate down for pack description",
+        "translation": "გადადი ქვემოთ პაკეტის აღწერისთვის",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHint",
+        "source_string": "Expand to access the pack description or use right arrow for additional actions",
+        "translation": "გააფართოვე პაკეტის აღწერაზე წვდომისთვის ან გამოიყენე მარჯვენა ღილაკი დამატებითი მოქმედებებისთვის",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationExpandHintNoButtons",
+        "source_string": "Expand for more information",
+        "translation": "გააფართოვე მეტი ინფორმაციისთვის",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationListLengthContext",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s %2$s-დან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationMultiplePacksHint",
+        "source_string": "If multiple packs make changes to the same asset, the changes from the highest-ranked pack will be applied.",
+        "translation": "თუ რამდენიმე პაკეტი ცვლის ერთსა და იმავე რესურსს, გამოყენებული იქნება ცვლილება ყველაზე მაღალი რანგის პაკეტიდან.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackDescription",
+        "source_string": "Pack description",
+        "translation": "პაკეტის აღწერა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationPackRank",
+        "source_string": "Rank %1$s",
+        "translation": "რანგი: %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationRemoveButton",
+        "source_string": "Remove pack. Button",
+        "translation": "პაკეტის წაშლის ღილაკი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderComplete",
+        "source_string": "Pack is now rank %1$s",
+        "translation": "პაკეტის ახალი რანგია %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadChangeConfirmation",
+        "source_string": "Rank %1$s. Select to confirm new rank.",
+        "translation": "რანგი: %1$s. ახალი რანგის დასადასტურებლად აირჩიე.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadDraggingHint",
+        "source_string": "Use up or down keys to reorder pack",
+        "translation": "პაკეტის თანმიმდევრობის შესაცვლელად გამოიყენე ზედა ან ქვედა ღილაკები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderGamepadHint",
+        "source_string": "Select to reorder pack",
+        "translation": "აირჩიეთ პაკეტის მიმდევრობის შესაცვლელად",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPack",
+        "source_string": "Reorder pack",
+        "translation": "პაკეტის მიმდევრობის შეცვლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerChangeConfirmation",
+        "source_string": "Rank %1$s. Release to confirm new rank",
+        "translation": "რანგი %1$s. გაათავისუფლეთ ახალი რანგის დასადასტურებლად",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerDraggingHint",
+        "source_string": "Drag up or down to reorder pack. Release to accept new rank",
+        "translation": "გადაათრიეთ ზევით ან ქვევით პაკეტის მიმდევრობის შესაცვლელად. გაათავისუფლეთ ახალი რანგის მისაღებად",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationReorderPointerHint",
+        "source_string": "Click and drag up or down to reorder pack",
+        "translation": "დააჭირეთ და გადაათრიეთ ზევით ან ქვევით პაკეტის მიმდევრობის შესაცვლელად",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationSettingsButton",
+        "source_string": "Pack settings. Button",
+        "translation": "პაკეტის პარამეტრები. ღილაკი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackListItem.narrationValidateButton",
+        "source_string": "Validate pack. Button",
+        "translation": "პაკეტის გადამოწმება. ღილაკი",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32280,9 +32568,185 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.validateButtonText",
+        "source_string": "Validate",
+        "translation": "გადამოწმება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PacksLoadingModal.title",
+        "source_string": "Downloading...",
+        "translation": "ჩამოტვირთვა...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.activeTabButtonLabel",
+        "source_string": "Active",
+        "translation": "აქტიური",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.availableTabButtonLabel",
+        "source_string": "Available",
+        "translation": "ხელმისაწვდომი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, ტაბი %2$s / %3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyInviteListGroup.titleWithLength",
+        "source_string": "%1$s (%2$s)",
+        "translation": "%1$s (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.createParty",
+        "source_string": "Create Party",
+        "translation": "ჯგუფის შექმნა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.invited",
+        "source_string": "Invited",
+        "translation": "მოწვეულია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.inviteOnlyParty",
+        "source_string": "Invite only party",
+        "translation": "მხოლოდ მოწვევით ჯგუფი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.joinableParties",
+        "source_string": "Joinable parties",
+        "translation": "ჯგუფები შესასაძლო შესასვლელით",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.openParty",
+        "source_string": "Open party",
+        "translation": "ღია ჯგუფი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.optionsForPlayer",
+        "source_string": "Options for %1$s",
+        "translation": "პარამეტრები: %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.addFriend",
+        "source_string": "Add friend",
+        "translation": "მეგობრის დამატება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.mute",
+        "source_string": "Mute",
+        "translation": "დახშობა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.optionsEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s %2$s-დან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.promoteToLeader",
+        "source_string": "Promote to leader",
+        "translation": "ლიდერად დაწინაურება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.removeFromParty",
+        "source_string": "Remove from party",
+        "translation": "ჯგუფიდან მოცილება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.PlayerOptionsMenu.sendMessage",
+        "source_string": "Send message",
+        "translation": "შეტყობინების გაგზავნა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PartyTab.receivedInvites",
+        "source_string": "Received invites",
+        "translation": "მიღებული მოწვევები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Patchnote.narration.textBlockRole",
+        "source_string": "TextBlock",
+        "translation": "ტექსტბლოკი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PeopleTab.backButton",
         "source_string": "Back",
         "translation": "უკან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.closeButtonNarrationHint",
+        "source_string": "Navigate down for more options",
+        "translation": "გადადით ქვევით მეტი პარამეტრებისთვის",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateBody",
+        "source_string": "We're still working on this feature. Check back soon!",
+        "translation": "ჯერ კიდევ ვმუშაობთ ამ ფუნქციაზე. მოგვიანებით შემოგვინახეთ!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32296,9 +32760,161 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PeopleTab.emptyStateButtonLabel",
+        "source_string": "Go back to old UI",
+        "translation": "ძველ ინტერფეისზე დაბრუნება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.emptyStateTitle",
+        "source_string": "Under Construction",
+        "translation": "მშენებარეა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.friendsDrawerName",
+        "source_string": "Friends Drawer",
+        "translation": "მეგობრების პანელი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.noInternetMessage",
+        "source_string": "Please check your internet connection to see your friends.",
+        "translation": "მეგობრების სანახავად შეამოწმეთ ინტერნეტთან კავშირი.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.button",
+        "source_string": "Sign in now",
+        "translation": "ავტორიზაცია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PeopleTab.notLoggedInMessage.inputLegend",
         "source_string": "Sign in",
         "translation": "ავტორიზაცია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.text",
+        "source_string": "You need an account to play online with friends.",
+        "translation": "მეგობრებთან ონლაინ სათამაშოდ საჭიროა ანგარიში.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.title",
+        "source_string": "You're not logged in",
+        "translation": "ავტორიზებული არ ხართ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.numberOfFriends",
+        "source_string": "You have %1$s online friends",
+        "translation": "გყავს %1$s ონლაინ მეგობარი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.title",
+        "source_string": "Friends",
+        "translation": "მეგობრები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.titleWithAmount",
+        "source_string": "Friends (%1$s)",
+        "translation": "მეგობრები (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.you",
+        "source_string": "You",
+        "translation": "შენ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerAvatarsOnlineInWorld.full",
+        "source_string": "Full",
+        "translation": "სავსეა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body",
+        "source_string": "You have been %1$s from playing multiplayer in Minecraft due to \"%2$s\". You won't be able to play on servers, join Realms, host or join multiplayer games or use the marketplace.",
+        "translation": "თქვენ %1$s გახდით მრავალმოთამაშიან რეჟიმში თამაშისგან Minecraft-ში მიზეზით: \"%2$s\". არ შეძლებთ სერვერებზე თამაშს, Realms-ში გაწევრიანებას, მრავალმოთამაშიანი თამაშების მასპინძლობას ან მათში გაწევრიანებას, ან Marketplace-ის გამოყენებას.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.day",
+        "source_string": "You have 1 day remaining on your suspension.",
+        "translation": "შეჩერებას 1 დღე დარჩა.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.days",
+        "source_string": "You have %1$s days remaining on your suspension.",
+        "translation": "შეჩერებას %1$s დღე დარჩა.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.forever",
+        "source_string": "This ban is permanent.",
+        "translation": "ეს ბლოკი მუდმივია.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.hour",
+        "source_string": "You have 1 hour remaining on your suspension.",
+        "translation": "შეჩერებას 1 საათი დარჩა.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body.hours",
+        "source_string": "You have %1$s hours remaining on your suspension.",
+        "translation": "შეჩერებას %1$s საათი დარჩა.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.body2",
+        "source_string": "Click '%1$s' below to view our community standards and how to submit a case review request if you feel you were %2$s in error.",
+        "translation": "დაწკაპუნეთ ქვემოთ '%1$s'-ზე, რომ იხილოთ ჩვენი საზოგადოების სტანდარტები და როგორ წარადგინოთ საქმის გადასინჯვის მოთხოვნა, თუ თვლით, რომ %2$s შეცდომით ხართ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32312,9 +32928,417 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.permanent",
+        "source_string": "banned",
+        "translation": "დაბლოკილი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.temporary",
+        "source_string": "suspended",
+        "translation": "შეჩერებული",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.title",
+        "source_string": "You've been %1$s",
+        "translation": "თქვენ %1$s გახდით",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.unknownReportArea",
+        "source_string": "Unknown",
+        "translation": "უცნობი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.advertising",
+        "source_string": "Spam or Advertising",
+        "translation": "სპამი ან რეკლამა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.chat",
+        "source_string": "Chat message",
+        "translation": "ჩეთის შეტყობინება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.gameplay",
         "source_string": "Gameplay",
         "translation": "სათამაშო პროცესი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.ingame",
+        "source_string": "In-game build",
+        "translation": "თამაშში ნაშენი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.other",
+        "source_string": "Other",
+        "translation": "სხვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "მოთამაშის სკინი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.cheating",
+        "source_string": "Cheating",
+        "translation": "გაცურება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationGrooming",
+        "source_string": "Violating community standards",
+        "translation": "საზოგადოების სტანდარტების დარღვევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Violating community standards",
+        "translation": "საზოგადოების სტანდარტების დარღვევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.controversial",
+        "source_string": "Controversial topic",
+        "translation": "სადავო თემა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.cyberbullying",
+        "source_string": "Cyberbullying",
+        "translation": "კიბერბულინგი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.defamation",
+        "source_string": "Impersonation or sharing information to exploit or mislead others",
+        "translation": "სხვის იდენტობის მითვისება ან ინფორმაციის გავრცელება მოტყუების ან ცდუნების მიზნით",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.drugs",
+        "source_string": "References to illegal drugs",
+        "translation": "არალეგალურ ნარკოტიკებზე მინიშნებები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.exploits",
+        "source_string": "Exploits and 3rd party applications",
+        "translation": "ექსპლოიტები და მესამე მხარის აპლიკაციები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.extremeViolence",
+        "source_string": "Depictions of real-life excessive violence or gore",
+        "translation": "რეალურ ცხოვრებაში ჭარბი ძალადობის ან სისასტიკის გამოსახვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.falseReporting",
+        "source_string": "Excessive false / inaccurate reports",
+        "translation": "ჭარბი ცრუ/არასწორი მოხსენებები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.fraud",
+        "source_string": "Fraudulent acquisition or use of content",
+        "translation": "კონტენტის თაღლითური მოხვეჭა ან გამოყენება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.harassingComments",
+        "source_string": "Harassing or defamatory comments",
+        "translation": "შემავიწროებელი ან დამამცირებელი კომენტარები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.harassment",
+        "source_string": "Abusive language used in a directed, harmful manner",
+        "translation": "მიმართული, საზიანო ხასიათის შეურაცხმყოფელი ენა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.hateSpeech",
+        "source_string": "Hate Speech or discrimination",
+        "translation": "სიძულვილის ენა ან დისკრიმინაცია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.illegalDrugs",
+        "source_string": "Illegal drugs or activities",
+        "translation": "არალეგალური ნარკოტიკები ან საქმიანობები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.imminentHarm",
+        "source_string": "Intent to cause real-life harm to persons or property",
+        "translation": "განზრახვა მიაყენოს რეალური ზიანი ადამიანებს ან საკუთრებას",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.impersonatingStaff",
+        "source_string": "Impersonating staff, player support, or community representatives",
+        "translation": "პერსონალის, მოთამაშეთა მხარდაჭერის ან საზოგადოების წარმომადგენლების იმიტირება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.inGameTrolling",
+        "source_string": "In-Game trolling & spamming",
+        "translation": "თროლინგი და სპამი თამაშში",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.modding",
+        "source_string": "Modding",
+        "translation": "მოდინგი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nameOrGamertag",
+        "source_string": "Player name or gamertag",
+        "translation": "მოთამაშის სახელი ან გეიმერტეგი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Violating community standards",
+        "translation": "საზოგადოების სტანდარტების დარღვევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.notoriousFigure",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "სიძულვილის ჯგუფებზე, ტერორისტულ ორგანიზაციებზე ან ცნობილ ბოროტმოქმედებზე მინიშნებები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nudity",
+        "source_string": "Displaying lewd or pornographic material",
+        "translation": "სამარცხვინო ან პორნოგრაფიული მასალის ჩვენება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.obsceneLanguage",
+        "source_string": "Obscene or vulgar language",
+        "translation": "საზიზღარი ან უხამსი ენა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.policyViolation",
+        "source_string": "Policy violation",
+        "translation": "წესების დარღვევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.postLinkToInappropriateContent",
+        "source_string": "Posting links to inappropriate content or malicious software",
+        "translation": "არაშესაფერისი კონტენტის ან საზიანო პროგრამული უზრუნველყოფის ბმულების გამოქვეყნება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.profanity",
+        "source_string": "Profanity",
+        "translation": "ხულიგნური სიტყვები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.realLifeInfo",
+        "source_string": "Real life information and threats",
+        "translation": "რეალურ ცხოვრებასთან დაკავშირებული ინფორმაცია და მუქარა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.selfHarm",
+        "source_string": "Violating community standards",
+        "translation": "საზოგადოების წესების დარღვევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexuallyInappropriate",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "სექსუალური ხასიათის თემები ან კონტენტი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexualReference",
+        "source_string": "References to sexual content & violence",
+        "translation": "სექსუალურ კონტენტსა და ძალადობაზე მინიშნებები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.sexualViolence",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "სექსუალური ხასიათის თემები ან კონტენტი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.spam",
+        "source_string": "Spamming for commercial purposes",
+        "translation": "კომერციული სპამი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.terrorismOrViolentExtremism",
+        "source_string": "References to hate groups, terrorist organizations, or notorious figures",
+        "translation": "მინიშნებები სიძულვილის ჯგუფებზე, ტერორისტულ ორგანიზაციებზე ან საეჭვო პირებზე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.unconfirmedCSE",
+        "source_string": "Topics or content of a sexual nature",
+        "translation": "სექსუალური ხასიათის თემები ან კონტენტი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.unsportingBehavior",
+        "source_string": "Unsporting behavior",
+        "translation": "არასპორტული ქცევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody",
+        "source_string": "You've been banned from Xbox Live services. While banned, you won't be able to play on servers, join Realms, host or join multiplayer games, or use Marketplace.",
+        "translation": "შენ დაგბლოკეს Xbox Live-ის სერვისებზე წვდომა. დაბლოკვის დროს ვერ შეძლებ სერვერებზე თამაშს, Realms-ში შესვლას, მრავალმოთამაშიან თამაშების მასპინძლობას ან შეერთებას და Marketplace-ის გამოყენებას.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xboxLiveBody2",
+        "source_string": "Click '%1$s' below to view Xbox enforcement information and how to submit a case review request if you feel you were banned in error.",
+        "translation": "დააჭირე ქვემოთ „%1$s“-ს, რომ იხილო Xbox-ის სანქციების შესახებ ინფორმაცია და გაეცნო, როგორ წარადგინო საქმის გადასინჯვის მოთხოვნა, თუ ფიქრობ, რომ შეცდომით დაგბლოკეს.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addedButton",
+        "source_string": "Added",
+        "translation": "დამატებულია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.addFriendButton",
+        "source_string": "Add friend",
+        "translation": "მეგობრის დამატება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.away",
+        "source_string": "Away",
+        "translation": "წასული",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.blocked",
+        "source_string": "Blocked",
+        "translation": "დაბლოკილია",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32328,9 +33352,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerCard.buttonSiblings",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s %2$s-დან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.cardNarration",
+        "source_string": "Player details",
+        "translation": "მოთამაშის დეტალები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.dressingRoomButton",
+        "source_string": "Dressing room",
+        "translation": "გასახდელი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.friendsButton",
+        "source_string": "Friends",
+        "translation": "მეგობრები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.joinButton",
+        "source_string": "Join game",
+        "translation": "თამაშში შესვლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.muted",
+        "source_string": "Muted",
+        "translation": "დაჩუმებულია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.offline",
+        "source_string": "Offline",
+        "translation": "ხაზგარეშე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.online",
+        "source_string": "Online",
+        "translation": "ხაზზეა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.optionsButton",
+        "source_string": "More options",
+        "translation": "მეტი პარამეტრი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "გამორჩეული სკრინშოტის დაყენება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.accept",
         "source_string": "Accept",
         "translation": "მიღება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonInputLegend",
+        "source_string": "Add friend",
+        "translation": "მეგობრის დამატება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.addButtonText",
+        "source_string": "Add",
+        "translation": "დამატება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.added",
+        "source_string": "Added",
+        "translation": "დამატებულია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.away",
+        "source_string": "Away",
+        "translation": "წასული",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.buttonSiblings",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "ღილაკი %1$s %2$s-დან",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32352,9 +33496,97 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying",
+        "source_string": "Mutual friend playing",
+        "translation": "ორმხრივი მეგობარი თამაშობს",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.playstation",
+        "source_string": "PSN™ - Mutual friend playing",
+        "translation": "PSN™ - ორმხრივი მეგობარი თამაშობს",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friendOfFriendPlaying.switch",
+        "source_string": "Switch - Mutual friend playing",
+        "translation": "Switch - ორმხრივი მეგობარი თამაშობს",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.friends",
+        "source_string": "Friends",
+        "translation": "მეგობრები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.ignore",
+        "source_string": "Ignore",
+        "translation": "იგნორირება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.inviteButtonInputLegend",
+        "source_string": "Invite friend",
+        "translation": "მეგობრის დაპატიჟება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.inviteButtonText",
+        "source_string": "Invite",
+        "translation": "დაპატიჟება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.invited",
+        "source_string": "Invited",
+        "translation": "დაპატიჟებულია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.join",
         "source_string": "Join",
         "translation": "შესვლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedMutual",
+        "source_string": "You are friends with this player",
+        "translation": "შენ ამ მოთამაშესთან მეგობრობ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.addedNotMutual",
+        "source_string": "You added this player",
+        "translation": "შენ დაამატე ეს მოთამაშე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.additionalActionsHint",
+        "source_string": "Use D-pad right for additional actions",
+        "translation": "დამატებითი ქმედებებისთვის გამოიყენე D-pad მარჯვნივ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32368,9 +33600,129 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.narration.inviteButtonText",
+        "source_string": "Invite %1$s to party",
+        "translation": "%1$s-ის დაპატიჟება წვეულებაში",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.itemOrderContext",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s %2$s-დან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.joinFriend",
+        "source_string": "Join friends world",
+        "translation": "მეგობრის სამყაროში შესვლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerListItem.narration.listItemRole",
         "source_string": "List item",
         "translation": "სიის ელემენტი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerInvited",
+        "source_string": "This player has been invited",
+        "translation": "ეს მოთამაშე დაპატიჟებულია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.playerProfileHint",
+        "source_string": "Press to access player profile",
+        "translation": "დააჭირე მოთამაშის პროფილზე გადასასვლელად",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.receivedRequest",
+        "source_string": "This player sent you a request",
+        "translation": "ამ მოთამაშემ მოთხოვნა გამოგიგზავნა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.narration.sentRequest",
+        "source_string": "You sent a request to this player",
+        "translation": "შენ მოთხოვნა გაუგზავნე ამ მოთამაშეს",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.offline",
+        "source_string": "Offline",
+        "translation": "ხაზგარეშე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online",
+        "source_string": "Online",
+        "translation": "ხაზზეა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.playstation",
+        "source_string": "Online on PSN™",
+        "translation": "ხაზზეა PSN™-ზე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.online.switch",
+        "source_string": "Online on Switch",
+        "translation": "ხაზზეა Switch-ზე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.pending",
+        "source_string": "Pending",
+        "translation": "მოლოდინში",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.playingInSameWorld",
+        "source_string": "Playing in this world",
+        "translation": "ამ სამყაროში თამაშობს",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.receivedRequest",
+        "source_string": "Sent you a request",
+        "translation": "გამოგიგზავნა მოთხოვნა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.reject",
+        "source_string": "Reject",
+        "translation": "უარყოფა",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32384,9 +33736,441 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerListItem.viewProfile",
+        "source_string": "View player profile",
+        "translation": "მოთამაშის პროფილის ნახვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerListItem.you",
+        "source_string": "(You)",
+        "translation": "(შენ)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.addToFavorites",
+        "source_string": "Add to favorites",
+        "translation": "რჩეულებში დამატება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.appearOffline",
+        "source_string": "Appear offline",
+        "translation": "ხაზგარეშედ გამოჩენა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.block",
+        "source_string": "Block",
+        "translation": "დაბლოკვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.manageAccount",
+        "source_string": "Manage account",
+        "translation": "ანგარიშის მართვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.manageXboxProfile",
+        "source_string": "Manage Xbox profile",
+        "translation": "Xbox პროფილის მართვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.mute",
+        "source_string": "Mute",
+        "translation": "დაჩუმება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.optionsEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s %2$s-დან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.optionsTitle",
+        "source_string": "Account options",
+        "translation": "ანგარიშის პარამეტრები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.privacyAndSafety",
+        "source_string": "Privacy and online safety",
+        "translation": "კონფიდენციალურობა და ონლაინ უსაფრთხოება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFriend",
+        "source_string": "Remove friend",
+        "translation": "მეგობრის მოშორება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.removeFromFavorites",
+        "source_string": "Remove from favorites",
+        "translation": "რჩეულებიდან მოშორება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.report",
+        "source_string": "Report",
+        "translation": "დაბარება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.setFeaturedScreenshot",
+        "source_string": "Set featured screenshot",
+        "translation": "გამორჩეული სკრინშოტის დაყენება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareMyProfile",
+        "source_string": "Share my profile",
+        "translation": "ჩემი პროფილის გაზიარება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.shareText",
+        "source_string": "Add me as a friend in Minecraft!",
+        "translation": "დამამატე მეგობრად Minecraft-ში!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.signOut",
+        "source_string": "Sign out",
+        "translation": "გასვლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerOptionsModal.viewXboxProfile",
+        "source_string": "View Xbox profile",
+        "translation": "Xbox პროფილის ნახვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackMobs",
+        "source_string": "Attack Mobs",
+        "translation": "არსებების თავდასხმა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.attackPlayers",
+        "source_string": "Attack Players",
+        "translation": "მოთამაშეებზე თავდასხმა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.build",
+        "source_string": "Build",
+        "translation": "შენება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackMobs",
+        "source_string": "Engage in player vs. environment combat",
+        "translation": "მოთამაშის და გარემოს ბრძოლაში მონაწილეობა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.attackPlayers",
+        "source_string": "Engage in player vs. player combat",
+        "translation": "მოთამაშეთა შორის ბრძოლაში მონაწილეობა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.build",
+        "source_string": "Place blocks in the world",
+        "translation": "სამყაროში ბლოკების განთავსება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.doorsAndSwitches",
+        "source_string": "Activate most useable objects in the world",
+        "translation": "სამყაროში სასარგებლო ობიექტების უმეტესობის აქტივაცია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.mine",
+        "source_string": "Destroy world elements and collect blocks",
+        "translation": "სამყაროს ელემენტების დანგრევა და ბლოკების შეგროვება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.openContainers",
+        "source_string": "View, add to, and take from chests",
+        "translation": "ყუთების ნახვა, მათში ჩადება და მათგან აღება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.operatorCommands",
+        "source_string": "Access advanced server options",
+        "translation": "სერვერის დამატებით პარამეტრებზე წვდომა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.description.teleport",
+        "source_string": "Instantly move to anywhere in the world",
+        "translation": "სამყაროში ნებისმიერ წერტილში მყისიერად გადასვლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.doorsAndSwitches",
+        "source_string": "Use doors and switches",
+        "translation": "კარებისა და გადამრთველების გამოყენება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.mine",
+        "source_string": "Mine",
+        "translation": "სამთო სამუშაოები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.openContainers",
+        "source_string": "Open containers",
+        "translation": "კონტეინერების გახსნა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.operatorCommands",
+        "source_string": "Operator Commands",
+        "translation": "ოპერატორის ბრძანებები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.ability.teleport",
+        "source_string": "Teleport",
+        "translation": "ტელეპორტი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "%1$s-ის სამყაროდან გამოძევება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton.inputLegend",
         "source_string": "Select",
         "translation": "არჩევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.loading",
+        "source_string": "Loading",
+        "translation": "იტვირთება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.description",
+        "source_string": "Only server operators can edit player permissions",
+        "translation": "მოთამაშეთა ნებართვების ცვლილება მხოლოდ სერვერის ოპერატორებს შეუძლიათ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.title",
+        "source_string": "Nothing to see here",
+        "translation": "აქ არაფერი არ არის სანახავი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandFailedFlag",
+        "source_string": "Couldn’t remove this player.",
+        "translation": "ამ მოთამაშის მოშორება ვერ მოხერხდა.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.kickCommandSuccess",
+        "source_string": "Player successfully removed",
+        "translation": "მოთამაშე წარმატებით მოშორდა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.notification.selectedPlayerPermissionsChangedFlag",
+        "source_string": "Player permissions updated by another operator.",
+        "translation": "მოთამაშის ნებართვები განახლდა სხვა ოპერატორის მიერ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.optionEnumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%1$s %2$s-დან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.playerIdInvalidFlag",
+        "source_string": "Couldn’t load permissions for this player",
+        "translation": "ამ მოთამაშის ნებართვების ჩატვირთვა ვერ მოხერხდა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.custom",
+        "source_string": "A customized set of permissions for this player",
+        "translation": "ამ მოთამაშისთვის მორგებული ნებართვების ნაკრები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.member",
+        "source_string": "Members can build and mine, attack players and mobs, and interact with items and entities",
+        "translation": "წევრებს შეუძლიათ შენება და მოთხრა, მოთამაშეებზე და არსებებზე თავდასხმა, და ნივთებთან და ერთეულებთან ურთიერთქმედება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.operator",
+        "source_string": "Operators can teleport and use commands, in addition to everything members can do",
+        "translation": "ოპერატორებს, წევრების ყველა შესაძლებლობასთან ერთად, შეუძლიათ ტელეპორტირება და ბრძანებების გამოყენება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.visitor",
+        "source_string": "Visitors can only observe your world, not interact with it",
+        "translation": "სტუმრებს მხოლოდ სამყაროს დათვალიერება შეუძლიათ, მასთან ურთიერთქმედების გარეშე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.title",
+        "source_string": "Permission level",
+        "translation": "ნებართვის დონე",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.link",
+        "source_string": "Go to game settings",
+        "translation": "თამაშის პარამეტრებზე გადასვლა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.text",
+        "source_string": "Unlock template world options to be able to change permissions.",
+        "translation": "ნებართვების შესაცვლელად განბლოკე შაბლონის სამყაროს პარამეტრები.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.cheatsDisabledButton",
+        "source_string": "Continue with cheats disabled",
+        "translation": "გაგრძელება გათაქებული ხაფანგებით",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.description",
+        "source_string": "Certain commands, like teleport, are only available with cheats enabled. Enable them now or through the game settings menu.",
+        "translation": "ზოგიერთი ბრძანება, მაგალითად ტელეპორტი, ხელმისაწვდომია მხოლოდ ხაფანგების ჩართვისას. ჩართე ისინი ახლა ან თამაშის პარამეტრების მენიუდან.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.enableCheatsButton",
+        "source_string": "Enable cheats",
+        "translation": "ხაფანგების ჩართვა",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32400,9 +34184,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.title",
+        "source_string": "Cheats are disabled",
+        "translation": "ხაფანგები გამორთულია",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.backButton",
+        "source_string": "Go back",
+        "translation": "უკან დაბრუნება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.description",
+        "source_string": "Really kick %1$s from this world? They won’t be able to rejoin this session.",
+        "translation": "დარწმუნებული ხარ, რომ გინდა %1$s-ის გამორიცხვა ამ სამყაროდან? ის ვეღარ შეძლებს ამ სესიაში დაბრუნებას.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.inputLegend",
         "source_string": "Select",
         "translation": "არჩევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.kickButton",
+        "source_string": "Kick %1$s from world",
+        "translation": "%1$s-ის სამყაროდან გამოძევება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.title",
+        "source_string": "Kick player?",
+        "translation": "გამოვძევოთ მოთამაშე?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32416,9 +34240,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.description",
+        "source_string": "Your operator permissions have been revoked and you can no longer edit the permissions of other players.",
+        "translation": "შენი ოპერატორის ნებართვები გაუქმდა და სხვა მოთამაშეთა ნებართვების შეცვლა ვერ შეგეძლება.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.inputLegend",
         "source_string": "Select",
         "translation": "არჩევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.title",
+        "source_string": "Operator permissions revoked",
+        "translation": "ოპერატორის ნებართვები გაუქმდა",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32432,9 +34272,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.description",
+        "source_string": "%1$s left the world and their permissions can’t be changed.",
+        "translation": "%1$s გამოვიდა სამყაროდან და მისი ნებართვების შეცვლა შეუძლებელია.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.inputLegend",
         "source_string": "Select",
         "translation": "არჩევა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.title",
+        "source_string": "Player has left",
+        "translation": "მოთამაშემ სამყარო დატოვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.backButton",
+        "source_string": "Go back",
+        "translation": "უკან დაბრუნება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description",
+        "source_string": "Lowering this player’s permission level will remove their access to operator commands. Owners can restore permissions at any time.",
+        "translation": "ამ მოთამაშის ნებართვის დონის შემცირება მოუშორებს მას ოპერატორის ბრძანებებზე წვდომას. მფლობელებს ნებართვების აღდგენა ნებისმიერ დროს შეუძლიათ.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32448,6 +34320,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton",
+        "source_string": "Remove operator permissions",
+        "translation": "ოპერატორის ნებართვების მოშორება",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title",
+        "source_string": "Remove operator permissions?",
+        "translation": "მოვშოროთ ოპერატორის ნებართვები?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.role.custom",
         "source_string": "Custom",
         "translation": "სამომხმარებლო",
@@ -32456,9 +34344,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.role.member",
+        "source_string": "Member",
+        "translation": "წევრი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.role.operator",
         "source_string": "Operator",
         "translation": "ოპერატორი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.role.visitor",
+        "source_string": "Visitor",
+        "translation": "სტუმარი",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32488,9 +34392,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.member",
+        "source_string": "Member",
+        "translation": "წევრი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.operator",
         "source_string": "Operator",
         "translation": "ოპერატორი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.SideMenu.role.visitor",
+        "source_string": "Visitor",
+        "translation": "სტუმარი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.title",
+        "source_string": "Player Permissions for %1$s",
+        "translation": "მოთამაშის უფლებები: %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayersOnlineInWorld.full",
+        "source_string": "Full",
+        "translation": "სავსეა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerTag.hint",
+        "source_string": "Press to access player profile",
+        "translation": "დააჭირე მოთამაშის პროფილზე შესასვლელად",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32504,6 +34448,30 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerTag.viewProfile",
+        "source_string": "View player profile",
+        "translation": "მოთამაშის პროფილის ნახვა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.button",
+        "source_string": "Buy Minecraft",
+        "translation": "Minecraft-ის შეძენა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayRealmsTrialModeModal.message",
+        "source_string": "Run your own Minecraft server! You set the rules: who can join and how to play. Realm members play for free, even when you’re offline. Easy to set up, manage, and access from any device.",
+        "translation": "გაუშვი შენი საკუთარი Minecraft სერვერი! თავად განსაზღვრავ წესებს — ვის შეეძლება შემოსვლა და როგორ ითამაშებთ. Realm-ის წევრები უფასოდ თამაშობენ, შენ ხაზგარეშეც რომ იყო. ადვილად დააყენებ, გამართავ და ნებისმიერი მოწყობილობიდან შეხვდები მას.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayRealmsTrialModeModal.select",
         "source_string": "Select",
         "translation": "არჩევა",
@@ -32512,9 +34480,81 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayRealmsTrialModeModal.title",
+        "source_string": "Unlock the full experience",
+        "translation": "გახსენი სრული შესაძლებლობები",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.adventure",
         "source_string": "Adventure",
         "translation": "თავგადასავალი",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds",
+        "source_string": "Worlds (%1$s)",
+        "translation": "სამყაროები (%1$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateFromTemplateButton",
+        "source_string": "Create from template",
+        "translation": "შექმნა შაბლონიდან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateNewButton",
+        "source_string": "Create new world",
+        "translation": "ახალი სამყაროს შექმნა",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateStartFromTemplateButton",
+        "source_string": "Start from template",
+        "translation": "დაწყება შაბლონიდან",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText",
+        "source_string": "Create a new world from scratch or create a world from a template.",
+        "translation": "შექმენი ახალი სამყარო თავიდან ან შაბლონის მიხედვით.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateText.trialMode",
+        "source_string": "Create a new world from scratch.",
+        "translation": "შექმენი ახალი სამყარო თავიდან.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateTitle",
+        "source_string": "No worlds here... yet!",
+        "translation": "აქ სამყაროები არ არის... ჯერჯერობით!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.banned.text",
+        "source_string": "You’ve been permanently banned from Minecraft’s online services. You can not play with friends or on LAN worlds.",
+        "translation": "შენ სამუდამოდ დაგბლოკეს Minecraft-ის ონლაინ სერვისებში. არ შეგეძლება მეგობრებთან ან LAN სამყაროებში თამაში.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

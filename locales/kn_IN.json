@@ -21936,9 +21936,169 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.narrationComponentType",
+        "source_string": "Accordion",
+        "translation": "ಅಕಾರ್ಡಿಯನ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s - (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.openInputLegend",
+        "source_string": "Open",
+        "translation": "ತೆರೆಯಿರಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateCollapsed",
+        "source_string": "Collapsed",
+        "translation": "ಮುಚ್ಚಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Accordion.stateExpanded",
+        "source_string": "Expanded",
+        "translation": "ವಿಸ್ತರಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AccountUnlinkRoute.cancelButton",
         "source_string": "Cancel",
         "translation": "ರದ್ದುಮಾಡಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.closeResultsButton",
+        "source_string": "Ok",
+        "translation": "ಸರಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failBody",
+        "source_string": "Your accounts were not able to be unlinked. Maybe check your internet connection?",
+        "translation": "ನಿಮ್ಮ ಖಾತೆಗಳನ್ನು ಬೇರ್ಪಡಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಬಹುಶಃ ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.failHeader",
+        "source_string": "Something went wrong",
+        "translation": "ಏನೋ ತಪ್ಪಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.header",
+        "source_string": "Are you sure?",
+        "translation": "ನಿಮಗೆ ಖಚಿತವೇ?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.progressHeader",
+        "source_string": "Unlinking accounts",
+        "translation": "ಖಾತೆಗಳನ್ನು ಬೇರ್ಪಡಿಸಲಾಗುತ್ತಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successBody",
+        "source_string": "Your accounts have been unlinked",
+        "translation": "ನಿಮ್ಮ ಖಾತೆಗಳನ್ನು ಬೇರ್ಪಡಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.successHeader",
+        "source_string": "Unlink successful",
+        "translation": "ಬೇರ್ಪಡಿಕೆ ಯಶಸ್ವಿಯಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkButton",
+        "source_string": "Unlink",
+        "translation": "ಬೇರ್ಪಡಿಸಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine1",
+        "source_string": "Account unlink warning",
+        "translation": "ಖಾತೆ ಬೇರ್ಪಡಿಕೆ ಎಚ್ಚರಿಕೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine2",
+        "source_string": "Account unlink details",
+        "translation": "ಖಾತೆ ಬೇರ್ಪಡಿಕೆ ವಿವರಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AccountUnlinkRoute.unlinkLine3",
+        "source_string": "If you understand the above and still want to unlink your account, select \"Unlink\" below.",
+        "translation": "ನೀವು ಮೇಲಿನದನ್ನು ಅರ್ಥಮಾಡಿಕೊಂಡು ಇನ್ನೂ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ಬೇರ್ಪಡಿಸಲು ಬಯಸಿದರೆ, ಕೆಳಗಿನ \"ಬೇರ್ಪಡಿಸಿ\" ಆಯ್ಕೆಮಾಡಿ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.anotherPlatform",
+        "source_string": "Completed on another platform",
+        "translation": "ಬೇರೆ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ನಲ್ಲಿ ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.completed",
+        "source_string": "Completed",
+        "translation": "ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "ಗೇಮರ್‌ಸ್ಕೋರ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetails.locked",
+        "source_string": "Locked",
+        "translation": "ಲಾಕ್ ಆಗಿದೆ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21952,9 +22112,353 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDetailsRoute.errorMessage",
+        "source_string": "Achievement couldn’t load. Please try again or check your internet connection.",
+        "translation": "ಸಾಧನೆ ಲೋಡ್ ಆಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.completed",
+        "source_string": "completed",
+        "translation": "ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.gamerscore",
+        "source_string": "gamerscore",
+        "translation": "ಗೇಮರ್‌ಸ್ಕೋರ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.locked",
+        "source_string": "locked",
+        "translation": "ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.percentage",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ರಲ್ಲಿ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.progress",
+        "source_string": "progress",
+        "translation": "ಪ್ರಗತಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "ಬಹುಮಾನ ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "ಬಹುಮಾನ ಅನ್‌ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.narration.title",
+        "source_string": "Achievement details",
+        "translation": "ಸಾಧನೆ ವಿವರಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.reward",
+        "source_string": "Reward",
+        "translation": "ಬಹುಮಾನ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.title",
+        "source_string": "Achievement Details",
+        "translation": "ಸಾಧನೆ ವಿವರಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.titleNarration",
+        "source_string": "Achievement Details Screen",
+        "translation": "ಸಾಧನೆ ವಿವರಗಳ ಪರದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDetailsRoute.viewReward",
+        "source_string": "View reward",
+        "translation": "ಬಹುಮಾನ ವೀಕ್ಷಿಸಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.behaviorPacks",
+        "source_string": "A behavior pack is activated",
+        "translation": "ಒಂದು ಬಿಹೇವಿಯರ್ ಪ್ಯಾಕ್ ಸಕ್ರಿಯಗೊಂಡಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.cheatsEnabled",
+        "source_string": "Cheats are enabled",
+        "translation": "ಚೀಟ್‌ಗಳು ಸಕ್ರಿಯವಾಗಿವೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.closeButton",
         "source_string": "Close",
         "translation": "ಮುಚ್ಚು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "ಹಾಗಿದ್ದರೂ ರಚಿಸಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.confirmButtonEW",
+        "source_string": "Continue anyway",
+        "translation": "ಹಾಗಿದ್ದರೂ ಮುಂದುವರಿಸಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.creativeMode",
+        "source_string": "The world is created in creative mode",
+        "translation": "ಈ ಜಗತ್ತನ್ನು ಕ್ರಿಯೇಟಿವ್ ಮೋಡ್‌ನಲ್ಲಿ ರಚಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "ಬೀಟಾ ವೈಶಿಷ್ಟ್ಯಗಳು ಆನ್ ಆಗಿವೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph",
+        "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
+        "translation": "ಈ ಕೆಳಗಿನ ಯಾವುದೇ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಳಸಿ ಜಗತ್ತನ್ನು ರಚಿಸಿದರೆ, ಈ ಜಗತ್ತಿನಲ್ಲಿ ನಿಮಗೆ ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ನಂತರ ಈ ಆಯ್ಕೆಗಳನ್ನು ಆಫ್ ಮಾಡಿದರೂ, ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ನೀವು ಬೇರೊಂದು ಜಗತ್ತಿಗೆ ಹೋಗಬೇಕಾಗುತ್ತದೆ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
+        "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
+        "translation": "ಈ ಕೆಳಗಿನ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಿ ಜಗತ್ತನ್ನು ರಚಿಸಿದರೆ, ಆ ಜಗತ್ತಿನಲ್ಲಿ ನಿಮಗೆ ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ನಂತರ ಈ ಆಯ್ಕೆಯನ್ನು ಆಫ್ ಮಾಡಿದರೂ, ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ನೀವು ಬೇರೊಂದು ಜಗತ್ತಿಗೆ ಹೋಗಬೇಕಾಗುತ್ತದೆ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.firstParagraphEW",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "ಈ ಜಗತ್ತನ್ನು ಸ್ಥಾಪಿಸಿರುವ ರೀತಿಯಿಂದಾಗಿ, ಇದರಲ್ಲಿ ಆಡುವಾಗ ನಿಮಗೆ ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಈಗ ಜಗತ್ತಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿದರೂ ಇದು ಬದಲಾಗುವುದಿಲ್ಲ. ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ನೀವು ಬೇರೊಂದು ಜಗತ್ತಿಗೆ ಹೋಗಬೇಕಾಗುತ್ತದೆ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.flatWorld",
+        "source_string": "The world is created as a flat world",
+        "translation": "ಜಗತ್ತನ್ನು ಫ್ಲಾಟ್ ಜಗತ್ತಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "ಹಿಂದೆ ಹೋಗಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.operator",
+        "source_string": "The world creator has Operator privileges",
+        "translation": "ಜಗತ್ತಿನ ರಚನೆಕಾರರಿಗೆ ಆಪರೇಟರ್ ಸೌಲಭ್ಯಗಳಿವೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.secondParagraph",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "ಈ ಜಗತ್ತಿನಲ್ಲಿ ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಒಂದುವೇಳೆ:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "ಜಗತ್ತನ್ನು ಟೆಂಪ್ಲೇಟ್‌ನಿಂದ ನಿರ್ಮಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "ನೀವು ಸಾಧನೆಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "ವಿಶ್ವವನ್ನು ರಚಿಸಿದವರು Minecraft ನ ಟ್ರಯಲ್ ಆವೃತ್ತಿಯನ್ನು ಬಳಸುತ್ತಿದ್ದಾರೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.completed",
+        "source_string": "Completed",
+        "translation": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.gamerscoreNarration",
+        "source_string": "gamerscore %1$s",
+        "translation": "ಗೇಮರ್‌ಸ್ಕೋರ್ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.groupNarration",
+        "source_string": "Group %1$s of %2$s",
+        "translation": "ಗುಂಪು %1$s ರಲ್ಲಿ %2$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.inProgress",
+        "source_string": "In progress",
+        "translation": "ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.locked",
+        "source_string": "Locked",
+        "translation": "ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationCompleted",
+        "source_string": "%1$s of %2$s, unlocked, %3$s gamerscore",
+        "translation": "%2$s ರಲ್ಲಿ %1$s, ಅನ್‌ಲಾಕ್ ಆಗಿದೆ, %3$s ಗೇಮರ್‌ಸ್ಕೋರ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.narrationLocked",
+        "source_string": "%1$s of %2$s, locked, %3$s gamerscore",
+        "translation": "%2$s ರಲ್ಲಿ %1$s, ಲಾಕ್ ಆಗಿದೆ, %3$s ಗೇಮರ್‌ಸ್ಕೋರ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.percentageNarration",
+        "source_string": "progress of %1$s percent",
+        "translation": "ಪ್ರಗತಿ %1$s ಪ್ರತಿಶತ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardLockedNarration",
+        "source_string": "Reward locked",
+        "translation": "ಬಹುಮಾನ ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.rewardUnlockedNarration",
+        "source_string": "Reward unlocked",
+        "translation": "ಬಹುಮಾನ ಅನ್‌ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.siblingNarration",
+        "source_string": "Button %1$s of %2$s",
+        "translation": "ಬಟನ್ %2$s ರಲ್ಲಿ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementListItem.view",
+        "source_string": "View details",
+        "translation": "ವಿವರಗಳನ್ನು ನೋಡಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.cheats",
+        "source_string": "Cheats are enabled",
+        "translation": "ಚೀಟ್‌ಗಳು ಸಕ್ರಿಯವಾಗಿವೆ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21968,9 +22472,201 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.creative",
+        "source_string": "The world is created in creative mode",
+        "translation": "ಈ ವಿಶ್ವವನ್ನು ಕ್ರಿಯೇಟಿವ್ ಮೋಡ್‌ನಲ್ಲಿ ರಚಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.description",
+        "source_string": "The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.",
+        "translation": "ಈ ವಿಶ್ವವನ್ನು ಸಿದ್ಧಪಡಿಸಿರುವ ರೀತಿಯಿಂದ, ಇದರಲ್ಲಿ ಆಡುವಾಗ ನಿಮಗೆ ಸಾಧನೆಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಈಗ ವಿಶ್ವದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿದರೂ ಇದನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಸಾಧನೆಗಳನ್ನು ಪಡೆಯಲು ನೀವು ಬೇರೊಂದು ವಿಶ್ವಕ್ಕೆ ಹೋಗಬೇಕಾಗುತ್ತದೆ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.experiments",
+        "source_string": "Beta features are turned on",
+        "translation": "ಬೀಟಾ ವೈಶಿಷ್ಟ್ಯಗಳು ಆನ್ ಆಗಿವೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.flat",
+        "source_string": "The world is created as a flatworld",
+        "translation": "ಈ ವಿಶ್ವವನ್ನು ಫ್ಲಾಟ್‌ವಿಶ್ವವಾಗಿ ರಚಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.pack",
+        "source_string": "A behavior pack is activated",
+        "translation": "ಒಂದು ಬಿಹೇವಿಯರ್ ಪ್ಯಾಕ್ ಸಕ್ರಿಯಗೊಂಡಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.permissions",
+        "source_string": "The world creator has operator privileges",
+        "translation": "ವಿಶ್ವವನ್ನು ರಚಿಸಿದವರಿಗೆ ಆಪರೇಟರ್ ಸವಲತ್ತುಗಳಿವೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.reasonText",
+        "source_string": "Achievements can't be earned in this world if:",
+        "translation": "ಈ ಸಂದರ್ಭಗಳಲ್ಲಿ ಈ ವಿಶ್ವದಲ್ಲಿ ಸಾಧನೆಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.template",
+        "source_string": "The world is built from a template",
+        "translation": "ಈ ಜಗತ್ತನ್ನು ಟೆಂಪ್ಲೇಟ್‌ನಿಂದ ನಿರ್ಮಿಸಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.title",
+        "source_string": "You can’t earn achievements",
+        "translation": "ನಿಮಗೆ ಸಾಧನೆಗಳನ್ನು ಗಳಿಸಲು ಆಗುವುದಿಲ್ಲ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementPermanentlyDisabledModal.trial",
+        "source_string": "The world creator is using the trial version of Minecraft",
+        "translation": "ಜಗತ್ತಿನ ಸೃಷ್ಟಿಕರ್ತ Minecraft ನ ಟ್ರೈಯಲ್ ಆವೃತ್ತಿಯನ್ನು ಬಳಸುತ್ತಿದ್ದಾರೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardLocked",
+        "source_string": "reward locked",
+        "translation": "ಬಹುಮಾನ ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.narration.rewardUnlocked",
+        "source_string": "reward unlocked",
+        "translation": "ಬಹುಮಾನ ಅನ್‌ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.reward",
+        "source_string": "Reward",
+        "translation": "ಬಹುಮಾನ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementReward.viewReward",
+        "source_string": "View reward",
+        "translation": "ಬಹುಮಾನ ನೋಡಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.all",
         "source_string": "All",
         "translation": "ಎಲ್ಲಾ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.aquatic",
+        "source_string": "Aquatic",
+        "translation": "ಜಲಚರ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.buildinganddecorating",
+        "source_string": "Building & Decorating",
+        "translation": "ಕಟ್ಟಡ ಮತ್ತು ಅಲಂಕಾರ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.combat",
+        "source_string": "Combat",
+        "translation": "ಯುದ್ಧ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.culinaryexploits",
+        "source_string": "Culinary exploits",
+        "translation": "ಅಡುಗೆ ಸಾಹಸಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.exploringyourworld",
+        "source_string": "Exploring your world",
+        "translation": "ನಿಮ್ಮ ಜಗತ್ತನ್ನು ಅನ್ವೇಷಿಸುವುದು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.farmingandhusbandry",
+        "source_string": "Farming & Husbandry",
+        "translation": "ಕೃಷಿ ಮತ್ತು ಪಶುಪಾಲನೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.feelslikemagic",
+        "source_string": "Feels like magic",
+        "translation": "ಮಾಂತ್ರಿಕವೆನಿಸುತ್ತದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gearup",
+        "source_string": "Gear up",
+        "translation": "ಸಜ್ಜುಗೊಳ್ಳಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.gettingstarted",
+        "source_string": "Getting started",
+        "translation": "ಆರಂಭಿಸೋಣ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.mining",
+        "source_string": "Mining",
+        "translation": "ಗಣಿಗಾರಿಕೆ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21984,6 +22680,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.other",
+        "source_string": "Other",
+        "translation": "ಇತರೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.redstone",
         "source_string": "Redstone",
         "translation": "Redstone Blocks",
@@ -21992,9 +22696,521 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.category.release.2015",
+        "source_string": "2015",
+        "translation": "2015",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.2016",
+        "source_string": "2016",
+        "translation": "2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.buzzybees",
+        "source_string": "Buzzy Bees, 2019",
+        "translation": "ಬಝಿ ಬೀಸ್, 2019",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.cavesandcliffs",
+        "source_string": "Caves & Cliffs, 2021",
+        "translation": "ಗುಹೆಗಳು ಮತ್ತು ಬೆಟ್ಟಗಳು, 2021",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.enderupdate",
+        "source_string": "Ender Update, 2016",
+        "translation": "ಎಂಡರ್ ಅಪ್‌ಡೇಟ್, 2016",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.holidayupdate",
+        "source_string": "Holiday Update, 2018",
+        "translation": "ಹಾಲಿಡೇ ಅಪ್‌ಡೇಟ್, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.netherupdate",
+        "source_string": "Nether Update, 2020",
+        "translation": "ನೆದರ್ ಅಪ್‌ಡೇಟ್, 2020",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thediscoveryupdate",
+        "source_string": "The Discovery Update, 2017",
+        "translation": "ದಿ ಡಿಸ್ಕವರಿ ಅಪ್‌ಡೇಟ್, 2017",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thegardenawakens",
+        "source_string": "The Garden Awakens, 2024",
+        "translation": "ದಿ ಗಾರ್ಡನ್ ಅವೇಕನ್ಸ್, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.thewildupdate",
+        "source_string": "The Wild Update, 2022",
+        "translation": "ದಿ ವೈಲ್ಡ್ ಅಪ್‌ಡೇಟ್, 2022",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trailsandtales",
+        "source_string": "Trails & Tales, 2023",
+        "translation": "ಟ್ರೇಲ್ಸ್ ಆಂಡ್ ಟೇಲ್ಸ್, 2023",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.trickytrials",
+        "source_string": "Tricky Trials, 2024",
+        "translation": "ಟ್ರಿಕಿ ಟ್ರಯಲ್ಸ್, 2024",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.updateaquatic",
+        "source_string": "Update Aquatic, 2018",
+        "translation": "ಅಪ್‌ಡೇಟ್ ಆಕ್ವಾಟಿಕ್, 2018",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.release.villageandpillage",
+        "source_string": "Village & Pillage, 2019",
+        "translation": "ವಿಲೇಜ್ ಆಂಡ್ ಪಿಲೇಜ್, 2019",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Achievements.category.theend",
         "source_string": "The End",
         "translation": "ಅಂತ್ಯ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.villageandpillage",
+        "source_string": "Village & Pillage",
+        "translation": "ವಿಲೇಜ್ ಆಂಡ್ ಪಿಲೇಜ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.category.zoology",
+        "source_string": "Zoology",
+        "translation": "ಪ್ರಾಣಿಶಾಸ್ತ್ರ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completed",
+        "source_string": "Completed",
+        "translation": "ಪೂರ್ಣಗೊಂಡಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyText",
+        "source_string": "Complete achievements to admire them here.",
+        "translation": "ಸಾಧನೆಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ ಇಲ್ಲಿ ಅವುಗಳನ್ನು ಆನಂದಿಸಿ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.completedEmptyTitle",
+        "source_string": "Nothing to see here... yet!",
+        "translation": "ಇಲ್ಲಿ ನೋಡಲು ಏನೂ ಇಲ್ಲ... ಇನ್ನೂ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessage",
+        "source_string": "Please try again or check your internet connection.",
+        "translation": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಅಥವಾ ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.errorMessageTitle",
+        "source_string": "Achievements couldn’t load.",
+        "translation": "ಸಾಧನೆಗಳು ಲೋಡ್ ಆಗಲಿಲ್ಲ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.inProgress",
+        "source_string": "In progress",
+        "translation": "ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.loading",
+        "source_string": "Fetching achievements...",
+        "translation": "ಸಾಧನೆಗಳನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.locked",
+        "source_string": "Locked",
+        "translation": "ಲಾಕ್ ಆಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyText",
+        "source_string": "You've completed all achievements.",
+        "translation": "ನೀವು ಎಲ್ಲಾ ಸಾಧನೆಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೀರಿ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.lockedEmptyTitle",
+        "source_string": "Wow, you're amazing!",
+        "translation": "ವಾವ್, ನೀವು ಅದ್ಭುತ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "ಲೋಡ್ ಆಗುತ್ತಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.selected",
+        "source_string": "selected",
+        "translation": "ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.tab",
+        "source_string": "%1$s, tab %2$s of %3$s",
+        "translation": "%1$s, ಟ್ಯಾಬ್ %2$s ರಲ್ಲಿ %3$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.title",
+        "source_string": "Achievements screen",
+        "translation": "ಸಾಧನೆಗಳ ಪರದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessage",
+        "source_string": "You can only collect achievements in the release version of Minecraft.",
+        "translation": "ನೀವು Minecraft ನ ರಿಲೀಸ್ ಆವೃತ್ತಿಯಲ್ಲಿ ಮಾತ್ರ ಸಾಧನೆಗಳನ್ನು ಸಂಗ್ರಹಿಸಬಹುದು.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.notAvailableMessageTitle",
+        "source_string": "Achievements are not available in Preview",
+        "translation": "ಪ್ರಿವ್ಯೂನಲ್ಲಿ ಸಾಧನೆಗಳು ಲಭ್ಯವಿಲ್ಲ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.title",
+        "source_string": "Achievements",
+        "translation": "ಸಾಧನೆಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.gamerscore",
+        "source_string": "Gamerscore",
+        "translation": "ಗೇಮರ್‌ಸ್ಕೋರ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.hoursPlayed",
+        "source_string": "%1$s hours",
+        "translation": "%1$s ಗಂಟೆಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedAchievements",
+        "source_string": "completed %1$s of %2$s",
+        "translation": "%2$s ರಲ್ಲಿ %1$s ಪೂರ್ಣಗೊಂಡಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorCompletedRewards",
+        "source_string": "Rewards %1$s of %2$s",
+        "translation": "ಬಹುಮಾನಗಳು %2$s ರಲ್ಲಿ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorGamerscore",
+        "source_string": "Gamerscore %1$s of %2$s",
+        "translation": "ಗೇಮರ್‌ಸ್ಕೋರ್ %2$s ರಲ್ಲಿ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorIndex",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ರಲ್ಲಿ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorInProgress",
+        "source_string": "In progress %1$s",
+        "translation": "ಪ್ರಗತಿಯಲ್ಲಿದೆ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorPercentage",
+        "source_string": "%1$s percent progress",
+        "translation": "%1$s ಪ್ರತಿಶತ ಪ್ರಗತಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorSummary",
+        "source_string": "Achievements summary",
+        "translation": "ಸಾಧನೆಗಳ ಸಾರಾಂಶ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTextBlock",
+        "source_string": "Text block",
+        "translation": "ಪಠ್ಯ ಬ್ಲಾಕ್",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.narratorTimePlayed",
+        "source_string": "Time played %1$s hours",
+        "translation": "ಆಡಿದ ಸಮಯ %1$s ಗಂಟೆಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.percentage",
+        "source_string": "%1$s of %2$s completed",
+        "translation": "%2$s ರಲ್ಲಿ %1$s ಪೂರ್ಣಗೊಂಡಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.progress",
+        "source_string": "In progress",
+        "translation": "ಪ್ರಗತಿಯಲ್ಲಿದೆ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.rewards",
+        "source_string": "Rewards",
+        "translation": "ಬಹುಮಾನಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.time",
+        "source_string": "Time played",
+        "translation": "ಆಡಿದ ಸಮಯ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.backToTop",
+        "source_string": "Back to top",
+        "translation": "ಮೇಲಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.followers",
+        "source_string": "Followers",
+        "translation": "ಫಾಲೋವರ್‌ಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.gamertagSearch",
+        "source_string": "Search results",
+        "translation": "ಸರ್ಚ್ ಫಲಿತಾಂಶಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.genericOnExpandNarrationHint",
+        "source_string": "Navigate down to View List of Players",
+        "translation": "ಆಟಗಾರರ ಪಟ್ಟಿ ನೋಡಲು ಕೆಳಗೆ ಹೋಗಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.loadMoreResults",
+        "source_string": "Load more results",
+        "translation": "ಇನ್ನೂ ಫಲಿತಾಂಶಗಳನ್ನು ಲೋಡ್ ಮಾಡಿ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.enumeration",
+        "source_string": "%1$s of %2$s",
+        "translation": "%2$s ರಲ್ಲಿ %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.followersSuggestions",
+        "source_string": "%1$s Followers suggestions",
+        "translation": "%1$s ಫಾಲೋವರ್ ಸಲಹೆಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.gamertagSearchSuggestions",
+        "source_string": "%1$s Search results",
+        "translation": "%1$s ಸರ್ಚ್ ಫಲಿತಾಂಶಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsFound",
+        "source_string": "No suggestions right now",
+        "translation": "ಈಗ ಯಾವುದೇ ಸಲಹೆಗಳಿಲ್ಲ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagefollowers",
+        "source_string": "You’ve already added all of your followers! Check back later.",
+        "translation": "ನಿಮ್ಮ ಎಲ್ಲಾ ಫಾಲೋವರ್‌ಗಳನ್ನು ಈಗಾಗಲೇ ಸೇರಿಸಿದ್ದೀರಿ! ಮತ್ತೆ ನಂತರ ನೋಡಿ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagegamertagSearch",
+        "source_string": "Please refine your search.",
+        "translation": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸರ್ಚ್ ಅನ್ನು ಪರಿಷ್ಕರಿಸಿ.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecentlyPlayedWith",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "ಇನ್ನೂ ಸಲಹೆಗಳನ್ನು ಪಡೆಯಲು Realms ಅಥವಾ ಸರ್ವರ್‌ಗಳಲ್ಲಿ ಆಟಗಾರರೊಡನೆ ಆಡಿ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.noSuggestionsMessagerecommendedFriends",
+        "source_string": "Play with people on Realms or servers to get more suggestions!",
+        "translation": "ಇನ್ನೂ ಸಲಹೆಗಳನ್ನು ಪಡೆಯಲು Realms ಅಥವಾ ಸರ್ವರ್‌ಗಳಲ್ಲಿ ಆಟಗಾರರೊಡನೆ ಆಡಿ!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recentlyPlayedWithSuggestions",
+        "source_string": "%1$s Recently played with suggestions",
+        "translation": "%1$s ಇತ್ತೀಚೆಗೆ ಆಡಿದವರ ಸಲಹೆಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.narration.recommendedFriendsSuggestions",
+        "source_string": "%1$s Recommended friend suggestions",
+        "translation": "%1$s ಶಿಫಾರಸು ಮಾಡಿದ ಸ್ನೇಹಿತರ ಸಲಹೆಗಳು",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendAccordion.recentlyPlayedWith",
+        "source_string": "Recently played with",
+        "translation": "ಇತ್ತೀಚೆಗೆ ಆಡಿದವರು",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null

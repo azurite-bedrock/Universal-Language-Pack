@@ -87418,7 +87418,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph",
         "source_string": "Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.",
-        "translation": "Créer un monde en utilisant l'une des fonctionnalités suivantes signifie que vous ne pourrez pas gagner de succès dans ce monde. Même si vous désactivez ces options plus tard, vous devrez visiter un autre monde pour gagner des succès.",
+        "translation": "Si tu crées un monde en utilisant une ou plusieurs des fonctionnalités suivantes, tu ne pourras pas obtenir de succès dans ce monde. Même si tu désactives ces options plus tard, tu devras visiter un autre monde pour obtenir des succès.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -87426,7 +87426,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.firstParagraph.singleReason",
         "source_string": "Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.",
-        "translation": "Créer un monde en utilisant la fonctionnalité suivante signifie que vous ne pourrez pas gagner de succès dans ce monde. Même si vous désactivez cette option plus tard, vous devrez visiter un autre monde pour gagner des succès.",
+        "translation": "Si tu crées un monde en utilisant la fonctionnalité suivante, tu ne pourras pas obtenir de succès dans ce monde. Même si tu désactives cette option plus tard, tu devras visiter un autre monde pour obtenir des succès.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -87442,7 +87442,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.flatWorld",
         "source_string": "The world is created as a flat world",
-        "translation": "Le monde est créé comme un monde plat",
+        "translation": "Le monde est créé en tant que monde plat",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -87458,7 +87458,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.operator",
         "source_string": "The world creator has Operator privileges",
-        "translation": "Le créateur de monde a des privilèges d'opérateur",
+        "translation": "Le créateur du monde dispose de privilèges d'opérateur",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -100824,6 +100824,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.narrationReorderComplete",
+        "source_string": "Pack is now rank %1$s",
+        "translation": "Le pack est maintenant classé %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.narrationReorderGamepadChangeConfirmation",
         "source_string": "Rank %1$s. Select to confirm new rank.",
         "translation": "Rang %1$s. Sélectionnez pour confirmer un nouveau rang.",
@@ -102539,6 +102547,14 @@
         "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.backButton",
         "source_string": "Go back",
         "translation": "Retour",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.description",
+        "source_string": "Really kick %1$s from this world? They won’t be able to rejoin this session.",
+        "translation": "Voulez-vous vraiment expulser %1$s de ce monde ? Il lui sera impossible de rejoindre cette session.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
