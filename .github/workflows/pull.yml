@@ -24,6 +24,13 @@ jobs:
               env:
                   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_API }}
 
+            - uses: denoland/setup-deno@v2
+              with:
+                  deno-version: v2.x
+
+            - name: Generate upside-down English from en_US
+              run: deno run --allow-read --allow-write scripts/generate-upside-down.ts
+
             - name: Commit translation updates
               run: |
                   git config user.name "github-actions[bot]"
