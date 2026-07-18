@@ -11,14 +11,23 @@ const ULP_ICON_URL =
 const AZURITE_ICON_URL =
     'https://github.com/azurite-bedrock/media-kit/blob/main/azurite/icon.svg?raw=true';
 
+function pctLabel(pct: number, approvedPct: number): string {
+    const part = (value: number, cls: string) =>
+        `<span class="${cls}${value === 0 ? ' pct-zero' : ''}">${value}%</span>`;
+    return `${part(pct, 'pct-tr')} · ${part(approvedPct, 'pct-pr')}`;
+}
+
 function langRows(topLanguages: BannerStats['topLanguages']): string {
     return topLanguages
         .map(
-            ({ code, pct }) => `
+            ({ code, pct, approvedPct }) => `
               <div class="lang-item">
                 <span class="lang-code">${code}</span>
-                <div class="lang-track"><div class="lang-fill" style="width:${pct}%"></div></div>
-                <span class="lang-pct">${pct}%</span>
+                <div class="lang-track">
+                  <div class="lang-fill" style="width:${pct}%"></div>
+                  <div class="lang-appr${approvedPct === 0 ? ' appr-zero' : ''}" style="width:${approvedPct}%"></div>
+                </div>
+                <span class="lang-pct">${pctLabel(pct, approvedPct)}</span>
               </div>`,
         )
         .join('\n');
@@ -50,9 +59,10 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
     --chip-a-bg: #e8f5e9; --chip-a-fg: #2e7d32;
     --chip-b-bg: #eceff1; --chip-b-fg: rgba(38,50,56,0.74);
     --chip-c-bg: rgba(30,136,229,0.1); --chip-c-fg: #1565c0;
-    --prog-track: #eceff1; --prog-fill-a: #43a047; --prog-fill-b: #66bb6a;
+    --prog-track: #eceff1;
     --prog-num: #263238;
-    --lang-track: #eceff1; --lang-fill: #43a047; --lang-pct: rgba(38,50,56,0.54);
+    --tr: #9cc7ff; --appr: #6dc271;
+    --lang-track: #eceff1; --lang-pct: rgba(38,50,56,0.54);
     --shadow: 0 1px 2px rgba(38,50,56,0.06), 0 2px 8px rgba(38,50,56,0.04);
   }
 
@@ -64,9 +74,10 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
     --chip-a-bg: #394d3b; --chip-a-fg: #57bc5c;
     --chip-b-bg: #373e48; --chip-b-fg: #949aa3;
     --chip-c-bg: rgba(30,136,229,0.12); --chip-c-fg: #58a6ff;
-    --prog-track: rgba(255,255,255,0.07); --prog-fill-a: #40a045; --prog-fill-b: #57bc5c;
+    --prog-track: rgba(255,255,255,0.07);
     --prog-num: #e2e5e9;
-    --lang-track: rgba(255,255,255,0.07); --lang-fill: #57bc5c; --lang-pct: #949aa3;
+    --tr: #5b89c6; --appr: #6dc271;
+    --lang-track: rgba(255,255,255,0.07); --lang-pct: #949aa3;
     --shadow: none;
   }
 
@@ -78,7 +89,7 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
     border-radius: 20px;
     box-shadow: var(--shadow);
     display: grid;
-    grid-template-columns: 210px 1fr 190px;
+    grid-template-columns: 210px 1fr 210px;
     overflow: hidden;
     font-family: 'Noto Sans', sans-serif;
   }
@@ -132,14 +143,35 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 20px; font-weight: 700; color: var(--prog-num); letter-spacing: -0.3px;
   }
-  .prog-track { height: 6px; border-radius: 3px; background: var(--prog-track); overflow: hidden; }
+  .prog-track {
+    position: relative;
+    height: 6px; border-radius: 3px; background: var(--prog-track); overflow: hidden;
+  }
   .prog-fill {
     height: 100%; border-radius: 3px;
-    background: linear-gradient(90deg, var(--prog-fill-a), var(--prog-fill-b));
+    background: var(--tr);
     transform-origin: left;
     animation: fillBar 1s 0.5s cubic-bezier(0.22,1,0.36,1) both;
   }
-  .prog-sub { font-size: 10.5px; color: var(--text-muted); }
+  .prog-appr {
+    position: absolute; left: 0; top: 0;
+    height: 100%; background: var(--appr);
+    box-shadow: 1px 0 0 0 var(--bg);
+    transform-origin: left;
+    animation: fillBar 1s 0.65s cubic-bezier(0.22,1,0.36,1) both;
+  }
+  .appr-zero { box-shadow: none; }
+  .prog-sub {
+    font-size: 10.5px; color: var(--text-muted);
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  .legend-dot {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    vertical-align: baseline; margin-right: 1px;
+  }
+  .legend-tr { background: var(--tr); }
+  .legend-pr { background: var(--appr); }
+  .pct-zero { color: var(--text-muted); }
 
   .b-right {
     padding: 22px 20px;
@@ -157,17 +189,31 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
     font-size: 10px; color: var(--text-sub); width: 38px; flex-shrink: 0; font-weight: 500;
   }
-  .lang-track { flex: 1; height: 4px; border-radius: 2px; background: var(--lang-track); overflow: hidden; }
+  .lang-track {
+    position: relative;
+    flex: 1; height: 4px; border-radius: 2px; background: var(--lang-track); overflow: hidden;
+  }
   .lang-fill {
-    height: 100%; border-radius: 2px; background: var(--lang-fill);
+    height: 100%; border-radius: 2px; background: var(--tr);
     transform-origin: left; animation: fillBar 0.8s cubic-bezier(0.22,1,0.36,1) both;
   }
-  .lang-item:nth-child(1) .lang-fill { animation-delay: 0.55s; }
-  .lang-item:nth-child(2) .lang-fill { animation-delay: 0.62s; }
-  .lang-item:nth-child(3) .lang-fill { animation-delay: 0.69s; }
-  .lang-item:nth-child(4) .lang-fill { animation-delay: 0.76s; }
-  .lang-item:nth-child(5) .lang-fill { animation-delay: 0.83s; }
-  .lang-pct { font-size: 10px; color: var(--lang-pct); width: 26px; text-align: right; font-weight: 500; }
+  .lang-appr {
+    position: absolute; left: 0; top: 0;
+    height: 100%; background: var(--appr);
+    box-shadow: 1px 0 0 0 var(--bg);
+    transform-origin: left; animation: fillBar 0.8s cubic-bezier(0.22,1,0.36,1) both;
+  }
+  .lang-item:nth-child(1) :is(.lang-fill, .lang-appr) { animation-delay: 0.55s; }
+  .lang-item:nth-child(2) :is(.lang-fill, .lang-appr) { animation-delay: 0.62s; }
+  .lang-item:nth-child(3) :is(.lang-fill, .lang-appr) { animation-delay: 0.69s; }
+  .lang-item:nth-child(4) :is(.lang-fill, .lang-appr) { animation-delay: 0.76s; }
+  .lang-item:nth-child(5) :is(.lang-fill, .lang-appr) { animation-delay: 0.83s; }
+  .lang-pct {
+    font-size: 10px; color: var(--lang-pct); font-weight: 500;
+    display: inline-flex; align-items: baseline; gap: 2px; flex-shrink: 0;
+  }
+  .lang-pct .pct-tr { width: 27px; text-align: right; }
+  .lang-pct .pct-pr { width: 25px; text-align: left; }
   .lang-more { font-size: 10px; color: var(--text-muted); text-align: right; margin-top: 1px; }
 
   @keyframes fadeUp {
@@ -209,12 +255,13 @@ export function renderBanner(stats: BannerStats, theme: 'dark' | 'light', scale 
     <div class="prog-block">
       <div class="prog-header">
         <span class="prog-label">Overall Progress</span>
-        <span class="prog-pct">${stats.overallProgress}%</span>
+        <span class="prog-pct">${pctLabel(stats.overallProgress, stats.overallApproved)}</span>
       </div>
       <div class="prog-track">
         <div class="prog-fill" style="width:${stats.overallProgress}%"></div>
+        <div class="prog-appr${stats.overallApproved === 0 ? ' appr-zero' : ''}" style="width:${stats.overallApproved}%"></div>
       </div>
-      <div class="prog-sub">across all languages · updated every 6h</div>
+      <div class="prog-sub"><span class="legend"><span class="legend-dot legend-tr"></span> translated · <span class="legend-dot legend-pr"></span> proofread</span><span class="updated">updated every 6h</span></div>
     </div>
   </div>
 

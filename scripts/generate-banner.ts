@@ -45,9 +45,11 @@ async function main(): Promise<void> {
     const progressItems: ProgressItem[] = progressResp.data.map((item) => ({
         languageId: item.data.languageId,
         translationProgress: item.data.translationProgress,
+        approvalProgress: item.data.approvalProgress,
         words: {
             total: item.data.words.total,
             translated: item.data.words.translated,
+            approved: item.data.words.approved,
         },
     }));
 
@@ -66,7 +68,7 @@ async function main(): Promise<void> {
     // Persist snapshot
     await Deno.writeTextFile(SNAPSHOT_PATH, JSON.stringify(stats, null, 2) + '\n');
     console.log(
-        `Stats: ${stats.languages} langs, ${stats.overallProgress}% overall, ${stats.translators} translators`,
+        `Stats: ${stats.languages} langs, ${stats.overallProgress}% translated, ${stats.overallApproved}% proofread, ${stats.translators} translators`,
     );
 
     // Render HTML for both themes and format with Prettier
