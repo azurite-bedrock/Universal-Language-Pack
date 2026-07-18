@@ -67,6 +67,10 @@ jobs:
         needs: build
         runs-on: ubuntu-latest
         steps:
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+
             - name: Download mcpack artifact
               uses: actions/download-artifact@v4
               with:
@@ -83,11 +87,22 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+            - name: Install Deno
+              uses: denoland/setup-deno@v2
+              with:
+                  deno-version: v2.x
+
+            - name: Upload to CurseForge
+              id: curseforge
+              run: deno run --allow-read --allow-write --allow-env --allow-net scripts/release-curseforge.ts
+              env:
+                  CURSEFORGE_API: ${{ secrets.CURSEFORGE_API }}
+                  VERSION: ${{ needs.build.outputs.tag }}
+
             - name: Send Discord notification
               run: |
-                  REPO_URL="${{ github.server_url }}/${{ github.repository }}"
-                  RELEASE_URL="$REPO_URL/releases/tag/$VERSION"
-                  DOWNLOAD_URL="$REPO_URL/releases/download/$VERSION"
+                  RELEASE_URL="$CURSEFORGE_PAGE"
+                  DOWNLOAD_URL="$CURSEFORGE_PAGE/download/$CURSEFORGE_FILE_ID"
                   MCPACK_FILE=$(basename $(ls build/*.mcpack | head -n 1))
 
                   curl -H "Content-Type: application/json" \
@@ -106,7 +121,7 @@ jobs:
                         },
                         {
                           "name": "Download",
-                          "value": "['"$MCPACK_FILE"']('"$DOWNLOAD_URL/$MCPACK_FILE"')",
+                          "value": "['"$MCPACK_FILE"']('"$DOWNLOAD_URL"')",
                           "inline": true
                         }
                       ],
@@ -121,3 +136,5 @@ jobs:
               env:
                   VERSION: ${{ needs.build.outputs.tag }}
                   DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+                  CURSEFORGE_PAGE: https://www.curseforge.com/minecraft-bedrock/texture-packs/universal-language-pack
+                  CURSEFORGE_FILE_ID: ${{ steps.curseforge.outputs.file_id }}
