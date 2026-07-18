@@ -41,11 +41,10 @@
         --chip-c-bg: rgba(30, 136, 229, 0.1);
         --chip-c-fg: #1565c0;
         --prog-track: #eceff1;
-        --prog-fill-a: #43a047;
-        --prog-fill-b: #66bb6a;
         --prog-num: #263238;
+        --tr: #9cc7ff;
+        --appr: #6dc271;
         --lang-track: #eceff1;
-        --lang-fill: #43a047;
         --lang-pct: rgba(38, 50, 56, 0.54);
         --shadow:
           0 1px 2px rgba(38, 50, 56, 0.06), 0 2px 8px rgba(38, 50, 56, 0.04);
@@ -67,11 +66,10 @@
         --chip-c-bg: rgba(30, 136, 229, 0.12);
         --chip-c-fg: #58a6ff;
         --prog-track: rgba(255, 255, 255, 0.07);
-        --prog-fill-a: #40a045;
-        --prog-fill-b: #57bc5c;
         --prog-num: #e2e5e9;
+        --tr: #5b89c6;
+        --appr: #6dc271;
         --lang-track: rgba(255, 255, 255, 0.07);
-        --lang-fill: #57bc5c;
         --lang-pct: #949aa3;
         --shadow: none;
       }
@@ -85,7 +83,7 @@
         border-radius: 20px;
         box-shadow: var(--shadow);
         display: grid;
-        grid-template-columns: 210px 1fr 190px;
+        grid-template-columns: 210px 1fr 210px;
         overflow: hidden;
         font-family: "Noto Sans", sans-serif;
       }
@@ -215,6 +213,7 @@
         letter-spacing: -0.3px;
       }
       .prog-track {
+        position: relative;
         height: 6px;
         border-radius: 3px;
         background: var(--prog-track);
@@ -223,16 +222,45 @@
       .prog-fill {
         height: 100%;
         border-radius: 3px;
-        background: linear-gradient(
-          90deg,
-          var(--prog-fill-a),
-          var(--prog-fill-b)
-        );
+        background: var(--tr);
         transform-origin: left;
         animation: fillBar 1s 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
       }
+      .prog-appr {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: var(--appr);
+        box-shadow: 1px 0 0 0 var(--bg);
+        transform-origin: left;
+        animation: fillBar 1s 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+      }
+      .appr-zero {
+        box-shadow: none;
+      }
       .prog-sub {
         font-size: 10.5px;
+        color: var(--text-muted);
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+      }
+      .legend-dot {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        vertical-align: baseline;
+        margin-right: 1px;
+      }
+      .legend-tr {
+        background: var(--tr);
+      }
+      .legend-pr {
+        background: var(--appr);
+      }
+      .pct-zero {
         color: var(--text-muted);
       }
 
@@ -273,6 +301,7 @@
         font-weight: 500;
       }
       .lang-track {
+        position: relative;
         flex: 1;
         height: 4px;
         border-radius: 2px;
@@ -282,31 +311,51 @@
       .lang-fill {
         height: 100%;
         border-radius: 2px;
-        background: var(--lang-fill);
+        background: var(--tr);
         transform-origin: left;
         animation: fillBar 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
       }
-      .lang-item:nth-child(1) .lang-fill {
+      .lang-appr {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        background: var(--appr);
+        box-shadow: 1px 0 0 0 var(--bg);
+        transform-origin: left;
+        animation: fillBar 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+      }
+      .lang-item:nth-child(1) :is(.lang-fill, .lang-appr) {
         animation-delay: 0.55s;
       }
-      .lang-item:nth-child(2) .lang-fill {
+      .lang-item:nth-child(2) :is(.lang-fill, .lang-appr) {
         animation-delay: 0.62s;
       }
-      .lang-item:nth-child(3) .lang-fill {
+      .lang-item:nth-child(3) :is(.lang-fill, .lang-appr) {
         animation-delay: 0.69s;
       }
-      .lang-item:nth-child(4) .lang-fill {
+      .lang-item:nth-child(4) :is(.lang-fill, .lang-appr) {
         animation-delay: 0.76s;
       }
-      .lang-item:nth-child(5) .lang-fill {
+      .lang-item:nth-child(5) :is(.lang-fill, .lang-appr) {
         animation-delay: 0.83s;
       }
       .lang-pct {
         font-size: 10px;
         color: var(--lang-pct);
-        width: 26px;
-        text-align: right;
         font-weight: 500;
+        display: inline-flex;
+        align-items: baseline;
+        gap: 2px;
+        flex-shrink: 0;
+      }
+      .lang-pct .pct-tr {
+        width: 27px;
+        text-align: right;
+      }
+      .lang-pct .pct-pr {
+        width: 25px;
+        text-align: left;
       }
       .lang-more {
         font-size: 10px;
@@ -456,12 +505,21 @@
         <div class="prog-block">
           <div class="prog-header">
             <span class="prog-label">Overall Progress</span>
-            <span class="prog-pct">40%</span>
+            <span class="prog-pct"
+              ><span class="pct-tr">40%</span> ·
+              <span class="pct-pr">2%</span></span
+            >
           </div>
           <div class="prog-track">
             <div class="prog-fill" style="width: 40%"></div>
+            <div class="prog-appr" style="width: 2%"></div>
           </div>
-          <div class="prog-sub">across all languages · updated every 6h</div>
+          <div class="prog-sub">
+            <span class="legend"
+              ><span class="legend-dot legend-tr"></span> translated ·
+              <span class="legend-dot legend-pr"></span> proofread</span
+            ><span class="updated">updated every 6h</span>
+          </div>
         </div>
       </div>
 
@@ -469,43 +527,63 @@
         <div class="lang-header">Top Languages</div>
         <div class="lang-list">
           <div class="lang-item">
-            <span class="lang-code">de</span>
+            <span class="lang-code">ms</span>
             <div class="lang-track">
               <div class="lang-fill" style="width: 100%"></div>
+              <div class="lang-appr" style="width: 82%"></div>
             </div>
-            <span class="lang-pct">100%</span>
+            <span class="lang-pct"
+              ><span class="pct-tr">100%</span> ·
+              <span class="pct-pr">82%</span></span
+            >
           </div>
 
           <div class="lang-item">
-            <span class="lang-code">en_PT</span>
+            <span class="lang-code">fil</span>
             <div class="lang-track">
-              <div class="lang-fill" style="width: 100%"></div>
+              <div class="lang-fill" style="width: 77%"></div>
+              <div class="lang-appr" style="width: 73%"></div>
             </div>
-            <span class="lang-pct">100%</span>
+            <span class="lang-pct"
+              ><span class="pct-tr">77%</span> ·
+              <span class="pct-pr">73%</span></span
+            >
           </div>
 
           <div class="lang-item">
             <span class="lang-code">es_ES</span>
             <div class="lang-track">
               <div class="lang-fill" style="width: 100%"></div>
+              <div class="lang-appr" style="width: 3%"></div>
             </div>
-            <span class="lang-pct">100%</span>
+            <span class="lang-pct"
+              ><span class="pct-tr">100%</span> ·
+              <span class="pct-pr">3%</span></span
+            >
           </div>
 
           <div class="lang-item">
-            <span class="lang-code">lb</span>
+            <span class="lang-code">pt_BR</span>
             <div class="lang-track">
-              <div class="lang-fill" style="width: 100%"></div>
+              <div class="lang-fill" style="width: 99%"></div>
+              <div class="lang-appr" style="width: 4%"></div>
             </div>
-            <span class="lang-pct">100%</span>
+            <span class="lang-pct"
+              ><span class="pct-tr">99%</span> ·
+              <span class="pct-pr">4%</span></span
+            >
           </div>
 
           <div class="lang-item">
-            <span class="lang-code">li</span>
+            <span class="lang-code">de</span>
             <div class="lang-track">
               <div class="lang-fill" style="width: 100%"></div>
+              <div class="lang-appr appr-zero" style="width: 0%"></div>
             </div>
-            <span class="lang-pct">100%</span>
+            <span class="lang-pct"
+              ><span class="pct-tr">100%</span> ·
+              <span class="pct-pr pct-zero">0%</span></span
+            >
           </div>
         </div>
         <div class="lang-more">+ 118 more</div>
