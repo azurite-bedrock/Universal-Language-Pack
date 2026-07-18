@@ -18,7 +18,7 @@ jobs:
         outputs:
             tag: ${{ steps.determine_tag.outputs.tag }}
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
               with:
                   ref: main
                   fetch-depth: 0
@@ -52,12 +52,12 @@ jobs:
               with:
                   deno-version: v2.x
 
-            - uses: Bedrock-OSS/regolith-action@v1.1.0
+            - uses: Bedrock-OSS/regolith-action@v1.8.0
               with:
                   profile: pack
 
             - name: Upload mcpack artifact
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               with:
                   name: mcpack
                   path: 'build/*.mcpack'
@@ -67,18 +67,18 @@ jobs:
         needs: build
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
               with:
                   ref: main
 
             - name: Download mcpack artifact
-              uses: actions/download-artifact@v4
+              uses: actions/download-artifact@v8
               with:
                   name: mcpack
                   path: build/
 
             - name: Create GitHub release
-              uses: softprops/action-gh-release@v2
+              uses: softprops/action-gh-release@v3
               with:
                   name: 'v${{ needs.build.outputs.tag }}'
                   tag_name: ${{ needs.build.outputs.tag }}
@@ -101,8 +101,9 @@ jobs:
 
             - name: Send Discord notification
               run: |
-                  RELEASE_URL="$CURSEFORGE_PAGE"
-                  DOWNLOAD_URL="$CURSEFORGE_PAGE/download/$CURSEFORGE_FILE_ID"
+                  REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+                  RELEASE_URL="$REPO_URL/releases/tag/$VERSION"
+                  DOWNLOAD_URL="$REPO_URL/releases/download/$VERSION"
                   MCPACK_FILE=$(basename $(ls build/*.mcpack | head -n 1))
 
                   curl -H "Content-Type: application/json" \
@@ -121,7 +122,7 @@ jobs:
                         },
                         {
                           "name": "Download",
-                          "value": "['"$MCPACK_FILE"']('"$DOWNLOAD_URL"')",
+                          "value": "['"$MCPACK_FILE"']('"$DOWNLOAD_URL/$MCPACK_FILE"')",
                           "inline": true
                         }
                       ],
@@ -136,5 +137,3 @@ jobs:
               env:
                   VERSION: ${{ needs.build.outputs.tag }}
                   DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-                  CURSEFORGE_PAGE: https://www.curseforge.com/minecraft-bedrock/texture-packs/universal-language-pack
-                  CURSEFORGE_FILE_ID: ${{ steps.curseforge.outputs.file_id }}

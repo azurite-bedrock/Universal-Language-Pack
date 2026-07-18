@@ -12,7 +12,7 @@ jobs:
     update:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v7
               with:
                   fetch-depth: 0
 
@@ -21,7 +21,7 @@ jobs:
                   deno-version: v2.x
 
             - name: Cache Astral Chromium
-              uses: actions/cache@v4
+              uses: actions/cache@v6
               with:
                   path: ~/.cache/astral
                   key: astral-chromium-${{ runner.os }}-v1
