@@ -2,7 +2,7 @@
     {
         "identifier": "pack.name",
         "source_string": "Universal Language Pack",
-        "translation": "Paquete de lenguaje universal",
+        "translation": "Paquete de idiomas universal",
         "context": "Name of the pack",
         "labels": "metadata, unassigned",
         "max_length": null
@@ -10,7 +10,7 @@
     {
         "identifier": "pack.description",
         "source_string": "100+ new & improved translations for Minecraft Bedrock! By Azurite & its Community",
-        "translation": "¡Más de 100 traducciones nuevas y mejores en la Edición Bedrock! Desarrollado por Azurite y su comunidad",
+        "translation": "¡Más de 100 traducciones nuevas y mejoradas para la Edición Bedrock! Desarrollado por Azurite y su comunidad.",
         "context": "Description of the pack",
         "labels": "metadata, unassigned",
         "max_length": null
@@ -1450,7 +1450,7 @@
     {
         "identifier": "accessibility.controllerLayoutScreen.buttonRemapped",
         "source_string": "%s is now bound to %s",
-        "translation": "%s está asignado ahora a %s",
+        "translation": "%s está asignado a %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2418,7 +2418,7 @@
     {
         "identifier": "action.hint.exit.boat",
         "source_string": "Tap jump to exit the boat",
-        "translation": "Toca Saltar para salir del barco.",
+        "translation": "Toca saltar para bajar de la barca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2570,7 +2570,7 @@
     {
         "identifier": "action.hint.exit.console.boat",
         "source_string": "Press :_input_key.jump: to exit the boat",
-        "translation": "Pulsa :_input_key.jump: para salir del barco",
+        "translation": "Pulsa :_input_key.jump: para bajarte de la barca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2578,7 +2578,7 @@
     {
         "identifier": "action.hint.exit.console.minecart",
         "source_string": "Press :_input_key.jump: to exit the minecart",
-        "translation": "Pulsa :_input_key.jump: para salir de la vagoneta",
+        "translation": "Pulsa :_input_key.jump: para bajarte de la vagoneta",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2666,7 +2666,7 @@
     {
         "identifier": "action.interact.exit.boat",
         "source_string": "Leave Boat",
-        "translation": "Abandonar barco",
+        "translation": "Bajar barca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2722,7 +2722,7 @@
     {
         "identifier": "action.interact.ride.boat",
         "source_string": "Board",
-        "translation": "Abordar",
+        "translation": "Subir",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4442,7 +4442,7 @@
     {
         "identifier": "codeScreen.aznbReset.body",
         "source_string": "You are about to clear all projects. This operation can't be undone. Are you sure?",
-        "translation": "Estás a punto de borrar todos los proyectos. Esta operación no se puede deshacer. ¿Estás seguro?",
+        "translation": "¿Seguro que quieres borrar todos los proyectos? Esta operación no se puede deshacer. ¿Continúas?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6378,7 +6378,7 @@
     {
         "identifier": "commands.deop.description",
         "source_string": "Revokes operator status from a player.",
-        "translation": "Revoca el estado de operador de un jugador.",
+        "translation": "Retira el estado de administrador de un jugador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6834,7 +6834,7 @@
     {
         "identifier": "commands.execute.ifUnlessScore.players.compareOperation.invalidOperation",
         "source_string": "Invalid operation %1$s.",
-        "translation": "Operación no válida %1$s.",
+        "translation": "Operación %1$s no válida.",
         "context": "1: Operator",
         "labels": "lang, unassigned",
         "max_length": null
@@ -7914,7 +7914,7 @@
     {
         "identifier": "commands.inputpermission.mount",
         "source_string": "Mount",
-        "translation": "Montar ",
+        "translation": "Montar",
         "context": "Board a boat / get on a horse",
         "labels": "lang, unassigned",
         "max_length": null
@@ -7922,7 +7922,7 @@
     {
         "identifier": "commands.inputpermission.dismount",
         "source_string": "Dismount",
-        "translation": "Desmontar ",
+        "translation": "Bajar",
         "context": "Leave a boat / get off a horse",
         "labels": "lang, unassigned",
         "max_length": null
@@ -8618,7 +8618,7 @@
     {
         "identifier": "commands.op.description",
         "source_string": "Grants operator status to a player.",
-        "translation": "Otorga a un jugador el estado de operador.",
+        "translation": "Otorga el estado de administrador a un jugador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -8650,7 +8650,7 @@
     {
         "identifier": "commands.operator.invalid",
         "source_string": "Invalid operation %1$s.",
-        "translation": "Operación no válida %1$s.",
+        "translation": "Operación %1$s no válida.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -8730,7 +8730,7 @@
     {
         "identifier": "commands.ops.set.success",
         "source_string": "Succeeded in setting operator level for player %s.",
-        "translation": "Se ha establecido correctamente el nivel del operador del jugador %s.",
+        "translation": "Se ha establecido el nivel de administrador a %s con éxito.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -9826,7 +9826,7 @@
     {
         "identifier": "commands.scoreboard.players.operation.invalidOperation",
         "source_string": "Invalid operation %1$s",
-        "translation": "Operación %1$s no válida",
+        "translation": "Operación %1$s no válida.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -9834,7 +9834,7 @@
     {
         "identifier": "commands.scoreboard.players.operation.notFound",
         "source_string": "No %1$s score for %2$s found",
-        "translation": "No se encontró la puntuación de %1$s para %2$s.",
+        "translation": "No hay puntuación de %1$s para %2$s.",
         "context": "1: Objective Name, 2: Player Name",
         "labels": "lang, unassigned",
         "max_length": null
@@ -10754,7 +10754,7 @@
     {
         "identifier": "commands.summon.failed.npc",
         "source_string": "You need Creative + Operator to summon an NPC",
-        "translation": "Necesitas creativo + operador para invocar a un PNJ",
+        "translation": "Necesitas creativo + administrador para generar un PNJ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15010,7 +15010,7 @@
     {
         "identifier": "createWorldScreen.game.settings",
         "source_string": "Game Settings",
-        "translation": "Configuración del juego",
+        "translation": "Ajustes del juego",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17714,7 +17714,7 @@
     {
         "identifier": "realmsSlotsScreen.gamesettings",
         "source_string": "Game Settings",
-        "translation": "Configuración del juego",
+        "translation": "Ajustes del juego",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29426,7 +29426,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.2",
         "source_string": "To get a Jigsaw Block you must use the /give slash command. To use a Jigsaw Block, you must have Operator permissions.",
-        "translation": "Para obtener un bloque rompecabezas, usa el comando /give. Para usarlo, necesitas permisos de operador.",
+        "translation": "Para obtener un bloque rompecabezas, usa el comando /give. Para usarlo, necesitas permisos de administrador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31002,7 +31002,7 @@
     {
         "identifier": "howtoplay.realms_stories.text.5",
         "source_string": "Get to know who is part of the Realm by using the Members tab. It's a list of all the players who can play here. You can see who the Realm owner is, who the operators are, and who has joined Realms Stories for this Realm. There are search, sort, and filter options to help you find exactly who you're looking for.",
-        "translation": "Mira quién forma parte del Realm en la pestaña Miembros, donde podrás acceder a una lista de todos los jugadores que pueden jugar aquí. Sabrás a quién le pertenece el Realm, quiénes son los operadores y quién se unió a sus Realms Stories. Hay opciones de búsqueda, de organización y de filtros para ayudarte a encontrar a quien busques.",
+        "translation": "Mira quién forma parte del Realm en la pestaña Miembros, donde podrás acceder a una lista de todos los jugadores que pueden jugar aquí. Sabrás a quién le pertenece el Realm, quiénes son administradores y quién se unió a sus Realms Stories. Hay opciones de búsqueda, de organización y de filtros para ayudarte a encontrar a quien busques.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31170,7 +31170,7 @@
     {
         "identifier": "howtoplay.structureBlocks.text.2",
         "source_string": "To get a Structure Block you must use the /give slash command. To use a Structure Block, you must have Operator permissions.",
-        "translation": "Para obtener un bloque de estructura debes usar el comando /give. Para usar un bloque de estructura necesitas tener permisos de operador.",
+        "translation": "Para obtener un bloque estructural debes usar el comando /give. Para usar un bloque estructural necesitas permisos de administrador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -40906,7 +40906,7 @@
     {
         "identifier": "item.spawn_egg.entity.npc.failed",
         "source_string": "You need Creative + Operator to spawn an NPC",
-        "translation": "Necesitas creativo + operador para generar a un PNJ",
+        "translation": "Necesitas creativo + administrador para generar un PNJ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -42530,7 +42530,7 @@
     {
         "identifier": "item.boat.pale_oak.name",
         "source_string": "Pale Oak Boat",
-        "translation": "Barco de roble pálido",
+        "translation": "Barca de roble pálido",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -42538,7 +42538,7 @@
     {
         "identifier": "item.chest_boat.pale_oak.name",
         "source_string": "Pale Oak Boat with Chest",
-        "translation": "Barco de roble pálido con cofre",
+        "translation": "Barca de roble pálido con cofre",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -42554,7 +42554,7 @@
     {
         "identifier": "item.worldbuilder.block.failed",
         "source_string": "You need Creative + Operator to place this block",
-        "translation": "Necesitas creativo + operador para colocar este bloque",
+        "translation": "Necesitas creativo + administrador para colocar este bloque",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -48938,7 +48938,7 @@
     {
         "identifier": "options.dev_reset_entitlements_warning",
         "source_string": "Warning! This will delete all of your entitlements, including legacy entitlements that you may not be able to get back! This operation may take a while if you have a large number of entitlements. Are you sure you want to continue?",
-        "translation": "¡Aviso! Si decides continuar, eliminarás todos tus privilegios, incluidos los antiguos, que tal vez no puedas volver a recuperar. Esta operación puede tardar un poco si tienes un gran número de privilegios. ¿Seguro que quieres continuar?",
+        "translation": "¡Aviso! Si decides continuar, eliminarás todos tus privilegios, incluidos los antiguos, y tal vez no puedas volver a recuperarlos. Esta operación puede tardar un poco si tienes un gran número de privilegios. ¿Quieres continuar?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -48978,7 +48978,7 @@
     {
         "identifier": "options.dev_allowlist_failure",
         "source_string": "Error! Operation has failed, double check to make sure this account is on the Allow List.",
-        "translation": "¡Error! La operación ha fallado. Comprueba que esta cuenta figure en la lista de cuentas con permiso.",
+        "translation": "¡Error! La operación ha fallado. Asegúrate de que tu cuenta está en la lista de cuentas con permiso.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -49138,7 +49138,7 @@
     {
         "identifier": "options.dev_overrideXboxEnvironmentWindows",
         "source_string": "Override Xbox Sandbox (OS controlled on Windows)",
-        "translation": "Reemplazar Sandbox de Xbox (controlado por el sistema operativo en Windows)",
+        "translation": "Reemplazar Sandbox de Xbox (controlado por Windows)",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -49642,7 +49642,7 @@
     {
         "identifier": "options.dev_connection_4g",
         "source_string": "4G - 15Mbps, 100ms latency, 1% packet loss",
-        "translation": "4G - 15 Mbps, latencia de 100 ms, 1 %% de pérdida de paquetes",
+        "translation": "4G: 15 Mbps, latencia de 100 ms, 1 %% de pérdida de paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -49650,7 +49650,7 @@
     {
         "identifier": "options.dev_connection_3g",
         "source_string": "3G - 1.5Mbps, 200ms latency, 2% packet loss",
-        "translation": "3G - 1,5 Mbps, latencia de 200 ms, 2 %% de pérdida de paquetes",
+        "translation": "3G: 1,5 Mbps, latencia de 200 ms, 2 %% de pérdida de paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -49658,7 +49658,7 @@
     {
         "identifier": "options.dev_connection_slow",
         "source_string": "Slow - 400Kbps, 300ms latency, 3% packet loss",
-        "translation": "Lenta - 400 Kbps, latencia de 300 ms, 3 %% de pérdida de paquetes",
+        "translation": "Lenta: 400 Kbps, latencia de 300 ms, 3 %% de pérdida de paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -49666,7 +49666,7 @@
     {
         "identifier": "options.dev_connection_veryslow",
         "source_string": "Very slow - 200Kbps, 400ms latency, 4% packet loss",
-        "translation": "Muy lenta - 200 Kbps, latencia de 400 ms, 4 %% de pérdida de paquetes",
+        "translation": "Muy lenta: 200 Kbps, latencia de 400 ms, 4 %% de pérdida de paquetes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -50034,7 +50034,7 @@
     {
         "identifier": "options.enableAutoPlatformTextToSpeech",
         "source_string": "Text To Speech with Device Settings",
-        "translation": "Texto a voz con la configuración del dispositivo",
+        "translation": "Texto a voz con ajustes del dispositivo",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -50042,7 +50042,7 @@
     {
         "identifier": "options.enableUITextToSpeech",
         "source_string": "Text To Speech For UI",
-        "translation": "Texto a voz para la IU",
+        "translation": "Texto a voz para interfaz",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -55058,7 +55058,7 @@
     {
         "identifier": "hudScreen.tooltip.boatExit",
         "source_string": "Leave Boat",
-        "translation": "Abandonar barco",
+        "translation": "Bajar barca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -55834,7 +55834,7 @@
     {
         "identifier": "permissions.ability.op",
         "source_string": "Operator Commands",
-        "translation": "Comandos de operador",
+        "translation": "Comandos de administrador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -55970,7 +55970,7 @@
     {
         "identifier": "permissions.deopingother.message",
         "source_string": "They will no longer have Operator level permissions by lowering their permission level.",
-        "translation": "Si se reduce su nivel de permiso, ya no tendrán permisos de nivel de operador.",
+        "translation": "Si se reduce su nivel de permiso, perderá sus permisos de administrador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -55994,7 +55994,7 @@
     {
         "identifier": "permissions.description.operators",
         "source_string": "Operators are members who can set player permissions and use commands to have more control over your world.",
-        "translation": "Los operadores son miembros que pueden definir permisos de jugador y utilizar comandos para tener más control sobre tu mundo.",
+        "translation": "Los administradores son miembros que pueden definir permisos de jugadores y utilizar comandos para tener más control sobre tu mundo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -56090,7 +56090,7 @@
     {
         "identifier": "permissions.deopingself",
         "source_string": "Remove Operator Permissions?",
-        "translation": "¿Quitar permisos de operador?",
+        "translation": "¿Eliminar permisos de administrador?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -56098,7 +56098,7 @@
     {
         "identifier": "permissions.deopingself.message",
         "source_string": "You will no longer have Operator level permissions by lowering your permission level.",
-        "translation": "Si reduces tu nivel de permiso, ya no tendrás permisos de nivel de operador.",
+        "translation": "Si reduces tu nivel de permiso, dejarás de tener permisos de administrador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60314,7 +60314,7 @@
     {
         "identifier": "action.hint.exit.chest_boat",
         "source_string": "Tap jump to exit the boat",
-        "translation": "Toca Saltar para salir del barco.",
+        "translation": "Toca Saltar para bajarte de la barca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60322,7 +60322,7 @@
     {
         "identifier": "action.hint.exit.console.chest_boat",
         "source_string": "Press :_input_key.jump: to exit the boat",
-        "translation": "Pulsa :_input_key.jump: para salir del barco",
+        "translation": "Pulsa :_input_key.jump: para bajarte de la barca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60362,7 +60362,7 @@
     {
         "identifier": "action.hint.exit.console.raft",
         "source_string": "Press :_input_key.jump: to exit the raft",
-        "translation": "Pulsa :_input_key.jump: para salir de la balsa",
+        "translation": "Pulsa :_input_key.jump: para bajarte de la balsa",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -60370,7 +60370,7 @@
     {
         "identifier": "action.hint.exit.raft",
         "source_string": "Tap jump to exit the raft",
-        "translation": "Toca Saltar para salir de la balsa",
+        "translation": "Toca saltar para bajarte de la balsa",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62730,7 +62730,7 @@
     {
         "identifier": "selectWorld.convertInProgress.msg",
         "source_string": "Converting World... %d%%",
-        "translation": "Convirtiendo mundo... %d%%",
+        "translation": "Convirtiendo mundo... %d %%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62746,7 +62746,7 @@
     {
         "identifier": "selectWorld.convertInProgress.download_msg",
         "source_string": "Downloading Resource Packs... %d%%",
-        "translation": "Descargando paquetes de recursos... %d%%",
+        "translation": "Descargando paquetes de recursos... %d %%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62754,7 +62754,7 @@
     {
         "identifier": "selectWorld.convertInProgress.import_msg",
         "source_string": "Importing Resource Packs... %d%%",
-        "translation": "Importando paquetes de recursos... %d%%",
+        "translation": "Importando paquetes de recursos... %d %%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -62770,7 +62770,7 @@
     {
         "identifier": "selectWorld.uploadInProgress.msg",
         "source_string": "Sending Old World to Minecraft... %d%%",
-        "translation": "Enviando mundo antiguo a Minecraft... %d%%",
+        "translation": "Enviando mundo antiguo a Minecraft... %d %%",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -73978,7 +73978,7 @@
     {
         "identifier": "tile.double_stone_slab.cobble.name",
         "source_string": "Cobblestone Slab",
-        "translation": "Baldosa de roca",
+        "translation": "Baldosa doble de roca",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -80978,7 +80978,7 @@
     {
         "identifier": "uiPackError.missingControlTarget",
         "source_string": "%s (%s): Can't find the control '%s' during operation '%s'",
-        "translation": "%s (%s): No se ha encontrado el control '%s' durante la operación '%s'",
+        "translation": "%s (%s): No se ha encontrado el control «%s» durante la operación «%s».",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -80994,7 +80994,7 @@
     {
         "identifier": "uiPackError.missingCondition",
         "source_string": "%s (%s): Missing condition on operation '%s'.",
-        "translation": "%s (%s): Falta la condición en la operación '%s'.",
+        "translation": "%s (%s): Falta la condición en la operación «%s».",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -81002,7 +81002,7 @@
     {
         "identifier": "uiPackError.missingValue",
         "source_string": "%s (%s): Missing the value for the operation '%s'.",
-        "translation": "%s (%s): Falta el valor para la operación '%s'.",
+        "translation": "%s (%s): Falta el valor para la operación «%s».",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -81018,7 +81018,7 @@
     {
         "identifier": "uiPackError.invalidOperationName",
         "source_string": "%s (%s): Invalid operation '%s'.",
-        "translation": "%s (%s): Operación '%s' no válida.",
+        "translation": "%s (%s): Operación «%s» no válida.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -83626,7 +83626,7 @@
     {
         "identifier": "cloud_upload.title",
         "source_string": "Mojang Player Support",
-        "translation": "Soporte al jugador de Mojang",
+        "translation": "Atención al cliente de Mojang",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -83634,7 +83634,7 @@
     {
         "identifier": "cloud_upload.prompt.description",
         "source_string": "Based on your recent support ticket, Mojang Player Support has granted permission to upload your world. You can upload your affected world from the World Select screen or under World Settings.",
-        "translation": "De acuerdo con tu reciente ticket de soporte, el equipo de soporte al jugador de Mojang te ha dado permiso para cargar tu mundo. Puedes cargar tu mundo afectado desde la pantalla de selección del mundo o en Ajustes del mundo.",
+        "translation": "De acuerdo con tu reciente tique de soporte, el equipo de atención al cliente de Mojang te ha dado permiso para cargar tu mundo. Puedes cargar tu mundo afectado desde la pantalla de selección del mundo o en Ajustes del mundo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -92386,7 +92386,7 @@
     {
         "identifier": "hbui.CreateNewWorld.achievementsDisabledMessages.operator",
         "source_string": "Set player permissions to visitor or member",
-        "translation": "Establecer permisos de jugador para invitado o miembro",
+        "translation": "Establecer permisos de jugador para visitante o miembro",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -94666,7 +94666,7 @@
     {
         "identifier": "hbui.CreateNewWorld.multiplayer.playerPermissionsOperatorDescription",
         "source_string": "Operators can teleport and use commands, in addition to everything Members can do",
-        "translation": "Los operadores pueden teletransportarse y usar comandos. Además, cuentan con todos los permisos de los miembros.",
+        "translation": "Los administradores pueden teletransportarse y usar comandos. Además del resto de permisos de miembros.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102378,7 +102378,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.Details.ability.operatorCommands",
         "source_string": "Operator Commands",
-        "translation": "Comandos de operador",
+        "translation": "Comandos de administrador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102418,7 +102418,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.Details.noPermissions.description",
         "source_string": "Only server operators can edit player permissions",
-        "translation": "Sólo los operadores del servidor pueden editar los permisos del jugador",
+        "translation": "Solo los administradores pueden editar permisos de jugadores",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102450,7 +102450,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.Details.notification.selectedPlayerPermissionsChangedFlag",
         "source_string": "Player permissions updated by another operator.",
-        "translation": "Permisos de jugador actualizados por otro operador.",
+        "translation": "Permisos de jugador actualizados por otro administrador.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102490,7 +102490,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.Details.roleDropdown.description.operator",
         "source_string": "Operators can teleport and use commands, in addition to everything members can do",
-        "translation": "Los operadores pueden teletransportarse y usar comandos, además de todo lo que los miembros pueden hacer",
+        "translation": "Los administradores pueden teletransportarse y usar comandos. Además del resto de permisos de miembros.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102618,7 +102618,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.description",
         "source_string": "Your operator permissions have been revoked and you can no longer edit the permissions of other players.",
-        "translation": "Tus permisos de operador han sido revocados y ya no puedes editar los permisos de otros jugadores.",
+        "translation": "Has perdido tus permisos de administrador y ya no puedes editar los permisos de otros jugadores.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102634,7 +102634,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.title",
         "source_string": "Operator permissions revoked",
-        "translation": "Permisos de operador revocados",
+        "translation": "Permisos de administrador retirados",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102682,7 +102682,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description",
         "source_string": "Lowering this player’s permission level will remove their access to operator commands. Owners can restore permissions at any time.",
-        "translation": "Bajar el nivel de permisos de este jugador eliminará su acceso a los comandos del operador. Los propietarios pueden restaurar los permisos en cualquier momento.",
+        "translation": "Reducir el nivel de permisos de este jugador eliminará su acceso a los comandos de administrador. Los propietarios pueden restaurar los permisos en cualquier momento.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102698,7 +102698,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton",
         "source_string": "Remove operator permissions",
-        "translation": "Quitar permisos de operador",
+        "translation": "Eliminar permisos de administrador",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -102706,7 +102706,7 @@
     {
         "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title",
         "source_string": "Remove operator permissions?",
-        "translation": "¿Eliminar permisos de operador?",
+        "translation": "¿Eliminar permisos de administrador?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -103866,7 +103866,7 @@
     {
         "identifier": "hbui.PlayScreen.onlinePlayWarning.thirdParty.body",
         "source_string": "Caution: Online play is offered by third-party servers that are not owned, operated, or supervised by Mojang Studios or Microsoft. During online play, you may be exposed to unmoderated chat messages or other types of user-generated content that may not be suitable for everyone.",
-        "translation": "Atención: El juego en línea es ofrecido por servidores de terceros que no son propietarios, operados o supervisados por Mojang Studios o Microsoft. Durante el juego en línea, usted puede estar expuesto a mensajes de chat no moderados u otros tipos de contenido generado por los usuarios que pueden no ser adecuados para todos.",
+        "translation": "Atención: El juego en línea está provisto de servidores de terceros los cuales no son propiedad de Mojang Studios ni Microsoft, ni están administrados ni supervisados por ellos. Mientras juegas en línea puedes estar expuesto a mensajes de texto sin moderar u otro tipo de contenido generado por la comunidad que puede no ser apropiado para todos los usuarios.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -114506,7 +114506,7 @@
     {
         "identifier": "hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.button.InsufficientStorage",
         "source_string": "Go to settings",
-        "translation": "Ir a Configuración",
+        "translation": "Ir a Ajustes",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -114522,7 +114522,7 @@
     {
         "identifier": "hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.description.DownloadFailed",
         "source_string": "Please try again later.",
-        "translation": "Vuelve a intentarlo más tarde.",
+        "translation": "Reinténtalo más tarde.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -114538,7 +114538,7 @@
     {
         "identifier": "hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.description.GenericError",
         "source_string": "Please try again later.",
-        "translation": "Vuelve a intentarlo más tarde.",
+        "translation": "Reinténtalo más tarde.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -114586,7 +114586,7 @@
     {
         "identifier": "hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.title.InsufficientStorage",
         "source_string": "Storage space is full",
-        "translation": "Espacio de almacenamiento lleno",
+        "translation": "El almacenamiento está lleno",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -114642,7 +114642,7 @@
     {
         "identifier": "hbui.StartFromTemplateRoute.useTemplateOperations.importNotification",
         "source_string": "Template imported successfully",
-        "translation": "La plantilla se ha importado correctamente",
+        "translation": "Plantilla importada con éxito",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -116618,7 +116618,7 @@
     {
         "identifier": "hbui.EditorBlockPaletteOperationModal.defaultName",
         "source_string": "My new hotbar...",
-        "translation": "Mi nueva barra de acceso rápido...",
+        "translation": "Mi nueva barra de objetos...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -116626,7 +116626,7 @@
     {
         "identifier": "hbui.EditorBlockPaletteOperationModal.title",
         "source_string": "New Hotbar name",
-        "translation": "Nuevo nombre de la barra de acceso rápido",
+        "translation": "Nuevo nombre de la barra de objetos",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -119578,7 +119578,7 @@
     {
         "identifier": "hbui.EditorTutorial.stage.hotbar.message",
         "source_string": "The hotbar sets the block for Fill operations, brushes, and more.[*newLine]Switch slots with 1-9 keys or the mouse.[*newLine]To change the block, reselect the active slot.",
-        "translation": "La barra de acceso rápido establece el bloque para las operaciones de relleno, los pinceles y mucho más.[*newLine]Cambia de ranura con las teclas del 1 al 9 o el ratón.[*newLine]Para cambiar el bloque, vuelve a seleccionar la ranura activa.",
+        "translation": "La barra de objetos establece el bloque para las operaciones de relleno, pinceles y mucho más.[*newLine]Cambia de espacio con las teclas del 1 al 9 o el ratón.[*newLine]Para cambiar el bloque, vuelve a seleccionar el espacio activo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -129162,7 +129162,7 @@
     {
         "identifier": "tile.cobblestone_wall.cobblestone.name",
         "source_string": "Cobblestone Wall",
-        "translation": "Pared de adoquines\t#",
+        "translation": "Pared de roca",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -133386,7 +133386,7 @@
     {
         "identifier": "hbui.AchievementDisabledModal.achievementsDisabledNotificationOperator",
         "source_string": "Set Player Permissions to Visitor or Member",
-        "translation": "Establecer permisos de jugador para invitado o miembro\t#",
+        "translation": "Establecer permisos de jugador para visitante o miembro",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -135514,7 +135514,7 @@
     {
         "identifier": "resourcePack.editor.BrushPaintControl.fillConstraints.replace.tooltip",
         "source_string": "Blocks that match the list will be operated upon",
-        "translation": "Se efectuarán operaciones sobre los bloques que coincidan con la lista\t#",
+        "translation": "Se operará sobre los bloques que coincidan con la lista",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -151162,7 +151162,7 @@
     {
         "identifier": "options.enableUITextToSpeech.description",
         "source_string": "Hear menu options and other non-gameplay user interface elements with text to speech",
-        "translation": "Escucha las opciones del menú y demás elementos de la interfaz de usuario que no sean del juego con la opción de texto a voz.",
+        "translation": "Escucha las opciones del menú y demás elementos de la interfaz de usuario con la opción de texto a voz.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -157794,7 +157794,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.floodTool.pane.ignoreBlockLimit.tooltip",
         "source_string": "Allow flooding operations that exceed the block limit of 120,000 blocks.",
-        "translation": "Permitir operaciones de inundación que superen el límite de 120.000 bloques.",
+        "translation": "Permitir operaciones de inundación que superen el límite de 120 000 bloques.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -157970,7 +157970,7 @@
     {
         "identifier": "resourcePack.editor.chunkManagement.pane.operationMode.tooltip",
         "source_string": "Determines the chunk operation type to use for Chunk Management.",
-        "translation": "Determina el tipo de funcionamiento de los chunks su gestión.",
+        "translation": "Determina el tipo de funcionamiento de chunks para administrarlos.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -158082,7 +158082,7 @@
     {
         "identifier": "resourcePack.editor.chunkManagement.pane.regionList.tooltip",
         "source_string": "List of regions used by the Operation Mode when the Target is set to List.",
-        "translation": "Lista de regiones que se utilizan en el Modo Operación cuando el Objetivo forma parte de la lista.",
+        "translation": "Lista de regiones utilizadas en el modo operación cuando el objetivo está en la lista.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -158186,7 +158186,7 @@
     {
         "identifier": "resourcePack.editor.chunkManagement.warningModal.message",
         "source_string": "Are you sure you want to proceed? This operation is permanent and cannot be undone.",
-        "translation": "¿Seguro que quieres continuar? Esta operación es permanente y no se puede deshacer.",
+        "translation": "¿Quieres continuar? Esta operación es permanente y no se puede deshacer.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -160418,7 +160418,7 @@
     {
         "identifier": "tile.double_stone_slab2.mossy_cobblestone.name",
         "source_string": "Mossy Cobblestone Double Slab",
-        "translation": "Losa Doble de Piedra Musgosa",
+        "translation": "Baldosa doble de roca musgosa",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -169090,7 +169090,7 @@
     {
         "identifier": "action.interact.ride.boat.touch",
         "source_string": ":boat_ride: Board",
-        "translation": ":boat_ride: Embarcarse",
+        "translation": ":boat_ride: Subir",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -169098,7 +169098,7 @@
     {
         "identifier": "action.interact.ride.minecart.touch",
         "source_string": ":boat_ride: Ride",
-        "translation": ":boat_ride: Montar",
+        "translation": ":boat_ride: Bajar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -172418,7 +172418,7 @@
     {
         "identifier": "editor.fog.distanceCollection.lavaResistance.tooltip",
         "source_string": " The fog settings when the camera is in lava and the player has the lava resistance effect active.",
-        "translation": " Los ajustes de niebla cuando la cámara está en lava y el jugador tiene el efecto de resistencia de lava activo.",
+        "translation": " Los ajustes de niebla cuando la cámara está en lava y el jugador tiene el efecto de resistencia a la lava activo.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -172426,7 +172426,7 @@
     {
         "identifier": "editor.fog.distanceCollection.powderedSnow.tooltip",
         "source_string": " The fog settings when the camera is inside a Powder Snow block.",
-        "translation": " Los ajustes de niebla cuando la cámara está dentro de un bloque Powder Snow.",
+        "translation": " Los ajustes de niebla cuando la cámara está dentro de un bloque de nieve polvo.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -172578,7 +172578,7 @@
     {
         "identifier": "editor.fog.volumetricCollection.mediaCoeffSettings.tooltip",
         "source_string": " The coefficient settings for the volumetric fog in different blocks.",
-        "translation": " Opciones de coeficiente para la niebla volumétrica en diferentes bloques.",
+        "translation": " Ajustes de coeficiente para la niebla volumétrica en diferentes bloques.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -172586,7 +172586,7 @@
     {
         "identifier": "editor.fog.volumetricCollection.henyeyGreensteinGSettings.tooltip",
         "source_string": " The henyey_greenstein_g settings for the volumetric fog in different blocks.",
-        "translation": " La configuración henyey_greenstein_g para la niebla volumétrica en diferentes bloques.",
+        "translation": " Ajustes de henyey_greenstein_g para la niebla volumétrica en diferentes bloques.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -173554,7 +173554,7 @@
     {
         "identifier": "menu.creator.group.contentLog",
         "source_string": "Content log settings",
-        "translation": "Configuración de contenido",
+        "translation": "Ajustes de registro de contenido",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -173634,7 +173634,7 @@
     {
         "identifier": "menu.creator.group.scriptDebugger",
         "source_string": "Script debugger settings",
-        "translation": "Ajustes del depurador de Script",
+        "translation": "Ajustes del depurador de scripts",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -173642,7 +173642,7 @@
     {
         "identifier": "menu.creator.group.scriptDiagnostic",
         "source_string": "Script diagnostics settings",
-        "translation": "Configuración de diagnóstico de scripts",
+        "translation": "Ajustes de diagnóstico de scripts",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -173690,7 +173690,7 @@
     {
         "identifier": "menu.creator.group.scriptWatchdog",
         "source_string": "Script watchdog settings",
-        "translation": "Ajustes de Script watchdog",
+        "translation": "Ajustes del controlador de scripts",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -174466,7 +174466,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.floodTool.pane.applyFlood.tooltip",
         "source_string": "Apply the flood operation to the world.",
-        "translation": "Aplique la operación de inundación al mundo.",
+        "translation": "Aplicar operación de inundación al mundo.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -174506,7 +174506,7 @@
     {
         "identifier": "resourcePack.editor.exportProject.advancedSettings.playerWaypoints.off",
         "source_string": "Off",
-        "translation": "No\t#",
+        "translation": "No",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178266,7 +178266,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.FarmGenerator.pane.fence.mangrove",
         "source_string": "Mangrove",
-        "translation": "Mangrove",
+        "translation": "Mangle",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178442,7 +178442,7 @@
     {
         "identifier": "options.nonOperatorOptions",
         "source_string": "Some settings are disabled for you. To use all settings, ask an Operator to make you an Operator.",
-        "translation": "Algunos ajustes están desactivados para usted. Para usar todos los ajustes, pide a un Operador que te haga un Operador.",
+        "translation": "Tienes algunos ajustes desactivados. Para usar todos los ajustes, pide a un administrador que te haga administrador también.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178488,6 +178488,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.customMeshTool.button.generateColorBlockList",
+        "source_string": "Generate Color Block List",
+        "translation": "Generar lista de bloques de colores",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.customMeshTool.label.scale",
         "source_string": "Scale",
         "translation": "Tamaño del chat",
@@ -178507,6 +178515,14 @@
         "identifier": "resourcePack.editor.customMeshTool.colorBlockList.deleteButton",
         "source_string": "X",
         "translation": "X",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customMeshTool.label.meshToolSettings",
+        "source_string": "Additional settings for the Mesh tool and loaded model",
+        "translation": "Ajustes adicionales para la herramienta Mesh y modelo cargado",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
