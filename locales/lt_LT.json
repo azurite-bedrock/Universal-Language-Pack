@@ -40,12 +40,36 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.key.mouseButton",
+        "source_string": "Mouse Button %s",
+        "translation": "Pelės mygtukas %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.list.or.two",
+        "source_string": "%s or %s",
+        "translation": "%s ar %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.button.tts.title",
         "source_string": "Button",
         "translation": "Mygtukas",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
+    },
+    {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "Nuotrauka",
+        "context": "TTS spoken word for image types",
+        "labels": "lang, unassigned",
+        "max_length": 15
     },
     {
         "identifier": "accessibility.toggle.tts.title",
@@ -72,6 +96,30 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.button.exit",
+        "source_string": "Exit",
+        "translation": "Išeiti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoin",
+        "source_string": "Minecoin",
+        "translation": "Mine Moneta",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.minecoins",
+        "source_string": "Minecoins",
+        "translation": "Mine Monetos",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.play.editWorld",
         "source_string": "Edit World",
         "translation": "Redaguoti pasaulį",
@@ -88,6 +136,30 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.screenName.start",
+        "source_string": "Main Menu",
+        "translation": "Pagrindinis meniu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.search.sort_menu.A_to_Z.tts.title",
+        "source_string": "'A' to 'Z'",
+        "translation": "Nuo 'A' iki 'Z'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.search.sort_menu.Z_to_A.tts.title",
+        "source_string": "'Z' to 'A'",
+        "translation": "Nuo 'Z' iki 'A'",
+        "context": "Single quotes (') are there for emphasis on the sound of the letters that will be spoken.",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.settings.reset",
         "source_string": "reset",
         "translation": "atstatyti",
@@ -96,9 +168,153 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.start.new",
+        "source_string": "New",
+        "translation": "Naujas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.period.url",
+        "source_string": "Dot",
+        "translation": "Taškas",
+        "context": "Pronunciation for a period inside of a URL, as in \"www dot microsoft dot com\"",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.comma",
+        "source_string": "Comma",
+        "translation": "Kablelis",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.colon",
+        "source_string": "Colon",
+        "translation": "Dvitaškis",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.apostrophe",
+        "source_string": "Apostrophe",
+        "translation": "Apostrofas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.semiColon",
+        "source_string": "Semi Colon",
+        "translation": "Kabliataškis",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.questionMark",
+        "source_string": "Question Mark",
+        "translation": "Klaustukas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.quotationMark",
+        "source_string": "Quotation Mark",
+        "translation": "Kabutė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.space",
+        "source_string": "Space",
+        "translation": "Tarpas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.tilde",
+        "source_string": "Tilde",
+        "translation": "Tildė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.graveAccent",
+        "source_string": "Grave Accent",
+        "translation": "Kairinis kirčio ženklas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.lessThan",
+        "source_string": "Less Than",
+        "translation": "Mažiau nei",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.greaterThan",
+        "source_string": "Greater Than",
+        "translation": "Daugiau nei",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.dollarSign",
+        "source_string": "Dollar",
+        "translation": "Doleris",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.percent",
+        "source_string": "Percent",
+        "translation": "Procentas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.plus",
+        "source_string": "Plus",
+        "translation": "Pliusas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.text.equals",
+        "source_string": "Equals",
+        "translation": "Lygu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.emotes.keyboard.arrow",
         "source_string": "arrow",
         "translation": "strėlė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accounts.signOut.fail.hyperLink.text",
+        "source_string": "Learn more",
+        "translation": "Sužinokite daugiau",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -115,6 +331,22 @@
         "identifier": "achievement.acquireIron.desc",
         "source_string": "Smelt an iron ingot",
         "translation": "Išlydykite geležies rūdos bloką",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.bakeCake",
+        "source_string": "The Lie",
+        "translation": "Melas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.bakeCake.desc",
+        "source_string": "Wheat, sugar, milk and eggs!",
+        "translation": "Kviečių miltai, cukrus, pienas ir kiaušiniai!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -160,6 +392,46 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.buildPickaxe.desc",
+        "source_string": "Use planks and sticks to make a pickaxe",
+        "translation": "Naudokite lentas ir lazdas, kad padaryti kirtiklį",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.cookFish",
+        "source_string": "Delicious Fish",
+        "translation": "Skani Žuvis",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.cookFish.desc",
+        "source_string": "Catch and cook fish!",
+        "translation": "Pagaukite ir iškepkite žuvį!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.diamonds",
+        "source_string": "DIAMONDS!",
+        "translation": "DEIMANTAI!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.diamonds.desc",
+        "source_string": "Acquire diamonds with your iron tools",
+        "translation": "Gaukite deimantų su savo geležiniais įrankiais",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.enchantments",
         "source_string": "Enchanter",
         "translation": "Kerėtojas",
@@ -171,6 +443,14 @@
         "identifier": "achievement.exploreAllBiomes",
         "source_string": "Adventuring Time",
         "translation": "Nuotykių metas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.flyPig",
+        "source_string": "When Pigs Fly",
+        "translation": "Kai Kiaulės Skraidys",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -251,6 +531,22 @@
         "identifier": "achievement.theEnd2",
         "source_string": "The End.",
         "translation": "Endas.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.unknown",
+        "source_string": "???",
+        "translation": "???",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.uninitScore",
+        "source_string": "--",
+        "translation": "--",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -480,6 +776,14 @@
         "max_length": null
     },
     {
+        "identifier": "authentication.error.accountType.body",
+        "source_string": "Oops! It looks like you signed in with a personal account. This account is not eligible to use Minecraft Education. Please make sure you are signing in with a school or organizational account and try again.",
+        "translation": "Oi! Panašu, kad prisijungėte su personalia paskyra. Šios paskyros negalima naudoti Minecraft Education.\nĮsitikinkite, kad naudojate mokyklos ar organizacijos paskyra ir bandykite iš naujo.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "eula.acceptButton",
         "source_string": "Accept",
         "translation": "Priimti",
@@ -640,6 +944,14 @@
         "max_length": null
     },
     {
+        "identifier": "chat.renamed",
+        "source_string": "You have been temporarily renamed to '%s' on this server",
+        "translation": "Jūs buvote laikinai pervadinti į '%s' šiame serveryje",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "chestScreen.header.large",
         "source_string": "Large Chest",
         "translation": "Didelė skrynia",
@@ -712,6 +1024,14 @@
         "max_length": null
     },
     {
+        "identifier": "codeScreen.editor.description.makeCode",
+        "source_string": "Microsoft MakeCode lets you code Minecraft in Blocks, Python or JavaScript!",
+        "translation": "Microsoft MakeCode leidžia jums programuoti Minecraft su Blocks, Python ar JavaScript!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "codeScreen.buttonTTS.restore",
         "source_string": "Restore",
         "translation": "Atkurti",
@@ -736,9 +1056,57 @@
         "max_length": null
     },
     {
+        "identifier": "color.dark_blue",
+        "source_string": "Dark Blue",
+        "translation": "Tamsiai mėlyna",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "color.dark_green",
+        "source_string": "Dark Green",
+        "translation": "Tamsiai žalia",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "color.dark_red",
+        "source_string": "Dark Red",
+        "translation": "Tamsiai raudona",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "color.dark_purple",
+        "source_string": "Dark Purple",
+        "translation": "Tamsiai violetinė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "color.gold",
+        "source_string": "Gold",
+        "translation": "Auksinė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "color.gray",
         "source_string": "Gray",
         "translation": "Pilka",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "color.dark_gray",
+        "source_string": "Dark Gray",
+        "translation": "Tamsiai pilka",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -763,6 +1131,14 @@
         "identifier": "color.red",
         "source_string": "Red",
         "translation": "Raudona",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "color.light_purple",
+        "source_string": "Light Purple",
+        "translation": "Šviesiai violetinė",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2443,6 +2819,126 @@
         "identifier": "realmsSettingsScreen.expiration.never",
         "source_string": "Never",
         "translation": "Niekada",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.halfHour",
+        "source_string": "30 min",
+        "translation": "30 min",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.hour",
+        "source_string": "1 hour",
+        "translation": "1 valanda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.quarterDay",
+        "source_string": "6 hours",
+        "translation": "6 valandos",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.halfDay",
+        "source_string": "12 hours",
+        "translation": "12 valandų",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.day",
+        "source_string": "1 day",
+        "translation": "1 diena",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.expiration.week",
+        "source_string": "7 days",
+        "translation": "7 dienos",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.switchStoreDisplayName",
+        "source_string": "Nintendo eShop",
+        "translation": "Nintendo eShop",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.iosStoreDisplayName",
+        "source_string": "App Store",
+        "translation": "Programų parduotuvė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.googlePlayStoreDisplayName",
+        "source_string": "Google Play store",
+        "translation": "Google Play parduotuvė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.windowsStoreDisplayName",
+        "source_string": "Windows Store",
+        "translation": "Windows parduotuvė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.xboxOneStoreDisplayName",
+        "source_string": "Xbox Store",
+        "translation": "Xbox parduotuvė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.amazonStoreDisplayName",
+        "source_string": "Amazon Appstore",
+        "translation": "Amazon programų parduotuvė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.oculusStoreDisplayName",
+        "source_string": "Oculus Store",
+        "translation": "Oculus parduotuvė",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.berwickStoreDisplayName",
+        "source_string": "PlayStation®Store",
+        "translation": "PlayStation®Parduotuvė",
+        "context": "CertRequirement: [PlayStation®Store]",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.unknownStoreDisplayName",
+        "source_string": "unknown store",
+        "translation": "nežinoma parduotuvė",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
