@@ -178488,9 +178488,41 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.toolRail.floodTool.warning.invalidLocation",
+        "source_string": "Move the water level widget up or down to set a new liquid level before applying.",
+        "translation": "Mueve el control del nivel de agua hacia arriba o hacia abajo para establecer un nuevo nivel del líquido antes de aplicarlo.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.customMeshTool.button.generateColorBlockList",
         "source_string": "Generate Color Block List",
         "translation": "Generar lista de bloques de colores",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customMeshTool.button.regenerateColorBlockList",
+        "source_string": "Regenerate Color Block List",
+        "translation": "Volver a generar la lista de bloques de colores",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customMeshTool.button.generateColorBlockList.tooltip",
+        "source_string": "Detect colors on your loaded mesh and list them, up to the specified length.",
+        "translation": "Detecta los colores de la malla de carga y los enumera hasta la cantidad especificada.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customMeshTool.button.generateColorBlockList.disabled.tooltip",
+        "source_string": "This mesh has no detected source colors.",
+        "translation": "Esta malla no tiene colores de origen detectados.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178507,6 +178539,22 @@
         "identifier": "resourcePack.editor.customMeshTool.label.rotation",
         "source_string": "Rotation",
         "translation": "Rotación\t#",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customMeshTool.colorBlockList.title",
+        "source_string": "Color Block List",
+        "translation": "Lista de bloques de colores",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.customMeshTool.colorBlockList.tooltip",
+        "source_string": "The predominant colors on your imported mesh appear in this table, and you may specify which blocks you want used for each color. If your mesh has no vertex color data, this list is capped at 1 block.",
+        "translation": "Los colores predominantes de la malla que importase aparecen en esta tabla. Puedes especificar que bloques deseas usar para representar cada color. Si tú malla no contiene datos de color de vértices, está lista estará limitado a 1 solo bloque.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
