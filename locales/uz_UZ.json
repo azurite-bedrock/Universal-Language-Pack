@@ -192,6 +192,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.button.back",
+        "source_string": "back",
+        "translation": "orqaga",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.button.exit",
         "source_string": "Exit",
         "translation": "Chiqish",
@@ -250,7 +258,7 @@
     {
         "identifier": "accessibility.state.selected",
         "source_string": ": selected",
-        "translation": ": tanlandi",
+        "translation": ": tanlangan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -378,7 +386,7 @@
     {
         "identifier": "accessibility.screenName.pause",
         "source_string": "Game menu",
-        "translation": "Oʻyin menyusi",
+        "translation": "O'yin menyusi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -392,9 +400,33 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.settings.reset",
+        "source_string": "reset",
+        "translation": "tiklash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.text.space",
         "source_string": "Space",
         "translation": "Bo'shliq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.popup.left_button_text",
+        "source_string": "Turn Off",
+        "translation": "O'chirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.keyboard.arrow",
+        "source_string": "arrow",
+        "translation": "strelka",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -408,9 +440,25 @@
         "max_length": null
     },
     {
+        "identifier": "accounts.signOut.fail.hyperLink.text",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.acquireIron",
         "source_string": "Acquire Hardware",
         "translation": "Temirni qiziganda bos",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.acquireIron.desc",
+        "source_string": "Smelt an iron ingot",
+        "translation": "Temir quyma eriting",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -443,6 +491,14 @@
         "identifier": "achievement.buildBetterPickaxe",
         "source_string": "Getting an Upgrade",
         "translation": "Yangilash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.buildBetterPickaxe.desc",
+        "source_string": "Construct a better pickaxe",
+        "translation": "Yaxshiroq cho'kich yasang",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -520,6 +576,14 @@
         "max_length": null
     },
     {
+        "identifier": "achievement.potion.desc",
+        "source_string": "Brew a potion",
+        "translation": "Damlama qaynating",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "achievement.snipeSkeleton",
         "source_string": "Sniper Duel",
         "translation": "Merganlar jangi",
@@ -531,6 +595,14 @@
         "identifier": "achievement.theEnd",
         "source_string": "The End?",
         "translation": "Tugadimi?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievement.theEnd2",
+        "source_string": "The End.",
+        "translation": "End.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -840,6 +912,14 @@
         "max_length": null
     },
     {
+        "identifier": "chat.link.open",
+        "source_string": "Open in browser",
+        "translation": "Brauzerda ochish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "chat.link.warning",
         "source_string": "Never open links from people that you don't trust!",
         "translation": "Siz ishonmaydigan odamlardan kelgan havolalarni hech qachon ochmang!",
@@ -939,6 +1019,14 @@
         "identifier": "codeScreen.buttonTTS.restore",
         "source_string": "Restore",
         "translation": "Qaytarish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "codeScreen.deprecatedIDE.button.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1080,9 +1168,49 @@
         "max_length": null
     },
     {
+        "identifier": "commands.autocomplete.a",
+        "source_string": "all players",
+        "translation": "barcha o'yinchilar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.autocomplete.e",
+        "source_string": "all entities",
+        "translation": "barcha jismlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.autocomplete.r",
+        "source_string": "random player",
+        "translation": "tasodifiy o'yinchi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "commands.bossbar.list.none",
         "source_string": "There are no custom bossbars active",
         "translation": "Faol bossbarlar yo'q",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.align.invalidInput",
+        "source_string": "Invalid swizzle, expected combination of 'x', 'y', and 'z'",
+        "translation": "Kombinatsiya yaroqsiz: “x”, “y” va “z” birikmasi kutilgandi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.execute.trueCondition",
+        "source_string": "Test passed.",
+        "translation": "Testdan o'tdi.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1139,6 +1267,22 @@
         "identifier": "commands.publish.failed",
         "source_string": "Unable to host local game",
         "translation": "Lokal serverni ishga tushurib bo'lmadi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-off.alreadyOff",
+        "source_string": "Saving is already turned off.",
+        "translation": "Saqlash allaqachon o'chirilgan.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "commands.save-on.alreadyOn",
+        "source_string": "Saving is already turned on.",
+        "translation": "Saqlash allaqachon yoqilgan.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1480,6 +1624,14 @@
         "max_length": null
     },
     {
+        "identifier": "controller.buttonTip.enterSearch",
+        "source_string": "Search",
+        "translation": "Qidirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "controller.buttonTip.confirmSearch",
         "source_string": "Confirm",
         "translation": "Tasdiqlash",
@@ -1560,6 +1712,14 @@
         "max_length": null
     },
     {
+        "identifier": "course.edu.createdBy",
+        "source_string": "By %s",
+        "translation": "Muallif: %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "course.edu.join",
         "source_string": "Join",
         "translation": "Qo'shilish",
@@ -1595,6 +1755,14 @@
         "identifier": "createWorld.customize.custom.next",
         "source_string": "Next Page",
         "translation": "Keyingi sahifa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorld.customize.custom.preset.goodLuck",
+        "source_string": "Good Luck",
+        "translation": "Omad",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1696,6 +1864,22 @@
         "max_length": null
     },
     {
+        "identifier": "createWorldScreen.action.local",
+        "source_string": "Create World!",
+        "translation": "Olamni yaratish!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.action.realms",
+        "source_string": "Create World!",
+        "translation": "Olamni yaratish!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "createWorldScreen.cheatSettings",
         "source_string": "Cheats",
         "translation": "Chitlar",
@@ -1763,6 +1947,14 @@
         "identifier": "createWorldScreen.delete",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.isHardcore",
+        "source_string": "Hardcore mode",
+        "translation": "Xardkor rejimi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1843,6 +2035,14 @@
         "identifier": "createWorldScreen.serverSimDistance",
         "source_string": "Simulation Distance",
         "translation": "Simulyatsiya",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.serverSimDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s chank",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2008,9 +2208,25 @@
         "max_length": null
     },
     {
+        "identifier": "realmsWorld.creatingWorld",
+        "source_string": "Creating World",
+        "translation": "Olam yaratilmoqda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "realmsPlusUpgradeNotice.continue",
         "source_string": "Continue",
         "translation": "Davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "csbCreateScreen.goBack",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2040,6 +2256,22 @@
         "max_length": null
     },
     {
+        "identifier": "networkWorld.news",
+        "source_string": "News:",
+        "translation": "Yangiliklar:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "networkWorld.online",
+        "source_string": "Online:",
+        "translation": "Onlayn:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "networkWorld.servers_label",
         "source_string": "Servers",
         "translation": "Serverlar",
@@ -2064,6 +2296,14 @@
         "max_length": null
     },
     {
+        "identifier": "networkWorld.highPingWarning.title",
+        "source_string": "Join Server?",
+        "translation": "Serverga qo'shilish?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "thirdPartyWorld.playNow",
         "source_string": "Play Now!",
         "translation": "Hoziroq o'ynang!",
@@ -2075,6 +2315,14 @@
         "identifier": "realmsSlotsScreen.new",
         "source_string": "New World",
         "translation": "Yangi olam",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSlotsScreen.readyToPlay",
+        "source_string": "Ready to Play",
+        "translation": "O'yinga tayyor",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2216,6 +2464,14 @@
         "max_length": null
     },
     {
+        "identifier": "realmsSettingsScreen.closeRealmTitle",
+        "source_string": "Close Realm?",
+        "translation": "Realm'ni yopish?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "realmsSettingsScreen.inviteLinkExpired",
         "source_string": "Expired",
         "translation": "Muddati tugagan",
@@ -2283,6 +2539,38 @@
         "identifier": "xblLogin.LoginMessageTitle",
         "source_string": "Microsoft account",
         "translation": "Microsoft akkaunti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "date.secondsAbbreviated1Char",
+        "source_string": "%ss",
+        "translation": "%s s",
+        "context": "It needs to be abbreviated with no more than 1 characters",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "date.daysPlural",
+        "source_string": "%s days",
+        "translation": "%s kun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "date.hoursPlural",
+        "source_string": "%s hours",
+        "translation": "%s soat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "date.minutesPlural",
+        "source_string": "%s minutes",
+        "translation": "%s minut",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2688,6 +2976,14 @@
         "max_length": null
     },
     {
+        "identifier": "deathScreen.message",
+        "source_string": "You died!",
+        "translation": "Siz o'ldingiz!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "deathScreen.quit.confirm",
         "source_string": "Are you sure you want to quit?",
         "translation": "Rostan ham chiqmoqchimisiz?",
@@ -2707,6 +3003,38 @@
         "identifier": "deathScreen.score",
         "source_string": "Score",
         "translation": "Hisob",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.title",
+        "source_string": "You died!",
+        "translation": "Siz o'ldingiz!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.title.hardcore",
+        "source_string": "Game over!",
+        "translation": "O'yin tugadi!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.titleScreen",
+        "source_string": "Title screen",
+        "translation": "Asosiy menyu",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "demo.day.1",
+        "source_string": "This demo will last five game days, do your best!",
+        "translation": "Ushbu demo besh o'yin kun davom etadi. Bor mahoratingizni ko'rsating!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2800,6 +3128,14 @@
         "max_length": null
     },
     {
+        "identifier": "demo.reminder",
+        "source_string": "The demo time has expired, buy the game to continue or start a new world!",
+        "translation": "Demo o'yin tugadi. Davom ettirish uchun o'yinni sotib oling yoki yangi olam yarating!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "difficulty.lock.question",
         "source_string": "Are you sure you want to lock the difficulty of this world? This will set this world to always be %1$s, and you will never be able to change that again.",
         "translation": "Rostan ham ushbu olamning qiyinlik darajasini qulflamoqchimisiz? Bundan so'ng ushbu olam har doim %1$s holatida qoladi va buni qayta o'zgartira olmaysiz.",
@@ -2872,6 +3208,22 @@
         "max_length": null
     },
     {
+        "identifier": "disconnectionScreen.invalidIP",
+        "source_string": "Invalid IP address!",
+        "translation": "IP-manzil yaroqsiz!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.play_screen.servers",
+        "source_string": "SERVERS",
+        "translation": "SERVERLAR",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "edu.worlds_screen.new_world",
         "source_string": "New World",
         "translation": "Yangi olam",
@@ -2890,7 +3242,39 @@
     {
         "identifier": "edu.worlds_screen.settings",
         "source_string": "SETTINGS",
-        "translation": "Sozlamalar",
+        "translation": "SOZLAMALAR",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.download",
+        "source_string": "DOWNLOAD",
+        "translation": "YUKLAB OLISH",
+        "context": "It needs to be localized in its verb form, not as a noun",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.back",
+        "source_string": "BACK",
+        "translation": "ORQAGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.worlds_screen.delete",
+        "source_string": "DELETE",
+        "translation": "O'CHIRISH",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.templates.delete",
+        "source_string": "DELETE",
+        "translation": "O'CHIRISH",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2923,6 +3307,22 @@
         "identifier": "edu.servers_screen.play",
         "source_string": "PLAY",
         "translation": "O'YNASH",
+        "context": "Button text on a server tile in the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.back",
+        "source_string": "BACK",
+        "translation": "ORQAGA",
+        "context": "Button text on a server tile in the servers grid",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "edu.servers_screen.remove",
+        "source_string": "REMOVE",
+        "translation": "Olib tashlash",
         "context": "Button text on a server tile in the servers grid",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4232,6 +4632,14 @@
         "max_length": null
     },
     {
+        "identifier": "exports.suspendWarning.title",
+        "source_string": "Warning",
+        "translation": "Diqqat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "addExternalServerScreen.addServer",
         "source_string": "Add Server",
         "translation": "Server qo'shish",
@@ -4363,6 +4771,14 @@
         "identifier": "gameMode.creative",
         "source_string": "Creative Mode",
         "translation": "Ijod rejimi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gameMode.hardcore",
+        "source_string": "Hardcore Mode!",
+        "translation": "Xardkor rejimi!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4616,6 +5032,14 @@
         "max_length": null
     },
     {
+        "identifier": "gui.toMenu",
+        "source_string": "Back to title screen",
+        "translation": "Asosiy menyuga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "gui.up",
         "source_string": "Up",
         "translation": "Yuqoriga",
@@ -4651,6 +5075,14 @@
         "identifier": "gui.signIn",
         "source_string": "Sign In",
         "translation": "Kirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hostOption.time.day",
+        "source_string": "Day",
+        "translation": "Kun",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4963,6 +5395,14 @@
         "identifier": "howtoplay.worlds",
         "source_string": "Worlds",
         "translation": "Olamlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.worlds.header.1",
+        "source_string": "Mini-Games",
+        "translation": "Mini o'yinlar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -10952,6 +11392,14 @@
         "max_length": null
     },
     {
+        "identifier": "item.itemLock.hoverText.cantBe.dropped",
+        "source_string": "dropped",
+        "translation": "tashlandi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "item.golden_carrot.name",
         "source_string": "Golden Carrot",
         "translation": "Oltin sabzi",
@@ -14512,6 +14960,14 @@
         "max_length": null
     },
     {
+        "identifier": "jigsaw.title.final_block",
+        "source_string": "Turns Into:",
+        "translation": "Bunga aylanadi:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "jigsaw.title.selection_priority",
         "source_string": "Selection Priority:",
         "translation": "Tanlash prioriteti:",
@@ -14659,6 +15115,14 @@
         "identifier": "joincode.icon_text.18",
         "source_string": "Llama",
         "translation": "Lama",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.ip_entry.button_tts",
+        "source_string": "More Options",
+        "translation": "Qo'shimcha sozlamalar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -14904,6 +15368,102 @@
         "max_length": null
     },
     {
+        "identifier": "keyboard.keyName.backspace",
+        "source_string": "BACK",
+        "translation": "ORQAGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.space",
+        "source_string": "SPACE",
+        "translation": "BO'SHLIQ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.left",
+        "source_string": "LEFT",
+        "translation": "CHAP",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.up",
+        "source_string": "UP",
+        "translation": "YUQORIGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.right",
+        "source_string": "RIGHT",
+        "translation": "O'NG",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.down",
+        "source_string": "DOWN",
+        "translation": "PASTGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.backspace.short",
+        "source_string": "BACK",
+        "translation": "ORQAGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.space.short",
+        "source_string": "SPACE",
+        "translation": "BO'SHLIQ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.left.short",
+        "source_string": "LEFT",
+        "translation": "CHAP",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.up.short",
+        "source_string": "UP",
+        "translation": "YUQORIGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.right.short",
+        "source_string": "RIGHT",
+        "translation": "O'NG",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "keyboard.keyName.down.short",
+        "source_string": "DOWN",
+        "translation": "PASTGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "keyboard.keyName.minus.short",
         "source_string": "-",
         "translation": "—",
@@ -14960,6 +15520,14 @@
         "max_length": null
     },
     {
+        "identifier": "map.toolTip.level",
+        "source_string": "Level %s/%s",
+        "translation": "%s/%s daraja",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "map.toolTip.unkown",
         "source_string": "Unknown Map",
         "translation": "Noma'lum xarita",
@@ -14995,6 +15563,14 @@
         "identifier": "menu.beta",
         "source_string": "Beta!!!",
         "translation": "Beta!!!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.game",
+        "source_string": "Game menu",
+        "translation": "O'yin menyusi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15050,7 +15626,7 @@
     {
         "identifier": "menu.settings.caps",
         "source_string": "SETTINGS",
-        "translation": "Sozlamalar",
+        "translation": "SOZLAMALAR",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15123,6 +15699,14 @@
         "identifier": "menu.resetdemo",
         "source_string": "Reset Demo World",
         "translation": "Olamni qayta yaratish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.resourcepacks",
+        "source_string": "Resource Packs",
+        "translation": "Resurs to'plamlari",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15368,6 +15952,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.controlMode.selected",
+        "source_string": "Selected: ",
+        "translation": "Tanlangan: ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.showBlockSelectButton",
         "source_string": "Pick Block",
         "translation": "Blokni tanlash",
@@ -15488,6 +16080,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.content_log_gui.level.info",
+        "source_string": "Info",
+        "translation": "Ma'lumot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.controls",
         "source_string": "Controls...",
         "translation": "Boshqaruv...",
@@ -15528,9 +16128,41 @@
         "max_length": null
     },
     {
+        "identifier": "options.dev_chunk_map_mode_off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_enableDebugHudOverlay.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_nethernet_logging_verbosity.disabled",
         "source_string": "Disabled",
         "translation": "O'chirilgan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_nethernet_logging_verbosity.warning",
+        "source_string": "Warning",
+        "translation": "Diqqat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_render_attach_pos.none",
+        "source_string": "Off",
+        "translation": "O'chiq",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15552,6 +16184,22 @@
         "max_length": null
     },
     {
+        "identifier": "options.discoveryEnvironment.local",
+        "source_string": "Local",
+        "translation": "Lokal",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_realms_environment.local",
+        "source_string": "Local",
+        "translation": "Lokal",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.dev_realms_sku.default",
         "source_string": "Default",
         "translation": "Birlamchi",
@@ -15563,6 +16211,38 @@
         "identifier": "options.dev_serviceOverrideTypeCustom",
         "source_string": "Custom",
         "translation": "Maxsus",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_resetToDefault",
+        "source_string": "Reset To Default",
+        "translation": "Birlamchiga qaytarish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_overrideDateMonth",
+        "source_string": "Month",
+        "translation": "Oy",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_overrideDateDay",
+        "source_string": "Day",
+        "translation": "Kun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_education_environment.local",
+        "source_string": "Local",
+        "translation": "Lokal",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15667,6 +16347,14 @@
         "identifier": "options.framerateLimit.max",
         "source_string": "Unlimited",
         "translation": "Cheksiz",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dynamicTextures.popUp.continue",
+        "source_string": "Turn Off",
+        "translation": "O'chirish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15880,6 +16568,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.languageWarning",
+        "source_string": "Language translations may not be 100% accurate",
+        "translation": "Tarjima 100% to'g'ri bo'lmasligi mumkin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.cancel",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
@@ -16032,9 +16728,41 @@
         "max_length": null
     },
     {
+        "identifier": "options.raytracing.renderDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s chank",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.deferred.renderDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s chank",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.renderDistanceFormat",
+        "source_string": "%s chunks",
+        "translation": "%s chank",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.resetSettings",
         "source_string": "Reset to Default",
         "translation": "Birlamchiga qaytarish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.resourcepacks",
+        "source_string": "Resource Packs",
+        "translation": "Resurs to'plamlari",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16096,6 +16824,22 @@
         "max_length": null
     },
     {
+        "identifier": "options.glintStrength",
+        "source_string": "Glint strength",
+        "translation": "Tovlanish yorqinligi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.glintSpeed",
+        "source_string": "Glint speed",
+        "translation": "Tovlanish tezligi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.stream.chat.enabled.always",
         "source_string": "Always",
         "translation": "Har doim",
@@ -16144,6 +16888,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.viewSubscriptions.button.info",
+        "source_string": "Info",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.viewSubscriptions.signIn",
         "source_string": "Sign in",
         "translation": "Kirish",
@@ -16171,6 +16923,30 @@
         "identifier": "options.visible",
         "source_string": "Shown",
         "translation": "Ko'rinadi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.filelocation.external.warning.title",
+        "source_string": "Warning",
+        "translation": "Diqqat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.autoUpdateMode.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.content.noRealms",
+        "source_string": "Edit World?",
+        "translation": "Olamni tahrirlash?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16211,6 +16987,30 @@
         "identifier": "options.graphicsQualityPresetMode.custom",
         "source_string": "Custom",
         "translation": "Maxsus",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.pointLightShadowQuality.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.volumetricFogQuality.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.reflectionsQuality.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16352,6 +17152,14 @@
         "max_length": null
     },
     {
+        "identifier": "hudScreen.controlCustomization.closeWithoutSavingCancel",
+        "source_string": "Continue editing",
+        "translation": "Tahrirlashni davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "playscreen.header.local",
         "source_string": "Play",
         "translation": "O'ynash",
@@ -16419,6 +17227,14 @@
         "identifier": "permissions.Continue",
         "source_string": "Continue",
         "translation": "Davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "permissions.level.custom",
+        "source_string": "Custom...",
+        "translation": "Maxsus...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17216,9 +18032,33 @@
         "max_length": null
     },
     {
+        "identifier": "progressScreen.message.done",
+        "source_string": "Done!",
+        "translation": "Tayyor!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "progressScreen.message.letsGoCreative",
         "source_string": "Create",
         "translation": "Yaratish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "progressScreen.message.failed",
+        "source_string": "Failed",
+        "translation": "Bajarilmadi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "progressScreen.message.unknownError",
+        "source_string": "An error occurred",
+        "translation": "Xatolik yuz berdi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17296,9 +18136,33 @@
         "max_length": null
     },
     {
+        "identifier": "recipeBook.setting.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.tts",
+        "source_string": " new recipes unlocked",
+        "translation": " yangi retseptlar ochildi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "recipeToast.newUnlock.descriptionRecipeBook",
         "source_string": "Check your recipe book",
         "translation": "Retsept kitobiga qarang",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "record.nowPlaying",
+        "source_string": "Now playing: %s",
+        "translation": "Hozir ijro etilmoqda: %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17323,6 +18187,14 @@
         "identifier": "resourcePack.crashRecovery.title",
         "source_string": "Global Resources Reset",
         "translation": "Global resurslarni tiklash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.warning.remove.title",
+        "source_string": "Wait!",
+        "translation": "To'xtang!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17376,6 +18248,22 @@
         "max_length": null
     },
     {
+        "identifier": "storageManager.contentType.worldTemplate",
+        "source_string": "World Template",
+        "translation": "Olam shabloni",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.contentType.invalid",
+        "source_string": "Invalid",
+        "translation": "Yaroqsiz",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "storageManager.contentType.worlds",
         "source_string": "Worlds",
         "translation": "Olamlar",
@@ -17387,6 +18275,14 @@
         "identifier": "storageManager.contentType.worldTemplates",
         "source_string": "World Templates",
         "translation": "Olam shablonlari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.contentType.resourcePacks",
+        "source_string": "Resource Packs",
+        "translation": "Resurs to'plamlari",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17872,6 +18768,14 @@
         "max_length": null
     },
     {
+        "identifier": "container.smithing_table.input_slot_tooltip_netherite",
+        "source_string": "Add Diamond armor, weapon, or tool",
+        "translation": "Olmos sovut, qurol yoki asbob qo'ying",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "container.smithing_table.material_slot_tooltip_armor_trim",
         "source_string": "Add ingot or crystal",
         "translation": "Quyma yoki kristall qo'ying",
@@ -17947,6 +18851,14 @@
         "identifier": "item.archer_pottery_sherd.name",
         "source_string": "Archer Pottery Sherd",
         "translation": "“Kamonchi” sopol parchasi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "item.armor.upgrade",
+        "source_string": "Upgrade:",
+        "translation": "Yaxshilash:",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19016,6 +19928,22 @@
         "max_length": null
     },
     {
+        "identifier": "storageManager.title.item.single",
+        "source_string": "item",
+        "translation": "buyum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.title.item.plural",
+        "source_string": "items",
+        "translation": "buyumlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "storageManager.delete.confirm",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
@@ -19035,6 +19963,14 @@
         "identifier": "storageManager.dependency.continue",
         "source_string": "Continue",
         "translation": "Davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.version",
+        "source_string": "Version ",
+        "translation": "Versiya ",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19064,6 +20000,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.MashupAdventureTime.description",
+        "source_string": "#empty#",
+        "translation": "#bo'sh#",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "screenshot.failure",
         "source_string": "Couldn't save screenshot: %s",
         "translation": "Skrinshotni saqlab bo'lmadi: %s",
@@ -19075,6 +20019,22 @@
         "identifier": "screenshot.success",
         "source_string": "Saved screenshot as %s",
         "translation": "Skrinshot %s fayliga saqlandi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "seedPicker.search",
+        "source_string": "Search",
+        "translation": "Qidirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectServer.add",
+        "source_string": "Add server",
+        "translation": "Server qo'shish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19120,6 +20080,14 @@
         "max_length": null
     },
     {
+        "identifier": "selectServer.empty",
+        "source_string": "empty",
+        "translation": "bo'sh",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "selectServer.hiddenAddress",
         "source_string": "(Hidden)",
         "translation": "(Yashirilgan)",
@@ -19139,6 +20107,22 @@
         "identifier": "selectServer.select",
         "source_string": "Join Server",
         "translation": "Ulanish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.allowCommands",
+        "source_string": "Allow Cheats:",
+        "translation": "Chitlarga ruxsat:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.bonusItems",
+        "source_string": "Bonus Chest:",
+        "translation": "Bonus sandiq:",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19192,9 +20176,25 @@
         "max_length": null
     },
     {
+        "identifier": "selectWorld.empty",
+        "source_string": "empty",
+        "translation": "bo'sh",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "selectWorld.enterName",
         "source_string": "World Name",
         "translation": "Olam nomi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.enterSeed",
+        "source_string": "Seed for the World Generator",
+        "translation": "Olam generatori uchun kod",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19211,6 +20211,14 @@
         "identifier": "selectWorld.gameMode.adventure",
         "source_string": "Adventure",
         "translation": "Sarguzasht",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.gameMode.adventure.line1",
+        "source_string": "Same as survival mode, but blocks can't",
+        "translation": "“Omon qolish“ rejimi bilan bir xil, lekin bloklarni",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19256,6 +20264,14 @@
         "max_length": null
     },
     {
+        "identifier": "selectWorld.gameMode.hardcore.line1",
+        "source_string": "Same as survival mode, locked at hardest",
+        "translation": "Omon qolish rejimi bilan bir xil, ammo qiyinligi eng yuqori",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "selectWorld.gameMode.hardcore.line2",
         "source_string": "difficulty, and one life only",
         "translation": "darajada qulflangan va faqat bitta hayot beriladi",
@@ -19280,6 +20296,14 @@
         "max_length": null
     },
     {
+        "identifier": "selectWorld.gameMode.spectator.line2",
+        "source_string": "#empty#",
+        "translation": "#bo'sh#",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "selectWorld.gameMode.survival",
         "source_string": "Survival",
         "translation": "Omon qolish",
@@ -19291,6 +20315,30 @@
         "identifier": "selectWorld.gameMode.survival.line2",
         "source_string": "levels, health and hunger",
         "translation": "tajribangizni oshiring, sog'liq va ochlikni nazorat qiling",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.hardcoreMode",
+        "source_string": "Hardcore:",
+        "translation": "Xardkor:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.mapFeatures",
+        "source_string": "Generate Structures:",
+        "translation": "Inshootlar bo'lsin:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.mapType",
+        "source_string": "World Type:",
+        "translation": "Olam turi:",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19323,6 +20371,14 @@
         "identifier": "selectWorld.worldTags.hardcore",
         "source_string": "Hardcore",
         "translation": "Xardkor",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.worldTags",
+        "source_string": "%1$s - %2$s",
+        "translation": "%1$s — (%2$s)",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19432,6 +20488,14 @@
         "max_length": null
     },
     {
+        "identifier": "selectTemplate.create",
+        "source_string": "Create...",
+        "translation": "Yaratish...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "selectTemplate.world",
         "source_string": "New World",
         "translation": "Yangi olam",
@@ -19467,6 +20531,22 @@
         "identifier": "selectTemplate.download",
         "source_string": "Download",
         "translation": "Yuklab olish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectTemplate.createdBy",
+        "source_string": "Created by %s",
+        "translation": "Muallif: %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "sign.edit",
+        "source_string": "Edit sign message",
+        "translation": "Taxtacha matnini tahrirlash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19784,6 +20864,14 @@
         "max_length": null
     },
     {
+        "identifier": "stat.flowerPotted",
+        "source_string": "Plants potted",
+        "translation": "Tuvakka solingan o'simliklar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "stat.flyOneCm",
         "source_string": "Distance Flown",
         "translation": "Masofa: uchish",
@@ -19843,6 +20931,14 @@
         "identifier": "stat.jump",
         "source_string": "Jumps",
         "translation": "Sakrashlar soni",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "stat.leaveGame",
+        "source_string": "Games quit",
+        "translation": "O'yindan chiqishlar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19984,6 +21080,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.csb.upsell.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.csb.purchaseErrorDialog.back",
         "source_string": "Back",
         "translation": "Orqaga",
@@ -19995,6 +21099,14 @@
         "identifier": "store.csb.purchase.amazonDeviceWarning.button.back",
         "source_string": "Go Back",
         "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.csb.banner.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -20072,6 +21184,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.popup.wifiWarn.title",
+        "source_string": "Warning",
+        "translation": "Diqqat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.popup.update.button2",
         "source_string": "Skip",
         "translation": "O'tkazib yuborish",
@@ -20083,6 +21203,14 @@
         "identifier": "store.popup.update.back",
         "source_string": "Go Back",
         "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.createdBy",
+        "source_string": "By %s",
+        "translation": "Muallif: %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -20160,6 +21288,22 @@
         "max_length": null
     },
     {
+        "identifier": "store.mashup.description",
+        "source_string": "DESCRIPTION",
+        "translation": "TAVSIF",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.offerDescription.players",
+        "source_string": "Players:",
+        "translation": "O'yinchilar:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.offerDescription.languages",
         "source_string": "Languages:",
         "translation": "Tillar:",
@@ -20184,6 +21328,22 @@
         "max_length": null
     },
     {
+        "identifier": "store.featured.createdBy",
+        "source_string": "Created by %s",
+        "translation": "Muallif: %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.downloading",
+        "source_string": "Downloading...",
+        "translation": "Yuklab olinmoqda...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.xbl.signin",
         "source_string": "Sign In",
         "translation": "Kirish",
@@ -20203,6 +21363,14 @@
         "identifier": "store.showalloffers.list.back",
         "source_string": "Go Back",
         "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.search.button",
+        "source_string": "Search",
+        "translation": "Qidirish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -20371,6 +21539,14 @@
         "identifier": "tile.target.name",
         "source_string": "Target",
         "translation": "Nishon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bed.notSafe",
+        "source_string": "You may not rest now, there are monsters nearby",
+        "translation": "Hozir uxlay olmaysiz, atrofda maxluqlar bor",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -23387,6 +24563,14 @@
         "identifier": "tile.redstone_lamp.name",
         "source_string": "Redstone Lamp",
         "translation": "Redstone lampa",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.reeds.name",
+        "source_string": "Sugar cane",
+        "translation": "Shakarqamish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27704,6 +28888,14 @@
         "max_length": null
     },
     {
+        "identifier": "structure_block.mode",
+        "source_string": "Mode:",
+        "translation": "Rejim:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "structure_block.mode.save",
         "source_string": "Save",
         "translation": "Saqlash",
@@ -27736,6 +28928,14 @@
         "max_length": null
     },
     {
+        "identifier": "structure_block.data_label",
+        "source_string": "Data:",
+        "translation": "Ma'lumot:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "structure_block.include_entities",
         "source_string": "Include Entities:",
         "translation": "Jismlarni o'z ichiga oladi:",
@@ -27755,6 +28955,38 @@
         "identifier": "structure_block.place_by_none",
         "source_string": "None",
         "translation": "Yo'q",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.seed",
+        "source_string": "Seed:",
+        "translation": "Olam generatori kodi:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.detect",
+        "source_string": "Detect",
+        "translation": "Aniqlash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27795,6 +29027,22 @@
         "identifier": "structure_block.mirror.none",
         "source_string": "None",
         "translation": "Yo'q",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "structure_block.exportFailedTitle",
+        "source_string": "Export Failed",
+        "translation": "Eksport qilib bo'lmadi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "3d_export.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27864,6 +29112,70 @@
         "max_length": null
     },
     {
+        "identifier": "trial.tabbed_upsell.xbl.title",
+        "source_string": "MICROSOFT ACCOUNT",
+        "translation": "MICROSOFT AKKAUNTI",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.multiplayer.title",
+        "source_string": "MULTIPLAYER",
+        "translation": "TARMOQLI O'YIN",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.server.title",
+        "source_string": "SERVERS",
+        "translation": "SERVERLAR",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.tabbed_upsell.creative.title",
+        "source_string": "CREATIVE",
+        "translation": "IJOD",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.thanks_for_testing.xbl.title",
+        "source_string": "MICROSOFT ACCOUNT",
+        "translation": "MICROSOFT AKKAUNTI",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.survival.mode.title",
+        "source_string": "SURVIVAL",
+        "translation": "OMON QOLISH",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "trial.creative.mode.title",
+        "source_string": "CREATIVE",
+        "translation": "IJOD",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.signin.error.pocket.line2",
+        "source_string": "#empty#",
+        "translation": "#bo'sh#",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "xbox.signin",
         "source_string": "Sign In",
         "translation": "Kirish",
@@ -27883,6 +29195,14 @@
         "identifier": "xbox.profile.report",
         "source_string": "Report",
         "translation": "Shikoyat qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "O'yinchi skini",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27915,6 +29235,54 @@
         "identifier": "xbox.report.childSexualExploitationOrAbuse",
         "source_string": "Child sexual exploitation or abuse",
         "translation": "Bolalarga nisbatan shafqatsizlik yoki jinsiy ekspluatatsiya",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Non-Consensual intimate imagery",
+        "translation": "Roziliksiz tarqatilgan intim tasvirlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.harassment",
+        "source_string": "Harassment or Bullying",
+        "translation": "Ta'qib qilish yoki tahdid qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.advertising",
+        "source_string": "Spam or Advertising",
+        "translation": "Spam yoki reklama",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.selfHarm",
+        "source_string": "Self-Harm or Suicide",
+        "translation": "O'ziga zarar yetkazish yoki o'z joniga qasd qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.report.sexuallyInappropriate",
+        "source_string": "Sexually Inappropriate",
+        "translation": "Seksual nomuvofiqlik",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "xbox.statistics.timePlayed",
+        "source_string": "Time played",
+        "translation": "O'ynagan vaqt",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -27960,6 +29328,22 @@
         "max_length": null
     },
     {
+        "identifier": "manifestvalidation.info",
+        "source_string": "Info",
+        "translation": "Ma'lumot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.warning",
+        "source_string": "Warning",
+        "translation": "Diqqat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "manifestvalidation.delete",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
@@ -27984,6 +29368,14 @@
         "max_length": null
     },
     {
+        "identifier": "content.import.succeeded_with_warnings.subtitle",
+        "source_string": "Click here for more info",
+        "translation": "Ko'proq ma'lumot uchun bu yerda bosing",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "addServer.add",
         "source_string": "Done",
         "translation": "Tayyor",
@@ -27995,6 +29387,14 @@
         "identifier": "externalServerScreen.addServer",
         "source_string": "Add Server",
         "translation": "Server qo'shish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "externalServerScreen.addServerTitle",
+        "source_string": "Add Server:",
+        "translation": "Server qo'shish:",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28083,6 +29483,14 @@
         "identifier": "storage_migration.button.continue",
         "source_string": "Continue",
         "translation": "Davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storage_migration.progress.finished",
+        "source_string": "Finished!",
+        "translation": "Yakunlandi!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28264,6 +29672,14 @@
         "max_length": null
     },
     {
+        "identifier": "gameTest.success.runningTests",
+        "source_string": "Running %s tests...",
+        "translation": "%s ta test bajarilmoqda...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "gameTest.success.relativePosition",
         "source_string": "Position relative to %s: %s",
         "translation": "%s'ga nisbatan koordinatalar: %s",
@@ -28272,9 +29688,33 @@
         "max_length": null
     },
     {
+        "identifier": "gameTest.report.someTestsFailed",
+        "source_string": "%s required tests failed :(",
+        "translation": "%s ta majburiy test muvaffaqiyatsiz yakunlandi :(",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "gameTest.report.allRequiredTestsPassed",
         "source_string": "All required tests passed :)",
         "translation": "Barcha kerakli testlardan o'tildi :)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gameTest.report.optionalFailures",
+        "source_string": "%s optional tests failed",
+        "translation": "%s ta ixtiyoriy test muvaffaqiyatsiz yakunlandi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "world_recovery.error.generic",
+        "source_string": "An error occurred: %s",
+        "translation": "Xatolik yuz berdi: %s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28368,6 +29808,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Accordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s — (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AccountUnlinkRoute.cancelButton",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
@@ -28400,9 +29848,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDetailsRoute.narration.locked",
+        "source_string": "locked",
+        "translation": "qulflangan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.closeButton",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementDisabledModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28456,6 +29920,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Achievements.narration.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AchievementsSummary.time",
+        "source_string": "Time played",
+        "translation": "O'ynagan vaqt",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendError.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendRoute.search",
+        "source_string": "Search",
+        "translation": "Qidirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.AddFriendSearchByGamertag.search",
+        "source_string": "Search",
+        "translation": "Qidirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AnnouncementModalRoute.confirmInputLegend",
         "source_string": "Confirm",
         "translation": "Tasdiqlash",
@@ -28480,9 +29984,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.advertising",
+        "source_string": "Spam or Advertising",
+        "translation": "Spam yoki reklama",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.gameplay",
         "source_string": "Gameplay",
         "translation": "O'yin jarayoni",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "O'yinchi skini",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationGrooming",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28528,9 +30064,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.hateSpeech",
+        "source_string": "Hate Speech or discrimination",
+        "translation": "Nafrat uyg'otuvchi so'zlar yoki kamsitish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.imminentHarm",
         "source_string": "Intent to cause real-life harm to persons or property",
         "translation": "Shaxslarga yoki mulkka real hayotda zarar yetkazish niyati",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28547,6 +30099,14 @@
         "identifier": "hbui.BannedOrSuspendedReason.xbox.report.nudity",
         "source_string": "Displaying lewd or pornographic material",
         "translation": "Behayolik yoki pornografik mazmundagi materiallarni namoyish qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.BannedOrSuspendedReason.xbox.report.selfHarm",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28584,6 +30144,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Bedtime.leaveBedButton",
+        "source_string": "Leave bed",
+        "translation": "To'shakdan turish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.openChatButton",
+        "source_string": "Open chat",
+        "translation": "Chatni ochish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CapeIncentiveReceivedTransientRoute.continueButton",
         "source_string": "Continue",
         "translation": "Davom etish",
@@ -28603,6 +30179,14 @@
         "identifier": "hbui.ChooseRealmRoute.creative",
         "source_string": "Creative",
         "translation": "Ijod",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ChooseRealmRoute.pairedWith",
+        "source_string": "Paired with: %s",
+        "translation": "%s bilan bog'langan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28640,9 +30224,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ConfirmDisableAchievementsModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.bonusChestTitle",
+        "source_string": "Bonus chest",
+        "translation": "Bonus sandiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.generatorTypeLabel",
+        "source_string": "World type",
+        "translation": "Olam turi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.simulationDistanceTitle",
+        "source_string": "Simulation distance",
+        "translation": "Simulyatsiya masofasi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.advanced.sleepSlider.disabled",
         "source_string": "Disabled",
         "translation": "O'chirilgan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.cheats.commandBlocksTitle",
+        "source_string": "Command blocks",
+        "translation": "Buyruq bloklari",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28672,6 +30296,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.comingSoonModal.goBackButtonText",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.createOnRealmsError.close",
         "source_string": "Close",
         "translation": "Yopish",
@@ -28683,6 +30315,14 @@
         "identifier": "hbui.CreateNewWorld.createWorldError.close",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.deleteWorldModal.continueButton",
+        "source_string": "Continue editing",
+        "translation": "Tahrirlashni davom etish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28712,6 +30352,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.dlcCheckErrorModal.goBackButtonText",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.duplicateWorldErrorModal.closeButton",
         "source_string": "Close",
         "translation": "Yopish",
@@ -28723,6 +30371,14 @@
         "identifier": "hbui.CreateNewWorld.duplicateWorldErrorModal.closeInputLegend",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.editTitle",
+        "source_string": "Edit world",
+        "translation": "Olamni tahrirlash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28864,6 +30520,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.general.feedbackButton",
+        "source_string": "Give feedback",
+        "translation": "Fikr bildirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.general.gameModeAdventureLabel",
         "source_string": "Adventure",
         "translation": "Sarguzasht",
@@ -28904,6 +30568,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.general.gameModeTitle",
+        "source_string": "Game mode",
+        "translation": "O'yin rejimi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.general.gameModeUnknownLabel",
         "source_string": "Unknown",
         "translation": "Noma'lum",
@@ -28915,6 +30587,38 @@
         "identifier": "hbui.CreateNewWorld.general.hardcoreModeTitle",
         "source_string": "Hardcore",
         "translation": "Xardkor",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.multiplayerPermissionBanner.link",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.worldNameTitle",
+        "source_string": "World name",
+        "translation": "Olam nomi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.worldTypeTitle",
+        "source_string": "World type",
+        "translation": "Olam turi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.hardcoreModeWorldModal.goBack",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28936,9 +30640,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.multiplayer.locatorBarTitle",
+        "source_string": "Locator bar",
+        "translation": "Lokator",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.multiplayer.nintendoSubscriptionPromotionButtonLabel",
+        "source_string": "More information",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.multiplayer.playerAccessFriendsLabel",
         "source_string": "Friends",
         "translation": "Do'stlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.multiplayer.playStationPlusSubscriptionPromotionButtonLabel",
+        "source_string": "More information",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28955,6 +30683,14 @@
         "identifier": "hbui.CreateNewWorld.multiplayerPlatformLockedModal.closeInputLegend",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.multiplayerPlatformLockedModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29008,6 +30744,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.platformLockedModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleVersionTitle",
         "source_string": "Incompatible version",
         "translation": "Mos kelmaydigan versiya",
@@ -29024,9 +30768,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.initializationTimeoutButton",
         "source_string": "Ok",
         "translation": "OK",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.localPacksListHeader",
+        "source_string": "Local",
+        "translation": "Lokal",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.marketplacePassPromotionButtonLabel",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29040,9 +30808,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacksDependencyWarningModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacksPlatformLockedModal.closeInputLegend",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacksPlatformLockedModal.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29083,6 +30867,14 @@
         "identifier": "hbui.CreateNewWorld.upsellModal.back",
         "source_string": "Back",
         "translation": "Orqaga",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.upsellModal.primaryButton",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29136,6 +30928,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorldSideMenu.resourcePacksTabLabel",
+        "source_string": "Resource packs",
+        "translation": "Resurs to'plamlari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreatePartyRoute.friendsTitle",
         "source_string": "Friends",
         "translation": "Do'stlar",
@@ -29176,6 +30976,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditRealmWorld.general.fileManagementResetWorldLabel",
+        "source_string": "Reset world",
+        "translation": "Qayta yaratish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditRealmWorld.play",
         "source_string": "Play",
         "translation": "O'ynash",
@@ -29203,6 +31011,14 @@
         "identifier": "hbui.EditWorld.addonStackingWarningModal.doNotShow",
         "source_string": "Do not show this screen again",
         "translation": "Bu ekran boshqa ko'rsatilmasin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.EditThumbnailModal.resetThumbnail",
+        "source_string": "Reset to default",
+        "translation": "Birlamchiga qaytarish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29264,9 +31080,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ErrorModal.goBack",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.FlatWorld.designPreviewInputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.FlatWorld.feedbackButton",
+        "source_string": "Give feedback",
+        "translation": "Fikr bildirish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29336,6 +31168,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.FlatWorld.preset.tunnelersDream",
+        "source_string": "Tunneler's Dream",
+        "translation": "Tunelchi orzusi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.FlatWorld.preset.waterWorld",
         "source_string": "Water World",
         "translation": "Suv olami",
@@ -29352,9 +31192,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.FriendsDrawer.AddFriendsOnlineSafety.helpButton",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.FriendsDrawer.joinFriendServerErrorModal.cancel",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.FriendsDrawer.multiplayerBanner.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29371,6 +31227,14 @@
         "identifier": "hbui.FriendsRoute.header",
         "source_string": "Friends",
         "translation": "Do'stlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.gameplay.DeathScreen.gameMenu",
+        "source_string": "Game menu",
+        "translation": "O'yin menyusi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29408,9 +31272,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.gameplay.DeathScreen.spectateWorldButton",
+        "source_string": "Spectate world",
+        "translation": "Olamni kuzatish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.gameplay.DeathScreen.spectateWorldInputLegend",
+        "source_string": "Spectate world",
+        "translation": "Olamni kuzatish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.gameplay.DeathScreen.youDied",
         "source_string": "You Died!",
         "translation": "Siz o'ldingiz!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.general.multiplayerPermissionBanner.link",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29443,6 +31331,14 @@
         "identifier": "hbui.HasMarketplacePassModal.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.InboxContentItem.narration.createdBy",
+        "source_string": "By %1$s",
+        "translation": "Muallif: %1$s",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29600,6 +31496,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.InboxRoute.back",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.InboxRoute.deleteConfirmation.cancel",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
@@ -29619,6 +31523,14 @@
         "identifier": "hbui.InboxRoute.details",
         "source_string": "Details",
         "translation": "Tafsilotlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.InboxRoute.emptyMarketplacePassLearn",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29736,6 +31648,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.JoinRealmsServerError.invalidMultiplayerSkin.title",
+        "source_string": "Skin not allowed",
+        "translation": "Skin mumkin emas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.JoinRealmsServerError.noPlatformSubscription.nintendo.moreInformation",
+        "source_string": "More information",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.JoinRealmsServerErrorModal.closeButtonLabel",
         "source_string": "Close",
         "translation": "Yopish",
@@ -29755,6 +31683,14 @@
         "identifier": "hbui.LeavePartyModal.cancel",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.LeaveWorldThenJoinModal.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29784,9 +31720,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ManageShowcaseRoute.resetFeaturedImage",
+        "source_string": "Reset to default",
+        "translation": "Birlamchiga qaytarish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.MobileDataBlockedModalRoute.goBack",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.multiplayerBlockedModal.close",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.multiplayerBlockedModal.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29968,6 +31928,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PackListItem.creatorLabel",
+        "source_string": "By %1$s",
+        "translation": "Muallif: %1$s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PackListItem.detailsButtonText",
         "source_string": "Details",
         "translation": "Tafsilotlar",
@@ -30003,6 +31971,14 @@
         "identifier": "hbui.PackListItem.settingsButtonText",
         "source_string": "Settings",
         "translation": "Sozlamalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PacksLoadingModal.title",
+        "source_string": "Downloading...",
+        "translation": "Yuklab olinmoqda...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30064,6 +32040,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.close",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerBannedModalRoute.unknownReportArea",
         "source_string": "Unknown",
         "translation": "Noma'lum",
@@ -30072,9 +32056,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.advertising",
+        "source_string": "Spam or Advertising",
+        "translation": "Spam yoki reklama",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.gameplay",
         "source_string": "Gameplay",
         "translation": "O'yin jarayoni",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "O'yinchi skini",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationGrooming",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.childSexualExploitationOrAbuse",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30120,9 +32136,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.hateSpeech",
+        "source_string": "Hate Speech or discrimination",
+        "translation": "Nafrat uyg'otuvchi so'zlar yoki kamsitish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.imminentHarm",
         "source_string": "Intent to cause real-life harm to persons or property",
         "translation": "Shaxslarga yoki mulkka real hayotda zarar yetkazish niyati",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nonConsensualIntimateImagery",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30139,6 +32171,14 @@
         "identifier": "hbui.PlayerBannedModalRoute.xbox.report.nudity",
         "source_string": "Displaying lewd or pornographic material",
         "translation": "Behayolik yoki pornografik mazmundagi materiallarni namoyish qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerBannedModalRoute.xbox.report.selfHarm",
+        "source_string": "Violating community standards",
+        "translation": "Hamjamiyat standartlarini buzish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30179,6 +32219,14 @@
         "identifier": "hbui.PlayerCard.blocked",
         "source_string": "Blocked",
         "translation": "Bloklangan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerCard.buttonRole",
+        "source_string": "button",
+        "translation": "tugma",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30312,6 +32360,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerOptionsModal.removeFriend",
+        "source_string": "Remove friend",
+        "translation": "Do'stlardan chiqarish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerOptionsModal.report",
         "source_string": "Report",
         "translation": "Shikoyat qilish",
@@ -30339,6 +32395,14 @@
         "identifier": "hbui.PlayerPermissionsRoute.EnableCheatsModal.inputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.KickPlayerModal.backButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30379,6 +32443,14 @@
         "identifier": "hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.inputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.backButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30440,6 +32512,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.allWorlds.emptyStateCreateNewButton",
+        "source_string": "Create new world",
+        "translation": "Yangi olam yaratish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.BannedOrSuspendedBanner.linkText",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.ButtonHeader.createNewWorld",
+        "source_string": "Create new world",
+        "translation": "Yangi olam yaratish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.AllWorldsTab.MultiplayerDisabledBanner.linkText",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.BannerMultiplayerDisabled.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.cloudSyncWorldConnectionError.close",
         "source_string": "Close",
         "translation": "Yopish",
@@ -30472,6 +32584,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.experimentalWorldLoadingModal.goBackButtonText",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.feedbackButton",
+        "source_string": "Give feedback",
+        "translation": "Fikr bildirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.filterButton.componentRole",
         "source_string": "Button",
         "translation": "Tugma",
@@ -30483,6 +32611,14 @@
         "identifier": "hbui.PlayScreen.importWorldErrorModal.close",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.importWorldErrorModal.unknownError.title",
+        "source_string": "An error occurred",
+        "translation": "Xatolik yuz berdi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30528,6 +32664,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.nonMultiplayerSkinModal.title",
+        "source_string": "Skin not allowed",
+        "translation": "Skin mumkin emas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.noPremiumSubscriptionMessage.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.onlinePlayWarning.back",
         "source_string": "Back",
         "translation": "Orqaga",
@@ -30547,6 +32699,14 @@
         "identifier": "hbui.PlayScreen.onlinePlayWarning.thirdParty.body",
         "source_string": "Caution: Online play is offered by third-party servers that are not owned, operated, or supervised by Mojang Studios or Microsoft. During online play, you may be exposed to unmoderated chat messages or other types of user-generated content that may not be suitable for everyone.",
         "translation": "Diqqat: onlayn o'yinlar Mojang Studios yoki Microsoft kompaniyalariga tegishli bo'lmagan, ular tomonidan boshqarilmaydigan va nazorat qilinmaydigan tashqi serverlar tomonidan taqdim etiladi. Onlayn o'yin jarayonida sizga moderatorlar tomonidan tekshirilmagan chat xabarlari yoki hammaga ham to'g'ri kelmaydigan boshqa turdagi foydalanuvchi kontentlariga duch kelishi mumkin.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.onlinePlayWarning.thirdParty.header",
+        "source_string": "Caution: Third-party online play",
+        "translation": "Diqqat: tashqi serverlarda o'yin",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30595,6 +32755,14 @@
         "identifier": "hbui.PlayScreen.realmsTab.bannerFull",
         "source_string": "Full",
         "translation": "To'liq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.realmsTab.joinRealmOptionsModalMenu.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30659,6 +32827,14 @@
         "identifier": "hbui.PlayScreen.realmsTab.realmsLeaveRealmModal.leaveRealmAction",
         "source_string": "Leave Realm",
         "translation": "Realm'ni tark etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.realmsTab.realmsTabErrorStates.realmsPreprodError.button.text",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30736,6 +32912,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.serverTab.addServer",
+        "source_string": "Add server",
+        "translation": "Server qo'shish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.serverTab.addServerError.closeButton",
         "source_string": "Close",
         "translation": "Yopish",
@@ -30747,6 +32931,30 @@
         "identifier": "hbui.PlayScreen.serverTab.confirmDeletion.deleteButtonInputLegend",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.confirmDeletion.goBackButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.externalServerDetails.address",
+        "source_string": "Server address",
+        "translation": "Server manzili",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.externalServerDetails.name",
+        "source_string": "Server name",
+        "translation": "Server nomi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30771,6 +32979,46 @@
         "identifier": "hbui.PlayScreen.serverTab.Play",
         "source_string": "Play",
         "translation": "O'ynash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.serverForm.addServerButton",
+        "source_string": "Add server",
+        "translation": "Server qo'shish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.serverForm.serverAddressLabel",
+        "source_string": "Server address",
+        "translation": "Server manzili",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.serverForm.serverNameLabel",
+        "source_string": "Server name",
+        "translation": "Server nomi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.ShowServerAddressModal.secondaryButton",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.serverTab.unsavedAddChanges.discardChangesButtonInputLegend",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30824,6 +33072,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.templateScreenNotAvailableInPreview.title",
+        "source_string": "Not available",
+        "translation": "Mavjud emas",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.title",
         "source_string": "Play",
         "translation": "O'ynash",
@@ -30848,6 +33104,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.unownedPacksModal.decline",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.worldMissingEntitlementModal.close",
         "source_string": "Close",
         "translation": "Yopish",
@@ -30856,9 +33120,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.worldMissingEntitlementModal.goBackButtonText",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.xboxPermissionMessage.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PostToRealmStoriesRoute.accessDenied.button",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PostToRealmStoriesRoute.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PostToRealmStoriesRoute.youNeedPermission.button",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30880,9 +33176,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ProfileRoute.feedbackButton",
+        "source_string": "Give feedback",
+        "translation": "Fikr bildirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ProfileRoute.friendsItemLabel",
         "source_string": "Friends",
         "translation": "Do'stlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.learnMoreButton",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ProfileRoute.resetFeaturedImage",
+        "source_string": "Reset to default",
+        "translation": "Birlamchiga qaytarish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30928,6 +33248,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsMultiplayerPrivilegeBlockedModal.goBack",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsMultiplayerPrivilegeBlockedModal.select",
         "source_string": "Select",
         "translation": "Tanlash",
@@ -30947,6 +33275,14 @@
         "identifier": "hbui.RealmsNewStoryImageSelectRoute.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsNewStoryRoute.bannerLink",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31024,6 +33360,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.appStoreNotReady.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.checkRealmsPaymentServiceFailed.cancel",
         "source_string": "Ok",
         "translation": "OK",
@@ -31040,6 +33384,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.fulfillmentFailed.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.invalidRealmName.title",
         "source_string": "Invalid Realm name",
         "translation": "Realm nomi yaroqsiz",
@@ -31048,9 +33400,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.memberOfTooManyRealms.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.purchaseFailed.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.ErrorModals.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.inputLabel",
+        "source_string": "Realm name",
+        "translation": "Realm nomi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31096,6 +33472,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsStories.back",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsStories.byline",
         "source_string": "by %1$s",
         "translation": "Muallif: %1$s",
@@ -31123,6 +33507,14 @@
         "identifier": "hbui.RealmsStories.CommentsScreen.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.DeleteScreenshotsModal.goBack",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31200,6 +33592,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsStories.feedPost.options.comment.delete.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.feedPost.options.delete.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsStories.feedPost.options.failed.close",
         "source_string": "Close",
         "translation": "Yopish",
@@ -31216,9 +33624,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsStories.feedPost.options.notify.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsStories.feedPost.role.button",
         "source_string": "Button",
         "translation": "Tugma",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.OptInScreen.title.suffix",
+        "source_string": "title",
+        "translation": "sarlavha",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31347,6 +33771,14 @@
         "identifier": "hbui.RealmsStories.Timeline.Information.close",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.Timeline.Information.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31488,9 +33920,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ReportPlayerRoute.imminentHarm",
+        "source_string": "Threat of Harm to Others",
+        "translation": "Boshqalarga zarar yetkazish bilan tahdid qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ReportPlayerRoute.next",
         "source_string": "Continue",
         "translation": "Davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReportPlayerRoute.nonConsensualIntimateImagery",
+        "source_string": "Non-Consensual intimate imagery",
+        "translation": "Roziliksiz tarqatilgan intim tasvirlar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31531,6 +33979,14 @@
         "identifier": "hbui.ReportPlayerRoute.xbox.report.area.gameplay",
         "source_string": "Gameplay",
         "translation": "O'yin jarayoni",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReportPlayerRoute.xbox.report.area.skin",
+        "source_string": "Player skin",
+        "translation": "O'yinchi skini",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31608,6 +34064,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ScreenshotGalleryError.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ScreenshotGalleryItem.screenshotInputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
@@ -31632,6 +34096,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ScreenshotGalleryRoute.info",
+        "source_string": "Info",
+        "translation": "Ma'lumot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ScreenshotGalleryRoute.moreOptions",
         "source_string": "More options",
         "translation": "Qo'shimcha sozlamalar",
@@ -31643,6 +34115,22 @@
         "identifier": "hbui.SeedTemplatesRoute.errorBackButtonInputLegend",
         "source_string": "Back",
         "translation": "Orqaga",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SeedTemplatesRoute.errorBackButtonText",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SetWorldThumbnailRoute.errorState.emptyStateCreateNewButton",
+        "source_string": "Create new world",
+        "translation": "Yangi olam yaratish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31688,9 +34176,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.StartFromTemplateRoute.feedbackPanel.button",
+        "source_string": "Give feedback",
+        "translation": "Fikr bildirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.StartFromTemplateRoute.feedbackPanel.inputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.StartFromTemplateRoute.OwnedByMe.downloadUnavailableModal.goBack",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.StartFromTemplateRoute.OwnedByMe.searchBar",
+        "source_string": "Search",
+        "translation": "Qidirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.StartFromTemplateRoute.SideMenu.cnwButton",
+        "source_string": "Create new world",
+        "translation": "Yangi olam yaratish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31752,6 +34272,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.SwitchAccordion.narrationCountLabel",
+        "source_string": "%1$s - (%2$s)",
+        "translation": "%1$s — (%2$s)",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.TemplateCard.button",
         "source_string": "Button",
         "translation": "Tugma",
@@ -31803,6 +34331,46 @@
         "identifier": "hbui.TemplateCard.start",
         "source_string": "Start",
         "translation": "Boshlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ThumbnailWorldList.daysAgo",
+        "source_string": "%1$s days ago",
+        "translation": "%1$s kun oldin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ThumbnailWorldList.hoursAgo",
+        "source_string": "%1$s hours ago",
+        "translation": "%1$s soat oldin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ThumbnailWorldList.minutesAgo",
+        "source_string": "%1$s minutes ago",
+        "translation": "%1$s minut oldin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Timeline.monthAndTheYear",
+        "source_string": "Month and the year",
+        "translation": "Oy va yil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Timeline.onDayOfMonthYear",
+        "source_string": "on %1$s %2$s of %3$s",
+        "translation": "%3$s‑yil %2$s‑%1$sda",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31923,6 +34491,14 @@
         "identifier": "hbui.WorldCard.play",
         "source_string": "Play",
         "translation": "O'ynash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.WorldItem.MultiplayerDisabledModal.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32112,6 +34688,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.WorldTag.lanWorld",
+        "source_string": "LAN world",
+        "translation": "Lokal tarmoq olami",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.WorldTag.survival",
         "source_string": "Survival",
         "translation": "Omon qolish",
@@ -32195,6 +34779,14 @@
         "identifier": "hbui.EditorBlockPickerModal.mode.name",
         "source_string": "Name",
         "translation": "Ism",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorBlockPickerModal.search",
+        "source_string": "Search",
+        "translation": "Qidirish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32328,6 +34920,46 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorInput.keyName.DOWN",
+        "source_string": "DOWN",
+        "translation": "PASTGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorInput.keyName.LEFT",
+        "source_string": "LEFT",
+        "translation": "CHAP",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorInput.keyName.RIGHT",
+        "source_string": "RIGHT",
+        "translation": "O'NG",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorInput.keyName.SPACE",
+        "source_string": "SPACE",
+        "translation": "BO'SHLIQ",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorInput.keyName.UP",
+        "source_string": "UP",
+        "translation": "YUQORIGA",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorKeyboardSettings.reset",
         "source_string": "Reset",
         "translation": "Qayta yaratish",
@@ -32360,9 +34992,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorListSearchField.search",
+        "source_string": "Search",
+        "translation": "Qidirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorLogPanel.debug",
         "source_string": "Debug",
         "translation": "Tuzatish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorLogPanel.info",
+        "source_string": "Info",
+        "translation": "Ma'lumot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorLogPanel.warning",
+        "source_string": "Warning",
+        "translation": "Diqqat",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32387,6 +35043,14 @@
         "identifier": "hbui.EditorModal.close",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorStructurePanel.actionBarItemsCount",
+        "source_string": "items",
+        "translation": "buyumlar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32456,9 +35120,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorSwitch.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorSwitch.on",
+        "source_string": "On",
+        "translation": "Yoniq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorTab.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorTab.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32491,6 +35179,14 @@
         "identifier": "hbui.EditorToggleButton.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorToggleButton.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32584,6 +35280,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Button.button",
+        "source_string": "button",
+        "translation": "tugma",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Card.narrationComponentTypeButton",
         "source_string": "Button",
         "translation": "Tugma",
@@ -32632,9 +35336,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.DropdownItem.elementType",
+        "source_string": "item",
+        "translation": "buyum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.DropdownItem.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.DropdownItem.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32800,6 +35520,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RadioBox.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.SideMenu.ListItem.narrationRoleButton",
         "source_string": "Button",
         "translation": "Tugma",
@@ -32811,6 +35539,22 @@
         "identifier": "hbui.SideMenu.ListItem.narrationSelected",
         "source_string": "Selected",
         "translation": "Tanlangan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SideMenu.ListItem.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SideMenu.sideMenuItem.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32835,6 +35579,22 @@
         "identifier": "hbui.Switch.elementType",
         "source_string": "Switch",
         "translation": "Almashtirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Switch.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Switch.on",
+        "source_string": "On",
+        "translation": "Yoniq",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32923,6 +35683,14 @@
         "identifier": "tile.element.s.name",
         "source_string": "Sulfur",
         "translation": "Oltingugurt",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "achievementScreen.timeplayed:",
+        "source_string": "Time played:",
+        "translation": "O'ynagan vaqt:",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33035,6 +35803,14 @@
         "identifier": "item.potion.name",
         "source_string": "Potion",
         "translation": "Damlama",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_resetTreatmentsToDefault",
+        "source_string": "Reset To Default",
+        "translation": "Birlamchiga qaytarish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33208,6 +35984,14 @@
         "max_length": null
     },
     {
+        "identifier": "library.item.createdBy",
+        "source_string": "By %s",
+        "translation": "Muallif: %s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "library.item.launch",
         "source_string": "Create World",
         "translation": "Olam yaratish",
@@ -33275,6 +36059,14 @@
         "identifier": "hbui.mainMenu.realmsHeader",
         "source_string": "Realms",
         "translation": "Realms",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "feedbackScreen.bug",
+        "source_string": "Report a bug!",
+        "translation": "Xatolik haqida xabar berish!",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33392,6 +36184,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Settings.trueLabel",
+        "source_string": "On",
+        "translation": "Yoniq",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Settings.falseLabel",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Settings.sensitivity",
         "source_string": "Sensitivity",
         "translation": "Sezgirlik",
@@ -33424,6 +36232,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementsSummary.timePlayed",
+        "source_string": "Time played",
+        "translation": "O'ynagan vaqt",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "dr.color.salmon",
         "source_string": "Salmon",
         "translation": "Losos",
@@ -33435,6 +36251,14 @@
         "identifier": "hbui.MenuButton.menu",
         "source_string": "Menu",
         "translation": "Menyu",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.TabBar.tab",
+        "source_string": "tab",
+        "translation": "varaq",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33456,9 +36280,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Toggle.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BaseTextField.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.advanced.simulationDistanceTitel",
+        "source_string": "Simulation distance",
+        "translation": "Simulyatsiya masofasi",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33512,9 +36352,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Item.elementType",
+        "source_string": "item",
+        "translation": "buyum",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Item.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Item.selected",
+        "source_string": "selected",
+        "translation": "tanlangan",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33560,6 +36416,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.BaseTextField.invalidNarration",
+        "source_string": "invalid",
+        "translation": "yaroqsiz",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.internalBetaNotificationFeedbackButton",
+        "source_string": "Give feedback",
+        "translation": "Fikr bildirish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.packDownloadModal.confirmationDownloadButtonInputLegend",
         "source_string": "Confirm",
         "translation": "Tasdiqlash",
@@ -33576,6 +36448,14 @@
         "max_length": null
     },
     {
+        "identifier": "osk.truncation_warning.title",
+        "source_string": "Warning",
+        "translation": "Diqqat",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.closeInputLegend",
         "source_string": "Close",
         "translation": "Yopish",
@@ -33584,9 +36464,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.goBackButtonText",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.general.optOutOfBetaModal.closeInputLegend",
         "source_string": "Close",
         "translation": "Yopish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.realmsPlusPromotionButtonLabel",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33643,6 +36539,14 @@
         "identifier": "resourcePack.editor.agfx.pane.settings.title",
         "source_string": "Settings",
         "translation": "Sozlamalar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.blockPalette.blockPicker",
+        "source_string": "Search",
+        "translation": "Qidirish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33715,6 +36619,14 @@
         "identifier": "resourcePack.editor.ClipboardPreviewControl.rotation.none",
         "source_string": "None",
         "translation": "Yo'q",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.ClipboardPreviewControl.rotation.title",
+        "source_string": "Rotation",
+        "translation": "Burilish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33795,6 +36707,14 @@
         "identifier": "resourcePack.editor.exportProject.cheatsSettings.commandBlocks",
         "source_string": "Command Blocks",
         "translation": "Buyruq bloklari",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.exportProject.resetToDefault",
+        "source_string": "Reset To Default",
+        "translation": "Birlamchiga qaytarish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -33944,6 +36864,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.menuBar.file.pauseScreen",
+        "source_string": "Game menu",
+        "translation": "O'yin menyusi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.menuBar.help.feedback",
         "source_string": "Feedback",
         "translation": "Fikr-mulohaza",
@@ -33963,6 +36891,14 @@
         "identifier": "resourcePack.editor.menuBar.worldOptions.changeDimension.overworld",
         "source_string": "Overworld",
         "translation": "Yer yuzi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.menuBar.worldOptions.pause.entities",
+        "source_string": "Entities",
+        "translation": "Jismlar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -34056,6 +36992,22 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.help.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.timeOfDay.dropDown.day",
+        "source_string": "Day",
+        "translation": "Kun",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.timeOfDay.dropDown.none",
         "source_string": "None",
         "translation": "Yo'q",
@@ -34088,9 +37040,25 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.toolRail.summonTool.tool.selectSubPane.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.viewSettings.chunk.title",
         "source_string": "Show Chunk Boundaries",
         "translation": "Chank chegaralarini ko'rsatish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.viewSettings.invisible.title",
+        "source_string": "Show Invisible Blocks",
+        "translation": "Ko'rinmas bloklarni ko'rsatish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -34155,6 +37123,14 @@
         "identifier": "resourcePack.editor.toolRail.RepeaterTool.pane.Mode",
         "source_string": "Mode",
         "translation": "Rejim",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.exportProject.cheatsSettings.sendCommandFeedback",
+        "source_string": "Send Command Feedback",
+        "translation": "Buyruq xabalari ko'rsatilsin",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -34392,9 +37368,25 @@
         "max_length": null
     },
     {
+        "identifier": "edu.servers_screen.confirm_remove.cancel",
+        "source_string": "Go back",
+        "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "menu.moreOptions",
         "source_string": "More options",
         "translation": "Qo'shimcha sozlamalar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.pointLightLODingQuality.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -34435,6 +37427,14 @@
         "identifier": "resourcePack.editor.toolRail.entityInspector.tool.location",
         "source_string": "Location",
         "translation": "Joy",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.toolRail.entityInspector.tool.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -34504,6 +37504,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.settingsPane.worldView.invisibleBlocks.title",
+        "source_string": "Show Invisible Blocks",
+        "translation": "Ko'rinmas bloklarni ko'rsatish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.settingsPane.menu.title",
         "source_string": "Settings",
         "translation": "Sozlamalar",
@@ -34539,6 +37547,14 @@
         "identifier": "editor.agfx.color.blue",
         "source_string": "Blue",
         "translation": "Ko'k",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.locatorBar",
+        "source_string": "Locator bar",
+        "translation": "Lokator",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -34720,6 +37736,46 @@
         "max_length": null
     },
     {
+        "identifier": "commands.autocomplete.n",
+        "source_string": "nearest entity",
+        "translation": "eng yaqin jism",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.learnMore",
+        "source_string": "Learn more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.version",
+        "source_string": "Version",
+        "translation": "Versiya",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.title.disconnected",
+        "source_string": "Disconnected.",
+        "translation": "Aloq uzildi.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "disconnectionScreen.body.idleTooLong",
+        "source_string": "You have been idle for too long.",
+        "translation": "Siz juda uzoq vaqt harakatsiz turdingiz.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "key.declineToast",
         "source_string": "Decline",
         "translation": "Rad etish",
@@ -34731,6 +37787,22 @@
         "identifier": "key.cancelToast",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.video.generalMessage",
+        "source_string": "Video settings.",
+        "translation": "Grafika sozlamalari.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.feedback",
+        "source_string": "Give feedback",
+        "translation": "Fikr bildirish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -34968,6 +38040,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.toolRail.rulerTool.distance.unit",
+        "source_string": "%s blocks",
+        "translation": "%s blok",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "action.interact.wax_on",
         "source_string": "Wax On",
         "translation": "Mumlandi",
@@ -35059,6 +38139,14 @@
         "identifier": "realmsSettingsScreen.modal.deleteSave.confirm",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.saveProgressModal.save",
+        "source_string": "Saving world...",
+        "translation": "Olam saqlanmoqda...",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -35816,9 +38904,49 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.targetName",
+        "source_string": "Target Name",
+        "translation": "Nishon nomi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.name",
         "source_string": "Name",
         "translation": "Ism",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.targetPool",
+        "source_string": "Target Pool",
+        "translation": "Nishon jamlanmasi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.turnsInto",
+        "source_string": "Turns Into",
+        "translation": "Bunga aylanadi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.placementPriority",
+        "source_string": "Placement Priority",
+        "translation": "Joylashuv prioriteti",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.selectionPriority",
+        "source_string": "Selection Priority",
+        "translation": "Tanlash prioriteti",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -35835,6 +38963,22 @@
         "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.jointType.aligned",
         "source_string": "Aligned",
         "translation": "To'g'irlangan",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.jointType",
+        "source_string": "Joint Type",
+        "translation": "Qo'shilish turi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.brushShape.common.settings.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -35936,6 +39080,14 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabInstanceEditor.rotation.title",
+        "source_string": "Rotation",
+        "translation": "Burilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabInstanceEditor.mirror.none",
         "source_string": "None",
         "translation": "Yo'q",
@@ -35955,6 +39107,14 @@
         "identifier": "editor.prefabTemplateEditor.pane.prefabTemplate.structure.size",
         "source_string": "Structure Size",
         "translation": "Inshoot o'lchami",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabTemplateEditor.pane.prefabTemplate.structure.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -36120,6 +39280,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.video.resetSettings",
+        "source_string": "Reset to default",
+        "translation": "Birlamchiga qaytarish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.video.resetSettings.buttonLabel",
         "source_string": "Reset",
         "translation": "Qayta yaratish",
@@ -36131,6 +39299,14 @@
         "identifier": "options.damageBobbing",
         "source_string": "Damage Tilt",
         "translation": "Zarar olganda chayqalish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.damageBobbing.description",
+        "source_string": "The amount of camera shake caused by being hurt",
+        "translation": "Zarar olganda kameraning qanchalik darajada chayqalishini belgilaydi",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -36416,6 +39592,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.CinematicTool.pane.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.CinematicTool.dialog.yes",
         "source_string": "Yes",
         "translation": "Ha",
@@ -36435,6 +39619,22 @@
         "identifier": "slot.armor.body.when_equipped",
         "source_string": "When equipped:",
         "translation": "Kiyilganda:",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.bonusChest.name",
+        "source_string": "Bonus chest",
+        "translation": "Bonus sandiq",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.gameMode.description.creative",
+        "source_string": "Create, build, and explore without limits. You can fly, have endless materials, and can’t be hurt by monsters.",
+        "translation": "Cheksiz imkoniyatlar bilan yarating, quring va dunyoni kashf eting. Siz ucha olasiz, resurslaringiz tugamaydi va maxluqlar sizga zarar yetkaza olmaydi.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -36552,6 +39752,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.difficulty.description.peaceful",
+        "source_string": "No hostile mobs and only some neutral mobs spawn. Hunger bar doesn’t deplete and health replenishes over time.",
+        "translation": "Yovuz moblar paydo bo'lmaydi, faqat ba'zi neytral moblarnigina uchratish mumkin. Ochlik darajasi pasaymaydi, sog'liq esa vaqt o'tishi bilan qayta tiklanadi.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.enableGameplaySubtitles",
         "source_string": "Closed Captions",
         "translation": "Taglavhalar",
@@ -36619,6 +39827,14 @@
         "identifier": "tile.cherry_door.name",
         "source_string": "Cherry Door",
         "translation": "Olcha eshik",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "selectWorld.enterName.name",
+        "source_string": "World name",
+        "translation": "Olam nomi",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -44304,6 +47520,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.showBlockSelectButton.name",
+        "source_string": "Pick block",
+        "translation": "Blokni tanlash",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.controller.resetSettings.buttonLabel",
         "source_string": "Reset",
         "translation": "Qayta yaratish",
@@ -44315,6 +47539,14 @@
         "identifier": "options.controller.resetMappings.buttonLabel",
         "source_string": "Reset",
         "translation": "Qayta yaratish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.touch.resetSettings.name",
+        "source_string": "Reset to default",
+        "translation": "Birlamchiga qaytarish",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -45384,6 +48616,22 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.exportProject.exportType.worldTemplate",
+        "source_string": "World Template",
+        "translation": "Olam shabloni",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.exportProject.advancedSettings.playerWaypoints.off",
+        "source_string": "Off",
+        "translation": "O'chiq",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.toolRail.FarmGenerator.pane.crops.melon",
         "source_string": "Melon",
         "translation": "Tarvuz",
@@ -45736,6 +48984,14 @@
         "max_length": null
     },
     {
+        "identifier": "subtitles.entity.sulfur_cube.eject",
+        "source_string": "Block Removed",
+        "translation": "Blok olib tashlandi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "subtitles.entity.sulfur_cube.hit",
         "source_string": "Sulfur Cube hit",
         "translation": "Oltingugurt kubiga zarba berildi",
@@ -45800,9 +49056,25 @@
         "max_length": null
     },
     {
+        "identifier": "subtitles.block.potent_sulfur.geyser_eruption_start",
+        "source_string": "Sulfur Spring bursts",
+        "translation": "Oltingugurt bulog'i otilmoqda",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "item.record_bounce.desc",
         "source_string": "fingerspit - Bounce",
         "translation": "fingerspit — Bounce",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "storageManager.storageLocation.local",
+        "source_string": "Local",
+        "translation": "Lokal",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -45883,6 +49155,14 @@
         "identifier": "resourcePack.editor.customDimensions.dialog.warning.confirmOk",
         "source_string": "OK",
         "translation": "OK",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.playerWaypointsOff",
+        "source_string": "Off",
+        "translation": "O'chiq",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -45976,6 +49256,14 @@
         "max_length": null
     },
     {
+        "identifier": "storageManager.contentType.resourcePacks.name",
+        "source_string": "Resource packs",
+        "translation": "Resurs to'plamlari",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.toolRail.FarmGenerator.pane.fence.nether_brick",
         "source_string": "Nether Brick",
         "translation": "Nether g'ishti",
@@ -46000,9 +49288,33 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.customMeshTool.label.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.registryDeletion.delete",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.structure.rotation",
+        "source_string": "Rotation",
+        "translation": "Burilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.structure.none",
+        "source_string": "NONE",
+        "translation": "YO'Q",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
