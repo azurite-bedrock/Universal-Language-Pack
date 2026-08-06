@@ -936,9 +936,25 @@
         "max_length": null
     },
     {
+        "identifier": "chat.settings.fontSize",
+        "source_string": "Size: %s",
+        "translation": "Hajmi: %s",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "chat.settings.lineSpacing",
         "source_string": "Line Spacing",
         "translation": "Satrlar oralig'i",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "chat.title.cheats",
+        "source_string": "Chat and Commands",
+        "translation": "Chat va buyruqlar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -971,6 +987,30 @@
         "identifier": "craftingScreen.tab.search",
         "source_string": "All",
         "translation": "Hammasi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "craftingScreen.tab.construction",
+        "source_string": "Construction",
+        "translation": "Qurilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "craftingScreen.tab.nature",
+        "source_string": "Nature",
+        "translation": "Tabiat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "craftingScreen.tab.equipment",
+        "source_string": "Equipment",
+        "translation": "Aslahalar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1608,6 +1648,14 @@
         "max_length": null
     },
     {
+        "identifier": "controller.buttonTip.exit",
+        "source_string": "Exit",
+        "translation": "Chiqish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "controller.buttonTip.pane.inventory",
         "source_string": "Inventory",
         "translation": "Inventar",
@@ -1947,6 +1995,14 @@
         "identifier": "createWorldScreen.delete",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "createWorldScreen.deleteWorld",
+        "source_string": "Delete World",
+        "translation": "Olamni o'chirish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2971,6 +3027,14 @@
         "identifier": "death.fell.killer",
         "source_string": "%1$s was doomed to fall",
         "translation": "%1$s qulab halok bo'lishga mahkum edi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "deathScreen.deleteWorld",
+        "source_string": "Delete world",
+        "translation": "Olamni o'chirish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -4936,6 +5000,14 @@
         "max_length": null
     },
     {
+        "identifier": "gui.deleteWorldLong",
+        "source_string": "Delete World",
+        "translation": "Olamni o'chirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "gui.done",
         "source_string": "Done",
         "translation": "Tayyor",
@@ -4963,6 +5035,14 @@
         "identifier": "gui.edit",
         "source_string": "Edit",
         "translation": "Tahrirlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gui.exit",
+        "source_string": "Exit",
+        "translation": "Chiqish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5152,6 +5232,14 @@
         "max_length": null
     },
     {
+        "identifier": "howtoplay.beacons.header.1",
+        "source_string": "Construction",
+        "translation": "Qurilish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "howtoplay.blocks",
         "source_string": "Blocks",
         "translation": "Bloklar",
@@ -5195,6 +5283,14 @@
         "identifier": "howtoplay.commands",
         "source_string": "Commands",
         "translation": "Buyruqlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.conduits.header.1",
+        "source_string": "Construction",
+        "translation": "Qurilish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5291,6 +5387,14 @@
         "identifier": "howtoplay.fireworks.header.1",
         "source_string": "Firework Rocket",
         "translation": "Mushak",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.food",
+        "source_string": "Food",
+        "translation": "Ovqat",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -14880,9 +14984,65 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.planks",
+        "source_string": "Planks",
+        "translation": "Taxtalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.walls",
+        "source_string": "Walls",
+        "translation": "Devorlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stairs",
+        "source_string": "Stairs",
+        "translation": "Zinapoyalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.door",
+        "source_string": "Doors",
+        "translation": "Eshiklar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.glass",
         "source_string": "Glass",
         "translation": "Shisha",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glassPane",
+        "source_string": "Glass Panes",
+        "translation": "Shisha panellari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.slab",
+        "source_string": "Slabs",
+        "translation": "Plitalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.stoneBrick",
+        "source_string": "Decorative Stone",
+        "translation": "Dekorativ tosh",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -14896,9 +15056,57 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.wool",
+        "source_string": "Wool",
+        "translation": "Jun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.woolCarpet",
+        "source_string": "Wool Carpet",
+        "translation": "Gilam",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concretePowder",
+        "source_string": "Concrete Powder",
+        "translation": "Sement",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.concrete",
+        "source_string": "Concrete",
+        "translation": "Beton",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.stainedClay",
         "source_string": "Terracotta",
         "translation": "Terrakota",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.glazedTerracotta",
+        "source_string": "Glazed Terracottas",
+        "translation": "Sirlangan terrakotalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.ore",
+        "source_string": "Ores",
+        "translation": "Rudalar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -14912,9 +15120,321 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.log",
+        "source_string": "Logs",
+        "translation": "G'o'lalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sapling",
+        "source_string": "Saplings",
+        "translation": "Ko'chatlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.seed",
+        "source_string": "Seeds",
+        "translation": "Urug'lar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.flower",
+        "source_string": "Flowers",
+        "translation": "Gullar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rawFood",
+        "source_string": "Raw Food",
+        "translation": "Xom ovqat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.cookedFood",
+        "source_string": "Cooked Food",
+        "translation": "Pishirilgan ovqat",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.miscFood",
+        "source_string": "Miscellaneous Foods",
+        "translation": "Har xil ovqatlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.mushroom",
+        "source_string": "Mushrooms",
+        "translation": "Qo'ziqorinlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "itemGroup.name.monsterStoneEgg",
         "source_string": "Infested Stone",
         "translation": "Qurtlagan tosh",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.helmet",
+        "source_string": "Helmets",
+        "translation": "Dubulg'alar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestplate",
+        "source_string": "Chestplates",
+        "translation": "Ko'kraksovutlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.leggings",
+        "source_string": "Leggings",
+        "translation": "Shimlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.boots",
+        "source_string": "Boots",
+        "translation": "Etiklar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.horseArmor",
+        "source_string": "Horse Armor",
+        "translation": "Ot sovuti",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sword",
+        "source_string": "Swords",
+        "translation": "Qilichlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.axe",
+        "source_string": "Axes",
+        "translation": "Boltalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.pickaxe",
+        "source_string": "Pickaxes",
+        "translation": "Cho'kichlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.shovel",
+        "source_string": "Shovels",
+        "translation": "Belkuraklar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.hoe",
+        "source_string": "Hoes",
+        "translation": "Ketmonlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.arrow",
+        "source_string": "Arrows",
+        "translation": "O'qlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.potion",
+        "source_string": "Potions",
+        "translation": "Damlamalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.splashPotion",
+        "source_string": "Splash Potions",
+        "translation": "Portlovchi damlamalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.lingeringPotion",
+        "source_string": "Lingering Potions",
+        "translation": "Tumanli damlamalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.ominousBottle",
+        "source_string": "Ominous Bottles",
+        "translation": "Mash'um butilkalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.bed",
+        "source_string": "Beds",
+        "translation": "Karavotlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.anvil",
+        "source_string": "Anvils",
+        "translation": "Sandonlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chest",
+        "source_string": "Chests",
+        "translation": "Sandiqlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.boat",
+        "source_string": "Boats",
+        "translation": "Qayiqlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chestboat",
+        "source_string": "Boats with Chest",
+        "translation": "Sandiqli qayiqlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.rail",
+        "source_string": "Rails",
+        "translation": "Relslar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.minecart",
+        "source_string": "Minecarts",
+        "translation": "Vagonetkalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.trapdoor",
+        "source_string": "Trapdoors",
+        "translation": "Lyuklar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner",
+        "source_string": "Banners",
+        "translation": "Bayroqlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.firework",
+        "source_string": "Fireworks",
+        "translation": "Mushaklar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.buttons",
+        "source_string": "Buttons",
+        "translation": "Tugmalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sign",
+        "source_string": "Signs",
+        "translation": "Taxtachalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.banner_pattern",
+        "source_string": "Banner Patterns",
+        "translation": "Bayroq naqshlari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.netherWartBlock",
+        "source_string": "Nether Warts",
+        "translation": "Nether o'simtalari",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.candles",
+        "source_string": "Candles",
+        "translation": "Shamlar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.goatHorn",
+        "source_string": "Goat Horns",
+        "translation": "Echki shoxlari",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -15123,6 +15643,14 @@
         "identifier": "joincode.ip_entry.button_tts",
         "source_string": "More Options",
         "translation": "Qo'shimcha sozlamalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "joincode.generating_new",
+        "source_string": "Loading...",
+        "translation": "Yuklanmoqda...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16088,6 +16616,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.controller",
+        "source_string": "Controller",
+        "translation": "Geympad",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.controls",
         "source_string": "Controls...",
         "translation": "Boshqaruv...",
@@ -16139,6 +16675,14 @@
         "identifier": "options.dev_enableDebugHudOverlay.off",
         "source_string": "Off",
         "translation": "O'chiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.dev_enableDebugHudOverlay.audio",
+        "source_string": "Audio",
+        "translation": "Audio",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16512,6 +17056,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.interactionmodel.touch",
+        "source_string": "Touch",
+        "translation": "Bosish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.interactionmodel.crosshair",
         "source_string": "Crosshair",
         "translation": "Markazda",
@@ -16547,6 +17099,14 @@
         "identifier": "options.invertMouse",
         "source_string": "Invert Mouse",
         "translation": "Sichqoncha Invertsiyasi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.keyboardAndMouse",
+        "source_string": "Keyboard & Mouse",
+        "translation": "Klaviatura va sichqoncha",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16808,6 +17368,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.sounds",
+        "source_string": "Audio",
+        "translation": "Audio",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.accessibility",
         "source_string": "Accessibility",
         "translation": "Maxsus imkoniyatlar",
@@ -16880,6 +17448,14 @@
         "max_length": null
     },
     {
+        "identifier": "options.touch",
+        "source_string": "Touch",
+        "translation": "Bosish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.touchscreen",
         "source_string": "Touchscreen Mode",
         "translation": "Sensorli rejim",
@@ -16899,6 +17475,14 @@
         "identifier": "options.viewSubscriptions.signIn",
         "source_string": "Sign in",
         "translation": "Kirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.video",
+        "source_string": "Video",
+        "translation": "Video",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -17051,6 +17635,14 @@
         "identifier": "pauseScreen.options",
         "source_string": "Options",
         "translation": "Sozlamalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "pauseScreen.quit",
+        "source_string": "Save & Quit",
+        "translation": "Saqlash va chiqish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18032,6 +18624,14 @@
         "max_length": null
     },
     {
+        "identifier": "progressScreen.loading",
+        "source_string": "Loading...",
+        "translation": "Yuklanmoqda...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "progressScreen.message.done",
         "source_string": "Done!",
         "translation": "Tayyor!",
@@ -18051,6 +18651,14 @@
         "identifier": "progressScreen.message.failed",
         "source_string": "Failed",
         "translation": "Bajarilmadi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "progressScreen.message.resourceLoading",
+        "source_string": "Loading Resources",
+        "translation": "Resurslar yuklanmoqda",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18339,6 +18947,14 @@
         "identifier": "tile.reinforced_deepslate.name",
         "source_string": "Reinforced Deepslate",
         "translation": "Mustahkam chuqurslanets",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.sculk",
+        "source_string": "Sculk",
+        "translation": "Sculk",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19403,6 +20019,22 @@
         "identifier": "item.warped_hanging_sign.name",
         "source_string": "Warped Hanging Sign",
         "translation": "Aynigan osma taxtacha",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.hanging_sign",
+        "source_string": "Hanging Signs",
+        "translation": "Osma taxtachalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.smithing_templates",
+        "source_string": "Smithing Templates",
+        "translation": "Temirchi shablonlari",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21235,6 +21867,14 @@
         "identifier": "store.addon.continue",
         "source_string": "Continue",
         "translation": "Davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.addon.local.worlds.title",
+        "source_string": "Worlds (%s)",
+        "translation": "Olamlar (%s)",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -23211,6 +23851,14 @@
         "identifier": "tile.wool.magenta.name",
         "source_string": "Magenta Wool",
         "translation": "Nafarmon jun",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.wool.name",
+        "source_string": "Wool",
+        "translation": "Jun",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -28280,6 +28928,14 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.copper",
+        "source_string": "Copper",
+        "translation": "Mis",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hudScreen.tooltip.waxOn",
         "source_string": "Wax On",
         "translation": "Mumlandi",
@@ -29592,6 +30248,14 @@
         "max_length": null
     },
     {
+        "identifier": "dr.loading",
+        "source_string": "Loading...",
+        "translation": "Yuklanmoqda...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "dr.body_size_label_text",
         "source_string": "Height",
         "translation": "Balandlik",
@@ -29716,6 +30380,14 @@
         "source_string": "An error occurred: %s",
         "translation": "Xatolik yuz berdi: %s",
         "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.connect.title",
+        "source_string": "Connecting...",
+        "translation": "Ulanmoqda...",
+        "context": "Status message while the user is connecting to the Live Event server",
         "labels": "lang, unassigned",
         "max_length": null
     },
@@ -29848,6 +30520,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDetailsRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Yuklanmoqda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDetailsRoute.narration.locked",
         "source_string": "locked",
         "translation": "qulflangan",
@@ -29915,6 +30595,14 @@
         "identifier": "hbui.Achievements.locked",
         "source_string": "Locked",
         "translation": "Yopiq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Yuklanmoqda",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30336,6 +31024,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.deleteWorldModal.deleteButton",
+        "source_string": "Delete world",
+        "translation": "Olamni o'chirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.deleteWorldModal.deleteInputLegend",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
@@ -30523,6 +31219,22 @@
         "identifier": "hbui.CreateNewWorld.general.feedbackButton",
         "source_string": "Give feedback",
         "translation": "Fikr bildirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.fileManagementDeleteWorldLabel",
+        "source_string": "Delete world",
+        "translation": "Olamni o'chirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.general.fileManagementDuplicateWorldLabel",
+        "source_string": "Duplicate world",
+        "translation": "Olamni nusxalash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31016,9 +31728,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditWorld.EditThumbnailModal.changeThumbnail",
+        "source_string": "Change thumbnail",
+        "translation": "Miniatyurani o'zgartirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditWorld.EditThumbnailModal.resetThumbnail",
         "source_string": "Reset to default",
         "translation": "Birlamchiga qaytarish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorld.EditThumbnailModal.title",
+        "source_string": "World thumbnail",
+        "translation": "Olam miniatyurasi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31059,6 +31787,14 @@
         "identifier": "hbui.EditWorldSideMenu.play",
         "source_string": "Play",
         "translation": "O'ynash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditWorldSideMenu.playOnRealm",
+        "source_string": "Play on Realms",
+        "translation": "Realms'da o'ynash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32232,6 +32968,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayerCard.dressingRoomButton",
+        "source_string": "Dressing room",
+        "translation": "Kiyinish xonasi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayerCard.friendsButton",
         "source_string": "Friends",
         "translation": "Do'stlar",
@@ -32387,6 +33131,14 @@
         "identifier": "hbui.PlayerPermissionsRoute.Details.kickButton.inputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayerPermissionsRoute.Details.loading",
+        "source_string": "Loading",
+        "translation": "Yuklanmoqda",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -33208,6 +33960,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ProgressSpinnerModal.title",
+        "source_string": "Loading",
+        "translation": "Yuklanmoqda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmListItem.select",
         "source_string": "Select",
         "translation": "Tanlash",
@@ -33243,6 +34003,14 @@
         "identifier": "hbui.Realms.InviteExpiredModals.ok",
         "source_string": "Ok",
         "translation": "OK",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Realms.LoadingModals.loading",
+        "source_string": "Loading...",
+        "translation": "Yuklanmoqda...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -34128,6 +34896,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.SeedTemplatesRoute.narration.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Yuklanmoqda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.SetWorldThumbnailRoute.errorState.emptyStateCreateNewButton",
         "source_string": "Create new world",
         "translation": "Yangi olam yaratish",
@@ -34147,6 +34923,14 @@
         "identifier": "hbui.SetWorldThumbnailRoute.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SocialDrawer.partyTabButtonLabel",
+        "source_string": "Party",
+        "translation": "Guruh",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -34187,6 +34971,14 @@
         "identifier": "hbui.StartFromTemplateRoute.feedbackPanel.inputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.StartFromTemplateRoute.InitializationModal.message",
+        "source_string": "Connecting...",
+        "translation": "Ulanmoqda...",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -34395,6 +35187,14 @@
         "identifier": "hbui.TouchControlSelectionRoute.selected",
         "source_string": "Selected",
         "translation": "Tanlangan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.TouchControlSelectionRoute.touch",
+        "source_string": "Touch",
+        "translation": "Bosish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -35192,6 +35992,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorTutorial.button.exit",
+        "source_string": "Exit",
+        "translation": "Chiqish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorTutorial.exit.cancel",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
@@ -35456,6 +36264,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.NavigationBarLayout.FriendsButton.social",
+        "source_string": "Social",
+        "translation": "Ijtimoiy",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.NavigationBarLayout.MenuButton.inputLegend",
         "source_string": "Menu",
         "translation": "Menyu",
@@ -35667,6 +36483,22 @@
         "identifier": "item.compound.water.name",
         "source_string": "Water",
         "translation": "Suv",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.element",
+        "source_string": "Elements",
+        "translation": "Elementlar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.element.cu.name",
+        "source_string": "Copper",
+        "translation": "Mis",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -36248,6 +37080,22 @@
         "max_length": null
     },
     {
+        "identifier": "dynamicPackage.download.android.state_connecting",
+        "source_string": "Connecting",
+        "translation": "Ulanmoqda",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Achievements.loadingMessage",
+        "source_string": "Loading",
+        "translation": "Yuklanmoqda",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.MenuButton.menu",
         "source_string": "Menu",
         "translation": "Menyu",
@@ -36507,6 +37355,14 @@
         "identifier": "hbui.BaseDropdown.selected",
         "source_string": "Selected",
         "translation": "Tanlangan",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "gathering.st.connect.title",
+        "source_string": "Connecting...",
+        "translation": "Ulanmoqda...",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -37448,6 +38304,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.editor.menuBar.file.saveAndExit",
+        "source_string": "Save & Quit",
+        "translation": "Saqlash va chiqish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.editor.toolRail.line.keyBinding.delete.title",
         "source_string": "Delete",
         "translation": "Yo'q qilish",
@@ -37568,6 +38432,22 @@
         "max_length": null
     },
     {
+        "identifier": "options.party",
+        "source_string": "Party",
+        "translation": "Guruh",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.social",
+        "source_string": "Social",
+        "translation": "Ijtimoiy",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "entity.happy_ghast.name",
         "source_string": "Happy Ghast",
         "translation": "Baxtli ghast",
@@ -37587,6 +38467,14 @@
         "identifier": "tile.dried_ghast.name",
         "source_string": "Dried Ghast",
         "translation": "Quruq ghast",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.harnesses",
+        "source_string": "Harnesses",
+        "translation": "Jabduqlar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -37787,6 +38675,14 @@
         "identifier": "key.cancelToast",
         "source_string": "Cancel",
         "translation": "Bekor qilish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.audio.tab.title",
+        "source_string": "Audio",
+        "translation": "Audio",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -38192,6 +39088,14 @@
         "max_length": null
     },
     {
+        "identifier": "itemGroup.name.lightning_rod",
+        "source_string": "Lightning Rods",
+        "translation": "Yashin qaytargichlari",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "tile.exposed_lightning_rod.name",
         "source_string": "Exposed Lightning Rod",
         "translation": "Qoraygan yashin qaytargich",
@@ -38571,6 +39475,30 @@
         "identifier": "tile.waxed_oxidized_copper_golem_statue.name",
         "source_string": "Waxed Oxidized Copper Golem Statue",
         "translation": "Mumlangan oksidlangan mis golem haykali",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.copper_golem_statue",
+        "source_string": "Copper Golem Statues",
+        "translation": "Mis golem haykallari",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.chains",
+        "source_string": "Chains",
+        "translation": "Zanjirlar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.lanterns",
+        "source_string": "Lanterns",
+        "translation": "Fonuslar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -39240,6 +40168,14 @@
         "max_length": null
     },
     {
+        "identifier": "menu.keyboardAndMouse.tab.title",
+        "source_string": "Keyboard & Mouse",
+        "translation": "Klaviatura va sichqoncha",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "menu.video.mode",
         "source_string": "Mode",
         "translation": "Rejim",
@@ -39323,6 +40259,22 @@
         "identifier": "gathering.caption.alternateFallback",
         "source_string": "Play Now!",
         "translation": "Hoziroq o'ynang!",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.spear",
+        "source_string": "Spears",
+        "translation": "Nayzalar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.nautilus_armor",
+        "source_string": "Nautilus Armor",
+        "translation": "Nautilus sovuti",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -47520,6 +48472,22 @@
         "max_length": null
     },
     {
+        "identifier": "menu.controller.tab.title",
+        "source_string": "Controller",
+        "translation": "Geympad",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.touch.tab.title",
+        "source_string": "Touch",
+        "translation": "Bosish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.showBlockSelectButton.name",
         "source_string": "Pick block",
         "translation": "Blokni tanlash",
@@ -47571,6 +48539,14 @@
         "identifier": "tile.golden_dandelion.name",
         "source_string": "Golden Dandelion",
         "translation": "Oltin momaqaymoq",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "parties.worldChat.label",
+        "source_string": "Party",
+        "translation": "Guruh",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -48664,6 +49640,14 @@
         "max_length": null
     },
     {
+        "identifier": "craftingScreen.tab.allItems",
+        "source_string": "All items",
+        "translation": "Barcha buyumlar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "craftingScreen.tts.tab.inventory",
         "source_string": "Inventory",
         "translation": "Inventar",
@@ -49027,6 +50011,14 @@
         "identifier": "furnaceScreen.tab.search",
         "source_string": "All",
         "translation": "Hammasi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "furnaceScreen.tab.food",
+        "source_string": "Food",
+        "translation": "Ovqat",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -49523,6 +50515,14 @@
         "identifier": "item.poplar_sign.name",
         "source_string": "Poplar Sign",
         "translation": "Terak taxtacha",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "itemGroup.name.cushion",
+        "source_string": "Cushions",
+        "translation": "Ko'rpachalar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
