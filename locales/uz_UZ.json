@@ -1442,7 +1442,7 @@
     {
         "identifier": "container.crafting",
         "source_string": "Crafting",
-        "translation": "Yaratish",
+        "translation": "Yasash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -1667,6 +1667,14 @@
         "identifier": "controller.buttonTip.pane.inventory",
         "source_string": "Inventory",
         "translation": "Inventar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "controller.buttonTip.recipes.showAll",
+        "source_string": "Show All",
+        "translation": "Barchasini ko'rsatish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2922,7 +2930,7 @@
     {
         "identifier": "death.attack.arrow",
         "source_string": "%1$s was shot by %2$s",
-        "translation": "%1$s'ni %2$s otib o'ldirildi",
+        "translation": "%1$s'ni %2$s otib o'ldirdi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5080,9 +5088,33 @@
         "max_length": null
     },
     {
+        "identifier": "furnaceScreen.fuel",
+        "source_string": "Fuel",
+        "translation": "Yoqilg'i",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "furnaceScreen.header",
         "source_string": "Furnace",
         "translation": "Pech",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "furnaceScreen.input",
+        "source_string": "Input",
+        "translation": "Kiritish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "furnaceScreen.result",
+        "source_string": "Result",
+        "translation": "Chiqish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5482,7 +5514,7 @@
     {
         "identifier": "howtoplay.armor.header.1",
         "source_string": "Crafting",
-        "translation": "Yaratish",
+        "translation": "Yasash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -5675,6 +5707,14 @@
         "identifier": "howtoplay.furnace",
         "source_string": "Furnace",
         "translation": "Pech",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "howtoplay.furnace.header.1",
+        "source_string": "Fuel",
+        "translation": "Yoqilg'i",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -16536,6 +16576,14 @@
         "max_length": null
     },
     {
+        "identifier": "menu.generatingLevel",
+        "source_string": "Generating World",
+        "translation": "Olam yaratilmoqda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "menu.inbox",
         "source_string": "Inbox",
         "translation": "Kirish qutisi",
@@ -16723,6 +16771,14 @@
         "identifier": "menu.singleplayer",
         "source_string": "Singleplayer",
         "translation": "Yolg'iz o'yin",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.store.addons",
+        "source_string": "Browse Add-ons!",
+        "translation": "Kengaytmalarni ko'ring!",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18120,6 +18176,14 @@
         "max_length": null
     },
     {
+        "identifier": "pauseScreen.gameIsPaused",
+        "source_string": "Game is paused",
+        "translation": "O'yin to'xtagan",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hudScreen.tooltip.basic.back",
         "source_string": "Back",
         "translation": "Orqaga",
@@ -18162,7 +18226,7 @@
     {
         "identifier": "hudScreen.tooltip.crafting",
         "source_string": "Crafting",
-        "translation": "Yaratish",
+        "translation": "Yasash",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19080,6 +19144,14 @@
         "max_length": null
     },
     {
+        "identifier": "progressScreen.generating",
+        "source_string": "Generating World",
+        "translation": "Olam yaratilmoqda",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "progressScreen.saving",
         "source_string": "Saving world",
         "translation": "Olam saqlanmoqda",
@@ -19216,6 +19288,14 @@
         "max_length": null
     },
     {
+        "identifier": "recipeToast.newUnlock.title",
+        "source_string": "New recipe unlocked!",
+        "translation": "Yangi retsept ochildi!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "recipeToast.newUnlock.tts",
         "source_string": " new recipes unlocked",
         "translation": " yangi retseptlar ochildi",
@@ -19227,6 +19307,38 @@
         "identifier": "recipeToast.newUnlock.descriptionRecipeBook",
         "source_string": "Check your recipe book",
         "translation": "Retsept kitobiga qarang",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.descriptionCraftingTable",
+        "source_string": "View in crafting table",
+        "translation": "Yasash stolida ko'ring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.descriptionStonecutterTable",
+        "source_string": "View in stonecutter",
+        "translation": "Tosh kesgichda ko'ring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.descriptionSmithingTable",
+        "source_string": "View in smithing table",
+        "translation": "Temirchi stolida ko'ring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.descriptionCartographyTable",
+        "source_string": "View in cartography table",
+        "translation": "Kartograf stolida ko'ring",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -22755,6 +22867,14 @@
         "identifier": "tile.target.name",
         "source_string": "Target",
         "translation": "Nishon",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.bed.noSleep",
+        "source_string": "You can only sleep at night and during thunderstorms",
+        "translation": "Faqat tunda yoki momaqaldiroq paytida uxlay olasiz",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31144,6 +31264,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.AchievementDisabledModal.confirmButton",
+        "source_string": "Create anyway",
+        "translation": "Baribir yaratish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.AchievementDisabledModal.goBackButton",
         "source_string": "Go back",
         "translation": "Ortga qaytish",
@@ -31435,6 +31563,22 @@
         "identifier": "hbui.Bedtime.leaveBedButton",
         "source_string": "Leave bed",
         "translation": "To'shakdan turish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageAllPlayersSleepingNight",
+        "source_string": "Sleeping through the night",
+        "translation": "Tunni uxlab o'tkazasiz",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Bedtime.messageAllPlayersSleepingThunderstorm",
+        "source_string": "Sleeping through the thunderstorm",
+        "translation": "Momoqaldiroqni uxlab o'tkazasiz",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -32672,6 +32816,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.FirstTimeSignInRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.FirstTimeSignInRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.FlatWorld.designPreviewInputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
@@ -33432,6 +33592,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.NewPlayerPathRoute.SignIn.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.NewPlayerPathRoute.SignIn.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.NewPlayerPathRoute.SkipButton.skip",
         "source_string": "Skip",
         "translation": "O'tkazib yuborish",
@@ -33595,6 +33771,14 @@
         "identifier": "hbui.PeopleTab.emptyStateButtonInputLegend",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PeopleTab.notLoggedInMessage.button",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -35256,6 +35440,22 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.RealmsStories.messages.timelineOptIn.maybeLaterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsStories.OptInScreen.maybeLaterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsStories.OptInScreen.title.suffix",
         "source_string": "title",
         "translation": "sarlavha",
@@ -35771,6 +35971,134 @@
         "identifier": "hbui.SetWorldThumbnailRoute.select",
         "source_string": "Select",
         "translation": "Tanlash",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInAchievementsRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInAchievementsRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInAchievementsRoute.signInHeader",
+        "source_string": "Earn achievements",
+        "translation": "Yutuqlarni qo'lga kiriting",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInAchievementsRoute.signInPrompt",
+        "source_string": "Sign in or sign up for free to start earning achievements.",
+        "translation": "Yutuqlarga erishishni boshlash uchun tizimga kiring yoki ro'yxatdan o'ting.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInAddFriendRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInAddFriendRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInDressingRoomRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInDressingRoomRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInMarketplaceRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInMarketplaceRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInPlayOnServerRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInPlayOnServerRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInSavePurchasesRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInSavePurchasesRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInWorldsFriendsServersRoute.laterButton",
+        "source_string": "Maybe later",
+        "translation": "Balki keyinroq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.SignInWorldsFriendsServersRoute.signInButton",
+        "source_string": "Sign in now",
+        "translation": "Hoziroq tizimga kiring",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -37762,7 +38090,7 @@
     {
         "identifier": "howtoplay.category.crafting",
         "source_string": "Crafting",
-        "translation": "Yaratish",
+        "translation": "Yasash",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -37802,7 +38130,7 @@
     {
         "identifier": "howtoplay.crafting",
         "source_string": "Crafting",
-        "translation": "Yaratish",
+        "translation": "Yasash",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -40355,6 +40683,14 @@
         "identifier": "menu.accessibility.tab.gameplay.title",
         "source_string": "Gameplay",
         "translation": "O'yin jarayoni",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "menu.socialfriends",
+        "source_string": "Social (%s)",
+        "translation": "Ijtimoiy (%s)",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -49808,6 +50144,14 @@
         "max_length": null
     },
     {
+        "identifier": "craftingScreen.tab.allRecipes",
+        "source_string": "All recipes",
+        "translation": "Barcha retseptlar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "menu.controller.tab.title",
         "source_string": "Controller",
         "translation": "Geympad",
@@ -50107,6 +50451,14 @@
         "identifier": "subtitles.item.underwater_saddle.equip",
         "source_string": "Saddle equips",
         "translation": "Egarlandi",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.title",
+        "source_string": "New recipe unlocked!",
+        "translation": "Yangi retsept ochildi!",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -50739,6 +51091,30 @@
         "identifier": "menu.creator.scriptDiagnostic.delete.goBack",
         "source_string": "Go Back",
         "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.descriptionFurnace",
+        "source_string": "View in furnace :furnace:",
+        "translation": "Pechda ko'ring :furnace:",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.descriptionBlastFurnace",
+        "source_string": "View in blast furnace",
+        "translation": "Eritish pechida ko'ring",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "recipeToast.newUnlock.descriptionSmoker",
+        "source_string": "View in smoker",
+        "translation": "Dudlash pechida ko'ring",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
