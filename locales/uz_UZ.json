@@ -1,5 +1,21 @@
 [
     {
+        "identifier": "pack.name",
+        "source_string": "Universal Language Pack",
+        "translation": "Universal til to'plami",
+        "context": "Name of the pack",
+        "labels": "metadata, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "pack.description",
+        "source_string": "100+ new & improved translations for Minecraft Bedrock! By Azurite & its Community",
+        "translation": "Minecraft Bedrock uchun 100 tadan ko'p yangi va yaxshilangan tarjimalar! Azurite va uning hamjamiyati tomonidan",
+        "context": "Description of the pack",
+        "labels": "metadata, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "language.name",
         "source_string": "Name (Location)",
         "translation": "O'zbekcha (O'zbekiston)",
@@ -107,6 +123,14 @@
         "identifier": "accessibility.importing.complete",
         "source_string": "Import complete",
         "translation": "Import yakunlandi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.chat.howtoemote",
+        "source_string": "Press or Hold %s to Emote",
+        "translation": "Emotsiya ko'rsatish uchun %s bosing yoki bosib turing",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -400,6 +424,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.screenName.emoteWheel",
+        "source_string": "Emotes Screen",
+        "translation": "Emotsiyalar ekrani",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.settings.reset",
         "source_string": "reset",
         "translation": "tiklash",
@@ -427,6 +459,14 @@
         "identifier": "accessibility.popup.left_button_text",
         "source_string": "Turn Off",
         "translation": "O'chirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "accessibility.emotes.playSuccess",
+        "source_string": "Play emote",
+        "translation": "Emotsiyani ijro etish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -2571,6 +2611,14 @@
         "identifier": "realmsSettingsScreen.closeRealmTitle",
         "source_string": "Close Realm?",
         "translation": "Realm'ni yopish?",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "realmsSettingsScreen.inviteLinkActive",
+        "source_string": "Active",
+        "translation": "Faol",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -18296,6 +18344,14 @@
         "max_length": null
     },
     {
+        "identifier": "hudScreen.tooltip.emote",
+        "source_string": "Emote",
+        "translation": "Emotsiya",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hudScreen.tooltip.edit_sign",
         "source_string": "Edit",
         "translation": "Tahrirlash",
@@ -18315,6 +18371,14 @@
         "identifier": "hudScreen.controlCustomization.scale",
         "source_string": "Scale",
         "translation": "O'lcham",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hudScreen.controlCustomization.closeWithoutSavingConfirm",
+        "source_string": "Leave without saving",
+        "translation": "Saqlamasdan chiqish",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19192,6 +19256,14 @@
         "max_length": null
     },
     {
+        "identifier": "persona.preview.emote",
+        "source_string": "Play Emote",
+        "translation": "Emotsiyani ijro etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "progressScreen.generating",
         "source_string": "Generating World",
         "translation": "Olam yaratilmoqda",
@@ -19456,9 +19528,25 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.available.title.packs",
+        "source_string": "My Packs",
+        "translation": "Mening to'plamlarim",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.suggestedContent.button.viewMore",
         "source_string": "View More Packs",
         "translation": "Boshqa to'plamlarni ko'rish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.selected.title.packs",
+        "source_string": "Active",
+        "translation": "Faol",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19475,6 +19563,38 @@
         "identifier": "resourcePack.title",
         "source_string": "Select Resource Packs",
         "translation": "Resurs to'plamlarini tanlanish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.description",
+        "source_string": "Resource packs are applied bottom to top. This means any asset that is in two packs will be overridden by the higher pack.",
+        "translation": "Resurs to'plamlari pastdan tepaga qarab qo'llanadi. Bu shuni anglatadiki, agar bir xil resurs ikki to'plamda bo'lsa, yuqorida turgan to'plam uning o'rnini egallaydi.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.description.bottom.global",
+        "source_string": "Resource packs are applied bottom to top. This means any asset that is in two packs will be overridden by the higher pack. Packs in your worlds will apply on top of these global packs. These resources are just for you. No one else will see the resources you set here. Resource Packs in your worlds or worlds you join will apply on top of these global resources.",
+        "translation": "Resurs to'plamlari pastdan tepaga qarab qo'llanadi. Bu shuni anglatadiki, agar bir xil resurs ikki to'plamda bo'lsa, yuqorida turgan to'plam uning o'rnini egallaydi. Olamlaringizdagi to'plamlar ushbu global to'plamlar ustidan qo'llaniladi. Bu resurslar faqat siz uchun. Bu yerda siz tanlagan resurslarni boshqa hech kim ko'ra olmaydi. Olamlaringizdagi yoki siz qo'shiladigan olamlardagi resurs to'plamlari ushbu global resurslarning ustidan qo'llanadi.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.description.bottom.behaviorPacks",
+        "source_string": "Behavior Packs are applied bottom to top. That means anything that is in two Behavior Packs will be overridden by the higher one.",
+        "translation": "Fe'l‑atvor to'plamlari pastdan tepaga qarab qo'llanadi. Bu shuni anglatadiki, agar biror narsa ikki fe'l‑atvor to'plamida bo'lsa, yuqorida turgan paket uning o'rnini egallaydi.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.description.bottom.level",
+        "source_string": "Resource packs are applied bottom to top. This means any asset that is in two packs will be overridden by the higher pack. These packs in your world apply on top of your global pack(s).",
+        "translation": "Resurs to'plamlari pastdan yuqoriga qarab qo'llanadi. Bu shuni anglatadiki, agar bir xil resurs ikki to'plamda bo'lsa, yuqorida turgan paket uning o'rnini egallaydi. Olamingizdagi ushbu to'plamlar global to'plamlaringiz ustidan qo'llanadi.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -19555,6 +19675,14 @@
         "identifier": "sidebar.adventure",
         "source_string": "Adventure",
         "translation": "Sarguzasht",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "sidebar.emotes",
+        "source_string": "Emotes",
+        "translation": "Emotsiyalar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -21384,6 +21512,14 @@
         "max_length": null
     },
     {
+        "identifier": "resourcePack.vanilla.name",
+        "source_string": "Minecraft Texture Pack",
+        "translation": "Minecraft tekstura to'plami",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.MashupAdventureTime.description",
         "source_string": "#empty#",
         "translation": "#bo'sh#",
@@ -22707,6 +22843,14 @@
         "identifier": "store.mashup.createWorld",
         "source_string": "Create this World!",
         "translation": "Ushbu olamni yaratish!",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.mashup.readMore",
+        "source_string": "Read More",
+        "translation": "Batafsil",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30912,9 +31056,25 @@
         "max_length": null
     },
     {
+        "identifier": "manifestvalidation.error",
+        "source_string": "Error",
+        "translation": "Xatolik",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "manifestvalidation.info",
         "source_string": "Info",
         "translation": "Ma'lumot",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.noerror",
+        "source_string": "No errors were found",
+        "translation": "Hech qanday xatolik topilmadi",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -30963,6 +31123,102 @@
         "identifier": "manifestvalidation.delete.confirm_goBack",
         "source_string": "Go Back",
         "translation": "Ortga qaytish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.packid",
+        "source_string": "Pack ID:",
+        "translation": "To'plam ID'si:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.packversion",
+        "source_string": "Pack Version:",
+        "translation": "To'plam versiyasi:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.filelocation",
+        "source_string": "File Location:",
+        "translation": "Fayl joylashuvi:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.errorlist",
+        "source_string": "Error List",
+        "translation": "Xatoliklar ro'yxati",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.file",
+        "source_string": "File:",
+        "translation": "Fayl:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.issue",
+        "source_string": "Issue:",
+        "translation": "Muammo:",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.unkown.packtype",
+        "source_string": "Unknown Pack Type",
+        "translation": "To'plam turi noma'lum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.unkown.packtitle",
+        "source_string": "Unknown Pack Name",
+        "translation": "To'plam nomi noma'lum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.unkown.packdescription",
+        "source_string": "Unknown Pack Description",
+        "translation": "To'plam tavsifi noma'lum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.unkown.packid",
+        "source_string": "Unknown Pack ID",
+        "translation": "To'plam ID'si noma'lum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.unkown.packversion",
+        "source_string": "Unknown Pack Version",
+        "translation": "To'plam versiyasi noma'lum",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "manifestvalidation.noname",
+        "source_string": "Missing Name",
+        "translation": "Nomi yo'q",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31736,6 +31992,14 @@
         "max_length": null
     },
     {
+        "identifier": "key.emote",
+        "source_string": "Emote",
+        "translation": "Emotsiya ko'rsatish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "dr.button.ok",
         "source_string": "Ok",
         "translation": "OK",
@@ -31747,6 +32011,14 @@
         "identifier": "dr.loading",
         "source_string": "Loading...",
         "translation": "Yuklanmoqda...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.header.animation",
+        "source_string": "Emotes",
+        "translation": "Emotsiyalar",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31771,6 +32043,46 @@
         "identifier": "dr.default_piece_button_text",
         "source_string": "Default",
         "translation": "Birlamchi",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.categories.animation",
+        "source_string": "Emotes",
+        "translation": "Emotsiyalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.categories.emotes",
+        "source_string": "Emotes",
+        "translation": "Emotsiyalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.default.emote.basicClap",
+        "source_string": "Simple Clap",
+        "translation": "Oddiy qarsak",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.emotes.slot",
+        "source_string": "Emote %d",
+        "translation": "Emotsiya %d",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "dr.emotes.key",
+        "source_string": "Key %d",
+        "translation": "Tugma %d",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -31811,6 +32123,30 @@
         "identifier": "dr.color.white",
         "source_string": "White",
         "translation": "Oq",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "emotes.change_emotes",
+        "source_string": "Change Emotes",
+        "translation": "Emotsiyalarni o'zgartirish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "emotes.header_text",
+        "source_string": "Emotes",
+        "translation": "Emotsiyalar",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "emotes.instructions_touch",
+        "source_string": "Tap emote to activate",
+        "translation": "Emotsiyani ko'rsatish uchun uni bosing",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -33088,9 +33424,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.loseYourChangesModal.continueButton",
+        "source_string": "Continue creating",
+        "translation": "Yaratishni davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.loseYourChangesModal.continueInputLegend",
         "source_string": "Continue",
         "translation": "Davom etish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.loseYourChangesModal.leaveButton",
+        "source_string": "Leave without saving",
+        "translation": "Saqlamasdan chiqish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.loseYourChangesModal.leaveInputLegend",
+        "source_string": "Leave",
+        "translation": "Chiqish",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.loseYourChangesModal.message",
+        "source_string": "Your world settings will not be saved if you leave.",
+        "translation": "Agar chiqsangiz olam sozlamalaridan ayrilasiz.",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.loseYourChangesModal.title",
+        "source_string": "Leave Create New World?",
+        "translation": "Yangi olam yaratishni tark etmoqchimisiz?",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -33219,6 +33595,22 @@
         "identifier": "hbui.CreateNewWorld.resourcePacks.errorInitializationTimeoutButton",
         "source_string": "Ok",
         "translation": "OK",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalMinecraftPackTitle",
+        "source_string": "Minecraft texture pack",
+        "translation": "Minecraft tekstura to'plami",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalPacksInfoMessage",
+        "source_string": "Global packs are applied to all of your worlds. They are deactivated when “Shared local packs” is turned on.",
+        "translation": "Global to'plamlar barcha olamlaringizga qo'llaniladi. “Lokal to'plamlarni ulashish” yoqilgan bo'lsa ular o'chiriladi.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -34496,6 +34888,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Notifications.readMoreLink",
+        "source_string": "Read more",
+        "translation": "Batafsil",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.notLoggedInWarning.loginLink",
         "source_string": "Log in or sign up",
         "translation": "Kirish yoki ro'yxatdan o'tish",
@@ -34555,6 +34955,14 @@
         "identifier": "hbui.PacksLoadingModal.title",
         "source_string": "Downloading...",
         "translation": "Yuklab olinmoqda...",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PackTabs.activeTabButtonLabel",
+        "source_string": "Active",
+        "translation": "Faol",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -38248,6 +38656,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorRemotePane.narration",
+        "source_string": "Panel",
+        "translation": "Panel",
+        "context": "null",
+        "labels": "lang, unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorStructurePanel.actionBarItemsCount",
         "source_string": "items",
         "translation": "buyumlar",
@@ -39584,6 +40000,14 @@
         "max_length": null
     },
     {
+        "identifier": "store.inventory.no.xbl",
+        "source_string": "My Packs",
+        "translation": "Mening to'plamlarim",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "library.item.createdBy",
         "source_string": "By %s",
         "translation": "Muallif: %s",
@@ -40211,6 +40635,14 @@
         "identifier": "hbui.CreateNewWorld.packDownloadModal.confirmationDownloadButtonInputLegend",
         "source_string": "Confirm",
         "translation": "Tasdiqlash",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.activeTabButtonLabel",
+        "source_string": "Active",
+        "translation": "Faol",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -54307,6 +54739,14 @@
         "identifier": "options.dev_chunk_map_mode_on",
         "source_string": "On",
         "translation": "Yoniq",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.pastepreview.mode.title",
+        "source_string": "Mode",
+        "translation": "Rejim",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
