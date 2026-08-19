@@ -946,7 +946,7 @@
     {
         "identifier": "accessibility.screenName.vrAlignment",
         "source_string": "VR Alignment Screen ",
-        "translation": "Pantalla de alineamiento de la RV",
+        "translation": "Pantalla de alineamiento de RV",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -6722,7 +6722,7 @@
     {
         "identifier": "commands.execute.align.invalidInput",
         "source_string": "Invalid swizzle, expected combination of 'x', 'y', and 'z'",
-        "translation": "Swizzle no válido; se espera una combinación de \"x\", \"y\" y \"z\"",
+        "translation": "Combinación no válida; se esperaba «x», «y» y «z»",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -29490,7 +29490,7 @@
     {
         "identifier": "howtoplay.jigsawBlocks.text.9",
         "source_string": "§eJoint Type§f - A joint can be either Rollable (default) or Aligned. If the joint type is Rollable, the target structure will be rotated randomly around the source Jigsaw Block. If the joint type is Aligned, the target structure will be placed such that the rotation of the target Jigsaw Block aligns with the rotation of the source Jigsaw Block. Note that this only applies when the Jigsaw Block is placed facing up or down.",
-        "translation": "§eTipo de articulación§f - Las articulaciones o uniones pueden ser rodables (predeterminadas) o alineadas. Si son rodables, la estructura de destino rota al azar alrededor del bloque rompecabezas de origen. Si son alineadas, la estructura de destino se coloca de tal modo que la rotación del bloque rompecabezas de destino se alinea con la rotación del bloque rompecabezas de origen. Solo se aplica cuando el bloque rompecabezas está boca arriba o boca abajo.",
+        "translation": "§eTipo de union§f: Una unión puede ser rotativa (por defecto) o alineada. Si es rotativa, la estructura rotará aleatoriamente por el bloque rompecabezas. Si es alineada, se colocará en el bloque rompecabezas alineada con el bloque rompecabezas de origen. Esto solo se aplica a los bloque rompecabezas está orientado hacia arriba o hacia abajo.",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -43634,7 +43634,7 @@
     {
         "identifier": "jigsaw.title.joint_type.aligned",
         "source_string": "Aligned",
-        "translation": "Alineada",
+        "translation": "Alineado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -43642,7 +43642,7 @@
     {
         "identifier": "jigsaw.joint_type.aligned",
         "source_string": "Aligned",
-        "translation": "Alineada",
+        "translation": "Alineado",
         "context": "null",
         "labels": "lang, unassigned",
         "max_length": null
@@ -140426,7 +140426,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.workbenchTool.autoAlign",
         "source_string": "Auto align",
-        "translation": "Alineación automática\t#",
+        "translation": "Autoalinear",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -140434,7 +140434,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.workbenchTool.autoAlignFacingDirection",
         "source_string": "Auto Align Facing Direction",
-        "translation": "Autoalinear dirección de cara",
+        "translation": "Autoalinear dirección",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -140442,7 +140442,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.workbenchTool.autoAlignRotation",
         "source_string": "Auto Align Rotation",
-        "translation": "Auto Align Rotation",
+        "translation": "Autoalinear rotación",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -154322,7 +154322,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.jointType.aligned",
         "source_string": "Aligned",
-        "translation": "Alineada",
+        "translation": "Alineado",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -154338,7 +154338,7 @@
     {
         "identifier": "resourcePack.editor.toolRail.blockInspectorTool.jigsawProperties.jointType.tooltip",
         "source_string": "Change the joint type used by the Jigsaw block.  The Rollable joint type will select a random rotation when placing the target structure.  The Aligned joint type ensures that the white bars on the Jigsaw blocks are always aligned when placed.  Joint type is only valid when the Jigsaw is facing up or down.",
-        "translation": "Cambia el tipo de articulación que utilizará el bloque rompecabezas. El tipo de articulación rodable selecciona una rotación aleatoria al colocar la estructura objetivo. El tipo de articulación alineada se asegura de que las barras blancas de los bloques rompecabezas estén siempre alineados al colocarse. El tipo de articulación solo tiene validez cuando el rompecabezas está orientado hacia arriba o hacia abajo.",
+        "translation": "Cambia el tipo de unión que utilizará el bloque rompecabezas. El tipo de unión rotativa selecciona una rotación aleatoria al colocar la estructura de destino. El tipo de unión alineada se asegura de que las barras blancas de los bloques rompecabezas estén siempre alineadas al colocarse. El tipo de unión solo tiene validez cuando el bloque rompecabezas está orientado hacia arriba o hacia abajo.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178664,9 +178664,33 @@
         "max_length": null
     },
     {
+        "identifier": "options.blockLightQuality",
+        "source_string": "Block Light Quality",
+        "translation": "Calidad de luz del bloque",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.blockLightQuality.description",
+        "source_string": "Adjust the quality of block lighting",
+        "translation": "Ajustar la calidad de la luz del bloque",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "options.blockLightQuality.off",
         "source_string": "Standard",
         "translation": "Estándar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "options.blockLightQuality.low",
+        "source_string": "Volumetric Lights",
+        "translation": "Luces volumétricas",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178723,6 +178747,22 @@
         "identifier": "editor.prefabLayoutEditor.actionBar.tooltip.description",
         "source_string": "Editor to create and edit Layouts. Layouts contain one or more Structures.  Updates made to Layouts or the referenced Structures propagate to all instances of the Layout.",
         "translation": "Un editor para crear y editar diseños. Los diseños contienen una o más estructuras. Las actualizaciones que se apliquen a los diseños o las estructuras mencionadas se propagan a todas las instancias del diseño.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.noLayoutsMessage",
+        "source_string": "Layouts contain one or more Structures.[~*newLine~]Once created, instances can be placed in the world which will automatically update when the instanced Layout or the contained Structures are changed.",
+        "translation": "Los diseños contienen una o más estructuras.[~*newLine~]Una vez creadas, las instancias pueden colocarse en el mundo actualizándose automáticamente cuando el diseño de la instancia o las estructuras contenidas se cambien.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.title",
+        "source_string": "Layouts Management",
+        "translation": "Administración de diseños",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178792,6 +178832,22 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabLayoutEditor.pane.alignAction.title",
+        "source_string": "Align Action",
+        "translation": "Acción de alinear",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.alignAction.tooltip",
+        "source_string": "The Align Action to be applied to the selected structure in the layout",
+        "translation": "La acción de alinear se aplica a la estructura seleccionada del diseño",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.alignAction.bottomLabel",
         "source_string": "Bottom",
         "translation": "Parte inferior",
@@ -178800,9 +178856,41 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabLayoutEditor.pane.alignAction.bottomTooltip",
+        "source_string": "Align the structure to the lowest point",
+        "translation": "Alinear la estructura con el punto más bajo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.alignAction.topLabel",
         "source_string": "Top",
         "translation": "Parte superior",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.alignAction.topTooltip",
+        "source_string": "Top Align Action",
+        "translation": "Acción de alineado superior",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.alignAction.middleLabel",
+        "source_string": "Middle",
+        "translation": "Medio",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.alignAction.middleTooltip",
+        "source_string": "Middle Align Action",
+        "translation": "Acción de alineado medio",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178920,9 +179008,25 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabLayoutEditor.pane.verticalProjection.staticTooltip",
+        "source_string": "Enable Static vertical projection for the structure",
+        "translation": "Activar proyección vertical estática para la estructura",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.verticalProjection.downTitle",
         "source_string": "Down",
         "translation": "Abajo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.verticalProjection.downTooltip",
+        "source_string": "Enable Down vertical projection for the structure",
+        "translation": "Activar proyección vertical hacia abajo para la estructura",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178936,9 +179040,25 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabLayoutEditor.pane.verticalProjection.upTooltip",
+        "source_string": "Enable Up vertical projection for this layout template",
+        "translation": "Activar proyección vertical hacia arriba para la estructura",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.structuresPane.dropdownTitle",
         "source_string": "Structure",
         "translation": "Estructura",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.structuresPane.dropdownTooltip",
+        "source_string": "Select a structure to add to the layout",
+        "translation": "Selecciona una estructura para añadir al diseño",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178968,9 +179088,25 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabLayoutEditor.pane.openLayoutsManagement.title",
+        "source_string": "Open Layouts Management",
+        "translation": "Abrir administración de diseños",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.layoutManager.copyToClipboard",
         "source_string": "Content to Clipboard",
         "translation": "Contenido del portapapeles",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.exitLayoutEditor",
+        "source_string": "Exit Layout Editor",
+        "translation": "Salir del editor de diseños",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178992,9 +179128,33 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.emptyLayoutMessage",
+        "source_string": "This layout is empty. Empty Layouts cannot be saved! [~*newLine~]To continue exiting the Layout Editor, you must choose to delete this new Layout.",
+        "translation": "Este diseño está vacío. ¡Los diseños vacíos no se pueden guardar! [~*newLine~]Para continuar y salir del editor de diseños, debes eliminar este nuevo diseño.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.emptyLayout",
+        "source_string": "Empty Layout!",
+        "translation": "¡Diseño vacío!",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.layoutManager.size",
         "source_string": "Size",
         "translation": "Tamaño",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.sizeTooltip",
+        "source_string": "Composite size of all structures in the layout",
+        "translation": "Tamaño compuesto de todas las estructuras en el diseño",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -179008,9 +179168,49 @@
         "max_length": null
     },
     {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.nameTooltip",
+        "source_string": "The editable display name of the layout",
+        "translation": "El nombre editable del diseño",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.instances",
+        "source_string": "Instances",
+        "translation": "Instancias",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "editor.prefabLayoutEditor.pane.layoutManager.tags",
         "source_string": "Tags",
         "translation": "Etiquetas",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.instancesPlaced",
+        "source_string": "Instances placed",
+        "translation": "Instancias colocadas",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.openStructurePanel",
+        "source_string": "Open Structures panel",
+        "translation": "Abrir panel de estructuras",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "action.interact.give",
+        "source_string": "Give",
+        "translation": "Dar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -179643,6 +179843,14 @@
         "identifier": "editor.updateInfo.26u5.customMesh",
         "source_string": "Custom Mesh tool can now match blocks to vertex color data on imported meshes. Use “Generate color list” in the tool settings after you’ve imported a mesh, but before you’ve placed blocks.",
         "translation": "La herramienta de importación de mallas puede hacer coincidir bloques con datos de color en las mallas importadas. Usa «Generar lista de colores» en los ajustes de herramientas cuando importes la malla, antes de colocar ningún bloque.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.updateInfo.26u5.layouts",
+        "source_string": "Improvements have been made to the Layouts tool and the Layout Instance tool. Adding, selecting, and manipulating structures within a layout should be easier.",
+        "translation": "Se han mejorado las herramientas de diseños e instancias. Añadir, seleccionar y manipular estructuras dentro de un diseño debería ser más fácil.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
