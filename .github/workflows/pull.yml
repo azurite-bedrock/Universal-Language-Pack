@@ -29,7 +29,7 @@ jobs:
                   deno-version: v2.x
 
             - name: Generate upside-down English from en_US
-              run: deno run --allow-read --allow-write scripts/generate-upside-down.ts
+              run: deno run --allow-read --allow-write scripts/upside-down/generate-upside-down.ts
 
             - name: Commit translation updates
               run: |
