@@ -82,10 +82,12 @@ export function getAuthorizeUrl(): string {
  * Extract the authorization `code` from the redirect URL the browser lands on.
  */
 export function extractAuthCode(redirectedUrl: string): string | undefined {
+    // Tolerate stray whitespace/newlines from terminal wrapping.
+    const cleaned = redirectedUrl.replace(/\s+/g, '');
     try {
-        return new URL(redirectedUrl.trim()).searchParams.get('code') ?? undefined;
+        return new URL(cleaned).searchParams.get('code') ?? undefined;
     } catch {
-        return undefined;
+        return cleaned.match(/[?&]code=([^&]+)/)?.[1];
     }
 }
 
@@ -160,6 +162,19 @@ export async function authorizeForUpdateService(refreshToken: string): Promise<U
     };
 }
 
+async function readLine(): Promise<string | null> {
+    const decoder = new TextDecoder();
+    let line = '';
+    const buf = new Uint8Array(4096);
+    while (true) {
+        const n = await Deno.stdin.read(buf);
+        if (n === null) return line || null;
+        line += decoder.decode(buf.subarray(0, n), { stream: true });
+        const nl = line.indexOf('\n');
+        if (nl !== -1) return line.slice(0, nl);
+    }
+}
+
 async function main(): Promise<void> {
     // The redirected URL may also be passed as the first argument for non-interactive use.
     let redirected: string | null = Deno.args[0] ?? null;
@@ -168,7 +183,9 @@ async function main(): Promise<void> {
             'Open this URL in a browser, sign in, then paste the URL you were redirected to:\n',
         );
         console.log(getAuthorizeUrl() + '\n');
-        redirected = prompt('Redirected URL:');
+        // Deno's prompt() truncates very long pastes; read the line ourselves.
+        await Deno.stdout.write(new TextEncoder().encode('Redirected URL: '));
+        redirected = await readLine();
     }
     const code = redirected ? extractAuthCode(redirected) : undefined;
     if (!code) {
