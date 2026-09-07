@@ -1,20 +1,14 @@
-import { unzipSync } from 'npm:fflate';
 import CrowdinApi from 'npm:@crowdin/crowdin-api-client';
+import { join } from 'jsr:@std/path';
+import { authorizeForUpdateService } from './xbox-auth.ts';
+import { type ClientPackage, discoverClientPackages } from './discover.ts';
+import { buildCikFile, collectLangFiles, extractPackage, parseCikSecret } from './xvdtool.ts';
 
 type CrowdinClient = InstanceType<typeof CrowdinApi.default>;
 
 const PROJECT_ID = 775034;
 
 const HANDLED_VERSIONS_PATH = 'handled-versions.json';
-
-const BDS_VERSIONS_URL =
-    'https://raw.githubusercontent.com/Bedrock-OSS/BDS-Versions/main/versions.json';
-const LANG_PATH_RE = /^resource_packs\/(vanilla|editor|chemistry)\/texts\/(.+\.lang)$/;
-
-interface BdsVersionEntry {
-    version: string;
-    platform: 'linux' | 'linux_preview';
-}
 
 /**
  * Parse a Minecraft .lang file into a key->value Map.
@@ -23,7 +17,7 @@ interface BdsVersionEntry {
  */
 export function parseLangFile(content: string): Map<string, string> {
     const result = new Map<string, string>();
-    for (const line of content.split('\n')) {
+    for (const line of content.replace(/^\uFEFF/, '').split('\n')) {
         const trimmed = line.trim();
         if (!trimmed || trimmed.startsWith('#')) continue;
         const eqIdx = trimmed.indexOf('=');
@@ -38,7 +32,7 @@ export function parseLangFile(content: string): Map<string, string> {
 }
 
 /**
- * Sort BDS version strings oldest-first using numeric component comparison.
+ * Sort version strings oldest-first using numeric component comparison.
  * e.g. ["1.20.0.1", "1.9.0.15"] -> ["1.9.0.15", "1.20.0.1"]
  */
 export function sortVersionsOldestFirst(versions: string[]): string[] {
@@ -54,11 +48,11 @@ export function sortVersionsOldestFirst(versions: string[]): string[] {
 }
 
 /**
- * Normalize a BDS locale code to Crowdin language ID format.
+ * Normalize a Minecraft locale code to Crowdin language ID format.
  * e.g. "de_DE" -> "de-DE"
  */
-export function normalizeLangCode(bdsCode: string): string {
-    return bdsCode.replace(/_/g, '-');
+export function normalizeLangCode(mcCode: string): string {
+    return mcCode.replace(/_/g, '-');
 }
 
 /**
@@ -70,92 +64,56 @@ export function computeUnhandled(all: string[], handled: string[]): string[] {
 }
 
 /**
- * Fetch the BDS version list from Bedrock-OSS/BDS-Versions.
- * Returns the union of linux + linux_preview versions, deduplicated.
- * linux takes precedence when a version appears in both lists.
+ * XvdTool does not fail on a wrong or malformed CIK- it happily writes
+ * ciphertext with the right file names and sizes. Refuse to continue unless
+ * vanilla/en_US.lang came out as readable key=value text.
  */
-export async function fetchBdsVersionList(): Promise<BdsVersionEntry[]> {
-    const resp = await fetch(BDS_VERSIONS_URL);
-    if (!resp.ok) throw new Error(`Failed to fetch BDS versions: ${resp.status}`);
-    const data = await resp.json();
-
-    const seen = new Set<string>();
-    const result: BdsVersionEntry[] = [];
-
-    for (const v of (data.linux?.versions ?? []) as string[]) {
-        if (!seen.has(v)) {
-            seen.add(v);
-            result.push({ version: v, platform: 'linux' });
-        }
+export function assertDecrypted(raw: Map<string, Map<string, string>>): void {
+    const enUS = raw.get('vanilla')?.get('en_US');
+    if (!enUS) {
+        throw new Error('No vanilla/texts/en_US.lang in package- extraction failed?');
     }
-    for (const v of (data.linux?.preview_versions ?? []) as string[]) {
-        if (!seen.has(v)) {
-            seen.add(v);
-            result.push({ version: v, platform: 'linux_preview' });
-        }
+    if (enUS.includes('\0') || parseLangFile(enUS).size === 0) {
+        throw new Error(
+            'vanilla/en_US.lang is not readable text- CIK did not decrypt the package',
+        );
     }
-
-    return result;
 }
 
 /**
- * Fetch the download URL for a specific BDS version
- * from the per-version JSON in Bedrock-OSS/BDS-Versions.
- */
-export async function fetchVersionDownloadUrl(entry: BdsVersionEntry): Promise<string> {
-    const url = `https://raw.githubusercontent.com/Bedrock-OSS/BDS-Versions/main/${entry.platform}/${entry.version}.json`;
-    const resp = await fetch(url);
-    if (!resp.ok) {
-        throw new Error(`Failed to fetch version info for ${entry.version}: ${resp.status}`);
-    }
-    const data = await resp.json();
-    return data.download_url as string;
-}
-
-/**
- * Download a BDS server zip from a URL and return it as a Uint8Array.
- */
-async function downloadZip(url: string): Promise<Uint8Array> {
-    console.log(`  Downloading ${url} ...`);
-    const resp = await fetch(url);
-    if (!resp.ok) throw new Error(`Download failed (${resp.status}): ${url}`);
-    return new Uint8Array(await resp.arrayBuffer());
-}
-
-/**
- * Extract all .lang files from a BDS server zip.
- * Only reads resource_packs/{vanilla,editor,chemistry}/texts/*.lang entries.
- * Pack directories not present in the zip are silently absent from the result.
+ * Stream-extract a client package and parse every .lang file in it.
+ * Every resource pack with a texts/ folder is included, so packs Mojang adds
+ * later (oreui, persona, ...) are picked up without code changes.
  *
  * Returns: Map<packName, Map<langCode, Map<key, value>>>
  * e.g. "vanilla" -> "de_DE" -> "accessibility.foo" -> "Barrierefreiheit"
  */
-export function extractLangFiles(
-    zipData: Uint8Array,
-): Map<string, Map<string, Map<string, string>>> {
-    const files = unzipSync(zipData, {
-        filter: (file) => LANG_PATH_RE.test(file.name),
-    });
+export async function extractLangFiles(
+    pkg: ClientPackage,
+    cikPath: string,
+): Promise<Map<string, Map<string, Map<string, string>>>> {
+    const outputDir = await Deno.makeTempDir({ prefix: 'mc-client-' });
+    try {
+        await extractPackage(pkg.urls[0], cikPath, outputDir);
+        const raw = await collectLangFiles(outputDir);
+        assertDecrypted(raw);
 
-    const packs = new Map<string, Map<string, Map<string, string>>>();
-
-    for (const [path, data] of Object.entries(files)) {
-        const match = path.match(LANG_PATH_RE);
-        if (!match) continue;
-        const packName = match[1];
-        const langCode = match[2].replace('.lang', '');
-        const content = new TextDecoder().decode(data);
-
-        if (!packs.has(packName)) packs.set(packName, new Map());
-        packs.get(packName)!.set(langCode, parseLangFile(content));
+        const packs = new Map<string, Map<string, Map<string, string>>>();
+        for (const [packName, langs] of raw) {
+            const parsed = new Map<string, Map<string, string>>();
+            for (const [langCode, content] of langs)
+                parsed.set(langCode, parseLangFile(content));
+            packs.set(packName, parsed);
+        }
+        return packs;
+    } finally {
+        await Deno.remove(outputDir, { recursive: true }).catch(() => {});
     }
-
-    return packs;
 }
 
 /**
  * Fetch the Crowdin language map for this project.
- * Returns Map<bdsLocaleCode, crowdinLanguageId>
+ * Returns Map<minecraftLocaleCode, crowdinLanguageId>
  * e.g. "de_DE" -> "de", "zh_TW" -> "zh-TW", "pt_BR" -> "pt-BR"
  * Uses the project's own targetLanguages list - the only reliable source of truth.
  */
@@ -166,8 +124,8 @@ export async function fetchProjectLanguageMap(
     const map = new Map<string, string>();
     for (const lang of project.data.targetLanguages) {
         // lang.locale = "de-DE", lang.id = "de"
-        const bdsCode = lang.locale.replace(/-/g, '_');
-        map.set(bdsCode, lang.id);
+        const mcCode = lang.locale.replace(/-/g, '_');
+        map.set(mcCode, lang.id);
     }
     return map;
 }
@@ -216,8 +174,8 @@ async function uploadStringWithTranslations(
     crowdin: CrowdinClient,
     identifier: string,
     enValue: string,
-    translations: Map<string, string>, // BDS locale code (de_DE) -> translated text
-    langMap: Map<string, string>, // BDS locale code -> Crowdin language ID
+    translations: Map<string, string>, // Minecraft locale code (de_DE) -> translated text
+    langMap: Map<string, string>, // Minecraft locale code -> Crowdin language ID
 ): Promise<number> {
     const addResp = await crowdin.sourceStringsApi.addString(PROJECT_ID, {
         identifier,
@@ -226,8 +184,8 @@ async function uploadStringWithTranslations(
     });
     const stringId = addResp.data.id;
 
-    for (const [bdsCode, text] of translations) {
-        const crowdinLang = langMap.get(bdsCode);
+    for (const [mcCode, text] of translations) {
+        const crowdinLang = langMap.get(mcCode);
         if (!crowdinLang) continue; // language not configured in this project
         try {
             await crowdin.stringTranslationsApi.addTranslation(PROJECT_ID, {
@@ -237,7 +195,7 @@ async function uploadStringWithTranslations(
             });
         } catch (e) {
             console.warn(
-                `  Warning: could not upload translation ${bdsCode}/${identifier}: ${e}`,
+                `  Warning: could not upload translation ${mcCode}/${identifier}: ${e}`,
             );
         }
     }
@@ -248,9 +206,25 @@ async function uploadStringWithTranslations(
 async function main(): Promise<void> {
     const crowdin = new CrowdinApi.default({ token: Deno.env.get('CROWDIN_API')! });
 
-    // Fetch BDS version list (linux + linux_preview, deduped)
-    console.log('Fetching BDS version list...');
-    const allEntries = await fetchBdsVersionList();
+    const refreshToken = Deno.env.get('XBOX_REFRESH_TOKEN');
+    const cikSecret = Deno.env.get('XVC_CIK');
+    if (!refreshToken || !cikSecret) {
+        throw new Error('XBOX_REFRESH_TOKEN and XVC_CIK must be set');
+    }
+
+    // Discover current release + preview client packages
+    console.log('Authenticating with Xbox Live...');
+    const auth = await authorizeForUpdateService(refreshToken);
+    // Refresh tokens rotate; hand the new one back to the workflow so it can be re-stored.
+    const refreshTokenOut = Deno.env.get('XBOX_REFRESH_TOKEN_OUT');
+    if (refreshTokenOut && auth.refreshToken !== refreshToken) {
+        await Deno.writeTextFile(refreshTokenOut, auth.refreshToken);
+    }
+
+    console.log('Discovering client packages...');
+    const allEntries = await discoverClientPackages(auth);
+    for (const pkg of allEntries)
+        console.log(`  ${pkg.channel}: ${pkg.version} (${pkg.fileName})`);
     const versionToEntry = new Map(allEntries.map((e) => [e.version, e]));
 
     // Read persisted handled versions
@@ -274,9 +248,15 @@ async function main(): Promise<void> {
     );
 
     if (unhandled.length === 0) {
-        console.log('No new BDS versions to process. Exiting.');
+        console.log('No new client versions to process. Exiting.');
         return;
     }
+
+    // Materialise the content key for XvdTool
+    const { keyId, key } = parseCikSecret(cikSecret);
+    const cikDir = await Deno.makeTempDir({ prefix: 'cik-' });
+    const cikPath = join(cikDir, `${keyId}.cik`);
+    await Deno.writeFile(cikPath, buildCikFile(keyId, key));
 
     console.log(`Found ${unhandled.length} unhandled version(s). Fetching Crowdin strings...`);
 
@@ -295,11 +275,9 @@ async function main(): Promise<void> {
     // Process each version sequentially, oldest-first
     for (const version of unhandled) {
         const entry = versionToEntry.get(version)!;
-        console.log(`\nProcessing ${version} (${entry.platform})...`);
+        console.log(`\nProcessing ${version} (${entry.channel})...`);
 
-        const downloadUrl = await fetchVersionDownloadUrl(entry);
-        const zipData = await downloadZip(downloadUrl);
-        const packs = extractLangFiles(zipData);
+        const packs = await extractLangFiles(entry, cikPath);
 
         if (packs.size === 0) {
             console.log(`  No lang files found - skipping.`);
@@ -353,6 +331,8 @@ async function main(): Promise<void> {
             JSON.stringify(handled, null, 2) + '\n',
         );
     }
+
+    await Deno.remove(cikDir, { recursive: true }).catch(() => {});
 
     // Discord summary- only if new strings were found
     const discordWebhookUrl = Deno.env.get('DISCORD_WEBHOOK_URL');

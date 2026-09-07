@@ -1,4 +1,4 @@
-name: BDS Version Check
+name: Client Version Check
 
 on:
     schedule:
@@ -20,16 +20,44 @@ jobs:
               with:
                   deno-version: v2.x
 
-            - name: Run BDS version check
-              run: deno run --allow-net --allow-read --allow-write --allow-env scripts/check.ts
+            # XvdTool.Streaming is built from source (net9.0)
+            - uses: actions/setup-dotnet@v5
+              with:
+                  dotnet-version: 9.0.x
+
+            - name: Cache XvdTool.Streaming
+              uses: actions/cache@v6
+              with:
+                  path: .xvdtool
+                  key: xvdtool-streaming-b191811
+
+            - name: Run client version check
+              run: deno run --allow-net --allow-read --allow-write --allow-env --allow-run scripts/client/check.ts
               env:
                   CROWDIN_API: ${{ secrets.CROWDIN_API }}
                   DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+                  XBOX_REFRESH_TOKEN: ${{ secrets.XBOX_REFRESH_TOKEN }}
+                  XBOX_REFRESH_TOKEN_OUT: ${{ runner.temp }}/xbox-refresh-token
+                  XVC_CIK: ${{ secrets.XVC_CIK }}
+
+            # Microsoft rotates the refresh token on every use; persist the new one
+            # so the workflow keeps working past the old token's lifetime.
+            # Needs a PAT with "secrets: write" on this repo- GITHUB_TOKEN cannot do it.
+            - name: Rotate XBOX_REFRESH_TOKEN secret
+              if: always() && env.SECRETS_PAT != ''
+              run: |
+                  if [ -s "$RUNNER_TEMP/xbox-refresh-token" ]; then
+                    gh secret set XBOX_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" < "$RUNNER_TEMP/xbox-refresh-token"
+                    rm -f "$RUNNER_TEMP/xbox-refresh-token"
+                  fi
+              env:
+                  SECRETS_PAT: ${{ secrets.SECRETS_PAT }}
+                  GH_TOKEN: ${{ secrets.SECRETS_PAT }}
 
             - name: Commit handled-versions.json
               run: |
                   git config user.name "github-actions[bot]"
                   git config user.email "github-actions[bot]@users.noreply.github.com"
                   git add handled-versions.json
-                  git diff --staged --quiet || git commit -m "chore: mark BDS versions as handled"
+                  git diff --staged --quiet || git commit -m "chore: mark client versions as handled"
                   git push origin main

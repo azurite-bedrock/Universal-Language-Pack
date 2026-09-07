@@ -1,5 +1,6 @@
-import { assertEquals } from 'jsr:@std/assert';
+import { assertEquals, assertThrows } from 'jsr:@std/assert';
 import {
+    assertDecrypted,
     computeUnhandled,
     normalizeLangCode,
     parseLangFile,
@@ -66,4 +67,21 @@ Deno.test('computeUnhandled returns all when handled is empty', () => {
 Deno.test('computeUnhandled returns empty when all are handled', () => {
     const result = computeUnhandled(['1.10.0.7'], ['1.10.0.7']);
     assertEquals(result, []);
+});
+
+Deno.test('assertDecrypted accepts readable vanilla en_US', () => {
+    assertDecrypted(new Map([['vanilla', new Map([['en_US', 'menu.play=Play\n']])]]));
+});
+
+Deno.test('assertDecrypted rejects missing en_US', () => {
+    assertThrows(() => assertDecrypted(new Map()));
+});
+
+Deno.test('assertDecrypted rejects ciphertext-looking content', () => {
+    assertThrows(() =>
+        assertDecrypted(new Map([['vanilla', new Map([['en_US', 'a=b\0\x7f']])]])),
+    );
+    assertThrows(() =>
+        assertDecrypted(new Map([['vanilla', new Map([['en_US', 'no equals here']])]])),
+    );
 });

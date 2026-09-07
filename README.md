@@ -61,6 +61,41 @@ We want to add numerous missing languages to Minecraft Bedrock, using the help o
     regolith run pack
     ```
 
+## Automation
+
+Scripts live under `scripts/`, grouped by workflow:
+
+| Folder                 | Purpose                                                                                    |
+| ---------------------- | ------------------------------------------------------------------------------------------ |
+| `scripts/client/`      | Discovers new Minecraft client builds, extracts their `.lang` files, syncs them to Crowdin |
+| `scripts/banner/`      | Renders the translation-progress banner in `assets/`                                       |
+| `scripts/release/`     | Publishes releases to CurseForge                                                           |
+| `scripts/upside-down/` | Generates `en_UD` from `en_US`                                                             |
+
+### Client version check
+
+`scripts/client/check.ts` pulls new source strings straight from the Windows client package
+instead of Bedrock Dedicated Server, so client-only UI strings are covered too. It uses the
+Xbox update service to find the current release/preview package and
+[XvdTool.Streaming](https://github.com/LukeFZ/XvdTool.Streaming) to stream-extract `.lang`
+files from the remote `.msixvc` without downloading the whole thing to disk first.
+
+It needs these repository secrets:
+
+| Secret               | Value                                                                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| `XBOX_REFRESH_TOKEN` | Microsoft account refresh token. Generate one with `deno run --allow-net scripts/client/xbox-auth.ts`.                                  |
+| `XVC_CIK`            | Content key for the Minecraft package, as `<key-id-guid>:<64 hex chars>`. Extract it from a device that owns the game; never commit it. |
+| `SECRETS_PAT`        | _(optional)_ Fine-grained PAT with **Secrets: write** on this repo, so the workflow can store the rotated refresh token after each run. |
+| `CROWDIN_API`        | Crowdin personal access token.                                                                                                          |
+
+Run locally with the .NET 9 SDK (`dotnet`) on your PATH; XvdTool.Streaming is built from source on first run into `.xvdtool/`:
+
+```bash
+XBOX_REFRESH_TOKEN=... XVC_CIK=... CROWDIN_API=... \
+  deno run --allow-net --allow-read --allow-write --allow-env --allow-run scripts/client/check.ts
+```
+
 ## Licensing
 
 This project uses a split-license model. See [NOTICE.md](NOTICE.md) for full details.
