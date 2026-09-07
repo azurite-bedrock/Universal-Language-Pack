@@ -94,7 +94,7 @@ jobs:
 
             - name: Upload to CurseForge
               id: curseforge
-              run: deno run --allow-read --allow-write --allow-env --allow-net scripts/release-curseforge.ts
+              run: deno run --allow-read --allow-write --allow-env --allow-net scripts/release/release-curseforge.ts
               env:
                   CURSEFORGE_API: ${{ secrets.CURSEFORGE_API }}
                   VERSION: ${{ needs.build.outputs.tag }}
