@@ -161,12 +161,15 @@ export async function authorizeForUpdateService(refreshToken: string): Promise<U
 }
 
 async function main(): Promise<void> {
-    console.log(
-        'Open this URL in a browser, sign in, then paste the URL you were redirected to:\n',
-    );
-    console.log(getAuthorizeUrl() + '\n');
-
-    const redirected = prompt('Redirected URL:');
+    // The redirected URL may also be passed as the first argument for non-interactive use.
+    let redirected: string | null = Deno.args[0] ?? null;
+    if (!redirected) {
+        console.log(
+            'Open this URL in a browser, sign in, then paste the URL you were redirected to:\n',
+        );
+        console.log(getAuthorizeUrl() + '\n');
+        redirected = prompt('Redirected URL:');
+    }
     const code = redirected ? extractAuthCode(redirected) : undefined;
     if (!code) {
         console.error('No `code` parameter found in that URL.');
