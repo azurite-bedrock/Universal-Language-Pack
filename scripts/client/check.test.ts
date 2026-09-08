@@ -2,6 +2,7 @@ import { assertEquals, assertThrows } from 'jsr:@std/assert';
 import {
     assertDecrypted,
     computeUnhandled,
+    mapWithConcurrency,
     normalizeLangCode,
     parseLangFile,
     sortVersionsOldestFirst,
@@ -84,4 +85,26 @@ Deno.test('assertDecrypted rejects ciphertext-looking content', () => {
     assertThrows(() =>
         assertDecrypted(new Map([['vanilla', new Map([['en_US', 'no equals here']])]])),
     );
+});
+
+Deno.test('mapWithConcurrency processes every item and caps parallelism', async () => {
+    let inFlight = 0;
+    let peak = 0;
+    const seen: number[] = [];
+    await mapWithConcurrency([1, 2, 3, 4, 5, 6, 7], 3, async (n) => {
+        inFlight++;
+        peak = Math.max(peak, inFlight);
+        await new Promise((r) => setTimeout(r, 5));
+        seen.push(n);
+        inFlight--;
+    });
+    assertEquals(
+        seen.sort((a, b) => a - b),
+        [1, 2, 3, 4, 5, 6, 7],
+    );
+    assertEquals(peak, 3);
+});
+
+Deno.test('mapWithConcurrency handles an empty list', async () => {
+    await mapWithConcurrency([], 4, () => Promise.resolve());
 });

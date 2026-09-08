@@ -21,17 +21,28 @@ export const XVDTOOL_DIR = '.xvdtool';
 
 const LANG_PATH_RE = /(?:^|[\\/])resource_packs[\\/]([^\\/]+)[\\/]texts[\\/]([^\\/]+)\.lang$/;
 
+export interface Cik {
+    keyId: string;
+    key: Uint8Array;
+}
+
 /**
- * Parse the `XVC_CIK` secret: "<key-id-guid>:<64 hex chars>".
+ * Parse the `XVC_CIK` secret: one or more "<key-id-guid>:<64 hex chars>" entries
+ * separated by whitespace, commas or semicolons. Release and Preview are separate
+ * products with separate content keys, so several are usually needed.
  */
-export function parseCikSecret(secret: string): { keyId: string; key: Uint8Array } {
-    const [keyId, hex] = secret.trim().split(':');
-    if (!keyId || !hex || !/^[0-9a-f-]{36}$/i.test(keyId) || !/^[0-9a-f]{64}$/i.test(hex)) {
-        throw new Error('XVC_CIK must be "<key-id-guid>:<64 hex chars>"');
-    }
-    const key = new Uint8Array(32);
-    for (let i = 0; i < 32; i++) key[i] = parseInt(hex.substring(i * 2, i * 2 + 2), 16);
-    return { keyId, key };
+export function parseCikSecret(secret: string): Cik[] {
+    const entries = secret.split(/[\s,;]+/).filter(Boolean);
+    if (entries.length === 0) throw new Error('XVC_CIK is empty');
+    return entries.map((entry) => {
+        const [keyId, hex] = entry.split(':');
+        if (!keyId || !hex || !/^[0-9a-f-]{36}$/i.test(keyId) || !/^[0-9a-f]{64}$/i.test(hex)) {
+            throw new Error('Each XVC_CIK entry must be "<key-id-guid>:<64 hex chars>"');
+        }
+        const key = new Uint8Array(32);
+        for (let i = 0; i < 32; i++) key[i] = parseInt(hex.substring(i * 2, i * 2 + 2), 16);
+        return { keyId: keyId.toLowerCase(), key };
+    });
 }
 
 /**
@@ -148,6 +159,32 @@ export async function ensureXvdTool(): Promise<string> {
     }
 }
 
+function xvdToolEnv(): Record<string, string> {
+    return {
+        DOTNET_ROLL_FORWARD: 'Major',
+        DOTNET_CLI_TELEMETRY_OPTOUT: '1',
+        NO_COLOR: '1',
+        TERM: 'dumb',
+    };
+}
+
+/**
+ * Read the content key ID a remote package is encrypted with. Only the XVC
+ * header is fetched, so this is cheap- use it to skip packages we have no key
+ * for before streaming gigabytes.
+ */
+export async function readPackageKeyId(url: string): Promise<string | undefined> {
+    const dll = await ensureXvdTool();
+    const { stdout } = await new Deno.Command('dotnet', {
+        args: [dll, 'info', url],
+        env: xvdToolEnv(),
+        stdout: 'piped',
+        stderr: 'piped',
+    }).output();
+    const text = new TextDecoder().decode(stdout);
+    return text.match(/Encryption Key 0 GUID:\s*([0-9a-f-]{36})/i)?.[1]?.toLowerCase();
+}
+
 /**
  * Stream-extract a remote .msixvc into `outputDir` using the given CIK.
  * Hash verification is skipped- the CDN is trusted and it halves the runtime.
@@ -161,12 +198,7 @@ export async function extractPackage(
     console.log(`  Extracting ${url} ...`);
     const cmd = new Deno.Command('dotnet', {
         args: [dll, 'extract', url, '-c', cikPath, '-o', outputDir, '--no-hash-check'],
-        env: {
-            DOTNET_ROLL_FORWARD: 'Major',
-            DOTNET_CLI_TELEMETRY_OPTOUT: '1',
-            NO_COLOR: '1',
-            TERM: 'dumb',
-        },
+        env: xvdToolEnv(),
         stdout: 'piped',
         stderr: 'piped',
     });

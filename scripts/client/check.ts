@@ -2,7 +2,13 @@ import CrowdinApi from 'npm:@crowdin/crowdin-api-client';
 import { join } from 'jsr:@std/path';
 import { authorizeForUpdateService } from './xbox-auth.ts';
 import { type ClientPackage, discoverClientPackages } from './discover.ts';
-import { buildCikFile, collectLangFiles, extractPackage, parseCikSecret } from './xvdtool.ts';
+import {
+    buildCikFile,
+    collectLangFiles,
+    extractPackage,
+    parseCikSecret,
+    readPackageKeyId,
+} from './xvdtool.ts';
 
 type CrowdinClient = InstanceType<typeof CrowdinApi.default>;
 
@@ -161,9 +167,30 @@ export async function fetchAllCrowdinStrings(
     return result;
 }
 
+/** Parallel translation uploads per string. Crowdin allows ~20 req/s. */
+const TRANSLATION_CONCURRENCY = 8;
+
+/**
+ * Run `fn` over `items` with at most `limit` in flight at once.
+ */
+export async function mapWithConcurrency<T>(
+    items: T[],
+    limit: number,
+    fn: (item: T) => Promise<void>,
+): Promise<void> {
+    let next = 0;
+    const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+        while (next < items.length) {
+            const item = items[next++];
+            await fn(item);
+        }
+    });
+    await Promise.all(workers);
+}
+
 /**
  * Upload a new source string to Crowdin and immediately upload
- * all available vanilla translations for it.
+ * all available translations for it.
  *
  * Uses the stringId from the addString response directly- never re-queries
  * Crowdin for the new string, avoiding eventual-consistency issues.
@@ -176,6 +203,7 @@ async function uploadStringWithTranslations(
     enValue: string,
     translations: Map<string, string>, // Minecraft locale code (de_DE) -> translated text
     langMap: Map<string, string>, // Minecraft locale code -> Crowdin language ID
+    warnings: Map<string, number>, // warning reason -> count, summarised at the end
 ): Promise<number> {
     const addResp = await crowdin.sourceStringsApi.addString(PROJECT_ID, {
         identifier,
@@ -184,21 +212,30 @@ async function uploadStringWithTranslations(
     });
     const stringId = addResp.data.id;
 
+    // Several Minecraft locales can map to one Crowdin language; upload each once.
+    const byCrowdinLang = new Map<string, string>();
     for (const [mcCode, text] of translations) {
         const crowdinLang = langMap.get(mcCode);
-        if (!crowdinLang) continue; // language not configured in this project
-        try {
-            await crowdin.stringTranslationsApi.addTranslation(PROJECT_ID, {
-                stringId,
-                languageId: crowdinLang,
-                text,
-            });
-        } catch (e) {
-            console.warn(
-                `  Warning: could not upload translation ${mcCode}/${identifier}: ${e}`,
-            );
-        }
+        if (crowdinLang && !byCrowdinLang.has(crowdinLang))
+            byCrowdinLang.set(crowdinLang, text);
     }
+
+    await mapWithConcurrency(
+        [...byCrowdinLang],
+        TRANSLATION_CONCURRENCY,
+        async ([languageId, text]) => {
+            try {
+                await crowdin.stringTranslationsApi.addTranslation(PROJECT_ID, {
+                    stringId,
+                    languageId,
+                    text,
+                });
+            } catch (e) {
+                const reason = String(e).replace(/^Error: /, '');
+                warnings.set(reason, (warnings.get(reason) ?? 0) + 1);
+            }
+        },
+    );
 
     return stringId;
 }
@@ -252,11 +289,14 @@ async function main(): Promise<void> {
         return;
     }
 
-    // Materialise the content key for XvdTool
-    const { keyId, key } = parseCikSecret(cikSecret);
+    // Materialise the content keys for XvdTool, one file per key ID
     const cikDir = await Deno.makeTempDir({ prefix: 'cik-' });
-    const cikPath = join(cikDir, `${keyId}.cik`);
-    await Deno.writeFile(cikPath, buildCikFile(keyId, key));
+    const cikPaths = new Map<string, string>();
+    for (const { keyId, key } of parseCikSecret(cikSecret)) {
+        const path = join(cikDir, `${keyId}.cik`);
+        await Deno.writeFile(path, buildCikFile(keyId, key));
+        cikPaths.set(keyId, path);
+    }
 
     console.log(`Found ${unhandled.length} unhandled version(s). Fetching Crowdin strings...`);
 
@@ -271,11 +311,26 @@ async function main(): Promise<void> {
 
     let totalNewStrings = 0;
     const processedVersions: string[] = [];
+    const skippedVersions: string[] = [];
+    const warnings = new Map<string, number>();
 
     // Process each version sequentially, oldest-first
     for (const version of unhandled) {
         const entry = versionToEntry.get(version)!;
         console.log(`\nProcessing ${version} (${entry.channel})...`);
+
+        // Release and Preview are encrypted with different keys; skip (and leave
+        // unhandled) any package we cannot decrypt instead of failing the run.
+        const keyId = await readPackageKeyId(entry.urls[0]);
+        const cikPath = keyId ? cikPaths.get(keyId) : undefined;
+        if (!cikPath) {
+            console.warn(
+                `  No CIK for key ${keyId ?? '<unknown>'} (${entry.channel}); skipping. ` +
+                    'Add it to the XVC_CIK secret to include this channel.',
+            );
+            skippedVersions.push(`${version} (${entry.channel}, key ${keyId ?? 'unknown'})`);
+            continue;
+        }
 
         const packs = await extractLangFiles(entry, cikPath);
 
@@ -312,6 +367,7 @@ async function main(): Promise<void> {
                         enValue,
                         translations,
                         langMap,
+                        warnings,
                     );
                     // Insert into local Map immediately- avoids re-querying Crowdin
                     crowdinStrings.set(key, { id: stringId, text: enValue });
@@ -333,6 +389,14 @@ async function main(): Promise<void> {
     }
 
     await Deno.remove(cikDir, { recursive: true }).catch(() => {});
+
+    if (warnings.size > 0) {
+        console.log('\nTranslation upload warnings:');
+        for (const [reason, count] of warnings) console.log(`  ${count}x ${reason}`);
+    }
+    if (skippedVersions.length > 0) {
+        console.log(`\nSkipped (no key): ${skippedVersions.join(', ')}`);
+    }
 
     // Discord summary- only if new strings were found
     const discordWebhookUrl = Deno.env.get('DISCORD_WEBHOOK_URL');

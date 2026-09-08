@@ -15,15 +15,31 @@ Deno.test('guidToBytes matches .NET Guid.ToByteArray ordering', () => {
 });
 
 Deno.test('parseCikSecret splits guid and decodes hex key', () => {
-    const { keyId, key } = parseCikSecret(`${KEY_ID}:${'ab'.repeat(32)}`);
+    const [{ keyId, key }] = parseCikSecret(`${KEY_ID}:${'ab'.repeat(32)}`);
     assertEquals(keyId, KEY_ID);
     assertEquals(key.length, 32);
     assertEquals(key[0], 0xab);
 });
 
+Deno.test(
+    'parseCikSecret accepts several keys separated by newlines/commas and lowercases ids',
+    () => {
+        const other = 'AABBCCDD-0000-0000-0000-000000000000';
+        const ciks = parseCikSecret(
+            `${KEY_ID}:${'ab'.repeat(32)}\n${other}:${'cd'.repeat(32)}, `,
+        );
+        assertEquals(
+            ciks.map((c) => c.keyId),
+            [KEY_ID, other.toLowerCase()],
+        );
+        assertEquals(ciks[1].key[31], 0xcd);
+    },
+);
+
 Deno.test('parseCikSecret rejects malformed input', () => {
     assertThrows(() => parseCikSecret('nope'));
     assertThrows(() => parseCikSecret(`${KEY_ID}:abcd`));
+    assertThrows(() => parseCikSecret('   '));
 });
 
 Deno.test('buildCikFile lays out guid + 32-byte key into 0x30 bytes', () => {

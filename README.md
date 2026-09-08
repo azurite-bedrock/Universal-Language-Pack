@@ -82,12 +82,12 @@ files from the remote `.msixvc` without downloading the whole thing to disk firs
 
 It needs these repository secrets:
 
-| Secret               | Value                                                                                                                                   |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `XBOX_REFRESH_TOKEN` | Microsoft account refresh token. Generate one with `deno run --allow-net scripts/client/xbox-auth.ts`.                                  |
-| `XVC_CIK`            | Content key for the Minecraft package, as `<key-id-guid>:<64 hex chars>`. Extract it from a device that owns the game; never commit it. |
-| `SECRETS_PAT`        | _(optional)_ Fine-grained PAT with **Secrets: write** on this repo, so the workflow can store the rotated refresh token after each run. |
-| `CROWDIN_API`        | Crowdin personal access token.                                                                                                          |
+| Secret               | Value                                                                                                                                                                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `XBOX_REFRESH_TOKEN` | Microsoft account refresh token. Generate one with `deno run --allow-net scripts/client/xbox-auth.ts`.                                                                                                                                                              |
+| `XVC_CIK`            | Content key(s) as `<key-id-guid>:<64 hex chars>`, one per line. Release and Preview are separate products with separate keys; packages without a matching key are skipped (and retried next run). Extract them from a device that owns the game; never commit them. |
+| `SECRETS_PAT`        | _(optional)_ Fine-grained PAT with **Secrets: write** on this repo, so the workflow can store the rotated refresh token after each run.                                                                                                                             |
+| `CROWDIN_API`        | Crowdin personal access token.                                                                                                                                                                                                                                      |
 
 Run locally with the .NET 9 SDK (`dotnet`) on your PATH; XvdTool.Streaming is built from source on first run into `.xvdtool/`:
 
