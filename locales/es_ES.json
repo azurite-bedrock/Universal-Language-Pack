@@ -197714,7 +197714,15 @@
     {
         "identifier": "hbui.HeroItem.enumeration",
         "source_string": "%1$s of %2$s",
-        "translation": "%1$s of %2$s",
+        "translation": "%1$s de %2$s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.realmsTab.defaultRealmName",
+        "source_string": "%1$s's Realm",
+        "translation": "Realm de %1$s",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197722,7 +197730,15 @@
     {
         "identifier": "hbui.PlayScreen.realmsTab.modals.close",
         "source_string": "Close",
-        "translation": "Cerrar\t#",
+        "translation": "Cerrar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.realmsTab.modals.reconciliationInProgress",
+        "source_string": "Processing",
+        "translation": "Procesando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197736,9 +197752,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.realmsTab.modals.unusedSubscription.cancel",
+        "source_string": "Not yet",
+        "translation": "Aún no",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.worldMissingMarioMashUpModal.close",
         "source_string": "Close",
-        "translation": "Cerrar\t#",
+        "translation": "Cerrar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.worldMissingMarioMashUpModal.confirm",
+        "source_string": "Claim in Marketplace",
+        "translation": "Canjear en Marketplace",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197762,7 +197794,23 @@
     {
         "identifier": "hbui.Realms.RealmsHub.LearnMore.enumeration",
         "source_string": "%1$s of %2$s",
-        "translation": "%1$s of %2$s",
+        "translation": "%1$s de %2$s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Realms.RealmsHub.Settings.ServerTools.serverPerformance.serverPerformanceAction",
+        "source_string": "Server performance",
+        "translation": "Rendimiento del servidor",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Realms.RealmsHub.Settings.ServerTools.serverPerformance.title",
+        "source_string": "Server performance",
+        "translation": "Rendimiento del servidor",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197776,9 +197824,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.ReconcileRealmRoute.createNewRealm",
+        "source_string": "Create new Realm",
+        "translation": "Crear nuevo Realm",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReconcileRealmRoute.defaultRealmName",
+        "source_string": "%1$s's Realm",
+        "translation": "Realm de %1$s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReconcileRealmRoute.header",
+        "source_string": "Choose a Realm to set up",
+        "translation": "Elige un realm para configurar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReconcileRealmRoute.label.core",
+        "source_string": "Core",
+        "translation": "Núcleo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.ReconcileRealmRoute.label.plus",
         "source_string": "Plus",
-        "translation": "Suma",
+        "translation": "Más",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReconcileRealmRoute.label.pro",
+        "source_string": "Pro",
+        "translation": "Pro",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197787,6 +197875,14 @@
         "identifier": "hbui.ReconcileRealmRoute.players",
         "source_string": "%s Players",
         "translation": "%s jugadores",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReconcileRealmRoute.reconciliationInProgress",
+        "source_string": "Processing",
+        "translation": "Procesando",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197808,9 +197904,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.SocialWorldTab.playersInWorldWithoutCount",
+        "source_string": "Players in %1$s",
+        "translation": "Jugadores en %1$s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.EditorTutorial.button.skip",
         "source_string": "Skip",
-        "translation": "Saltar",
+        "translation": "Omitir",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.customskins.error.title",
+        "source_string": "Skin Upload Error",
+        "translation": "Error al cargar el aspecto",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.packSettingsMultiselectNoneSelected",
+        "source_string": "(none selected)",
+        "translation": "(nada selec.)",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.popup.download.unOwned.notAvailable.title",
+        "source_string": "Pack Unavailable",
+        "translation": "Paquete no disponible",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.popup.download.unOwned.storeUnavailable.title",
+        "source_string": "Marketplace Unavailable",
+        "translation": "Marketplace no disponible",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
