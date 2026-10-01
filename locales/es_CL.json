@@ -183906,7 +183906,7 @@
     {
         "identifier": "hbui.Marketplace.ContentCard.narration",
         "source_string": "%1$s by %2$s. Rating: %3$s. Price: %4$s Minecoins",
-        "translation": "%1$s de %2$s. Valoración: %3$s. Precio: %4$s minecoins",
+        "translation": "%1$s de %2$s. Valoración: %3$s. Precio: %4$s Minecoins",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197752,9 +197752,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.realmsTab.modals.unusedSubscription.body",
+        "source_string": "You have an unused Realm subscription! Would you like to set it up?",
+        "translation": "¡Tienes una suscripción de Realm sin usar! ¿Quieres configurarla?",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PlayScreen.realmsTab.modals.unusedSubscription.cancel",
         "source_string": "Not yet",
         "translation": "Aún no",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.realmsTab.modals.unusedSubscription.confirm",
+        "source_string": "Set up Realm now",
+        "translation": "Configurar Realm ya",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.realmsTab.modals.unusedSubscription.title",
+        "source_string": "Unused Realm subscription",
+        "translation": "Suscripción de Realm sin usar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.PlayScreen.worldMissingMarioMashUpModal.body",
+        "source_string": "Some world are hidden because of missing entitlements. Visit the Marketplace and sign in to claim your content.",
+        "translation": "Algunos mundos están ocultos porque faltan derechos. Visita Marketplace e inicia sesión para reclamar tu contenido.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197784,6 +197816,14 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.PlayScreen.worldMissingMarioMashUpModal.title",
+        "source_string": "Super Mario Mash-Up pack",
+        "translation": "Paquete de popurrí de Super Mario",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.PreStartScreen.brandMoment.loading",
         "source_string": "Loading...",
         "translation": "Cargando...",
@@ -197795,6 +197835,22 @@
         "identifier": "hbui.Realms.RealmsHub.LearnMore.enumeration",
         "source_string": "%1$s of %2$s",
         "translation": "%1$s de %2$s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Realms.RealmsHub.Settings.ServerTools.serverPerformance.description",
+        "source_string": "CPU, RAM, player count, and server tick time metrics on Minecraft.net.",
+        "translation": "CPU, RAM, jugadores y métrica de tics del servidor en Minecraft.net.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.Realms.RealmsHub.Settings.ServerTools.serverPerformance.platformMismatch",
+        "source_string": "Server performance is not viewable on this device. Go to Minecraft.net.",
+        "translation": "El rendimiento del servidor no se puede ver en este dispositivo. Ve a Minecraft.net.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197816,9 +197872,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Realms.RealmsHub.Settings.Subscriptions.infoAndPlayerCount",
+        "source_string": "%1$s Subscription: You + %2$s Friends server %3$s",
+        "translation": "Suscripción %1$s: Tú + servidor de amigos %2$s %3$s",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.reconciliationFailed.body",
+        "source_string": "We were unable to set up a Realm for your unused subscription. Check your internet connection and try again. If this issue persists after restarting, please contact support.",
+        "translation": "Error al configurar Realm para tu suscripción sin usar. Comprueba tu conexión a Internet e inténtalo de nuevo. Si el problema persiste después de reiniciar, contacta con el soporte.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.RealmsPurchaseSubscriptionRoute.errorModals.reconciliationFailed.title",
         "source_string": "Something went wrong",
         "translation": "Algo ha salido mal",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReconcileRealmBanner.link",
+        "source_string": "Set up your Realm now",
+        "translation": "Configura tu Realm ya",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.ReconcileRealmBanner.text",
+        "source_string": "You have an unused Realm subscription!",
+        "translation": "¡Tienes una suscripción de Realm sin usar!",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -197928,6 +198016,62 @@
         "max_length": null
     },
     {
+        "identifier": "persona.customskins.error.imagetoolarge",
+        "source_string": "The uploaded PNG exceeds the configured maximum size in bytes.",
+        "translation": "El PNG subido excede el tamaño máximo configurado en bytes.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.customskins.error.invaliddimensions",
+        "source_string": "The uploaded PNG's width/height combination is not in the allowed set.",
+        "translation": "La combinación de ancho/altura del PNG subido no está permitida.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.customskins.error.invalidbase64",
+        "source_string": "The supplied string is not valid Base64.",
+        "translation": "La cadena suministrada no es válida en Base64.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.customskins.error.failedloadingpng",
+        "source_string": "The decoded bytes could not be loaded as a PNG image.",
+        "translation": "Error al cargar los bytes decodificados como imagen PNG.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.customskins.error.recordnotfound",
+        "source_string": "No Skin exists in storage for the requested SkinId.",
+        "translation": "No existen aspectos almacenados para ese id. de aspecto.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.customskins.error.communitystandardsviolation",
+        "source_string": "The uploaded skin was flagged as violating community standards.",
+        "translation": "El aspecto subido se marcó como violación de los estándares comunitarios.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "persona.customskins.error.unexpectederror",
+        "source_string": "Unexpected error during Custom Skin upload.",
+        "translation": "Error inesperado al subir un aspecto personalizado.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "resourcePack.packSettingsMultiselectNoneSelected",
         "source_string": "(none selected)",
         "translation": "(nada selec.)",
@@ -197944,9 +198088,25 @@
         "max_length": null
     },
     {
+        "identifier": "store.popup.download.unOwned.notAvailable.msg",
+        "source_string": "We couldn't find a Marketplace offer for the pack this world uses. It may not be available for purchase on this platform.",
+        "translation": "Error al buscar una oferta de Marketplace para el paquete de este mundo. Es posible que no esté a la venta en esta plataforma.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "store.popup.download.unOwned.storeUnavailable.title",
         "source_string": "Marketplace Unavailable",
         "translation": "Marketplace no disponible",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "store.popup.download.unOwned.storeUnavailable.msg",
+        "source_string": "We couldn't reach the Marketplace to look up the pack this world uses. Check your connection and try again later.",
+        "translation": "Error al acceder al mercado para buscar el paquete que utiliza este mundo. Comprueba tu conexión e inténtalo de nuevo más tarde.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
