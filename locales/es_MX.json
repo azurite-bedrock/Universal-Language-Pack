@@ -178018,7 +178018,7 @@
     {
         "identifier": "store.editorial.starter.bundle.description",
         "source_string": "*You'll buy %s Minecoins for %s and get all listed packs in the bundle (worth %s Minecoins) for free.",
-        "translation": "*Comprarás %s Minecoins por %s y obtendrás todos los paquetes listados en el paquete (vale %s Minecoins) gratis.",
+        "translation": "*Comprarás %s Minecoins por %s y obtendrás todos los paquetes del lote (valorado en %s Minecoins) gratis.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -180267,6 +180267,14 @@
         "identifier": "tile.composter.tooltip",
         "source_string": "Make bone meal",
         "translation": "Hacer polvo de hueso",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cartography_table.tooltip",
+        "source_string": "Modify Maps",
+        "translation": "Modificar mapas",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198552,9 +198560,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Realms.RealmsHub.LearnMore.tutorialModalTitle",
+        "source_string": "Realms tutorial videos",
+        "translation": "Videotutoriales de Realms",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Realms.RealmsQRCodeModal.back",
         "source_string": "Back",
         "translation": "Atrás\t#",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.newestToOldest",
+        "source_string": "Newest to Oldest",
+        "translation": "De más reciente a más antiguo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.oldestChangesFirst",
+        "source_string": "Oldest Changes First",
+        "translation": "Cambios antiguos primero",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.oldestToNewest",
+        "source_string": "Oldest to Newest",
+        "translation": "De más antiguo a más reciente",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.recentChangesFirst",
+        "source_string": "Recent Changes First",
+        "translation": "Cambios recientes primero",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198568,9 +198616,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorRemotePane.listPane.untagged",
+        "source_string": "Untagged",
+        "translation": "Sin etiquetar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BaseTextField.clear",
         "source_string": "Clear",
         "translation": "Borrar\t#",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.annotation.commentEntity.label",
+        "source_string": "Comment Entity",
+        "translation": "Entidad de comentario",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.annotation.commentEntity.tooltip",
+        "source_string": "Comment Entity annotation.",
+        "translation": "Anotación de entidad de comentario.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.filterTooltip",
+        "source_string": "Use text to filter existing Layouts.",
+        "translation": "Usar texto para filtrar los diseños existentes.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null

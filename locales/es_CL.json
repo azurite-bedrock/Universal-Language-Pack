@@ -156306,7 +156306,7 @@
     {
         "identifier": "menu.account.signOutOfMicrosoft.popup.description",
         "source_string": "While you are signed out of your Microsoft account you will not have access to the Minecoins and items you bought in the store. Are you sure you want to do this?",
-        "translation": "Mientras tengas cerrada la sesión de la cuenta de Microsoft, no tendrás acceso a las minecoins y los objetos que compres en la tienda. ¿Seguro que quieres hacerlo?",
+        "translation": "Mientras tengas cerrada la sesión de la cuenta de Microsoft, no tendrás acceso a las Minecoins ni los objetos que compres en la tienda. ¿Seguro que quieres hacerlo?",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -170858,7 +170858,7 @@
     {
         "identifier": "store.csb.noTrial.description",
         "source_string": "150+ marketplace packs will be immediately available.  Your subscription will be available for 30 days at the price of %s:minecoin:.",
-        "translation": "\t#",
+        "translation": "Más de 150 paquetes de Marketplace disponibles de inmediato. La suscripción estará disponible durante 30 días a un precio de %s:minecoin:.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -178018,7 +178018,7 @@
     {
         "identifier": "store.editorial.starter.bundle.description",
         "source_string": "*You'll buy %s Minecoins for %s and get all listed packs in the bundle (worth %s Minecoins) for free.",
-        "translation": "*Comprarás %s Minecoins por %s y obtendrás todos los paquetes listados en el paquete (vale %s Minecoins) gratis.",
+        "translation": "*Comprarás %s Minecoins por %s y obtendrás todos los paquetes del lote (valorado en %s Minecoins) gratis.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -180267,6 +180267,14 @@
         "identifier": "tile.composter.tooltip",
         "source_string": "Make bone meal",
         "translation": "Hacer polvo de hueso",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cartography_table.tooltip",
+        "source_string": "Modify Maps",
+        "translation": "Modificar mapas",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198402,7 +198410,7 @@
     {
         "identifier": "createWorldScreen.experimentalNetherSpawningBalance",
         "source_string": "Nether Spawning Rebalancing",
-        "translation": "Reequilibrio de generación en el Nether",
+        "translation": "Reequilibrio de aparición en el Nether",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198410,7 +198418,7 @@
     {
         "identifier": "createWorldScreen.experimentalNetherSpawningBalanceDescription",
         "source_string": "Adjusts Nether mob density and fortress spawning to more closely resemble Java Edition",
-        "translation": "Ajusta la densidad de criaturas del Nether y la generación de fortalezas para parecerse más a Java Edition",
+        "translation": "Ajusta la densidad de criaturas del Nether y la aparición de fortalezas para parecerse más a Java Edition",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198466,7 +198474,7 @@
     {
         "identifier": "hbui.GiftingPurchaseConfirmRoute.minecoinDisclaimer",
         "source_string": "Minecoin purchases are subject to the platform store's terms and conditions.",
-        "translation": "Las compras de minecoins están sometidas a los términos y condiciones de la tienda de la plataforma.",
+        "translation": "Las compras de Minecoins están sometidas a los términos y condiciones de la tienda de la plataforma.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198474,7 +198482,7 @@
     {
         "identifier": "hbui.GiftingPurchaseConfirmRoute.minecoinPrice",
         "source_string": "%1$s Minecoins",
-        "translation": "%1$s minecoins",
+        "translation": "%1$s Minecoins",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198498,7 +198506,7 @@
     {
         "identifier": "hbui.GiftingPurchaseConfirmRoute.purchaseWithMinecoins",
         "source_string": "Purchase with Minecoins",
-        "translation": "Comprar con minecoins",
+        "translation": "Comprar con Minecoins",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198530,7 +198538,7 @@
     {
         "identifier": "hbui.PreStartScreen.newPlayerPathLanding.getStarted",
         "source_string": "Get started",
-        "translation": "Introducción\t#",
+        "translation": "Empezar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198544,9 +198552,49 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.Realms.RealmsHub.LearnMore.tutorialModalTitle",
+        "source_string": "Realms tutorial videos",
+        "translation": "Videotutoriales de Realms",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.Realms.RealmsQRCodeModal.back",
         "source_string": "Back",
         "translation": "Volver",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.newestToOldest",
+        "source_string": "Newest to Oldest",
+        "translation": "De más reciente a más antiguo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.oldestChangesFirst",
+        "source_string": "Oldest Changes First",
+        "translation": "Cambios antiguos primero",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.oldestToNewest",
+        "source_string": "Oldest to Newest",
+        "translation": "De más antiguo a más reciente",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.EditorRemotePane.listPane.sortType.recentChangesFirst",
+        "source_string": "Recent Changes First",
+        "translation": "Cambios recientes primero",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -198560,9 +198608,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.EditorRemotePane.listPane.untagged",
+        "source_string": "Untagged",
+        "translation": "Sin etiquetar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.BaseTextField.clear",
         "source_string": "Clear",
-        "translation": "Soleado",
+        "translation": "Borrar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.annotation.commentEntity.label",
+        "source_string": "Comment Entity",
+        "translation": "Entidad de comentario",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "resourcePack.editor.annotation.commentEntity.tooltip",
+        "source_string": "Comment Entity annotation.",
+        "translation": "Anotación de entidad de comentario.",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "editor.prefabLayoutEditor.pane.layoutManager.filterTooltip",
+        "source_string": "Use text to filter existing Layouts.",
+        "translation": "Usar texto para filtrar los diseños existentes.",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
