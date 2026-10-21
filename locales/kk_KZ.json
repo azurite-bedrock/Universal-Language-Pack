@@ -10,7 +10,7 @@
     {
         "identifier": "accessibility.disableTTS",
         "source_string": "Text To Speech disabled",
-        "translation": "Сөйлеуге арналған мәтін өшірілген",
+        "translation": "Сөйлеуге арналған мәтін өшірулі",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -18,7 +18,7 @@
     {
         "identifier": "accessibility.enableTTS",
         "source_string": "Text To Speech enabled",
-        "translation": "Мәтіннен сөйлеуге қосылды",
+        "translation": "Сөйлеуге арналған мәтін қосулы",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -200,6 +200,14 @@
         "max_length": null
     },
     {
+        "identifier": "accessibility.chat.howtoemote",
+        "source_string": "Press or Hold %s to Emote",
+        "translation": "Эмоция істеу үшін %s түймесін басыңыз немесе ұстап тұрыңыз",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "accessibility.key.mouseButton",
         "source_string": "Mouse Button %s",
         "translation": "Тінтуір түймешесі: %s",
@@ -262,6 +270,14 @@
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
+    },
+    {
+        "identifier": "accessibility.image.tts.title",
+        "source_string": "Image",
+        "translation": "Сурет",
+        "context": "TTS spoken word for image types",
+        "labels": "unassigned, lang",
+        "max_length": 15
     },
     {
         "identifier": "accessibility.screen.tts.title",
