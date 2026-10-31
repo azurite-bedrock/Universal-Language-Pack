@@ -158850,7 +158850,7 @@
     {
         "identifier": "createWorldScreen.fireSpreads.name",
         "source_string": "Fire spreads",
-        "translation": "El fuego se propaga",
+        "translation": "Propagación del fuego",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -159434,7 +159434,7 @@
     {
         "identifier": "entity.ominous_item_spawner.name",
         "source_string": "Ominous Item Spawner",
-        "translation": "Generador de objetos minosos",
+        "translation": "Generador de objetos ominoso",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -174842,7 +174842,7 @@
     {
         "identifier": "oreui.gameplay.anvil.repair",
         "source_string": "Repair, Name & Enchant",
-        "translation": "Reparar, nombre y encantamiento",
+        "translation": "Reparar, renombrar y encantar",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -174874,7 +174874,7 @@
     {
         "identifier": "item.bucketSulfurCube.name",
         "source_string": "Bucket of Sulfur Cube",
-        "translation": "Cubo de Cubo de Azufre",
+        "translation": "Cubo con cubo de azufre",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -175170,7 +175170,7 @@
     {
         "identifier": "action.interact.give_sulfur_cube",
         "source_string": "Give Block",
-        "translation": "Dar Bloque",
+        "translation": "Dar bloque",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -175178,7 +175178,7 @@
     {
         "identifier": "action.interact.take_sulfur_cube",
         "source_string": "Remove Block",
-        "translation": "Eliminar bloque",
+        "translation": "Recoger bloque",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -180304,9 +180304,33 @@
         "max_length": null
     },
     {
+        "identifier": "tile.piston.tooltip",
+        "source_string": "Push blocks",
+        "translation": "Empujar bloques",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.sticky_piston.tooltip",
+        "source_string": "Pull blocks",
+        "translation": "Empujar y tirar bloques",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
         "identifier": "tile.hoe.tooltip",
         "source_string": "Farming",
         "translation": "Cultivar",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.recovery_compass.tooltip",
+        "source_string": "See where you died",
+        "translation": "Encontrar donde has muerto",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -180411,6 +180435,134 @@
         "identifier": "options.dev_chunk_map_mode_on",
         "source_string": "On",
         "translation": "Sí\t#",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.yellow_concrete_stairs.name",
+        "source_string": "Yellow Concrete Stairs",
+        "translation": "Escaleras de hormigón amarillo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.white_concrete_stairs.name",
+        "source_string": "White Concrete Stairs",
+        "translation": "Escaleras de hormigón blanco",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.light_gray_concrete_stairs.name",
+        "source_string": "Light Gray Concrete Stairs",
+        "translation": "Escaleras de hormigón gris claro",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.gray_concrete_stairs.name",
+        "source_string": "Gray Concrete Stairs",
+        "translation": "Escaleras de hormigón gris",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.black_concrete_stairs.name",
+        "source_string": "Black Concrete Stairs",
+        "translation": "Escaleras de hormigón negro",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.brown_concrete_stairs.name",
+        "source_string": "Brown Concrete Stairs",
+        "translation": "Escaleras de hormigón marrón",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.red_concrete_stairs.name",
+        "source_string": "Red Concrete Stairs",
+        "translation": "Escaleras de hormigón rojo",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.orange_concrete_stairs.name",
+        "source_string": "Orange Concrete Stairs",
+        "translation": "Escaleras de hormigón naranja",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.lime_concrete_stairs.name",
+        "source_string": "Lime Concrete Stairs",
+        "translation": "Escaleras de hormigón verde lima",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.green_concrete_stairs.name",
+        "source_string": "Green Concrete Stairs",
+        "translation": "Escaleras de hormigón verde",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.cyan_concrete_stairs.name",
+        "source_string": "Cyan Concrete Stairs",
+        "translation": "Escaleras de hormigón cian",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.light_blue_concrete_stairs.name",
+        "source_string": "Light Blue Concrete Stairs",
+        "translation": "Escaleras de hormigón azul claro",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.blue_concrete_stairs.name",
+        "source_string": "Blue Concrete Stairs",
+        "translation": "Escaleras de hormigón azul",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.purple_concrete_stairs.name",
+        "source_string": "Purple Concrete Stairs",
+        "translation": "Escaleras de hormigón morado",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.magenta_concrete_stairs.name",
+        "source_string": "Magenta Concrete Stairs",
+        "translation": "Escaleras de hormigón magenta",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.pink_concrete_stairs.name",
+        "source_string": "Pink Concrete Stairs",
+        "translation": "Escaleras de hormigón rosa",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -180610,7 +180762,7 @@
     {
         "identifier": "tile.lime_concrete_double_slab.name",
         "source_string": "Lime Concrete Double Slab",
-        "translation": "Losa de doble hormigón verde lima",
+        "translation": "Losa doble de hormigón verde lima",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
@@ -199155,6 +199307,14 @@
         "identifier": "hbui.Settings.storage.music.title",
         "source_string": "Music",
         "translation": "Música",
+        "context": "null",
+        "labels": "unassigned",
+        "max_length": null
+    },
+    {
+        "identifier": "tile.sponge.tooltip",
+        "source_string": "Absorbs water",
+        "translation": "Absorber agua",
         "context": "null",
         "labels": "unassigned",
         "max_length": null
