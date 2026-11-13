@@ -95256,9 +95256,25 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleVersionLowBody",
+        "source_string": "The version of this pack is lower than the version of your game.",
+        "translation": "Versi paket lebih rendah dari versi permainan.",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompatibleVersionTitle",
         "source_string": "Incompatible version",
         "translation": "Versi tidak kompatibel",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorIncompleteBody",
+        "source_string": "The pack is missing some elements. Deleting and downloading the pack again might solve the issue.",
+        "translation": "Paket kehilangan beberapa hal. Hapus atau unduh ulang paket mungkin dapat menyelesaikan masalah.",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -95296,9 +95312,41 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorNoStoreBody",
+        "source_string": "We can't connect to Marketplace right now. Please try again later.",
+        "translation": "Tidak dapat terhubung ke Marketplace. Coba lagi nanti.",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.errorNoStoreTitle",
         "source_string": "Connection issue",
         "translation": "Masalah sambungan",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorNotEnoughDiskSpaceBody",
+        "source_string": "Free up %1$s on your device to download \"%2$s\".",
+        "translation": "Kosongkan %1$s ruang di perangkatmu untuk mengunduh \"%2$s\".",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorNotEnoughDiskSpaceTitle",
+        "source_string": "Not enough space",
+        "translation": "Penyimpanan tidak cukup",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorPluginRemovalBody",
+        "source_string": "Removing behavior packs with a plugin might break the world and cause you to lose what you created.",
+        "translation": "Menghapus paket perilaku dengan plugin dapat merusak dunia dan menyebabkan kamu kehilangan apa yang telah kamu buat.",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -95312,9 +95360,33 @@
         "max_length": null
     },
     {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorReadingBody",
+        "source_string": "The game could not proceed reading this pack because it’s corrupted. Deleting and downloading again might solve the issue.",
+        "translation": "Gim tidak dapat membaca paket ini karena telah rusak. Hapus dan unduh kembali mungkin dapat menyelesaikan masalah.",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorReadingTitle",
+        "source_string": "Reading error",
+        "translation": "Galat baca",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
         "identifier": "hbui.CreateNewWorld.resourcePacks.errorRequiredDependencyBody",
         "source_string": "This pack is required by another pack that is applied, so it can't be removed.",
         "translation": "Paket ini diperlukan oleh paket lain yang diterapkan, sehingga tidak bisa dilepas.\t#",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorRequiredDependencyTitle",
+        "source_string": "Required dependency",
+        "translation": "Memerlukan Dependensi",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -95331,6 +95403,22 @@
         "identifier": "hbui.CreateNewWorld.resourcePacks.errorUnknownTitle",
         "source_string": "Unexpected error!",
         "translation": "Kesalahan tak terduga!\t#",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorUnsupportedFormatBody",
+        "source_string": "This pack format is not supported by the game.",
+        "translation": "Format paket ini tidak didukung di dalam permainan.",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.errorUnsupportedFormatTitle",
+        "source_string": "Unsupported format",
+        "translation": "Format tidak didukung",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
@@ -95355,6 +95443,30 @@
         "identifier": "hbui.CreateNewWorld.resourcePacks.globalMinecraftPackDescription",
         "source_string": "The default Minecraft graphics, now updated with stylish new textures!",
         "translation": "Grafis default Minecraft, kini diperbarui dengan tekstur baru yang penuh gaya!",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalPacksDeactivatedSnackbarMessage",
+        "source_string": "Global packs deactivated",
+        "translation": "Paket global dimatikan",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalPacksInfoMessage",
+        "source_string": "Global packs are applied to all of your worlds. They are deactivated when “Shared local packs” is turned on.",
+        "translation": "Paket global diterapkan ke semua duniamu. Paketnya akan dimatikan saat \"Paket lokal bersama\" dihidupkan.",
+        "context": "null",
+        "labels": "unassigned, lang",
+        "max_length": null
+    },
+    {
+        "identifier": "hbui.CreateNewWorld.resourcePacks.globalPacksListHeader",
+        "source_string": "Global",
+        "translation": "Global",
         "context": "null",
         "labels": "unassigned, lang",
         "max_length": null
